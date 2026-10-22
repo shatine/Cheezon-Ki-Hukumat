@@ -41,3 +41,20 @@
 - s06z 열 아지랑이, s26d 결로는 그림에서 약함 → 영상(Muse) 또는 편집 효과로 보강.
 - s09z는 영상용(이미지→영상) 첫 프레임.
 - 기준 그림 4장(v5_s19_2, v5_s22_1, v5_s23_2, v5_s24_1)을 이번에 Flow 프로젝트 미디어에 올림.
+
+## 클라우드 재검수 (2026-10-22)
+Checked all 30 at original 1376×768: full images, zoomed areas, and bottom-right corners.
+- **통과: 28장.** Watermark traces: none in any image. Children: none. The small seated figures in s24b and s24d are adults.
+- **같은 구조 확인:**
+  - s09z matches the reference s09 (v5_s09r_2): horizontal steel rib, red outer sheet, pale-yellow insulation, wood panel.
+  - s20b, s22b and s26b show the same white Force Traveller as s19.
+  - s23b through s23e show the same painted van.
+- **조건부: s23b, s23e.**
+  - The grille shows brand-like letters (similar to "FORCE"), and the yellow number plate has letter shapes.
+  - Neither is quite readable, but blur both areas in the edit. Check the reference v5_s23_2 the same way.
+- **약한 점 (편집에서 보강):**
+  - s06z: no heat haze.
+  - s26d: weak condensation.
+  - s08c: slightly dark.
+  - s26b: a car plate in the background shows faint letter shapes; small enough to leave as is.
+- **재생성 필요: 없음.**
