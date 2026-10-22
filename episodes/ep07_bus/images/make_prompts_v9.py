@@ -1,0 +1,45 @@
+"""EP7 v9 추가 이미지 31장 (사용자 2026-10-22: 지루하지 않게 이미지 더 추가).
+plan_v9.py에서 4초 넘게 머물던 이미지 구간을 문장의 흐름(반응·클로즈업·반전)에 맞춰 나눈다.
+Flow: 프로젝트 baa9c0e8…, Nano Banana 2.1 / 16:9, 한 장씩 생성→검수→다음, ref 그림 첨부. 저장 BUS\\img3d\\v9_{id}_{n}.png
+결과: images/prompts_v9.json"""
+import json, runpy
+from pathlib import Path
+HERE = Path(__file__).resolve().parent
+g = runpy.run_path(str(HERE / "make_prompts_v6.py")); P, BUS = g["P"], g["BUS"]
+VAN = "the SAME white Force Traveller high-roof camper van as the reference image"
+EBJ = "the SAME brightly custom-painted camper van as the reference image (colourful wild graphics, roof lights)"
+S = [
+ ("n04e", "PB", "S04e 월세 대신 버스?", f"{P} An Indian adult man leans out of the window of a cramped rented city room, looking down with a hopeful smile at {BUS} parked in the sunny yard below. High angle from inside the room over his shoulder, face small."),
+ ("n05a", "PB", "S05a 포기의 흔적", f"{P} Close shot of the door steps of {BUS}, converted into a home: two packed bags, a rolled mattress and a house key left on the top step, dusty sunlight. No people."),
+ ("n06a", "PB", "S06a 첫 번째 문제는 더위", f"{P} Low-angle shot of {BUS} roof under a blazing white Indian sun directly overhead, strong lens flare, heat shimmer rising from the metal roof, hard short shadow. No people."),
+ ("n06c", None, "S06c 앗 뜨거!", f"{P} Close shot of an adult's hand shaking quickly in the air and the fingertips being blown on after touching hot metal, a sun-baked parked car door behind, bright noon light. Only hand and lower face edge visible, no face."),
+ ("n07a", "PB", "S07a 이 안에서 밥까지?", f"{P} Inside the reference bus converted into a home on a blazing afternoon: a pressure cooker letting off steam on a small gas stove, an adult's sweaty forearm wiping the brow at the edge of frame, harsh sunlight through windows. Close-medium shot, no face."),
+ ("n11d", "PB", "S11d 곰팡이가 자란다", f"{P} Inside the reference converted bus in the morning: an Indian adult man sitting on the bed touches the damp wall beside him and pulls back his hand in disgust, dark mould spots spreading in the corner near the window. Medium shot, face small and side-on."),
+ ("n12b", "PB", "S12b 예쁜 합판 뒤에서 번지는 얼룩", f"{P} Inside the reference converted bus: a neat new light-wood plywood wall with a framed plain picture, but a dark damp stain is seeping out from the corner joint of the panel. Close-medium shot, no people."),
+ ("n12c", None, "S12c 돈과 시간", f"{P} Close shot of an adult's hands counting a stack of rupee notes on a worktable covered with insulation rolls, a sealant gun, screws and tools, bright workshop light. Only hands visible."),
+ ("n13b", "PB", "S13b 시원하고 보송한 버스 집", f"{P} Using the reference image: {BUS}, now a neat converted home at a cool fresh dawn, clean dry paint, a small roof vent, curtains in the windows, a tidy yard with potted plants, soft blue morning light. Wide shot, no people."),
+ ("n13c", "PB", "S13c 화장실 물을 내리는 순간", f"{P} Close shot inside the tiny toilet cubicle of the reference converted bus: an adult's hand presses the flush of a small compact toilet, water swirling, a pipe disappearing into the floor. Only hand visible."),
+ ("n14d", "PB", "S14d 매일 계속되는 생활", f"{P} Inside the reference converted bus home in the morning: an Indian adult man brushes his teeth at the tiny sink while steel plates from breakfast wait beside it, sunlight through the window. Medium shot from the side, face small."),
+ ("n16d", None, "S16d 땅값은 계산에 없었다", f"{P} An Indian adult man stands at the gate of an empty fenced plot of land on the edge of a town while a broker in a white shirt spreads his arms describing the plot; the man scratches his head. Wide shot, faces small, no readable text."),
+ ("n17b", "PB", "S17b 법이 길을 막는다", f"{P} Close-medium shot of a traffic police officer's raised open palm in a stop gesture in the foreground, {BUS} parked on a busy roadside slightly blurred behind. Officer's face out of frame."),
+ ("n17d", "PB", "S17d 아무 땅이나 안 된다", f"{P} Using the reference image: {BUS}, parked on the edge of a green private field; an Indian adult landowner at a distance waves his arm telling it to leave, the bus owner stands by the door. Wide shot, faces small."),
+ ("n18a", "PB", "S18a 세울 땅과 허가", f"{P} Using the reference image: {BUS}, converted into a home, being slowly guided through the open gate of a small fenced plot by an Indian adult man waving it in, a water tap and electric meter on the gate post. Wide shot, faces small."),
+ ("n20a", "s19", "S20a 데라둔의 캠핑카", f"{P} Using the reference image: {VAN}, parked outside a house in Dehradun with green hills behind, an adult couple at a distance loading bags into the side door. Wide shot, bright day, faces small."),
+ ("n20b", None, "S20b 개조에만 12라크", f"{P} Close shot of thick bundles of Indian rupee notes stacked on plywood sheets next to a drill, wiring and a box of van parts on a workshop table. No people, no readable text."),
+ ("n20c", "s19", "S20c 에어컨 하나에 2라크", f"{P} Close shot inside {VAN}: a new white split AC unit mounted high on the wood-panelled wall, cool air visibly flowing out, an adult's hand holding the remote in the foreground. No face, no readable text."),
+ ("n21a", "s19", "S21a 물탱크가 바닥", f"{P} Close shot inside {VAN}: an adult's hand turns the small kitchen tap and only a few last drops fall, a translucent water tank under the counter is almost empty. Only hand visible."),
+ ("n21c", "s19", "S21c 주차장에서 자는 밤", f"{P} Night inside {VAN} parked in a city car park: curtains drawn, a small warm lamp on, an adult couple lying in the back bed seen from the front seats, car headlights sweeping across the curtains outside. Faces not visible."),
+ ("n22a", None, "S22a 허가는 더 어려웠다", f"{P} Close shot of a tall messy pile of forms, photocopies and passport photos being clipped together by an adult's hands on a plastic office table, a pen and a glue stick. Only hands, no readable text."),
+ ("n22b", "s19", "S22b 또 다른 RTO", f"{P} Using the reference image: {VAN}, parked outside a different regional transport office building in another Indian town, an adult man at a distance walking in with a thick file under his arm. Wide shot, no readable text."),
+ ("n22c", "s22", "S22c 거절", f"{P} Using the reference image: the same busy Indian RTO office: the clerk at the counter shakes his head and pushes a thick file back across the counter toward an adult man, who lowers his shoulders. Medium-wide shot, faces small, no readable text."),
+ ("n23b", "s23", "S23b 170만 구독자 형제의 캠핑카", f"{P} Using the reference image: {EBJ}, parked on a Kerala roadside surrounded by a crowd of excited young adult fans taking photos with their phones at a distance. Wide shot, faces small, no readable text."),
+ ("n23d", None, "S23d 등록 취소", f"{P} Close shot of an official's hand drawing a bold line across a vehicle registration document on a government desk, a rubber stamp and files beside it. Only hands, no readable text."),
+ ("n23d2", "s23", "S23d 6개월 동안 멈춘 차", f"{P} Using the reference image: {EBJ}, parked still under a dusty blue tarp half pulled over it in a quiet yard, dry leaves on the windshield, weeks of dust. Wide shot, no people, no readable text."),
+ ("n24c", "s24", "S24c 담장과 경비", f"{P} Using the reference image: the same Kerala caravan park: a neat perimeter fence with a lamp post and a small security camera on a pole, misty tea hills behind. Medium-wide shot, no readable text."),
+ ("n24c2", "s24", "S24c 오수 처리", f"{P} Using the reference image: the same Kerala caravan park: a clean waste-water dump station with a covered drain inlet and a grey drain hose from a white caravan connected to it, a wash-down tap beside. Close-medium shot, no readable text."),
+ ("n24e", "s24", "S24e 바퀴와 땅", f"{P} Using the reference image: the same Kerala caravan park, low close shot of a white caravan's wheel resting on the paved pad right next to the ground hookup pedestal with its hoses and cable going into the earth. No people, no readable text."),
+ ("n26b", None, "S26b 차 값의 두 배", f"{P} Close shot of an adult couple's hands spreading a long fan of renovation bills and receipts across a small table, a calculator and a cup of chai. Only hands, no readable text."),
+ ("n26b2", "s19", "S26b 매일 세울 자리 찾기", f"{P} Using the reference image: {VAN}, driving slowly along a busy Indian city street at dusk with its headlights on, the driver leaning out of the window looking for a place to park. Wide shot, face small."),
+]
+json.dump([dict(id=a, ref=b, line=c, prompt=d) for a, b, c, d in S], open(HERE / "prompts_v9.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(len(S))

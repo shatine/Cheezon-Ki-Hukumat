@@ -89,10 +89,10 @@
   },
   {
    "start": 35.7,
-   "end": 40.4,
+   "end": 38.0,
    "out_f0": 1071,
-   "out_f1": 1212,
-   "dur": 4.7,
+   "out_f1": 1140,
+   "dur": 2.3,
    "src": "s04c",
    "kind": "i",
    "opt": "",
@@ -101,43 +101,95 @@
    "effect": "in_c"
   },
   {
+   "start": 38.0,
+   "end": 40.4,
+   "out_f0": 1140,
+   "out_f1": 1212,
+   "dur": 2.4,
+   "src": "n04e",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n04e_1.png",
+   "role": "고정+효과",
+   "effect": "out_c"
+  },
+  {
    "start": 40.4,
-   "end": 44.9,
+   "end": 42.6,
    "out_f0": 1212,
-   "out_f1": 1347,
-   "dur": 4.5,
+   "out_f1": 1278,
+   "dur": 2.2,
    "src": "s02",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s02_1.png",
    "role": "고정+효과",
-   "effect": "out_c"
+   "effect": "in_l"
+  },
+  {
+   "start": 42.6,
+   "end": 44.9,
+   "out_f0": 1278,
+   "out_f1": 1347,
+   "dur": 2.3,
+   "src": "n05a",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n05a_1.png",
+   "role": "고정+효과",
+   "effect": "out_r"
   },
   {
    "start": 44.9,
-   "end": 50.9,
+   "end": 47.5,
    "out_f0": 1347,
+   "out_f1": 1425,
+   "dur": 2.6,
+   "src": "n06a",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n06a_1.png",
+   "role": "고정+효과",
+   "effect": "in_r"
+  },
+  {
+   "start": 47.5,
+   "end": 50.9,
+   "out_f0": 1425,
    "out_f1": 1527,
-   "dur": 6.0,
+   "dur": 3.4,
    "src": "s06z",
    "kind": "i",
    "opt": "haze",
    "file": "img3d/v7_s06z_1.png",
    "role": "고정+효과",
-   "effect": "in_l"
+   "effect": "out_l"
   },
   {
    "start": 50.9,
-   "end": 55.2,
+   "end": 53.0,
    "out_f0": 1527,
-   "out_f1": 1656,
-   "dur": 4.3,
+   "out_f1": 1590,
+   "dur": 2.1,
    "src": "s06a",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s06a_2.png",
    "role": "고정+효과",
-   "effect": "out_r"
+   "effect": "in_c"
+  },
+  {
+   "start": 53.0,
+   "end": 55.2,
+   "out_f0": 1590,
+   "out_f1": 1656,
+   "dur": 2.2,
+   "src": "n06c",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n06c_1.png",
+   "role": "고정+효과",
+   "effect": "out_c"
   },
   {
    "start": 55.2,
@@ -155,16 +207,29 @@
   },
   {
    "start": 63.1,
-   "end": 67.4,
+   "end": 65.2,
    "out_f0": 1893,
-   "out_f1": 2022,
-   "dur": 4.3,
+   "out_f1": 1956,
+   "dur": 2.1,
    "src": "s07a",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s07a_1.png",
    "role": "고정+효과",
-   "effect": "in_r"
+   "effect": "in_l"
+  },
+  {
+   "start": 65.2,
+   "end": 67.4,
+   "out_f0": 1956,
+   "out_f1": 2022,
+   "dur": 2.2,
+   "src": "n07a",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n07a_1.png",
+   "role": "고정+효과",
+   "effect": "out_r"
   },
   {
    "start": 67.4,
@@ -191,7 +256,7 @@
    "opt": "",
    "file": "img3d/v7_s08b_1.png",
    "role": "고정+효과",
-   "effect": "out_l"
+   "effect": "in_r"
   },
   {
    "start": 78.9,
@@ -218,7 +283,7 @@
    "opt": "",
    "file": "img3d/v7_s08c_2.png",
    "role": "고정+효과",
-   "effect": "in_c"
+   "effect": "out_l"
   },
   {
    "start": 90.7,
@@ -245,7 +310,7 @@
    "opt": "",
    "file": "img3d/v7_s09b_1.png",
    "role": "고정+효과",
-   "effect": "out_c"
+   "effect": "in_c"
   },
   {
    "start": 100.6,
@@ -272,7 +337,7 @@
    "opt": "",
    "file": "img3d/v7_s10b_1.png",
    "role": "고정+효과",
-   "effect": "in_l"
+   "effect": "out_c"
   },
   {
    "start": 114.4,
@@ -299,7 +364,7 @@
    "opt": "",
    "file": "img3d/v7_s11c_2.png",
    "role": "고정+효과",
-   "effect": "out_r"
+   "effect": "in_l"
   },
   {
    "start": 125.3,
@@ -317,14 +382,27 @@
   },
   {
    "start": 135.2,
-   "end": 140.7,
+   "end": 138.0,
    "out_f0": 4056,
-   "out_f1": 4221,
-   "dur": 5.5,
+   "out_f1": 4140,
+   "dur": 2.8,
    "src": "s11b",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s11b_1.png",
+   "role": "고정+효과",
+   "effect": "out_r"
+  },
+  {
+   "start": 138.0,
+   "end": 140.7,
+   "out_f0": 4140,
+   "out_f1": 4221,
+   "dur": 2.7,
+   "src": "n11d",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n11d_1.png",
    "role": "고정+효과",
    "effect": "in_r"
   },
@@ -344,10 +422,10 @@
   },
   {
    "start": 148.0,
-   "end": 153.0,
+   "end": 150.5,
    "out_f0": 4440,
-   "out_f1": 4590,
-   "dur": 5.0,
+   "out_f1": 4515,
+   "dur": 2.5,
    "src": "s12b",
    "kind": "i",
    "opt": "",
@@ -356,43 +434,95 @@
    "effect": "out_l"
   },
   {
+   "start": 150.5,
+   "end": 153.0,
+   "out_f0": 4515,
+   "out_f1": 4590,
+   "dur": 2.5,
+   "src": "n12b",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n12b_1.png",
+   "role": "고정+효과",
+   "effect": "in_c"
+  },
+  {
    "start": 153.0,
-   "end": 158.1,
+   "end": 155.5,
    "out_f0": 4590,
-   "out_f1": 4743,
-   "dur": 5.1,
+   "out_f1": 4665,
+   "dur": 2.5,
    "src": "s12c",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s12c_1.png",
    "role": "고정+효과",
-   "effect": "in_c"
+   "effect": "out_c"
+  },
+  {
+   "start": 155.5,
+   "end": 158.1,
+   "out_f0": 4665,
+   "out_f1": 4743,
+   "dur": 2.6,
+   "src": "n12c",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n12c_1.png",
+   "role": "고정+효과",
+   "effect": "in_l"
   },
   {
    "start": 158.1,
-   "end": 163.7,
+   "end": 161.0,
    "out_f0": 4743,
-   "out_f1": 4911,
-   "dur": 5.6,
+   "out_f1": 4830,
+   "dur": 2.9,
    "src": "s13b",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s13b_1.png",
    "role": "고정+효과",
-   "effect": "out_c"
+   "effect": "out_r"
+  },
+  {
+   "start": 161.0,
+   "end": 163.7,
+   "out_f0": 4830,
+   "out_f1": 4911,
+   "dur": 2.7,
+   "src": "n13b",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n13b_1.png",
+   "role": "고정+효과",
+   "effect": "in_r"
   },
   {
    "start": 163.7,
-   "end": 170.1,
+   "end": 167.0,
    "out_f0": 4911,
-   "out_f1": 5103,
-   "dur": 6.4,
+   "out_f1": 5010,
+   "dur": 3.3,
    "src": "s13",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s13_1.png",
    "role": "고정+효과",
-   "effect": "in_l"
+   "effect": "out_l"
+  },
+  {
+   "start": 167.0,
+   "end": 170.1,
+   "out_f0": 5010,
+   "out_f1": 5103,
+   "dur": 3.1,
+   "src": "n13c",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n13c_1.png",
+   "role": "고정+효과",
+   "effect": "in_c"
   },
   {
    "start": 170.1,
@@ -405,7 +535,7 @@
    "opt": "",
    "file": "img3d/v7_s14c_2.png",
    "role": "고정+효과",
-   "effect": "out_r"
+   "effect": "out_c"
   },
   {
    "start": 173.8,
@@ -437,16 +567,29 @@
   },
   {
    "start": 183.5,
-   "end": 188.6,
+   "end": 186.0,
    "out_f0": 5505,
-   "out_f1": 5658,
-   "dur": 5.1,
+   "out_f1": 5580,
+   "dur": 2.5,
    "src": "M3",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_M3_1.png",
    "role": "고정+효과",
-   "effect": "in_r"
+   "effect": "in_l"
+  },
+  {
+   "start": 186.0,
+   "end": 188.6,
+   "out_f0": 5580,
+   "out_f1": 5658,
+   "dur": 2.6,
+   "src": "n14d",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n14d_1.png",
+   "role": "고정+효과",
+   "effect": "out_r"
   },
   {
    "start": 188.6,
@@ -459,7 +602,7 @@
    "opt": "",
    "file": "img3d/v7_s15c_1.png",
    "role": "고정+효과",
-   "effect": "out_l"
+   "effect": "in_r"
   },
   {
    "start": 191.6,
@@ -500,7 +643,7 @@
    "opt": "",
    "file": "img3d/v7_s15d_1.png",
    "role": "고정+효과",
-   "effect": "in_c"
+   "effect": "out_l"
   },
   {
    "start": 205.7,
@@ -518,29 +661,55 @@
   },
   {
    "start": 215.6,
-   "end": 222.5,
+   "end": 219.0,
    "out_f0": 6468,
-   "out_f1": 6675,
-   "dur": 6.9,
+   "out_f1": 6570,
+   "dur": 3.4,
    "src": "s16d",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s16d_2.png",
    "role": "고정+효과",
+   "effect": "in_c"
+  },
+  {
+   "start": 219.0,
+   "end": 222.5,
+   "out_f0": 6570,
+   "out_f1": 6675,
+   "dur": 3.5,
+   "src": "n16d",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n16d_1.png",
+   "role": "고정+효과",
    "effect": "out_c"
   },
   {
    "start": 222.5,
-   "end": 226.7,
+   "end": 224.8,
    "out_f0": 6675,
-   "out_f1": 6801,
-   "dur": 4.2,
+   "out_f1": 6744,
+   "dur": 2.3,
    "src": "s17a",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s17a_2.png",
    "role": "고정+효과",
    "effect": "in_l"
+  },
+  {
+   "start": 224.8,
+   "end": 226.7,
+   "out_f0": 6744,
+   "out_f1": 6801,
+   "dur": 1.9,
+   "src": "n17b",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n17b_1.png",
+   "role": "고정+효과",
+   "effect": "out_r"
   },
   {
    "start": 226.7,
@@ -567,33 +736,59 @@
    "opt": "",
    "file": "img3d/v7_s18b_2.png",
    "role": "고정+효과",
-   "effect": "out_r"
+   "effect": "in_r"
   },
   {
    "start": 237.9,
-   "end": 244.8,
+   "end": 241.3,
    "out_f0": 7137,
-   "out_f1": 7344,
-   "dur": 6.9,
+   "out_f1": 7239,
+   "dur": 3.4,
    "src": "s16b",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s16b_2.png",
    "role": "고정+효과",
-   "effect": "in_r"
+   "effect": "out_l"
+  },
+  {
+   "start": 241.3,
+   "end": 244.8,
+   "out_f0": 7239,
+   "out_f1": 7344,
+   "dur": 3.5,
+   "src": "n17d",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n17d_1.png",
+   "role": "고정+효과",
+   "effect": "in_c"
   },
   {
    "start": 244.8,
-   "end": 250.9,
+   "end": 247.8,
    "out_f0": 7344,
-   "out_f1": 7527,
-   "dur": 6.1,
+   "out_f1": 7434,
+   "dur": 3.0,
    "src": "s18",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s18_2.png",
    "role": "고정+효과",
-   "effect": "out_l"
+   "effect": "out_c"
+  },
+  {
+   "start": 247.8,
+   "end": 250.9,
+   "out_f0": 7434,
+   "out_f1": 7527,
+   "dur": 3.1,
+   "src": "n18a",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n18a_1.png",
+   "role": "고정+효과",
+   "effect": "in_l"
   },
   {
    "start": 250.9,
@@ -606,7 +801,7 @@
    "opt": "",
    "file": "img3d/v5_s05_1.png",
    "role": "고정+효과",
-   "effect": "in_c"
+   "effect": "out_r"
   },
   {
    "start": 253.5,
@@ -624,42 +819,94 @@
   },
   {
    "start": 259.9,
-   "end": 265.8,
+   "end": 262.9,
    "out_f0": 7797,
+   "out_f1": 7887,
+   "dur": 3.0,
+   "src": "n20a",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n20a_1.png",
+   "role": "고정+효과",
+   "effect": "in_r"
+  },
+  {
+   "start": 262.9,
+   "end": 265.8,
+   "out_f0": 7887,
    "out_f1": 7974,
-   "dur": 5.9,
+   "dur": 2.9,
    "src": "s20b",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s20b_1.png",
    "role": "고정+효과",
-   "effect": "out_c"
+   "effect": "out_l"
   },
   {
    "start": 265.8,
-   "end": 274.6,
+   "end": 270.4,
    "out_f0": 7974,
-   "out_f1": 8238,
-   "dur": 8.8,
+   "out_f1": 8112,
+   "dur": 4.6,
+   "src": "n20b",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n20b_1.png",
+   "role": "고정+효과",
+   "effect": "in_c"
+  },
+  {
+   "start": 270.4,
+   "end": 272.5,
+   "out_f0": 8112,
+   "out_f1": 8175,
+   "dur": 2.1,
    "src": "s20",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s20_1.png",
    "role": "고정+효과",
+   "effect": "out_c"
+  },
+  {
+   "start": 272.5,
+   "end": 274.6,
+   "out_f0": 8175,
+   "out_f1": 8238,
+   "dur": 2.1,
+   "src": "n20c",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n20c_1.png",
+   "role": "고정+효과",
    "effect": "in_l"
   },
   {
    "start": 274.6,
-   "end": 280.1,
+   "end": 277.3,
    "out_f0": 8238,
-   "out_f1": 8403,
-   "dur": 5.5,
+   "out_f1": 8319,
+   "dur": 2.7,
    "src": "s21a",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s21a_2.png",
    "role": "고정+효과",
    "effect": "out_r"
+  },
+  {
+   "start": 277.3,
+   "end": 280.1,
+   "out_f0": 8319,
+   "out_f1": 8403,
+   "dur": 2.8,
+   "src": "n21a",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n21a_1.png",
+   "role": "고정+효과",
+   "effect": "in_r"
   },
   {
    "start": 280.1,
@@ -672,59 +919,111 @@
    "opt": "",
    "file": "img3d/v5_s21b_2.png",
    "role": "고정+효과",
-   "effect": "in_r"
+   "effect": "out_l"
   },
   {
    "start": 283.7,
-   "end": 289.2,
+   "end": 286.4,
    "out_f0": 8511,
-   "out_f1": 8676,
-   "dur": 5.5,
+   "out_f1": 8592,
+   "dur": 2.7,
    "src": "s26b",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s26b_1.png",
    "role": "고정+효과",
-   "effect": "out_l"
+   "effect": "in_c"
+  },
+  {
+   "start": 286.4,
+   "end": 289.2,
+   "out_f0": 8592,
+   "out_f1": 8676,
+   "dur": 2.8,
+   "src": "n21c",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n21c_1.png",
+   "role": "고정+효과",
+   "effect": "out_c"
   },
   {
    "start": 289.2,
-   "end": 293.6,
+   "end": 291.3,
    "out_f0": 8676,
+   "out_f1": 8739,
+   "dur": 2.1,
+   "src": "n22a",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n22a_1.png",
+   "role": "고정+효과",
+   "effect": "in_l"
+  },
+  {
+   "start": 291.3,
+   "end": 293.6,
+   "out_f0": 8739,
    "out_f1": 8808,
-   "dur": 4.4,
+   "dur": 2.3,
    "src": "s22",
    "kind": "i",
    "opt": "",
    "file": "img3d/v5_s22_1.png",
    "role": "고정+효과",
-   "effect": "in_c"
+   "effect": "out_r"
   },
   {
    "start": 293.6,
-   "end": 299.0,
+   "end": 296.3,
    "out_f0": 8808,
-   "out_f1": 8970,
-   "dur": 5.4,
+   "out_f1": 8889,
+   "dur": 2.7,
    "src": "s22b",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s22b_1.png",
    "role": "고정+효과",
-   "effect": "out_c"
+   "effect": "in_r"
+  },
+  {
+   "start": 296.3,
+   "end": 299.0,
+   "out_f0": 8889,
+   "out_f1": 8970,
+   "dur": 2.7,
+   "src": "n22b",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n22b_1.png",
+   "role": "고정+효과",
+   "effect": "out_l"
   },
   {
    "start": 299.0,
-   "end": 304.7,
+   "end": 301.8,
    "out_f0": 8970,
+   "out_f1": 9054,
+   "dur": 2.8,
+   "src": "n22c",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n22c_1.png",
+   "role": "고정+효과",
+   "effect": "in_c"
+  },
+  {
+   "start": 301.8,
+   "end": 304.7,
+   "out_f0": 9054,
    "out_f1": 9141,
-   "dur": 5.7,
+   "dur": 2.9,
    "src": "s22c",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s22c_1.png",
    "role": "고정+효과",
-   "effect": "in_l"
+   "effect": "out_c"
   },
   {
    "start": 304.7,
@@ -737,14 +1036,27 @@
    "opt": "blur_plate",
    "file": "img3d/v7_s23b_1.png",
    "role": "고정+효과",
-   "effect": "out_r"
+   "effect": "in_l"
   },
   {
    "start": 308.9,
-   "end": 314.3,
+   "end": 312.5,
    "out_f0": 9267,
-   "out_f1": 9429,
-   "dur": 5.4,
+   "out_f1": 9375,
+   "dur": 3.6,
+   "src": "n23b",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n23b_1.png",
+   "role": "고정+효과",
+   "effect": "out_r"
+  },
+  {
+   "start": 312.5,
+   "end": 316.2,
+   "out_f0": 9375,
+   "out_f1": 9486,
+   "dur": 3.7,
    "src": "s23",
    "kind": "i",
    "opt": "",
@@ -753,11 +1065,11 @@
    "effect": "in_r"
   },
   {
-   "start": 314.3,
+   "start": 316.2,
    "end": 319.8,
-   "out_f0": 9429,
+   "out_f0": 9486,
    "out_f1": 9594,
-   "dur": 5.5,
+   "dur": 3.6,
    "src": "s23e",
    "kind": "i",
    "opt": "blur_plate",
@@ -780,16 +1092,42 @@
   },
   {
    "start": 323.8,
-   "end": 332.4,
+   "end": 326.7,
    "out_f0": 9714,
-   "out_f1": 9972,
-   "dur": 8.6,
+   "out_f1": 9801,
+   "dur": 2.9,
    "src": "s23d",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s23d_2.png",
    "role": "고정+효과",
    "effect": "out_c"
+  },
+  {
+   "start": 326.7,
+   "end": 329.5,
+   "out_f0": 9801,
+   "out_f1": 9885,
+   "dur": 2.8,
+   "src": "n23d",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n23d_1.png",
+   "role": "고정+효과",
+   "effect": "in_l"
+  },
+  {
+   "start": 329.5,
+   "end": 332.4,
+   "out_f0": 9885,
+   "out_f1": 9972,
+   "dur": 2.9,
+   "src": "n23d2",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n23d2_1.png",
+   "role": "고정+효과",
+   "effect": "out_r"
   },
   {
    "start": 332.4,
@@ -807,29 +1145,55 @@
   },
   {
    "start": 340.1,
-   "end": 346.1,
+   "end": 343.1,
    "out_f0": 10203,
-   "out_f1": 10383,
-   "dur": 6.0,
+   "out_f1": 10293,
+   "dur": 3.0,
    "src": "s24b",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s24b_1.png",
    "role": "고정+효과",
-   "effect": "in_l"
+   "effect": "in_r"
+  },
+  {
+   "start": 343.1,
+   "end": 346.1,
+   "out_f0": 10293,
+   "out_f1": 10383,
+   "dur": 3.0,
+   "src": "n24c",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n24c_1.png",
+   "role": "고정+효과",
+   "effect": "out_l"
   },
   {
    "start": 346.1,
-   "end": 352.0,
+   "end": 349.0,
    "out_f0": 10383,
-   "out_f1": 10560,
-   "dur": 5.9,
+   "out_f1": 10470,
+   "dur": 2.9,
    "src": "s24d",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s24d_1.png",
    "role": "고정+효과",
-   "effect": "out_r"
+   "effect": "in_c"
+  },
+  {
+   "start": 349.0,
+   "end": 352.0,
+   "out_f0": 10470,
+   "out_f1": 10560,
+   "dur": 3.0,
+   "src": "n24c2",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n24c2_1.png",
+   "role": "고정+효과",
+   "effect": "out_c"
   },
   {
    "start": 352.0,
@@ -842,20 +1206,33 @@
    "opt": "",
    "file": "img3d/v7_s24c_1.png",
    "role": "고정+효과",
-   "effect": "in_r"
+   "effect": "in_l"
   },
   {
    "start": 355.9,
-   "end": 360.9,
+   "end": 358.4,
    "out_f0": 10677,
-   "out_f1": 10827,
-   "dur": 5.0,
+   "out_f1": 10752,
+   "dur": 2.5,
    "src": "s24e",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s24e_3.png",
    "role": "고정+효과",
-   "effect": "out_l"
+   "effect": "out_r"
+  },
+  {
+   "start": 358.4,
+   "end": 360.9,
+   "out_f0": 10752,
+   "out_f1": 10827,
+   "dur": 2.5,
+   "src": "n24e",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n24e_1.png",
+   "role": "고정+효과",
+   "effect": "in_r"
   },
   {
    "start": 360.9,
@@ -868,7 +1245,7 @@
    "opt": "",
    "file": "img3d/v5_s25_2.png",
    "role": "고정+효과",
-   "effect": "in_c"
+   "effect": "out_l"
   },
   {
    "start": 364.9,
@@ -886,16 +1263,42 @@
   },
   {
    "start": 367.4,
-   "end": 375.0,
+   "end": 370.0,
    "out_f0": 11022,
-   "out_f1": 11250,
-   "dur": 7.6,
+   "out_f1": 11100,
+   "dur": 2.6,
    "src": "s26c",
    "kind": "i",
    "opt": "",
    "file": "img3d/v7_s26c_2.png",
    "role": "고정+효과",
+   "effect": "in_c"
+  },
+  {
+   "start": 370.0,
+   "end": 372.5,
+   "out_f0": 11100,
+   "out_f1": 11175,
+   "dur": 2.5,
+   "src": "n26b",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n26b_1.png",
+   "role": "고정+효과",
    "effect": "out_c"
+  },
+  {
+   "start": 372.5,
+   "end": 375.0,
+   "out_f0": 11175,
+   "out_f1": 11250,
+   "dur": 2.5,
+   "src": "n26b2",
+   "kind": "i",
+   "opt": "",
+   "file": "img3d/v9_n26b2_1.png",
+   "role": "고정+효과",
+   "effect": "in_l"
   },
   {
    "start": 375.0,
@@ -922,7 +1325,7 @@
    "opt": "",
    "file": "img3d/v7_s26d_1.png",
    "role": "고정+효과",
-   "effect": "in_l"
+   "effect": "out_r"
   },
   {
    "start": 382.2,
@@ -949,7 +1352,7 @@
    "opt": "",
    "file": "img3d/v5_s27_2.png",
    "role": "고정+효과",
-   "effect": "out_r"
+   "effect": "in_r"
   },
   {
    "start": 394.5,
@@ -962,7 +1365,7 @@
    "opt": "",
    "file": "img3d/v7_s27b_1.png",
    "role": "고정+효과",
-   "effect": "in_r"
+   "effect": "out_l"
   },
   {
    "start": 398.9,
