@@ -109,7 +109,7 @@
    "src": "n04e",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n04e_1.png",
+   "file": "img3d/v9_n04e_2.png",
    "role": "고정+효과",
    "effect": "out_c"
   },
@@ -148,7 +148,7 @@
    "src": "n06a",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n06a_1.png",
+   "file": "img3d/v9_n06a_2.png",
    "role": "고정+효과",
    "effect": "in_r"
   },
@@ -402,7 +402,7 @@
    "src": "n11d",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n11d_1.png",
+   "file": "img3d/v9_n11d_2.png",
    "role": "고정+효과",
    "effect": "in_r"
   },
@@ -760,7 +760,7 @@
    "src": "n17d",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n17d_1.png",
+   "file": "img3d/v9_n17d_2.png",
    "role": "고정+효과",
    "effect": "in_c"
   },
@@ -826,7 +826,7 @@
    "src": "n20a",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n20a_1.png",
+   "file": "img3d/v9_n20a_2.png",
    "role": "고정+효과",
    "effect": "in_r"
   },
@@ -852,7 +852,7 @@
    "src": "n20b",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n20b_1.png",
+   "file": "img3d/v9_n20b_2.png",
    "role": "고정+효과",
    "effect": "in_c"
   },
@@ -943,7 +943,7 @@
    "src": "n21c",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n21c_1.png",
+   "file": "img3d/v9_n21c_2.png",
    "role": "고정+효과",
    "effect": "out_c"
   },
@@ -995,7 +995,7 @@
    "src": "n22b",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n22b_1.png",
+   "file": "img3d/v9_n22b_2.png",
    "role": "고정+효과",
    "effect": "out_l"
   },
@@ -1112,7 +1112,7 @@
    "src": "n23d",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n23d_1.png",
+   "file": "img3d/v9_n23d_2.png",
    "role": "고정+효과",
    "effect": "in_l"
   },
@@ -1125,7 +1125,7 @@
    "src": "n23d2",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n23d2_1.png",
+   "file": "img3d/v9_n23d2_2.png",
    "role": "고정+효과",
    "effect": "out_r"
   },
@@ -1165,7 +1165,7 @@
    "src": "n24c",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n24c_1.png",
+   "file": "img3d/v9_n24c_2.png",
    "role": "고정+효과",
    "effect": "out_l"
   },
