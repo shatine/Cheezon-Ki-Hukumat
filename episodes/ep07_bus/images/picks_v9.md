@@ -50,3 +50,12 @@ I checked all 31 images at original size, plus enlargements.
   - **n06c:** the lips and nose take up a large part of the right side. That breaks the faces-small rule. → Hand and forearm only.
   - **n22c:** the layout almost matches the next cut, s22c (the RTO counter, a clerk handing back a file). The two cuts read as a duplicate, and the rejection doesn't come across. → Instead, a man walks down the front steps of an Uttarakhand government building holding his file, seen from behind.
   - **n26b2:** the grille shows the FORCE circle logo, and the shop signs on the left show large garbled Devanagari. Hindi viewers would notice. → Side-rear angle in a residential street, no signs.
+
+## PC 재생성 3장 (2026-10-22)
+| id | 시도 | 고른 것 | 검수 메모 |
+|---|---|---|---|
+| n06c | 2 (v9_n06c_2, _3) | v9_n06c_3 | _2: 손이 손잡이로 다가가는 모습이라 '뜨거워서 턴다'가 안 읽힘, 흔들림·아지랑이 없음 → 탈락. _3: 손잡이에서 확 뗀 손에 흔들림 잔상, 손잡이 반짝임·차체 열 아지랑이, 팔·소매만(얼굴 없음) |
+| n22c | 1 (v9_n22c_2) | v9_n22c_2 | 소나무 언덕 산골 관공서 계단을 서류 들고 내려가는 남자 뒷모습, 어깨 처짐, 간판은 빈 판. s22c(RTO 창구)와 구도 다름 |
+| n26b2 | 2 (v9_n26b2_2, _3) | v9_n26b2_3 | _2: 왼쪽 앞 차 번호판 "2K"·엠블럼 가짜 글자 판독 → 탈락. _3: 주택가 골목 저녁, 같은 흰 밴 옆뒤 각도, 양쪽 주차 차·스쿠터, 번호판 모두 빈칸, 간판 없음, 사람 작음. 밴 뒷문 작은 엠블럼은 판독 불가 크기 |
+
+plan_v9.py IMG 반영 → 104컷, errors [].

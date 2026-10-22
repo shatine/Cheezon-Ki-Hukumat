@@ -187,7 +187,7 @@
    "src": "n06c",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n06c_1.png",
+   "file": "img3d/v9_n06c_3.png",
    "role": "고정+효과",
    "effect": "out_c"
   },
@@ -1008,7 +1008,7 @@
    "src": "n22c",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n22c_1.png",
+   "file": "img3d/v9_n22c_2.png",
    "role": "고정+효과",
    "effect": "in_c"
   },
@@ -1296,7 +1296,7 @@
    "src": "n26b2",
    "kind": "i",
    "opt": "",
-   "file": "img3d/v9_n26b2_1.png",
+   "file": "img3d/v9_n26b2_3.png",
    "role": "고정+효과",
    "effect": "in_l"
   },
