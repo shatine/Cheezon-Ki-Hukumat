@@ -1,0 +1,26 @@
+[
+ {
+  "id": "o1",
+  "image": "v8_o1.png",
+  "script": "S01~S02a",
+  "move": "slow dolly in",
+  "prompt": "The couple on the deck sip chai and laugh softly; string lights glow; curtains move in a light breeze; leaves sway. [slow dolly in]. Movement: move the camera physically forward in a straight line toward the bus. Speed: very slow, barely noticeable. Framing: the whole bus stays in frame, people stay small. End: settle on a slightly closer wide shot of the bus home. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v8\\o1.mp4"
+ },
+ {
+  "id": "o2",
+  "image": "v8_o2.png",
+  "script": "S02a~S02b",
+  "move": "locked",
+  "prompt": "The sweating man slowly lifts his head and wipes his face; dry leaves blow across the dusty ground; a loose string light swings. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v8\\o2.mp4"
+ },
+ {
+  "id": "PB",
+  "image": "v5_PB_1.png",
+  "script": "S03a~S03b (10초 전부)",
+  "move": "slow dolly in",
+  "prompt": "The retired red-maroon KSRTC bus stands still in the sunny depot yard; palm leaves sway gently, light dust drifts. The lighting stays the same bright midday sun for the whole shot, no darkening, no fade, no clouds. [slow dolly in]. Movement: move the camera physically forward in a straight line toward the bus. Speed: very slow and even for the full 10 seconds. Framing: the whole bus stays in frame from start to end, never closer than the full bus. End: finish on a slightly closer wide shot with the whole bus visible. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v8\\PB.mp4"
+ }
+]
