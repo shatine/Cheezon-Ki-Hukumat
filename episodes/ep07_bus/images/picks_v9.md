@@ -59,3 +59,9 @@ I checked all 31 images at original size, plus enlargements.
 | n26b2 | 2 (v9_n26b2_2, _3) | v9_n26b2_3 | _2: 왼쪽 앞 차 번호판 "2K"·엠블럼 가짜 글자 판독 → 탈락. _3: 주택가 골목 저녁, 같은 흰 밴 옆뒤 각도, 양쪽 주차 차·스쿠터, 번호판 모두 빈칸, 간판 없음, 사람 작음. 밴 뒷문 작은 엠블럼은 판독 불가 크기 |
 
 plan_v9.py IMG 반영 → 104컷, errors [].
+
+## 클라우드 재검수 — 재생성 3장 (2026-10-22)
+All three pass. **v9 is final at 31 of 31 images.**
+- **n06c_3:** hand and sleeve only, with no face. The heat shimmer and glinting handle make the hot metal clear.
+- **n22c_2:** a hill-town government building with blank signboards, and a man carrying his file away, seen from behind. The layout is clearly different from s22c.
+- **n26b2_3:** a residential lane at dusk with no shop signs, and every plate is blank. The van's rear emblem is too small to read.
