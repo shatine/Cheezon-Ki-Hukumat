@@ -1,0 +1,230 @@
+[
+ {
+  "id": "PB",
+  "ref": null,
+  "line": "마스터: 실사 버스",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A single retired Kerala KSRTC ordinary bus parked alone in a sunny gravel depot yard in Kerala, coconut palms behind, three-quarter front view, whole bus visible, classic red-maroon body with one yellow band, rounded front, flat roof, long row of side windows, faded sun-bleached paint, no number plate text, no readable text."
+ },
+ {
+  "id": "M3",
+  "ref": null,
+  "line": "마스터: 3D 절개 버스",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. One stylised 3D model of a long Indian single-deck bus (red-maroon body with one yellow band, flat roof, long row of windows) standing on a small square grass-and-soil diorama base, three-quarter view from front-left, the entire left side wall and half of the roof cut away like a dollhouse so the empty interior with a single bed, a small kitchen counter with sink and a tiny toilet cubicle at the rear are visible. Floor shows a semi-transparent frosted section. Whole bus visible with margin."
+ },
+ {
+  "id": "s01",
+  "ref": "PB",
+  "line": "S01 버스에서 살 수 있을까요?",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME retired Kerala KSRTC ordinary bus as the reference image: classic red-maroon body with one yellow band, rounded front, flat roof, long row of side windows, faded paint, no readable text, same depot yard. Now a single folded mattress and a steel trunk lie beside its open front door, a clothesline with two shirts tied from the bus mirror to a palm tree. Wide shot."
+ },
+ {
+  "id": "s02",
+  "ref": "PB",
+  "line": "S02 한 달 만에 포기한 사람들",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME retired Kerala KSRTC ordinary bus as the reference image: classic red-maroon body with one yellow band, rounded front, flat roof, long row of side windows, faded paint, no readable text, now converted into a home, seen from the side at medium distance. An Indian adult man in his thirties sits on the bus steps beside packed bags and a rolled mattress, shoulders slumped, moving out. A small water can and a plastic chair outside. Bright afternoon."
+ },
+ {
+  "id": "s03",
+  "ref": "PB",
+  "line": "S03 KSRTC 경매",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A KSRTC depot yard in Kerala with a long row of six identical retired red-maroon buses with one yellow band (same model as reference image), parked side by side, paint faded, a few men in white shirts inspecting them with clipboards at a distance, auction day feeling. Wide high-angle shot."
+ },
+ {
+  "id": "s04a",
+  "ref": "M3",
+  "line": "S04 11m×2.5m 296sqft",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: the SAME stylised 3D bus as the reference image (same shape, colours, window count, cut-away left side), now seen exactly from above (top-down plan view) on the same diorama base, a bright yellow floor outline traces the full rectangle of the bus floor, simple yellow dimension lines along the long side and the short side with arrowheads but no numbers."
+ },
+ {
+  "id": "s04b",
+  "ref": "PB",
+  "line": "S04 의자 빼면 침대",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Interior of the reference bus after all seats are removed: long empty steel floor, rows of windows letting in bright sunlight on both sides, one simple bed with a white sheet placed in the middle, ceiling handrails still visible. Wide interior shot from the driver area looking back."
+ },
+ {
+  "id": "s04c",
+  "ref": null,
+  "line": "S04 월세",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A crowded Mumbai residential street with old apartment blocks, a hand-painted TO-LET board style sign (blank, no text) on a balcony, an Indian man at distance counting rupee notes at a door with a landlord. Bright morning."
+ },
+ {
+  "id": "s05",
+  "ref": "PB",
+  "line": "S05 한 달 만에 손을 든 사람들은?",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME retired Kerala KSRTC ordinary bus as the reference image: classic red-maroon body with one yellow band, rounded front, flat roof, long row of side windows, faded paint, no readable text, converted into a home, standing on a dusty plot. An Indian adult man stands at a distance looking at it with hands on his hips, puzzled. Low angle wide shot, bright sky."
+ },
+ {
+  "id": "s06a",
+  "ref": null,
+  "line": "S06 뜨거운 손잡이",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot of an adult Indian man's hand quickly pulling away from a sun-heated metal car door handle in harsh noon sun, heat shimmer visible above the shiny metal, parked car on a hot Delhi street."
+ },
+ {
+  "id": "s06b",
+  "ref": "M3",
+  "line": "S06 열이 지붕·벽·창으로",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: EXACTLY the same diorama and the SAME stylised 3D bus as the reference image (same shape, colours, window count, cut-away left side), same camera angle. Add a big bright sun above. Thick red-orange heat arrows pour down through the metal roof and through the side walls into the interior, and bright yellow sunbeams pass through the long row of windows onto the bed. Interior tinted warm orange."
+ },
+ {
+  "id": "s07a",
+  "ref": "PB",
+  "line": "S07 델리 5월 한낮 버스 안",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Inside the reference bus converted to a home on a blazing Delhi May afternoon: an Indian adult man sweating, lying on a bed with a small table fan, a gas stove with a pot on a counter, harsh bright sunlight through the windows, air shimmering with heat. Medium-wide shot."
+ },
+ {
+  "id": "s07b",
+  "ref": "M3",
+  "line": "S07 에어컨=계속 전기",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: EXACTLY the same diorama and the SAME stylised 3D bus as the reference image (same shape, colours, window count, cut-away left side). A white AC unit on the roof blows icy blue air inside while red-orange heat arrows keep entering through roof and walls; a thick black cable with glowing yellow core runs from the AC down the outside of the bus to a grey electric pole beside the base, with a spinning electricity meter on the pole."
+ },
+ {
+  "id": "s08",
+  "ref": "M3",
+  "line": "S08 단열재=공간 줄어듦",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: EXACTLY the same diorama and the SAME stylised 3D bus as the reference image (same shape, colours, window count, cut-away left side). Thick pale-yellow insulation layers and wood panels now line the inside of the walls, the ceiling and the floor, visibly narrowing the interior; blue inward arrows show the room shrinking and the ceiling getting lower above the bed."
+ },
+ {
+  "id": "s09",
+  "ref": null,
+  "line": "S09 열교(금속 뼈대)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Zoomed-in 3D cross-section of one bus wall: from outside to inside a red painted outer steel sheet, a thick pale-yellow insulation layer, an inner wood panel. One vertical steel frame rib (grey metal) runs straight through the insulation touching both outer sheet and inner panel. Red-orange heat arrows hit the outer sheet, are stopped by the insulation, but a bright red glowing stream flows through the steel rib into the room. Clear and simple."
+ },
+ {
+  "id": "s10",
+  "ref": null,
+  "line": "S10 차가운 물병 물방울",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot in a bright Indian home kitchen: a cold steel water bottle just taken from the fridge on the counter, its surface covered with many fine water droplets, one droplet running down. Sunlit window behind."
+ },
+ {
+  "id": "s11a",
+  "ref": "s09",
+  "line": "S11 추운 밤 뼈대 결로",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: EXACTLY the same wall cross-section, same camera. Now it is a cold night outside: icy blue cold flows through the steel rib making it frosty blue, while warm moist air (soft white vapour from a cooking pot and breath) inside touches the cold rib and many white water droplets form and run down the rib into the insulation."
+ },
+ {
+  "id": "s11b",
+  "ref": "PB",
+  "line": "S11 곰팡이",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Inside the reference converted bus, close shot of a corner where a plywood wall panel is pulled back: black-green mould spots spread on the damp wood and rusty steel rib behind it, water droplets on the metal. Bright torch light, clearly visible."
+ },
+ {
+  "id": "s12",
+  "ref": "s09",
+  "line": "S12 뼈대까지 덮는 단열+환기",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: EXACTLY the same wall cross-section, same camera. Now a continuous pale-yellow insulation layer also covers the inner face of the steel rib, all gaps sealed with green tape lines, a small roof vent fan pulls white vapour out. The red heat stream is blocked; the room side stays neutral."
+ },
+ {
+  "id": "s13",
+  "ref": "PB",
+  "line": "S13 아침 화장실",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Early morning inside the reference converted bus home: an Indian adult man just woke up, standing by a tiny toilet cubicle at the rear of the bus holding a plastic mug, soft bright morning sun through the windows, bed unmade. Medium shot from behind."
+ },
+ {
+  "id": "s14a",
+  "ref": "M3",
+  "line": "S14 물탱크·오수탱크",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: EXACTLY the same diorama and the SAME stylised 3D bus as the reference image (same shape, colours, window count, cut-away left side). Beneath the floor (shown semi-transparent frosted glass x-ray) two large tanks: a clear tank full of bright blue clean water connected by a thick blue pipe to the kitchen sink, and a dark tank connected by a thick brown-grey pipe from the sink and toilet."
+ },
+ {
+  "id": "s14b",
+  "ref": "s14a",
+  "line": "S14 비고 찬다",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: EXACTLY the same scene zoomed in on the two under-floor tanks only. The clean blue water tank is now almost empty (only a thin blue layer at the bottom) and the brown-grey waste tank is filled to the top, almost overflowing."
+ },
+ {
+  "id": "s15a",
+  "ref": "M3",
+  "line": "S15 외부 연결(물·오수·전기)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: EXACTLY the same diorama and the SAME stylised 3D bus as the reference image (same shape, colours, window count, cut-away left side). At the rear-left corner three thick hoses and a cable leave the bus: a bright blue water hose, a brown-grey waste hose and a black cable with glowing yellow core, all running to a short grey service post standing on the diorama base."
+ },
+ {
+  "id": "s15b",
+  "ref": "M3",
+  "line": "S15 태양광 부족",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: EXACTLY the same diorama and the SAME stylised 3D bus as the reference image (same shape, colours, window count, cut-away left side). Four solar panels now on the roof under a blazing sun, a battery box inside with a red low-charge indicator, the AC unit on the roof struggling, a yellow cable still has to plug into the outside power post."
+ },
+ {
+  "id": "s16a",
+  "ref": "s15a",
+  "line": "S16 호스의 반대편=땅",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: same style. Camera pulls back: the same bus and service post now sit on a larger fenced plot of land with a water pipe, a sewer pipe and a power line coming in from the road edge under the ground (semi-transparent soil), the plot outlined by a wooden fence."
+ },
+ {
+  "id": "s16b",
+  "ref": "PB",
+  "line": "S16 계산서에 없던 땅",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME retired Kerala KSRTC ordinary bus as the reference image: classic red-maroon body with one yellow band, rounded front, flat roof, long row of side windows, faded paint, no readable text parked on a dusty empty roadside lot in a busy Indian town, a man at distance looking around for a place to park, buildings and walls on all sides, no space. Wide shot, bright."
+ },
+ {
+  "id": "s17a",
+  "ref": "PB",
+  "line": "S17 길가 주차",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME retired Kerala KSRTC ordinary bus as the reference image: classic red-maroon body with one yellow band, rounded front, flat roof, long row of side windows, faded paint, no readable text parked on the edge of a busy Indian city road with a clothesline hanging from its window; a traffic police officer in khaki uniform walks toward it at a distance, auto-rickshaws passing. Bright day, wide shot."
+ },
+ {
+  "id": "s17b",
+  "ref": null,
+  "line": "S17 인도 대법원",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. The Supreme Court of India building in New Delhi in bright daylight: central white-and-red sandstone block with a large central dome, symmetrical wings, wide lawn and fountain in front, blue sky. Wide establishing shot, no people close."
+ },
+ {
+  "id": "s18",
+  "ref": "s16a",
+  "line": "S18 땅·허가 필요",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: EXACTLY the same fenced plot diorama. A large official paper document with a big red rubber stamp (no readable text) floats above the plot, and a closed gate with a padlock at the plot entrance."
+ },
+ {
+  "id": "s19",
+  "ref": null,
+  "line": "S19 차를 집 삼아 사는 사람들",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A white Force Traveller high-roof van converted into a camper parked on a winding mountain road in Uttarakhand, Himalayan peaks behind, a man and a woman (adults) at a distance setting up two folding chairs beside it. Bright clear day, wide shot."
+ },
+ {
+  "id": "s20",
+  "ref": "s19",
+  "line": "S20 개조 12라크·에어컨",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Interior of the reference camper van: compact bed at the back, small kitchenette with a sink, a wall-mounted split AC unit, wood panels, bright sunlight through the windows. Wide interior shot."
+ },
+ {
+  "id": "s21a",
+  "ref": "s19",
+  "line": "S21 물탱크 4~5일",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the same white camper van at a roadside village hand pump; an adult Indian man fills plastic water cans to carry to the van. Bright day, medium-wide shot."
+ },
+ {
+  "id": "s21b",
+  "ref": "s19",
+  "line": "S21 매일 저녁 주차 자리",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the same white camper van slowly entering a hotel parking lot in an Indian city in warm bright golden-hour light, other cars parked, a security guard waving it in. Wide shot."
+ },
+ {
+  "id": "s22",
+  "ref": null,
+  "line": "S22 RTO 4개월",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Inside a busy Indian RTO (regional transport office): long queue of adults holding document files at service counters, ceiling fans, an adult man at the counter handing over a thick file to a clerk who shakes his head. Bright fluorescent and window light, medium-wide shot."
+ },
+ {
+  "id": "s23",
+  "ref": null,
+  "line": "S23 E Bull Jet 압수",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Outside a Kerala government transport office: a brightly custom-painted camper van with colourful wild graphics on its sides, extra roof lights and LED bar, being held by officials; a crowd of young adults gathered at the gate at a distance, police officers in khaki. Bright day, wide shot, no readable text."
+ },
+ {
+  "id": "s24",
+  "ref": null,
+  "line": "S24 케랄라 카라반 파크",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A tidy caravan park in the green hills of Vagamon, Kerala: two white caravans parked on paved pads, each connected to a short service pedestal with a blue water hose, a grey drain hose and a power cable; toilet block, waste bins of three colours, a fence with a gate and a security cabin. Misty green hills, bright day."
+ },
+ {
+  "id": "s26",
+  "ref": "M3",
+  "line": "S26 안과 밖 모두",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Using the reference image: same the SAME stylised 3D bus as the reference image (same shape, colours, window count, cut-away left side) on a fenced plot of land: insulated walls, roof vent, under-floor tanks, and thick blue water, brown-grey waste and glowing yellow power lines connected to a service post and the ground; a small green garden. Complete, bright, balanced."
+ },
+ {
+  "id": "s27",
+  "ref": "PB",
+  "line": "S27 집은 버스가 서 있는 자리까지",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME retired Kerala KSRTC ordinary bus as the reference image: classic red-maroon body with one yellow band, rounded front, flat roof, long row of side windows, faded paint, no readable text converted into a cosy home, parked on its own small fenced plot with a garden, water pipe, drain and power line connected, warm light in the windows at bright golden hour, an adult couple at a distance on chairs outside. Wide shot."
+ }
+]

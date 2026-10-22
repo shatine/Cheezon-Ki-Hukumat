@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cheezon 영상"
+  short_description: "확정 대본의 질문을 실사와 3D 작동 도해로 증명하는 영상 제작"
+  default_prompt: "Use $cheezon-video to turn the locked Cheezon script into evidence-driven shots, image/video prompts, and a verified edit."

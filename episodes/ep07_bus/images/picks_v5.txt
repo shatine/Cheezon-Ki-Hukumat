@@ -1,0 +1,42 @@
+PB v5_PB_1 OK KSRTC red-maroon+yellow band
+M3 v5_M3_1 OK cutaway bed/sink/toilet frosted floor
+s01 v5_s01_1 OK same bus, mattress+trunk+clothesline
+s02 v5_s02_1 OK same bus, man slumped with bags
+s03 v5_s03_2 OK 6 KSRTC buses row, inspectors
+s04a v5_s04a2_1 OK top-down yellow outline+dims (1st try rejected: stray pipes/arrows)
+s04b v5_s04b_2
+s04c v5_s04c_1
+s05 v5_s05_1
+s06a v5_s06a_2
+s06b v5_s06b_2
+s07a v5_s07a_1
+s07b v5_s07b_1
+s08 v5_s08r_2
+s09 v5_s09r_2
+s10 v5_s10_1
+s11a v5_s11ar_2
+s11b v5_s11b_1
+s12 v5_s12_1
+s13 v5_s13_1
+s14a v5_s14z_1
+s14b v5_s14b_1
+s15a v5_s15a_1
+s15z v5_s15z_1
+s15b v5_s15b_2
+s16a v5_s16a_1
+s16b v5_s16b_2
+s17a v5_s17a_2
+s17b v5_s17b_1
+s18 v5_s18_2
+s19 v5_s19_2
+s20 v5_s20_1
+s21a v5_s21a_2
+s21b v5_s21b_2
+s22 v5_s22_1
+s23 v5_s23_2
+s24 v5_s24_1
+s26 v5_s26_1
+s27 v5_s27_2
+# contact sheet on PC: BUS\img3d\v5_contact_sheet.png ; copies here contact_sheet_v5_1/2.png
+s25 v5_s25_2 (added: back to the first question)
+s28 v5_s28_2 (added: subscribe line, drone view)

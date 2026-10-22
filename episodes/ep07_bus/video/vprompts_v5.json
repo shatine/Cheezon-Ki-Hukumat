@@ -1,0 +1,322 @@
+[
+ {
+  "id": "PB",
+  "image": "v5_PB_1.png",
+  "script": "S01",
+  "move": "slow dolly in",
+  "prompt": "The retired red-maroon KSRTC bus stands still in the sunny scrapyard; palm leaves sway gently, light dust drifts. [slow dolly in]. Movement: move the camera physically forward in a straight line toward the main subject. Speed: smooth controlled push. Framing: keep camera height, lens direction and subject position consistent while distance closes. End: finish in a tighter composition. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\PB.mp4"
+ },
+ {
+  "id": "s01",
+  "image": "v5_s01_1.png",
+  "script": "S01b",
+  "move": "locked",
+  "prompt": "Clothes on the line beside the bus flutter in a light breeze; palm leaves sway. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s01.mp4"
+ },
+ {
+  "id": "s02",
+  "image": "v5_s02_1.png",
+  "script": "S01c",
+  "move": "locked",
+  "prompt": "The adult man sitting beside his bags slowly lowers his head and sighs; a light breeze moves the trees. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s02.mp4"
+ },
+ {
+  "id": "s03",
+  "image": "v5_s03_2.png",
+  "script": "S02",
+  "move": "slider right",
+  "prompt": "Retired KSRTC buses stand in a row; inspectors in the distance walk slowly along them. [slider right]. Movement: slide smoothly sideways to the right parallel to the subject. Speed: slow and even. Framing: keep the row of subjects readable and level. End: finish on a new section of the row. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s03.mp4"
+ },
+ {
+  "id": "s04a",
+  "image": "v5_s04a2_1.png",
+  "script": "S03",
+  "move": "locked",
+  "prompt": "The yellow outline lines around the bus floor glow softly and pulse once; nothing else changes. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s04a.mp4"
+ },
+ {
+  "id": "s04b",
+  "image": "v5_s04b_2.png",
+  "script": "S03b",
+  "move": "push past",
+  "prompt": "Empty bus interior with seats removed; sunlight patches lie still on the floor, dust drifts in the light. [push past]. Movement: move forward past a visible foreground object, edge or opening. Speed: smooth forward glide. Framing: let the foreground pass close to the lens while the space beyond becomes clearer, people stay small in the distance. End: arrive inside or beyond the foreground layer. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s04b.mp4"
+ },
+ {
+  "id": "s04c",
+  "image": "v5_s04c_1.png",
+  "script": "S04",
+  "move": "locked",
+  "prompt": "On the crowded rental balcony the landlord and tenant talk with small gestures; washing on the line moves in the breeze. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s04c.mp4"
+ },
+ {
+  "id": "M3",
+  "image": "v5_M3_1.png",
+  "script": "S04b",
+  "move": "locked",
+  "prompt": "The cut-away bus home stays still; soft light shifts slightly across the bed and kitchen. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\M3.mp4"
+ },
+ {
+  "id": "s05",
+  "image": "v5_s05_1.png",
+  "script": "S05",
+  "move": "locked",
+  "prompt": "The man in front of the bus home scratches his head and looks around; clothes flutter, leaves sway. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s05.mp4"
+ },
+ {
+  "id": "s06a",
+  "image": "v5_s06a_2.png",
+  "script": "S06",
+  "move": "locked",
+  "prompt": "The hand touches the hot car door handle and snaps back quickly; heat shimmer rises from the metal. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s06a.mp4"
+ },
+ {
+  "id": "s06b",
+  "image": "v5_s06b_2.png",
+  "script": "S06b",
+  "move": "locked",
+  "prompt": "Orange heat glow flows from the sun into the roof and walls of the bus and spreads inside; the bus does not move. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s06b.mp4"
+ },
+ {
+  "id": "s07a",
+  "image": "v5_s07a_1.png",
+  "script": "S07",
+  "move": "locked",
+  "prompt": "The man lying in the hot bus fans himself slowly and wipes sweat; a small table fan turns. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s07a.mp4"
+ },
+ {
+  "id": "s07b",
+  "image": "v5_s07b_1.png",
+  "script": "S07b",
+  "move": "locked",
+  "prompt": "The outdoor AC unit fan spins and a yellow glow pulses along the power cable from the pole into the bus; orange heat keeps entering the roof. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s07b.mp4"
+ },
+ {
+  "id": "s08",
+  "image": "v5_s08r_2.png",
+  "script": "S08",
+  "move": "locked",
+  "prompt": "The thick insulation layers in walls, ceiling and floor glow softly; the blue arrows already in the image move slightly inward and stop. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no new arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s08.mp4"
+ },
+ {
+  "id": "s09",
+  "image": "v5_s09r_2.png",
+  "script": "S09",
+  "move": "locked",
+  "prompt": "Orange heat travels from the hot outer sheet along the steel beam through the insulation and glows at the inner wood; the insulation stays pale. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s09.mp4"
+ },
+ {
+  "id": "s10",
+  "image": "v5_s10_1.png",
+  "script": "S10",
+  "move": "macro slow zoom in",
+  "prompt": "Water droplets slowly form and grow on the cold metal bottle; a few slide down. [macro slow zoom in]. Movement: slowly increase lens focal length toward a tighter frame. Speed: gradual and even. Framing: keep the main visual target readable as it becomes larger in frame. End: finish on a stable tighter composition. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s10.mp4"
+ },
+ {
+  "id": "s11a",
+  "image": "v5_s11ar_2.png",
+  "script": "S11",
+  "move": "locked",
+  "prompt": "Cold blue spreads along the steel beam; water droplets form on it, grow, merge and drip into the small puddle. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s11a.mp4"
+ },
+ {
+  "id": "s11b",
+  "image": "v5_s11b_1.png",
+  "script": "S11b",
+  "move": "locked",
+  "prompt": "Mould on the damp bus wall stays still; a drip of water slowly runs down the panel. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s11b.mp4"
+ },
+ {
+  "id": "s12",
+  "image": "v5_s12_1.png",
+  "script": "S12",
+  "move": "locked",
+  "prompt": "The green seals glow softly around the covered beam and fresh air flows out of the roof vent as a gentle shimmer. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s12.mp4"
+ },
+ {
+  "id": "s13",
+  "image": "v5_s13_1.png",
+  "script": "S13",
+  "move": "locked",
+  "prompt": "In the finished bright bus room a curtain moves softly in the breeze; the adult in the distance walks slowly. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s13.mp4"
+ },
+ {
+  "id": "s14a",
+  "image": "v5_s14z_1.png",
+  "script": "S14",
+  "move": "locked",
+  "prompt": "Blue water level in the fresh tank slowly drops while the brown level in the waste tank slowly rises. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s14a.mp4"
+ },
+ {
+  "id": "s14b",
+  "image": "v5_s14b_1.png",
+  "script": "S14b",
+  "move": "locked",
+  "prompt": "The empty blue tank stays empty and the brimming brown tank bubbles slightly at the top. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s14b.mp4"
+ },
+ {
+  "id": "s15a",
+  "image": "v5_s15a_1.png",
+  "script": "S15",
+  "move": "zoom in 3D",
+  "prompt": "Blue water flows in, brown waste flows out and a yellow glow travels along the cable between the bus and the service post. [zoom in 3D]. Movement: camera stays locked, only a slow straight optical zoom in toward the hose connection at the service post. Speed: gradual and even. Framing: the connection stays centred. End: finish on the close-up of the connection. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s15a.mp4"
+ },
+ {
+  "id": "s15b",
+  "image": "v5_s15b_2.png",
+  "script": "S15b",
+  "move": "locked",
+  "prompt": "Sun rays hit the roof solar panels and a thin yellow glow runs to the bus, then a stronger yellow glow comes from the outside power post. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s15b.mp4"
+ },
+ {
+  "id": "s16a",
+  "image": "v5_s16a_1.png",
+  "script": "S16",
+  "move": "locked",
+  "prompt": "Blue, brown and yellow lines under the ground glow and flow between the plot and the bus; the fence and bus stay still. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s16a.mp4"
+ },
+ {
+  "id": "s16b",
+  "image": "v5_s16b_2.png",
+  "script": "S17",
+  "move": "locked",
+  "prompt": "Traffic passes in the background; a scooter rides by slowly behind the parked bus. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s16b.mp4"
+ },
+ {
+  "id": "s17a",
+  "image": "v5_s17a_2.png",
+  "script": "S17b",
+  "move": "locked",
+  "prompt": "The traffic police officer walks toward the bus; clothes on the bus side flutter; autos pass. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s17a.mp4"
+ },
+ {
+  "id": "s17b",
+  "image": "v5_s17b_1.png",
+  "script": "S17c",
+  "move": "drone push in",
+  "prompt": "The fountain plays, small figures walk on the paths, flags move gently. [drone push in]. Movement: fly smoothly forward toward the subject. Speed: controlled aerial approach. Framing: keep the building centred and level. End: finish closer on the central dome. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s17b.mp4"
+ },
+ {
+  "id": "s18",
+  "image": "v5_s18_2.png",
+  "script": "S18",
+  "move": "locked",
+  "prompt": "The floating document with red stamp sways slightly and the padlock on the gate glints; nothing else moves. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s18.mp4"
+ },
+ {
+  "id": "s19",
+  "image": "v5_s19_2.png",
+  "script": "S19",
+  "move": "drone pull back",
+  "prompt": "The couple set up folding chairs beside the white camper van; trees move in the wind. [drone pull back]. Movement: fly smoothly backward away from the subject or destination. Speed: controlled aerial retreat. Framing: keep the subject readable as more landscape appears. End: finish on a wider aerial composition. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s19.mp4"
+ },
+ {
+  "id": "s20",
+  "image": "v5_s20_1.png",
+  "script": "S20",
+  "move": "locked",
+  "prompt": "Inside the camper the woman cooks at the small sink and the man sorts bags; curtains move slightly. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s20.mp4"
+ },
+ {
+  "id": "s21a",
+  "image": "v5_s21a_2.png",
+  "script": "S21",
+  "move": "locked",
+  "prompt": "The man pumps the hand pump and water pours into the plastic can. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s21a.mp4"
+ },
+ {
+  "id": "s21b",
+  "image": "v5_s21b_2.png",
+  "script": "S21b",
+  "move": "locked",
+  "prompt": "The white camper van rolls slowly into the hotel parking while the guard waves it in. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright warm sunlight as in the image, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s21b.mp4"
+ },
+ {
+  "id": "s22",
+  "image": "v5_s22_1.png",
+  "script": "S22",
+  "move": "locked",
+  "prompt": "The clerk shakes his head and pushes the file back; the queue shuffles, ceiling fans turn. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s22.mp4"
+ },
+ {
+  "id": "s23",
+  "image": "v5_s23_2.png",
+  "script": "S23",
+  "move": "locked",
+  "prompt": "Police officers stand around the painted van; one walks around it writing; the crowd at the gate murmurs and shifts. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s23.mp4"
+ },
+ {
+  "id": "s24",
+  "image": "v5_s24_1.png",
+  "script": "S24",
+  "move": "drone pull back",
+  "prompt": "Caravans parked on pads with hoses connected; a person walks to the toilet block; mist drifts on the hills. [drone pull back]. Movement: fly smoothly backward away from the subject or destination. Speed: controlled aerial retreat. Framing: keep the subject readable as more landscape appears. End: finish on a wider aerial composition. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s24.mp4"
+ },
+ {
+  "id": "s25",
+  "image": "v5_s25_2.png",
+  "script": "S25",
+  "move": "locked",
+  "prompt": "The man stands looking at the bus, then tilts his head thinking; palm leaves sway. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s25.mp4"
+ },
+ {
+  "id": "s26",
+  "image": "v5_s26_1.png",
+  "script": "S26",
+  "move": "locked",
+  "prompt": "Blue water, brown waste and yellow power flow along the lines between the bus and the service post; the garden leaves sway slightly. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v5\\s26.mp4"
+ },
+ {
+  "id": "s27",
+  "image": "v5_s27_2.png",
+  "script": "S27",
+  "move": "locked",
+  "prompt": "The family sitting outside the bus home talk and laugh; clothes on the line flutter; warm light in the windows. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright warm sunlight as in the image, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s27.mp4"
+ },
+ {
+  "id": "s28",
+  "image": "v5_s28_2.png",
+  "script": "S28",
+  "move": "drone pull back",
+  "prompt": "The family outside the bus home wave up; clothes flutter, palms sway. [drone pull back]. Movement: fly smoothly backward away from the subject or destination. Speed: controlled aerial retreat. Framing: keep the subject readable as more landscape appears. End: finish on a wider aerial composition. Photorealistic, bright warm sunlight as in the image, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v5\\s28.mp4"
+ }
+]

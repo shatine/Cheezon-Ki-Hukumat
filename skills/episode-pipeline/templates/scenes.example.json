@@ -1,0 +1,23 @@
+{
+ "_설명": "이번 편 장면 목록. order 순서대로 이어 붙인다. beats 수 = scene_lines.json 의 그 장면 문장 수. 나레이션 없는 장면은 silent_len(초). refs 는 ref/ 폴더 기준 그림 중 그 장면 첫 비트에 필요한 것만. image 는 첫 그림 프롬프트(없으면 첫 비트).",
+ "order": ["H1", "H2", "B1"],
+ "scenes": {
+  "H1": {"style": "A",
+         "beats": ["Close-up of a round iron manhole cover on a rainy city street at dusk; slow push in.",
+                   "The camera tilts down as the cover slowly lifts by itself, warm light glowing from below."],
+         "audio": "light rain, distant traffic",
+         "refs": [],
+         "image": "A round iron manhole cover on a wet city street at dusk, reflections of street lamps."},
+  "H2": {"style": "B",
+         "beats": ["Two stick-figure workers try to drop a square paper cover into a square hole; it tilts and falls straight in.",
+                   "Both workers stare down the hole, jaws dropped."],
+         "audio": "comic plink, a long fall whistle",
+         "refs": ["cast_sheet.png"]},
+  "B1": {"style": "A",
+         "beats": ["Slow orbit around a glowing round cover floating above its round frame."],
+         "audio": "soft music swell",
+         "silent_len": 8}
+ },
+ "repl": [["In 1850", "In eighteen fifty"]],
+ "mg": [["H2", 1, "Square = falls in"]]
+}
