@@ -42,3 +42,11 @@
 ## 편집 시 주의
 - n06a 열 아지랑이는 그림에서 약함 → 편집 haze 효과 고려.
 - n26b2 가게 간판, n22b·n20a 건물 게시물은 글자 형태만 있고 읽히지 않음. 편집 화면에서 한 번 더 확인.
+
+## 클라우드 재검수 (2026-10-22)
+I checked all 31 images at original size, plus enlargements.
+- **통과: 28장.** No watermarks or children. n20a's companion is an adult woman. n22a's passport photos are small, and the documents are unreadable.
+- **재생성: 3장.** The prompts in `prompts_v9.json` have been revised; their `line` field is marked "재생성".
+  - **n06c:** the lips and nose take up a large part of the right side. That breaks the faces-small rule. → Hand and forearm only.
+  - **n22c:** the layout almost matches the next cut, s22c (the RTO counter, a clerk handing back a file). The two cuts read as a duplicate, and the rejection doesn't come across. → Instead, a man walks down the front steps of an Uttarakhand government building holding his file, seen from behind.
+  - **n26b2:** the grille shows the FORCE circle logo, and the shop signs on the left show large garbled Devanagari. Hindi viewers would notice. → Side-rear angle in a residential street, no signs.

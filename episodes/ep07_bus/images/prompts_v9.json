@@ -20,8 +20,8 @@
  {
   "id": "n06c",
   "ref": null,
-  "line": "S06c 앗 뜨거!",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot of an adult's hand shaking quickly in the air and the fingertips being blown on after touching hot metal, a sun-baked parked car door behind, bright noon light. Only hand and lower face edge visible, no face."
+  "line": "S06c 앗 뜨거! (재생성: 얼굴 없이)",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot of an adult's hand shaking quickly in the air right after touching the sun-baked handle of a parked car door, motion blur on the fingers, heat shimmer above the metal. Only the hand and forearm in frame, no face, no lips, no head."
  },
  {
   "id": "n07a",
@@ -133,9 +133,9 @@
  },
  {
   "id": "n22c",
-  "ref": "s22",
-  "line": "S22c 거절",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the same busy Indian RTO office: the clerk at the counter shakes his head and pushes a thick file back across the counter toward an adult man, who lowers his shoulders. Medium-wide shot, faces small, no readable text."
+  "ref": null,
+  "line": "S22c 우타라칸드에서 거절 (재생성: s22c와 다른 구도)",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Outside a hill-town government office building in Uttarakhand with pine hills behind, an Indian adult man walks down the front steps holding a thick rejected file, shoulders slumped, seen from behind at medium distance. Bright day, no readable text, face not visible."
  },
  {
   "id": "n23b",
@@ -182,7 +182,7 @@
  {
   "id": "n26b2",
   "ref": "s19",
-  "line": "S26b 매일 세울 자리 찾기",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME white Force Traveller high-roof camper van as the reference image, driving slowly along a busy Indian city street at dusk with its headlights on, the driver leaning out of the window looking for a place to park. Wide shot, face small."
+  "line": "S26b 매일 세울 자리 찾기 (재생성: 로고·간판 글자 없이)",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME white Force Traveller high-roof camper van as the reference image, seen from the side and slightly behind, driving slowly along a residential Indian city street at dusk with tail lights on, every roadside spot full of parked cars and scooters, the driver's arm out of the window. Plain walls and houses only, no shop signs, no logos, no readable text, no faces visible."
  }
 ]
