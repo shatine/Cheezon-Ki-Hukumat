@@ -1,0 +1,282 @@
+[
+ {
+  "id": "m2",
+  "image": "v6_m2.png",
+  "script": "S02",
+  "move": "locked",
+  "prompt": "The sweating man fans himself faster and wipes his forehead; the table fan turns; heat shimmer rises above the roof. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\m2.mp4"
+ },
+ {
+  "id": "m3s",
+  "image": "v6_m3s.png",
+  "script": "S02",
+  "move": "locked",
+  "prompt": "The man carrying the two buckets walks slowly away from the bus, turning his head aside; the small puddle stays under the bus. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\m3s.mp4"
+ },
+ {
+  "id": "m4",
+  "image": "v6_m4.png",
+  "script": "S02",
+  "move": "locked",
+  "prompt": "A drop falls from the mouldy ceiling into the bucket; condensation droplets slide down the fogged windows; the man looks up. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\m4.mp4"
+ },
+ {
+  "id": "m5",
+  "image": "v6_m5.png",
+  "script": "S02",
+  "move": "locked",
+  "prompt": "The police officer keeps pointing away; the man lowers his head and lifts the rolled mattress. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\m5.mp4"
+ },
+ {
+  "id": "s03b",
+  "image": "v6_s03b.png",
+  "script": "S03",
+  "move": "locked",
+  "prompt": "The buyer hands the bundle of notes to the official, who takes it and nods; other men lower their raised hands. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s03b.mp4"
+ },
+ {
+  "id": "s06c",
+  "image": "v6_s06c.png",
+  "script": "S06",
+  "move": "slider right",
+  "prompt": "Sunbeams through the windows stay bright on the bed and floor; dust drifts slowly in the light. [slider right]. Movement: slide smoothly sideways to the right parallel to the subject. Speed: very slow, barely noticeable. Framing: keep the windows and light beams readable and level. End: settle on a still composition. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s06c.mp4"
+ },
+ {
+  "id": "s08b",
+  "image": "v6_s08b.png",
+  "script": "S08",
+  "move": "locked",
+  "prompt": "The worker presses one insulation panel into the gap between two steel ribs and smooths it with his palm. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s08b.mp4"
+ },
+ {
+  "id": "s08c",
+  "image": "v6_s08c.png",
+  "script": "S08",
+  "move": "locked",
+  "prompt": "The man straightens up slowly and his head nearly touches the low ceiling; he bends his neck again. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s08c.mp4"
+ },
+ {
+  "id": "s09b",
+  "image": "v6_s09b.png",
+  "script": "S09",
+  "move": "locked",
+  "prompt": "Sunlight from the windows slides very slightly across the bare steel ribs; dust floats; nothing else moves. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s09b.mp4"
+ },
+ {
+  "id": "s09z",
+  "image": "v6_s09z.png",
+  "script": "S09",
+  "move": "locked",
+  "prompt": "The red heat glow enters the steel rib from the outer sheet and travels along it to the inner panel; the insulation beside it stays pale. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Clean bright 3D educational render, white-grey studio background. Keep the exact same bus shape, colours and layout as the image. No new objects, no arrows, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "save": "BUS\\clips_v6\\s09z.mp4"
+ },
+ {
+  "id": "s10b",
+  "image": "v6_s10b.png",
+  "script": "S10",
+  "move": "locked",
+  "prompt": "The hand lifts the cold bottle out of the fridge; a thin cold mist drifts from the shelf. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s10b.mp4"
+ },
+ {
+  "id": "s11c",
+  "image": "v6_s11c.png",
+  "script": "S11",
+  "move": "locked",
+  "prompt": "The fingertips slide on the wet steel rib; water droplets gather and a thin line of water runs down. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s11c.mp4"
+ },
+ {
+  "id": "s12b",
+  "image": "v6_s12b.png",
+  "script": "S12",
+  "move": "locked",
+  "prompt": "The spray foam slowly covers the steel rib and the metal skin beside it, expanding and filling the gap. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s12b.mp4"
+ },
+ {
+  "id": "s12c",
+  "image": "v6_s12c.png",
+  "script": "S12",
+  "move": "locked",
+  "prompt": "The sealant bead runs along the window gap; the roof vent fan spins steadily above. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s12c.mp4"
+ },
+ {
+  "id": "s13b",
+  "image": "v6_s13b.png",
+  "script": "S13",
+  "move": "locked",
+  "prompt": "The man sits up in bed, stretches his arms and turns toward the toilet door at the rear. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s13b.mp4"
+ },
+ {
+  "id": "s14c",
+  "image": "v6_s14c.png",
+  "script": "S14",
+  "move": "locked",
+  "prompt": "The woman rinses the steel plate under the thin trickle of water and puts it aside. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s14c.mp4"
+ },
+ {
+  "id": "s15c",
+  "image": "v6_s15c.png",
+  "script": "S15",
+  "move": "locked",
+  "prompt": "The hands push the water hose onto the pedestal and plug in the power cable; the cable settles. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s15c.mp4"
+ },
+ {
+  "id": "s16c",
+  "image": "v6_s16c.png",
+  "script": "S16",
+  "move": "locked",
+  "prompt": "Grass at the edge of the plot moves in the wind; the tap stand, manhole and pole stay still. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s16c.mp4"
+ },
+ {
+  "id": "s16d",
+  "image": "v6_s16d.png",
+  "script": "S16",
+  "move": "locked",
+  "prompt": "The man runs his pen down the bill, stops, and rubs his forehead. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s16d.mp4"
+ },
+ {
+  "id": "s18b",
+  "image": "v6_s18b.png",
+  "script": "S18",
+  "move": "locked",
+  "prompt": "The hand presses the rubber stamp onto the file and lifts it; the ceiling fan turns. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s18b.mp4"
+ },
+ {
+  "id": "s19b",
+  "image": "v6_s19b.png",
+  "script": "S19",
+  "move": "locked",
+  "prompt": "The man stirs the pot on the small stove; steam rises; dhaba lights glow behind. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s19b.mp4"
+ },
+ {
+  "id": "s20b",
+  "image": "v6_s20b.png",
+  "script": "S20",
+  "move": "locked",
+  "prompt": "The two mechanics lift the AC unit into place inside the van and fix it to the wall. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s20b.mp4"
+ },
+ {
+  "id": "s22b",
+  "image": "v6_s22b.png",
+  "script": "S22",
+  "move": "locked",
+  "prompt": "The white camper van drives through the frame from left to right past the checkpost arch. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s22b.mp4"
+ },
+ {
+  "id": "s22c",
+  "image": "v6_s22c.png",
+  "script": "S22",
+  "move": "locked",
+  "prompt": "The clerk slides the file back with a nod and the man takes it with both hands. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s22c.mp4"
+ },
+ {
+  "id": "s23b",
+  "image": "v6_s23b.png",
+  "script": "S23",
+  "move": "locked",
+  "prompt": "The ring light glows and the tripod stays still; leaves move behind the painted van. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s23b.mp4"
+ },
+ {
+  "id": "s23c",
+  "image": "v6_s23c.png",
+  "script": "S23",
+  "move": "locked",
+  "prompt": "The crowd at the gate pushes and shifts; the police officers hold their arms out to keep them back. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s23c.mp4"
+ },
+ {
+  "id": "s23d",
+  "image": "v6_s23d.png",
+  "script": "S23",
+  "move": "locked",
+  "prompt": "The padlocked gate stays shut; a police officer walks past slowly in the background. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s23d.mp4"
+ },
+ {
+  "id": "s24b",
+  "image": "v6_s24b.png",
+  "script": "S24",
+  "move": "locked",
+  "prompt": "The white caravan drives slowly through the gate; the guard raises the barrier. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s24b.mp4"
+ },
+ {
+  "id": "s24c",
+  "image": "v6_s24c.png",
+  "script": "S24",
+  "move": "locked",
+  "prompt": "Water drips once from the hose connector; the cables stay still; grass moves slightly. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s24c.mp4"
+ },
+ {
+  "id": "s24d",
+  "image": "v6_s24d.png",
+  "script": "S24",
+  "move": "locked",
+  "prompt": "An adult walks along the path past the three bins toward the toilet block; mist drifts on the hills. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s24d.mp4"
+ },
+ {
+  "id": "s26b",
+  "image": "v6_s26b.png",
+  "script": "S26",
+  "move": "slider left",
+  "prompt": "Car headlights pass behind the parked camper van; the curtains on its windows stay drawn. [slider left]. Movement: slide smoothly sideways to the left parallel to the subject. Speed: very slow, barely noticeable. Framing: keep the camper van centred in the middle 70%. End: settle on a still composition with the van centred. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s26b.mp4"
+ },
+ {
+  "id": "s26c",
+  "image": "v6_s26c.png",
+  "script": "S26",
+  "move": "locked",
+  "prompt": "The couple count the notes and put them down on the bill; one rubs the neck. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s26c.mp4"
+ },
+ {
+  "id": "s26d",
+  "image": "v6_s26d.png",
+  "script": "S26",
+  "move": "locked",
+  "prompt": "Droplets slide down the fogged windows of the bus; the hoses outside stay connected; leaves sway. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s26d.mp4"
+ },
+ {
+  "id": "s27b",
+  "image": "v6_s27b.png",
+  "script": "S27",
+  "move": "locked",
+  "prompt": "Seen from high above, trees sway gently and a few leaves move; the bus home and the fence stay still. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s27b.mp4"
+ },
+ {
+  "id": "s28b",
+  "image": "v6_s28b.png",
+  "script": "S28",
+  "move": "locked",
+  "prompt": "The window lights glow steadily; the clothesline moves gently in the evening breeze. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s28b.mp4"
+ }
+]
