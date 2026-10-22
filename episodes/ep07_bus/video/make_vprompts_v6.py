@@ -1,6 +1,6 @@
 """EP7 v6 추가 Muse 영상 프롬프트 (10초, 한 개씩). 이미지: images/prompts_v6.json을 Flow에서 검수 통과한 것.
 - 문구 틀·접미사는 make_vprompts_v5.py와 같다. "One single continuous camera movement" 문구 금지(video-camera §0).
-- 카메라: 기본 고정. 무빙은 s06c(slider right, 사람 없음), s26b(slider left, 차) 2개뿐 → 전체 80클립(v5 49 + 신규 31, m2~m5는 교체) 중 11개(약 14%).
+- 카메라: 기본 고정. 무빙은 s06c(slider right, 사람 없음), s26b(slider left, 차) 2개뿐 → 전체 신규 34 + 재생성 4 = 38개 중 무빙 2개. 편집 계획 v8 사용 클립 기준 비율은 shot_table_v8.md.
 - 3D(is3d=1)는 고정, 열·물·냉기만 움직임.
 결과: video/vprompts_v6.json"""
 import json
@@ -20,6 +20,7 @@ S=[
 ("m5","S02",None,"The police officer keeps pointing away; the man lowers his head and lifts the rolled mattress.",0),
 ("s03b","S03",None,"The buyer hands the bundle of notes to the official, who takes it and nods; other men lower their raised hands.",0),
 ("s06c","S06","slider right","Sunbeams through the windows stay bright on the bed and floor; dust drifts slowly in the light.",0),
+("s06d","S06",None,"The hand grabs the hot metal handrail and snaps back quickly; heat shimmer rises from the metal.",0),
 ("s08b","S08",None,"The worker presses one insulation panel into the gap between two steel ribs and smooths it with his palm.",0),
 ("s08c","S08",None,"The man straightens up slowly and his head nearly touches the low ceiling; he bends his neck again.",0),
 ("s09b","S09",None,"Sunlight from the windows slides very slightly across the bare steel ribs; dust floats; nothing else moves.",0),
@@ -36,11 +37,13 @@ S=[
 ("s18b","S18",None,"The hand presses the rubber stamp onto the file and lifts it; the ceiling fan turns.",0),
 ("s19b","S19",None,"The man stirs the pot on the small stove; steam rises; dhaba lights glow behind.",0),
 ("s20b","S20",None,"The two mechanics lift the AC unit into place inside the van and fix it to the wall.",0),
+("s21c","S21",None,"The hand turns the tap; a few last drops fall and then nothing; the hand turns the tap again.",0),
 ("s22b","S22",None,"The white camper van drives through the frame from left to right past the checkpost arch.",0),
 ("s22c","S22",None,"The clerk slides the file back with a nod and the man takes it with both hands.",0),
 ("s23b","S23",None,"The ring light glows and the tripod stays still; leaves move behind the painted van.",0),
 ("s23c","S23",None,"The crowd at the gate pushes and shifts; the police officers hold their arms out to keep them back.",0),
 ("s23d","S23",None,"The padlocked gate stays shut; a police officer walks past slowly in the background.",0),
+("s23e","S23",None,"The tow truck winch slowly pulls the painted van up onto the flatbed; the officer watches.",0),
 ("s24b","S24",None,"The white caravan drives slowly through the gate; the guard raises the barrier.",0),
 ("s24c","S24",None,"Water drips once from the hose connector; the cables stay still; grass moves slightly.",0),
 ("s24d","S24",None,"An adult walks along the path past the three bins toward the toilet block; mist drifts on the hills.",0),

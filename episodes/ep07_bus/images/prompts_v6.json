@@ -36,6 +36,12 @@
   "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Interior of the reference bus converted into a home at noon: harsh direct sunbeams pour through the long row of side windows onto the bed and floor, bright hot patches of light, dust floating in the beams, no people. Wide interior shot along the bus."
  },
  {
+  "id": "s06d",
+  "ref": "PB",
+  "line": "S06c 버스 손잡이도 뜨거움",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME retired Kerala KSRTC ordinary bus as the reference image: classic red-maroon body with one yellow band, rounded front, flat roof, long row of side windows, faded paint, no readable text, parked in harsh noon sun. Close shot of an adult's hand grabbing the shiny metal handrail at the open front door and snapping back, heat shimmer above the metal. Only hand and arm visible."
+ },
+ {
   "id": "s08b",
   "ref": "PB",
   "line": "S08 단열재 시공",
@@ -132,6 +138,12 @@
   "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME white Force Traveller high-roof camper van as the reference image, inside an Indian vehicle workshop with its side door open, two adult mechanics fitting a split AC unit and wood panels inside, tools on the floor. Medium-wide shot, faces small."
  },
  {
+  "id": "s21c",
+  "ref": "s20",
+  "line": "S21a 물탱크가 빔",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the same camper van interior: an adult's hand opens the tap at the small sink and only a few last drops fall, a translucent water tank under the counter is almost empty. Close-medium shot, only hand visible."
+ },
+ {
   "id": "s22b",
   "ref": "s19",
   "line": "S22 주 경계 고속도로",
@@ -160,6 +172,12 @@
   "ref": "s23",
   "line": "S23 압수 차량 보관소",
   "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME brightly custom-painted camper van as the reference image (colourful wild graphics, extra roof lights and LED bar), parked behind a closed and padlocked iron gate in a police vehicle yard among other seized vehicles, a police jeep beside it. Wide shot, bright day, no people close."
+ },
+ {
+  "id": "s23e",
+  "ref": "s23",
+  "line": "S23 견인되는 캠핑카",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME brightly custom-painted camper van as the reference image (colourful wild graphics, extra roof lights and LED bar), being pulled onto a flatbed tow truck on a Kerala road, a police officer at a distance watching. Wide shot, bright day, faces small, no readable text."
  },
  {
   "id": "s24b",

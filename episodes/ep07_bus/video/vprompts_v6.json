@@ -48,6 +48,14 @@
   "save": "BUS\\clips_v6\\s06c.mp4"
  },
  {
+  "id": "s06d",
+  "image": "v6_s06d.png",
+  "script": "S06",
+  "move": "locked",
+  "prompt": "The hand grabs the hot metal handrail and snaps back quickly; heat shimmer rises from the metal. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s06d.mp4"
+ },
+ {
   "id": "s08b",
   "image": "v6_s08b.png",
   "script": "S08",
@@ -176,6 +184,14 @@
   "save": "BUS\\clips_v6\\s20b.mp4"
  },
  {
+  "id": "s21c",
+  "image": "v6_s21c.png",
+  "script": "S21",
+  "move": "locked",
+  "prompt": "The hand turns the tap; a few last drops fall and then nothing; the hand turns the tap again. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s21c.mp4"
+ },
+ {
   "id": "s22b",
   "image": "v6_s22b.png",
   "script": "S22",
@@ -214,6 +230,14 @@
   "move": "locked",
   "prompt": "The padlocked gate stays shut; a police officer walks past slowly in the background. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
   "save": "BUS\\clips_v6\\s23d.mp4"
+ },
+ {
+  "id": "s23e",
+  "image": "v6_s23e.png",
+  "script": "S23",
+  "move": "locked",
+  "prompt": "The tow truck winch slowly pulls the painted van up onto the flatbed; the officer watches. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+  "save": "BUS\\clips_v6\\s23e.mp4"
  },
  {
   "id": "s24b",

@@ -1,0 +1,2784 @@
+{
+ "fps": 30,
+ "narration_sec": 403.544,
+ "video_sec": 404.544,
+ "cuts": [
+  {
+   "group": [
+    "S01a"
+   ],
+   "clip": "h1",
+   "out_f0": 0,
+   "out_f1": 70,
+   "dur": 2.333,
+   "src_start": 0,
+   "src_end": 2.333,
+   "src_f0": 0,
+   "src_f1": 70,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "(v5 도입 클립, 프롬프트 기록 없음)"
+  },
+  {
+   "group": [
+    "S02a"
+   ],
+   "clip": "h2",
+   "out_f0": 70,
+   "out_f1": 159,
+   "dur": 2.967,
+   "src_start": 0,
+   "src_end": 2.967,
+   "src_f0": 0,
+   "src_f1": 89,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "(v5 도입 클립, 프롬프트 기록 없음)"
+  },
+  {
+   "group": [
+    "S02a"
+   ],
+   "clip": "m1",
+   "out_f0": 159,
+   "out_f1": 249,
+   "dur": 3.0,
+   "src_start": 0,
+   "src_end": 3.0,
+   "src_f0": 0,
+   "src_f1": 90,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "(v5 도입 클립, 프롬프트 기록 없음)"
+  },
+  {
+   "group": [
+    "S02b"
+   ],
+   "clip": "m3s",
+   "out_f0": 249,
+   "out_f1": 315,
+   "dur": 2.2,
+   "src_start": 0,
+   "src_end": 2.2,
+   "src_f0": 0,
+   "src_f1": 66,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The man carrying the two buckets walks slowly away from the bus, turning his head aside; the small puddle stays under the bus."
+  },
+  {
+   "group": [
+    "S03a",
+    "S03b",
+    "S03c"
+   ],
+   "clip": "PB",
+   "out_f0": 315,
+   "out_f1": 390,
+   "dur": 2.5,
+   "src_start": 0,
+   "src_end": 2.5,
+   "src_f0": 0,
+   "src_f1": 75,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The retired red-maroon KSRTC bus stands still in the sunny scrapyard; palm leaves sway gently, light dust drifts."
+  },
+  {
+   "group": [
+    "S03a",
+    "S03b",
+    "S03c"
+   ],
+   "clip": "s03",
+   "out_f0": 390,
+   "out_f1": 465,
+   "dur": 2.5,
+   "src_start": 0,
+   "src_end": 2.5,
+   "src_f0": 0,
+   "src_f1": 75,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Retired KSRTC buses stand in a row; inspectors in the distance walk slowly along them."
+  },
+  {
+   "group": [
+    "S03a",
+    "S03b",
+    "S03c"
+   ],
+   "clip": "s03b",
+   "out_f0": 465,
+   "out_f1": 540,
+   "dur": 2.5,
+   "src_start": 0,
+   "src_end": 2.5,
+   "src_f0": 0,
+   "src_f1": 75,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The buyer hands the bundle of notes to the official, who takes it and nods; other men lower their raised hands."
+  },
+  {
+   "group": [
+    "S03a",
+    "S03b",
+    "S03c"
+   ],
+   "clip": "s03",
+   "out_f0": 540,
+   "out_f1": 615,
+   "dur": 2.5,
+   "src_start": 2.5,
+   "src_end": 5.0,
+   "src_f0": 75,
+   "src_f1": 150,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Retired KSRTC buses stand in a row; inspectors in the distance walk slowly along them."
+  },
+  {
+   "group": [
+    "S03a",
+    "S03b",
+    "S03c"
+   ],
+   "clip": "s03b",
+   "out_f0": 615,
+   "out_f1": 690,
+   "dur": 2.5,
+   "src_start": 2.5,
+   "src_end": 5.0,
+   "src_f0": 75,
+   "src_f1": 150,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The buyer hands the bundle of notes to the official, who takes it and nods; other men lower their raised hands."
+  },
+  {
+   "group": [
+    "S04a",
+    "S04b"
+   ],
+   "clip": "s04a",
+   "out_f0": 690,
+   "out_f1": 760,
+   "dur": 2.333,
+   "src_start": 0,
+   "src_end": 2.333,
+   "src_f0": 0,
+   "src_f1": 70,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "The yellow outline lines around the bus floor glow softly and pulse once; nothing else changes."
+  },
+  {
+   "group": [
+    "S04a",
+    "S04b"
+   ],
+   "clip": "M3",
+   "out_f0": 760,
+   "out_f1": 829,
+   "dur": 2.3,
+   "src_start": 0,
+   "src_end": 2.3,
+   "src_f0": 0,
+   "src_f1": 69,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The cut-away bus home stays still; soft light shifts slightly across the bed and kitchen."
+  },
+  {
+   "group": [
+    "S04a",
+    "S04b"
+   ],
+   "clip": "s04a",
+   "out_f0": 829,
+   "out_f1": 899,
+   "dur": 2.333,
+   "src_start": 2.333,
+   "src_end": 4.667,
+   "src_f0": 70,
+   "src_f1": 140,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "The yellow outline lines around the bus floor glow softly and pulse once; nothing else changes."
+  },
+  {
+   "group": [
+    "S04c",
+    "S04d"
+   ],
+   "clip": "s01",
+   "out_f0": 899,
+   "out_f1": 985,
+   "dur": 2.867,
+   "src_start": 0,
+   "src_end": 2.867,
+   "src_f0": 0,
+   "src_f1": 86,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Clothes on the line beside the bus flutter in a light breeze; palm leaves sway."
+  },
+  {
+   "group": [
+    "S04c",
+    "S04d"
+   ],
+   "clip": "s04b",
+   "out_f0": 985,
+   "out_f1": 1072,
+   "dur": 2.9,
+   "src_start": 0,
+   "src_end": 2.9,
+   "src_f0": 0,
+   "src_f1": 87,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Empty bus interior with seats removed; sunlight patches lie still on the floor, dust drifts in the light."
+  },
+  {
+   "group": [
+    "S04e"
+   ],
+   "clip": "s04c",
+   "out_f0": 1072,
+   "out_f1": 1141,
+   "dur": 2.3,
+   "src_start": 0,
+   "src_end": 2.3,
+   "src_f0": 0,
+   "src_f1": 69,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "On the crowded rental balcony the landlord and tenant talk with small gestures; washing on the line moves in the breeze."
+  },
+  {
+   "group": [
+    "S04e"
+   ],
+   "clip": "s01",
+   "out_f0": 1141,
+   "out_f1": 1211,
+   "dur": 2.333,
+   "src_start": 2.867,
+   "src_end": 5.2,
+   "src_f0": 86,
+   "src_f1": 156,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Clothes on the line beside the bus flutter in a light breeze; palm leaves sway."
+  },
+  {
+   "group": [
+    "S05a"
+   ],
+   "clip": "m2",
+   "out_f0": 1211,
+   "out_f1": 1279,
+   "dur": 2.267,
+   "src_start": 0,
+   "src_end": 2.267,
+   "src_f0": 0,
+   "src_f1": 68,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The sweating man fans himself faster and wipes his forehead; the table fan turns; heat shimmer rises above the roof."
+  },
+  {
+   "group": [
+    "S05a"
+   ],
+   "clip": "s02",
+   "out_f0": 1279,
+   "out_f1": 1346,
+   "dur": 2.233,
+   "src_start": 0,
+   "src_end": 2.233,
+   "src_f0": 0,
+   "src_f1": 67,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "The adult man sitting beside his bags slowly lowers his head and sighs; a light breeze moves the trees."
+  },
+  {
+   "group": [
+    "S06a",
+    "S06b"
+   ],
+   "clip": "s06b",
+   "out_f0": 1346,
+   "out_f1": 1437,
+   "dur": 3.033,
+   "src_start": 0,
+   "src_end": 3.033,
+   "src_f0": 0,
+   "src_f1": 91,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Orange heat glow flows from the sun into the roof and walls of the bus and spreads inside; the bus does not move."
+  },
+  {
+   "group": [
+    "S06a",
+    "S06b"
+   ],
+   "clip": "s09b",
+   "out_f0": 1437,
+   "out_f1": 1527,
+   "dur": 3.0,
+   "src_start": 0,
+   "src_end": 3.0,
+   "src_f0": 0,
+   "src_f1": 90,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "Sunlight from the windows slides very slightly across the bare steel ribs; dust floats; nothing else moves."
+  },
+  {
+   "group": [
+    "S06c"
+   ],
+   "clip": "s06a",
+   "out_f0": 1527,
+   "out_f1": 1592,
+   "dur": 2.167,
+   "src_start": 0,
+   "src_end": 2.167,
+   "src_f0": 0,
+   "src_f1": 65,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The hand touches the hot car door handle and snaps back quickly; heat shimmer rises from the metal."
+  },
+  {
+   "group": [
+    "S06c"
+   ],
+   "clip": "s06d",
+   "out_f0": 1592,
+   "out_f1": 1657,
+   "dur": 2.167,
+   "src_start": 0,
+   "src_end": 2.167,
+   "src_f0": 0,
+   "src_f1": 65,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The hand grabs the hot metal handrail and snaps back quickly; heat shimmer rises from the metal."
+  },
+  {
+   "group": [
+    "S06d",
+    "S06e"
+   ],
+   "clip": "s06b",
+   "out_f0": 1657,
+   "out_f1": 1735,
+   "dur": 2.6,
+   "src_start": 3.033,
+   "src_end": 5.633,
+   "src_f0": 91,
+   "src_f1": 169,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Orange heat glow flows from the sun into the roof and walls of the bus and spreads inside; the bus does not move."
+  },
+  {
+   "group": [
+    "S06d",
+    "S06e"
+   ],
+   "clip": "s06c",
+   "out_f0": 1735,
+   "out_f1": 1813,
+   "dur": 2.6,
+   "src_start": 0,
+   "src_end": 2.6,
+   "src_f0": 0,
+   "src_f1": 78,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "Sunbeams through the windows stay bright on the bed and floor; dust drifts slowly in the light."
+  },
+  {
+   "group": [
+    "S06d",
+    "S06e"
+   ],
+   "clip": "s06b",
+   "out_f0": 1813,
+   "out_f1": 1892,
+   "dur": 2.633,
+   "src_start": 5.633,
+   "src_end": 8.267,
+   "src_f0": 169,
+   "src_f1": 248,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Orange heat glow flows from the sun into the roof and walls of the bus and spreads inside; the bus does not move."
+  },
+  {
+   "group": [
+    "S07a"
+   ],
+   "clip": "s07a",
+   "out_f0": 1892,
+   "out_f1": 1956,
+   "dur": 2.133,
+   "src_start": 0,
+   "src_end": 2.133,
+   "src_f0": 0,
+   "src_f1": 64,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "The man lying in the hot bus fans himself slowly and wipes sweat; a small table fan turns."
+  },
+  {
+   "group": [
+    "S07a"
+   ],
+   "clip": "s06c",
+   "out_f0": 1956,
+   "out_f1": 2021,
+   "dur": 2.167,
+   "src_start": 2.6,
+   "src_end": 4.767,
+   "src_f0": 78,
+   "src_f1": 143,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "Sunbeams through the windows stay bright on the bed and floor; dust drifts slowly in the light."
+  },
+  {
+   "group": [
+    "S07b",
+    "S07c"
+   ],
+   "clip": "s07b",
+   "out_f0": 2021,
+   "out_f1": 2108,
+   "dur": 2.9,
+   "src_start": 0,
+   "src_end": 2.9,
+   "src_f0": 0,
+   "src_f1": 87,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "The outdoor AC unit fan spins and a yellow glow pulses along the power cable from the pole into the bus; orange heat keeps entering the roof."
+  },
+  {
+   "group": [
+    "S07b",
+    "S07c"
+   ],
+   "clip": "s07a",
+   "out_f0": 2108,
+   "out_f1": 2194,
+   "dur": 2.867,
+   "src_start": 2.133,
+   "src_end": 5.0,
+   "src_f0": 64,
+   "src_f1": 150,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "The man lying in the hot bus fans himself slowly and wipes sweat; a small table fan turns."
+  },
+  {
+   "group": [
+    "S07b",
+    "S07c"
+   ],
+   "clip": "s07b",
+   "out_f0": 2194,
+   "out_f1": 2281,
+   "dur": 2.9,
+   "src_start": 2.9,
+   "src_end": 5.8,
+   "src_f0": 87,
+   "src_f1": 174,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "The outdoor AC unit fan spins and a yellow glow pulses along the power cable from the pole into the bus; orange heat keeps entering the roof."
+  },
+  {
+   "group": [
+    "S08a",
+    "S08b"
+   ],
+   "clip": "s08b",
+   "out_f0": 2281,
+   "out_f1": 2367,
+   "dur": 2.867,
+   "src_start": 0,
+   "src_end": 2.867,
+   "src_f0": 0,
+   "src_f1": 86,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The worker presses one insulation panel into the gap between two steel ribs and smooths it with his palm."
+  },
+  {
+   "group": [
+    "S08c",
+    "S08d"
+   ],
+   "clip": "s08",
+   "out_f0": 2367,
+   "out_f1": 2455,
+   "dur": 2.933,
+   "src_start": 0,
+   "src_end": 2.933,
+   "src_f0": 0,
+   "src_f1": 88,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "The thick insulation layers in walls, ceiling and floor glow softly; the blue arrows already in the image move slightly inward and stop."
+  },
+  {
+   "group": [
+    "S08c",
+    "S08d"
+   ],
+   "clip": "s08b",
+   "out_f0": 2455,
+   "out_f1": 2544,
+   "dur": 2.967,
+   "src_start": 2.867,
+   "src_end": 5.833,
+   "src_f0": 86,
+   "src_f1": 175,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The worker presses one insulation panel into the gap between two steel ribs and smooths it with his palm."
+  },
+  {
+   "group": [
+    "S08c",
+    "S08d"
+   ],
+   "clip": "s08",
+   "out_f0": 2544,
+   "out_f1": 2633,
+   "dur": 2.967,
+   "src_start": 2.933,
+   "src_end": 5.9,
+   "src_f0": 88,
+   "src_f1": 177,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "The thick insulation layers in walls, ceiling and floor glow softly; the blue arrows already in the image move slightly inward and stop."
+  },
+  {
+   "group": [
+    "S08c",
+    "S08d"
+   ],
+   "clip": "s08c",
+   "out_f0": 2633,
+   "out_f1": 2722,
+   "dur": 2.967,
+   "src_start": 0,
+   "src_end": 2.967,
+   "src_f0": 0,
+   "src_f1": 89,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The man straightens up slowly and his head nearly touches the low ceiling; he bends his neck again."
+  },
+  {
+   "group": [
+    "S09a",
+    "S09b"
+   ],
+   "clip": "s09b",
+   "out_f0": 2722,
+   "out_f1": 2802,
+   "dur": 2.667,
+   "src_start": 3.0,
+   "src_end": 5.667,
+   "src_f0": 90,
+   "src_f1": 170,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "Sunlight from the windows slides very slightly across the bare steel ribs; dust floats; nothing else moves."
+  },
+  {
+   "group": [
+    "S09a",
+    "S09b"
+   ],
+   "clip": "s09",
+   "out_f0": 2802,
+   "out_f1": 2882,
+   "dur": 2.667,
+   "src_start": 0,
+   "src_end": 2.667,
+   "src_f0": 0,
+   "src_f1": 80,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Orange heat travels from the hot outer sheet along the steel beam through the insulation and glows at the inner wood; the insulation stays pale."
+  },
+  {
+   "group": [
+    "S09a",
+    "S09b"
+   ],
+   "clip": "s09b",
+   "out_f0": 2882,
+   "out_f1": 2962,
+   "dur": 2.667,
+   "src_start": 5.667,
+   "src_end": 8.333,
+   "src_f0": 170,
+   "src_f1": 250,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "Sunlight from the windows slides very slightly across the bare steel ribs; dust floats; nothing else moves."
+  },
+  {
+   "group": [
+    "S09c",
+    "S09d",
+    "S09e"
+   ],
+   "clip": "s09z",
+   "out_f0": 2962,
+   "out_f1": 3051,
+   "dur": 2.967,
+   "src_start": 0,
+   "src_end": 2.967,
+   "src_f0": 0,
+   "src_f1": 89,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s09",
+   "motion": "The red heat glow enters the steel rib from the outer sheet and travels along it to the inner panel; the insulation beside it stays pale."
+  },
+  {
+   "group": [
+    "S09c",
+    "S09d",
+    "S09e"
+   ],
+   "clip": "s09",
+   "out_f0": 3051,
+   "out_f1": 3139,
+   "dur": 2.933,
+   "src_start": 2.667,
+   "src_end": 5.6,
+   "src_f0": 80,
+   "src_f1": 168,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Orange heat travels from the hot outer sheet along the steel beam through the insulation and glows at the inner wood; the insulation stays pale."
+  },
+  {
+   "group": [
+    "S09c",
+    "S09d",
+    "S09e"
+   ],
+   "clip": "s09z",
+   "out_f0": 3139,
+   "out_f1": 3228,
+   "dur": 2.967,
+   "src_start": 2.967,
+   "src_end": 5.933,
+   "src_f0": 89,
+   "src_f1": 178,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s09",
+   "motion": "The red heat glow enters the steel rib from the outer sheet and travels along it to the inner panel; the insulation beside it stays pale."
+  },
+  {
+   "group": [
+    "S09c",
+    "S09d",
+    "S09e"
+   ],
+   "clip": "s09",
+   "out_f0": 3228,
+   "out_f1": 3316,
+   "dur": 2.933,
+   "src_start": 5.6,
+   "src_end": 8.533,
+   "src_f0": 168,
+   "src_f1": 256,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Orange heat travels from the hot outer sheet along the steel beam through the insulation and glows at the inner wood; the insulation stays pale."
+  },
+  {
+   "group": [
+    "S10a"
+   ],
+   "clip": "s09z",
+   "out_f0": 3316,
+   "out_f1": 3392,
+   "dur": 2.533,
+   "src_start": 5.933,
+   "src_end": 8.467,
+   "src_f0": 178,
+   "src_f1": 254,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s09",
+   "motion": "The red heat glow enters the steel rib from the outer sheet and travels along it to the inner panel; the insulation beside it stays pale."
+  },
+  {
+   "group": [
+    "S10b",
+    "S10c"
+   ],
+   "clip": "s10b",
+   "out_f0": 3392,
+   "out_f1": 3455,
+   "dur": 2.1,
+   "src_start": 0,
+   "src_end": 2.1,
+   "src_f0": 0,
+   "src_f1": 63,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "The hand lifts the cold bottle out of the fridge; a thin cold mist drifts from the shelf."
+  },
+  {
+   "group": [
+    "S10b",
+    "S10c"
+   ],
+   "clip": "s10",
+   "out_f0": 3455,
+   "out_f1": 3518,
+   "dur": 2.1,
+   "src_start": 0,
+   "src_end": 2.1,
+   "src_f0": 0,
+   "src_f1": 63,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Water droplets slowly form and grow on the cold metal bottle; a few slide down."
+  },
+  {
+   "group": [
+    "S10b",
+    "S10c"
+   ],
+   "clip": "s10b",
+   "out_f0": 3518,
+   "out_f1": 3581,
+   "dur": 2.1,
+   "src_start": 2.1,
+   "src_end": 4.2,
+   "src_f0": 63,
+   "src_f1": 126,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "The hand lifts the cold bottle out of the fridge; a thin cold mist drifts from the shelf."
+  },
+  {
+   "group": [
+    "S10b",
+    "S10c"
+   ],
+   "clip": "s10",
+   "out_f0": 3581,
+   "out_f1": 3643,
+   "dur": 2.067,
+   "src_start": 2.1,
+   "src_end": 4.167,
+   "src_f0": 63,
+   "src_f1": 125,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Water droplets slowly form and grow on the cold metal bottle; a few slide down."
+  },
+  {
+   "group": [
+    "S11a"
+   ],
+   "clip": "s11c",
+   "out_f0": 3643,
+   "out_f1": 3712,
+   "dur": 2.3,
+   "src_start": 0,
+   "src_end": 2.3,
+   "src_f0": 0,
+   "src_f1": 69,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The fingertips slide on the wet steel rib; water droplets gather and a thin line of water runs down."
+  },
+  {
+   "group": [
+    "S11b",
+    "S11c"
+   ],
+   "clip": "s11a",
+   "out_f0": 3712,
+   "out_f1": 3798,
+   "dur": 2.867,
+   "src_start": 0,
+   "src_end": 2.867,
+   "src_f0": 0,
+   "src_f1": 86,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s09",
+   "motion": "Cold blue spreads along the steel beam; water droplets form on it, grow, merge and drip into the small puddle."
+  },
+  {
+   "group": [
+    "S11b",
+    "S11c"
+   ],
+   "clip": "s11c",
+   "out_f0": 3798,
+   "out_f1": 3884,
+   "dur": 2.867,
+   "src_start": 2.3,
+   "src_end": 5.167,
+   "src_f0": 69,
+   "src_f1": 155,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The fingertips slide on the wet steel rib; water droplets gather and a thin line of water runs down."
+  },
+  {
+   "group": [
+    "S11b",
+    "S11c"
+   ],
+   "clip": "s11a",
+   "out_f0": 3884,
+   "out_f1": 3970,
+   "dur": 2.867,
+   "src_start": 2.867,
+   "src_end": 5.733,
+   "src_f0": 86,
+   "src_f1": 172,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s09",
+   "motion": "Cold blue spreads along the steel beam; water droplets form on it, grow, merge and drip into the small puddle."
+  },
+  {
+   "group": [
+    "S11b",
+    "S11c"
+   ],
+   "clip": "s11c",
+   "out_f0": 3970,
+   "out_f1": 4056,
+   "dur": 2.867,
+   "src_start": 5.167,
+   "src_end": 8.033,
+   "src_f0": 155,
+   "src_f1": 241,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The fingertips slide on the wet steel rib; water droplets gather and a thin line of water runs down."
+  },
+  {
+   "group": [
+    "S11d"
+   ],
+   "clip": "s11b",
+   "out_f0": 4056,
+   "out_f1": 4139,
+   "dur": 2.767,
+   "src_start": 0,
+   "src_end": 2.767,
+   "src_f0": 0,
+   "src_f1": 83,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Mould on the damp bus wall stays still; a drip of water slowly runs down the panel."
+  },
+  {
+   "group": [
+    "S11d"
+   ],
+   "clip": "s11a",
+   "out_f0": 4139,
+   "out_f1": 4222,
+   "dur": 2.767,
+   "src_start": 5.733,
+   "src_end": 8.5,
+   "src_f0": 172,
+   "src_f1": 255,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s09",
+   "motion": "Cold blue spreads along the steel beam; water droplets form on it, grow, merge and drip into the small puddle."
+  },
+  {
+   "group": [
+    "S12a"
+   ],
+   "clip": "s12b",
+   "out_f0": 4222,
+   "out_f1": 4295,
+   "dur": 2.433,
+   "src_start": 0,
+   "src_end": 2.433,
+   "src_f0": 0,
+   "src_f1": 73,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The spray foam slowly covers the steel rib and the metal skin beside it, expanding and filling the gap."
+  },
+  {
+   "group": [
+    "S12a"
+   ],
+   "clip": "s12",
+   "out_f0": 4295,
+   "out_f1": 4367,
+   "dur": 2.4,
+   "src_start": 0,
+   "src_end": 2.4,
+   "src_f0": 0,
+   "src_f1": 72,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s09",
+   "motion": "The green seals glow softly around the covered beam and fresh air flows out of the roof vent as a gentle shimmer."
+  },
+  {
+   "group": [
+    "S12a"
+   ],
+   "clip": "s12c",
+   "out_f0": 4367,
+   "out_f1": 4439,
+   "dur": 2.4,
+   "src_start": 0,
+   "src_end": 2.4,
+   "src_f0": 0,
+   "src_f1": 72,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The sealant bead runs along the window gap; the roof vent fan spins steadily above."
+  },
+  {
+   "group": [
+    "S12b"
+   ],
+   "clip": "s11b",
+   "out_f0": 4439,
+   "out_f1": 4515,
+   "dur": 2.533,
+   "src_start": 2.767,
+   "src_end": 5.3,
+   "src_f0": 83,
+   "src_f1": 159,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Mould on the damp bus wall stays still; a drip of water slowly runs down the panel."
+  },
+  {
+   "group": [
+    "S12b"
+   ],
+   "clip": "s12",
+   "out_f0": 4515,
+   "out_f1": 4590,
+   "dur": 2.5,
+   "src_start": 2.4,
+   "src_end": 4.9,
+   "src_f0": 72,
+   "src_f1": 147,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s09",
+   "motion": "The green seals glow softly around the covered beam and fresh air flows out of the roof vent as a gentle shimmer."
+  },
+  {
+   "group": [
+    "S12c"
+   ],
+   "clip": "s12b",
+   "out_f0": 4590,
+   "out_f1": 4667,
+   "dur": 2.567,
+   "src_start": 2.433,
+   "src_end": 5.0,
+   "src_f0": 73,
+   "src_f1": 150,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The spray foam slowly covers the steel rib and the metal skin beside it, expanding and filling the gap."
+  },
+  {
+   "group": [
+    "S12c"
+   ],
+   "clip": "s12c",
+   "out_f0": 4667,
+   "out_f1": 4744,
+   "dur": 2.567,
+   "src_start": 2.4,
+   "src_end": 4.967,
+   "src_f0": 72,
+   "src_f1": 149,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The sealant bead runs along the window gap; the roof vent fan spins steadily above."
+  },
+  {
+   "group": [
+    "S13a",
+    "S13b",
+    "S13c"
+   ],
+   "clip": "s13",
+   "out_f0": 4744,
+   "out_f1": 4834,
+   "dur": 3.0,
+   "src_start": 0,
+   "src_end": 3.0,
+   "src_f0": 0,
+   "src_f1": 90,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "In the finished bright bus room a curtain moves softly in the breeze; the adult in the distance walks slowly."
+  },
+  {
+   "group": [
+    "S13a",
+    "S13b",
+    "S13c"
+   ],
+   "clip": "s13b",
+   "out_f0": 4834,
+   "out_f1": 4924,
+   "dur": 3.0,
+   "src_start": 0,
+   "src_end": 3.0,
+   "src_f0": 0,
+   "src_f1": 90,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The man sits up in bed, stretches his arms and turns toward the toilet door at the rear."
+  },
+  {
+   "group": [
+    "S13a",
+    "S13b",
+    "S13c"
+   ],
+   "clip": "s13",
+   "out_f0": 4924,
+   "out_f1": 5014,
+   "dur": 3.0,
+   "src_start": 3.0,
+   "src_end": 6.0,
+   "src_f0": 90,
+   "src_f1": 180,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "In the finished bright bus room a curtain moves softly in the breeze; the adult in the distance walks slowly."
+  },
+  {
+   "group": [
+    "S13a",
+    "S13b",
+    "S13c"
+   ],
+   "clip": "s13b",
+   "out_f0": 5014,
+   "out_f1": 5104,
+   "dur": 3.0,
+   "src_start": 3.0,
+   "src_end": 6.0,
+   "src_f0": 90,
+   "src_f1": 180,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The man sits up in bed, stretches his arms and turns toward the toilet door at the rear."
+  },
+  {
+   "group": [
+    "S14a",
+    "S14b"
+   ],
+   "clip": "s14c",
+   "out_f0": 5104,
+   "out_f1": 5168,
+   "dur": 2.133,
+   "src_start": 0,
+   "src_end": 2.133,
+   "src_f0": 0,
+   "src_f1": 64,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The woman rinses the steel plate under the thin trickle of water and puts it aside."
+  },
+  {
+   "group": [
+    "S14a",
+    "S14b"
+   ],
+   "clip": "M3",
+   "out_f0": 5168,
+   "out_f1": 5232,
+   "dur": 2.133,
+   "src_start": 2.3,
+   "src_end": 4.433,
+   "src_f0": 69,
+   "src_f1": 133,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The cut-away bus home stays still; soft light shifts slightly across the bed and kitchen."
+  },
+  {
+   "group": [
+    "S14a",
+    "S14b"
+   ],
+   "clip": "s14a",
+   "out_f0": 5232,
+   "out_f1": 5296,
+   "dur": 2.133,
+   "src_start": 3,
+   "src_end": 5.133,
+   "src_f0": 90,
+   "src_f1": 154,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Blue water level in the fresh tank slowly drops while the brown level in the waste tank slowly rises."
+  },
+  {
+   "group": [
+    "S14c"
+   ],
+   "clip": "s14b",
+   "out_f0": 5296,
+   "out_f1": 5366,
+   "dur": 2.333,
+   "src_start": 3,
+   "src_end": 5.333,
+   "src_f0": 90,
+   "src_f1": 160,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s14a",
+   "motion": "The empty blue tank stays empty and the brimming brown tank bubbles slightly at the top."
+  },
+  {
+   "group": [
+    "S14c"
+   ],
+   "clip": "s14a",
+   "out_f0": 5366,
+   "out_f1": 5435,
+   "dur": 2.3,
+   "src_start": 5.133,
+   "src_end": 7.433,
+   "src_f0": 154,
+   "src_f1": 223,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Blue water level in the fresh tank slowly drops while the brown level in the waste tank slowly rises."
+  },
+  {
+   "group": [
+    "S14c"
+   ],
+   "clip": "s14b",
+   "out_f0": 5435,
+   "out_f1": 5504,
+   "dur": 2.3,
+   "src_start": 5.333,
+   "src_end": 7.633,
+   "src_f0": 160,
+   "src_f1": 229,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s14a",
+   "motion": "The empty blue tank stays empty and the brimming brown tank bubbles slightly at the top."
+  },
+  {
+   "group": [
+    "S14d"
+   ],
+   "clip": "s14c",
+   "out_f0": 5504,
+   "out_f1": 5581,
+   "dur": 2.567,
+   "src_start": 2.133,
+   "src_end": 4.7,
+   "src_f0": 64,
+   "src_f1": 141,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The woman rinses the steel plate under the thin trickle of water and puts it aside."
+  },
+  {
+   "group": [
+    "S14d"
+   ],
+   "clip": "M3",
+   "out_f0": 5581,
+   "out_f1": 5657,
+   "dur": 2.533,
+   "src_start": 4.433,
+   "src_end": 6.967,
+   "src_f0": 133,
+   "src_f1": 209,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The cut-away bus home stays still; soft light shifts slightly across the bed and kitchen."
+  },
+  {
+   "group": [
+    "S15a"
+   ],
+   "clip": "s15c",
+   "out_f0": 5657,
+   "out_f1": 5723,
+   "dur": 2.2,
+   "src_start": 0,
+   "src_end": 2.2,
+   "src_f0": 0,
+   "src_f1": 66,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s24",
+   "motion": "The hands push the water hose onto the pedestal and plug in the power cable; the cable settles."
+  },
+  {
+   "group": [
+    "S15a"
+   ],
+   "clip": "s15a",
+   "out_f0": 5723,
+   "out_f1": 5789,
+   "dur": 2.2,
+   "src_start": 5,
+   "src_end": 7.2,
+   "src_f0": 150,
+   "src_f1": 216,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Blue water flows in, brown waste flows out and a yellow glow travels along the cable between the bus and the service post."
+  },
+  {
+   "group": [
+    "S15a"
+   ],
+   "clip": "s15c",
+   "out_f0": 5789,
+   "out_f1": 5855,
+   "dur": 2.2,
+   "src_start": 2.2,
+   "src_end": 4.4,
+   "src_f0": 66,
+   "src_f1": 132,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s24",
+   "motion": "The hands push the water hose onto the pedestal and plug in the power cable; the cable settles."
+  },
+  {
+   "group": [
+    "S15b",
+    "S15c"
+   ],
+   "clip": "s15b",
+   "out_f0": 5855,
+   "out_f1": 5934,
+   "dur": 2.633,
+   "src_start": 0,
+   "src_end": 2.633,
+   "src_f0": 0,
+   "src_f1": 79,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Sun rays hit the roof solar panels and a thin yellow glow runs to the bus, then a stronger yellow glow comes from the outside power post."
+  },
+  {
+   "group": [
+    "S15b",
+    "S15c"
+   ],
+   "clip": "s07b",
+   "out_f0": 5934,
+   "out_f1": 6013,
+   "dur": 2.633,
+   "src_start": 5.8,
+   "src_end": 8.433,
+   "src_f0": 174,
+   "src_f1": 253,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "The outdoor AC unit fan spins and a yellow glow pulses along the power cable from the pole into the bus; orange heat keeps entering the roof."
+  },
+  {
+   "group": [
+    "S15b",
+    "S15c"
+   ],
+   "clip": "s15b",
+   "out_f0": 6013,
+   "out_f1": 6092,
+   "dur": 2.633,
+   "src_start": 2.633,
+   "src_end": 5.267,
+   "src_f0": 79,
+   "src_f1": 158,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Sun rays hit the roof solar panels and a thin yellow glow runs to the bus, then a stronger yellow glow comes from the outside power post."
+  },
+  {
+   "group": [
+    "S15b",
+    "S15c"
+   ],
+   "clip": "s15c",
+   "out_f0": 6092,
+   "out_f1": 6171,
+   "dur": 2.633,
+   "src_start": 4.4,
+   "src_end": 7.033,
+   "src_f0": 132,
+   "src_f1": 211,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s24",
+   "motion": "The hands push the water hose onto the pedestal and plug in the power cable; the cable settles."
+  },
+  {
+   "group": [
+    "S16a",
+    "S16b"
+   ],
+   "clip": "s15a",
+   "out_f0": 6171,
+   "out_f1": 6253,
+   "dur": 2.733,
+   "src_start": 7.2,
+   "src_end": 9.933,
+   "src_f0": 216,
+   "src_f1": 298,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Blue water flows in, brown waste flows out and a yellow glow travels along the cable between the bus and the service post."
+  },
+  {
+   "group": [
+    "S16a",
+    "S16b"
+   ],
+   "clip": "s16a",
+   "out_f0": 6253,
+   "out_f1": 6335,
+   "dur": 2.733,
+   "src_start": 0,
+   "src_end": 2.733,
+   "src_f0": 0,
+   "src_f1": 82,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s15a",
+   "motion": "Blue, brown and yellow lines under the ground glow and flow between the plot and the bus; the fence and bus stay still."
+  },
+  {
+   "group": [
+    "S16c"
+   ],
+   "clip": "s16c",
+   "out_f0": 6335,
+   "out_f1": 6403,
+   "dur": 2.267,
+   "src_start": 0,
+   "src_end": 2.267,
+   "src_f0": 0,
+   "src_f1": 68,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "Grass at the edge of the plot moves in the wind; the tap stand, manhole and pole stay still."
+  },
+  {
+   "group": [
+    "S16c"
+   ],
+   "clip": "s16a",
+   "out_f0": 6403,
+   "out_f1": 6471,
+   "dur": 2.267,
+   "src_start": 2.733,
+   "src_end": 5.0,
+   "src_f0": 82,
+   "src_f1": 150,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s15a",
+   "motion": "Blue, brown and yellow lines under the ground glow and flow between the plot and the bus; the fence and bus stay still."
+  },
+  {
+   "group": [
+    "S16d"
+   ],
+   "clip": "s16d",
+   "out_f0": 6471,
+   "out_f1": 6540,
+   "dur": 2.3,
+   "src_start": 0,
+   "src_end": 2.3,
+   "src_f0": 0,
+   "src_f1": 69,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "The man runs his pen down the bill, stops, and rubs his forehead."
+  },
+  {
+   "group": [
+    "S16d"
+   ],
+   "clip": "s16b",
+   "out_f0": 6540,
+   "out_f1": 6608,
+   "dur": 2.267,
+   "src_start": 0,
+   "src_end": 2.267,
+   "src_f0": 0,
+   "src_f1": 68,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Traffic passes in the background; a scooter rides by slowly behind the parked bus."
+  },
+  {
+   "group": [
+    "S16d"
+   ],
+   "clip": "s16d",
+   "out_f0": 6608,
+   "out_f1": 6676,
+   "dur": 2.267,
+   "src_start": 2.3,
+   "src_end": 4.567,
+   "src_f0": 69,
+   "src_f1": 137,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "The man runs his pen down the bill, stops, and rubs his forehead."
+  },
+  {
+   "group": [
+    "S17a",
+    "S17b"
+   ],
+   "clip": "s16b",
+   "out_f0": 6676,
+   "out_f1": 6738,
+   "dur": 2.067,
+   "src_start": 2.267,
+   "src_end": 4.333,
+   "src_f0": 68,
+   "src_f1": 130,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Traffic passes in the background; a scooter rides by slowly behind the parked bus."
+  },
+  {
+   "group": [
+    "S17a",
+    "S17b"
+   ],
+   "clip": "s17a",
+   "out_f0": 6738,
+   "out_f1": 6800,
+   "dur": 2.067,
+   "src_start": 0,
+   "src_end": 2.067,
+   "src_f0": 0,
+   "src_f1": 62,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "The traffic police officer walks toward the bus; clothes on the bus side flutter; autos pass."
+  },
+  {
+   "group": [
+    "S17c"
+   ],
+   "clip": "s17b",
+   "out_f0": 6800,
+   "out_f1": 6884,
+   "dur": 2.8,
+   "src_start": 0,
+   "src_end": 2.8,
+   "src_f0": 0,
+   "src_f1": 84,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The fountain plays, small figures walk on the paths, flags move gently."
+  },
+  {
+   "group": [
+    "S17c"
+   ],
+   "clip": "s18b",
+   "out_f0": 6884,
+   "out_f1": 6968,
+   "dur": 2.8,
+   "src_start": 0,
+   "src_end": 2.8,
+   "src_f0": 0,
+   "src_f1": 84,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "The hand presses the rubber stamp onto the file and lifts it; the ceiling fan turns."
+  },
+  {
+   "group": [
+    "S17c"
+   ],
+   "clip": "s17b",
+   "out_f0": 6968,
+   "out_f1": 7052,
+   "dur": 2.8,
+   "src_start": 2.8,
+   "src_end": 5.6,
+   "src_f0": 84,
+   "src_f1": 168,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The fountain plays, small figures walk on the paths, flags move gently."
+  },
+  {
+   "group": [
+    "S17c"
+   ],
+   "clip": "s18b",
+   "out_f0": 7052,
+   "out_f1": 7136,
+   "dur": 2.8,
+   "src_start": 2.8,
+   "src_end": 5.6,
+   "src_f0": 84,
+   "src_f1": 168,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "The hand presses the rubber stamp onto the file and lifts it; the ceiling fan turns."
+  },
+  {
+   "group": [
+    "S17d"
+   ],
+   "clip": "s17a",
+   "out_f0": 7136,
+   "out_f1": 7205,
+   "dur": 2.3,
+   "src_start": 2.067,
+   "src_end": 4.367,
+   "src_f0": 62,
+   "src_f1": 131,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "The traffic police officer walks toward the bus; clothes on the bus side flutter; autos pass."
+  },
+  {
+   "group": [
+    "S17d"
+   ],
+   "clip": "s16b",
+   "out_f0": 7205,
+   "out_f1": 7275,
+   "dur": 2.333,
+   "src_start": 4.333,
+   "src_end": 6.667,
+   "src_f0": 130,
+   "src_f1": 200,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Traffic passes in the background; a scooter rides by slowly behind the parked bus."
+  },
+  {
+   "group": [
+    "S17d"
+   ],
+   "clip": "s17a",
+   "out_f0": 7275,
+   "out_f1": 7344,
+   "dur": 2.3,
+   "src_start": 4.367,
+   "src_end": 6.667,
+   "src_f0": 131,
+   "src_f1": 200,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "The traffic police officer walks toward the bus; clothes on the bus side flutter; autos pass."
+  },
+  {
+   "group": [
+    "S18a"
+   ],
+   "clip": "s16c",
+   "out_f0": 7344,
+   "out_f1": 7405,
+   "dur": 2.033,
+   "src_start": 2.267,
+   "src_end": 4.3,
+   "src_f0": 68,
+   "src_f1": 129,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "Grass at the edge of the plot moves in the wind; the tap stand, manhole and pole stay still."
+  },
+  {
+   "group": [
+    "S18a"
+   ],
+   "clip": "s18",
+   "out_f0": 7405,
+   "out_f1": 7467,
+   "dur": 2.067,
+   "src_start": 0,
+   "src_end": 2.067,
+   "src_f0": 0,
+   "src_f1": 62,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s16a",
+   "motion": "The floating document with red stamp sways slightly and the padlock on the gate glints; nothing else moves."
+  },
+  {
+   "group": [
+    "S18a"
+   ],
+   "clip": "s18b",
+   "out_f0": 7467,
+   "out_f1": 7528,
+   "dur": 2.033,
+   "src_start": 5.6,
+   "src_end": 7.633,
+   "src_f0": 168,
+   "src_f1": 229,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "The hand presses the rubber stamp onto the file and lifts it; the ceiling fan turns."
+  },
+  {
+   "group": [
+    "S18b"
+   ],
+   "clip": "s05",
+   "out_f0": 7528,
+   "out_f1": 7605,
+   "dur": 2.567,
+   "src_start": 0,
+   "src_end": 2.567,
+   "src_f0": 0,
+   "src_f1": 77,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "The man in front of the bus home scratches his head and looks around; clothes flutter, leaves sway."
+  },
+  {
+   "group": [
+    "S19a"
+   ],
+   "clip": "s19",
+   "out_f0": 7605,
+   "out_f1": 7669,
+   "dur": 2.133,
+   "src_start": 0,
+   "src_end": 2.133,
+   "src_f0": 0,
+   "src_f1": 64,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The couple set up folding chairs beside the white camper van; trees move in the wind."
+  },
+  {
+   "group": [
+    "S19a"
+   ],
+   "clip": "s19b",
+   "out_f0": 7669,
+   "out_f1": 7733,
+   "dur": 2.133,
+   "src_start": 0,
+   "src_end": 2.133,
+   "src_f0": 0,
+   "src_f1": 64,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "The man stirs the pot on the small stove; steam rises; dhaba lights glow behind."
+  },
+  {
+   "group": [
+    "S19a"
+   ],
+   "clip": "s19",
+   "out_f0": 7733,
+   "out_f1": 7796,
+   "dur": 2.1,
+   "src_start": 2.133,
+   "src_end": 4.233,
+   "src_f0": 64,
+   "src_f1": 127,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The couple set up folding chairs beside the white camper van; trees move in the wind."
+  },
+  {
+   "group": [
+    "S20a"
+   ],
+   "clip": "s20",
+   "out_f0": 7796,
+   "out_f1": 7885,
+   "dur": 2.967,
+   "src_start": 0,
+   "src_end": 2.967,
+   "src_f0": 0,
+   "src_f1": 89,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s19",
+   "motion": "Inside the camper the woman cooks at the small sink and the man sorts bags; curtains move slightly."
+  },
+  {
+   "group": [
+    "S20a"
+   ],
+   "clip": "s20b",
+   "out_f0": 7885,
+   "out_f1": 7974,
+   "dur": 2.967,
+   "src_start": 0,
+   "src_end": 2.967,
+   "src_f0": 0,
+   "src_f1": 89,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s19",
+   "motion": "The two mechanics lift the AC unit into place inside the van and fix it to the wall."
+  },
+  {
+   "group": [
+    "S20b",
+    "S20c"
+   ],
+   "clip": "s20",
+   "out_f0": 7974,
+   "out_f1": 8062,
+   "dur": 2.933,
+   "src_start": 2.967,
+   "src_end": 5.9,
+   "src_f0": 89,
+   "src_f1": 177,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s19",
+   "motion": "Inside the camper the woman cooks at the small sink and the man sorts bags; curtains move slightly."
+  },
+  {
+   "group": [
+    "S20b",
+    "S20c"
+   ],
+   "clip": "s20b",
+   "out_f0": 8062,
+   "out_f1": 8151,
+   "dur": 2.967,
+   "src_start": 2.967,
+   "src_end": 5.933,
+   "src_f0": 89,
+   "src_f1": 178,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s19",
+   "motion": "The two mechanics lift the AC unit into place inside the van and fix it to the wall."
+  },
+  {
+   "group": [
+    "S20b",
+    "S20c"
+   ],
+   "clip": "s20",
+   "out_f0": 8151,
+   "out_f1": 8239,
+   "dur": 2.933,
+   "src_start": 5.9,
+   "src_end": 8.833,
+   "src_f0": 177,
+   "src_f1": 265,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s19",
+   "motion": "Inside the camper the woman cooks at the small sink and the man sorts bags; curtains move slightly."
+  },
+  {
+   "group": [
+    "S21a"
+   ],
+   "clip": "s21a",
+   "out_f0": 8239,
+   "out_f1": 8320,
+   "dur": 2.7,
+   "src_start": 0,
+   "src_end": 2.7,
+   "src_f0": 0,
+   "src_f1": 81,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s19",
+   "motion": "The man pumps the hand pump and water pours into the plastic can."
+  },
+  {
+   "group": [
+    "S21a"
+   ],
+   "clip": "s21c",
+   "out_f0": 8320,
+   "out_f1": 8402,
+   "dur": 2.733,
+   "src_start": 0,
+   "src_end": 2.733,
+   "src_f0": 0,
+   "src_f1": 82,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s20",
+   "motion": "The hand turns the tap; a few last drops fall and then nothing; the hand turns the tap again."
+  },
+  {
+   "group": [
+    "S21b",
+    "S21c"
+   ],
+   "clip": "s21b",
+   "out_f0": 8402,
+   "out_f1": 8470,
+   "dur": 2.267,
+   "src_start": 0,
+   "src_end": 2.267,
+   "src_f0": 0,
+   "src_f1": 68,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s19",
+   "motion": "The white camper van rolls slowly into the hotel parking while the guard waves it in."
+  },
+  {
+   "group": [
+    "S21b",
+    "S21c"
+   ],
+   "clip": "s26b",
+   "out_f0": 8470,
+   "out_f1": 8538,
+   "dur": 2.267,
+   "src_start": 0,
+   "src_end": 2.267,
+   "src_f0": 0,
+   "src_f1": 68,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s19",
+   "motion": "Car headlights pass behind the parked camper van; the curtains on its windows stay drawn."
+  },
+  {
+   "group": [
+    "S21b",
+    "S21c"
+   ],
+   "clip": "s21b",
+   "out_f0": 8538,
+   "out_f1": 8606,
+   "dur": 2.267,
+   "src_start": 2.267,
+   "src_end": 4.533,
+   "src_f0": 68,
+   "src_f1": 136,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s19",
+   "motion": "The white camper van rolls slowly into the hotel parking while the guard waves it in."
+  },
+  {
+   "group": [
+    "S21b",
+    "S21c"
+   ],
+   "clip": "s26b",
+   "out_f0": 8606,
+   "out_f1": 8675,
+   "dur": 2.3,
+   "src_start": 2.267,
+   "src_end": 4.567,
+   "src_f0": 68,
+   "src_f1": 137,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s19",
+   "motion": "Car headlights pass behind the parked camper van; the curtains on its windows stay drawn."
+  },
+  {
+   "group": [
+    "S22a",
+    "S22b"
+   ],
+   "clip": "s22",
+   "out_f0": 8675,
+   "out_f1": 8749,
+   "dur": 2.467,
+   "src_start": 0,
+   "src_end": 2.467,
+   "src_f0": 0,
+   "src_f1": 74,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The clerk shakes his head and pushes the file back; the queue shuffles, ceiling fans turn."
+  },
+  {
+   "group": [
+    "S22a",
+    "S22b"
+   ],
+   "clip": "s22b",
+   "out_f0": 8749,
+   "out_f1": 8823,
+   "dur": 2.467,
+   "src_start": 0,
+   "src_end": 2.467,
+   "src_f0": 0,
+   "src_f1": 74,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s19",
+   "motion": "The white camper van drives through the frame from left to right past the checkpost arch."
+  },
+  {
+   "group": [
+    "S22a",
+    "S22b"
+   ],
+   "clip": "s22",
+   "out_f0": 8823,
+   "out_f1": 8897,
+   "dur": 2.467,
+   "src_start": 2.467,
+   "src_end": 4.933,
+   "src_f0": 74,
+   "src_f1": 148,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The clerk shakes his head and pushes the file back; the queue shuffles, ceiling fans turn."
+  },
+  {
+   "group": [
+    "S22a",
+    "S22b"
+   ],
+   "clip": "s22b",
+   "out_f0": 8897,
+   "out_f1": 8971,
+   "dur": 2.467,
+   "src_start": 2.467,
+   "src_end": 4.933,
+   "src_f0": 74,
+   "src_f1": 148,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s19",
+   "motion": "The white camper van drives through the frame from left to right past the checkpost arch."
+  },
+  {
+   "group": [
+    "S22c"
+   ],
+   "clip": "s22",
+   "out_f0": 8971,
+   "out_f1": 9057,
+   "dur": 2.867,
+   "src_start": 4.933,
+   "src_end": 7.8,
+   "src_f0": 148,
+   "src_f1": 234,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The clerk shakes his head and pushes the file back; the queue shuffles, ceiling fans turn."
+  },
+  {
+   "group": [
+    "S22c"
+   ],
+   "clip": "s22c",
+   "out_f0": 9057,
+   "out_f1": 9142,
+   "dur": 2.833,
+   "src_start": 0,
+   "src_end": 2.833,
+   "src_f0": 0,
+   "src_f1": 85,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s22",
+   "motion": "The clerk slides the file back with a nod and the man takes it with both hands."
+  },
+  {
+   "group": [
+    "S23a"
+   ],
+   "clip": "s23b",
+   "out_f0": 9142,
+   "out_f1": 9204,
+   "dur": 2.067,
+   "src_start": 0,
+   "src_end": 2.067,
+   "src_f0": 0,
+   "src_f1": 62,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s23",
+   "motion": "The ring light glows and the tripod stays still; leaves move behind the painted van."
+  },
+  {
+   "group": [
+    "S23a"
+   ],
+   "clip": "s23",
+   "out_f0": 9204,
+   "out_f1": 9266,
+   "dur": 2.067,
+   "src_start": 0,
+   "src_end": 2.067,
+   "src_f0": 0,
+   "src_f1": 62,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Police officers stand around the painted van; one walks around it writing; the crowd at the gate murmurs and shifts."
+  },
+  {
+   "group": [
+    "S23b"
+   ],
+   "clip": "s23b",
+   "out_f0": 9266,
+   "out_f1": 9348,
+   "dur": 2.733,
+   "src_start": 2.067,
+   "src_end": 4.8,
+   "src_f0": 62,
+   "src_f1": 144,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s23",
+   "motion": "The ring light glows and the tripod stays still; leaves move behind the painted van."
+  },
+  {
+   "group": [
+    "S23b"
+   ],
+   "clip": "s23",
+   "out_f0": 9348,
+   "out_f1": 9429,
+   "dur": 2.7,
+   "src_start": 2.067,
+   "src_end": 4.767,
+   "src_f0": 62,
+   "src_f1": 143,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Police officers stand around the painted van; one walks around it writing; the crowd at the gate murmurs and shifts."
+  },
+  {
+   "group": [
+    "S23b"
+   ],
+   "clip": "s23e",
+   "out_f0": 9429,
+   "out_f1": 9511,
+   "dur": 2.733,
+   "src_start": 0,
+   "src_end": 2.733,
+   "src_f0": 0,
+   "src_f1": 82,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s23",
+   "motion": "The tow truck winch slowly pulls the painted van up onto the flatbed; the officer watches."
+  },
+  {
+   "group": [
+    "S23b"
+   ],
+   "clip": "s23",
+   "out_f0": 9511,
+   "out_f1": 9593,
+   "dur": 2.733,
+   "src_start": 4.767,
+   "src_end": 7.5,
+   "src_f0": 143,
+   "src_f1": 225,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Police officers stand around the painted van; one walks around it writing; the crowd at the gate murmurs and shifts."
+  },
+  {
+   "group": [
+    "S23c"
+   ],
+   "clip": "s23c",
+   "out_f0": 9593,
+   "out_f1": 9653,
+   "dur": 2.0,
+   "src_start": 0,
+   "src_end": 2.0,
+   "src_f0": 0,
+   "src_f1": 60,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s23",
+   "motion": "The crowd at the gate pushes and shifts; the police officers hold their arms out to keep them back."
+  },
+  {
+   "group": [
+    "S23c"
+   ],
+   "clip": "s23d",
+   "out_f0": 9653,
+   "out_f1": 9713,
+   "dur": 2.0,
+   "src_start": 0,
+   "src_end": 2.0,
+   "src_f0": 0,
+   "src_f1": 60,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s23",
+   "motion": "The padlocked gate stays shut; a police officer walks past slowly in the background."
+  },
+  {
+   "group": [
+    "S23d"
+   ],
+   "clip": "s18",
+   "out_f0": 9713,
+   "out_f1": 9799,
+   "dur": 2.867,
+   "src_start": 2.067,
+   "src_end": 4.933,
+   "src_f0": 62,
+   "src_f1": 148,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s16a",
+   "motion": "The floating document with red stamp sways slightly and the padlock on the gate glints; nothing else moves."
+  },
+  {
+   "group": [
+    "S23d"
+   ],
+   "clip": "s23d",
+   "out_f0": 9799,
+   "out_f1": 9885,
+   "dur": 2.867,
+   "src_start": 2.0,
+   "src_end": 4.867,
+   "src_f0": 60,
+   "src_f1": 146,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s23",
+   "motion": "The padlocked gate stays shut; a police officer walks past slowly in the background."
+  },
+  {
+   "group": [
+    "S23d"
+   ],
+   "clip": "s23e",
+   "out_f0": 9885,
+   "out_f1": 9970,
+   "dur": 2.833,
+   "src_start": 2.733,
+   "src_end": 5.567,
+   "src_f0": 82,
+   "src_f1": 167,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s23",
+   "motion": "The tow truck winch slowly pulls the painted van up onto the flatbed; the officer watches."
+  },
+  {
+   "group": [
+    "S24a",
+    "S24b"
+   ],
+   "clip": "s24",
+   "out_f0": 9970,
+   "out_f1": 10048,
+   "dur": 2.6,
+   "src_start": 0,
+   "src_end": 2.6,
+   "src_f0": 0,
+   "src_f1": 78,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Caravans parked on pads with hoses connected; a person walks to the toilet block; mist drifts on the hills."
+  },
+  {
+   "group": [
+    "S24a",
+    "S24b"
+   ],
+   "clip": "s24b",
+   "out_f0": 10048,
+   "out_f1": 10125,
+   "dur": 2.567,
+   "src_start": 0,
+   "src_end": 2.567,
+   "src_f0": 0,
+   "src_f1": 77,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s24",
+   "motion": "The white caravan drives slowly through the gate; the guard raises the barrier."
+  },
+  {
+   "group": [
+    "S24a",
+    "S24b"
+   ],
+   "clip": "s24",
+   "out_f0": 10125,
+   "out_f1": 10202,
+   "dur": 2.567,
+   "src_start": 2.6,
+   "src_end": 5.167,
+   "src_f0": 78,
+   "src_f1": 155,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Caravans parked on pads with hoses connected; a person walks to the toilet block; mist drifts on the hills."
+  },
+  {
+   "group": [
+    "S24c"
+   ],
+   "clip": "s24c",
+   "out_f0": 10202,
+   "out_f1": 10292,
+   "dur": 3.0,
+   "src_start": 0,
+   "src_end": 3.0,
+   "src_f0": 0,
+   "src_f1": 90,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s24",
+   "motion": "Water drips once from the hose connector; the cables stay still; grass moves slightly."
+  },
+  {
+   "group": [
+    "S24c"
+   ],
+   "clip": "s24b",
+   "out_f0": 10292,
+   "out_f1": 10381,
+   "dur": 2.967,
+   "src_start": 2.567,
+   "src_end": 5.533,
+   "src_f0": 77,
+   "src_f1": 166,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s24",
+   "motion": "The white caravan drives slowly through the gate; the guard raises the barrier."
+  },
+  {
+   "group": [
+    "S24c"
+   ],
+   "clip": "s24d",
+   "out_f0": 10381,
+   "out_f1": 10470,
+   "dur": 2.967,
+   "src_start": 0,
+   "src_end": 2.967,
+   "src_f0": 0,
+   "src_f1": 89,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s24",
+   "motion": "An adult walks along the path past the three bins toward the toilet block; mist drifts on the hills."
+  },
+  {
+   "group": [
+    "S24c"
+   ],
+   "clip": "s24c",
+   "out_f0": 10470,
+   "out_f1": 10560,
+   "dur": 3.0,
+   "src_start": 3.0,
+   "src_end": 6.0,
+   "src_f0": 90,
+   "src_f1": 180,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s24",
+   "motion": "Water drips once from the hose connector; the cables stay still; grass moves slightly."
+  },
+  {
+   "group": [
+    "S24d",
+    "S24e"
+   ],
+   "clip": "s24",
+   "out_f0": 10560,
+   "out_f1": 10649,
+   "dur": 2.967,
+   "src_start": 5.167,
+   "src_end": 8.133,
+   "src_f0": 155,
+   "src_f1": 244,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "Caravans parked on pads with hoses connected; a person walks to the toilet block; mist drifts on the hills."
+  },
+  {
+   "group": [
+    "S24d",
+    "S24e"
+   ],
+   "clip": "s24c",
+   "out_f0": 10649,
+   "out_f1": 10738,
+   "dur": 2.967,
+   "src_start": 6.0,
+   "src_end": 8.967,
+   "src_f0": 180,
+   "src_f1": 269,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s24",
+   "motion": "Water drips once from the hose connector; the cables stay still; grass moves slightly."
+  },
+  {
+   "group": [
+    "S24d",
+    "S24e"
+   ],
+   "clip": "s16a",
+   "out_f0": 10738,
+   "out_f1": 10826,
+   "dur": 2.933,
+   "src_start": 5.0,
+   "src_end": 7.933,
+   "src_f0": 150,
+   "src_f1": 238,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s15a",
+   "motion": "Blue, brown and yellow lines under the ground glow and flow between the plot and the bus; the fence and bus stay still."
+  },
+  {
+   "group": [
+    "S25a",
+    "S25b"
+   ],
+   "clip": "s25",
+   "out_f0": 10826,
+   "out_f1": 10887,
+   "dur": 2.033,
+   "src_start": 0,
+   "src_end": 2.033,
+   "src_f0": 0,
+   "src_f1": 61,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The man stands looking at the bus, then tilts his head thinking; palm leaves sway."
+  },
+  {
+   "group": [
+    "S25a",
+    "S25b"
+   ],
+   "clip": "h1",
+   "out_f0": 10887,
+   "out_f1": 10948,
+   "dur": 2.033,
+   "src_start": 7,
+   "src_end": 9.033,
+   "src_f0": 210,
+   "src_f1": 271,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "(v5 도입 클립, 프롬프트 기록 없음)"
+  },
+  {
+   "group": [
+    "S26a"
+   ],
+   "clip": "s19",
+   "out_f0": 10948,
+   "out_f1": 11021,
+   "dur": 2.433,
+   "src_start": 4.233,
+   "src_end": 6.667,
+   "src_f0": 127,
+   "src_f1": 200,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The couple set up folding chairs beside the white camper van; trees move in the wind."
+  },
+  {
+   "group": [
+    "S26b"
+   ],
+   "clip": "s26c",
+   "out_f0": 11021,
+   "out_f1": 11097,
+   "dur": 2.533,
+   "src_start": 0,
+   "src_end": 2.533,
+   "src_f0": 0,
+   "src_f1": 76,
+   "speed": 1.0,
+   "new": true,
+   "ref": "-",
+   "motion": "The couple count the notes and put them down on the bill; one rubs the neck."
+  },
+  {
+   "group": [
+    "S26b"
+   ],
+   "clip": "s20b",
+   "out_f0": 11097,
+   "out_f1": 11174,
+   "dur": 2.567,
+   "src_start": 5.933,
+   "src_end": 8.5,
+   "src_f0": 178,
+   "src_f1": 255,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s19",
+   "motion": "The two mechanics lift the AC unit into place inside the van and fix it to the wall."
+  },
+  {
+   "group": [
+    "S26b"
+   ],
+   "clip": "s26b",
+   "out_f0": 11174,
+   "out_f1": 11251,
+   "dur": 2.567,
+   "src_start": 4.567,
+   "src_end": 7.133,
+   "src_f0": 137,
+   "src_f1": 214,
+   "speed": 1.0,
+   "new": true,
+   "ref": "s19",
+   "motion": "Car headlights pass behind the parked camper van; the curtains on its windows stay drawn."
+  },
+  {
+   "group": [
+    "S26c",
+    "S26d"
+   ],
+   "clip": "s04b",
+   "out_f0": 11251,
+   "out_f1": 11322,
+   "dur": 2.367,
+   "src_start": 2.9,
+   "src_end": 5.267,
+   "src_f0": 87,
+   "src_f1": 158,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Empty bus interior with seats removed; sunlight patches lie still on the floor, dust drifts in the light."
+  },
+  {
+   "group": [
+    "S26c",
+    "S26d"
+   ],
+   "clip": "s26d",
+   "out_f0": 11322,
+   "out_f1": 11394,
+   "dur": 2.4,
+   "src_start": 0,
+   "src_end": 2.4,
+   "src_f0": 0,
+   "src_f1": 72,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "Droplets slide down the fogged windows of the bus; the hoses outside stay connected; leaves sway."
+  },
+  {
+   "group": [
+    "S26c",
+    "S26d"
+   ],
+   "clip": "s12",
+   "out_f0": 11394,
+   "out_f1": 11465,
+   "dur": 2.367,
+   "src_start": 4.9,
+   "src_end": 7.267,
+   "src_f0": 147,
+   "src_f1": 218,
+   "speed": 1.0,
+   "new": false,
+   "ref": "s09",
+   "motion": "The green seals glow softly around the covered beam and fresh air flows out of the roof vent as a gentle shimmer."
+  },
+  {
+   "group": [
+    "S26e"
+   ],
+   "clip": "s26",
+   "out_f0": 11465,
+   "out_f1": 11551,
+   "dur": 2.867,
+   "src_start": 0,
+   "src_end": 2.867,
+   "src_f0": 0,
+   "src_f1": 86,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Blue water, brown waste and yellow power flow along the lines between the bus and the service post; the garden leaves sway slightly."
+  },
+  {
+   "group": [
+    "S26e"
+   ],
+   "clip": "s26d",
+   "out_f0": 11551,
+   "out_f1": 11636,
+   "dur": 2.833,
+   "src_start": 2.4,
+   "src_end": 5.233,
+   "src_f0": 72,
+   "src_f1": 157,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "Droplets slide down the fogged windows of the bus; the hoses outside stay connected; leaves sway."
+  },
+  {
+   "group": [
+    "S26e"
+   ],
+   "clip": "s26",
+   "out_f0": 11636,
+   "out_f1": 11722,
+   "dur": 2.867,
+   "src_start": 2.867,
+   "src_end": 5.733,
+   "src_f0": 86,
+   "src_f1": 172,
+   "speed": 1.0,
+   "new": false,
+   "ref": "M3",
+   "motion": "Blue water, brown waste and yellow power flow along the lines between the bus and the service post; the garden leaves sway slightly."
+  },
+  {
+   "group": [
+    "S27a",
+    "S27b"
+   ],
+   "clip": "s04b",
+   "out_f0": 11722,
+   "out_f1": 11804,
+   "dur": 2.733,
+   "src_start": 5.267,
+   "src_end": 8.0,
+   "src_f0": 158,
+   "src_f1": 240,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "Empty bus interior with seats removed; sunlight patches lie still on the floor, dust drifts in the light."
+  },
+  {
+   "group": [
+    "S27a",
+    "S27b"
+   ],
+   "clip": "s27b",
+   "out_f0": 11804,
+   "out_f1": 11886,
+   "dur": 2.733,
+   "src_start": 0,
+   "src_end": 2.733,
+   "src_f0": 0,
+   "src_f1": 82,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "Seen from high above, trees sway gently and a few leaves move; the bus home and the fence stay still."
+  },
+  {
+   "group": [
+    "S27a",
+    "S27b"
+   ],
+   "clip": "s27",
+   "out_f0": 11886,
+   "out_f1": 11968,
+   "dur": 2.733,
+   "src_start": 0,
+   "src_end": 2.733,
+   "src_f0": 0,
+   "src_f1": 82,
+   "speed": 1.0,
+   "new": false,
+   "ref": "PB",
+   "motion": "The family sitting outside the bus home talk and laugh; clothes on the line flutter; warm light in the windows."
+  },
+  {
+   "group": [
+    "S28a"
+   ],
+   "clip": "s28",
+   "out_f0": 11968,
+   "out_f1": 12052,
+   "dur": 2.8,
+   "src_start": 4,
+   "src_end": 6.8,
+   "src_f0": 120,
+   "src_f1": 204,
+   "speed": 1.0,
+   "new": false,
+   "ref": "-",
+   "motion": "The family outside the bus home wave up; clothes flutter, palms sway."
+  },
+  {
+   "group": [
+    "S28a"
+   ],
+   "clip": "s28b",
+   "out_f0": 12052,
+   "out_f1": 12136,
+   "dur": 2.8,
+   "src_start": 0,
+   "src_end": 2.8,
+   "src_f0": 0,
+   "src_f1": 84,
+   "speed": 1.0,
+   "new": true,
+   "ref": "PB",
+   "motion": "The window lights glow steadily; the clothesline moves gently in the evening breeze."
+  }
+ ]
+}
