@@ -48,7 +48,9 @@ description: "Cheezon Ki Hukumat(@CheezonKiHukumat, 인도 성인 대상 힌디�
 |---|---|
 | `plan_template.py` | 문장 단위 컷 계획과 자동 점검(7편 plan_v9). 새 편은 SEG·VID·IMG만 새로 채운다 |
 | `edit_template.py` | 계획대로 렌더하고 자막을 넣는다. 옵션: 좌우 반전, 밝기 보정, 흐림, 아지랑이 (7편 edit_v9) |
-| `tts_template.py` | 힌디어 Voice Studio TTS와 실측 시간표(7편 tts_v5). 같은 폴더의 `tts_vs.py`, `junk_check.py`가 필요하다 |
+| `tts_template.py` | 힌디어 Voice Studio TTS와 실측 시간표(7편 tts_v5). 같은 폴더의 다음 파일을 쓴다 |
+| `tts_vs.py`, `junk_check.py`, `asr_check.py`, `fw_local.py` | Voice Studio TTS 생성과 잡음·ASR 검사 |
+| `voice_ref_male_charonclone.wav`, `ref_text.txt` | 목소리 기준 파일과 기준 문장(1편 tts_meta.json에서 옮김) |
 | `image_prompts_example.py` | 이미지 프롬프트 작성 예시(7편 v9, 31장) |
 
 7편 실제 자료 전체는 저장소 `episodes/ep07_bus/`에 있다(대본, 계획, 검수 기록, 업로드 문구).

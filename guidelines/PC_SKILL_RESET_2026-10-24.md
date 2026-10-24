@@ -65,3 +65,10 @@ Check the final output:
 - **When to sync:** whenever the cloud changes a skill or guideline, and **before starting work on the PC**, run the step 3 command once more. It pulls and mirrors in one go.
 - **Changing a skill on the PC:** edit it in the repository (`D:\youtube\Cheezon-Ki-Hukumat\skills\...`), commit and push, then sync.
   - Do not edit `.claude\skills` directly. The next sync overwrites it.
+
+## 수정 (2026-10-25)
+- **동기화 스크립트가 더 이상 로컬 변경을 지우지 않는다.**
+  - The old version ran `git checkout -- .` and reverted EP7 changes that had not been committed (`plan_v9.py`, `shot_list_v9.json`).
+  - It now **stops** if there are uncommitted changes, and lists them. Commit and push first, then sync.
+- **TTS 파일:** `skills/cheezon-production/tools/` now holds all of them (982544a):
+  - `tts_vs.py`, `junk_check.py`, `asr_check.py`, `fw_local.py`, `voice_ref_male_charonclone.wav`, `ref_text.txt`

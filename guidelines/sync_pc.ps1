@@ -18,7 +18,13 @@ $Old = @(
 function Say($m){ Write-Host $m -ForegroundColor Cyan }
 
 Say "1) 깃 최신으로 받기: $Repo"
-if ($Apply) { git -C $Repo checkout -- . ; git -C $Repo pull origin main }
+$dirty = git -C $Repo status --porcelain
+if ($dirty) {
+  Write-Host "   저장소에 커밋 안 된 변경이 있어 멈춥니다. 먼저 커밋·푸시하세요(지우지 않음):" -ForegroundColor Red
+  $dirty | ForEach-Object { "     $_" }
+  exit 1
+}
+if ($Apply) { git -C $Repo pull --ff-only origin main }
 
 Say "2) 스킬 폴더를 깃과 똑같이 맞추기 (깃에 없는 이전 스킬은 삭제): $Skills"
 Get-ChildItem $Skills -Directory -ErrorAction SilentlyContinue | ForEach-Object {
