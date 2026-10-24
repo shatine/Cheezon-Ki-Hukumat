@@ -1,4 +1,0 @@
-interface:
-  display_name: "Cheezon 대본"
-  short_description: "상위 9편 분석으로 만드는 인도 힌디어 롱폼 대본과 한국어 검토본"
-  default_prompt: "Use $cheezon-script to create a Cheezon Ki Hukumat episode with a Korean review script, verified claims, and Hindi narration."
