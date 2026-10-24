@@ -22,7 +22,7 @@ VID = {  # id: (파일, [(쓸 구간)], 무빙/원리)
  "s15a": ("clips_v5/s15a.mp4", [(0, 2), (5, CEND)], "무빙·원리"), "s15b": ("clips_v5/s15b.mp4", [(0, 7)], "원리"),
  "s16a": ("clips_v5/s16a.mp4", [(0, CEND)], "원리"), "s17b": ("clips_v5/s17b.mp4", [(0, CEND)], "무빙"),
  "s19": ("clips_v5/s19.mp4", [(0, CEND)], "무빙"), "s24": ("clips_v5/s24.mp4", [(0, CEND)], "무빙"),
- "s26": ("clips_v5/s26.mp4", [(0, CEND)], "원리"), "s28": ("clips_v5/s28.mp4", [(4, CEND)], "무빙"),
+ "s26": ("clips_v9/s26g.mp4", [(0, CEND)], "원리"), "s28": ("clips_v5/s28.mp4", [(4, CEND)], "무빙"),
 }
 # 이미지 소스: PC img3d 파일 (picks_v5.txt, picks_v7.md)
 IMG = {"s02": "v5_s02_1", "s04c": "v5_s04c_1", "s05": "v5_s05_1", "s06a": "v5_s06a_2", "s07a": "v5_s07a_1",
