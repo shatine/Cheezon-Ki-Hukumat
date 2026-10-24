@@ -19,3 +19,18 @@ The prompt was "an Indian counterpart to Dubai's Burj Khalifa, built in a harsh 
 - **1순위 Chenab:** the setting is the most dramatic, the comparison (higher than the Eiffel Tower) is instant, and the 3D principles are clear: arch, wind, earthquakes, slope stability.
 - **사막이라는 점에서 Burj Khalifa와 가장 비슷한 것: Bhadla.**
 - **Next step:** check 1M-view videos on the same topic, then fix the opening question.
+
+## 재정렬 (2026-10-24 사용자 기준: 1순위 인지도, 2순위 환경의 혹독함)
+Recognition is a **judgement** from how prominent the news was (e.g. a Prime Minister's opening) and how often it appears in textbooks and travel. It is not measured data. It will be checked against Google Trends and YouTube view counts.
+Within a recognition tier, the harsher environment ranks first.
+
+| 순위 | 구조물 | 인지도 | 근거 | 환경 혹독함 |
+|---|---|---|---|---|
+| 1 | Atal Tunnel | 상 | PM opening (2020); the Manali–Lahaul tourist route | Very high: 3,000 m+, fault-zone water inflow, avalanches, winter isolation |
+| 2 | Chenab Rail Bridge | 상 | PM opening (2025), "world's highest railway bridge" in the news | High: 359 m gorge, 260 km/h wind, earthquakes, 77° slopes |
+| 3 | New Pamban Bridge | 상 | PM opening (2025); the old Pamban bridge on the Rameswaram pilgrimage route is famous | Medium-high: sea corrosion, cyclones |
+| 4 | Zojila Tunnel | 중 | Ladakh-route news, but still under construction | Highest: −30°C (some reports −45°C), half the year under snow, avalanches |
+| 5 | Bogibeel Bridge | 중 | PM opening (2018), well known in the northeast | Medium: Seismic Zone V, the huge Brahmaputra |
+| 6 | Indira Gandhi Canal | 중 | Familiar from school geography, but little news coverage | Medium: Thar desert, dunes, seepage |
+| 7 | Hanle Observatory | 하 | Occasional news as a dark-sky reserve | High: 4,500 m cold desert |
+| 8 | Bhadla Solar Park | 하 | Mostly energy-industry news | Medium-high: heat, sandstorms, no water |
