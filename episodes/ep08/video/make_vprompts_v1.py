@@ -1,0 +1,54 @@
+"""8편 영상 프롬프트 v1 (생성하지 않음). plan_v1 VID 24개, 첫 프레임은 images/prompts_v1.json의 같은 id 그림(v1_{id}_n).
+규칙(cheezon-production references/prompts.md): [장면 동작]. [카메라 태그]. Movement / Speed / Framing / End + 접미사.
+- 3D 원리는 locked-off static shot, 힘·흐름만 움직인다. "Keep the exact same shape … No new objects".
+- 카메라 무빙은 약 2/10만(o02 tilt up, o03 drone, v12 slider, v23 drone pull back = 4/24), 사람 쪽 dolly in 없음, 같은 방향 연속 없음.
+- 모든 클립에 밝기 고정 문장. "One single continuous camera movement" 문구 금지.
+결과: video/vprompts_v1.json"""
+import json
+from pathlib import Path
+HERE = Path(__file__).resolve().parent
+LOCK = "[locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame."
+LIGHT = "The lighting stays the same bright light for the whole shot, no darkening, no fade."
+REAL = "Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark."
+D3 = ("Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. "
+      "No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.")
+KEEP = "Keep the exact same bridge shape (two-rib steel truss arch, flat deck on slender piers, no piers in the river)."
+S = [
+ # id, 문장, 무빙, 동작, 카메라
+ ("o01", "S01a~b", "locked", f"The ground shakes: rocks and dust tumble down both slopes of the gorge far below, while the train keeps rolling slowly across the deck and the bridge stays perfectly intact. {KEEP}", LOCK),
+ ("o02", "S01c~S02a", "tilt up", f"The river flows gently below; the deck stays tiny and high in the sky. {KEEP}",
+  "[slow tilt up]. Movement: tilt the camera slowly upward from the river to the bridge in the sky. Speed: very slow and even. Framing: the cliffs frame both sides, the bridge centred at the end. End: hold on the bridge high in the sky."),
+ ("V02", "S02b~c", "locked", "The five Qutub Minar models rise one by one on top of each other until the top one reaches the deck height; the green bar glows from the river to the deck. Keep the Eiffel Tower model, the bridge and the gorge exactly the same.", LOCK),
+ ("o03", "S02d", "drone", f"The passenger train glides across the deck; light clouds drift over the peaks. {KEEP}",
+  "[drone slow push forward along the gorge]. Movement: fly slowly forward along the gorge toward the bridge. Speed: slow and even. Framing: the whole arch stays in frame. End: settle on a wide shot with the whole bridge and the train."),
+ ("V04", "S04c", "locked", "The two steep rock slopes slowly highlight from bottom to top along their faces, showing how steep the V-shaped valley walls are; the river flows at the bottom. Keep the gorge shape exactly the same.", LOCK),
+ ("V05", "S05c", "locked", "The tall pier on the steep slope slowly tilts and slides down the slope toward the valley floor as small rock pieces crumble from under its foot. The gorge stays exactly the same.", LOCK),
+ ("V06", "S06b", "locked", "The two half-arches grow slowly from each cliff and meet in the middle; as they lock, orange push arrows run along each half-arch and flow down into the rock of both mountains.", LOCK),
+ ("V07a", "S07b~c", "locked", "The hanging chain sways slightly and settles into its natural curve; blue pull arrows pulse along the chain toward both ends. The chain only hangs, it does not flip.", LOCK),
+ ("V07b", "S07d", "locked", "The upside-down chain arch holds still; orange push arrows pulse along the arch from the top down into both cliffs.", LOCK),
+ ("V09", "S09b", "locked", "Grey cement flows from the pipe into the cracks and fills them one by one until the separate rock blocks join into one solid mass. The rock shape stays the same.", LOCK),
+ ("V10a", "S10a~b", "locked", "The drill hole is already made; the bright steel tendon slides deeper into the hole, then the yellow jack on the anchor block pulls the tendon tight.", LOCK),
+ ("V10b", "S10c", "locked", "Blue pull arrows pulse along the taut tendon toward the anchor block, and orange push arrows from the block press into the slope, the cracks in the rock closing slightly.", LOCK),
+ ("v12", "S12b~c", "slider", "The steel segment hangs from the cable crane and travels slowly across the gorge along the cable, swinging very slightly.",
+  "[slider right]. Movement: glide the camera slowly to the right, following the segment. Speed: slow and even. Framing: the segment stays in the middle 70% of the frame. End: settle with the segment over the middle of the gorge."),
+ ("V13", "S13b~c", "locked", "The two half-arches reach slightly further out over the gap; blue pull arrows pulse along the back-stay cables from the arch tips to the anchors in the rock.", LOCK),
+ ("v14", "S14a", "locked", "The last steel segment is lowered slowly on its cable into the gap between the two half-arches until it fits in place; tiny workers guide it.", LOCK),
+ ("V14", "S14b~c", "locked", "The yellow hydraulic jacks push and adjust until the gap between the two half-arch ends closes and they lock; then the back-stay cables slacken and fall away, and the arch stands by itself.", LOCK),
+ ("V16a", "S16b~c", "locked", "The deck girder slides slightly back and forth on its bearing pad on the pier top, and the expansion joint gap opens and closes a little. The pier stays fixed.", LOCK),
+ ("V16b", "S16d", "locked", "The ground at the bottom shakes; the piers sway slightly while the deck slides gently on its bearings and the expansion joints open and close, absorbing the motion; nothing falls.", LOCK),
+ ("V17", "S17b", "locked", "The red damaged pier fades away; the deck above stays continuous and supported, and the small train crosses slowly over the gap.", LOCK),
+ ("V18", "S18b~c", "locked", "White wind flow lines enter the wide valley mouth and squeeze into the narrow gorge, moving faster and closer together as they pass under the bridge.", LOCK),
+ ("V20a", "S20b~c", "locked", "The sun shines on the left half of the arch, which glows a little redder with heat and bends very slightly, while the shaded right half stays grey.", LOCK),
+ ("V20b", "S20d", "locked", "The rail slides slowly a short distance in its fastenings as the warm deck moves under it, and the gap at the rail expansion joint changes slightly.", LOCK),
+ ("V22", "S22a~b", "locked", "Orange push arrows flow down the arch into both reinforced cliffs, while the deck rocks gently on its bearing pads; the bridge stays intact.", LOCK),
+ ("v23", "S23a", "drone pull back", f"The train crosses the bridge; clouds drift over the Himalayan ranges. {KEEP}",
+  "[drone pull back]. Movement: fly slowly backward and up away from the bridge. Speed: slow and even. Framing: the whole bridge stays in frame, the mountains grow around it. End: settle on a very wide shot of the bridge among the mountains."),
+]
+out = []
+for i, sent, move, act, cam in S:
+    suf = D3 if i.startswith("V") else REAL
+    out.append(dict(id=i, image=f"v1_{i}.png (picks_v1.md에서 고른 번호)", script=sent, move=move,
+                    prompt=f"{act} {cam} {LIGHT} {suf}", save=f"CB\\clips_v1\\{i}.mp4"))
+json.dump(out, open(HERE / "vprompts_v1.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+moving = [x["id"] for x in out if x["move"] != "locked"]
+print(len(out), "clips; camera moves:", moving, f"{len(moving)}/{len(out)}")
