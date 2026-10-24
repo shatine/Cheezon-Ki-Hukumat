@@ -1,8 +1,8 @@
-"""[템플릿: 7편 tts_v5.py] 새 편 폴더 review_edit/에 복사해 쓴다. 힌디 나레이션: lines_v5.tsv (id, hi, ko) → narr/{id}.wav → narration_hi.wav.
+"""[템플릿: 7편 tts_v5.py] 새 편 폴더 review_edit/에 복사해 쓴다. 힌디 나레이션: lines.tsv (id, hi, ko) → narr/{id}.wav → narration_hi.wav.
 6편 tts_06.py 방식 그대로: 무료 Voice Studio, charonclone, seed 7 고정(다른 seed 없음), 속도 1.0, 문장 -16 LUFS,
 junk_check 엄격 검사 → 불합격이면 같은 seed로 쉼표 변형 → 쉼표에서 나눠 조각 생성 → 반으로.
 문장 사이 0.35초, 문단(S01, S02 …) 사이 0.8초. 타이밍 narr_timing.json.
-사용: python tts_v5.py [id ...]"""
+사용: 같은 폴더에 lines.tsv(대본 lines_hi_ko.tsv 복사)를 두고 python tts.py [id ...]"""
 import json, sys, re, os
 from pathlib import Path
 HERE = Path(__file__).resolve().parent
@@ -14,7 +14,7 @@ head = head.replace('    for s in (11, 23):', '    for s in ():')          # see
 head = head.replace('OUT = Path("tts_vs"); SENT = OUT / "_sent"; CACHE = OUT / "_cache"', 'OUT = HERE / "narr"; SENT = OUT / "_sent"; CACHE = OUT / "_cache"')
 exec(compile(head, "tts_vs_head", "exec"))
 def sentences(line): return [s.strip() for s in re.split(r"(?<=[।?!])\s+", line) if s.strip()]
-L = [dict(zip(("id", "hi", "ko"), l.rstrip("\n").split("\t"))) for l in open(HERE / "lines_v5.tsv", encoding="utf-8") if l.strip()]
+L = [dict(zip(("id", "hi", "ko"), l.rstrip("\n").split("\t"))) for l in open(HERE / "lines.tsv", encoding="utf-8") if l.strip()]
 JP = HERE / "narr_check.json"; J = json.load(open(JP, encoding="utf-8")) if JP.exists() else {}
 redo = set(sys.argv[1:])
 for x in L:
