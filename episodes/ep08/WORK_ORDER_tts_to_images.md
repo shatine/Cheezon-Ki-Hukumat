@@ -8,7 +8,8 @@
   - Video prompts written (**videos are not generated**)
 - **규칙:** follow `.claude\skills\cheezon-production`. Read `SKILL.md` and all of `references\` before starting.
 - **Generation pace:** Flow one image at a time: submit → confirm complete → review → next. No rapid repeated submissions (bot detection).
-- **Stop and report** instead of moving on when anything here disagrees with the skill or a step fails.
+- **진행 방식:** follow the **상시 허락** section in `CLAUDE.md`. Do not ask whether to commit, push or sync. Do it, keep going, and report at the end of each step.
+  - Stop only for the stop conditions listed in `CLAUDE.md`.
 
 ## 경로
 | 이름 | 경로 |
@@ -27,7 +28,9 @@ git -C "D:\youtube\Cheezon-Ki-Hukumat" status
 powershell -ExecutionPolicy Bypass -File "D:\youtube\Cheezon-Ki-Hukumat\guidelines\sync_pc.ps1" -Apply
 Get-ChildItem "D:\youtube\7. Cheezon Ki Hukumat\.claude\skills" -Directory
 ```
-`.claude\skills` must contain only `cheezon-production`. If not, stop and report.
+- If the sync stops because of uncommitted changes, **commit them as they are without asking** (`git add -A`, `git commit -m "WIP before sync"`, `git push origin main`), then run the sync again.
+- If an empty folder remains, delete it after restarting the app. If it can't be deleted yet, leave it and continue to step 1; it does not affect the work.
+- `.claude\skills` must contain only `cheezon-production`.
 
 ## 1단계: 힌디어 TTS
 ```powershell

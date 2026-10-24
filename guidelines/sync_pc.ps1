@@ -20,9 +20,9 @@ function Say($m){ Write-Host $m -ForegroundColor Cyan }
 Say "1) 깃 최신으로 받기: $Repo"
 $dirty = git -C $Repo status --porcelain
 if ($dirty) {
-  Write-Host "   저장소에 커밋 안 된 변경이 있어 멈춥니다. 먼저 커밋·푸시하세요(지우지 않음):" -ForegroundColor Red
+  Write-Host "   커밋 안 된 변경을 그대로 커밋·푸시합니다(지우지 않음):" -ForegroundColor Yellow
   $dirty | ForEach-Object { "     $_" }
-  exit 1
+  if ($Apply) { git -C $Repo add -A; git -C $Repo commit -m "WIP: auto-commit before PC sync"; git -C $Repo pull --no-rebase origin main; git -C $Repo push origin main }
 }
 if ($Apply) { git -C $Repo pull --ff-only origin main }
 
