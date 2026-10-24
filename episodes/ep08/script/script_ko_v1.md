@@ -1,7 +1,7 @@
 # 8편 대본 v1: 체납 철교 (한국어 검토본, 2026-10-24)
 
 ## 확정 사항
-- **도입부 문장 (사용자 확정, 그대로 사용):** "지진이 오면 이 다리는 어떻게 될까? 359m 위 기차, 아래엔 기둥 하나 없다! 기둥 하나 못 세우는데, 다리는 어떻게 놓았나?"
+- **도입부 문장 (사용자 확정, 그대로 사용):** "지진이 오면 이 다리는 어떻게 될까? 359m 위 기차, 강바닥엔 기둥 하나 없다! 기둥 하나 못 세우는데, 다리는 어떻게 놓았나?"
 - **썸네일 문구 = 도입부 첫 문장:**
   - Hindi `भूकंप आया तो इस पुल का क्या होगा?`
   - Optionally a small `359 मीटर` underneath.
@@ -11,7 +11,7 @@
 ## 대본
 
 ### 도입 — 질문
-**S01** 지진이 오면 이 다리는 어떻게 될까? 359m 위 기차, 아래엔 기둥 하나 없다! 기둥 하나 못 세우는데, 다리는 어떻게 놓았나?
+**S01** 지진이 오면 이 다리는 어떻게 될까? 359m 위 기차, 강바닥엔 기둥 하나 없다! 기둥 하나 못 세우는데, 다리는 어떻게 놓았나?
 
 **S02** 인도 잠무 카슈미르, 체납 강 위에 놓인 체납 철교입니다. 강바닥에서 선로까지 359미터. 에펠탑보다 35미터 더 높고, 델리의 쿠툽 미나르를 다섯 개 쌓은 것과 맞먹는 높이입니다. 2025년 6월에 개통한, 세계에서 가장 높은 철도교입니다. [E1][E2]
 
@@ -50,7 +50,7 @@
 
 **S18** 그런데 기술자들이 지진만큼 신경 쓴 것이 있습니다. 바람입니다. 좁은 협곡은 바람을 깔때기처럼 모아, 더 빠르게 만듭니다. [E16]
 
-**S19** 그래서 주변 산과 계곡까지 본떠 바람을 실험했고, 시속 266킬로미터의 바람도 견디도록 만들었습니다. 그래도 바람이 시속 90킬로미터를 넘으면, 풍속계와 연결된 신호 때문에 기차는 다리에 들어서지 않습니다. [E16][E17]
+**S19** 그래서 주변 산과 계곡까지 본떠 바람을 실험했고, 시속 266킬로미터의 바람도 견디도록 만들었습니다. 다리에는 센서 120개가 달려, 바람과 온도, 흔들림을 24시간 지켜봅니다. 바람이 허용 기준을 넘으면, 신호가 빨간불로 바뀌고 역장실에 경보가 울립니다. [E16][E17]
 
 **S20** 햇빛도 문제입니다. 협곡에서는 해가 아치 한쪽만 비춥니다. 데워진 강철은 늘어나면서 아치를 살짝 휘게 합니다. 그래서 레일은 다리에 단단히 묶지 않고, 다리가 움직이는 만큼 미끄러질 수 있게 놓았습니다. [E18]
 
@@ -82,15 +82,14 @@
 | E14 | 상판은 받침(Mageba 구면 받침) 위, 신축이음 | [Indian Infrastructure](https://indianinfrastructure.com/2022/07/03/new-dynamics-2/); reference videos ① and ③ | 확인. How far the bearings isolate shaking is not stated precisely, so the script says only "absorbs" |
 | E15 | 기둥 하나 잃어도 시속 30 km 운행 | [Superkalam 2025-06-07](https://superkalam.com/current-affairs/07-06-2025/chenab-bridge-designed-to-survive-loss-of-a-pier-pg5-e954bf4b-b6f2-427e-82ed-aa0440d10aab), [Deccan Herald](https://www.deccanherald.com/amp/story/archives%2Fworlds-highest-rail-bridge-come-2243757) | 확인 |
 | E16 | 협곡 바람 가속, 풍동·지형 시험, 266 km/h | The B1M video (COWI, 165 mph ≈ 266 km/h); [Railway Technology Afcons](https://www.railway-technology.com/newsletters/afcons-single-arch-railway-bridge-india-himalayan); reference video ③. Some sources say 260 km/h. **Higher figure used** | 확인 (높은 숫자 채택) |
-| E17 | 풍속 90 km/h 넘으면 풍속계 연동으로 운행 중지 | [Deccan Herald](https://www.deccanherald.com/amp/story/archives%2Fworlds-highest-rail-bridge-come-2243757) | **확인 (계획 단계 기사)**. Needs checking against current operating rules |
+| E17 | 센서 120개(바람·온도·습도·진동 24시간), 바람이 허용 기준을 넘으면 신호 빨간불 + 역장실 경보 | [Swarajya ground report](https://swarajyamag.com/amp/story/reports/chenab-bridge-sensors-on-to-warn-adverse-conditions-ahead-of-train-operations-on-worlds-highest-railway-bridge-ground-report), [Deccan Herald](https://deccanherald.com/india/jammu-and-kashmir/high-tech-systems-to-guard-world-s-tallest-railway-bridge-3077745), [NBMCW](https://www.nbmcw.com/article-report/infrastructure-construction/project-management-arbitration/chenab-bridge-project-an-engineering-marvel.html) | 확인. Sensor counts differ (100+ / 117 / 120); **highest used**. The exact wind threshold is not public, so no number is given. The 90 km/h figure (2017 plan only) was removed |
 | E18 | 햇빛으로 아치가 휨, 레일은 고정하지 않고 움직이게 | The B1M video | 확인 (참고 영상 기반) |
 | E19 | 강철 3만 5천 톤 | Reference video ③ (35,000 t); The B1M says 30,000 t; Wikipedia says 25,000 t of steel + 4,000 t of reinforcing bar. **Highest figure used, per user rule** | 출처 있음 (높은 숫자 채택) |
 | E20 | 규모 8 지진 견딤 | Government statement (Minister Vaishnaw, quoted widely; [Sacyr](https://sacyr.com/en/-/the-worlds-highest-railway-bridge), reference video ③). The script attributes it: "정부는 … 밝혔습니다" | 정부 주장 (출처 명시) |
 
 ## 확인할 점
-- **S01 정확성:** "아래엔 기둥 하나 없다". There are no piers in the river or at the bottom of the gorge, but there *are* short columns standing on top of the arch to hold up the deck.
-  - The line is used verbatim, as the user wrote it.
-  - For accuracy, I suggest "강바닥엔 기둥 하나 없다". Please decide.
+- **S01:** changed to "강바닥엔 기둥 하나 없다" at the user's decision.
+- **90 km/h 운행 중지:** checked again on 2026-10-24. Only a 2017 plan-stage article gives this figure; no 2025 source confirms it. Replaced in S19 with confirmed facts: 120 sensors; wind over the permitted limit turns the signal red and sounds an alarm in the station master's room.
 - **Removed:** the 1898 Maharaja proposal story. The sources disagree on the date (1892 vs 1898) and on the details.
 - **숫자 규칙 (사용자 2026-10-24):** where sources disagree, the script uses the **highest** figure, because bigger numbers hook harder. Applied: Eiffel Tower +35 m, arch 469 m, steel 35,000 t, wind 266 km/h. The magnitude-8 figure is a government claim, so the script attributes it.
 - **Next step:** after your Korean review, translate to Hindi and generate the TTS.
