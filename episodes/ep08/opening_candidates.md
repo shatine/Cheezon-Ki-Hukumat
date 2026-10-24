@@ -4,15 +4,17 @@ The topic is settled: the Chenab Rail Bridge (Jammu and Kashmir).
 Next step: the user picks one opening line. It then becomes the thumbnail text, and the script is written around it.
 
 ## 같은 소재 영상 (100만 조회 확인은 PC에서)
-The cloud cannot reach YouTube (proxy 403), so view counts have not been checked. On the PC, check views and channel for the links below. If a video has 1M+ views, record its title, channel, URL, views and date checked here.
+View counts were checked by the user on the PC (2026-10-24). Three videos have 1M+ views: 5PYjFLMoxOg, The B1M, and the Hindi animation O-TENYagyu8.
+- These scripts will be used actively when writing ours. Take the structure and information order, but do not copy the wording.
+- The cloud cannot reach YouTube, so the transcripts must come from the PC (see the request below).
 
-| 영상 | URL | 비고 |
-|---|---|---|
-| How India Built the World's Highest Railway Bridge Over a Himalayan Abyss | https://www.youtube.com/watch?v=5PYjFLMoxOg | English engineering explainer |
-| India Built the World's Most Remote Bridge (The B1M) | https://www.theb1m.com/video/india-built-the-worlds-most-remote-bridge | Large construction channel |
-| Animation के जरिए समझिए कैसे Chenab Rail Bridge बना… | https://www.youtube.com/watch?v=O-TENYagyu8 | Hindi animation |
-| Chenab Railway Bridge: दुनिया के सबसे ऊंचे चिनाब ब्रिज की खासियतें… | https://www.youtube.com/watch?v=5JxAWE8_9jU | Hindi feature |
-| Chenab Bridge: World's Highest Railway Bridge | https://www.youtube.com/watch?v=PteItubHD2A | English |
+| 영상 | URL | 비고 | 조회수 (2026-10-24 사용자 확인) |
+|---|---|---|---|
+| How India Built the World's Highest Railway Bridge Over a Himalayan Abyss | https://www.youtube.com/watch?v=5PYjFLMoxOg | English engineering explainer | 213만 (1년 전) |
+| India Built the World's Most Remote Bridge (The B1M) | https://www.theb1m.com/video/india-built-the-worlds-most-remote-bridge | Large construction channel | 158만 (8개월 전) |
+| Animation के जरिए समझिए कैसे Chenab Rail Bridge बना… | https://www.youtube.com/watch?v=O-TENYagyu8 | Hindi animation | 120만 (1년 전) |
+| Chenab Railway Bridge: दुनिया के सबसे ऊंचे चिनाब ब्रिज की खासियतें… | https://www.youtube.com/watch?v=5JxAWE8_9jU | Hindi feature | 16만 (1년 전) |
+| Chenab Bridge: World's Highest Railway Bridge | https://www.youtube.com/watch?v=PteItubHD2A | English | 4.4천 (8개월 전) |
 
 ## 확인된 사실 (대본 단계에서 원문으로 다시 확정)
 - **위치와 높이:** Jammu–Baramulla line. Deck 359 m above the riverbed, the world's highest railway bridge.
@@ -38,3 +40,28 @@ For each: Korean, Hindi (thumbnail text), and the question chain it leads into. 
 - It leads straight into a 3D principle that must be shown as video: no piers → an arch transfers load into the slopes.
 - The thumbnail can be read as a single contradiction: a bridge over a gorge with no columns.
 - The other points (wind, earthquake, height, building by mule) fit naturally as the "next question" in the script.
+
+## 썸네일 문구 후보 10개 (= 도입부 첫 문장)
+| # | 힌디어 | 뜻 | 색 배치 제안 |
+|---|---|---|---|
+| 1 ★ | खंभा नहीं लग सकता, फिर भी पुल कैसे बना? | 기둥 하나 못 세우는데, 다리는 어떻게 놓았나? | "खंभा नहीं" 빨강 / "पुल कैसे बना?" 노랑 |
+| 2 ★ | 359 मीटर ऊपर ट्रेन, नीचे एक भी खंभा नहीं! | 359m 위 기차, 아래엔 기둥 하나 없다! | "359 मीटर" 초록 / "एक भी खंभा नहीं" 빨강 |
+| 3 ★ | एफ़िल टावर से ऊँची रेल, गिरती क्यों नहीं? | 에펠탑보다 높은 철길, 왜 안 무너질까? | "एफ़िल टावर से ऊँची" 흰색 / "गिरती क्यों नहीं?" 노랑 |
+| 4 | 260 की हवा में ट्रेन उड़ क्यों नहीं जाती? | 시속 260km 바람에 기차는 왜 안 날아갈까? | "260" 초록 / "उड़ क्यों नहीं जाती?" 노랑 |
+| 5 | पहाड़ ही इस पुल को थामे हुए है? | 산이 이 다리를 붙잡고 있다고? | "पहाड़" 흰색 / "थामे हुए है?" 노랑 |
+| 6 | ये पुल नहीं, पहाड़ों के बीच तना धनुष है! | 이건 다리가 아니라 산 사이에 당긴 활이다! | "धनुष" 노랑 / 나머지 흰색 |
+| 7 | दुनिया का सबसे ऊँचा रेल पुल, खड़ा कैसे है? | 세계에서 가장 높은 철도교, 어떻게 서 있나? | "सबसे ऊँचा" 초록 / "खड़ा कैसे है?" 노랑 |
+| 8 | भूकंप आया तो इस पुल का क्या होगा? | 지진이 오면 이 다리는 어떻게 될까? | "भूकंप" 빨강 / "क्या होगा?" 노랑 |
+| 9 | सड़क तक नहीं थी, फिर पुल कैसे बना? | 길도 없었는데, 다리는 어떻게 지었나? | "सड़क तक नहीं" 빨강 / "पुल कैसे बना?" 노랑 |
+| 10 | काम रुक गया था, फिर ये पुल कैसे बना? | 공사가 멈췄었는데, 이 다리는 어떻게 완성됐나? | "रुक गया" 빨강 / "कैसे बना?" 노랑 |
+
+★ = recommended. The Hindi wording is checked again once a line is chosen.
+
+## PC 요청: 100만+ 영상 3개 대본 받기
+Run in the PC repository (`D:\youtube\Cheezon-Ki-Hukumat`), then commit and push to `main`:
+```powershell
+New-Item -ItemType Directory -Force "D:\youtube\Cheezon-Ki-Hukumat\episodes\ep08\refs" | Out-Null
+cd "D:\youtube\Cheezon-Ki-Hukumat\episodes\ep08\refs"
+yt-dlp --skip-download --write-auto-subs --write-subs --sub-langs "en.*,hi.*" --sub-format vtt -o "%(id)s.%(ext)s" https://www.youtube.com/watch?v=5PYjFLMoxOg https://www.youtube.com/watch?v=O-TENYagyu8
+yt-dlp --skip-download --write-auto-subs --write-subs --sub-langs "en.*" --sub-format vtt -o "B1M_%(id)s.%(ext)s" "ytsearch1:The B1M India Built the World's Most Remote Bridge"
+```
