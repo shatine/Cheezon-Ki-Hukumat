@@ -1,0 +1,111 @@
+"""[예시 tools/image_prompts_example.py → 8편 체납 철교 make_prompts_v1.py] S 목록만 8편으로 씀.
+- 기준 그림: CB(실사 다리), G3D(3D 협곡 단면 + 아치 + 상판). 이후 실사 다리 장면은 CB, 3D 장면은 G3D를 첨부한다.
+- kind: "master" 기준 그림 / "image" 이미지+효과 컷(plan_v1 IMG) / "frame" 영상 첫 프레임(plan_v1 VID, 영상은 만들지 않음).
+- Flow: 프로젝트 baa9c0e8…, Nano Banana 2.1 / 16:9, 한 장씩 생성→검수→다음. 저장 CB\\img\\v1_{id}_{n}.png
+결과: images/prompts_v1.json"""
+import json
+from pathlib import Path
+HERE = Path(__file__).resolve().parent
+P = 'Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up.'
+D3 = ('Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. '
+      'Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. '
+      'Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines.')
+BR = ('the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs '
+      'on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, '
+      'no piers in the river, the arch spanning from left to right as in the reference)')
+G3 = ('EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, '
+      'the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera)')
+NOTXT = "No readable text."
+S = [
+ # ---- 기준 그림
+ ("CB", "user_ref2_gorge", "master", "기준: 실사 다리", f"{P} Using the reference image: the Chenab Rail Bridge in Jammu and Kashmir, India: one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers standing on the arch and on the slopes, no piers in the river, a thin turquoise river far below. Three-quarter view from low in the gorge, the whole bridge visible, the arch spanning from left to right, bright clear daylight, blue sky. No train, no people. {NOTXT}"),
+ ("G3D", "CB", "master", "기준: 3D 협곡 단면", f"{D3} The same bridge as the reference image as a clean 3D diorama: the deep V-shaped Himalayan gorge cut away as a front cross-section showing layered grey-brown rock and steep slopes on both sides, a thin blue river at the bottom, the two-rib grey steel truss arch springing from both cliffs, the long flat deck on slender piers across the top. Front view, the whole gorge and bridge centred, white-grey background. No arrows yet."),
+ # ---- 도입 (영상 첫 프레임)
+ ("o01", "CB", "frame", "S01a~b 지진이 오면? (도입 영상)", f"{P} Using the reference image: {BR}. A train of white-and-blue coaches crosses the deck while an earthquake shakes the gorge: rocks and dust tumble down both steep slopes far below the bridge, the bridge and the train stand intact. Wide shot from the gorge, bright blue sky. {NOTXT}"),
+ ("o02", "CB", "frame", "S01c~S02a 강에서 올려다본 359m (도입 영상)", f"{P} Using the reference image: {BR}. Extreme low angle from the riverbank at the bottom of the gorge looking straight up: the turquoise river and rocky bed in the foreground with no pier anywhere in the water, the arch and deck tiny and very high in the sky between the cliffs. Bright daylight. {NOTXT}"),
+ ("V02", "G3D", "frame", "S02b~c 높이 비교 3D (원리 영상)", f"{D3} Using the reference image: {G3}. Beside the bridge stand two simple white scale models: an Eiffel Tower model whose top is a little lower than the deck, and a tower of five Qutub Minar models stacked one on top of another reaching the deck height. A thin vertical bright green bar runs from the river to the deck. No numbers, no labels."),
+ ("o03", "CB", "frame", "S02d 2025년 개통, 세계 최고 철도교 (도입 영상)", f"{P} Using the reference image: {BR}. Aerial drone view along the gorge, the whole arch revealed, a white-and-blue passenger train crossing the deck, snowy Himalayan peaks in the distance, bright clear daylight. {NOTXT}"),
+ # ---- S03
+ ("i03a", "CB", "image", "S03a 왜 이런 곳에?", f"{P} Using the reference image: {BR}, seen very small and far away inside a vast remote Himalayan landscape of steep ridges, only the bridge shows human presence. Wide shot. {NOTXT}"),
+ ("i03b", None, "image", "S03b 겨울마다 눈에 막히는 길", f"{P} A Kashmir mountain highway buried in deep snow, a long line of stopped trucks seen from behind and the side, snow walls on both sides, drivers small standing by the trucks, bright snowy daylight. No number plates visible, {NOTXT}"),
+ ("i03b2", None, "image", "S03b 눈으로 막힘", f"{P} Close-medium shot of a mountain road completely blocked by a snow avalanche, a yellow snow-clearing bulldozer pushing snow, a worker small in the distance from behind, bright white light. {NOTXT}"),
+ ("i03c", None, "image", "S03c 도로로 6~7시간", f"{P} A long winding Himalayan road with many hairpin bends and slow cars and a bus seen from behind, crawling up the mountainside, bright daylight, aerial view. No number plates visible, {NOTXT}"),
+ ("i03c2", "CB", "image", "S03c 기차로 약 3시간", f"{P} Using the reference image: {BR}. A white-and-blue passenger train crossing the deck, snowy peaks behind, bright clear day, side view from the slope. {NOTXT}"),
+ ("i03c3", "CB", "image", "S03c 기차 안에서 본 협곡", f"{P} Inside a modern Indian train coach, two adult passengers seen from behind looking out of the big window at the deep gorge and the steel arch below, bright daylight. Faces not visible. {NOTXT}"),
+ # ---- S04~S05
+ ("i04", "CB", "image", "S04a~b 여기에 왜 기둥을 못 세웠나?", f"{P} Using the reference image: {BR}. View from the rocky riverbed at the side of the river: the empty turquoise river channel in the middle ground where no pier stands, the bridge high above between the cliffs. Medium-wide, bright daylight, a different angle from looking straight up. {NOTXT}"),
+ ("V04", "G3D", "frame", "S04c V자 협곡, 43~77도 (원리 영상)", f"{D3} Using the reference image: the same 3D gorge cross-section as the reference image but WITHOUT the bridge: the deep V-shaped valley, the two very steep rock slopes standing almost like walls, the thin blue river at the bottom. Front view, same camera. No numbers, no labels."),
+ ("i05a", None, "image", "S05a 젊은 산 히말라야", f"{P} Jagged young Himalayan ranges with sharp raw peaks and steep fresh rock faces, layered ridges, bright clear daylight, aerial view. {NOTXT}"),
+ ("i05b", None, "image", "S05b 금 가고 잘 부서지는 바위", f"{P} Close shot of a Himalayan rock face full of cracks and fractured blocks, loose shards and gravel crumbling at the bottom, bright sunlight. No people. {NOTXT}"),
+ ("V05", "G3D", "frame", "S05c 비탈 위 높은 기둥은 미끄러진다 (원리 영상)", f"{D3} Using the reference image: the same 3D V-shaped gorge cross-section as the reference image, without the arch: one very tall slender grey pier stands on the steep cracked left slope, cracks visible in the rock under its foot. Same camera. No labels."),
+ # ---- S06
+ ("i06a", "CB", "image", "S06a 그래서 아치", f"{P} Using the reference image: {BR}. Medium shot of the great steel arch curving across the gorge, bright blue sky, seen from the cliff top on one side. {NOTXT}"),
+ ("V06", "G3D", "frame", "S06b 두 반쪽이 서로 밀며 무게를 산으로 (원리 영상)", f"{D3} Using the reference image: {G3}, but the arch is shown as two half-arches rising from both cliffs and nearly meeting in the middle, without the deck. Orange push arrows run along each half-arch down into the rock of each mountain. Same camera."),
+ ("i06c", "CB", "image", "S06c 469m를 기둥 없이", f"{P} Using the reference image: {BR}. Perfect side view of the entire arch span from one cliff to the other, the empty river far below, bright daylight, wide shot. {NOTXT}"),
+ ("i06c2", "CB", "image", "S06c 단 한 번의 도약", f"{P} Using the reference image: {BR}. View from the foot of the arch on one cliff looking along the rising steel arch as it leaps across the gorge to the far cliff, strong perspective, bright sky. {NOTXT}"),
+ # ---- S07
+ ("i07a", "CB", "image", "S07a 왜 이 곡선?", f"{P} Using the reference image: {BR}. Close-medium shot of the curved steel truss arch rib against a clear blue sky, the elegant curve filling the frame. {NOTXT}"),
+ ("V07a", "G3D", "frame", "S07b~c 늘어뜨린 사슬은 당기는 힘만 (원리 영상)", f"{D3} Using the reference image: the same 3D gorge cross-section as the reference image, without the bridge: a heavy steel chain hangs across the gorge from the top of the left cliff to the top of the right cliff, sagging in a smooth natural curve. Blue pull arrows along the chain point toward both ends. Same camera."),
+ ("V07b", "G3D", "frame", "S07d 뒤집으면 미는 힘만 견디는 아치 (원리 영상)", f"{D3} Using the reference image: the same 3D gorge cross-section as the reference image, without the deck: the same chain curve flipped upside down so it stands as an upward arch made of chain links between the two cliffs, orange push arrows along the arch pointing down into both cliffs. Same camera."),
+ ("i07e", "CB", "image", "S07e 강철·콘크리트는 미는 힘에 강하다", f"{P} Using the reference image: {BR}. Close shot where a massive grey steel arch member sits on a huge concrete foundation block cut into the rock, rivet-like bolts and plates, bright light. No people. {NOTXT}"),
+ # ---- S08
+ ("i08a", None, "image", "S08a 다음 문제", f"{P} A steep crumbling Himalayan slope with gravel and small stones sliding down, a little dust, bright daylight, medium shot. No people. {NOTXT}"),
+ ("i08b", "CB", "image", "S08b 아치는 무게를 산으로 밀어 넣는다", f"{P} Using the reference image: {BR}. Low close view of the foot of the arch where the two steel ribs press into the cliff on a massive concrete base, the rock slope around it, bright light. {NOTXT}"),
+ ("i08c", "CB", "image", "S08c 금 간 산이 버틸까?", f"{P} Using the reference image: {BR}. The cracked, fractured rock slope directly below the arch foundation with loose blocks, the arch rising above out of focus, bright daylight. {NOTXT}"),
+ ("i08c2", None, "image", "S08c 걱정스럽게 비탈을 보는 기술자", f"{P} An Indian adult engineer in a white hard hat and orange vest seen from behind, standing on a ledge looking up at a steep cracked rock slope, small in the frame, bright daylight. Face not visible. {NOTXT}"),
+ # ---- S09~S10
+ ("i09a", None, "image", "S09a 다리보다 먼저 산을 고쳤다", f"{P} Workers small in the distance on scaffolding fixed to a steep Himalayan rock slope with drilling rigs, hoses and safety ropes, bright daylight, wide shot. Faces not visible. {NOTXT}"),
+ ("V09", "G3D", "frame", "S09b 시멘트로 바위를 하나로 (원리 영상)", f"{D3} Using the reference image: a close 3D cross-section of the same layered gorge rock as the reference image, many cracks between rock blocks, a thin grey pipe inserted into the rock ready to inject grey cement. Same style and colours. No labels."),
+ ("V10a", "G3D", "frame", "S10a~b 앵커: 구멍, 강철 줄, 잭 (원리 영상)", f"{D3} Using the reference image: a 3D cross-section of one steep rock slope from the same diorama as the reference image: a long drilled hole goes deep into the rock, a bright steel tendon lies inside it, a concrete anchor block sits on the slope surface at the hole mouth with a yellow hydraulic jack on top. No labels."),
+ ("V10b", "G3D", "frame", "S10c 당겨진 줄이 블록으로 비탈을 누른다 (원리 영상)", f"{D3} Using the reference image: the same 3D slope cross-section with the steel tendon now taut and locked, the concrete anchor block on the surface; blue pull arrows along the tendon pointing outward to the block, and orange push arrows from the block pressing into the slope. No labels."),
+ ("i10d", None, "image", "S10d 비탈에 콘크리트를 뿌림", f"{P} A worker small in the frame on a rope spraying grey shotcrete from a hose onto a steep rock slope, a cloud of spray, bright daylight, medium-wide shot. Face not visible. {NOTXT}"),
+ ("i10d2", "CB", "image", "S10d 앵커 블록 줄", f"{P} Using the reference image: {BR}. A steep slope beside the arch foundation covered with grey shotcrete and neat rows of square concrete anchor blocks, the arch rising above, bright daylight. {NOTXT}"),
+ # ---- S11
+ ("i11a", None, "image", "S11a 먼저 거기까지 가야 했다", f"{P} A wild deep Himalayan gorge with no road at all, only sheer rock walls, forest and the river, bright daylight, aerial view. No people. {NOTXT}"),
+ ("i11b", None, "image", "S11b 노새를 타고", f"{P} Two Indian adult workers in hard hats seen from behind leading loaded mules up a narrow mountain track on a steep slope, small in the frame, bright daylight. Faces not visible. {NOTXT}"),
+ ("i11b2", None, "image", "S11b 배로 강을 따라", f"{P} A small wooden boat carrying three Indian adult workers in hard hats on the turquoise river at the bottom of a deep gorge, seen from a distance from behind, bright daylight. Faces not visible. {NOTXT}"),
+ ("i11c", None, "image", "S11c 3만 5천 톤의 강철", f"{P} A construction yard on a narrow ledge in a Himalayan gorge with huge stacks of grey steel plates and truss members, a crane, workers tiny, bright daylight. {NOTXT}"),
+ # ---- S12~S14
+ ("i12a", None, "image", "S12a 공중에 아치를 어떻게?", f"{P} The empty gap of air between two sheer cliffs of a deep V-shaped Himalayan gorge, no bridge yet, the river far below, bright sky. No people. {NOTXT}"),
+ ("i12b", None, "image", "S12b 양쪽 산 위의 탑과 케이블", f"{P} A tall red-and-white steel cable-crane tower standing on a cliff top, thick cables stretching away across a deep gorge to another tower on the far side, bright daylight. {NOTXT}"),
+ ("v12", None, "frame", "S12b~c 케이블에 매단 강철 조각 (무빙 영상)", f"{P} A large grey steel truss segment hanging from a long cable crane high above a deep Himalayan gorge, cables running from cliff to cliff, the river far below, bright daylight, side view. {NOTXT}"),
+ ("i13a", None, "image", "S13a 양쪽에서 공중으로 뻗어 나간 아치", f"{P} A half-built steel truss arch reaching out from a cliff over a deep Himalayan gorge with its tip in mid-air, steel cables holding it back, tiny workers on top, bright daylight. {NOTXT}"),
+ ("V13", "G3D", "frame", "S13b~c 반쪽 아치를 케이블로 뒤에서 붙잡음 (원리 영상)", f"{D3} Using the reference image: {G3}, but without the deck and with the arch unfinished: two half-arches reach out from both cliffs over the gap, each held back by straight cables running from its tip over a tower on the cliff top to anchors in the rock, blue pull arrows along the cables. Same camera."),
+ ("v14", None, "frame", "S14a 2021년 4월 5일 두 반쪽이 만남 (동작 영상)", f"{P} The last steel segment hangs from a cable just above the narrow gap between two half-arches meeting high in the middle of a deep Himalayan gorge, tiny workers on both arch tips, bright daylight, medium-wide shot. {NOTXT}"),
+ ("V14", "G3D", "frame", "S14b~c 유압잭으로 맞춰 맞물림 (원리 영상)", f"{D3} Using the reference image: a close 3D view of the crown of the same arch from the reference image: the two half-arch ends with a small gap between them, yellow hydraulic jacks set across the gap, back-stay cables still attached. Same colours. No labels."),
+ # ---- S15
+ ("i15a", "CB", "image", "S15a 첫 질문으로", f"{P} Using the reference image: {BR}, calm and quiet in bright morning light, seen from a slope across the gorge, medium-wide. {NOTXT}"),
+ ("i15b", "CB", "image", "S15b 지진이 오면?", f"{P} Using the reference image: {BR}, seen from the foot of the gorge with dust rising from the shaking slopes and small rocks falling, the bridge standing above, bright daylight. {NOTXT}"),
+ ("i15c", None, "image", "S15c 지진 5구역", f"{P} Close shot of a seismograph pen drawing a strong zigzag line on a paper drum, bright clean light. No numbers, no letters, {NOTXT}"),
+ ("i15c2", "CB", "image", "S15c 규모 8도 견딘다(정부)", f"{P} Using the reference image: {BR}, low angle from a slope, strong and solid in bright sunlight, a train crossing. {NOTXT}"),
+ ("i15c3", "CB", "image", "S15c 기초", f"{P} Using the reference image: {BR}. Close shot of the massive concrete foundation of one steel pier set into the rock slope, huge anchor bolts, bright daylight. No people. {NOTXT}"),
+ # ---- S16~S17
+ ("i16a", "CB", "image", "S16a 답의 절반은 선로 아래", f"{P} Using the reference image: {BR}. View from underneath the deck looking up at the steel girders, cross-bracing and the underside of the track structure, bright light from the side. {NOTXT}"),
+ ("V16a", "G3D", "frame", "S16b~c 상판은 받침 위에, 신축이음 (원리 영상)", f"{D3} Using the reference image: a 3D cut-away close-up of the top of one pier from the same bridge: the deck girder rests on a bearing pad on the pier top (not fixed), and nearby a visible expansion joint gap splits the deck into sections. Same colours. No labels."),
+ ("V16b", "G3D", "frame", "S16d 흔들림을 받침과 이음이 감당 (원리 영상)", f"{D3} Using the reference image: {G3}, side view of the deck and three piers, with small bearing pads between deck and pier tops and expansion joints between deck sections, the ground at the bottom about to shake. Same camera."),
+ ("i17a", "CB", "image", "S17a 최악의 상황까지 계산", f"{P} Using the reference image: {BR}. Close-medium shot of a row of slender steel lattice piers standing on the arch, one pier sharp in focus, bright daylight. {NOTXT}"),
+ ("V17", "G3D", "frame", "S17b 기둥 하나가 부서져도 (원리 영상)", f"{D3} Using the reference image: {G3}, side view: one pier glows red as damaged, the deck above it still continuous and supported, a small slow train model on the deck. Same camera."),
+ # ---- S18~S19
+ ("i18a", "CB", "image", "S18a 또 다른 것", f"{P} Using the reference image: {BR}, trees on the gorge slopes bending in strong wind, clouds racing over the ridges, bright daylight, wide shot. {NOTXT}"),
+ ("V18", "G3D", "frame", "S18b~c 협곡이 바람을 깔때기처럼 (원리 영상)", f"{D3} Using the reference image: {G3}, seen from slightly above along the gorge: white wind flow lines enter the wide valley mouth and squeeze into the narrow gorge under the bridge. Same colours."),
+ ("i19a", None, "image", "S19a 지형 모형 바람 실험", f"{P} A detailed white scale model of the arch bridge and the surrounding mountain terrain on a turntable inside a bright wind-tunnel laboratory, an adult engineer small from behind. {NOTXT}"),
+ ("i19a2", None, "image", "S19a 모형 위로 흐르는 연기", f"{P} Close shot of thin white smoke streams flowing over a scale model of a steel arch bridge and mountains in a wind tunnel, bright clean light. {NOTXT}"),
+ ("i19a3", "CB", "image", "S19a 시속 266km 바람도", f"{P} Using the reference image: {BR}, a strong gale blowing dust and mist through the gorge, clouds streaking past the arch, the bridge standing firm, bright daylight. {NOTXT}"),
+ ("i19b", "CB", "image", "S19b 센서 120개", f"{P} Close shot of a small grey sensor box with cables bolted to the steel railing of the bridge deck, the gorge blurred far below, bright daylight. {NOTXT}"),
+ ("i19b2", "CB", "image", "S19b 바람·온도·흔들림 24시간", f"{P} A cup anemometer and a small weather vane spinning on a thin mast fixed to the bridge deck, the steel arch and gorge behind, bright daylight. {NOTXT}"),
+ ("i19c", "CB", "image", "S19c 신호가 빨간불", f"{P} A railway colour-light signal on a mast beside the track at the end of the bridge, its red light glowing, the bridge deck behind, bright daylight. No lettering, {NOTXT}"),
+ ("i19c2", None, "image", "S19c 역장실 경보", f"{P} Inside a small Indian railway station master's room: a control panel with a flashing red alarm lamp, an adult railway officer seen from behind reaching for the phone, bright window light. Face not visible. {NOTXT}"),
+ # ---- S20
+ ("i20a", "CB", "image", "S20a 햇빛도 골칫거리", f"{P} Using the reference image: {BR} at morning, bright sun lighting one side of the arch while the other side and the opposite slope are in shadow, clear sky. {NOTXT}"),
+ ("V20a", "G3D", "frame", "S20b~c 햇빛이 한쪽만 → 아치가 휨 (원리 영상)", f"{D3} Using the reference image: {G3}: a bright sun above the left cliff shines on the left half of the arch, which glows soft red with heat, while the right half stays grey in shadow. Same camera."),
+ ("V20b", "G3D", "frame", "S20d 선로가 미끄러질 수 있게 (원리 영상)", f"{D3} Using the reference image: a 3D close-up of the track on the same bridge deck: the steel rail sits in sliding fastenings on the deck, a small gap at a rail expansion joint, the warm left side of the deck faintly red. Same colours. No labels."),
+ # ---- S21~S24
+ ("i21", "CB", "image", "S21a 다시 첫 질문으로", f"{P} Using the reference image: {BR}. The same view as the earthquake scene from the gorge, but now completely calm: clear air, still slopes, no falling rocks, bright daylight. {NOTXT}"),
+ ("i21b", "CB", "image", "S21b 지진이 오면?", f"{P} Using the reference image: {BR}, a white-and-blue train crossing calmly in bright daylight, seen from a ridge across the gorge, medium-wide. {NOTXT}"),
+ ("V22", "G3D", "frame", "S22a~b 산이 받치고 선로가 흘려보냄 (원리 영상)", f"{D3} Using the reference image: {G3}: orange push arrows run down the arch into both cliffs, where rows of anchor tendons and blocks reinforce the rock; small bearing pads under the deck. Same camera."),
+ ("v23", "CB", "frame", "S23a 산과 함께 버틴다 (무빙 영상)", f"{P} Using the reference image: {BR}, a high aerial view of the whole bridge among the Himalayan ranges, a train crossing, bright golden afternoon light. {NOTXT}"),
+ ("i23b", "CB", "image", "S23a 끝", f"{P} Using the reference image: {BR} at golden hour, warm sunlight on the steel arch, long shadows in the gorge, wide shot. {NOTXT}"),
+ ("i24", "CB", "image", "S24a 구독", f"{P} Using the reference image: {BR} at sunset with warm lights glowing along the deck, the sky orange and purple, wide shot, bright enough to see the arch clearly. {NOTXT}"),
+]
+json.dump([dict(id=a, ref=b, kind=k, line=c, prompt=d) for a, b, k, c, d in S], open(HERE / "prompts_v1.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(len(S), {k: sum(1 for x in S if x[2] == k) for k in ("master", "image", "frame")})

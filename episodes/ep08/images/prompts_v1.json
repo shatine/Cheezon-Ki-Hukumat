@@ -1,0 +1,520 @@
+[
+ {
+  "id": "CB",
+  "ref": "user_ref2_gorge",
+  "kind": "master",
+  "line": "기준: 실사 다리",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the Chenab Rail Bridge in Jammu and Kashmir, India: one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers standing on the arch and on the slopes, no piers in the river, a thin turquoise river far below. Three-quarter view from low in the gorge, the whole bridge visible, the arch spanning from left to right, bright clear daylight, blue sky. No train, no people. No readable text."
+ },
+ {
+  "id": "G3D",
+  "ref": "CB",
+  "kind": "master",
+  "line": "기준: 3D 협곡 단면",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. The same bridge as the reference image as a clean 3D diorama: the deep V-shaped Himalayan gorge cut away as a front cross-section showing layered grey-brown rock and steep slopes on both sides, a thin blue river at the bottom, the two-rib grey steel truss arch springing from both cliffs, the long flat deck on slender piers across the top. Front view, the whole gorge and bridge centred, white-grey background. No arrows yet."
+ },
+ {
+  "id": "o01",
+  "ref": "CB",
+  "kind": "frame",
+  "line": "S01a~b 지진이 오면? (도입 영상)",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). A train of white-and-blue coaches crosses the deck while an earthquake shakes the gorge: rocks and dust tumble down both steep slopes far below the bridge, the bridge and the train stand intact. Wide shot from the gorge, bright blue sky. No readable text."
+ },
+ {
+  "id": "o02",
+  "ref": "CB",
+  "kind": "frame",
+  "line": "S01c~S02a 강에서 올려다본 359m (도입 영상)",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). Extreme low angle from the riverbank at the bottom of the gorge looking straight up: the turquoise river and rocky bed in the foreground with no pier anywhere in the water, the arch and deck tiny and very high in the sky between the cliffs. Bright daylight. No readable text."
+ },
+ {
+  "id": "V02",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S02b~c 높이 비교 3D (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera). Beside the bridge stand two simple white scale models: an Eiffel Tower model whose top is a little lower than the deck, and a tower of five Qutub Minar models stacked one on top of another reaching the deck height. A thin vertical bright green bar runs from the river to the deck. No numbers, no labels."
+ },
+ {
+  "id": "o03",
+  "ref": "CB",
+  "kind": "frame",
+  "line": "S02d 2025년 개통, 세계 최고 철도교 (도입 영상)",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). Aerial drone view along the gorge, the whole arch revealed, a white-and-blue passenger train crossing the deck, snowy Himalayan peaks in the distance, bright clear daylight. No readable text."
+ },
+ {
+  "id": "i03a",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S03a 왜 이런 곳에?",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference), seen very small and far away inside a vast remote Himalayan landscape of steep ridges, only the bridge shows human presence. Wide shot. No readable text."
+ },
+ {
+  "id": "i03b",
+  "ref": null,
+  "kind": "image",
+  "line": "S03b 겨울마다 눈에 막히는 길",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A Kashmir mountain highway buried in deep snow, a long line of stopped trucks seen from behind and the side, snow walls on both sides, drivers small standing by the trucks, bright snowy daylight. No number plates visible, No readable text."
+ },
+ {
+  "id": "i03b2",
+  "ref": null,
+  "kind": "image",
+  "line": "S03b 눈으로 막힘",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close-medium shot of a mountain road completely blocked by a snow avalanche, a yellow snow-clearing bulldozer pushing snow, a worker small in the distance from behind, bright white light. No readable text."
+ },
+ {
+  "id": "i03c",
+  "ref": null,
+  "kind": "image",
+  "line": "S03c 도로로 6~7시간",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A long winding Himalayan road with many hairpin bends and slow cars and a bus seen from behind, crawling up the mountainside, bright daylight, aerial view. No number plates visible, No readable text."
+ },
+ {
+  "id": "i03c2",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S03c 기차로 약 3시간",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). A white-and-blue passenger train crossing the deck, snowy peaks behind, bright clear day, side view from the slope. No readable text."
+ },
+ {
+  "id": "i03c3",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S03c 기차 안에서 본 협곡",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Inside a modern Indian train coach, two adult passengers seen from behind looking out of the big window at the deep gorge and the steel arch below, bright daylight. Faces not visible. No readable text."
+ },
+ {
+  "id": "i04",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S04a~b 여기에 왜 기둥을 못 세웠나?",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). View from the rocky riverbed at the side of the river: the empty turquoise river channel in the middle ground where no pier stands, the bridge high above between the cliffs. Medium-wide, bright daylight, a different angle from looking straight up. No readable text."
+ },
+ {
+  "id": "V04",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S04c V자 협곡, 43~77도 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: the same 3D gorge cross-section as the reference image but WITHOUT the bridge: the deep V-shaped valley, the two very steep rock slopes standing almost like walls, the thin blue river at the bottom. Front view, same camera. No numbers, no labels."
+ },
+ {
+  "id": "i05a",
+  "ref": null,
+  "kind": "image",
+  "line": "S05a 젊은 산 히말라야",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Jagged young Himalayan ranges with sharp raw peaks and steep fresh rock faces, layered ridges, bright clear daylight, aerial view. No readable text."
+ },
+ {
+  "id": "i05b",
+  "ref": null,
+  "kind": "image",
+  "line": "S05b 금 가고 잘 부서지는 바위",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot of a Himalayan rock face full of cracks and fractured blocks, loose shards and gravel crumbling at the bottom, bright sunlight. No people. No readable text."
+ },
+ {
+  "id": "V05",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S05c 비탈 위 높은 기둥은 미끄러진다 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: the same 3D V-shaped gorge cross-section as the reference image, without the arch: one very tall slender grey pier stands on the steep cracked left slope, cracks visible in the rock under its foot. Same camera. No labels."
+ },
+ {
+  "id": "i06a",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S06a 그래서 아치",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). Medium shot of the great steel arch curving across the gorge, bright blue sky, seen from the cliff top on one side. No readable text."
+ },
+ {
+  "id": "V06",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S06b 두 반쪽이 서로 밀며 무게를 산으로 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera), but the arch is shown as two half-arches rising from both cliffs and nearly meeting in the middle, without the deck. Orange push arrows run along each half-arch down into the rock of each mountain. Same camera."
+ },
+ {
+  "id": "i06c",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S06c 469m를 기둥 없이",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). Perfect side view of the entire arch span from one cliff to the other, the empty river far below, bright daylight, wide shot. No readable text."
+ },
+ {
+  "id": "i06c2",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S06c 단 한 번의 도약",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). View from the foot of the arch on one cliff looking along the rising steel arch as it leaps across the gorge to the far cliff, strong perspective, bright sky. No readable text."
+ },
+ {
+  "id": "i07a",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S07a 왜 이 곡선?",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). Close-medium shot of the curved steel truss arch rib against a clear blue sky, the elegant curve filling the frame. No readable text."
+ },
+ {
+  "id": "V07a",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S07b~c 늘어뜨린 사슬은 당기는 힘만 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: the same 3D gorge cross-section as the reference image, without the bridge: a heavy steel chain hangs across the gorge from the top of the left cliff to the top of the right cliff, sagging in a smooth natural curve. Blue pull arrows along the chain point toward both ends. Same camera."
+ },
+ {
+  "id": "V07b",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S07d 뒤집으면 미는 힘만 견디는 아치 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: the same 3D gorge cross-section as the reference image, without the deck: the same chain curve flipped upside down so it stands as an upward arch made of chain links between the two cliffs, orange push arrows along the arch pointing down into both cliffs. Same camera."
+ },
+ {
+  "id": "i07e",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S07e 강철·콘크리트는 미는 힘에 강하다",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). Close shot where a massive grey steel arch member sits on a huge concrete foundation block cut into the rock, rivet-like bolts and plates, bright light. No people. No readable text."
+ },
+ {
+  "id": "i08a",
+  "ref": null,
+  "kind": "image",
+  "line": "S08a 다음 문제",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A steep crumbling Himalayan slope with gravel and small stones sliding down, a little dust, bright daylight, medium shot. No people. No readable text."
+ },
+ {
+  "id": "i08b",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S08b 아치는 무게를 산으로 밀어 넣는다",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). Low close view of the foot of the arch where the two steel ribs press into the cliff on a massive concrete base, the rock slope around it, bright light. No readable text."
+ },
+ {
+  "id": "i08c",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S08c 금 간 산이 버틸까?",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). The cracked, fractured rock slope directly below the arch foundation with loose blocks, the arch rising above out of focus, bright daylight. No readable text."
+ },
+ {
+  "id": "i08c2",
+  "ref": null,
+  "kind": "image",
+  "line": "S08c 걱정스럽게 비탈을 보는 기술자",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. An Indian adult engineer in a white hard hat and orange vest seen from behind, standing on a ledge looking up at a steep cracked rock slope, small in the frame, bright daylight. Face not visible. No readable text."
+ },
+ {
+  "id": "i09a",
+  "ref": null,
+  "kind": "image",
+  "line": "S09a 다리보다 먼저 산을 고쳤다",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Workers small in the distance on scaffolding fixed to a steep Himalayan rock slope with drilling rigs, hoses and safety ropes, bright daylight, wide shot. Faces not visible. No readable text."
+ },
+ {
+  "id": "V09",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S09b 시멘트로 바위를 하나로 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: a close 3D cross-section of the same layered gorge rock as the reference image, many cracks between rock blocks, a thin grey pipe inserted into the rock ready to inject grey cement. Same style and colours. No labels."
+ },
+ {
+  "id": "V10a",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S10a~b 앵커: 구멍, 강철 줄, 잭 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: a 3D cross-section of one steep rock slope from the same diorama as the reference image: a long drilled hole goes deep into the rock, a bright steel tendon lies inside it, a concrete anchor block sits on the slope surface at the hole mouth with a yellow hydraulic jack on top. No labels."
+ },
+ {
+  "id": "V10b",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S10c 당겨진 줄이 블록으로 비탈을 누른다 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: the same 3D slope cross-section with the steel tendon now taut and locked, the concrete anchor block on the surface; blue pull arrows along the tendon pointing outward to the block, and orange push arrows from the block pressing into the slope. No labels."
+ },
+ {
+  "id": "i10d",
+  "ref": null,
+  "kind": "image",
+  "line": "S10d 비탈에 콘크리트를 뿌림",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A worker small in the frame on a rope spraying grey shotcrete from a hose onto a steep rock slope, a cloud of spray, bright daylight, medium-wide shot. Face not visible. No readable text."
+ },
+ {
+  "id": "i10d2",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S10d 앵커 블록 줄",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). A steep slope beside the arch foundation covered with grey shotcrete and neat rows of square concrete anchor blocks, the arch rising above, bright daylight. No readable text."
+ },
+ {
+  "id": "i11a",
+  "ref": null,
+  "kind": "image",
+  "line": "S11a 먼저 거기까지 가야 했다",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A wild deep Himalayan gorge with no road at all, only sheer rock walls, forest and the river, bright daylight, aerial view. No people. No readable text."
+ },
+ {
+  "id": "i11b",
+  "ref": null,
+  "kind": "image",
+  "line": "S11b 노새를 타고",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Two Indian adult workers in hard hats seen from behind leading loaded mules up a narrow mountain track on a steep slope, small in the frame, bright daylight. Faces not visible. No readable text."
+ },
+ {
+  "id": "i11b2",
+  "ref": null,
+  "kind": "image",
+  "line": "S11b 배로 강을 따라",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A small wooden boat carrying three Indian adult workers in hard hats on the turquoise river at the bottom of a deep gorge, seen from a distance from behind, bright daylight. Faces not visible. No readable text."
+ },
+ {
+  "id": "i11c",
+  "ref": null,
+  "kind": "image",
+  "line": "S11c 3만 5천 톤의 강철",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A construction yard on a narrow ledge in a Himalayan gorge with huge stacks of grey steel plates and truss members, a crane, workers tiny, bright daylight. No readable text."
+ },
+ {
+  "id": "i12a",
+  "ref": null,
+  "kind": "image",
+  "line": "S12a 공중에 아치를 어떻게?",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. The empty gap of air between two sheer cliffs of a deep V-shaped Himalayan gorge, no bridge yet, the river far below, bright sky. No people. No readable text."
+ },
+ {
+  "id": "i12b",
+  "ref": null,
+  "kind": "image",
+  "line": "S12b 양쪽 산 위의 탑과 케이블",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A tall red-and-white steel cable-crane tower standing on a cliff top, thick cables stretching away across a deep gorge to another tower on the far side, bright daylight. No readable text."
+ },
+ {
+  "id": "v12",
+  "ref": null,
+  "kind": "frame",
+  "line": "S12b~c 케이블에 매단 강철 조각 (무빙 영상)",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A large grey steel truss segment hanging from a long cable crane high above a deep Himalayan gorge, cables running from cliff to cliff, the river far below, bright daylight, side view. No readable text."
+ },
+ {
+  "id": "i13a",
+  "ref": null,
+  "kind": "image",
+  "line": "S13a 양쪽에서 공중으로 뻗어 나간 아치",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A half-built steel truss arch reaching out from a cliff over a deep Himalayan gorge with its tip in mid-air, steel cables holding it back, tiny workers on top, bright daylight. No readable text."
+ },
+ {
+  "id": "V13",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S13b~c 반쪽 아치를 케이블로 뒤에서 붙잡음 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera), but without the deck and with the arch unfinished: two half-arches reach out from both cliffs over the gap, each held back by straight cables running from its tip over a tower on the cliff top to anchors in the rock, blue pull arrows along the cables. Same camera."
+ },
+ {
+  "id": "v14",
+  "ref": null,
+  "kind": "frame",
+  "line": "S14a 2021년 4월 5일 두 반쪽이 만남 (동작 영상)",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. The last steel segment hangs from a cable just above the narrow gap between two half-arches meeting high in the middle of a deep Himalayan gorge, tiny workers on both arch tips, bright daylight, medium-wide shot. No readable text."
+ },
+ {
+  "id": "V14",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S14b~c 유압잭으로 맞춰 맞물림 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: a close 3D view of the crown of the same arch from the reference image: the two half-arch ends with a small gap between them, yellow hydraulic jacks set across the gap, back-stay cables still attached. Same colours. No labels."
+ },
+ {
+  "id": "i15a",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S15a 첫 질문으로",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference), calm and quiet in bright morning light, seen from a slope across the gorge, medium-wide. No readable text."
+ },
+ {
+  "id": "i15b",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S15b 지진이 오면?",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference), seen from the foot of the gorge with dust rising from the shaking slopes and small rocks falling, the bridge standing above, bright daylight. No readable text."
+ },
+ {
+  "id": "i15c",
+  "ref": null,
+  "kind": "image",
+  "line": "S15c 지진 5구역",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot of a seismograph pen drawing a strong zigzag line on a paper drum, bright clean light. No numbers, no letters, No readable text."
+ },
+ {
+  "id": "i15c2",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S15c 규모 8도 견딘다(정부)",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference), low angle from a slope, strong and solid in bright sunlight, a train crossing. No readable text."
+ },
+ {
+  "id": "i15c3",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S15c 기초",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). Close shot of the massive concrete foundation of one steel pier set into the rock slope, huge anchor bolts, bright daylight. No people. No readable text."
+ },
+ {
+  "id": "i16a",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S16a 답의 절반은 선로 아래",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). View from underneath the deck looking up at the steel girders, cross-bracing and the underside of the track structure, bright light from the side. No readable text."
+ },
+ {
+  "id": "V16a",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S16b~c 상판은 받침 위에, 신축이음 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: a 3D cut-away close-up of the top of one pier from the same bridge: the deck girder rests on a bearing pad on the pier top (not fixed), and nearby a visible expansion joint gap splits the deck into sections. Same colours. No labels."
+ },
+ {
+  "id": "V16b",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S16d 흔들림을 받침과 이음이 감당 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera), side view of the deck and three piers, with small bearing pads between deck and pier tops and expansion joints between deck sections, the ground at the bottom about to shake. Same camera."
+ },
+ {
+  "id": "i17a",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S17a 최악의 상황까지 계산",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). Close-medium shot of a row of slender steel lattice piers standing on the arch, one pier sharp in focus, bright daylight. No readable text."
+ },
+ {
+  "id": "V17",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S17b 기둥 하나가 부서져도 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera), side view: one pier glows red as damaged, the deck above it still continuous and supported, a small slow train model on the deck. Same camera."
+ },
+ {
+  "id": "i18a",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S18a 또 다른 것",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference), trees on the gorge slopes bending in strong wind, clouds racing over the ridges, bright daylight, wide shot. No readable text."
+ },
+ {
+  "id": "V18",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S18b~c 협곡이 바람을 깔때기처럼 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera), seen from slightly above along the gorge: white wind flow lines enter the wide valley mouth and squeeze into the narrow gorge under the bridge. Same colours."
+ },
+ {
+  "id": "i19a",
+  "ref": null,
+  "kind": "image",
+  "line": "S19a 지형 모형 바람 실험",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A detailed white scale model of the arch bridge and the surrounding mountain terrain on a turntable inside a bright wind-tunnel laboratory, an adult engineer small from behind. No readable text."
+ },
+ {
+  "id": "i19a2",
+  "ref": null,
+  "kind": "image",
+  "line": "S19a 모형 위로 흐르는 연기",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot of thin white smoke streams flowing over a scale model of a steel arch bridge and mountains in a wind tunnel, bright clean light. No readable text."
+ },
+ {
+  "id": "i19a3",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S19a 시속 266km 바람도",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference), a strong gale blowing dust and mist through the gorge, clouds streaking past the arch, the bridge standing firm, bright daylight. No readable text."
+ },
+ {
+  "id": "i19b",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S19b 센서 120개",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot of a small grey sensor box with cables bolted to the steel railing of the bridge deck, the gorge blurred far below, bright daylight. No readable text."
+ },
+ {
+  "id": "i19b2",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S19b 바람·온도·흔들림 24시간",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A cup anemometer and a small weather vane spinning on a thin mast fixed to the bridge deck, the steel arch and gorge behind, bright daylight. No readable text."
+ },
+ {
+  "id": "i19c",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S19c 신호가 빨간불",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A railway colour-light signal on a mast beside the track at the end of the bridge, its red light glowing, the bridge deck behind, bright daylight. No lettering, No readable text."
+ },
+ {
+  "id": "i19c2",
+  "ref": null,
+  "kind": "image",
+  "line": "S19c 역장실 경보",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Inside a small Indian railway station master's room: a control panel with a flashing red alarm lamp, an adult railway officer seen from behind reaching for the phone, bright window light. Face not visible. No readable text."
+ },
+ {
+  "id": "i20a",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S20a 햇빛도 골칫거리",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference) at morning, bright sun lighting one side of the arch while the other side and the opposite slope are in shadow, clear sky. No readable text."
+ },
+ {
+  "id": "V20a",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S20b~c 햇빛이 한쪽만 → 아치가 휨 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera): a bright sun above the left cliff shines on the left half of the arch, which glows soft red with heat, while the right half stays grey in shadow. Same camera."
+ },
+ {
+  "id": "V20b",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S20d 선로가 미끄러질 수 있게 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: a 3D close-up of the track on the same bridge deck: the steel rail sits in sliding fastenings on the deck, a small gap at a rail expansion joint, the warm left side of the deck faintly red. Same colours. No labels."
+ },
+ {
+  "id": "i21",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S21a 다시 첫 질문으로",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). The same view as the earthquake scene from the gorge, but now completely calm: clear air, still slopes, no falling rocks, bright daylight. No readable text."
+ },
+ {
+  "id": "i21b",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S21b 지진이 오면?",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference), a white-and-blue train crossing calmly in bright daylight, seen from a ridge across the gorge, medium-wide. No readable text."
+ },
+ {
+  "id": "V22",
+  "ref": "G3D",
+  "kind": "frame",
+  "line": "S22a~b 산이 받치고 선로가 흘려보냄 (원리 영상)",
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera): orange push arrows run down the arch into both cliffs, where rows of anchor tendons and blocks reinforce the rock; small bearing pads under the deck. Same camera."
+ },
+ {
+  "id": "v23",
+  "ref": "CB",
+  "kind": "frame",
+  "line": "S23a 산과 함께 버틴다 (무빙 영상)",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference), a high aerial view of the whole bridge among the Himalayan ranges, a train crossing, bright golden afternoon light. No readable text."
+ },
+ {
+  "id": "i23b",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S23a 끝",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference) at golden hour, warm sunlight on the steel arch, long shadows in the gorge, wide shot. No readable text."
+ },
+ {
+  "id": "i24",
+  "ref": "CB",
+  "kind": "image",
+  "line": "S24a 구독",
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference) at sunset with warm lights glowing along the deck, the sky orange and purple, wide shot, bright enough to see the arch clearly. No readable text."
+ }
+]
