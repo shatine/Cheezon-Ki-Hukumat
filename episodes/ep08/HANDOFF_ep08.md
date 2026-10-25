@@ -39,7 +39,7 @@ The new cloud session reads this file first.
 | 3 이미지 프롬프트 | 완료 | `images/prompts_v1.json` (2 masters CB and G3D + 48 images + 24 video first frames) |
 | 4 Flow 생성·검수 | **진행 중** | `images/picks_v1.md`, 33 of 74 ids. Cloud pre-checked the remaining 41 prompts and revised 6 (V02 retry, i15c, i19c, i19c2, i21, i24) |
 | 5 영상 프롬프트 | 완료 | `video/vprompts_v1.json` (24 clips, not generated) |
-| 6 클라우드 검수 | **2차 완료**: v1 41 pass + v2 16 pass = 57. Left: 7 remakes + 10 new (`picks_v1.md` 클라우드 검수 v2, top of `WORK_ORDER_flow_round2.md`) | — |
+| 6 클라우드 검수 | **3차 완료**: 65 of 74 pass (V02 = 6th, with an x5 label in editing). Left: 2 remakes (i20a, i19a2) + 7 new. See `picks_v1.md` 클라우드 검수 v3 | — |
 
 ## 다음 클라우드 세션이 할 일
 - PC work order for now: `WORK_ORDER_flow_round2.md` (11 remakes + 22 new). When the PC pushes to `images/v1/`, review with `cloud_review_v1.py` and at full size, then remove from git.
