@@ -10,14 +10,13 @@
 >      - the image is dark.
 >    - **Do not** zoom in, compare, or write detailed review notes. The **cloud** does the strict review.
 >    - Keep only one image per id (the one that passed the quick check). The cloud will send back what to remake.
-> 2. **10장마다 push하고 세션을 끝낸다.**
->    - After 10 images, run step 6 (push) and step 7 (a short report), and **end the session**.
->    - The next PC session starts from this work order again.
-> 3. **새 세션의 시작:**
+> 2. **끊지 않고 남은 이미지를 모두 만든 뒤 한 번에 push한다** (사용자 2026-10-25 변경: 10장 단위 규칙 폐지).
+>    - Create every image the work order lists, in one go, then run step 6 (push) and step 7 (a short report) once.
+>    - If the session gets too long or hits the limit, push what is finished and carry on in a new session.
+> 3. **새 세션의 시작 (이어 갈 때만):**
 >    - `git pull`, then read only `CLAUDE.md` (상시 허락), this work order and the last section of `picks_v1.md`.
->    - **Read the skill folder only the first time.** From then on, the rules in this work order are enough.
->    - Skip ids that are already in `picks_v1.md` or already in `img\`.
-> 4. **진행 중이던 세션:** stop after the image you are working on, push what is finished (step 6), and end. Then start a new session after pulling.
+>    - Skip ids that are already in `img\` with a passing record.
+> 4. **검수는 클라우드가 한다.** The cloud sends back a remake list, and the PC makes the whole list in one go.
 > 5. **Screenshots** only when needed. Check completion by **waiting once** at a long enough interval (about 30–60 s), not by repeated shots.
 
 **Purpose:** finish Flow images for episode 8 and send them to the cloud for review.
@@ -125,7 +124,7 @@ V16a, V16b, i17a, V17, i18a, V18, i19a, i19a2, i19a3, i19b, i19b2, i19c, i19c2, 
 - **If the generation limit hits mid-way:** do steps 6–7 with what is finished so far, then report.
 
 ## 6단계: 클라우드로 보내기 (고른 것만)
-**Every 10 images**, copy only the newly **chosen** images into the send folder, then push. After the push, end the session. Do not send rejected tries; this saves space.
+**Once everything is made**, copy only the newly **chosen** images into the send folder, then push. Do not send rejected tries; this saves space.
 ```powershell
 $img  = "D:\youtube\7. Cheezon Ki Hukumat\episodes\08_chenab_bridge\img"
 $repo = "D:\youtube\Cheezon-Ki-Hukumat"
