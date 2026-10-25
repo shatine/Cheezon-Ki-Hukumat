@@ -37,11 +37,12 @@ The new cloud session reads this file first.
 | 1 TTS | 완료 | 334.3 s, 70 lines. `review_edit/narr_timing.json` (audio only on the PC) |
 | 2 장면 계획 | 완료 | `plan/plan_v1.py` → 72 cuts, 0 errors. Video 24 cuts (principle 139.9 s), images 48 cuts (max 4.5 s), opening 4 videos, non-principle video share 13.8% |
 | 3 이미지 프롬프트 | 완료 | `images/prompts_v1.json` (2 masters CB and G3D + 48 images + 24 video first frames) |
-| 4 Flow 생성·검수 | **진행 중** | `images/picks_v1.md`, about 32 ids recorded so far |
+| 4 Flow 생성·검수 | **진행 중** | `images/picks_v1.md`, 33 of 74 ids. Cloud pre-checked the remaining 41 prompts and revised 6 (V02 retry, i15c, i19c, i19c2, i21, i24) |
 | 5 영상 프롬프트 | 완료 | `video/vprompts_v1.json` (24 clips, not generated) |
 | 6 클라우드 검수 | 대기 | Once the PC pushes the selected images to `images/v1/`, the cloud reviews them strictly and removes them from git |
 
 ## 다음 클라우드 세션이 할 일
+0. Review tool: `python3 episodes/ep08/images/cloud_review_v1.py <scratch dir>` copies `images/v1/*.png`, writes `auto_report.md` (size, brightness, neighbour similarity, missing ids) and contact sheets. Then `git rm -r episodes/ep08/images/v1`. Still look at every image at full size.
 1. `git pull` → read this file, `WORK_ORDER_tts_to_images.md`, `images/picks_v1.md` and `plan/shot_table_v1.md`.
 2. When the PC finishes step 4 and pushes the images:
    - Copy them to the scratchpad, then remove them from git.

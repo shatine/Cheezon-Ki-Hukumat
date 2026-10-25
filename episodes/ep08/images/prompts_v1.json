@@ -32,7 +32,7 @@
   "ref": "G3D",
   "kind": "frame",
   "line": "S02b~c 높이 비교 3D (원리 영상)",
-  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera). Beside the bridge stand two simple white scale models: an Eiffel Tower model whose top is a little lower than the deck, and a tower of five Qutub Minar models stacked one on top of another reaching the deck height. A thin vertical bright green bar runs from the river to the deck. No numbers, no labels."
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera). Beside the bridge stand two simple white scale models: on the left an Eiffel Tower model whose top reaches about nine tenths of the deck height (only slightly lower than the deck); on the right a tall column made of FIVE separate identical Qutub Minar models (each a tapered red sandstone fluted tower with balcony rings), placed one directly on top of another, with a thin white gap between each of the five so all five copies are clearly countable, the top of the fifth reaching exactly the deck height. A thin vertical bright green bar runs from the river to the deck. No numbers, no labels."
  },
  {
   "id": "o03",
@@ -340,7 +340,7 @@
   "ref": null,
   "kind": "image",
   "line": "S15c 지진 5구역",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot of a seismograph pen drawing a strong zigzag line on a paper drum, bright clean light. No numbers, no letters, No readable text."
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot of a seismograph pen drawing a strong zigzag line on a blank paper drum with only faint plain grid lines, no printed scale, no numbers, no letters, bright clean light. No readable text."
  },
  {
   "id": "i15c2",
@@ -445,14 +445,14 @@
   "ref": "CB",
   "kind": "image",
   "line": "S19c 신호가 빨간불",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A railway colour-light signal on a mast beside the track at the end of the bridge, its red light glowing, the bridge deck behind, bright daylight. No lettering, No readable text."
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A railway colour-light signal on a plain mast beside the track at the end of the bridge, its red light glowing, the bridge deck behind, bright daylight. No number plate or sign on the mast, no lettering, No readable text."
  },
  {
   "id": "i19c2",
   "ref": null,
   "kind": "image",
   "line": "S19c 역장실 경보",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Inside a small Indian railway station master's room: a control panel with a flashing red alarm lamp, an adult railway officer seen from behind reaching for the phone, bright window light. Face not visible. No readable text."
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Inside a small Indian railway station master's room: a plain control panel with unlabelled buttons and a flashing red alarm lamp, no screens, no posters, no signs, an adult railway officer seen from behind reaching for the phone, bright window light. Face not visible. No readable text."
  },
  {
   "id": "i20a",
@@ -477,10 +477,10 @@
  },
  {
   "id": "i21",
-  "ref": "CB",
+  "ref": "o01",
   "kind": "image",
   "line": "S21a 다시 첫 질문으로",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). The same view as the earthquake scene from the gorge, but now completely calm: clear air, still slopes, no falling rocks, bright daylight. No readable text."
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: EXACTLY the same bridge, camera position and composition as the reference image (the earthquake scene), but now completely calm: clear air, no dust, still slopes, no falling rocks, bright daylight. Keep the same bridge design and left-to-right orientation. No readable text."
  },
  {
   "id": "i21b",
@@ -515,6 +515,6 @@
   "ref": "CB",
   "kind": "image",
   "line": "S24a 구독",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference) at sunset with warm lights glowing along the deck, the sky orange and purple, wide shot, bright enough to see the arch clearly. No readable text."
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference) at sunset, seen from a cliff top at one end looking along the deck toward the arch (a different camera from the previous wide golden-hour shot), warm lights glowing along the deck, the sky orange and purple, bright enough to see the arch clearly. No readable text."
  }
 ]
