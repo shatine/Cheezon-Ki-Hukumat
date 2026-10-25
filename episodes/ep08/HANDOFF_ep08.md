@@ -38,7 +38,7 @@ The new cloud session reads this file first.
 | 2 장면 계획 | 완료 | `plan/plan_v1.py` → 72 cuts, 0 errors. Video 24 cuts (principle 139.9 s), images 48 cuts (max 4.5 s), opening 4 videos, non-principle video share 13.8% |
 | 3 이미지 프롬프트 | 완료 | `images/prompts_v1.json` (2 masters CB and G3D + 48 images + 24 video first frames) |
 | 4 Flow 생성·검수 | **완료** | 74 of 74 confirmed (`images/picks_v1.md`, cloud reviews v1–v4) |
-| 5 영상 프롬프트 | 완료 | `video/vprompts_v1.json` (24 clips, not generated) |
+| 5 영상 프롬프트 | 완료 (v1, first frames fixed to the confirmed images) | `video/vprompts_v1.json`. **Muse generation approved by the user 2026-10-25** → `WORK_ORDER_muse_v1.md`. Review tool: `video/cloud_review_clips_v1.py` |
 | 6 클라우드 검수 | **완료** | Editing options (blur and brightness) are in `picks_v1.md` 클라우드 검수 v4. Next: Muse video (needs the user's approval) |
 
 ## 다음 클라우드 세션이 할 일
