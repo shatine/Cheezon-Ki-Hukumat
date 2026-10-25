@@ -39,7 +39,7 @@ The new cloud session reads this file first.
 | 3 이미지 프롬프트 | 완료 | `images/prompts_v1.json` (2 masters CB and G3D + 48 images + 24 video first frames) |
 | 4 Flow 생성·검수 | **진행 중** | `images/picks_v1.md`, 33 of 74 ids. Cloud pre-checked the remaining 41 prompts and revised 6 (V02 retry, i15c, i19c, i19c2, i21, i24) |
 | 5 영상 프롬프트 | 완료 | `video/vprompts_v1.json` (24 clips, not generated) |
-| 6 클라우드 검수 | 대기 | Once the PC pushes the selected images to `images/v1/`, the cloud reviews them strictly and removes them from git |
+| 6 클라우드 검수 | **1차 완료** (52장: 통과 41, 다시 11, V14=v14_2) — `images/picks_v1.md` 끝. 아직 안 만든 22개(V16a~i24)와 다시 만들 11개가 남음 | Once the PC pushes the selected images to `images/v1/`, the cloud reviews them strictly and removes them from git |
 
 ## 다음 클라우드 세션이 할 일
 0. Review tool: `python3 episodes/ep08/images/cloud_review_v1.py <scratch dir>` copies `images/v1/*.png`, writes `auto_report.md` (size, brightness, neighbour similarity, missing ids) and contact sheets. Then `git rm -r episodes/ep08/images/v1`. Still look at every image at full size.

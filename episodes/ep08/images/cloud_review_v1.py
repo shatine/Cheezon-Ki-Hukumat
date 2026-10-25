@@ -9,7 +9,7 @@ import numpy as np
 HERE = Path(__file__).resolve().parent
 EP = HERE.parent
 OUT = Path(sys.argv[1]); OUT.mkdir(parents=True, exist_ok=True)
-SRC = HERE / "v1"
+SRC = Path(sys.argv[2]) if len(sys.argv) > 2 else HERE / "v1"
 
 prompts = {p["id"]: p for p in json.load(open(HERE / "prompts_v1.json", encoding="utf-8"))}
 # 계획 순서: 컷 표의 소스 열 (기준 그림 CB·G3D는 맨 앞)
