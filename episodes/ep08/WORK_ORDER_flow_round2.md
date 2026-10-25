@@ -1,5 +1,25 @@
 # 8편 작업 지시서: Flow 이미지 2차 (다시 만들 11장 + 남은 22장) → push
 
+> ## ⚠ 운영 방식 변경 (사용자 2026-10-25, 즉시 적용, 아래 모든 단계보다 우선)
+> Reason: PC session token savings. Screenshots and the conversation grow, so cost rises fast in long sessions.
+> 1. **PC는 생성, 저장, 간단 확인만 한다.**
+>    - **Quick check** = look at the result **once**, at the size shown on screen. If any of these holds, regenerate right away:
+>      - the subject is wrong;
+>      - realistic or 3D came out the other way round;
+>      - text is obviously visible;
+>      - the image is dark.
+>    - **Do not** zoom in, compare, or write detailed review notes. The **cloud** does the strict review.
+>    - Keep only one image per id (the one that passed the quick check). The cloud will send back what to remake.
+> 2. **10장마다 push하고 세션을 끝낸다.**
+>    - After 10 images, run step 6 (push) and step 7 (a short report), and **end the session**.
+>    - The next PC session starts from this work order again.
+> 3. **새 세션의 시작:**
+>    - `git pull`, then read only `CLAUDE.md` (상시 허락), this work order and the last section of `picks_v1.md`.
+>    - **Read the skill folder only the first time.** From then on, the rules in this work order are enough.
+>    - Skip ids that are already in `picks_v1.md` or already in `img\`.
+> 4. **진행 중이던 세션:** stop after the image you are working on, push what is finished (step 6), and end. Then start a new session after pulling.
+> 5. **Screenshots** only when needed. Check completion by **waiting once** at a long enough interval (about 30–60 s), not by repeated shots.
+
 **Purpose:** finish Flow images for episode 8 and send them to the cloud for review.
 - Start from the cloud review results of 2026-10-25: 41 pass, 11 to remake, 22 not yet made.
 - **Do not generate any Muse video.** Video comes in a later work order.
@@ -82,7 +102,7 @@ V16a, V16b, i17a, V17, i18a, V18, i19a, i19a2, i19a3, i19b, i19b2, i19c, i19c2, 
 ## 생성 규칙 (모든 장)
 - **One at a time:** submit → confirm complete → review → next. No rapid repeated submissions (bot detection). Free, so remake as often as needed.
 - Remove the watermark the same way as before (dewm.py). Save the original in `img_raw\` and the cleaned version in `img\`.
-- **자체 검수 표** (all must pass; same as skill process.md section 4):
+- **PC 간단 확인** (one look; regenerate only for an obvious failure). The table below is the **cloud** strict-review standard, for reference: you do not need to check it item by item.
   | 항목 | 기준 |
   |---|---|
   | 같은 다리 | Two-rib truss arch, piers on the arch, straight deck, no piers in the river, **the arch spanning from left to right** |
@@ -93,11 +113,11 @@ V16a, V16b, i17a, V17, i18a, V18, i19a, i19a2, i19a3, i19b, i19b2, i19c, i19c2, 
   | 글자 | Readable text, numbers, logos, plates, flags or scripts mean rejection |
   | 화질 | Bright, no blurring, no compositing traces |
   | 중복 | Must not look like the shot before or after, or like CB's composition |
-- **Record:** add a row per image to the table in `picks_v1.md`: id | ref | tries | chosen | review note (why earlier tries failed). For the 11 remakes, write "클라우드 재생성" in the note.
+- **Record (short):** add one row per image to the table in `picks_v1.md`: id | ref | tries | chosen | a one-line note. For the 11 remakes, the note is "클라우드 재생성".
 - **If the generation limit hits mid-way:** do steps 6–7 with what is finished so far, then report.
 
 ## 6단계: 클라우드로 보내기 (고른 것만)
-Copy only the newly **chosen** images (at most 33) into the send folder, then push. Do not send rejected tries; this saves space.
+**Every 10 images**, copy only the newly **chosen** images into the send folder, then push. After the push, end the session. Do not send rejected tries; this saves space.
 ```powershell
 $img  = "D:\youtube\7. Cheezon Ki Hukumat\episodes\08_chenab_bridge\img"
 $repo = "D:\youtube\Cheezon-Ki-Hukumat"
