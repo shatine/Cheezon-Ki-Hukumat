@@ -32,7 +32,7 @@
   "ref": "G3D",
   "kind": "frame",
   "line": "S02b~c 높이 비교 3D (원리 영상)",
-  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera). Beside the bridge stand two simple white scale models: on the left an Eiffel Tower model whose top reaches about nine tenths of the deck height (only slightly lower than the deck); on the right a tall column made of FIVE separate identical Qutub Minar models (each a tapered red sandstone fluted tower with balcony rings), placed one directly on top of another, with a thin white gap between each of the five so all five copies are clearly countable, the top of the fifth reaching exactly the deck height. A thin vertical bright green bar runs from the river to the deck. No numbers, no labels."
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera). Beside the bridge stand two simple scale models: on the left an Eiffel Tower model whose top reaches about nine tenths of the deck height; on the right a column of FIVE complete miniature Qutub Minar towers balanced one on top of another, each copy with its OWN narrow pointed tip and its own wide base, so five separate pointed tips are visible up the column like five stacked bottles; the top of the fifth copy reaches exactly the deck height. A thin vertical bright green bar runs from the river to the deck. No numbers, no labels."
  },
  {
   "id": "o03",
@@ -263,7 +263,7 @@
   "ref": "CB",
   "kind": "image",
   "line": "S11b 배로 강을 따라",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A small wooden boat carrying three Indian adult workers in hard hats on the fast-flowing turquoise Chenab river at the bottom of the same deep Himalayan gorge as the reference image (grey rock, steep dry slopes with scrub and pines), seen from a distance from behind, bright daylight. Faces not visible. Not a sandstone canyon, not a calm lake. No readable text."
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image only for the landscape: the same deep Himalayan gorge as the reference image (grey rock, steep dry slopes with scrub and pines) BEFORE the bridge was built: no bridge, no arch, no towers, no cables anywhere in the sky. A small wooden boat carrying three Indian adult workers in hard hats on the fast-flowing turquoise river, seen from a distance from behind, bright daylight. Faces not visible. No readable text."
  },
  {
   "id": "i11c",
@@ -375,7 +375,7 @@
   "ref": "G3D",
   "kind": "frame",
   "line": "S16d 흔들림을 받침과 이음이 감당 (원리 영상)",
-  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera), side view of the deck and three piers, with small bearing pads between deck and pier tops and expansion joints between deck sections, the ground at the bottom about to shake. Same camera."
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera), same front camera and the whole diorama visible: small dark rubber bearing pads clearly visible between the deck and the top of every pier (the deck rests on them, not fixed), and narrow expansion-joint gaps in the deck above two of the piers. A few short white shake lines at the base of the diorama block. Same camera. No labels."
  },
  {
   "id": "i17a",
@@ -396,14 +396,14 @@
   "ref": "CB",
   "kind": "image",
   "line": "S18a 또 다른 것",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference), trees on the gorge slopes bending in strong wind, clouds racing over the ridges, bright daylight, wide shot. No readable text."
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference), seen from a slope across the gorge in bright sunshine: in the foreground pine trees bent hard sideways by a strong wind, branches and grass streaming, dust blowing across the gorge, the bridge standing firm behind. Bright clear daylight, not overcast. Use the reference only for the bridge design and orientation; use a clearly different camera position and framing from the reference image. No readable text."
  },
  {
   "id": "V18",
   "ref": "G3D",
   "kind": "frame",
   "line": "S18b~c 협곡이 바람을 깔때기처럼 (원리 영상)",
-  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera), seen from slightly above along the gorge: white wind flow lines enter the wide valley mouth and squeeze into the narrow gorge under the bridge. Same colours."
+  "prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. Using the reference image: EXACTLY the same 3D diorama as the reference image (V-shaped Himalayan gorge cut away as a cross-section with layered rock, the two-rib steel truss arch springing from both cliffs, the flat deck on slender piers, a thin river at the bottom, same camera), seen from slightly above and from the side so we look ALONG the gorge: many white horizontal wind flow lines come from the wide open valley in the distance, flow along the riverbed toward the bridge, squeeze together where the gorge narrows under the arch (lines closer and slightly stretched = faster), then spread out again. The lines move horizontally along the gorge, not down the slopes. Same diorama style. No labels."
  },
  {
   "id": "i19a",
@@ -414,10 +414,10 @@
  },
  {
   "id": "i19a2",
-  "ref": null,
+  "ref": "i19a",
   "kind": "image",
   "line": "S19a 모형 위로 흐르는 연기",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Close shot of thin white smoke streams flowing over a scale model of a steel arch bridge and mountains in a wind tunnel, bright clean light. No readable text."
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: close shot of the SAME white scale model of the arch bridge and white terrain on the turntable as in the reference image, thin white smoke streams flowing across it from the big fan on one side, bright clean lab light. People only far in the background, small and blurred. No readable text."
  },
  {
   "id": "i19a3",
@@ -438,7 +438,7 @@
   "ref": "CB",
   "kind": "image",
   "line": "S19b 바람·온도·흔들림 24시간",
-  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A cup anemometer and a small weather vane spinning on a thin mast fixed to the bridge deck, the steel arch and gorge behind, bright daylight. No readable text."
+  "prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME Chenab Rail Bridge as the reference image (one giant two-rib grey steel truss arch springing from near-vertical rock cliffs on both sides of a deep V-shaped Himalayan gorge, a long flat straight deck on top carried by slender steel lattice piers that stand on the arch and on the slopes, no piers in the river, the arch spanning from left to right as in the reference). A cup anemometer and a small weather vane on a thin mast fixed to the railing of the narrow single-track railway deck (one railway track on ballast with a narrow walkway, not a road, no crash barriers), the steel arch and gorge behind, bright daylight. No readable text."
  },
  {
   "id": "i19c",
