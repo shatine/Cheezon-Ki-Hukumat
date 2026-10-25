@@ -23,12 +23,7 @@
 - Start from the cloud review results of 2026-10-25: 41 pass, 11 to remake, 22 not yet made.
 - **Do not generate any Muse video.** Video comes in a later work order.
 
-> ## 진행 현황 (클라우드 검수 v3 반영, 2026-10-25)
-> - **남은 9장을 끊지 않고 모두 만든 뒤 한 번에 push한다:**
->   1. 다시 만들기 2장: i20a, i19a2. i19a2에는 i19a 기준 그림을 첨부하고, 시도는 한 번만 한다.
->   2. 처음 만들기 7장: V20b, i21(o01 첨부), i21b(CB+o01), V22, v23(CB+o01), i23b, i24
-> - V02는 6차로 확정했으므로 더 만들지 않는다.
-> - 이유와 고친 프롬프트는 `picks_v1.md`의 "클라우드 검수 v3"에 있다. pull한 뒤 `prompts_v1.json`을 그대로 쓴다.
+> ## 진행 현황: **완료** (클라우드 검수 v4, 2026-10-25). Flow 이미지 74장이 모두 확정됐다. 더 만들 것이 없다.
 
 ## 0. 먼저 읽기 (빠짐없이, 순서대로)
 1. `D:\youtube\Cheezon-Ki-Hukumat\guidelines\CLAUDE.md`, including the **상시 허락** section. Do not ask about commit, push, sync or retakes; do them and report.

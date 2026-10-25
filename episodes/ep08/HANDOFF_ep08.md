@@ -37,9 +37,9 @@ The new cloud session reads this file first.
 | 1 TTS | 완료 | 334.3 s, 70 lines. `review_edit/narr_timing.json` (audio only on the PC) |
 | 2 장면 계획 | 완료 | `plan/plan_v1.py` → 72 cuts, 0 errors. Video 24 cuts (principle 139.9 s), images 48 cuts (max 4.5 s), opening 4 videos, non-principle video share 13.8% |
 | 3 이미지 프롬프트 | 완료 | `images/prompts_v1.json` (2 masters CB and G3D + 48 images + 24 video first frames) |
-| 4 Flow 생성·검수 | **진행 중** | `images/picks_v1.md`, 33 of 74 ids. Cloud pre-checked the remaining 41 prompts and revised 6 (V02 retry, i15c, i19c, i19c2, i21, i24) |
+| 4 Flow 생성·검수 | **완료** | 74 of 74 confirmed (`images/picks_v1.md`, cloud reviews v1–v4) |
 | 5 영상 프롬프트 | 완료 | `video/vprompts_v1.json` (24 clips, not generated) |
-| 6 클라우드 검수 | **3차 완료**: 65 of 74 pass (V02 = 6th, with an x5 label in editing). Left: 2 remakes (i20a, i19a2) + 7 new. See `picks_v1.md` 클라우드 검수 v3 | — |
+| 6 클라우드 검수 | **완료** | Editing options (blur and brightness) are in `picks_v1.md` 클라우드 검수 v4. Next: Muse video (needs the user's approval) |
 
 ## 다음 클라우드 세션이 할 일
 - PC work order for now: `WORK_ORDER_flow_round2.md` (11 remakes + 22 new). When the PC pushes to `images/v1/`, review with `cloud_review_v1.py` and at full size, then remove from git.
