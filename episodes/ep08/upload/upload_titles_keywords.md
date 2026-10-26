@@ -26,5 +26,6 @@ The title, thumbnail and first line all point to the same question as the openin
   - Top, red: `भूकंप आया तो`
   - Bottom, yellow: `इस पुल का क्या होगा?`
   - Beside the vertical arrow, green: `359 मीटर`
-- **Draft:** `thumbnail/thumb_v2_1280x720.jpg`. Prompts: `upload_thumbnail_prompt.md` (A: with text; B: no text, text added in editing).
-- **The user has not yet chosen the final version.** If you make a new Flow image and push it to `thumbnail/`, the cloud lays out the text in the `thumb_v2` style.
+- **확정 (사용자 2026-10-26): `thumbnail/thumb_v2_1280x720.jpg`**
+  - 1280x720 JPG, 0.39 MB, within YouTube's 2 MB limit. Upload it as it is.
+  - Original at larger size: `thumbnail/thumb_v2_full.png` (1672x941, 2.17 MB). Over the 2 MB limit, so do not upload it.
