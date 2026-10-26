@@ -1,0 +1,14 @@
+{
+  "checked_date": "2026-10-27",
+  "timezone": "Asia/Seoul",
+  "metadata_method": "yt-dlp public metadata",
+  "speech_method": "Public YouTube transcript UI where usable; original summaries only",
+  "videos": [
+    {"id":"uS89-Gos32M","channel":"Ronnie & Barty","title":"The Atal Rohtang Tunnel - This Changes Everything!","views":1180100,"duration_display":"9:50","upload_date":"2020-10-07","role":"same_topic_million_plus","review":"full_automatic_transcript","caveat":"Mixed language; ASR mistakes"},
+    {"id":"m9euztsdEIo","channel":"Tech Travel Eat by Sujith Bhakthan","title":"EP #10 - Atal Tunnel Rohtang - World's Longest Tunnel & Heavy Snowfall","views":1469216,"duration_display":"30:53","upload_date":"2020-11-07","role":"same_topic_million_plus","review":"seven_sampled_player_frames","sample_seconds":[15,300,600,900,1200,1500,1800],"caveat":"Malayalam misrecognized as Hindi; speech analysis not completed"},
+    {"id":"9ZpfA85Sals","channel":"Gaurav Kapoor Vlogs","title":"CROSSING ATAL TUNNEL","views":1710387,"duration_display":"13:10","upload_date":"2021-06-22","role":"same_topic_million_plus","review":"full_automatic_transcript","caveat":"Only clear passages used due to ASR mistakes"},
+    {"id":"Twrfo4eoqco","channel":"Build India","title":"The Making Of ATAL TUNNEL With Vaibhav Dange.","views":50054,"duration_display":"13:47","upload_date":"2021-12-01","role":"technical_structure_reference","review":"full_automatic_transcript","caveat":"Technical numbers independently rechecked"},
+    {"id":"NgioFN4sCwE","channel":"AFCONS","title":"Atal Rohtang Tunnel: Extreme Engineering & Construction","views":242962,"duration_display":"3:43","upload_date":"2018-01-17","upload_date_basis":"UTC; Korean UI shows January 18","role":"contractor_visual_reference","review":"description_and_twelve_sampled_player_frames","caveat":"Pre-completion; no captions; not a full frame review"},
+    {"id":"2ej-YWHNB4U","channel":"Mumbiker Nikhil","title":"MANALI TO LEH | EASY BUT COMPLICATED !!!","views":2249279,"duration_display":"22:43","upload_date":"2021-07-01","role":"broader_route_context","review":"full_automatic_transcript","caveat":"Atal is only part of a longer route vlog; ASR mistakes"}
+  ]
+}

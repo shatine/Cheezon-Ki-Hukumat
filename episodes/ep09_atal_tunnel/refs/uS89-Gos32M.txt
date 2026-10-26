@@ -1,0 +1,11 @@
+Ronnie & Barty — The Atal Rohtang Tunnel – This Changes Everything!
+Source: https://www.youtube.com/watch?v=uS89-Gos32M
+Checked: 2026-10-27 Asia/Seoul
+Views: 1180100 | Duration: approximately 9:50
+Evidence: full public automatic Hindi transcript read in YouTube UI; mixed-language ASR caveats.
+This is an original structural summary, not a transcript reproduction.
+
+주민의 당일 왕복 대화 → 개통의 생활 의미 → 짧은 시설 소개 → 일상적 왕복·생필품 사례 → 출구의 풍경 → 관광과 겨울 접근성 전망.
+차용할 기능은 생활 질문으로 진입하고 처음의 일상을 달라 보이게 하는 마무리다.
+촬영 당시 속도·통과시간과 여행자의 설비 표현은 신규 기술 사실로 쓰지 않는다.
+상세 분석: ../refs_analysis.md
