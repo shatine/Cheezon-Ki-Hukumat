@@ -10,12 +10,19 @@ narration_hi.wav + narr_timing.json + plan/shot_list_v2.json → CB/out/v1_revie
   - blur_plate: 이미지 BLUR 좌표 흐림(i19a2 명판, i20a 번호판)
   - x5 표기: V02에 숫자 표기 LABEL ("359 m" 초록 막대 위, "×5" 쿠툽 옆)
 - 소스가 없거나 짧으면 렌더하기 전에 멈춘다.
-- 결과: CB/out/v1_review_hi.mp4, v1_review_small.mp4, 이 폴더의 subs_hi.srt, subs_ko.srt, subs.ass, cuts_v1.json, edit_report_v1.json"""
+- 결과: CB/out/v1_review_hi.mp4, v1_review_small.mp4, 이 폴더의 subs_hi.srt, subs_ko.srt, subs.ass, cuts_v1.json, edit_report_v1.json
+업로드본: python edit_v1.py --upload → CB/out/v1_upload_hi.mp4 (7편 edit_v9_upload.py와 같은 방식)
+- 검수본 컷 조각(CB/out/v1_hi_seg)을 그대로 다시 쓴다. LABEL 컷(V02)과 조각이 없거나 프레임 수가 다른 컷만 새로 렌더한다.
+- 한국어 자막 없음. 힌디어 한 줄 자막 (Nirmala UI 60, 아래 여백 64).
+- 배경음: 6·7편과 같은 bgm.mp3 (환경 변수 BGM으로 바꿀 수 있음), -21 dB, 나레이션 사이드체인 덕킹. 끝 2초 페이드아웃, loudnorm I=-14, TP=-1.5.
+- 결과: CB/out/v1_upload_hi.mp4, CB/out/v1_upload_subs_hi.srt, 이 폴더의 subs_upload.ass, edit_report_v1_upload.json, 클라우드용 CB/out/v1_upload_small.mp4"""
 import json, re, subprocess, shutil, sys, tempfile, statistics
 from pathlib import Path
 import numpy as np, soundfile as sf
 from PIL import ImageFont
 import os
+UP = "--upload" in sys.argv
+BGM = Path(os.environ.get("BGM", r"D:\youtube\7. Cheezon Ki Hukumat\episodes\05_morbi_dam_bridge\music\bgm.mp3")); BGM_DB = -21.0
 HERE = Path(__file__).resolve().parent; EP = HERE.parent
 BUS = Path(os.environ.get("CB", r"D:\youtube\7. Cheezon Ki Hukumat\episodes\08_chenab_bridge"))
 AUDIO = BUS / "review_edit"; OUT = BUS / "out"; SEG = OUT / "v1_hi_seg"; SEG.mkdir(parents=True, exist_ok=True)
@@ -26,13 +33,17 @@ BRIGHT = {"i23b": 1.15, "i24": 1.25}   # 이미지 감마 (노을 장면)
 FLOW_WM = "delogo=x=1132:y=572:w=58:h=58"   # Flow 1280x720 별 워터마크 (V05·V09·V20b)
 FONT = os.environ.get("LABEL_FONT", "C\\:/Windows/Fonts/arialbd.ttf")
 # V02 숫자 표기: (글자, x, y, 컷 안 시작 초) 1920x1080 출력 기준. 초록 = 숫자 (채널 색 약속)
-LABEL = {"V02": [("359 m", 1040, 175, 5.0), ("×5", 1185, 430, 0.8)]}
+# 검수 v1: 나레이션 "359미터"는 출력 15.1–18.3초, "쿠툽 미나르 다섯 개"는 20.8초부터 (V02 컷은 15.73초 시작) → 그에 맞춘 등장 시각
+LABEL = {"V02": [("359 m", 1040, 175, 0.8), ("×5", 1185, 430, 5.1)]}
+def nframes(p): return int(subprocess.run(["ffprobe", "-v", "error", "-count_frames", "-select_streams", "v:0", "-show_entries", "stream=nb_read_frames",
+                                         "-of", "csv=p=0", str(p)], capture_output=True, text=True).stdout.strip() or 0)
 def dur(p): return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)], capture_output=True, text=True).stdout)
 
 T = json.load(open(HERE / "narr_timing.json", encoding="utf-8"))
 AUD, SR = sf.read(AUDIO / "narration_hi.wav", dtype="float32"); ATOT = len(AUD) / SR
 PL = json.load(open(EP / "plan" / "shot_list_v2.json", encoding="utf-8"))
 cuts = PL["cuts"]; VTOT = cuts[-1]["out_f1"] / FPS
+if UP and not BGM.exists(): sys.exit(f"배경음 없음: {BGM} (환경 변수 BGM으로 경로 지정)")
 if VTOT < ATOT: sys.exit(f"계획 길이 {VTOT:.2f}초 < 나레이션 {ATOT:.2f}초: narr_timing.json과 narration_hi.wav가 다르다")
 bad = []
 for c in cuts:
@@ -83,6 +94,8 @@ def img_vf(c):
 lst = []
 for i, c in enumerate(cuts):
     n = c["out_f1"] - c["out_f0"]; seg = SEG / f"{i:03d}.mp4"; c["seg"] = seg.name; src = str(BUS / c["file"])
+    if UP and c["src"] not in LABEL and seg.exists() and nframes(seg) == n:   # 업로드본: 검수본 조각 재사용
+        lst.append(f"file '{seg.as_posix()}'"); continue
     if c["kind"] == "v":
         vf = f"trim=start={c['src_start']},setpts=PTS-STARTPTS,fps={FPS}," + (FLOW_WM + "," if c["opt"] == "flow_wm" else "") + FIT
         if c["opt"] == "hflip": vf += ",hflip"
@@ -96,15 +109,14 @@ for i, c in enumerate(cuts):
     r = subprocess.run(cmd + ["-frames:v", str(n), "-an", "-c:v", "libx264", "-crf", "18", "-preset", "fast", "-pix_fmt", "yuv420p",
                               "-r", str(FPS), str(seg)], capture_output=True, text=True)
     if r.returncode: print(c, r.stderr[-800:]); sys.exit(1)
-    got = int(subprocess.run(["ffprobe", "-v", "error", "-count_frames", "-select_streams", "v:0", "-show_entries", "stream=nb_read_frames",
-                              "-of", "csv=p=0", str(seg)], capture_output=True, text=True).stdout.strip() or 0)
+    got = nframes(seg)
     if got != n: sys.exit(f"{i:03d} {c['src']}: 프레임 {got}/{n}")
     lst.append(f"file '{seg.as_posix()}'")
     print(i, c["start"], c["src"], c["kind"], c["dur"], c.get("effect", ""), c["opt"], flush=True)
 (SEG / "list.txt").write_text("\n".join(lst), encoding="utf-8")
 
 # ---- 자막 ----
-HFS, KFS, MAXW = 58, 44, 1800
+HFS, KFS, MAXW = (60 if UP else 58), 44, 1800
 hfont = ImageFont.truetype(os.environ.get("HI_FONT", r"C:\Windows\Fonts\Nirmala.ttc"), HFS, index=0)
 kfont = lambda s: ImageFont.truetype(os.environ.get("KO_FONT", r"C:\Windows\Fonts\malgunbd.ttf"), s)
 def wid(font, s): return font.getlength(s) * 1.06 + 8   # 테두리 여유
@@ -134,8 +146,44 @@ for i, x in enumerate(T):
     bt = [x["start"] + b for b in boundary_times(x["id"], x["hi"], cc)]
     edges = [x["start"]] + bt + [end]
     for k, ch in enumerate(chunks): hi_ev.append((edges[k], edges[k + 1], clean(ch)))
-with open(HERE / "subs_hi.srt", "w", encoding="utf-8") as f:
+with open(OUT / "v1_upload_subs_hi.srt" if UP else HERE / "subs_hi.srt", "w", encoding="utf-8") as f:
     for n, (a, b, s) in enumerate(hi_ev, 1): f.write(f"{n}\n{ts_srt(a)} --> {ts_srt(b)}\n{s}\n\n")
+if UP:
+    ass = ["[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "WrapStyle: 2", "ScaledBorderAndShadow: yes", "", "[V4+ Styles]",
+           "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
+           f"Style: HI,Nirmala UI,{HFS},&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,1.5,2,60,60,64,1",
+           "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
+    for a, b, s in hi_ev: ass.append(f"Dialogue: 0,{ts_ass(a)},{ts_ass(b)},HI,,0,0,0,,{s}")
+    (HERE / "subs_upload.ass").write_text("\n".join(ass) + "\n", encoding="utf-8-sig")
+    # ---- 소리: 나레이션 + 덕킹 배경음, -14 LUFS (7편 edit_v9_upload.py와 같음) ----
+    tmp = Path(tempfile.mkdtemp(prefix="v1up_")); shutil.copy(HERE / "subs_upload.ass", tmp / "subs.ass")
+    SR2 = 48000
+    fc = (f"[1:a]aresample={SR2},aformat=channel_layouts=stereo,volume={BGM_DB}dB,atrim=0:{VTOT:.3f}[bg];"
+          f"[0:a]aresample={SR2},aformat=channel_layouts=stereo,apad,atrim=0:{VTOT:.3f},asplit[n1][n2];"
+          f"[bg][n2]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400[duck];"
+          f"[n1][duck]amix=inputs=2:normalize=0:duration=first,afade=t=out:st={VTOT - 2.0:.3f}:d=2,loudnorm=I=-14:TP=-1.5:LRA=11[out]")
+    r = subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(AUDIO / "narration_hi.wav"), "-stream_loop", "-1", "-i", str(BGM),
+                        "-filter_complex", fc, "-map", "[out]", "-ar", str(SR2), str(tmp / "mix.wav")], capture_output=True, text=True)
+    if r.returncode: print(r.stderr[-1500:]); sys.exit(1)
+    final = OUT / "v1_upload_hi.mp4"
+    r = subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(SEG / "list.txt"), "-i", "mix.wav",
+                        "-vf", "ass=subs.ass", "-t", f"{VTOT:.3f}",
+                        "-c:v", "libx264", "-crf", "18", "-preset", "medium", "-pix_fmt", "yuv420p", "-r", str(FPS),
+                        "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(final)], cwd=tmp, capture_output=True, text=True)
+    if r.returncode: print(r.stderr[-1500:]); sys.exit(1)
+    lu = subprocess.run(["ffmpeg", "-v", "info", "-i", str(final), "-af", "ebur128=peak=true", "-vn", "-f", "null", "-"],
+                        capture_output=True, text=True, encoding="utf-8", errors="replace").stderr
+    report = {"total_sec": round(dur(final), 2), "narration_sec": round(ATOT, 2), "cuts": len(cuts), "hi_subs": len(hi_ev),
+              "lufs": (re.findall(r"I:\s+(-?[\d.]+) LUFS", lu) or ["?"])[-1], "true_peak_dbfs": (re.findall(r"Peak:\s+(-?[\d.]+) dBFS", lu) or ["?"])[-1],
+              "bgm": str(BGM), "bgm_db": BGM_DB}
+    json.dump(report, open(HERE / "edit_report_v1_upload.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(json.dumps(report, ensure_ascii=False, indent=1))
+    small = OUT / "v1_upload_small.mp4"   # 클라우드 확인용 (깃 100MB 제한)
+    r = subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(final), "-vf", "scale=960:540", "-c:v", "libx264", "-crf", "30", "-preset", "medium",
+                        "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(small)], capture_output=True, text=True)
+    if r.returncode: print(r.stderr[-800:]); sys.exit(1)
+    print("small:", small, round(small.stat().st_size / 1e6, 1), "MB")
+    sys.exit(0)
 with open(HERE / "subs_ko.srt", "w", encoding="utf-8") as f:
     for n, (a, b, s) in enumerate(ko_ev, 1): f.write(f"{n}\n{ts_srt(a)} --> {ts_srt(b)}\n{s}\n\n")
 ass = ["[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "WrapStyle: 2", "", "[V4+ Styles]",
