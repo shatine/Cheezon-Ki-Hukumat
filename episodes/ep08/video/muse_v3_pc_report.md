@@ -22,3 +22,16 @@
 - **For the cloud:**
   - V09 fails the same way with every prompt so far. Muse seems to treat "grout fills the rock" as covering the block. The prompt may need another approach.
   - Making a clip in Flow costs credits and needs the user's instruction.
+
+## 추가: V09·V20b를 Flow에서 다시 만듦 (사용자 지시, 2026-10-26)
+- **Why:** the user asked for the clips that did not pass to be made in Flow. That was V09 (failed) and V20b (close, but not passed).
+- **Settings:**
+  - Flow, 1 try each, the start frame is the same `image`, the v3 prompt is unchanged.
+  - Omni 1.1 Flash, 720p, 10 s, x1, 15 credits each, 30 credits in all.
+- **Files:** `video/v1/V09.mp4` and `video/v1/V20b.mp4` are now the Flow clips. The Muse versions are kept on the PC as `clips_v1\old\{id}_muse_final.mp4`.
+- **Spec differs:** 1280x720, 24 fps, 10.0 s. The Muse clips are 1216x672. V05 is a Flow clip too.
+
+| id | 간단 확인 (Flow) |
+|---|---|
+| V09 | The block's shape and position, the pipe and the outer surfaces stay the same. No cement leaks or covers the face. The cracks turning grey is **weak**: only a few thin grey lines appear around the middle. |
+| V20b | Both rails and all fastenings stay visible for the whole clip. Orange arrows pulse along the rails. The red glow on the left half **fades almost completely out in the middle** and comes back at the end, so check that this "breathing" is acceptable. |
