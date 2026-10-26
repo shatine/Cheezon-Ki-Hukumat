@@ -26,7 +26,7 @@ S = [
  ("V06", "S06b", "locked", "The two half-arches, standing on their cliff foundations, extend slowly toward each other and meet in the middle; then the orange push arrows pulse along each half-arch and flow down into the rock of both mountains.", LOCK),
  ("V07a", "S07b~c", "locked", "The hanging chain sways slightly and settles into its natural curve; blue pull arrows pulse along the chain toward both ends. The chain only hangs, it does not flip.", LOCK),
  ("V07b", "S07d", "locked", "The upside-down chain arch holds still; orange push arrows pulse along the arch from the top down into both cliffs.", LOCK),
- ("V09", "S09b", "locked", "Grey cement flows from the pipe into the cracks and fills them one by one until the separate rock blocks join into one solid mass. The rock shape stays the same.", LOCK),
+ ("V09", "S09b", "locked", "Grey cement flows from the pipe only into the cracks inside the rock block: the cracks turn grey one by one, starting near the pipe and spreading outward, until every crack is filled and the rock reads as one solid mass. Nothing leaks out of the block and nothing drips onto the table; the block outline, the green top and the layered rock colours stay exactly the same.", LOCK),
  ("V10a", "S10a~b", "locked", "The drill hole is already made; the bright steel tendon slides deeper into the hole, then the yellow jack on the anchor block pulls the tendon tight.", LOCK),
  ("V10b", "S10c", "locked", "Blue pull arrows pulse along the taut tendon toward the anchor block, and orange push arrows from the block press into the slope, the cracks in the rock closing slightly.", LOCK),
  ("v12", "S12b~c", "slider", "The steel segment hangs from the cable crane and travels slowly across the gorge along the cable, swinging very slightly. The river far below is turquoise.",
@@ -34,15 +34,14 @@ S = [
  ("V13", "S13b~c", "locked", "The two half-arches reach slightly further out over the gap; blue pull arrows pulse along the back-stay cables from the arch tips to the anchors in the rock.", LOCK),
  ("v14", "S14a", "locked", "The last steel segment is lowered slowly on its cable into the gap between the two half-arches until it fits in place; tiny workers guide it.", LOCK),
  ("V14", "S14b~c", "locked", "The yellow hydraulic jacks push and adjust until the gap between the two half-arch ends closes and they lock; then the back-stay cables slacken and fall away, and the arch stands by itself.", LOCK),
- ("V16a", "S16b~c", "locked", "The deck girder slides slightly back and forth on its bearing pad on the pier top, and the expansion joint gap opens and closes a little. The pier stays fixed.", LOCK),
- ("V16b", "S16d", "locked", "The ground at the bottom shakes; the piers sway slightly while the deck slides gently on its bearings and the expansion joints open and close, absorbing the motion; nothing falls.", LOCK),
+ ("V16a", "S16b~c", "locked", "The two deck girders slide only a few centimetres left and right on the flat black bearing pads, very gently, and the expansion joint gap between them narrows and widens slightly. The girders never lift and never separate from the pads, the pads stay flat, and the pier stays fixed.", LOCK),
+ ("V16b", "S16d", "locked", "A gentle side-to-side shiver of the ground only: the whole diorama keeps exactly the same shape (one V-shaped gorge, the same slopes, the same river), the piers sway very slightly and the deck slides a tiny amount on its bearings. No new valleys, no change to the terrain, nothing falls.", LOCK),
  ("V17", "S17b", "locked", "The red damaged pier fades away; the deck above stays continuous and supported, and the small train crosses slowly over the gap.", LOCK),
  ("V18", "S18b~c", "locked", "White wind flow lines enter the wide valley mouth and squeeze into the narrow gorge, moving faster and closer together as they pass under the bridge.", LOCK),
- ("V20a", "S20b~c", "locked", "The sun shines on the left half of the arch, which glows a little redder with heat and bends very slightly, while the shaded right half stays grey.", LOCK),
- ("V20b", "S20d", "locked", "The rail slides slowly a short distance in its fastenings as the warm deck moves under it, and the gap at the rail expansion joint changes slightly.", LOCK),
+ ("V20a", "S20b~c", "locked", "The left half of the arch slowly warms to a soft red glow and bends only very slightly, a barely visible change; the deck stays straight and level and the whole bridge stays intact. The shaded right half stays grey.", LOCK),
+ ("V20b", "S20d", "locked", "Both rails stay on the deck the whole time and slide together a short distance along their fastenings toward the expansion joint, so the gap at the rail joint narrows slightly. The warm red area of the deck stays the same. No rail disappears or changes shape.", LOCK),
  ("V22", "S22a~b", "locked", "Orange push arrows flow down the arch into both reinforced cliffs, while the deck rocks gently on its bearing pads; the bridge stays intact.", LOCK),
- ("v23", "S23a", "drone pull back", f"The train crosses the bridge; clouds drift over the Himalayan ranges. {KEEP}",
-  "[drone pull back]. Movement: fly slowly backward and up away from the bridge. Speed: slow and even. Framing: the whole bridge stays in frame, the mountains grow around it. End: settle on a very wide shot of the bridge among the mountains."),
+ ("v23", "S23a", "drone pull back", f"No cuts and no scene changes. The white train crosses the bridge; clouds drift over the Himalayan ranges. {KEEP}", "[drone pull back]. Movement: fly very slowly backward and slightly up, away from the bridge. Speed: very slow and even. Framing: the whole bridge stays in the centre of the frame the whole time. End: a wide shot with the bridge still clearly visible in the centre among the mountains."),
 ]
 # 클라우드 검수 v1~v4에서 확정한 첫 프레임 (PC img\ 폴더)
 PICK = dict(o01="v1_o01_1", o02="v1_o02_1", V02="v1_V02_6", o03="v1_o03_2", V04="v1_V04_1", V05="v1_V05_1",
@@ -54,6 +53,8 @@ for i, sent, move, act, cam in S:
     suf = D3 if i.startswith("V") else REAL
     out.append(dict(id=i, image=PICK[i] + ".png", script=sent, move=move,
                     prompt=f"{act} {cam} {LIGHT} {suf}", save=f"CB\\clips_v1\\{i}.mp4"))
+RETAKE = ["V09", "V16a", "V16b", "V20a", "V20b", "v23"]   # 클라우드 검수 v1 (2026-10-26) 다시 만들 것
+for x in out: x["retake_v2"] = x["id"] in RETAKE
 json.dump(out, open(HERE / "vprompts_v1.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 moving = [x["id"] for x in out if x["move"] != "locked"]
 print(len(out), "clips; camera moves:", moving, f"{len(moving)}/{len(out)}")
