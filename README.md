@@ -6,6 +6,7 @@ YouTube 채널 Cheezon Ki Hukumat (@CheezonKiHukumat) 제작 지침과 스킬, �
 - `skills/cheezon-production/`: the channel's only production skill (episode 7 rules, lessons and mistakes, plus templates for plan, edit and TTS). Copy it to the PC at `D:\youtube\7. Cheezon Ki Hukumat\.claude\skills\cheezon-production\`.
   - Reading order: SKILL.md → references/process.md → references/script-and-voice.md → references/prompts.md
   - The skills from earlier episodes were all deleted on 2026-10-24.
+- `backup_portable/`: a backup of the production rules for other AI tools (Codex: `AGENTS.md`, Gemini: `GEMINI.md`). Start reading at `backup_portable/README.md`.
 - `episodes/ep07_bus/` — 7편 "버스에서 살 수 있을까요?"
   - `HANDOFF_ep07_2026-10-21.md` — 인계 요약, 규칙, 다음 할 일, 올리지 않은 이미지·영상의 PC 경로
   - `script/` — 한국어 대본 v3, 힌디 대본 + 한국어 직역 88줄
