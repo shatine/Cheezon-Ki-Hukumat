@@ -42,6 +42,7 @@ The new cloud session reads this file first.
 | 6 클라우드 검수 | **완료** | Editing options (blur and brightness) are in `picks_v1.md` 클라우드 검수 v4. Next: Muse video (needs the user's approval) |
 
 ## 다음 클라우드 세션이 할 일
+- **편집:** PC work order `WORK_ORDER_edit_v1.md`. `review_edit/edit_v1.py` passed a full test render in the cloud with fake media (335.33 s, 72 cuts). When the PC pushes `review_edit/v1/v1_review_small.mp4`, review it from 0 s to the end, then write the upload version (`edit_v9_upload.py` method).
 - PC work order for now: `WORK_ORDER_flow_round2.md` (11 remakes + 22 new). When the PC pushes to `images/v1/`, review with `cloud_review_v1.py` and at full size, then remove from git.
 0. Review tool: `python3 episodes/ep08/images/cloud_review_v1.py <scratch dir>` copies `images/v1/*.png`, writes `auto_report.md` (size, brightness, neighbour similarity, missing ids) and contact sheets. Then `git rm -r episodes/ep08/images/v1`. Still look at every image at full size.
 1. `git pull` → read this file, `WORK_ORDER_tts_to_images.md`, `images/picks_v1.md` and `plan/shot_table_v1.md`.
