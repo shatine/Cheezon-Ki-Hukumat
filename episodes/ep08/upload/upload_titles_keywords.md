@@ -26,6 +26,12 @@ The title, thumbnail and first line all point to the same question as the openin
   - Top, red: `भूकंप आया तो`
   - Bottom, yellow: `इस पुल का क्या होगा?`
   - Beside the vertical arrow, green: `359 मीटर`
-- **확정 (사용자 2026-10-26): `thumbnail/thumb_v2_1280x720.jpg`**
-  - 1280x720 JPG, 0.39 MB, within YouTube's 2 MB limit. Upload it as it is.
-  - Original at larger size: `thumbnail/thumb_v2_full.png` (1672x941, 2.17 MB). Over the 2 MB limit, so do not upload it.
+- **확정 (사용자 2026-10-26): `thumbnail/thumb_v3_1280x720.jpg`** (1280x720 JPG, under YouTube's 2 MB limit). Upload it as it is.
+  - **Changes from v2 (user request):**
+    - Margins above and below the text: 48 px at the 941 px height.
+    - Top line `भूकंप आया तो` is 1.5 times larger (font size about 170 → 255).
+    - The bottom line `इस पुल का क्या होगा?` already used almost the full width, so at 1.5 times it would not fit on one line. As two lines it covered the bridge, so that was rejected. It stays one line, as large as fits the width with side margins.
+  - **How it was made:**
+    - The old text was removed from `thumb_v2_full.png` (OpenCV inpaint), and the text was drawn again in Noto Sans Devanagari Black, with an outline 1/12 of the font size.
+    - The bottom strip is blurred to hide the traces of the removed text.
+  - `thumbnail/thumb_v3_full.png` (1672x941, 1.7 MB) is the larger original. Either file can be uploaded.

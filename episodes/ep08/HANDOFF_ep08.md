@@ -24,7 +24,7 @@ The new cloud session reads this file first.
   - Red: `भूकंप आया तो`
   - Yellow: `इस पुल का क्या होगा?`
   - Green: `359 मीटर` with a **vertical** arrow (height).
-  - Draft: `thumbnail/thumb_v2_1280x720.jpg`. Prompts: `upload_thumbnail_prompt.md`. **Confirmed by the user on 2026-10-26:** `thumb_v2_1280x720.jpg`.
+  - Draft: `thumbnail/thumb_v2_1280x720.jpg`. Prompts: `upload_thumbnail_prompt.md`. **Confirmed by the user on 2026-10-26:** v2, then changed to `thumb_v3_1280x720.jpg` (margins, top line 1.5 times larger).
 - **Script (confirmed, no changes):** `script/script_ko_final.md`, with evidence table.
   - Number rule: where sources disagree, use the **highest** figure. Government claims are attributed in the sentence.
   - The 90 km/h stop rule could not be confirmed, so it was removed. It was replaced with 120 sensors and a red signal plus alarm.
@@ -41,10 +41,10 @@ The new cloud session reads this file first.
 | 5 영상 프롬프트·생성 | **완료: 24 of 24 confirmed** | `video/review_clips_v1.md`, `plan/plan_v2.py` (0 errors). V09 = `review_edit/v09_fill.py` composite. Flow clips have the `flow_wm` blur option. Next: the edit/render work order |
 | 6 클라우드 검수 | **완료** | Editing options (blur and brightness) are in `picks_v1.md` 클라우드 검수 v4. Next: Muse video (needs the user's approval) |
 | 7 편집 검수본 v1 | **완료: 합격 (1 fix)** | `review_edit/review_v1.md`. V02 label timing is fixed in `edit_v1.py`. Next: upload version `WORK_ORDER_upload_v1.md` (`python edit_v1.py --upload`) |
-| 8 업로드본 v1 | **완료: 합격** | -14.0 LUFS, TP -1.5, BGM ducked, one-line Hindi subs. File: PC `CB\out\v1_upload_hi.mp4`. Upload text: `upload/`. Thumbnail confirmed: `thumbnail/thumb_v2_1280x720.jpg`. Remaining: the user uploads |
+| 8 업로드본 v1 | **완료: 합격** | -14.0 LUFS, TP -1.5, BGM ducked, one-line Hindi subs. File: PC `CB\out\v1_upload_hi.mp4`. Upload text: `upload/`. Thumbnail confirmed: `thumbnail/thumb_v3_1280x720.jpg`. Remaining: the user uploads |
 
 ## 다음 클라우드 세션이 할 일
-- **남은 일:** the user uploads. Video: PC `CB\out\v1_upload_hi.mp4`. Thumbnail: `thumbnail/thumb_v2_1280x720.jpg` (confirmed 2026-10-26). Text: `upload/`. Episode 8 production is done.
+- **남은 일:** the user uploads. Video: PC `CB\out\v1_upload_hi.mp4`. Thumbnail: `thumbnail/thumb_v3_1280x720.jpg` (confirmed 2026-10-26: v2 with margins and the top line 1.5 times larger). Text: `upload/`. Episode 8 production is done.
 - PC work order for now: `WORK_ORDER_flow_round2.md` (11 remakes + 22 new). When the PC pushes to `images/v1/`, review with `cloud_review_v1.py` and at full size, then remove from git.
 0. Review tool: `python3 episodes/ep08/images/cloud_review_v1.py <scratch dir>` copies `images/v1/*.png`, writes `auto_report.md` (size, brightness, neighbour similarity, missing ids) and contact sheets. Then `git rm -r episodes/ep08/images/v1`. Still look at every image at full size.
 1. `git pull` → read this file, `WORK_ORDER_tts_to_images.md`, `images/picks_v1.md` and `plan/shot_table_v1.md`.
