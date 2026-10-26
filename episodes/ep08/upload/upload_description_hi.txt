@@ -1,0 +1,43 @@
+भूकंप आया तो इस पुल का क्या होगा?
+
+जम्मू-कश्मीर का चिनाब रेल पुल नदी की तली से 359 मीटर ऊपर ट्रेन ले जाता है — एफ़िल टावर से 35 मीटर ज़्यादा ऊँचा, यानी दिल्ली की लगभग पाँच क़ुतुब मीनारें एक के ऊपर एक — और नदी में एक भी खंभा नहीं है। जून 2025 में खुला ये दुनिया का सबसे ऊँचा रेल पुल है। तो जहाँ एक खंभा तक नहीं लग सकता, वहाँ पुल बना कैसे?
+
+पहली बात, घाटी: गहरी V आकार की घाटी, 43 से 77 डिग्री तक की ढलानें, और अभी भी ऊपर उठ रहा जवान हिमालय, जिसकी चट्टानों में दरारें हैं। ऐसी ढलान पर ऊँचा खंभा घाटी में फिसलना चाहता है — इसलिए इंजीनियरों ने 469 मीटर का एक स्टील आर्च चुना, जो अपना वज़न दोनों पहाड़ों में धकेलता है।
+फिर पुल से पहले पहाड़ ठीक किए गए: दरारों में सीमेंट, जैक से कसकर खींचे गए स्टील एंकर, और ढलानों पर कंक्रीट का छिड़काव।
+फिर हवा में आर्च बना: दो टावरों के बीच 915 मीटर का केबल क्रेन, चट्टानों में बँधी केबल से थामे गए आधे आर्च, और 5 अप्रैल 2021 को दोनों आधे हिस्से नदी के ऊपर मिले।
+और आख़िर में भूकंप, हवा और धूप: बेयरिंग्स पर टिका डेक और एक्सपेंशन जॉइंट, एक खंभा टूटने पर भी खड़ा रहने वाला डिज़ाइन, 266 किमी/घंटा तक के हवा के टेस्ट, चौबीसों घंटे नज़र रखने वाले 120 सेंसर, और खिसकने के लिए छोड़ी गई पटरी।
+
+चैप्टर
+0:00 भूकंप आया तो क्या होगा?
+0:30 ऐसी जगह पुल क्यों?
+0:47 यहाँ खंभा क्यों नहीं लग सकता
+1:14 खंभों की जगह एक आर्च
+1:31 यही घुमाव क्यों? उल्टी ज़ंजीर
+2:02 पहले पहाड़ को ठीक किया
+2:32 वहाँ तक पहुँचना: खच्चर, नाव और 35,000 टन स्टील
+2:47 हवा में आर्च कैसे बना
+3:13 दोनों आधे हिस्से मिले
+3:30 फिर से भूकंप का सवाल
+4:12 हवा
+4:47 धूप
+5:03 तो, भूकंप आया तो क्या होगा?
+
+स्रोत
+- ऊँचाई, दुनिया का सबसे ऊँचा रेल पुल, उद्घाटन (Wikipedia; The Tribune): https://en.wikipedia.org/wiki/Chenab_Rail_Bridge , https://www.tribuneindia.com/news/j-k/pm-modi-inaugurates-worlds-highest-railway-bridge-over-chenab-river-in-jk/amp
+- कटरा–श्रीनगर सफ़र का समय (Outlook Traveller; The Tribune): https://www.outlooktraveller.com/News/chenab-bridge-and-vande-bharat-trains-inaugurated-by-pm-modi-in-srinagar , https://www.tribuneindia.com/news/business/long-awaited-chenab-rail-bridge-connects-kashmir-with-rest-of-bharat
+- ढलान, भूकंप ज़ोन, सेंसर (NBMCW): https://www.nbmcw.com/article-report/infrastructure-construction/project-management-arbitration/chenab-bridge-project-an-engineering-marvel.html
+- 469 मीटर आर्च, 8 तीव्रता वाला बयान (Sacyr): https://sacyr.com/en/-/the-worlds-highest-railway-bridge
+- ढलान को मज़बूत करना: सीमेंट, एंकर, कंक्रीट छिड़काव (IISc): https://eprints.iisc.ac.in/79719 , https://eprints.iisc.ac.in/77941
+- खच्चर, नाव और 5 अप्रैल 2021 को आर्च का जुड़ना (Gulf News): https://gulfnews.com/world/asia/india/from-mules-to-machines-how-india-built-the-record-breaking-chenab-bridge-1.500156223
+- केबल क्रेन (Housing.com): https://housing.com/news/chenab-bridge-jammu-and-kashmir/amp
+- बेयरिंग्स और एक्सपेंशन जॉइंट (Indian Infrastructure): https://indianinfrastructure.com/2022/07/03/new-dynamics-2/
+- एक खंभा टूटने पर 30 किमी/घंटा (Deccan Herald): https://www.deccanherald.com/amp/story/archives%2Fworlds-highest-rail-bridge-come-2243757
+- हवा के टेस्ट (Railway Technology): https://www.railway-technology.com/newsletters/afcons-single-arch-railway-bridge-india-himalayan
+- सेंसर और हवा का अलार्म (Swarajya; Deccan Herald): https://swarajyamag.com/amp/story/reports/chenab-bridge-sensors-on-to-warn-adverse-conditions-ahead-of-train-operations-on-worlds-highest-railway-bridge-ground-report , https://deccanherald.com/india/jammu-and-kashmir/high-tech-systems-to-guard-world-s-tallest-railway-bridge-3077745
+
+जहाँ स्रोतों में आँकड़े अलग हैं (एफ़िल टावर से अंतर, आर्च की लंबाई, स्टील का वज़न, हवा की रफ़्तार, सेंसर की गिनती), वहाँ इस वीडियो में सबसे बड़ा प्रकाशित आँकड़ा लिया गया है। "8 तीव्रता का भूकंप झेल सकता है" सरकार का बयान है।
+इस वीडियो के दृश्य और आवाज़ AI टूल की मदद से बनाए गए हैं। 3D मॉडल समझाने के लिए सरल चित्र हैं, इंजीनियरिंग ड्रॉइंग नहीं; दिखाए गए लोग उदाहरण हैं।
+
+ऐसी और कहानियाँ पाने के लिए सब्सक्राइब और हाइप ज़ोर से दबाइए!
+
+#चिनाबपुल #ChenabBridge #दुनियाकासबसेऊँचारेलपुल #जम्मूकश्मीर #इंजीनियरिंग #भारतीयरेल #हिंदी

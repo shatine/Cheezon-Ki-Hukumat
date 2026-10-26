@@ -1,0 +1,43 @@
+What happens to this bridge in an earthquake?
+
+The Chenab Rail Bridge in Jammu and Kashmir carries trains 359 m above the riverbed — 35 m taller than the Eiffel Tower, about five Qutub Minars stacked on top of each other — and there isn't a single pillar standing in the river. Opened in June 2025, it is the highest railway bridge in the world. So how do you build a bridge where not even one pillar can stand?
+
+First, the gorge: a deep V with slopes of 43° to 77°, cut into the young, still-rising Himalaya, where the rock is cracked and breaks easily. A tall pillar on such a slope wants to slide into the valley — so the engineers chose one 469 m steel arch that pushes its weight into both mountains.
+Then the mountains had to be fixed before the bridge: cement grouting into the cracks, steel anchors pulled tight with jacks, and sprayed concrete over the slopes.
+Then the arch was built in mid-air: a 915 m cable crane between two towers, half-arches held back by cables tied into the rock, and on 5 April 2021 the two halves met over the river.
+And finally the earthquake, wind and sun: a deck resting on bearings with expansion joints, a design that keeps standing even if one pier is lost, wind tests up to 266 km/h, 120 sensors watching 24 hours a day, and rails that are left free to slide.
+
+Chapters
+0:00 What happens in an earthquake?
+0:30 Why build a bridge here?
+0:47 Why no pillar can stand
+1:14 One arch instead of pillars
+1:31 Why this curve? A hanging chain, flipped
+2:02 Fixing the mountain first
+2:32 Getting there: mules, boats and 35,000 t of steel
+2:47 Building an arch in mid-air
+3:13 The two halves meet
+3:30 Back to the earthquake
+4:12 Wind
+4:47 Sunlight
+5:03 So, what happens in an earthquake?
+
+Sources
+- Height, world's highest rail bridge, opening (Wikipedia; The Tribune): https://en.wikipedia.org/wiki/Chenab_Rail_Bridge , https://www.tribuneindia.com/news/j-k/pm-modi-inaugurates-worlds-highest-railway-bridge-over-chenab-river-in-jk/amp
+- Katra–Srinagar travel time (Outlook Traveller; The Tribune): https://www.outlooktraveller.com/News/chenab-bridge-and-vande-bharat-trains-inaugurated-by-pm-modi-in-srinagar , https://www.tribuneindia.com/news/business/long-awaited-chenab-rail-bridge-connects-kashmir-with-rest-of-bharat
+- Slopes, seismic zone, sensors (NBMCW): https://www.nbmcw.com/article-report/infrastructure-construction/project-management-arbitration/chenab-bridge-project-an-engineering-marvel.html
+- 469 m arch span, magnitude-8 statement (Sacyr): https://sacyr.com/en/-/the-worlds-highest-railway-bridge
+- Slope stabilisation: grouting, anchors, shotcrete (IISc): https://eprints.iisc.ac.in/79719 , https://eprints.iisc.ac.in/77941
+- Mules, boats and the arch closure on 5 April 2021 (Gulf News): https://gulfnews.com/world/asia/india/from-mules-to-machines-how-india-built-the-record-breaking-chenab-bridge-1.500156223
+- Cable crane (Housing.com): https://housing.com/news/chenab-bridge-jammu-and-kashmir/amp
+- Bearings and expansion joints (Indian Infrastructure): https://indianinfrastructure.com/2022/07/03/new-dynamics-2/
+- Running at 30 km/h after losing a pier (Deccan Herald): https://www.deccanherald.com/amp/story/archives%2Fworlds-highest-rail-bridge-come-2243757
+- Wind tests (Railway Technology): https://www.railway-technology.com/newsletters/afcons-single-arch-railway-bridge-india-himalayan
+- Sensors and wind alarm (Swarajya; Deccan Herald): https://swarajyamag.com/amp/story/reports/chenab-bridge-sensors-on-to-warn-adverse-conditions-ahead-of-train-operations-on-worlds-highest-railway-bridge-ground-report , https://deccanherald.com/india/jammu-and-kashmir/high-tech-systems-to-guard-world-s-tallest-railway-bridge-3077745
+
+Where sources give different figures (Eiffel Tower difference, arch span, steel tonnage, wind speed, sensor count), this video uses the highest published figure. "Withstands a magnitude-8 earthquake" is the government's statement.
+Visuals and narration in this video were made with the help of AI tools. The 3D models are simplified illustrations, not engineering drawings; people shown are illustrations.
+
+Subscribe for more stories like this — and hit Hype!
+
+#ChenabBridge #ChenabRailBridge #WorldsHighestRailwayBridge #JammuKashmir #Engineering #HowThingsWork #IndianRailways

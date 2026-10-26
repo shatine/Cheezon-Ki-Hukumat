@@ -33,3 +33,17 @@
 - **V17 (244.4–252.5 s):** the red pier glows only about 2 s, during the line "even if one pier breaks". Then the train crosses. The meaning holds.
 - **V10a, 139–140 s:** the black rope looks slightly thicker for a moment. Not visible at playback speed.
 - **v23 (319–328 s):** the bridge is small in the frame, but it is the ending wide shot, so this is intended.
+
+## 업로드본 v1 확인 (2026-10-26)
+**Material:** `v1_upload_small.mp4`, the downscaled copy of `CB\out\v1_upload_hi.mp4`.
+
+**Result: pass.** It can be uploaded.
+
+| 항목 | 결과 |
+|---|---|
+| Length | 335.33 s, 72 cuts, 30 fps |
+| Loudness | -14.0 LUFS, true peak -1.5 dB, LRA 2.0 |
+| Background music | Median about -32 dB in narration pauses, against about -13 dB during speech, so ducking works. The last 2 s fade out (-40 dB at 334.5 s) |
+| Subtitles | 108 Hindi lines, each one line. No overlaps. No Korean. The shortest is "हवा" at 0.76 s, a single word, so it is readable |
+| V02 labels | "359 m" appears at 16.7 s, during the 359 m line. "×5" appears at 21.1 s, during the Qutub line. Pass |
+| Other cuts | Spot checks at 42, 141.5, 245, 268, 300, 334 and 335.2 s match the review cut |

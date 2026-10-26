@@ -41,9 +41,10 @@ The new cloud session reads this file first.
 | 5 영상 프롬프트·생성 | **완료: 24 of 24 confirmed** | `video/review_clips_v1.md`, `plan/plan_v2.py` (0 errors). V09 = `review_edit/v09_fill.py` composite. Flow clips have the `flow_wm` blur option. Next: the edit/render work order |
 | 6 클라우드 검수 | **완료** | Editing options (blur and brightness) are in `picks_v1.md` 클라우드 검수 v4. Next: Muse video (needs the user's approval) |
 | 7 편집 검수본 v1 | **완료: 합격 (1 fix)** | `review_edit/review_v1.md`. V02 label timing is fixed in `edit_v1.py`. Next: upload version `WORK_ORDER_upload_v1.md` (`python edit_v1.py --upload`) |
+| 8 업로드본 v1 | **완료: 합격** | -14.0 LUFS, TP -1.5, BGM ducked, one-line Hindi subs. File: PC `CB\out\v1_upload_hi.mp4`. Upload text: `upload/`. Remaining: the user's final thumbnail choice, then upload |
 
 ## 다음 클라우드 세션이 할 일
-- **업로드본:** PC work order `WORK_ORDER_upload_v1.md`. When the PC pushes `review_edit/v1/v1_upload_small.mp4`, check the sound (-14 LUFS, ducking), the V02 labels (16.5 s "359 m", 20.8 s "×5") and that there is one line of Hindi subtitles only. Then remove it from git and write the upload text (titles and descriptions in English and Hindi separately, keywords 8+8; example `episodes/ep07_bus/upload/`) and the final thumbnail choice.
+- **남은 일:** the user's final thumbnail choice. Draft: `thumbnail/thumb_v2_1280x720.jpg`; prompts: `upload_thumbnail_prompt.md`. If the user pushes a new image, lay out the text in the same style. Then the user uploads `CB\out\v1_upload_hi.mp4` with the text in `upload/`.
 - PC work order for now: `WORK_ORDER_flow_round2.md` (11 remakes + 22 new). When the PC pushes to `images/v1/`, review with `cloud_review_v1.py` and at full size, then remove from git.
 0. Review tool: `python3 episodes/ep08/images/cloud_review_v1.py <scratch dir>` copies `images/v1/*.png`, writes `auto_report.md` (size, brightness, neighbour similarity, missing ids) and contact sheets. Then `git rm -r episodes/ep08/images/v1`. Still look at every image at full size.
 1. `git pull` → read this file, `WORK_ORDER_tts_to_images.md`, `images/picks_v1.md` and `plan/shot_table_v1.md`.
