@@ -3,7 +3,7 @@
 그 외 이미지+효과는 2~4초마다 바꾸고 4.5초를 넘기지 않는다. 영상은 쓸 구간 최대 사용, 감속·정지·반복 금지.
 입력: review_edit/narr_timing.json(실측 334.3초). 출력: plan/shot_list_v2.json, plan/shot_table_v2.md
 SEG = (시작 초, 소스 id, 'v' 영상 / 'i' 이미지, 소스 시작 초, 옵션). 끝 = 다음 행 시작(마지막은 나레이션 끝 + TAIL).
-쓸 구간은 video/review_clips_v1.md 실측. 다시 만들 6개(V09 V16a V16b V20a V20b v23)는 아직 0~CEND."""
+쓸 구간은 video/review_clips_v1.md 실측. 다시 만들 4개(V09 V16a V16b V20b)는 아직 0~CEND."""
 import json
 from pathlib import Path
 EP = Path(__file__).resolve().parent.parent
@@ -14,7 +14,7 @@ VEND = T[-1]["end"] + TAIL
 # 영상 소스: PC 경로(CB = episodes\08_chenab_bridge 기준)와 쓸 수 있는 구간. 'o…' = 도입, 'V…' = 3D 원리, 'v…' = 무빙·동작
 USE = {"o01": (0, 10.0), "o02": (0, 10.0), "V02": (0.7, 10.0), "o03": (4.7, 10.0), "V04": (0, 10.0), "V05": (1.5, 10.0),
        "V06": (0, 10.0), "V07a": (0, 8.6), "V07b": (1.0, 8.6), "V10a": (0, 10.0), "V10b": (0, 6.0), "v12": (0, 10.0),
-       "V13": (0, 10.0), "v14": (0, 10.0), "V14": (0, 10.0), "V17": (0, 8.1), "V18": (4.75, 10.0), "V22": (0, 10.0)}
+       "V13": (0, 10.0), "v14": (0, 10.0), "V14": (0, 10.0), "V17": (0, 8.1), "V18": (4.75, 10.0), "V22": (0, 10.0), "V20a": (0, 8.0), "v23": (0, 10.0)}
 FILE = {"v14": "clips_v1/v14_real.mp4"}   # 윈도우는 v14와 V14를 같은 이름으로 본다
 def V(i, role): return (FILE.get(i, f"clips_v1/{i}.mp4"), [USE.get(i, (0, CEND))], role)
 VID = {

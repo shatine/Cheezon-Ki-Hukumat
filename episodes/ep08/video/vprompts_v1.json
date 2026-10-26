@@ -6,7 +6,7 @@
   "move": "locked",
   "prompt": "The ground shakes: rocks and dust tumble down both slopes of the gorge far below, while the train keeps rolling slowly across the deck and the bridge stays perfectly intact. Keep the exact same bridge shape (two-rib steel truss arch, flat deck on slender piers, no piers in the river). [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
   "save": "CB\\clips_v1\\o01.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "o02",
@@ -15,7 +15,7 @@
   "move": "tilt up",
   "prompt": "The river flows gently below; the deck stays tiny and high in the sky. Keep the exact same bridge shape (two-rib steel truss arch, flat deck on slender piers, no piers in the river). [slow tilt up]. Movement: tilt the camera slowly upward from the river to the bridge in the sky. Speed: very slow and even. Framing: the cliffs frame both sides, the bridge centred at the end. End: hold on the bridge high in the sky. The lighting stays the same bright light for the whole shot, no darkening, no fade. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
   "save": "CB\\clips_v1\\o02.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V02",
@@ -24,7 +24,7 @@
   "move": "locked",
   "prompt": "The thin green bar grows slowly upward from the river until it touches the deck, then glows softly. The Eiffel Tower model, the red-and-white Qutub Minar tower, the bridge and the gorge stay exactly as in the image; nothing new appears. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V02.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "o03",
@@ -33,7 +33,7 @@
   "move": "drone",
   "prompt": "The passenger train glides across the deck; light clouds drift over the peaks. Keep the exact same bridge shape (two-rib steel truss arch, flat deck on slender piers, no piers in the river). [drone slow push forward along the gorge]. Movement: fly slowly forward along the gorge toward the bridge. Speed: slow and even. Framing: the whole arch stays in frame. End: settle on a wide shot with the whole bridge and the train. The lighting stays the same bright light for the whole shot, no darkening, no fade. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
   "save": "CB\\clips_v1\\o03.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V04",
@@ -42,7 +42,7 @@
   "move": "locked",
   "prompt": "The two steep rock slopes slowly highlight from bottom to top along their faces, showing how steep the V-shaped valley walls are; the river flows at the bottom. Keep the gorge shape exactly the same. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V04.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V05",
@@ -51,7 +51,7 @@
   "move": "locked",
   "prompt": "The tall pier on the steep slope slowly tilts and slides down the slope toward the valley floor as small rock pieces crumble from under its foot. The gorge stays exactly the same. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V05.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V06",
@@ -60,7 +60,7 @@
   "move": "locked",
   "prompt": "The two half-arches, standing on their cliff foundations, extend slowly toward each other and meet in the middle; then the orange push arrows pulse along each half-arch and flow down into the rock of both mountains. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V06.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V07a",
@@ -69,7 +69,7 @@
   "move": "locked",
   "prompt": "The hanging chain sways slightly and settles into its natural curve; blue pull arrows pulse along the chain toward both ends. The chain only hangs, it does not flip. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V07a.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V07b",
@@ -78,16 +78,16 @@
   "move": "locked",
   "prompt": "The upside-down chain arch holds still; orange push arrows pulse along the arch from the top down into both cliffs. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V07b.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V09",
   "image": "v1_V09_1.png",
   "script": "S09b",
   "move": "locked",
-  "prompt": "Grey cement flows from the pipe only into the cracks inside the rock block: the cracks turn grey one by one, starting near the pipe and spreading outward, until every crack is filled and the rock reads as one solid mass. Nothing leaks out of the block and nothing drips onto the table; the block outline, the green top and the layered rock colours stay exactly the same. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "prompt": "The dark crack lines inside the rock block slowly turn grey one by one, starting at the tip of the pipe and spreading outward through the existing cracks only, like cement filling them from inside, until all the cracks are grey lines. Between the cracks the rock keeps its brown layered colour, and the outside surfaces and edges of the block do not change. Every solid object stays completely still and keeps its exact shape and position for the whole shot: nothing slides, lifts, tilts, melts, disappears or leaks. Only light, colour and glowing arrows change. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V09.mp4",
-  "retake_v2": true
+  "retake_v3": true
  },
  {
   "id": "V10a",
@@ -96,7 +96,7 @@
   "move": "locked",
   "prompt": "The drill hole is already made; the bright steel tendon slides deeper into the hole, then the yellow jack on the anchor block pulls the tendon tight. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V10a.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V10b",
@@ -105,7 +105,7 @@
   "move": "locked",
   "prompt": "Blue pull arrows pulse along the taut tendon toward the anchor block, and orange push arrows from the block press into the slope, the cracks in the rock closing slightly. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V10b.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "v12",
@@ -114,7 +114,7 @@
   "move": "slider",
   "prompt": "The steel segment hangs from the cable crane and travels slowly across the gorge along the cable, swinging very slightly. The river far below is turquoise. [slider right]. Movement: glide the camera slowly to the right, following the segment. Speed: slow and even. Framing: the segment stays in the middle 70% of the frame. End: settle with the segment over the middle of the gorge. The lighting stays the same bright light for the whole shot, no darkening, no fade. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
   "save": "CB\\clips_v1\\v12.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V13",
@@ -123,7 +123,7 @@
   "move": "locked",
   "prompt": "The two half-arches reach slightly further out over the gap; blue pull arrows pulse along the back-stay cables from the arch tips to the anchors in the rock. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V13.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "v14",
@@ -132,7 +132,7 @@
   "move": "locked",
   "prompt": "The last steel segment is lowered slowly on its cable into the gap between the two half-arches until it fits in place; tiny workers guide it. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
   "save": "CB\\clips_v1\\v14.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V14",
@@ -141,25 +141,25 @@
   "move": "locked",
   "prompt": "The yellow hydraulic jacks push and adjust until the gap between the two half-arch ends closes and they lock; then the back-stay cables slacken and fall away, and the arch stands by itself. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V14.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V16a",
   "image": "v1_V16a_3.png",
   "script": "S16b~c",
   "move": "locked",
-  "prompt": "The two deck girders slide only a few centimetres left and right on the flat black bearing pads, very gently, and the expansion joint gap between them narrows and widens slightly. The girders never lift and never separate from the pads, the pads stay flat, and the pier stays fixed. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "prompt": "Blue arrows on the two girders pulse left and right alternately, and a soft blue glow pulses on the black bearing pads under the girder ends, showing the girders could slide on the pads. The girders rest on the pads the whole time. Every solid object stays completely still and keeps its exact shape and position for the whole shot: nothing slides, lifts, tilts, melts, disappears or leaks. Only light, colour and glowing arrows change. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V16a.mp4",
-  "retake_v2": true
+  "retake_v3": true
  },
  {
   "id": "V16b",
   "image": "v1_V16b_4.png",
   "script": "S16d",
   "move": "locked",
-  "prompt": "A gentle side-to-side shiver of the ground only: the whole diorama keeps exactly the same shape (one V-shaped gorge, the same slopes, the same river), the piers sway very slightly and the deck slides a tiny amount on its bearings. No new valleys, no change to the terrain, nothing falls. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "prompt": "Short white shake lines flicker at the base of the diorama block, and small blue glows pulse on the bearing pads at the top of each pier and in the expansion joints of the deck, left and right alternately, showing the bearings taking the shaking. Every solid object stays completely still and keeps its exact shape and position for the whole shot: nothing slides, lifts, tilts, melts, disappears or leaks. Only light, colour and glowing arrows change. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V16b.mp4",
-  "retake_v2": true
+  "retake_v3": true
  },
  {
   "id": "V17",
@@ -168,7 +168,7 @@
   "move": "locked",
   "prompt": "The red damaged pier fades away; the deck above stays continuous and supported, and the small train crosses slowly over the gap. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V17.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V18",
@@ -177,7 +177,7 @@
   "move": "locked",
   "prompt": "White wind flow lines enter the wide valley mouth and squeeze into the narrow gorge, moving faster and closer together as they pass under the bridge. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V18.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "V20a",
@@ -186,16 +186,16 @@
   "move": "locked",
   "prompt": "The left half of the arch slowly warms to a soft red glow and bends only very slightly, a barely visible change; the deck stays straight and level and the whole bridge stays intact. The shaded right half stays grey. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V20a.mp4",
-  "retake_v2": true
+  "retake_v3": false
  },
  {
   "id": "V20b",
   "image": "v1_V20b_2.png",
   "script": "S20d",
   "move": "locked",
-  "prompt": "Both rails stay on the deck the whole time and slide together a short distance along their fastenings toward the expansion joint, so the gap at the rail joint narrows slightly. The warm red area of the deck stays the same. No rail disappears or changes shape. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
+  "prompt": "Both rails and all their fastenings stay fully visible in place. Small orange arrows beside each rail pulse along the rail direction toward the rail joint, and the red warm glow on the left half of the deck breathes softly. Every solid object stays completely still and keeps its exact shape and position for the whole shot: nothing slides, lifts, tilts, melts, disappears or leaks. Only light, colour and glowing arrows change. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V20b.mp4",
-  "retake_v2": true
+  "retake_v3": true
  },
  {
   "id": "V22",
@@ -204,7 +204,7 @@
   "move": "locked",
   "prompt": "Orange push arrows flow down the arch into both reinforced cliffs, while the deck rocks gently on its bearing pads; the bridge stays intact. [locked-off static shot]. Movement: camera completely still, no zoom, no pan. Speed: none. Framing: exactly the composition of the image. End: same frame. The lighting stays the same bright light for the whole shot, no darkening, no fade. Clean bright 3D educational render, white-grey studio background. Keep the exact same bridge, gorge shape, colours and layout as the image. No new objects, no text, no labels. Ambient sound only. No dialogue, no music, no watermark.",
   "save": "CB\\clips_v1\\V22.mp4",
-  "retake_v2": false
+  "retake_v3": false
  },
  {
   "id": "v23",
@@ -213,6 +213,6 @@
   "move": "drone pull back",
   "prompt": "No cuts and no scene changes. The white train crosses the bridge; clouds drift over the Himalayan ranges. Keep the exact same bridge shape (two-rib steel truss arch, flat deck on slender piers, no piers in the river). [drone pull back]. Movement: fly very slowly backward and slightly up, away from the bridge. Speed: very slow and even. Framing: the whole bridge stays in the centre of the frame the whole time. End: a wide shot with the bridge still clearly visible in the centre among the mountains. The lighting stays the same bright light for the whole shot, no darkening, no fade. Photorealistic, bright midday daylight, vivid colours. Only adults, no children. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
   "save": "CB\\clips_v1\\v23.mp4",
-  "retake_v2": true
+  "retake_v3": false
  }
 ]
