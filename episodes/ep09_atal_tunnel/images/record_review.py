@@ -20,6 +20,9 @@ MEDIA = Path(r"D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel")
 RAW, CLEAN, SELECTED = (MEDIA / name for name in ("img_raw", "img", "img_selected"))
 JSON_PATH, MD_PATH = HERE / "picks_v1.json", HERE / "picks_v1.md"
 PROJECT = "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd"
+# PROJECT is the historical/default project, including legacy migration URLs.
+# Never replace it with the current generation project or rewrite old records.
+OBSERVED_PROJECT_IDS = frozenset({PROJECT, "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144"})
 FIELDS = {"id", "attempt", "decision", "reason", "flow_url", "raw_file", "clean_file",
           "root_opened_raw_original", "root_opened_clean_original"}
 OPTIONAL_FIELDS = {"actual_retake_reference_file"}
@@ -28,9 +31,43 @@ UI_REFERENCE_METHODS = {"project_media_attachment", "current_image_editor_input"
 REVISION_OBSERVATION_FIELDS = {"id", "attempt", "media_url", "raw_sha256", "observed_at", "observed_by", "evidence"}
 
 
-def valid_flow_url(value):
-    return isinstance(value, str) and re.fullmatch(
-        rf"https://flow\.google\.com/project/{PROJECT}/edit/[0-9a-f-]+", value) is not None
+def load_flow_project_policy(path=None):
+    """Load only the two explicitly observed episode projects, never a wildcard.
+
+    The result/source roles remain separate even though both currently retain
+    the same two IDs for historical revalidation and new reviewed selections.
+    This config grants no UI availability, attachment or visual approval.
+    """
+    policy = load_json(HERE / "flow_project_policy_v1.json" if path is None else Path(path))
+    if (not isinstance(policy, dict) or policy.get("schema_version") != 1
+            or policy.get("legacy_default_project_id") != PROJECT
+            or policy.get("current_generation_project_id") not in OBSERVED_PROJECT_IDS):
+        raise ValueError("Invalid Flow project policy/default/current project")
+    for role in ("result", "source"):
+        ids = policy.get(f"allowed_{role}_project_ids")
+        if (not isinstance(ids, list) or any(not isinstance(x, str) for x in ids)
+                or len(ids) != len(set(ids)) or set(ids) != OBSERVED_PROJECT_IDS):
+            raise ValueError("Flow project policy must contain exactly the two explicitly observed IDs")
+    evidence = policy.get("authorization_evidence")
+    if (not isinstance(evidence, dict) or not isinstance(evidence.get("user_request_verbatim"), str)
+            or not evidence["user_request_verbatim"].strip()):
+        raise ValueError("Flow project policy needs the actual user authorization evidence")
+    return policy
+
+
+def flow_project_id(value, role="source"):
+    if role not in {"result", "source"}:
+        raise ValueError("Flow project URL role must be result or source")
+    if not isinstance(value, str):
+        return None
+    match = re.fullmatch(r"https://flow\.google\.com/project/([0-9a-f-]+)/edit/[0-9a-f-]+", value)
+    if not match:
+        return None
+    return match[1] if match[1] in load_flow_project_policy()[f"allowed_{role}_project_ids"] else None
+
+
+def valid_flow_url(value, role="source"):
+    return flow_project_id(value, role) is not None
 
 
 def valid_media_url(value):
@@ -173,7 +210,7 @@ def normalize(payload, manifest, require_ui_references=True):
                    for key in ("id", "observed_by", "evidence")):
                 raise ValueError("UI reference id, observed_by and evidence must be nonempty text")
             if not valid_flow_url(ref["flow_url"]):
-                raise ValueError("UI reference flow_url must identify a source in the fixed project")
+                raise ValueError("UI reference flow_url must identify a source in an explicitly allowed episode project")
             if "source_media_url" in ref and not valid_media_url(ref["source_media_url"]):
                 raise ValueError("UI reference source_media_url must identify the actual input image revision")
             if ref["method"] not in UI_REFERENCE_METHODS:
@@ -192,8 +229,8 @@ def normalize(payload, manifest, require_ui_references=True):
     for key in ("reason", "flow_url"):
         if not isinstance(item[key], str) or not item[key].strip():
             raise ValueError(f"{key} must be nonempty text")
-    if not valid_flow_url(item["flow_url"]):
-        raise ValueError("flow_url must identify a result in the fixed episode project")
+    if not valid_flow_url(item["flow_url"], role="result"):
+        raise ValueError("flow_url must identify a result in an explicitly allowed episode project")
     for key in ("root_opened_raw_original", "root_opened_clean_original"):
         if type(item[key]) is not bool:
             raise ValueError(f"{key} must be an explicit JSON boolean")
@@ -387,7 +424,7 @@ def markdown_report(ledger, manifest):
              f"갱신: {ledger['updated_at']}. 선택 **{len(picks)}/{len(manifest)} ID**, 기록 {len(reviewed)} ID / {len(records)}시도. 미선택 {len(manifest) - len(picks)} ID. 미기록 {len(manifest) - len(reviewed)} ID.", "",
              "2026-10-27 최초 생성 UI에서 지정 Flow 프로젝트, Nano Banana 2.1 / 16:9 / x1 / 0크레딧을 확인했다. 한 장씩 생성한다.", "",
              "이미지는 관찰한 형상·승인 대본으로 새로 생성한 설명용 재구성이다. 현장 기록 사진·측량 결과가 아니다. 도구는 시각 합격을 판단하지 않고 root가 명시한 선택·재생성 결정과 실제 원본 크기로 연 여부를 기록한다.", "",
-             "자동 확인은 파일 존재·실제 형식·픽셀 크기·바이트 수·SHA-256·선행 선택 참조 파일에 한정된다. planned_ref와 master 재시도에서 명시한 미선택 원본 참조(actual_retake_reference_file)를 구분한다. 같은 프로젝트의 실제 첨부 원본 자산은 reference_assets_v1.json/생성 기록과 대조하며, 표의 선행 선택 PNG 파일은 그 원천을 구별하기 위한 선택 기록이다. PNG를 재업로드했다고 뜻하지 않는다. Flow에 실제 참조를 첨부했는지, 의미·형상·글자·사람·밝기·중복이 적절한지는 이 측정으로 검증하지 않는다. 오디오 받아쓰기 검사도 별개다.", "",
+             "자동 확인은 파일 존재·실제 형식·픽셀 크기·바이트 수·SHA-256·선행 선택 참조 파일에 한정된다. planned_ref와 master 재시도에서 명시한 미선택 원본 참조(actual_retake_reference_file)를 구분한다. 원천 자산의 프로젝트와 현재 생성 프로젝트는 별개이며 허용 ID는 flow_project_policy_v1.json의 두 관찰 프로젝트뿐이다. reference_assets_v1.json은 파일 대응만 확인하고 현재 프로젝트별 media 가용성이나 첨부를 확인하지 않는다. 표의 선행 선택 PNG 파일은 원천 선택 기록이며 PNG 재업로드·자산 이동을 뜻하지 않는다. Flow에 실제 참조를 첨부했는지, 의미·형상·글자·사람·밝기·중복이 적절한지는 이 측정으로 검증하지 않는다. 오디오 받아쓰기 검사도 별개다.", "",
              "새 결정은 result_media_url에 실제 결과 이미지 revision을 기록하고, actual_ui_references에 제출 전 실제 입력으로 본 ID·편집기 URL·source_media_url·방법·관찰자·근거를 명시한다. ref가 없으면 []로 입력 이미지 부재를 신고한다. 편집기 URL은 수정되는 컨테이너이므로 이미지 revision 식별자가 아니다. 도구는 신고의 순서·정확한 원천 revision·기록된 파일 해시를 확인하며 서비스의 실제 첨부를 자동 입증하지 않는다.", "",
              "과거 결과 revision이 기록되지 않았으면 source_revision_observations_v1.json의 별도 관찰을 통해 원장·실제 원본과 raw SHA가 모두 같은 경우에만 해석한다. 별도 observed_at/evidence는 관찰한 실제 시점과 사후 확인 여부를 보존하며, 과거 입력 기록에 새 관찰을 소급해서 만들지 않는다. revision 미확인 상태에서는 후속 참조를 차단한다.", "",
              "## 생성·실제 검토", "",

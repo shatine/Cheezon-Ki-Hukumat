@@ -1,0 +1,71 @@
+Formatting note: account identifiers omitted; verbatim UI text retained on PC in image_review_v1/flow_logs/i008_1_failure_ax_before_redaction.txt.
+Observed UTC: 2026-10-27T08:57:23.193Z
+Browser tab: 96307991, Title: "Google Flow - 10월 27 - 17:42", URL: "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144".
+1 AXWebArea Google Flow - 10월 27 - 17:42, URL: flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144
+	2 link Description: Skip to main content, Value: flow.google.com/#main-content
+	3 container main-content
+		4 container
+			5 container
+				6 button 홈
+				7 heading Description: 10월 27 - 17:42, Value: 1
+					8 text 10월 27 - 17:42
+				9 text field (settable) Description: 수정 가능한 텍스트, Value: 10월 27 - 17:42
+				10 pop up button (collapsed) Description: 프로젝트 옵션 더보기, Secondary Actions: Expand
+				11 button 검색
+				12 text field (settable) 검색
+				13 button (collapsed) Description: 필터링 및 정렬 옵션, Secondary Actions: Expand
+				14 pop up button (collapsed) Description: 미디어 메뉴 추가, Secondary Actions: Expand
+				15 button 제품 도움말
+				16 pop up button (collapsed) Description: 설정, Secondary Actions: Expand
+				17 pop up button (collapsed) Description: 옵션 더보기, Secondary Actions: Expand
+				18 button 계정 세부정보
+					19 container PRO tier
+						20 text PRO
+					21 button (collapsed) Description: Google 계정: ironman 아이언맨 ([account identifier omitted]), Google 멤버십, Secondary Actions: Expand
+			22 container 프로젝트 탐색
+				23 button 전체 미디어
+					24 text 전체 미디어
+				25 button 이미지
+					26 text 이미지
+				27 button 캐릭터
+					28 text 캐릭터
+				29 button 장면
+					30 text 장면
+				31 link Description: 라이브러리 컬렉션 만들기, Value: flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144
+				32 link Description: 도구, Value: flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/tools
+				33 link Description: 도구 만들기, Value: flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/create-tool
+				34 link Description: 휴지통, Value: flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/trash
+				35 button 접기
+					36 text 접기
+			37 container
+				38 text Google Flow 크레딧이 부족합니다. 크레딧은 매월 재설정됩니다. 또는 지금 충전하여 더 많은 크레딧을 받아 보세요.
+				39 link Description: AI 크레딧 추가, Value: accounts.google.com/AccountChooser?continue=https%3A%2F%2Fone.google.com%2Fai%2Fcredits%3Futm_source%3Dflow%26utm_medium%3Dweb%26utm_campaign%3Dflow_low_credits_add_credits_banner&Email=goldaladin%40gmail.com
+				40 button 크레딧 배너 닫기
+				41 container
+					57 container Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A Himalayan mountain-pass road completely blocked by deep snow and an avalanche mound, stopped trucks tiny and seen from behind. Bright white snow, clear daylight; no trapped people or emergency victims. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.
+						58 container
+							59 text 실패 비정상적인 활동이 감지되었습니다. 페이지를 수정하는 브라우저 확장 프로그램으로 인해 문제가 발생할 수 있습니다. 자세한 내용은
+							60 link Description: 고객센터, Value: support.google.com/flow
+							61 text  를 참고하세요. 이 생성에 대한 요금이 청구되지 않았습니다.
+							62 button 다시 시도
+							63 button 프롬프트 재사용
+							64 button 삭제
+					42 container Winding mountain road climbing H…
+						43 container
+							44 image 사용자 이미지를 표시하는 타일
+					45 container Cars climbing Himalayan mountain…
+						46 container
+							47 image 사용자 이미지를 표시하는 타일
+				48 container
+					49 text entry area (settable) Description: 무엇을 만들고 싶으신가요?, Value:
+
+					50 pop up button (collapsed) Description: 프롬프트 상자에 소재 추가, Secondary Actions: Expand
+					51 checkbox 에이전트, Value: 0
+					52 button 설정 트리거
+						53 text 🍌 Nano Banana 2.1
+						54 text x1
+					55 button (disabled) 생성 시작
+		56 text Google Flow는 실수를 할 수 있으니 다시 한번 확인하세요.
+	65 text reCAPTCHA 서비스에 연결할 수 없습니다. 인터넷 연결을 확인한 후 페이지를 새로고침하여 reCAPTCHA 보안문자를 다시 로드하세요.
+
+The focused UI element is 49 text entry area (settable) Description: 무엇을 만들고 싶으신가요?, Value:

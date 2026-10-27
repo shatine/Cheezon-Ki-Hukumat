@@ -1,0 +1,10 @@
+{
+  "observed_at_utc": "2026-10-27T08:59:15.220Z",
+  "tab_id": "96307991",
+  "read_only": true,
+  "recaptcha_filter_count": 0,
+  "err_filter_count": 0,
+  "recaptcha_logs": [],
+  "err_logs": [],
+  "data_policy": "Only timestamps, level, error code, connection category, host/path retained; no query, fragment, account, full raw message or tokens persisted."
+}

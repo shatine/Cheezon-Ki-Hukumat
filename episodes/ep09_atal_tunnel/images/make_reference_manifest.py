@@ -1,8 +1,9 @@
 """Record the existing Flow source asset corresponding to each chosen reference.
 
-The selected clean PNG remains the edit/video source. Only its own original Flow
-asset may be attached when the same-project image is already in the media list.
-This measures file correspondence, not the actual UI attachment or visual quality.
+The selected clean PNG remains the edit/video source. Its original Flow revision
+identity is retained even when a different allowed project is used for new work.
+This measures file correspondence, not project-media availability, actual UI
+attachment, transfer, or visual quality. Observe the exact input before submission.
 """
 import hashlib
 import json
@@ -10,10 +11,12 @@ from pathlib import Path
 
 import cv2
 import numpy as np
-from record_review import load_revision_observations, resolve_source_revision
+from record_review import (flow_project_id, load_flow_project_policy,
+                           load_revision_observations, resolve_source_revision)
 
 HERE = Path(__file__).resolve().parent
 PC = Path(r"D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel")
+project_policy = load_flow_project_policy()
 prompts = json.loads((HERE / "prompts_v1.json").read_text(encoding="utf-8-sig"))
 ledger = json.loads((HERE / "picks_v1.json").read_text(encoding="utf-8-sig"))
 picks = ledger["picks"]
@@ -54,14 +57,21 @@ for ref in sorted(refs):
     fraction = float(changed.mean())
     corner_only = bbox is None or (bbox[0] >= width * 0.75 and bbox[1] >= height * 0.7 and fraction <= 0.03)
     url = pick["flow_url"]
-    if not url.startswith("https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/"):
-        raise ValueError(f"{ref}: source asset is outside the fixed project")
+    source_project = flow_project_id(url, role="source")
+    if source_project is None:
+        raise ValueError(f"{ref}: source asset is outside the explicitly allowed episode projects")
     revision = resolve_source_revision(ref, pick["attempt"], ledger.get("review_log", []), revision_observations, PC / "img_raw")
     entries[ref] = {
         "status": ("requires_review_before_use" if not corner_only else
                    "source_correspondence_verified" if revision is not None else "revision_unresolved_do_not_use"),
-        "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+        "transport": "not_determined_by_file_correspondence_observe_exact_input_before_submit",
         "flow_source_url": url, "flow_container_id": url.rsplit("/", 1)[-1],
+        "flow_source_project_id": source_project,
+        "current_generation_project_id": project_policy["current_generation_project_id"],
+        "same_project_as_current_generation": source_project == project_policy["current_generation_project_id"],
+        "availability_by_project": {pid: {"status": "not_checked_in_current_ui",
+            "actual_ui_availability_observation_recorded": False}
+            for pid in project_policy["allowed_source_project_ids"]},
         "source_media_url": revision["media_url"] if revision is not None else None,
         "source_revision_resolution": revision,
         "selected_attempt": pick["attempt"], "original_file": str(raw), "selected_clean_file": str(clean),
@@ -69,12 +79,16 @@ for ref in sorted(refs):
         "selected_clean_sha256": clean_sha,
         "dimensions": [width, height], "changed_pixel_fraction": fraction,
         "changed_pixel_bbox_xyxy": bbox, "changes_confined_to_lower_right_processing_area": corner_only,
-        "clean_png_reuploaded": False, "actual_ui_reference_attachment_verified_by_this_script": False,
+        "clean_png_reuploaded": None, "clean_png_upload_performed_by_this_script": False,
+        "actual_ui_reference_attachment_verified_by_this_script": False,
         "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     }
 report = {
     "scope": "measured raw/clean correspondence and explicitly recorded image revision identity; not visual approval or actual UI attachment verification",
-    "reason": "The original is already present in the same Flow project media. A redundant local re-upload stalled; use the exact chosen attempt's existing original asset and record this transport accurately.",
+    "reason": "Chosen original revision identity remains bound to the reviewed files and original project. Project-media availability and transport in the current generation project have not been checked by this script; do not claim cross-project attachment, transfer or re-upload without an actual recorded UI observation.",
+    "flow_project_policy": "images/flow_project_policy_v1.json",
+    "current_generation_project_id": project_policy["current_generation_project_id"],
+    "project_media_availability_verified_by_this_script": False,
     "edit_and_video_sources_remain_selected_clean_png": True,
     "references": entries
 }

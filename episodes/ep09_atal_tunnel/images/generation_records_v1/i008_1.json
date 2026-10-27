@@ -1,0 +1,71 @@
+{
+  "id": "i008",
+  "attempt": 1,
+  "kind": "image",
+  "status": "failed in Flow; no generated output",
+  "flow_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+  "recorded_at_utc": "2026-10-27T08:57:52.215Z",
+  "record_basis": "Post-failure record from actual UI observations in user-opened project; no authentication completion inferred.",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A Himalayan mountain-pass road completely blocked by deep snow and an avalanche mound, stopped trucks tiny and seen from behind. Bright white snow, clear daylight; no trapped people or emergency victims. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible.  No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "ab6225220f669d046795d09f52ab78055671655d7a90618ef3faee80a1893736",
+  "submitted_text_character_count": 716,
+  "submitted_text_verified_before_submit": true,
+  "submit_initiated_at_utc": "2026-10-27T08:56:36.087Z",
+  "submit_acknowledged_at_utc": "2026-10-27T08:56:37.368Z",
+  "first_acknowledged_progress_percent": 0,
+  "source_ids": [
+    "S03b",
+    "S03c"
+  ],
+  "visual_source_ids": [
+    "S03c"
+  ],
+  "input": {
+    "ref": null,
+    "method": "text_to_image_without_reference",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "observed_at_utc": "2026-10-27T08:56:36.087Z",
+    "source_url": null,
+    "actual_reference_media_source_url": null,
+    "evidence": [
+      "Normal main composer with no attached material, no current-image editor input, and prompt definition ref=null.",
+      "No required reference replaced by text-only; this scene is independently defined."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "observed_at_utc": "2026-10-27T08:56:27.835Z",
+    "mode": "image",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "output_count": 1,
+    "cost_credits": 0,
+    "all_directly_observed_before_submit": true,
+    "screenshot": "generation_records_v1/i008_1_settings_before.png",
+    "low_credit_account_banner_present": true,
+    "low_credit_banner_note": "Account top-up banner present, while actual image settings directly showed 0 credits. No paid operation."
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T08:57:23.193Z",
+    "project_main_url": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+    "container_editor_url": null,
+    "result_media_source_url": null,
+    "result_media_id": null,
+    "raw": null,
+    "clean": null,
+    "downloaded": false,
+    "failure_message": "실패 비정상적인 활동이 감지되었습니다. 페이지를 수정하는 브라우저 확장 프로그램으로 인해 문제가 발생할 수 있습니다. 자세한 내용은 고객센터를 참고하세요. 이 생성에 대한 요금이 청구되지 않았습니다.",
+    "recaptcha_message": "reCAPTCHA 서비스에 연결할 수 없습니다. 인터넷 연결을 확인한 후 페이지를 새로고침하여 reCAPTCHA 보안문자를 다시 로드하세요.",
+    "charge_ui": "이 생성에 대한 요금이 청구되지 않았습니다.",
+    "screenshot": "generation_records_v1/i008_1_failure.png"
+  },
+  "retry_clicked": false,
+  "normal_reload_after_this_failure": false,
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": false,
+  "further_generation_submitted": false,
+  "video_generation_submitted": false,
+  "next_action": "Reported recurrent server failure to root, stopped generation and read-only migration exploration, preserving failure state for user."
+}

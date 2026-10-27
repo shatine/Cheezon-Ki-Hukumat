@@ -1,0 +1,101 @@
+{
+  "status": "pass",
+  "scope": "Isolated project-policy/identity gates plus revalidation of existing review bytes; no visual decision, cross-project UI attachment, asset move/delete or generation performed",
+  "checks": [
+    {
+      "check": "legacy PROJECT constant unchanged",
+      "status": "pass"
+    },
+    {
+      "check": "old and new result/source URLs accepted",
+      "status": "pass"
+    },
+    {
+      "check": "unknown project rejected for both roles",
+      "status": "pass"
+    },
+    {
+      "check": "unknown role rejected",
+      "status": "pass"
+    },
+    {
+      "check": "all existing review inputs and original-byte measurements revalidate",
+      "status": "pass"
+    },
+    {
+      "check": "legacy AT_S migration remains in old project",
+      "status": "pass"
+    },
+    {
+      "check": "third configured project rejected",
+      "status": "pass"
+    },
+    {
+      "check": "duplicate configured project rejected",
+      "status": "pass"
+    },
+    {
+      "check": "empty configured role rejected",
+      "status": "pass"
+    },
+    {
+      "check": "legacy default replacement rejected",
+      "status": "pass"
+    },
+    {
+      "check": "unknown active project rejected",
+      "status": "pass"
+    },
+    {
+      "check": "new-project i007 ref-null normalizes with explicit empty UI references",
+      "status": "pass"
+    },
+    {
+      "check": "new result plus unchanged old selected source exact identity accepted in isolated fixture only",
+      "status": "pass"
+    },
+    {
+      "check": "substituted allowed-project source URL still rejected",
+      "status": "pass"
+    },
+    {
+      "check": "wrong source image revision still rejected",
+      "status": "pass"
+    },
+    {
+      "check": "wrong chosen source SHA still rejected",
+      "status": "pass"
+    },
+    {
+      "check": "reference order remains exact",
+      "status": "pass"
+    },
+    {
+      "check": "isolated manifest preserves old source identity",
+      "status": "pass"
+    },
+    {
+      "check": "manifest does not claim current-project availability or attachment",
+      "status": "pass"
+    },
+    {
+      "check": "picks prompt HANDOFF and existing motion-check files byte-identical",
+      "status": "pass"
+    }
+  ],
+  "existing_chosen_count": 7,
+  "existing_review_record_count": 18,
+  "manifest_isolated_exit_code": 0,
+  "production_manifest_regenerated": false,
+  "legacy_default_project": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+  "current_generation_project": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+  "allowed_project_count": 2,
+  "protected_file_sha256": {
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\picks_v1.json": "45f57223ad120e50d13893c444f7978ca5e1612e5dd587fbeb9f8a2ce7616a55",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\picks_v1.md": "edac362212b9fa372f270aee6e26f2c3e5a5d6b89f6b35b510a5f35348dbe18b",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\prompts_v1.json": "ed04c1389ea54db1a06b7607c3d9560890c129e4fa45adc6031f69bd460487cc",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\video\\first_frame_action_checks_v1.json": "89015249f02b765e57b48435780ef70f9c8e7aab5a20ebef90fbacb9049ab2bc"
+  },
+  "actual_cross_project_attachment_observed": false,
+  "picks_or_motion_records_modified": false
+}

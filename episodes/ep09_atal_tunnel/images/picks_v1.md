@@ -1,12 +1,12 @@
 # 9편 이미지 선택·실제 시각 검토 기록 v1
 
-갱신: 2026-10-27T14:01:04+09:00. 선택 **7/85 ID**, 기록 8 ID / 18시도. 미선택 78 ID. 미기록 77 ID.
+갱신: 2026-10-27T17:57:09+09:00. 선택 **8/85 ID**, 기록 9 ID / 20시도. 미선택 77 ID. 미기록 76 ID.
 
 2026-10-27 최초 생성 UI에서 지정 Flow 프로젝트, Nano Banana 2.1 / 16:9 / x1 / 0크레딧을 확인했다. 한 장씩 생성한다.
 
 이미지는 관찰한 형상·승인 대본으로 새로 생성한 설명용 재구성이다. 현장 기록 사진·측량 결과가 아니다. 도구는 시각 합격을 판단하지 않고 root가 명시한 선택·재생성 결정과 실제 원본 크기로 연 여부를 기록한다.
 
-자동 확인은 파일 존재·실제 형식·픽셀 크기·바이트 수·SHA-256·선행 선택 참조 파일에 한정된다. planned_ref와 master 재시도에서 명시한 미선택 원본 참조(actual_retake_reference_file)를 구분한다. 같은 프로젝트의 실제 첨부 원본 자산은 reference_assets_v1.json/생성 기록과 대조하며, 표의 선행 선택 PNG 파일은 그 원천을 구별하기 위한 선택 기록이다. PNG를 재업로드했다고 뜻하지 않는다. Flow에 실제 참조를 첨부했는지, 의미·형상·글자·사람·밝기·중복이 적절한지는 이 측정으로 검증하지 않는다. 오디오 받아쓰기 검사도 별개다.
+자동 확인은 파일 존재·실제 형식·픽셀 크기·바이트 수·SHA-256·선행 선택 참조 파일에 한정된다. planned_ref와 master 재시도에서 명시한 미선택 원본 참조(actual_retake_reference_file)를 구분한다. 원천 자산의 프로젝트와 현재 생성 프로젝트는 별개이며 허용 ID는 flow_project_policy_v1.json의 두 관찰 프로젝트뿐이다. reference_assets_v1.json은 파일 대응만 확인하고 현재 프로젝트별 media 가용성이나 첨부를 확인하지 않는다. 표의 선행 선택 PNG 파일은 원천 선택 기록이며 PNG 재업로드·자산 이동을 뜻하지 않는다. Flow에 실제 참조를 첨부했는지, 의미·형상·글자·사람·밝기·중복이 적절한지는 이 측정으로 검증하지 않는다. 오디오 받아쓰기 검사도 별개다.
 
 새 결정은 result_media_url에 실제 결과 이미지 revision을 기록하고, actual_ui_references에 제출 전 실제 입력으로 본 ID·편집기 URL·source_media_url·방법·관찰자·근거를 명시한다. ref가 없으면 []로 입력 이미지 부재를 신고한다. 편집기 URL은 수정되는 컨테이너이므로 이미지 revision 식별자가 아니다. 도구는 신고의 순서·정확한 원천 revision·기록된 파일 해시를 확인하며 서비스의 실제 첨부를 자동 입증하지 않는다.
 
@@ -34,6 +34,8 @@
 | G3D_DEEP | G3D_EXC=v1_G3D_EXC_4.png | 3 | v1_G3D_DEEP_3.jpg / v1_G3D_DEEP_3.png | 선택 | 예 / 예 | root가 raw JPEG와 처리 PNG를 원본 크기로 직접 확인했다. 왼쪽 개방 구간 전 길이에 깊은 U자 영구 바닥이 이어지고 상부·측벽 라이닝과 연결되는 단면, 그 안의 얇은 평탄 슬래브, 제거된 하부 암반 bench, 분리된 작은 측면 배수를 확인했다. 가까운 쪽 벽을 제거한 설명용 절개이며 오른쪽 전방 암반은 불투명한 고체로 유지된다. 초기 상부 굴착의 임시 바닥과 구분되는 후기 영구 구조 기준으로 선택한다. 글자·인물·노출된 굽은 선진 파이프는 보이지 않았다. |
 | o001 | AT_C=v1_AT_C_3.png | 2 | v1_o001_2.jpg / v1_o001_2.png | 선택 | 예 / 예 | root가 raw JPEG·처리 PNG를 각각 원본 크기로 열었다. 기존 C3 정면과 다른 사선 구도에서 왼쪽 거친 암반 균열의 탁한 물줄기와 그 바로 아래 얕은 젖은 바닥이 연속해서 보인다. 오른쪽 철재 지보와 닫힌 암반 천장·전기 조명, 바깥쪽 마른 작업 통로가 구분되고 작은 기계·인물은 물줄기와 분리된다. 읽는 글자·로고·파이프 조각·주간 하늘 틈은 발견하지 않았다. 정확 유량은 그림에서 측정하지 않고 편집 귀속 표기로 처리한다. |
 | o002 | AT_C=v1_AT_C_3.png | 1 | v1_o002_1.jpg / v1_o002_1.png | 보류·재생성 | 예 / 예 | root가 raw·clean 원본 크기로 직접 보았다. 지보된 터널과 정면 굴착기는 보이나 face에서 물과 함께 내려오는 작은 토사·파편 및 그 바로 아래 받는 젖은 pile이 명확하지 않다. 젖은 바닥만으로 승인문장의 물+토사 동반 유입이나 현재 motion의 기존 공급·수신 경로를 증명하지 못한다. C3 정면 구도도 강하게 반복한다. S01d를 낮은 측면 근접구도로 바꾸고 기존 균열 포켓→소량 탁수·작은 입자→바로 아래 기존 wet pile을 한 화면에 명시해 재생성한다. 읽는 글자는 발견하지 않았다. |
+| i007 | 없음 | 1 | v1_i007_1.jpg / v1_i007_1.png | 보류·재생성 | 예 / 예 | root가 새 프로젝트에서 실제 생성된 raw JPEG와 워터마크 처리 PNG를 각각 1376×768 원본 크기로 직접 열었다. 밝은 히말라야 산악 고갯길·연결된 굽은 도로 자체는 읽히지만, 가까운 정면 승용차의 그릴에 브랜드 배지 형상이 뚜렷하고 번호판 부분이 노출된다. 차량을 작게 뒤나 옆에서 보이게 하는 명세와 맞지 않는다. 원경의 도로와 산이 주제가 되게 S03b를 고쳐 차량 폭을 화면2% 미만·먼 rear/side로 제한하고 가까운 전경 도로와 관광객을 비우도록 보완했다. 서비스 정상 생성 확인과 시각 선택 통과를 구분하며 이번 결과는 선택하지 않는다. |
+| i007 | 없음 | 2 | v1_i007_2.jpg / v1_i007_2.png | 선택 | 예 / 예 | root가 raw JPEG·처리 PNG를 원본 크기로 각각 확인했다. 먼 시점에서 산악 경사면의 여러 연결된 급굽이와 고도 차이가 화면을 지배하고, 전경은 빈 바위이며 차량은 먼 뒤/옆 모습으로 작게 보인다. 읽는 번호판·차량 배지·표지·깃발·인물은 발견하지 않았다. 실제 로탕 고개의 특정 순간이나 실측 노선으로 주장하지 않고 터널 이전 산악 고갯길 설명용 재구성으로 선택한다. 기존 선택 포털·공학 모형과 동일 장면을 복제하지 않는다. |
 
 ## 현재 명시적 선택
 
@@ -46,6 +48,7 @@
 | G3D_EXC | `v1_G3D_EXC_4.png` | 1376×768 | `c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e` |
 | G3D_DEEP | `v1_G3D_DEEP_3.png` | 1376×768 | `f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4` |
 | o001 | `v1_o001_2.png` | 1376×768 | `328949a52b205ee4a969a365467550b22e62a5606855717764acce3b4c47d52c` |
+| i007 | `v1_i007_2.png` | 1376×768 | `0c3bed3b11c89d419de88380cba05293f2fed280324b413d027a40f2fa543f8c` |
 
 ## 출처·범위·PC 보관
 
@@ -109,3 +112,9 @@
 - o002 시도1 Flow: https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904 · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
   - 결과 revision: https://flow-content.google/image/ca24cb41-2ac1-454d-93fb-0fa086a72879.
   - UI 입력 관찰 신고: AT_C / https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904 / current_image_editor_input / revision https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9 / 제출 전 / 관찰자 ep09_image_prompts / 근거 generation_records_v1/o002_1.json actual input observation: Actual visible central editor input src matched selected master revision before submission. Re-read visible src immediately before submit; still exact selected source. Actual input was Flow original source, not a locally cleaned PNG.. 자동 UI 검증은 아니다.
+- i007 시도1 Flow: https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/edit/00298b5d-e7b6-483d-bdf8-a808491b8c5d · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/6ffa6914-3959-4f84-b979-23c9fd37f5b5.
+  - UI 입력 관찰 신고: 참조 입력 없음([]). 자동 UI 검증은 아니다.
+- i007 시도2 Flow: https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/edit/d72c3cab-93dd-4145-9126-b8810efddabb · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/a687e8eb-8c76-4507-894f-bcc8b32cf933.
+  - UI 입력 관찰 신고: 참조 입력 없음([]). 자동 UI 검증은 아니다.

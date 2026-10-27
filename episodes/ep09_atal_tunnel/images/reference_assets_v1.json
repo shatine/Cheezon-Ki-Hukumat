@@ -1,13 +1,29 @@
 {
   "scope": "measured raw/clean correspondence and explicitly recorded image revision identity; not visual approval or actual UI attachment verification",
-  "reason": "The original is already present in the same Flow project media. A redundant local re-upload stalled; use the exact chosen attempt's existing original asset and record this transport accurately.",
+  "reason": "Chosen original revision identity remains bound to the reviewed files and original project. Project-media availability and transport in the current generation project have not been checked by this script; do not claim cross-project attachment, transfer or re-upload without an actual recorded UI observation.",
+  "flow_project_policy": "images/flow_project_policy_v1.json",
+  "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+  "project_media_availability_verified_by_this_script": false,
   "edit_and_video_sources_remain_selected_clean_png": true,
   "references": {
     "AT_C": {
       "status": "source_correspondence_verified",
-      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "transport": "not_determined_by_file_correspondence_observe_exact_input_before_submit",
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
       "flow_container_id": "cd6db3c3-bb6c-47ff-aa86-81589494c904",
+      "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "same_project_as_current_generation": false,
+      "availability_by_project": {
+        "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        }
+      },
       "source_media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
       "source_revision_resolution": {
         "media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
@@ -40,15 +56,29 @@
         706
       ],
       "changes_confined_to_lower_right_processing_area": true,
-      "clean_png_reuploaded": false,
+      "clean_png_reuploaded": null,
+      "clean_png_upload_performed_by_this_script": false,
       "actual_ui_reference_attachment_verified_by_this_script": false,
       "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },
     "AT_INT": {
       "status": "source_correspondence_verified",
-      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "transport": "not_determined_by_file_correspondence_observe_exact_input_before_submit",
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
       "flow_container_id": "e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
+      "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "same_project_as_current_generation": false,
+      "availability_by_project": {
+        "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        }
+      },
       "source_media_url": "https://flow-content.google/image/ec2b5499-bb90-4e2e-b0da-46a481443d64",
       "source_revision_resolution": {
         "media_url": "https://flow-content.google/image/ec2b5499-bb90-4e2e-b0da-46a481443d64",
@@ -81,15 +111,29 @@
         706
       ],
       "changes_confined_to_lower_right_processing_area": true,
-      "clean_png_reuploaded": false,
+      "clean_png_reuploaded": null,
+      "clean_png_upload_performed_by_this_script": false,
       "actual_ui_reference_attachment_verified_by_this_script": false,
       "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },
     "AT_N": {
       "status": "source_correspondence_verified",
-      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "transport": "not_determined_by_file_correspondence_observe_exact_input_before_submit",
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
       "flow_container_id": "a10bade0-3cad-479d-93a8-5d68d9986821",
+      "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "same_project_as_current_generation": false,
+      "availability_by_project": {
+        "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        }
+      },
       "source_media_url": "https://flow-content.google/image/5799362b-258f-4b6a-b5c9-797653871bd6",
       "source_revision_resolution": {
         "media_url": "https://flow-content.google/image/5799362b-258f-4b6a-b5c9-797653871bd6",
@@ -113,15 +157,29 @@
         706
       ],
       "changes_confined_to_lower_right_processing_area": true,
-      "clean_png_reuploaded": false,
+      "clean_png_reuploaded": null,
+      "clean_png_upload_performed_by_this_script": false,
       "actual_ui_reference_attachment_verified_by_this_script": false,
       "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },
     "AT_S": {
       "status": "source_correspondence_verified",
-      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "transport": "not_determined_by_file_correspondence_observe_exact_input_before_submit",
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
       "flow_container_id": "dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+      "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "same_project_as_current_generation": false,
+      "availability_by_project": {
+        "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        }
+      },
       "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
       "source_revision_resolution": {
         "media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
@@ -154,15 +212,29 @@
         706
       ],
       "changes_confined_to_lower_right_processing_area": true,
-      "clean_png_reuploaded": false,
+      "clean_png_reuploaded": null,
+      "clean_png_upload_performed_by_this_script": false,
       "actual_ui_reference_attachment_verified_by_this_script": false,
       "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },
     "G3D_DEEP": {
       "status": "source_correspondence_verified",
-      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "transport": "not_determined_by_file_correspondence_observe_exact_input_before_submit",
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
       "flow_container_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "same_project_as_current_generation": false,
+      "availability_by_project": {
+        "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        }
+      },
       "source_media_url": "https://flow-content.google/image/6cfcd5d1-a6b2-4038-927b-28ff5df1cd7a",
       "source_revision_resolution": {
         "media_url": "https://flow-content.google/image/6cfcd5d1-a6b2-4038-927b-28ff5df1cd7a",
@@ -186,15 +258,29 @@
         703
       ],
       "changes_confined_to_lower_right_processing_area": true,
-      "clean_png_reuploaded": false,
+      "clean_png_reuploaded": null,
+      "clean_png_upload_performed_by_this_script": false,
       "actual_ui_reference_attachment_verified_by_this_script": false,
       "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },
     "G3D_EXC": {
       "status": "source_correspondence_verified",
-      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "transport": "not_determined_by_file_correspondence_observe_exact_input_before_submit",
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
       "flow_container_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "same_project_as_current_generation": false,
+      "availability_by_project": {
+        "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        }
+      },
       "source_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
       "source_revision_resolution": {
         "media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
@@ -218,7 +304,8 @@
         703
       ],
       "changes_confined_to_lower_right_processing_area": true,
-      "clean_png_reuploaded": false,
+      "clean_png_reuploaded": null,
+      "clean_png_upload_performed_by_this_script": false,
       "actual_ui_reference_attachment_verified_by_this_script": false,
       "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },

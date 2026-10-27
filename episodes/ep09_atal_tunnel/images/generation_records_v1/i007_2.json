@@ -1,0 +1,86 @@
+{
+  "id": "i007",
+  "attempt": 2,
+  "kind": "image",
+  "status": "generated; awaiting root strict review",
+  "flow_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+  "recorded_at_utc": "2026-10-27T08:55:35.821Z",
+  "record_basis": "Post-completion record of actual UI observations; newly authorized independent ref-null scene in user-opened new project.",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A high distant view across several connected bends of a winding Rohtang mountain-pass road climbing through steep Himalayan terrain. The mountain and the long climbing road dominate, with a few plain unbranded vehicles EXTREMELY SMALL in the middle distance, each less than two percent of the image width, seen only from the REAR or far SIDE. Keep the entire near foreground road empty: no foreground car, front grille, visible badge, readable number plate, parked sightseeing group or close person. The viewpoint looks across the bends from a quiet upper rocky slope, not from within traffic. No readable road signs, flags, shrines or identifiable landmarks invented. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible.  No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "17610527e94eb3376ff52584810e19e4860de75f6d9ac5ecca9a1f4be5c1824d",
+  "submitted_text_character_count": 1181,
+  "submitted_text_verified_after_completion": true,
+  "submit_initiated_at_utc": "2026-10-27T08:54:09.128Z",
+  "submit_acknowledged_at_utc": "2026-10-27T08:54:10.213Z",
+  "first_acknowledged_progress_percent": 0,
+  "source_ids": [
+    "S03b"
+  ],
+  "visual_source_ids": [
+    "S03b"
+  ],
+  "input": {
+    "ref": null,
+    "method": "text_to_image_without_reference",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "observed_at_utc": "2026-10-27T08:54:09.128Z",
+    "source_url": null,
+    "actual_reference_media_source_url": null,
+    "evidence": [
+      "Used normal main project composer 무엇을 만들고 싶으신가요? with no image/material input present.",
+      "Latest prompt definition explicitly has ref=null; no absent required reference was replaced with text-only.",
+      "No current-image editor or attached 소재 이미지 in pre-submit state."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "observed_at_utc": "2026-10-27T08:53:54.274Z",
+    "mode": "image",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "output_count": 1,
+    "cost_credits": 0,
+    "all_directly_observed_before_submit": true,
+    "screenshot": "generation_records_v1/i007_2_settings_before.png",
+    "low_credit_account_banner_present": true,
+    "low_credit_banner_note": "Account-level top-up banner remained, but the actual image settings showed 0 credits. No top-up or paid operation used."
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T08:55:19.129Z",
+    "container_editor_url": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/edit/d72c3cab-93dd-4145-9126-b8810efddabb",
+    "container_editor_asset_id": "d72c3cab-93dd-4145-9126-b8810efddabb",
+    "result_media_source_url": "https://flow-content.google/image/a687e8eb-8c76-4507-894f-bcc8b32cf933",
+    "result_media_id": "a687e8eb-8c76-4507-894f-bcc8b32cf933",
+    "media_source_observed_from": "src of visible main completed result; origin/path only, signed query omitted",
+    "container_url_is_revision_ambiguous": true,
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\a687e8eb-8c76-4507-894f-bcc8b32cf933.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i007_2.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "9966dffaeb4273b8ddb4a115d078f15cdad187ee2adb972fbe66cdc95d8b7975",
+      "bytes": 373384
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i007_2.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "0c3bed3b11c89d419de88380cba05293f2fed280324b413d027a40f2fa543f8c",
+      "bytes": 2309414
+    }
+  },
+  "quick_visual_check": {
+    "performed": true,
+    "observed_by": "ep09_image_prompts",
+    "scope": "whole raw image only; not root strict selection",
+    "observations": "Mountain slope and multiple connected road bends dominate. Foreground is empty rocky terrain; vehicles are tiny in middle-distance bends. No close grille/badge, readable plate or roadside sign seen at whole-image view. Root to assess exact vehicle scale/orientation and road continuity."
+  },
+  "strict_review_and_selection": "root manages picks; no acceptance asserted",
+  "local_upload_used": false,
+  "extension_settings_changed": false,
+  "captcha_solved": false,
+  "video_generation_submitted": false
+}

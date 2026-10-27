@@ -879,6 +879,92 @@
       },
       "recorded_at": "2026-10-27T14:01:04+09:00",
       "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i007",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "root가 새 프로젝트에서 실제 생성된 raw JPEG와 워터마크 처리 PNG를 각각 1376×768 원본 크기로 직접 열었다. 밝은 히말라야 산악 고갯길·연결된 굽은 도로 자체는 읽히지만, 가까운 정면 승용차의 그릴에 브랜드 배지 형상이 뚜렷하고 번호판 부분이 노출된다. 차량을 작게 뒤나 옆에서 보이게 하는 명세와 맞지 않는다. 원경의 도로와 산이 주제가 되게 S03b를 고쳐 차량 폭을 화면2% 미만·먼 rear/side로 제한하고 가까운 전경 도로와 관광객을 비우도록 보완했다. 서비스 정상 생성 확인과 시각 선택 통과를 구분하며 이번 결과는 선택하지 않는다.",
+        "flow_url": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/edit/00298b5d-e7b6-483d-bdf8-a808491b8c5d",
+        "result_media_url": "https://flow-content.google/image/6ffa6914-3959-4f84-b979-23c9fd37f5b5",
+        "raw_file": "v1_i007_1.jpg",
+        "clean_file": "v1_i007_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i007_1.jpg",
+          "sha256": "722ff8e3d6abd7b645fe397997cea67e575fa10f718f741c419779c758a58f60",
+          "bytes": 328852,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i007_1.png",
+          "sha256": "949e1c3d623a7a8263c424051e6cf53989788d6d34c687e891c69a318bbec4f6",
+          "bytes": 2184094,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T17:53:07+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i007",
+        "attempt": 2,
+        "decision": "chosen",
+        "reason": "root가 raw JPEG·처리 PNG를 원본 크기로 각각 확인했다. 먼 시점에서 산악 경사면의 여러 연결된 급굽이와 고도 차이가 화면을 지배하고, 전경은 빈 바위이며 차량은 먼 뒤/옆 모습으로 작게 보인다. 읽는 번호판·차량 배지·표지·깃발·인물은 발견하지 않았다. 실제 로탕 고개의 특정 순간이나 실측 노선으로 주장하지 않고 터널 이전 산악 고갯길 설명용 재구성으로 선택한다. 기존 선택 포털·공학 모형과 동일 장면을 복제하지 않는다.",
+        "flow_url": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/edit/d72c3cab-93dd-4145-9126-b8810efddabb",
+        "result_media_url": "https://flow-content.google/image/a687e8eb-8c76-4507-894f-bcc8b32cf933",
+        "raw_file": "v1_i007_2.jpg",
+        "clean_file": "v1_i007_2.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i007_2.jpg",
+          "sha256": "9966dffaeb4273b8ddb4a115d078f15cdad187ee2adb972fbe66cdc95d8b7975",
+          "bytes": 373384,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i007_2.png",
+          "sha256": "0c3bed3b11c89d419de88380cba05293f2fed280324b413d027a40f2fa543f8c",
+          "bytes": 2309414,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T17:57:09+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
     }
   ],
   "legacy_record": {
@@ -1117,8 +1203,31 @@
         }
       ],
       "result_media_url": "https://flow-content.google/image/240d18a0-1a63-4581-a337-28c2154b8357"
+    },
+    "i007": {
+      "attempt": 2,
+      "file": "v1_i007_2.png",
+      "raw_file": "v1_i007_2.jpg",
+      "reference": null,
+      "planned_ref": null,
+      "reference_picks": {},
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "0c3bed3b11c89d419de88380cba05293f2fed280324b413d027a40f2fa543f8c",
+      "reason": "root가 raw JPEG·처리 PNG를 원본 크기로 각각 확인했다. 먼 시점에서 산악 경사면의 여러 연결된 급굽이와 고도 차이가 화면을 지배하고, 전경은 빈 바위이며 차량은 먼 뒤/옆 모습으로 작게 보인다. 읽는 번호판·차량 배지·표지·깃발·인물은 발견하지 않았다. 실제 로탕 고개의 특정 순간이나 실측 노선으로 주장하지 않고 터널 이전 산악 고갯길 설명용 재구성으로 선택한다. 기존 선택 포털·공학 모형과 동일 장면을 복제하지 않는다.",
+      "flow_url": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/edit/d72c3cab-93dd-4145-9126-b8810efddabb",
+      "actual_ui_references": [],
+      "result_media_url": "https://flow-content.google/image/a687e8eb-8c76-4507-894f-bcc8b32cf933"
     }
   },
-  "chosen_count": 7,
-  "updated_at": "2026-10-27T14:01:04+09:00"
+  "chosen_count": 8,
+  "updated_at": "2026-10-27T17:57:09+09:00"
 }

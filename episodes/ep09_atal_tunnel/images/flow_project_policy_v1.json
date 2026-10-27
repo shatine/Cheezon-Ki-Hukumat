@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "legacy_default_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+  "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+  "allowed_result_project_ids": [
+    "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+    "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144"
+  ],
+  "allowed_source_project_ids": [
+    "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+    "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144"
+  ],
+  "authorization_evidence": {
+    "user_request_verbatim": "flow reCAPTCHA 떴어? 지금 새로운 프로젝츠 창 열어놨다 다시 해봐",
+    "request_source": "Actual user instruction relayed by parent /root to this worker; not inferred from an external page",
+    "date": "2026-10-27",
+    "timezone": "Asia/Seoul",
+    "exact_clock_time": null,
+    "time_note": "The parent supplied the instruction during the new-project retry; its exact clock time was not supplied and is not invented here.",
+    "observed_new_project": "Parent /root reported the actual new empty Flow project URL with ID 22cd5ad1-3dbb-4183-a36b-48c7bc3e5144, then reported one successful ref-null i007 image generation in it.",
+    "scope": "Use the observed new project while retaining existing project sources. No asset move/deletion, cross-project attachment observation, image selection or video-generation approval is created by this policy."
+  },
+  "availability_policy": "Project-ID permission is not proof an asset is available or attached in that project's current UI. Observe and record the exact image revision before each submission."
+}

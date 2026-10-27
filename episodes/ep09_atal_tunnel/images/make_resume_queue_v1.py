@@ -11,6 +11,13 @@ HERE = Path(__file__).resolve().parent
 rows = json.loads((HERE / 'prompts_v1.json').read_text(encoding='utf-8-sig'))
 ledger = json.loads((HERE / 'picks_v1.json').read_text(encoding='utf-8-sig'))
 picks = ledger['picks']
+progress = json.loads((HERE / 'generation_progress.json').read_text(encoding='utf-8-sig'))
+failure_path = (HERE / progress.get('latest_failure_record', 'generation_records_v1/o003_1.json')).resolve()
+if not failure_path.is_relative_to((HERE / 'generation_records_v1').resolve()):
+    raise ValueError('Latest failure evidence must be an episode generation record')
+failure = json.loads(failure_path.read_text(encoding='utf-8-sig'))
+if not failure.get('status', '').startswith('failed') or failure['result'].get('result_media_source_url') is not None:
+    raise ValueError('A blocked queue needs an actual failed attempt without an output revision')
 attempts = {}
 for item in ledger['review_log']:
     source = item['input']
@@ -33,7 +40,9 @@ for row in rows:
 report = dict(status='preparation_only_service_blocked', actual_submission_performed=False,
               actual_video_generation_authorized=False, expected_images=len(rows), selected_images=len(picks),
               remaining_images=len(queue),
-              blocker='Flow abnormal activity and reCAPTCHA connection error recurred on o003 attempt 1; see generation_records_v1/o003_1.json',
+              blocker=f"Flow abnormal activity and reCAPTCHA connection error recurred on {failure['id']} attempt {failure['attempt']}; see {failure_path.relative_to(HERE).as_posix()}",
+              current_project=progress['project'],
+              failure_observed_at_utc=failure['result']['observed_at_utc'],
               resume_gate='Human confirms service issue resolved, then inspect current UI before any further submit. No repeated refresh, CAPTCHA solving, extension changes or local upload.',
               ordering='Current image manifest order; selected IDs omitted. Each input revision must match the exact selected source. One image at a time.',
               queue=queue)

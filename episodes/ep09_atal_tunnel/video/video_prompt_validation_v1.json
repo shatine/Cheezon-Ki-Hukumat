@@ -1,5 +1,5 @@
 {
-  "status": "ready_blocked",
+  "status": "draft_valid_not_ready",
   "scope": "prompt_definition_and_actual_first_frame_resolution_only",
   "generation_authorized": false,
   "actual_muse_submission_performed": false,
@@ -14,7 +14,7 @@
   "camera_move_count": 0,
   "selected_video_frames": 1,
   "ready_video_frames": 1,
-  "actual_chosen_images": 7,
+  "actual_chosen_images": 8,
   "expected_image_assets": 85,
   "definition_errors": [],
   "readiness_blockers": [

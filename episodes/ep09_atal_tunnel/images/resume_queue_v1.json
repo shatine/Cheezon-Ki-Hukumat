@@ -3,9 +3,11 @@
   "actual_submission_performed": false,
   "actual_video_generation_authorized": false,
   "expected_images": 85,
-  "selected_images": 7,
-  "remaining_images": 78,
-  "blocker": "Flow abnormal activity and reCAPTCHA connection error recurred on o003 attempt 1; see generation_records_v1/o003_1.json",
+  "selected_images": 8,
+  "remaining_images": 77,
+  "blocker": "Flow abnormal activity and reCAPTCHA connection error recurred on i008 attempt 1; see generation_records_v1/i008_1.json",
+  "current_project": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+  "failure_observed_at_utc": "2026-10-27T08:57:23.193Z",
   "resume_gate": "Human confirms service issue resolved, then inspect current UI before any further submit. No repeated refresh, CAPTCHA solving, extension changes or local upload.",
   "ordering": "Current image manifest order; selected IDs omitted. Each input revision must match the exact selected source. One image at a time.",
   "queue": [
@@ -41,7 +43,7 @@
       "kind": "image",
       "ref": "AT_S",
       "next_attempt": 1,
-      "latest_prompt_sha256": "061b1efdc328eb7d7cc652d8049862a2461359e9b1ef5955b3372d9a9882cb68",
+      "latest_prompt_sha256": "8425d5a4a184ec8796aeeec6a8094c452c0147d772c35492f4099f8280969c9c",
       "missing_selected_references": [],
       "reference_state": "references_selected_service_still_blocked"
     },
@@ -91,19 +93,10 @@
       "reference_state": "references_selected_service_still_blocked"
     },
     {
-      "id": "i007",
-      "kind": "image",
-      "ref": null,
-      "next_attempt": 1,
-      "latest_prompt_sha256": "22103656f811fda350ac8e8e2f38e6b95750a8603798249266d69fc787061148",
-      "missing_selected_references": [],
-      "reference_state": "references_selected_service_still_blocked"
-    },
-    {
       "id": "i008",
       "kind": "image",
       "ref": null,
-      "next_attempt": 1,
+      "next_attempt": 2,
       "latest_prompt_sha256": "ab6225220f669d046795d09f52ab78055671655d7a90618ef3faee80a1893736",
       "missing_selected_references": [],
       "reference_state": "references_selected_service_still_blocked"

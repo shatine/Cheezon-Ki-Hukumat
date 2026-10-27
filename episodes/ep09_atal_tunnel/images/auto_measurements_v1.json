@@ -1,7 +1,7 @@
 {
   "scope": "image dimensions, luminance and neighbouring dhash only; not visual approval",
   "expected_count": 85,
-  "measured_count": 7,
+  "measured_count": 8,
   "missing_ids": [
     "o002",
     "o003",
@@ -12,7 +12,6 @@
     "i004",
     "i005",
     "i006",
-    "i007",
     "i008",
     "i009",
     "i010",
@@ -150,6 +149,15 @@
       "reference_distance": {
         "AT_C": 0.46
       }
+    },
+    {
+      "id": "i007",
+      "file": "v1_i007_2.png",
+      "size": "1376x768",
+      "mean": 111.0,
+      "dark": 14.3,
+      "near": {},
+      "reference_distance": {}
     }
   ]
 }

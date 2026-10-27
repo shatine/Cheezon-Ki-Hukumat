@@ -1,33 +1,50 @@
 {
-  "recorded_at": "2026-10-27T05:04:56.343874+00:00",
-  "current_operator": "no active UI operator; generation stopped; root prepares and reviews text",
-  "project": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+  "recorded_at": "2026-10-27T09:01:27.415884+00:00",
+  "current_operator": "no active UI operator; generation stopped after recurring service error",
+  "project": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+  "prior_project_retained": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+  "latest_user_retry_request": "flow reCAPTCHA 떴어? 지금 새로운 프로젝츠 창 열어놨다 다시 해봐",
+  "retry_actual_results": {
+    "successful_output_attempts_in_new_project": [
+      "i007_1",
+      "i007_2"
+    ],
+    "new_chosen": [
+      "i007_2"
+    ],
+    "rejected": [
+      "i007_1"
+    ],
+    "last_failed_no_output": "i008_1",
+    "normal_reload_before_probe": 1,
+    "further_submissions_after_recurrent_failure": 0
+  },
   "last_observed_submission": {
-    "id": "o003",
+    "id": "i008",
     "attempt": 1,
     "status_observed": "failed in Flow; no generated output",
-    "failure_observed_at_utc": "2026-10-27T05:01:20.405Z",
+    "failure_observed_at_utc": "2026-10-27T08:57:23.193Z",
     "result_media_url": null,
     "raw": null,
     "clean": null,
-    "requires_human_service_resolution_and_live_ui_check_before_any_resubmission": true
+    "requires_service_resolution_and_live_ui_check_before_any_resubmission": true
   },
-  "chosen_count": 7,
-  "reviewed_attempts": 18,
+  "latest_failure_record": "generation_records_v1/i008_1.json",
+  "chosen_count": 8,
+  "reviewed_attempts": 20,
   "generation_not_complete": true,
-  "remaining_image_ids": 78,
+  "remaining_image_ids": 77,
   "selected_video_frames": 1,
   "root_motion_compatible_frames": 1,
-  "reference_transport": "exact chosen attempt original server asset already in existing Flow media",
   "muse_generation_approved": false,
   "actual_video_generated_count": 0,
   "resume_queue": "resume_queue_v1.json",
+  "console_diagnostic": "generation_records_v1/i008_1_console_diagnostic_sanitized.json",
   "notes": [
-    "Latest user scope ends before actual video generation",
-    "DEEP3 and o0012/o0021 completed; o0021 visually rejected and prompt fixed",
-    "o0031 failed with abnormal activity and reCAPTCHA service connection error; no new output",
-    "o004 and subsequent initial image batch not submitted",
-    "Root explicitly reviewed all 18 recorded output attempts; 7 chosen and 11 remakes",
-    "After recurring failure: no further submit, refresh, local upload, extension changes, project move or CAPTCHA solving"
+    "Actual new-project image success is distinct from visual approval: i0071 rejected, i0072 selected",
+    "Low-credit account banner was visible but image settings explicitly showed 0 credits; no credit purchase",
+    "No cause inferred from generic extension warning; recaptcha/ERR_ console filters returned no entries",
+    "No CAPTCHA solving, extension/settings changes, file upload, asset migration or video generation",
+    "After i0081 failure no retry, reload or extra submission"
   ]
 }

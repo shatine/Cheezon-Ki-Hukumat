@@ -1,0 +1,73 @@
+{
+  "id": "i007",
+  "attempt": 1,
+  "kind": "image",
+  "status": "generated; awaiting root strict review",
+  "record_basis": "Actual user-opened new project, one normal reload, explicit retry request. Current captcha message absent before submit; authentication completion not inferred.",
+  "project_url": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A winding Rohtang mountain-pass road climbing through steep Himalayan terrain, a few unbranded cars small and seen from behind or the side. No readable road signs, flags, shrines or identifiable landmarks invented. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible.  No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "22103656f811fda350ac8e8e2f38e6b95750a8603798249266d69fc787061148",
+  "submitted_text_verified_before_submit": true,
+  "submit_initiated_at_utc": "2026-10-27T08:46:13.816Z",
+  "submit_acknowledged_at_utc": "2026-10-27T08:46:14.165Z",
+  "first_acknowledged_progress_percent": 0,
+  "source_ids": [
+    "S03b"
+  ],
+  "visual_source_ids": [
+    "S03b"
+  ],
+  "input": {
+    "ref": null,
+    "actual_ui_references": [],
+    "method": "text_only_as_planned_ref_null",
+    "observed_before_submit": true,
+    "observed_by": "root",
+    "evidence": [
+      "User-opened new project was blank. No input image attachments visible.",
+      "This i007 definition has ref null and is an independent illustrative road scene; no required reference omitted."
+    ]
+  },
+  "settings": {
+    "mode": "image",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "output_count": 1,
+    "cost_credits": 0,
+    "observed_before_submit": true,
+    "direct_observation": "All image-mode, model, 16:9 and x1 controls and 0-credit cost observed in settings immediately before entry. A generic low-credit banner was also visible; no purchase or credit top-up performed."
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T08:48:06.491Z",
+    "container_editor_url": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/edit/00298b5d-e7b6-483d-bdf8-a808491b8c5d",
+    "container_editor_asset_id": "00298b5d-e7b6-483d-bdf8-a808491b8c5d",
+    "result_media_source_url": "https://flow-content.google/image/6ffa6914-3959-4f84-b979-23c9fd37f5b5",
+    "result_media_id": "6ffa6914-3959-4f84-b979-23c9fd37f5b5",
+    "media_source_observed_from": "src of visible read-only main image in completed editor; signed query omitted",
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\6ffa6914-3959-4f84-b979-23c9fd37f5b5.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i007_1.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "722ff8e3d6abd7b645fe397997cea67e575fa10f718f741c419779c758a58f60",
+      "bytes": 328852
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i007_1.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "949e1c3d623a7a8263c424051e6cf53989788d6d34c687e891c69a318bbec4f6",
+      "bytes": 2184094
+    },
+    "screenshot": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\flow_retry_20261027_i007_success.png"
+  },
+  "normal_reload_before_submit": 1,
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": false,
+  "project_asset_migration_performed": false,
+  "video_generation_submitted": false,
+  "strict_review_and_selection": "root pending; no visual acceptance from successful generation alone"
+}
