@@ -1,0 +1,82 @@
+{
+  "id": "G3D_DEEP",
+  "attempt": 1,
+  "kind": "master",
+  "status": "generated; awaiting root strict review",
+  "recorded_at_utc": "2026-10-27T04:25:37.899550+00:00",
+  "record_basis": "Post-completion record of actual observations and UI clock stamps during this session.",
+  "exact_submitted_prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. For this engineering model only: rock = grey-brown, steel ribs and shotcrete = neutral grey, straight advance pipes = teal, injected grout = purple, water itself = blue, water-pressure PUSH arrows = orange. These are explanatory colours, not a claim about the site materials. Using the reference only for the model style, material colours, single-bore identity and left-to-right axis: build a clearly LATER construction stage. the SAME later-stage weak-ground tunnel model as the reference, in the same left-to-right coordinate system: one tunnel with a deep curved final invert below the flat roadway, the crown, side walls and bottom connected into a closed structural ring. The lower ground has already been excavated. This is the later final structure, not the earlier temporary closure of the upper heading and not a claim about every normal section. Remove the former lower bench and any temporary upper-heading invert; replace them with the deep curved permanent bottom connected to both sides. Show a flat grey road slab inside the ring and small separate drainage channels behind the lining, never through the road. Same stable three-quarter side view, no arrows yet. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "8b58d14d958be7ed92ddf6b4b6f07051c389274ae3485892efb963e2a0e4a4a9",
+  "submitted_text_verified_after_completion": true,
+  "submitted_text_character_count": 1795,
+  "submit_initiated_at_utc": "2026-10-27T04:23:36.265Z",
+  "submit_acknowledged_at_utc": "2026-10-27T04:23:36.398Z",
+  "input": {
+    "ref": "G3D_EXC",
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "observed_at_utc": "2026-10-27T04:22:44.224Z",
+    "source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "source_asset_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "actual_reference_media_source_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_4.jpg",
+    "original_sha256": "b051604cb4cbc1569827a1fee049d88bca120c08f9d6c3fd72b187cce8e8e421",
+    "verification_download_path": "C:\\Users\\developer1\\Downloads\\dcf20746-d09d-48e9-b963-bcc682e40e2f (1).jpg",
+    "verification_download_matches_original_bytes": true,
+    "verification_performed_before_submit": true,
+    "evidence": [
+      "Directly read visible main-image src and matched selected EXC4 media revision dcf20746-d09d-48e9-b963-bcc682e40e2f.",
+      "Downloaded visible main image before submission and compared exact SHA256 to stored raw EXC4.",
+      "Image was supplied as current central editor input above 어떤 내용을 변경하려 하시나요?; latest master prompt was entered without altering source stage instructions.",
+      "No local upload or normal text-only generation."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "observed_at_utc": "2026-10-27T04:22:45.209Z",
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "cost_credits": 0,
+    "these_directly_observed_before_submit": true,
+    "output_count_selector_visible": false,
+    "output_count_note": "No separate output count selector in this editor; previous new-image x1 setting unchanged. Not claimed as direct x1 measurement in this editor.",
+    "generated_result_entries_observed": 1
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T04:24:46.511Z",
+    "container_editor_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "container_editor_asset_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "result_media_source_url": "https://flow-content.google/image/73abcd51-6180-4aba-a819-643d36a008c0",
+    "result_media_id": "73abcd51-6180-4aba-a819-643d36a008c0",
+    "media_source_observed_from": "src of visible main image after selecting completed DEEP history result; origin/path only, signed query omitted",
+    "container_url_is_revision_ambiguous": true,
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\73abcd51-6180-4aba-a819-643d36a008c0.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_DEEP_1.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "ba1aa33583199bf4e047cb83f60cc3bf24c94b9fac71fbc2b246707b6aa258a4",
+      "bytes": 185330
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_DEEP_1.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "2ea57c40e734e7745f586de4300d2e92c5a39c9d8fcbe33507b2a93afb400361",
+      "bytes": 1175595
+    }
+  },
+  "quick_visual_check": {
+    "performed": true,
+    "observed_by": "ep09_image_prompts",
+    "scope": "whole raw image only; no structural acceptance",
+    "observations": "Bright 3D block with a flat slab and a deep curved invert visible at its left front end. The extent of lower-bench removal along the longitudinal block and complete structural ring connection are not clear at this quick view and require root review."
+  },
+  "strict_review_and_selection": "root manages picks; no acceptance asserted",
+  "further_generation_submitted": false,
+  "next_authorized_candidate": "o001 attempt1 from selected AT_C3 only, independent of DEEP review"
+}

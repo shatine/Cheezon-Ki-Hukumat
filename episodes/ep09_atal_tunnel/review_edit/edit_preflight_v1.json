@@ -1,0 +1,1799 @@
+{
+  "status": "blocked_missing_or_unreviewed_media",
+  "scope": "check-only and measured sentence review subtitles; no renderer implemented",
+  "render_ready": false,
+  "actual_render_performed": false,
+  "actual_video_visual_review_performed": false,
+  "full_fake_render_test_performed": false,
+  "actual_muse_submission_performed": false,
+  "upload_or_bgm_work_performed": false,
+  "core_errors": [],
+  "measured_narration_seconds": 469.412,
+  "cut_count": 79,
+  "output_frames": 14112,
+  "output_seconds": 470.4,
+  "target_width": 1920,
+  "target_height": 1080,
+  "target_fps": 30,
+  "review_subtitles": {
+    "status": "sentence_timed_review_text_prepared",
+    "files_written": [
+      "subs_hi_review_v1.srt",
+      "subs_ko_review_v1.srt",
+      "subs_review_v1.ass"
+    ],
+    "hi_cues": 78,
+    "ko_cues": 78,
+    "measured_label_cues": 9,
+    "timing_basis": "actual sentence start/end only; wrap within one cue; no character-time estimate or inserted split point",
+    "srt_rounding_max_sec": 0.0005,
+    "ass_rounding_max_sec": 0.005,
+    "ass_spacing": 0,
+    "hi_font": "C:\\Windows\\Fonts\\Nirmala.ttc",
+    "ko_font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+    "pillow_raqm": false,
+    "width_measurement": "Pillow font metrics with safety margin; actual libass shaping/layout NOT visually reviewed",
+    "actual_subtitle_render_or_visual_review_performed": false,
+    "upload_one_line_subtitles": "withheld; exact pause/word alignment required before splitting timed text",
+    "max_hi_lines": 3,
+    "max_ko_lines": 2,
+    "sentence_layout": [
+      {
+        "id": "S01a",
+        "measured_start": 0.0,
+        "measured_end": 3.553,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S01b",
+        "measured_start": 3.903,
+        "measured_end": 12.956,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S01c",
+        "measured_start": 13.306,
+        "measured_end": 15.074,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S01d",
+        "measured_start": 15.424,
+        "measured_end": 18.822,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S02a",
+        "measured_start": 19.622,
+        "measured_end": 25.284,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S02b",
+        "measured_start": 25.634,
+        "measured_end": 33.565,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S02c",
+        "measured_start": 33.915,
+        "measured_end": 45.518,
+        "hi_lines": 3,
+        "ko_lines": 2
+      },
+      {
+        "id": "S03a",
+        "measured_start": 46.318,
+        "measured_end": 49.761,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S03b",
+        "measured_start": 50.111,
+        "measured_end": 54.307,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S03c",
+        "measured_start": 54.657,
+        "measured_end": 61.537,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S03d",
+        "measured_start": 61.887,
+        "measured_end": 68.521,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S04a",
+        "measured_start": 69.321,
+        "measured_end": 72.548,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S04b",
+        "measured_start": 72.898,
+        "measured_end": 80.725,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S04c",
+        "measured_start": 81.075,
+        "measured_end": 88.179,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S05a",
+        "measured_start": 88.979,
+        "measured_end": 93.203,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S05b",
+        "measured_start": 93.553,
+        "measured_end": 100.313,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S05c",
+        "measured_start": 100.663,
+        "measured_end": 105.579,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S06a",
+        "measured_start": 106.379,
+        "measured_end": 109.164,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S06b",
+        "measured_start": 109.514,
+        "measured_end": 113.916,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S06c",
+        "measured_start": 114.266,
+        "measured_end": 122.152,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S06d",
+        "measured_start": 122.502,
+        "measured_end": 127.038,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S07a",
+        "measured_start": 127.838,
+        "measured_end": 131.718,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S07b",
+        "measured_start": 132.068,
+        "measured_end": 138.033,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S07c",
+        "measured_start": 138.383,
+        "measured_end": 142.157,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S07d",
+        "measured_start": 142.507,
+        "measured_end": 148.093,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S08a",
+        "measured_start": 148.893,
+        "measured_end": 150.325,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S08b",
+        "measured_start": 150.675,
+        "measured_end": 157.201,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S08c",
+        "measured_start": 157.551,
+        "measured_end": 164.199,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S09a",
+        "measured_start": 164.999,
+        "measured_end": 168.663,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S09b",
+        "measured_start": 169.013,
+        "measured_end": 174.915,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S09c",
+        "measured_start": 175.265,
+        "measured_end": 182.895,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S09d",
+        "measured_start": 183.245,
+        "measured_end": 186.683,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S10a",
+        "measured_start": 187.483,
+        "measured_end": 192.318,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S10b",
+        "measured_start": 192.668,
+        "measured_end": 196.979,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S10c",
+        "measured_start": 197.329,
+        "measured_end": 200.334,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S10d",
+        "measured_start": 200.684,
+        "measured_end": 207.878,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S11a",
+        "measured_start": 208.678,
+        "measured_end": 211.053,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S11b",
+        "measured_start": 211.403,
+        "measured_end": 219.991,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S11c",
+        "measured_start": 220.341,
+        "measured_end": 222.895,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S12a",
+        "measured_start": 223.695,
+        "measured_end": 231.38,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S12b",
+        "measured_start": 231.73,
+        "measured_end": 239.998,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S12c",
+        "measured_start": 240.348,
+        "measured_end": 245.974,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S12d",
+        "measured_start": 246.324,
+        "measured_end": 250.567,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S13a",
+        "measured_start": 251.367,
+        "measured_end": 253.601,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S13b",
+        "measured_start": 253.951,
+        "measured_end": 257.504,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S13c",
+        "measured_start": 257.854,
+        "measured_end": 266.09,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S13d",
+        "measured_start": 266.44,
+        "measured_end": 271.355,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S14a",
+        "measured_start": 272.155,
+        "measured_end": 273.577,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S14b",
+        "measured_start": 273.927,
+        "measured_end": 284.053,
+        "hi_lines": 3,
+        "ko_lines": 2
+      },
+      {
+        "id": "S14c",
+        "measured_start": 284.403,
+        "measured_end": 288.455,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S15a",
+        "measured_start": 289.255,
+        "measured_end": 294.546,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S15b",
+        "measured_start": 294.896,
+        "measured_end": 299.661,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S15c",
+        "measured_start": 300.011,
+        "measured_end": 302.874,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S15d",
+        "measured_start": 303.224,
+        "measured_end": 307.594,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S16a",
+        "measured_start": 308.394,
+        "measured_end": 314.987,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S16b",
+        "measured_start": 315.337,
+        "measured_end": 324.5,
+        "hi_lines": 3,
+        "ko_lines": 2
+      },
+      {
+        "id": "S16c",
+        "measured_start": 324.85,
+        "measured_end": 330.649,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S17a",
+        "measured_start": 331.449,
+        "measured_end": 335.717,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S17b",
+        "measured_start": 336.067,
+        "measured_end": 341.293,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S17c",
+        "measured_start": 341.643,
+        "measured_end": 346.504,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S17d",
+        "measured_start": 346.854,
+        "measured_end": 352.445,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S18a",
+        "measured_start": 353.245,
+        "measured_end": 359.188,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S18b",
+        "measured_start": 359.538,
+        "measured_end": 368.798,
+        "hi_lines": 3,
+        "ko_lines": 2
+      },
+      {
+        "id": "S18c",
+        "measured_start": 369.148,
+        "measured_end": 374.644,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S19a",
+        "measured_start": 375.444,
+        "measured_end": 381.541,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S19b",
+        "measured_start": 381.891,
+        "measured_end": 388.432,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S19c",
+        "measured_start": 388.782,
+        "measured_end": 394.629,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S20a",
+        "measured_start": 395.429,
+        "measured_end": 402.738,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S20b",
+        "measured_start": 403.088,
+        "measured_end": 411.542,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S21a",
+        "measured_start": 412.342,
+        "measured_end": 415.891,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S21b",
+        "measured_start": 416.241,
+        "measured_end": 427.096,
+        "hi_lines": 3,
+        "ko_lines": 2
+      },
+      {
+        "id": "S21c",
+        "measured_start": 427.446,
+        "measured_end": 434.471,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S22a",
+        "measured_start": 435.271,
+        "measured_end": 436.704,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S22b",
+        "measured_start": 437.054,
+        "measured_end": 440.607,
+        "hi_lines": 1,
+        "ko_lines": 1
+      },
+      {
+        "id": "S23a",
+        "measured_start": 441.407,
+        "measured_end": 448.242,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S23b",
+        "measured_start": 448.592,
+        "measured_end": 455.049,
+        "hi_lines": 2,
+        "ko_lines": 1
+      },
+      {
+        "id": "S23c",
+        "measured_start": 455.399,
+        "measured_end": 464.005,
+        "hi_lines": 2,
+        "ko_lines": 2
+      },
+      {
+        "id": "S24a",
+        "measured_start": 464.805,
+        "measured_end": 469.412,
+        "hi_lines": 1,
+        "ko_lines": 1
+      }
+    ]
+  },
+  "media": {
+    "ffprobe": "C:\\Users\\developer1\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.2-full_build\\bin\\ffprobe.EXE",
+    "media_entries": [
+      {
+        "id": "o001",
+        "kind": "v",
+        "planned_file": "clips_v1/o001.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\o001.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "o002",
+        "kind": "v",
+        "planned_file": "clips_v1/o002.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\o002.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "o003",
+        "kind": "v",
+        "planned_file": "clips_v1/o003.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\o003.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "o004",
+        "kind": "v",
+        "planned_file": "clips_v1/o004.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\o004.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i001",
+        "kind": "i",
+        "planned_file": "img/v1_i001_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i002",
+        "kind": "i",
+        "planned_file": "img/v1_i002_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i003",
+        "kind": "i",
+        "planned_file": "img/v1_i003_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i004",
+        "kind": "i",
+        "planned_file": "img/v1_i004_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i005",
+        "kind": "i",
+        "planned_file": "img/v1_i005_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i006",
+        "kind": "i",
+        "planned_file": "img/v1_i006_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i007",
+        "kind": "i",
+        "planned_file": "img/v1_i007_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i008",
+        "kind": "i",
+        "planned_file": "img/v1_i008_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i009",
+        "kind": "i",
+        "planned_file": "img/v1_i009_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i010",
+        "kind": "i",
+        "planned_file": "img/v1_i010_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i011",
+        "kind": "i",
+        "planned_file": "img/v1_i011_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i012",
+        "kind": "i",
+        "planned_file": "img/v1_i012_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i013",
+        "kind": "i",
+        "planned_file": "img/v1_i013_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i014",
+        "kind": "i",
+        "planned_file": "img/v1_i014_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i015",
+        "kind": "i",
+        "planned_file": "img/v1_i015_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i016",
+        "kind": "i",
+        "planned_file": "img/v1_i016_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p001",
+        "kind": "v",
+        "planned_file": "clips_v1/p001.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p001.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p002",
+        "kind": "v",
+        "planned_file": "clips_v1/p002.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p002.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p003",
+        "kind": "v",
+        "planned_file": "clips_v1/p003.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p003.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p004",
+        "kind": "v",
+        "planned_file": "clips_v1/p004.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p004.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p005",
+        "kind": "v",
+        "planned_file": "clips_v1/p005.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p005.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p006",
+        "kind": "v",
+        "planned_file": "clips_v1/p006.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p006.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p007",
+        "kind": "v",
+        "planned_file": "clips_v1/p007.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p007.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p008",
+        "kind": "v",
+        "planned_file": "clips_v1/p008.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p008.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p009",
+        "kind": "v",
+        "planned_file": "clips_v1/p009.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p009.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p010",
+        "kind": "v",
+        "planned_file": "clips_v1/p010.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p010.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p011",
+        "kind": "v",
+        "planned_file": "clips_v1/p011.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p011.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p012",
+        "kind": "v",
+        "planned_file": "clips_v1/p012.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p012.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p013",
+        "kind": "v",
+        "planned_file": "clips_v1/p013.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p013.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p014",
+        "kind": "v",
+        "planned_file": "clips_v1/p014.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p014.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p015",
+        "kind": "v",
+        "planned_file": "clips_v1/p015.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p015.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p016",
+        "kind": "v",
+        "planned_file": "clips_v1/p016.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p016.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p017",
+        "kind": "v",
+        "planned_file": "clips_v1/p017.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p017.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p018",
+        "kind": "v",
+        "planned_file": "clips_v1/p018.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p018.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p019",
+        "kind": "v",
+        "planned_file": "clips_v1/p019.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p019.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p020",
+        "kind": "v",
+        "planned_file": "clips_v1/p020.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p020.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p021",
+        "kind": "v",
+        "planned_file": "clips_v1/p021.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p021.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i017",
+        "kind": "i",
+        "planned_file": "img/v1_i017_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i018",
+        "kind": "i",
+        "planned_file": "img/v1_i018_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p022",
+        "kind": "v",
+        "planned_file": "clips_v1/p022.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p022.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p023",
+        "kind": "v",
+        "planned_file": "clips_v1/p023.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p023.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p024",
+        "kind": "v",
+        "planned_file": "clips_v1/p024.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p024.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p025",
+        "kind": "v",
+        "planned_file": "clips_v1/p025.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p025.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p026",
+        "kind": "v",
+        "planned_file": "clips_v1/p026.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p026.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p027",
+        "kind": "v",
+        "planned_file": "clips_v1/p027.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p027.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i019",
+        "kind": "i",
+        "planned_file": "img/v1_i019_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i020",
+        "kind": "i",
+        "planned_file": "img/v1_i020_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p028",
+        "kind": "v",
+        "planned_file": "clips_v1/p028.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p028.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p029",
+        "kind": "v",
+        "planned_file": "clips_v1/p029.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p029.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p030",
+        "kind": "v",
+        "planned_file": "clips_v1/p030.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p030.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p031",
+        "kind": "v",
+        "planned_file": "clips_v1/p031.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p031.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p032",
+        "kind": "v",
+        "planned_file": "clips_v1/p032.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p032.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p033",
+        "kind": "v",
+        "planned_file": "clips_v1/p033.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p033.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p034",
+        "kind": "v",
+        "planned_file": "clips_v1/p034.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p034.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p035",
+        "kind": "v",
+        "planned_file": "clips_v1/p035.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p035.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p036",
+        "kind": "v",
+        "planned_file": "clips_v1/p036.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p036.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i021",
+        "kind": "i",
+        "planned_file": "img/v1_i021_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i022",
+        "kind": "i",
+        "planned_file": "img/v1_i022_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p037",
+        "kind": "v",
+        "planned_file": "clips_v1/p037.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p037.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p038",
+        "kind": "v",
+        "planned_file": "clips_v1/p038.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p038.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "a001",
+        "kind": "v",
+        "planned_file": "clips_v1/a001.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\a001.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i023",
+        "kind": "i",
+        "planned_file": "img/v1_i023_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i024",
+        "kind": "i",
+        "planned_file": "img/v1_i024_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i025",
+        "kind": "i",
+        "planned_file": "img/v1_i025_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p039",
+        "kind": "v",
+        "planned_file": "clips_v1/p039.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p039.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "a002",
+        "kind": "v",
+        "planned_file": "clips_v1/a002.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\a002.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "a003",
+        "kind": "v",
+        "planned_file": "clips_v1/a003.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\a003.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p040",
+        "kind": "v",
+        "planned_file": "clips_v1/p040.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p040.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i026",
+        "kind": "i",
+        "planned_file": "img/v1_i026_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i027",
+        "kind": "i",
+        "planned_file": "img/v1_i027_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p041",
+        "kind": "v",
+        "planned_file": "clips_v1/p041.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p041.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p042",
+        "kind": "v",
+        "planned_file": "clips_v1/p042.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p042.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p043",
+        "kind": "v",
+        "planned_file": "clips_v1/p043.mp4",
+        "actual_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\p043.mp4",
+        "issues": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i028",
+        "kind": "i",
+        "planned_file": "img/v1_i028_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i029",
+        "kind": "i",
+        "planned_file": "img/v1_i029_1.png",
+        "actual_file": null,
+        "issues": [
+          "no_actual_chosen_image_pick"
+        ]
+      }
+    ],
+    "blockers": [
+      {
+        "id": "o001",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "o002",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "o003",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "o004",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i001",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i002",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i003",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i004",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i005",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i006",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i007",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i008",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i009",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i010",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i011",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i012",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i013",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i014",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i015",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i016",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p001",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p002",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p003",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p004",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p005",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p006",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p007",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p008",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p009",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p010",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p011",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p012",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p013",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p014",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p015",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p016",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p017",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p018",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p019",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p020",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p021",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i017",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i018",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p022",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p023",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p024",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p025",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p026",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p027",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i019",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i020",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p028",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p029",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p030",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p031",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p032",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p033",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p034",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p035",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p036",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i021",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i022",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p037",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p038",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "a001",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i023",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i024",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i025",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p039",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "a002",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "a003",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p040",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i026",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i027",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "p041",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p042",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "p043",
+        "reasons": [
+          "video_source_missing"
+        ]
+      },
+      {
+        "id": "i028",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      },
+      {
+        "id": "i029",
+        "reasons": [
+          "no_actual_chosen_image_pick"
+        ]
+      }
+    ],
+    "checked_source_count": 79,
+    "unavailable_source_count": 79,
+    "clip_review_manifest": "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\video\\review_clips_v1.json",
+    "clip_review_manifest_exists": false,
+    "narration": {
+      "file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\review_edit\\narration_hi.wav",
+      "exists": true,
+      "measured_duration": 469.411583,
+      "sample_rate": "24000",
+      "channels": 1
+    }
+  },
+  "remaining_work": [
+    "actual media and confirmed measured USE",
+    "full renderer implementation and isolated full-render test",
+    "libass typography/layout review",
+    "exact pause/word alignment for upload single-line subtitles",
+    "0-to-end final visual/audio review"
+  ]
+}

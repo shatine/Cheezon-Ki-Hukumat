@@ -1,0 +1,83 @@
+{
+  "id": "G3D_EXC",
+  "attempt": 4,
+  "kind": "master_retake",
+  "status": "generated; awaiting root strict review",
+  "recorded_at_utc": "2026-10-27T04:21:26.431730+00:00",
+  "record_basis": "Post-completion record of actual source/settings observations and UI clock stamps captured in this session.",
+  "exact_submitted_prompt": "Clean bright precise CAD-like 3D educational engineering diorama, soft studio light, white-grey background, 16:9. Using the supplied source image as actual input, preserve its camera, longitudinal cut rock block, lower solid bench, grey transverse ribs, open excavation on LEFT, rough solid working face in MIDDLE, and solid unexcavated rock on RIGHT. Preserve the broad arch-shaped arrangement of the circular teal pipe mouths at the LEFT end. Fix only the representation of the teal pipe bodies: each is a smooth rigid straight circular cylinder, with parallel left-to-right axes. No bends, waves, sagging, merged tubes or irregular diameters. Show the clean short straight lengths above the grey supported open excavation. As they cross the working face, they enter the solid right-hand ground and become OCCLUDED by opaque rock. The ground hides the forward pipe lengths and their buried tips; remove every long exposed teal line currently drawn across the outer right rock wall. Do not draw pipes along the outside surface of the right block, and do not trace its cracks with teal material. The support continues ahead INSIDE solid ground, not on its exterior. The visible pipe mouths still form an arch across both upper shoulders, and their visible short bodies stay straight. Keep a clear supported working space and the grey rib feet on the lower bench. No change of excavation stage, no open passage behind the solid face, no grout, no purple material, no temporary invert, no road. No arrows, people, labels, text, letters, numbers, logos or watermarks. No readable text.",
+  "prompt_sha256": "e32ece9c0efd6cc763e67fdc8b92ca0ff9965cd2474650c7ab280371fdc118f3",
+  "submitted_text_verified_after_completion": true,
+  "submitted_text_character_count": 1582,
+  "submit_initiated_at_utc": "2026-10-27T04:19:29.786Z",
+  "submit_acknowledged_at_utc": "2026-10-27T04:19:29.888Z",
+  "input": {
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "observed_at_utc": "2026-10-27T04:18:46.802Z",
+    "source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "source_asset_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "actual_reference_media_source_url": "https://flow-content.google/image/76a3473e-8fb4-4f83-ae83-a15d459d1ee5",
+    "expected_media_revision_matched": true,
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_3.jpg",
+    "original_sha256": "1644b252c765c3da2ae7fe7f8c6369b1ca857687016994d6166db354c2a2ec32",
+    "verification_download_path": "C:\\Users\\developer1\\Downloads\\76a3473e-8fb4-4f83-ae83-a15d459d1ee5 (1).jpg",
+    "verification_download_sha256": "1644b252c765c3da2ae7fe7f8c6369b1ca857687016994d6166db354c2a2ec32",
+    "verification_download_matches_original_bytes": true,
+    "verification_performed_before_submit": true,
+    "evidence": [
+      "Read the visible main read-only image src and directly matched the exact expected EXC3 media revision 76a3473e-8fb4-4f83-ae83-a15d459d1ee5 before submission.",
+      "Downloaded that visible image before submission; SHA256 1644b252c765c3da2ae7fe7f8c6369b1ca857687016994d6166db354c2a2ec32 was identical to stored raw EXC3.",
+      "The image was the current main image above the editor field labelled 어떤 내용을 변경하려 하시나요?.",
+      "Observed image-editing Nano Banana 2.1, selected 16:9 and 0 credits before submission."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "observed_at_utc": "2026-10-27T04:18:52.252Z",
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "cost_credits": 0,
+    "these_directly_observed_before_submit": true,
+    "output_count_selector_visible": false,
+    "output_count_note": "No separate output-count selector is exposed in this image editor. The preceding new-image x1 setting was not changed; this is distinct from a direct x1 observation in the current editor.",
+    "generated_result_entries_observed": 1
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T04:20:27.214Z",
+    "container_editor_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "container_editor_asset_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "result_media_source_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
+    "result_media_id": "dcf20746-d09d-48e9-b963-bcc682e40e2f",
+    "media_source_observed_from": "src attribute of the visible main read-only image after selecting the completed attempt4 history tile; origin/path only, signed query omitted",
+    "container_url_is_revision_ambiguous": true,
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\dcf20746-d09d-48e9-b963-bcc682e40e2f.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_4.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "b051604cb4cbc1569827a1fee049d88bca120c08f9d6c3fd72b187cce8e8e421",
+      "bytes": 185844
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_4.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+      "bytes": 1193944
+    }
+  },
+  "quick_visual_check": {
+    "performed": true,
+    "observed_by": "ep09_image_prompts",
+    "scope": "whole raw image only; no strict acceptance claimed",
+    "observations": "Supported left upper excavation, middle rough face, opaque solid right block and lower bench remain. Pipe mouths retain a broad arch; visible short teal bodies look straight at this viewing scale. Long wavy teal lines previously on the exterior of the right block are no longer visible. Root must still assess exact geometry, embedding and cleanliness."
+  },
+  "strict_review_and_selection": "root manages picks; this generation record is not a selection decision",
+  "further_generation_submitted": false,
+  "retry_limit_note": "If root still finds the same wavy/external pipe defect, attempts2/3/4 would make three occurrences and no further automatic retake is to be submitted."
+}

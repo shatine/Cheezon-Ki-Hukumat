@@ -1,0 +1,68 @@
+{
+  "status": "pass",
+  "scope": "isolated temporary fixtures only; no real visual-review claim or production action-check update",
+  "helper_sha256": "92507002fdf406f3b6625d588a5477df515cfcbea67c01895e9191fa9ee3a5ef",
+  "tests": [
+    {
+      "name": "valid_explicit_decision_updates_exactly_one_row",
+      "outcome": "fixture_declaration_recorded",
+      "changed_rows": [
+        "p001"
+      ],
+      "pass_test": true
+    },
+    {
+      "name": "missing_motion_sha_rejected",
+      "outcome": "rejected_without_write",
+      "pass_test": true,
+      "reason": "Missing or invalid explicit expected_motion_contract_sha256"
+    },
+    {
+      "name": "reviewed_false_rejected",
+      "outcome": "rejected_without_write",
+      "pass_test": true,
+      "reason": "Explicit reviewed=true is required; no automatic visual judgment is made"
+    },
+    {
+      "name": "wrong_selected_png_bytes_rejected",
+      "outcome": "rejected_without_write",
+      "pass_test": true,
+      "reason": "Actual selected PNG SHA differs from the pick ledger"
+    },
+    {
+      "name": "wrong_expected_filename_rejected",
+      "outcome": "rejected_without_write",
+      "pass_test": true,
+      "reason": "Expected PNG filename differs from the actual pick ledger"
+    },
+    {
+      "name": "wrong_expected_png_sha_rejected",
+      "outcome": "rejected_without_write",
+      "pass_test": true,
+      "reason": "Expected PNG SHA differs from the actual pick ledger"
+    },
+    {
+      "name": "wrong_motion_contract_rejected",
+      "outcome": "rejected_without_write",
+      "pass_test": true,
+      "reason": "Current motion contract SHA differs from the explicit decision"
+    },
+    {
+      "name": "master_id_rejected",
+      "outcome": "rejected_without_write",
+      "pass_test": true,
+      "reason": "ID is not exactly one current video first-frame definition; masters/images are not accepted"
+    }
+  ],
+  "production_files_unchanged_during_fixture_run": {
+    "images\\picks_v1.json": true,
+    "video\\first_frame_action_checks_v1.json": true,
+    "video\\make_video_prompts_v1.py": true
+  },
+  "production_action_checks_modified": false,
+  "production_picks_modified": false,
+  "video_generation_gate_source_modified": false,
+  "actual_visual_review_performed": false,
+  "actual_muse_submission_performed": false,
+  "actual_video_generated": false
+}

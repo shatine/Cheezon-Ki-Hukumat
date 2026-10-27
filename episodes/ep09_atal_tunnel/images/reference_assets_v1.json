@@ -162,7 +162,36 @@
       "status": "not_chosen"
     },
     "G3D_EXC": {
-      "status": "not_chosen"
+      "status": "source_correspondence_verified",
+      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "flow_container_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "source_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
+      "source_revision_resolution": {
+        "media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
+        "raw_sha256": "b051604cb4cbc1569827a1fee049d88bca120c08f9d6c3fd72b187cce8e8e421",
+        "resolution_source": "recorded_result_media_url"
+      },
+      "selected_attempt": 4,
+      "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_4.jpg",
+      "selected_clean_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_4.png",
+      "original_sha256": "b051604cb4cbc1569827a1fee049d88bca120c08f9d6c3fd72b187cce8e8e421",
+      "selected_clean_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "changed_pixel_fraction": 0.002454654190891473,
+      "changed_pixel_bbox_xyxy": [
+        1247,
+        639,
+        1311,
+        703
+      ],
+      "changes_confined_to_lower_right_processing_area": true,
+      "clean_png_reuploaded": false,
+      "actual_ui_reference_attachment_verified_by_this_script": false,
+      "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },
     "i008": {
       "status": "not_chosen"

@@ -1,23 +1,25 @@
 {
-  "recorded_at": "2026-10-27T13:18:55.7223896+09:00",
-  "current_operator": "ep09_image_prompts single UI operator; root reviews and records",
+  "recorded_at": "2026-10-27T13:40:09.9926973+09:00",
+  "current_operator": "Browser input stopped; awaiting human Flow authentication status; root continues independent authoring",
   "project": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
   "last_observed_submission": {
-    "id": "G3D_EXC",
-    "attempt": 4,
-    "status_observed": "controlled retake4 delegated; requires live check before any duplicate",
+    "id": "G3D_DEEP",
+    "attempt": 2,
+    "status_observed": "Failed: unusual activity detected and reCAPTCHA service connection error; no output, no retry, subsequent batch0",
     "requires_live_ui_check_before_any_resubmission": true
   },
-  "chosen_count": 4,
-  "reviewed_attempts": 12,
+  "chosen_count": 5,
+  "reviewed_attempts": 15,
   "generation_not_complete": true,
   "reference_transport": "exact chosen attempt original asset already in Flow media; see reference_assets_v1.json",
   "muse_generation_approved": false,
   "notes": [
-    "Explicit picks AT_S2 AT_N3 AT_C3 AT_INT1; root opened each raw and clean at original size",
-    "G3D_EXC1/2/3 held; attempt4 only delegated to single image operator",
-    "User explicitly keeps old Flow project and cancels migration; new empty project untouched",
-    "File upload blocked by extension file URL access; do not repeat setFiles or alter permission",
-    "Use actual same-project input media revision with observed UI evidence; edit URL alone is insufficient"
+    "Explicit picks5/85: AT_S2 AT_N3 AT_C3 AT_INT1 G3D_EXC4",
+    "DEEP1 and o0011 visually held; DEEP2 server failure has no raw/clean/result media",
+    "Flow exact failure and screenshot in generation_records_v1/G3D_DEEP_2.json; Chrome tab96307978 handed off",
+    "Human authentication-status question pending; do not retry or bypass detection until resolved",
+    "Human explicitly keeps old project baa9; new empty103f unused, no media moved",
+    "No local uploads or extension permission changes; no Muse; no subsequent batch submissions",
+    "Video actual first-frame selections0/50; manual action compatibility0/50; no ready package"
   ]
 }

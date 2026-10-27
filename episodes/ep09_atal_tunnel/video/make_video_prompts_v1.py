@@ -50,9 +50,10 @@ D3 = (
 # tuple = (영어 동작, 실제 첫 프레임에서 확인할 요소, 종료 상태).
 ACTION = {
     "o001": (
-        "Existing muddy water continues from the visible face cracks into the same low sump and existing drainage pipe. "
-        "Small ripples travel along that route; the supported working space and machinery stay in place. The level does not flood the workers or road.",
-        ["face inflow and sump visible", "continuous existing drainage route", "supported workspace remains clear"],
+        "Existing muddy water continues from the visible face cracks down the same rough face into the already wet shallow collecting area immediately below. "
+        "Only local splash and small ripples move within that established receiving area; the clear supported working strip and machinery stay in place. "
+        "Do not route water into a hose, invent a drainage system, raise the water level or flood the workers.",
+        ["face cracks and existing downward muddy inflow visible", "already wet shallow receiving area below the flow", "supported dry side working strip remains clear"],
         "The same controlled inflow continues; no growing flood or new fracture."),
     "o002": (
         "The water already at the face carries a few existing small loose stones and soil grains a short distance downward onto the same muddy pile. "

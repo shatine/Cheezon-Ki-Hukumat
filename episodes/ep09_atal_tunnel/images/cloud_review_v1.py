@@ -65,7 +65,7 @@ for r in rows:
     dup = ", ".join(f"{n} {v}" + (" **중복?**" if v < 0.25 else "") for n, v in r["near"].items())
     references = ", ".join(f"{n} {v}" for n,v in r["reference_distance"].items())
     rep.append(f"| {r['id']} | {r['file']} | {r['size']} | {r['mean']}{flag} | {r['dark']} | {dup} | {references} |")
-rep += ["", f"빠진 id ({len(missing)}): {' '.join(missing)}", f"계획에 없는 id: {' '.join(extra)}"]
+rep += ["", f"빠진 id ({len(missing)}): {' '.join(missing) or '없음'}", f"계획에 없는 id: {' '.join(extra) or '없음'}"]
 (OUT / "auto_report.md").write_text("\n".join(rep), encoding="utf-8")
 (OUT / "auto_report.json").write_text(json.dumps(dict(
     scope="image dimensions, luminance and neighbouring dhash only; not visual approval",

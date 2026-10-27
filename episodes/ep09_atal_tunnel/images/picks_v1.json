@@ -512,6 +512,190 @@
       "reference_picks": {},
       "recorded_at": "2026-10-27T13:17:44+09:00",
       "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "G3D_EXC",
+        "attempt": 4,
+        "decision": "chosen",
+        "reason": "root가 원본 JPEG와 처리 PNG를 원본 크기로 각각 직접 열었다. 왼쪽 열린 상부 굴착 공간·중앙의 거친 막힌 작업면·오른쪽 고체 지반, 연속된 하부 벤치가 분명하다. 회색 횡단 아치 지보의 발이 벤치에 닿고 청록관의 원형 끝이 천장 아치로 배열된다. 보이는 짧은 몸통이 굴착축 방향의 직선이며 오른쪽 매몰부는 불투명 지반에 가려져 이전의 파형 외부 노출이 없어졌다. 보라 주입재·임시 인버트·완공 차도·사람·글자가 없고 처리부위의 눈에 띄는 흔적을 발견하지 못했다. 실제 시공 단면 치수나 기록사진이 아닌 원리 모형 기준으로 선택한다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+        "result_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
+        "raw_file": "v1_G3D_EXC_4.jpg",
+        "clean_file": "v1_G3D_EXC_4.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_retake_reference_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_3.jpg",
+        "actual_ui_references": [
+          {
+            "id": "G3D_EXC",
+            "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+            "source_media_url": "https://flow-content.google/image/76a3473e-8fb4-4f83-ae83-a15d459d1ee5",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "ep09_image_prompts",
+            "evidence": "Before submit actual visible main image src matched EXC3 revision; UI download SHA matched stored raw EXC3. Image was the current source above change-image field. Settings showed image editing/16:9/zero credits. Explicit clock stamps and exact prompt are in generation_records_v1/G3D_EXC_4.json; no local upload used."
+          }
+        ]
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_4.jpg",
+          "sha256": "b051604cb4cbc1569827a1fee049d88bca120c08f9d6c3fd72b187cce8e8e421",
+          "bytes": 185844,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_4.png",
+          "sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+          "bytes": 1193944,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_3.jpg",
+          "sha256": "1644b252c765c3da2ae7fe7f8c6369b1ca857687016994d6166db354c2a2ec32",
+          "bytes": 189609,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        }
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T13:22:02+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "G3D_DEEP",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "root가 raw JPEG와 clean PNG를 원본 크기로 각각 직접 열었다. 앞단에 작은 U자 바닥과 평평한 슬래브만 추가되고, 뒤쪽에 남은 하부 벤치·기존 아치와 하부구조의 연결이 불분명하다. 전체 난구간 후속 최종 인버트가 닫힌 구조 링을 이룬다는 설명에 필요한 길이 방향 하부 제거와 연속된 영구 라이닝이 읽히지 않아 보류. master 프롬프트를 전체 왼쪽 하부 벤치 제거, 길이 방향 깊은 바닥, 크라운·벽·바닥의 연속된 링으로 수정했다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+        "result_media_url": "https://flow-content.google/image/73abcd51-6180-4aba-a819-643d36a008c0",
+        "raw_file": "v1_G3D_DEEP_1.jpg",
+        "clean_file": "v1_G3D_DEEP_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "G3D_EXC",
+            "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+            "source_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "ep09_image_prompts",
+            "evidence": "Observer directly read EXC4 visible main-image revision and downloaded it before submit; raw SHA matched the selected EXC4 source. Current image editor supplied that actual input; free-image settings observed. See generation_records_v1/G3D_DEEP_1.json."
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_DEEP_1.jpg",
+          "sha256": "ba1aa33583199bf4e047cb83f60cc3bf24c94b9fac71fbc2b246707b6aa258a4",
+          "bytes": 185330,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_DEEP_1.png",
+          "sha256": "2ea57c40e734e7745f586de4300d2e92c5a39c9d8fcbe33507b2a93afb400361",
+          "bytes": 1175595,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "G3D_EXC",
+      "reference_picks": {
+        "G3D_EXC": {
+          "attempt": 4,
+          "file": "v1_G3D_EXC_4.png",
+          "sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+          "source_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f"
+        }
+      },
+      "recorded_at": "2026-10-27T13:26:32+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "o001",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "root가 raw JPEG와 clean PNG 및 C3 기준 PNG를 각각 원본 크기로 열어 대조했다. 닫힌 지하 천장·작업등·작은 성인·굴착면 물 유입은 읽히지만, 정면 구도가 기준과 너무 비슷하고 중앙의 열린 관과 여러 호스가 집수부에서 이어지는 연속 배수 경로를 보여주지 못한다. 물 유입량을 설명하는 문장에 불필요한 배수 동작은 제거하고, 이미 있는 균열에서 아래 얕은 집수 영역으로 흐르는 물만 움직이게 영상 정의를 수정했다. 이미지도 오른쪽 벽에서 왼쪽 작업면을 비스듬히 보는 구도로 명시해 새로 생성한다. 내레이션 내용·숫자·순서는 변경하지 않았다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+        "result_media_url": "https://flow-content.google/image/512551f1-c95c-4f22-b1d6-a0dc33ee69bf",
+        "raw_file": "v1_o001_1.jpg",
+        "clean_file": "v1_o001_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "AT_C",
+            "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+            "source_media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "ep09_image_prompts",
+            "evidence": "Before submission visible main source revision and UI download SHA were checked against raw C3. Current image-editor input, zero credits, 16:9 and selected image model were directly observed. Exact prompt and observations are in generation_records_v1/o001_1.json."
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_o001_1.jpg",
+          "sha256": "12853c997c1cd5278ebf929a8dc23f8ca5c872f2429db231c6f4e99d92954486",
+          "bytes": 304559,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o001_1.png",
+          "sha256": "490cc33b4838edebccbb7b2cd9f6128f7cfbdf90b6ae7e26265fc28c6ed66f59",
+          "bytes": 2224617,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "AT_C",
+      "reference_picks": {
+        "AT_C": {
+          "attempt": 3,
+          "file": "v1_AT_C_3.png",
+          "sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+          "source_media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9"
+        }
+      },
+      "recorded_at": "2026-10-27T13:33:35+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
     }
   ],
   "legacy_record": {
@@ -635,8 +819,41 @@
         }
       ],
       "result_media_url": "https://flow-content.google/image/5799362b-258f-4b6a-b5c9-797653871bd6"
+    },
+    "G3D_EXC": {
+      "attempt": 4,
+      "file": "v1_G3D_EXC_4.png",
+      "raw_file": "v1_G3D_EXC_4.jpg",
+      "reference": null,
+      "planned_ref": null,
+      "reference_picks": {},
+      "actual_retake_reference_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_3.jpg",
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+      "reason": "root가 원본 JPEG와 처리 PNG를 원본 크기로 각각 직접 열었다. 왼쪽 열린 상부 굴착 공간·중앙의 거친 막힌 작업면·오른쪽 고체 지반, 연속된 하부 벤치가 분명하다. 회색 횡단 아치 지보의 발이 벤치에 닿고 청록관의 원형 끝이 천장 아치로 배열된다. 보이는 짧은 몸통이 굴착축 방향의 직선이며 오른쪽 매몰부는 불투명 지반에 가려져 이전의 파형 외부 노출이 없어졌다. 보라 주입재·임시 인버트·완공 차도·사람·글자가 없고 처리부위의 눈에 띄는 흔적을 발견하지 못했다. 실제 시공 단면 치수나 기록사진이 아닌 원리 모형 기준으로 선택한다.",
+      "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "actual_ui_references": [
+        {
+          "id": "G3D_EXC",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+          "source_media_url": "https://flow-content.google/image/76a3473e-8fb4-4f83-ae83-a15d459d1ee5",
+          "method": "current_image_editor_input",
+          "observed_before_submit": true,
+          "observed_by": "ep09_image_prompts",
+          "evidence": "Before submit actual visible main image src matched EXC3 revision; UI download SHA matched stored raw EXC3. Image was the current source above change-image field. Settings showed image editing/16:9/zero credits. Explicit clock stamps and exact prompt are in generation_records_v1/G3D_EXC_4.json; no local upload used."
+        }
+      ],
+      "result_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f"
     }
   },
-  "chosen_count": 4,
-  "updated_at": "2026-10-27T13:17:44+09:00"
+  "chosen_count": 5,
+  "updated_at": "2026-10-27T13:33:35+09:00"
 }

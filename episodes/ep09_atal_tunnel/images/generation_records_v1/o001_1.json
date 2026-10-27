@@ -1,0 +1,86 @@
+{
+  "id": "o001",
+  "attempt": 1,
+  "kind": "frame",
+  "status": "generated; awaiting root strict review",
+  "recorded_at_utc": "2026-10-27T04:31:06.879592+00:00",
+  "record_basis": "Post-completion record of actual in-session observations, not a retrospective pre-submit record.",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright even neutral-white ELECTRIC tunnel lighting, clear high-key exposure with well-lit light-grey surfaces, vivid natural colours, sharp focus, 16:9. Entirely underground beneath a continuous solid rock-and-shotcrete ceiling. No sky, daylight, sunlight, windows, skylights, open roof gaps or glowing holes through the rock. No sepia filter. No text, no letters, no logos, no watermark. Indian adults only, people distant and small, faces not close-up. Using the reference image: the SAME construction reconstruction as the reference: one upper-heading excavation in weak fractured grey-brown ground, grey steel support ribs and rough shotcrete behind the working face, a compact unbranded yellow tracked machine with completely plain blank body panels, no decals or insignia, and small Indian adult workers seen from behind or the side. Visible neutral-white electric work lamps are mounted beneath the closed shotcrete roof and evenly illuminate the working face. The roof between every support rib is solid opaque grey rock or shotcrete, including directly above the heading. No skylight, surface opening or daylight gap. No identifiable real worker or archival-photograph claim. A strong inflow of muddy water emerges at the excavated face and gathers in a low sump with a pipe leading away; the supported upper-heading cavity is still readable. Show abundant inflow without a measurement scale or a flood covering workers. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "8426bd448ed5699100fee02aa3b48cc959f74a09d90b10d5f40117fca42f65b0",
+  "submitted_text_verified_after_completion": true,
+  "submitted_text_character_count": 1913,
+  "submit_initiated_at_utc": "2026-10-27T04:28:25.334Z",
+  "submit_acknowledged_at_utc": "2026-10-27T04:28:26.389Z",
+  "first_observed_progress_percent": 33,
+  "first_progress_note": "The first returned post-submit state showed 33%, not 0%; this was reported to root without claiming a 0% observation.",
+  "input": {
+    "ref": "AT_C",
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "observed_at_utc": "2026-10-27T04:26:32.755Z",
+    "source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "source_asset_id": "cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "actual_reference_media_source_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_C_3.jpg",
+    "original_sha256": "5acec3d0367f7d8814e5c8a416b830b832b1dcb58e10c762a3cef253e8739148",
+    "verification_download_path": "C:\\Users\\developer1\\Downloads\\493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9 (2).jpg",
+    "verification_download_matches_original_bytes": true,
+    "verification_performed_before_submit": true,
+    "evidence": [
+      "Before submit, directly read current visible main-image src and matched exact chosen AT_C3 media revision 493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9.",
+      "Re-downloaded visible main image before submit and compared exact SHA256 to raw C3.",
+      "Current image was shown in the image editor above 어떤 내용을 변경하려 하시나요?.",
+      "Observed 16:9 and 0 credits in settings, then visually inspected selected Nano Banana 2.1 in its dropdown screenshot because model text was not exposed in AX. No setting was changed."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "cost_and_aspect_observed_at_utc": "2026-10-27T04:26:39.334Z",
+    "model_visual_observation_clock_at_utc": "2026-10-27T04:28:14.468Z",
+    "model_time_note": "Clock captured immediately after screenshot inspection of the existing selected model.",
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "cost_credits": 0,
+    "these_directly_observed_before_submit": true,
+    "output_count_selector_visible": false,
+    "output_count_note": "No output-count selector in current editor; previous new-image x1 setting unchanged, not claimed as directly observed here.",
+    "generated_result_entries_observed": 1
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T04:29:58.673Z",
+    "container_editor_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "container_editor_asset_id": "cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "result_media_source_url": "https://flow-content.google/image/512551f1-c95c-4f22-b1d6-a0dc33ee69bf",
+    "result_media_id": "512551f1-c95c-4f22-b1d6-a0dc33ee69bf",
+    "media_source_observed_from": "src of the visible main image after selecting the completed o001 history result; origin/path only, signed query omitted",
+    "container_url_is_revision_ambiguous": true,
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\512551f1-c95c-4f22-b1d6-a0dc33ee69bf.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_o001_1.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "12853c997c1cd5278ebf929a8dc23f8ca5c872f2429db231c6f4e99d92954486",
+      "bytes": 304559
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o001_1.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "490cc33b4838edebccbb7b2cd9f6128f7cfbdf90b6ae7e26265fc28c6ed66f59",
+      "bytes": 2224617
+    }
+  },
+  "quick_visual_check": {
+    "performed": true,
+    "observed_by": "ep09_image_prompts",
+    "scope": "whole raw candidate only; no strict acceptance",
+    "observations": "Bright electric work lights, closed rough roof and steel ribs, small adult workers, plain yellow excavator, muddy inflow at the face and a floor collection area with hose. Composition remains related to C3; root must judge sufficient viewpoint difference, water readability, no-text and face details."
+  },
+  "strict_review_and_selection": "root manages picks; no acceptance asserted",
+  "further_generation_submitted": false,
+  "next_authorized_candidate": "G3D_DEEP attempt2 from chosen EXC4, independent of o001 selection"
+}

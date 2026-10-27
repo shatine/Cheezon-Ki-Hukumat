@@ -1,6 +1,6 @@
 # 9편 이미지 선택·실제 시각 검토 기록 v1
 
-갱신: 2026-10-27T13:17:44+09:00. 선택 **4/85 ID**, 기록 5 ID / 12시도. 미선택 81 ID. 미기록 80 ID.
+갱신: 2026-10-27T13:33:35+09:00. 선택 **5/85 ID**, 기록 7 ID / 15시도. 미선택 80 ID. 미기록 78 ID.
 
 2026-10-27 최초 생성 UI에서 지정 Flow 프로젝트, Nano Banana 2.1 / 16:9 / x1 / 0크레딧을 확인했다. 한 장씩 생성한다.
 
@@ -28,6 +28,9 @@
 | AT_N | 없음; master 재시도 raw: v1_AT_N_1.jpg (첨부는 root 신고) | 3 | v1_AT_N_3.jpg / v1_AT_N_3.png | 선택 | 예 / 예 | root가 원본 JPEG와 처리 PNG를 원본 크기로 각각 직접 열었다. 큰 녹색 후면 박공과 폭이 작은 왼쪽 적갈색 전면 박공, 오른쪽 사각 도로 개구부, 빈 단일 양방향 2차로, 설산·회색 옹벽이 시도1 비례로 유지됐다. 시도1 오른쪽 기둥의 흰 글자 같은 흔적이 제거되고 읽을 수 있는 글자나 제거부위의 눈에 띄는 흔적을 발견하지 못했다. 독립된 작은 왼쪽 서비스 부분을 두번째 차량 튜브로 보지 않는다. 현장 사진이 아닌 설명용 재구성 기준으로 선택한다. Flow editURL은 원본과 동일한 컨테이너이므로 결과 media revision을 별도로 고정한다. |
 | G3D_EXC | 없음 | 2 | v1_G3D_EXC_2.jpg / v1_G3D_EXC_2.png | 보류·재생성 | 예 / 예 | root가 원본 JPEG와 처리 PNG를 각각 원본 크기로 직접 열었다. 왼쪽 열린 상부 공간·중앙 거친 작업면·오른쪽 고체 지반과 하부 벤치 구분은 수정됐고 보라 주입재도 없어졌다. 그러나 청록관이 천장 꼭대기의 몇 가닥 묶음으로 모여 있고 길이 방향 일부가 물결처럼 굽어 보이며, 관 끝이 천장 전체 아치에 배열되는 관계를 보여주지 못한다. 시도2 형상을 입력으로 유지하고 관 배치·직선성만 바로잡는 명시적 수정 프롬프트를 준비했다. |
 | G3D_EXC | 없음; master 재시도 raw: v1_G3D_EXC_2.jpg (첨부는 root 신고) | 3 | v1_G3D_EXC_3.jpg / v1_G3D_EXC_3.png | 보류·재생성 | 예 / 예 | root가 원본 JPEG와 처리 PNG를 각각 원본 크기로 직접 열었다. 좌측 굴착 공간·중앙 막힌 작업면·우측 고체 지반과 관 끝의 아치 배열은 좋아졌다. 그러나 오른쪽 지반을 따라 드러난 긴 청록관 여러 가닥이 물결치거나 서로 붙어 보여 직선 강관의 형상·평행관계를 설명하는 기준으로는 보류한다. 다음 수정은 관 끝 아치와 굴착 형상을 유지하며, 앞쪽 고체 지반에 묻힌 관을 불필요하게 바깥으로 노출하지 않고 보이는 짧은 몸통만 직선으로 정리한다. |
+| G3D_EXC | 없음; master 재시도 raw: v1_G3D_EXC_3.jpg (첨부는 root 신고) | 4 | v1_G3D_EXC_4.jpg / v1_G3D_EXC_4.png | 선택 | 예 / 예 | root가 원본 JPEG와 처리 PNG를 원본 크기로 각각 직접 열었다. 왼쪽 열린 상부 굴착 공간·중앙의 거친 막힌 작업면·오른쪽 고체 지반, 연속된 하부 벤치가 분명하다. 회색 횡단 아치 지보의 발이 벤치에 닿고 청록관의 원형 끝이 천장 아치로 배열된다. 보이는 짧은 몸통이 굴착축 방향의 직선이며 오른쪽 매몰부는 불투명 지반에 가려져 이전의 파형 외부 노출이 없어졌다. 보라 주입재·임시 인버트·완공 차도·사람·글자가 없고 처리부위의 눈에 띄는 흔적을 발견하지 못했다. 실제 시공 단면 치수나 기록사진이 아닌 원리 모형 기준으로 선택한다. |
+| G3D_DEEP | G3D_EXC=v1_G3D_EXC_4.png | 1 | v1_G3D_DEEP_1.jpg / v1_G3D_DEEP_1.png | 보류·재생성 | 예 / 예 | root가 raw JPEG와 clean PNG를 원본 크기로 각각 직접 열었다. 앞단에 작은 U자 바닥과 평평한 슬래브만 추가되고, 뒤쪽에 남은 하부 벤치·기존 아치와 하부구조의 연결이 불분명하다. 전체 난구간 후속 최종 인버트가 닫힌 구조 링을 이룬다는 설명에 필요한 길이 방향 하부 제거와 연속된 영구 라이닝이 읽히지 않아 보류. master 프롬프트를 전체 왼쪽 하부 벤치 제거, 길이 방향 깊은 바닥, 크라운·벽·바닥의 연속된 링으로 수정했다. |
+| o001 | AT_C=v1_AT_C_3.png | 1 | v1_o001_1.jpg / v1_o001_1.png | 보류·재생성 | 예 / 예 | root가 raw JPEG와 clean PNG 및 C3 기준 PNG를 각각 원본 크기로 열어 대조했다. 닫힌 지하 천장·작업등·작은 성인·굴착면 물 유입은 읽히지만, 정면 구도가 기준과 너무 비슷하고 중앙의 열린 관과 여러 호스가 집수부에서 이어지는 연속 배수 경로를 보여주지 못한다. 물 유입량을 설명하는 문장에 불필요한 배수 동작은 제거하고, 이미 있는 균열에서 아래 얕은 집수 영역으로 흐르는 물만 움직이게 영상 정의를 수정했다. 이미지도 오른쪽 벽에서 왼쪽 작업면을 비스듬히 보는 구도로 명시해 새로 생성한다. 내레이션 내용·숫자·순서는 변경하지 않았다. |
 
 ## 현재 명시적 선택
 
@@ -37,6 +40,7 @@
 | AT_N | `v1_AT_N_3.png` | 1376×768 | `2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df` |
 | AT_C | `v1_AT_C_3.png` | 1376×768 | `384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5` |
 | AT_INT | `v1_AT_INT_1.png` | 1376×768 | `f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0` |
+| G3D_EXC | `v1_G3D_EXC_4.png` | 1376×768 | `c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e` |
 
 ## 출처·범위·PC 보관
 
@@ -82,3 +86,12 @@
 - G3D_EXC 시도3 Flow: https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
   - 결과 revision: https://flow-content.google/image/76a3473e-8fb4-4f83-ae83-a15d459d1ee5.
   - UI 입력 관찰 신고: G3D_EXC / https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d / current_image_editor_input / revision https://flow-content.google/image/8f1d0888-32a8-40d3-900b-a9c67ff1110d / 제출 전 / 관찰자 ep09_image_prompts / 근거 Before submit observer directly read visible main image src as exact EXC2 media revision, downloaded the displayed input, measured SHA identical to raw EXC2, and saw the change-image editor input and zero-credit settings. See generation_records_v1/G3D_EXC_3.json; exact wall-clock time was not separately captured and is not invented.. 자동 UI 검증은 아니다.
+- G3D_EXC 시도4 Flow: https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f.
+  - UI 입력 관찰 신고: G3D_EXC / https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d / current_image_editor_input / revision https://flow-content.google/image/76a3473e-8fb4-4f83-ae83-a15d459d1ee5 / 제출 전 / 관찰자 ep09_image_prompts / 근거 Before submit actual visible main image src matched EXC3 revision; UI download SHA matched stored raw EXC3. Image was the current source above change-image field. Settings showed image editing/16:9/zero credits. Explicit clock stamps and exact prompt are in generation_records_v1/G3D_EXC_4.json; no local upload used.. 자동 UI 검증은 아니다.
+- G3D_DEEP 시도1 Flow: https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/73abcd51-6180-4aba-a819-643d36a008c0.
+  - UI 입력 관찰 신고: G3D_EXC / https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d / current_image_editor_input / revision https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f / 제출 전 / 관찰자 ep09_image_prompts / 근거 Observer directly read EXC4 visible main-image revision and downloaded it before submit; raw SHA matched the selected EXC4 source. Current image editor supplied that actual input; free-image settings observed. See generation_records_v1/G3D_DEEP_1.json.. 자동 UI 검증은 아니다.
+- o001 시도1 Flow: https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904 · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/512551f1-c95c-4f22-b1d6-a0dc33ee69bf.
+  - UI 입력 관찰 신고: AT_C / https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904 / current_image_editor_input / revision https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9 / 제출 전 / 관찰자 ep09_image_prompts / 근거 Before submission visible main source revision and UI download SHA were checked against raw C3. Current image-editor input, zero credits, 16:9 and selected image model were directly observed. Exact prompt and observations are in generation_records_v1/o001_1.json.. 자동 UI 검증은 아니다.
