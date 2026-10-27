@@ -159,7 +159,36 @@
       "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },
     "G3D_DEEP": {
-      "status": "not_chosen"
+      "status": "source_correspondence_verified",
+      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "flow_container_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "source_media_url": "https://flow-content.google/image/6cfcd5d1-a6b2-4038-927b-28ff5df1cd7a",
+      "source_revision_resolution": {
+        "media_url": "https://flow-content.google/image/6cfcd5d1-a6b2-4038-927b-28ff5df1cd7a",
+        "raw_sha256": "811a0ee8794d01299f76fe3f4c88213baff192464c09319cccf7debbb6ba34f4",
+        "resolution_source": "recorded_result_media_url"
+      },
+      "selected_attempt": 3,
+      "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_DEEP_3.jpg",
+      "selected_clean_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_DEEP_3.png",
+      "original_sha256": "811a0ee8794d01299f76fe3f4c88213baff192464c09319cccf7debbb6ba34f4",
+      "selected_clean_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "changed_pixel_fraction": 0.0024631707243217052,
+      "changed_pixel_bbox_xyxy": [
+        1247,
+        639,
+        1311,
+        703
+      ],
+      "changes_confined_to_lower_right_processing_area": true,
+      "clean_png_reuploaded": false,
+      "actual_ui_reference_attachment_verified_by_this_script": false,
+      "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },
     "G3D_EXC": {
       "status": "source_correspondence_verified",

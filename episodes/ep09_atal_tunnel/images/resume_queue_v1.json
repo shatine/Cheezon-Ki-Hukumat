@@ -1,0 +1,719 @@
+{
+  "status": "preparation_only_service_blocked",
+  "actual_submission_performed": false,
+  "actual_video_generation_authorized": false,
+  "expected_images": 85,
+  "selected_images": 7,
+  "remaining_images": 78,
+  "blocker": "Flow abnormal activity and reCAPTCHA connection error recurred on o003 attempt 1; see generation_records_v1/o003_1.json",
+  "resume_gate": "Human confirms service issue resolved, then inspect current UI before any further submit. No repeated refresh, CAPTCHA solving, extension changes or local upload.",
+  "ordering": "Current image manifest order; selected IDs omitted. Each input revision must match the exact selected source. One image at a time.",
+  "queue": [
+    {
+      "id": "o002",
+      "kind": "frame",
+      "ref": "AT_C",
+      "next_attempt": 2,
+      "latest_prompt_sha256": "655e36fdf2780fd6d6cc83c2b35bbd08204996cf65685eb6004a62f85a3a3165",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "o003",
+      "kind": "frame",
+      "ref": "AT_S",
+      "next_attempt": 2,
+      "latest_prompt_sha256": "3be4d1b62f2be7af1d85a150af8b08a083b5f791979e894968792883b37c15cf",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "o004",
+      "kind": "frame",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "061b1efdc328eb7d7cc652d8049862a2461359e9b1ef5955b3372d9a9882cb68",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i001",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "061b1efdc328eb7d7cc652d8049862a2461359e9b1ef5955b3372d9a9882cb68",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i002",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "0cd847d2eda0d079d02200b150eb81a8977d187e763ceff2f7e370c1e7677c09",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i003",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "bd326ffb650406d89e6600c238a90e1fedec45f0420c7557d29ff889c109549f",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i004",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "079573eaa40e94c3f8f58fbf9aff79ccbd0030b0dd29e420a171a441a5f0a606",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i005",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "60e991722775f1b2a5b8c200df7d1154c13a41191d1a63693df62f8f0e51c9bd",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i006",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "eb5ecf0658a654e25e599d8754db4e0579e6792b2b97e49aea4ef6a8122a1bcf",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i007",
+      "kind": "image",
+      "ref": null,
+      "next_attempt": 1,
+      "latest_prompt_sha256": "22103656f811fda350ac8e8e2f38e6b95750a8603798249266d69fc787061148",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i008",
+      "kind": "image",
+      "ref": null,
+      "next_attempt": 1,
+      "latest_prompt_sha256": "ab6225220f669d046795d09f52ab78055671655d7a90618ef3faee80a1893736",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i009",
+      "kind": "image",
+      "ref": "i008",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "3642e414b695da29327c7162e522487ad1be4a87037fc02989e6df8cf5777596",
+      "missing_selected_references": [
+        "i008"
+      ],
+      "reference_state": "await_prior_root_pick"
+    },
+    {
+      "id": "i010",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "1a14ff64122386762251459b4927b1f692dff0b8f3a86ccc39a6cb408f683d86",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i011",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "5436bb85a6a958f95946bb8d9b1e088030e0a1d12cc79497546a8a80220cf3f2",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i012",
+      "kind": "image",
+      "ref": null,
+      "next_attempt": 1,
+      "latest_prompt_sha256": "da2d3bb938b24506ad405f81f938fd6e82e078b16ada7e03bd61e048a3359ff5",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i013",
+      "kind": "image",
+      "ref": "AT_INT",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "6cb4ba6dd81dde00094cc284ab1865c80ffd234ae00af04881f7f64bcee25d7f",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i014",
+      "kind": "image",
+      "ref": "AT_INT",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "d5d2da6bf5ddb42807ae42e9fe8246bd97d72b8b5d49bf1d8c81dbaaa3482f07",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i015",
+      "kind": "image",
+      "ref": "AT_C",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "e2e8c01ce17a93fa8c08f681428130dc98702162f40c93c128198a950fe1ce7f",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i016",
+      "kind": "image",
+      "ref": "AT_C",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "c0e185f5803a03627ff7ef1d6e9d66cb3869ab5be1a831341bf4df4785316d44",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p001",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "bed5f11f6758f63af457ade7ed71fec695068eee4896f72fc0999e6eba2456bb",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p002",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "be40ed9f402e6e9a91856d01562200319ea749c003176c5e528d8a0bfc7b3149",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p003",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "5e9b147161e9bdc830f420000135ab1c308837104600da397d63a32c630138d1",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p004",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "f77c0bf992e24c92de28a1f4c3d4691a2fd44c64e502769541275d427a8e8a2d",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p005",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "b2ca2c2ae560f11e99d364a6c137e25eccf518a7b0ad3a2e9578a2bf9e52bbd5",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p006",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "93ae6476b2b39bcbe5ad7cd086071ce26b688435c9af1fbb81bb51161843d7d1",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p007",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "d7aed654ab1d1a9e0a2cf17763bfb351aef4ab14eed861b46e0bb3927b060fac",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p008",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "2c901824c617b66c6e2543d3a38b0a6f8574092824a212119e9abb966f5b9cad",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p009",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "f2656067fcb5de05be95ef234865b56fc1569462f9e372865e3d33e7605d0131",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p010",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "189093e6329dfe95b35712dc3170433ccdcc985cebc5a5c47bba35f5fd8ae99d",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p011",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "ed646e9230f4ad2243aca8b5bda2b440496ce35eb8a20f13ce8da28559487097",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p012",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "a419cd5d40b79a618286f424e469a02c4c21799e8bdbd24f0ae318160c3dd7e3",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p013",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "81e6f906fdb99bd46b43ac593bbe4f96d599e752f4042f1e11fe37afbd901a66",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p014",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "98928d5147f5fa014d8858026208e9e6ac81d9b0b66ecc78b8d3d6a455231435",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p015",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "ee1a287865d7d34ab85697b170f194b86fe8e4d88589efe9765d857a7ec07a8b",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p016",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "9b664d99156eba1ddf211914ffef804fc0dab030bf61c9e6d7a455e77a7598c7",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p017",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "9fafffd1af464b3d086d1a14fc5ba3ccdcc146dce39068b80976d3f2388b75d2",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p018",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "272fd521b248eee00af851a34a6384a80ad90fb4bdcaa7eb3a5bb2c08a9a3305",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p019",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "e174bde9f28f366c21efed96893a1ab386b532dcc270d9c68c7a57fbc98f3ace",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p020",
+      "kind": "frame",
+      "ref": "G3D_DEEP",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "e2660a9e758784cfa635f4e65cfc9163765e9e659d330c505bc135af5cd2fbc2",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p021",
+      "kind": "frame",
+      "ref": "G3D_DEEP",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "be039f48bb54d22c2a682ea4e91367bbea04e12b0f85ef1c570a2a9700bfee60",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i017",
+      "kind": "image",
+      "ref": "AT_C",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "96319e1a144c2521617223996d5b14fec1664b4603ee39e2ceee843c37d0754c",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i018",
+      "kind": "image",
+      "ref": "AT_C",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "07687d757a59b359df2911f12a4bb67b3af954035e0f846a665caf9bfaa8dc2f",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p022",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "9a59de9e86dfe9acc8019cd5acdc17f5b6d41b594decf12c8955b835f9d3b988",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p023",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "167333403ed06643562c1f28a78c1bc68e72d82100bac897d87de5acc004cf28",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p024",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "12ea49c4addac3f9932d626180eae9d7cf9537db6a09e111e36d64c2b988564a",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p025",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "91a754453191c38cc7658d474b174816ae00562275f5fb2bbcac9521edca3dbd",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p026",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "5ba71e37a1392cd0a2a62e7330179d88f6a5a531c236f7eb212793997a513216",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p027",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "792e22d5746c8093c2b0808f1f2177e37cfb6527efe5001532094214223563ec",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i019",
+      "kind": "image",
+      "ref": null,
+      "next_attempt": 1,
+      "latest_prompt_sha256": "4020064bf95575169032d973a989e566ff9a042ec076d1c4abdba34a67ed4b66",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i020",
+      "kind": "image",
+      "ref": "i019",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "ee9d1a5cd2a4172e8f5d110c24cdde105b420990bff9101909257b627205a311",
+      "missing_selected_references": [
+        "i019"
+      ],
+      "reference_state": "await_prior_root_pick"
+    },
+    {
+      "id": "p028",
+      "kind": "frame",
+      "ref": "G3D_DEEP",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "0ff65479c626bc2416b080dd0bd7a4b0ea3833f5dceaa8d7b5ac7153c2e8f6dc",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p029",
+      "kind": "frame",
+      "ref": "G3D_DEEP",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "1ae64b5b700e6bf395ea053ae6e7ae21ac92c8fb21fd6a1ebd18166095a7650d",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p030",
+      "kind": "frame",
+      "ref": "G3D_DEEP",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "9e7364bd40aa8ee843cfb89bf4710137edfbf918b2d0b595dc6b1bdfdc8e5981",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p031",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "09f5c5df09996184ec24c733ac3d83784d1d2beb0cb0f07b9d703fd8d483c685",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p032",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "895a7623650fabd306e73bae1ee4021eda9de130d8a2cab15ef737545c92df80",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p033",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "096e121d4392428b79aa3dccf808ba87363e07b980f28202e4da368d6113943d",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p034",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "07dc61ed39afbf4911f17fb47d9aa49278ed4557e83e38fba0cded187da3c5cf",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p035",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "9407772e42c4066fb9951b809bce8ce79c19cd95a8525e82d60cc43c2b8190d9",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p036",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "cba9b2dcb56968f82ab556400399e5c0139195d86be5cad7877bbcfd288ea6b4",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i021",
+      "kind": "image",
+      "ref": "AT_C",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "a9f1a6a1521e015fa86a7d5c62dc766c05ac49cfc2c74036c72e8cf31d847eea",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i022",
+      "kind": "image",
+      "ref": "AT_C",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "ec5484042ac9b1b6e864158330f7df2907031fd8c1881420548ff457020f2ac4",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p037",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "629037e16da7547838e5bfa02094db3f76a56945147054cd65d25c2cafcd4299",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p038",
+      "kind": "frame",
+      "ref": "G3D_DEEP",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "b23e1756993afc5a99ba4d294e129bdfbd61cca77e6942a5e41b4c5d5f37c573",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "a001",
+      "kind": "frame",
+      "ref": "AT_C",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "11c6158e17c96adf10626d40fdcd19dd95e0304654cfac42d3e035ca0308213c",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i023",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "21e86bdb756490872695b8b97358518de927515be75a742ba5677f9f59fb47be",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i024",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "4073bfb2966e77c24fef7a4b63f0233fb8ace5acba8862f14fc87ec3f2898769",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i025",
+      "kind": "image",
+      "ref": "AT_S",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "6d7607229211683358353c5078600d27b5c4b7dff47bafe1659810db968e3247",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p039",
+      "kind": "frame",
+      "ref": "G3D_DEEP",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "5443267516db73f9fb3b06b53408f767ea611c9d1889f179b753237720662753",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "a002",
+      "kind": "frame",
+      "ref": "AT_INT",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "c7f0af7a226ad922b5b3eb15457f69cab71d2c147f511eb1a62d38907b64a373",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "a003",
+      "kind": "frame",
+      "ref": "AT_INT",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "b0a90cebc4c79adc694df340a44fcc65305cc23676e6246fc2199fd362e4f0af",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p040",
+      "kind": "frame",
+      "ref": "G3D_DEEP",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "1ba50b0c5aa91cdb03c88cc427e5cf507f093f935bd86b33ecc2026a91113358",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i026",
+      "kind": "image",
+      "ref": "AT_N",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "b5267c5219f6a1b0042c418268599ae660b51163b3667542f0eddec12643a015",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i027",
+      "kind": "image",
+      "ref": "AT_C",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "2dbe3a2044eaf23d142240a612bb90fc37b475db7b3fe76f135ca42ad4416d9e",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p041",
+      "kind": "frame",
+      "ref": "G3D_EXC",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "ff1bfca4b93213e3dca7a75b79bba5a09553305ddf369b23101c36a9e882659e",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p042",
+      "kind": "frame",
+      "ref": "G3D_DEEP",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "c659a8608004f55221af450c9a5d7adc4960d242c7ee05608f5896254dc57cde",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "p043",
+      "kind": "frame",
+      "ref": "G3D_DEEP",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "4e25c56da6f23d8bb26cf282f1f33de7e2f7d3703564064bc3ac87aacb0442b0",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i028",
+      "kind": "image",
+      "ref": "AT_N",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "93593ef3e1406290d302b914afec47da8c98a85bff678b045c9d504081433ba0",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    },
+    {
+      "id": "i029",
+      "kind": "image",
+      "ref": "AT_N",
+      "next_attempt": 1,
+      "latest_prompt_sha256": "2fe3eb7feeaa919bfe6c05627dd88df651f62d218cc13d1b0e01475660017f48",
+      "missing_selected_references": [],
+      "reference_state": "references_selected_service_still_blocked"
+    }
+  ]
+}

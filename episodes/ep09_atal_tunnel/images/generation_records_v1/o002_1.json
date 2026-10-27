@@ -1,0 +1,94 @@
+{
+  "id": "o002",
+  "attempt": 1,
+  "kind": "frame",
+  "status": "generated; awaiting root strict review",
+  "recorded_at_utc": "2026-10-27T04:59:28.527Z",
+  "record_basis": "Post-completion record of actual UI observations; no source clock backfill when unavailable.",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright even neutral-white ELECTRIC tunnel lighting, clear high-key exposure with well-lit light-grey surfaces, vivid natural colours, sharp focus, 16:9. Entirely underground beneath a continuous solid rock-and-shotcrete ceiling. No sky, daylight, sunlight, windows, skylights, open roof gaps or glowing holes through the rock. No sepia filter. No text, no letters, no logos, no watermark. Indian adults only, people distant and small, faces not close-up. Using the reference image: the SAME construction reconstruction as the reference: one upper-heading excavation in weak fractured grey-brown ground, grey steel support ribs and rough shotcrete behind the working face, a compact unbranded yellow tracked machine with completely plain blank body panels, no decals or insignia, and small Indian adult workers seen from behind or the side. Visible neutral-white electric work lamps are mounted beneath the closed shotcrete roof and evenly illuminate the working face. The roof between every support rib is solid opaque grey rock or shotcrete, including directly above the heading. No skylight, surface opening or daylight gap. No identifiable real worker or archival-photograph claim. Water carries loose soil and small broken rock onto a muddy pile at the edge of the working face, seen obliquely with a clear protected working space to the side. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "370657e6317b789393be833f9148dad65f769c5cba04362f5201ca126b62723d",
+  "submitted_text_verified_after_completion": true,
+  "submitted_text_character_count": 1831,
+  "submit_initiated_at_utc": "2026-10-27T04:58:03.387Z",
+  "submit_acknowledged_at_utc": "2026-10-27T04:58:03.843Z",
+  "first_acknowledged_progress_percent": 0,
+  "source_ids": [
+    "S01b",
+    "S01c",
+    "S01d"
+  ],
+  "visual_source_ids": [
+    "S01d"
+  ],
+  "input": {
+    "ref": "AT_C",
+    "selected_attempt": 3,
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "observed_at_utc": null,
+    "source_timing_note": "Actual pre-submit revision and 0-credit/16:9 were directly checked in batchSubmit tool call; their separate clock variables were not preserved across calls. No clock is backfilled.",
+    "source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "source_asset_id": "cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "actual_reference_media_source_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_C_3.jpg",
+    "original_sha256": "5acec3d0367f7d8814e5c8a416b830b832b1dcb58e10c762a3cef253e8739148",
+    "byte_identity_evidence_reused_from": "reference_assets_v1.json source_revision_resolution and prior exact-byte source observations",
+    "new_reference_download_this_attempt": false,
+    "evidence": [
+      "Actual visible central editor input src matched selected master revision before submission.",
+      "Re-read visible src immediately before submit; still exact selected source.",
+      "Actual input was Flow original source, not a locally cleaned PNG."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "observed_at_utc": null,
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "model_basis": "Inherited unchanged from direct editor observation at 2026-10-27T04:50:52.599Z.",
+    "aspect_ratio": "16:9",
+    "aspect_directly_observed_before_submit": true,
+    "cost_credits": 0,
+    "cost_directly_observed_before_submit": true,
+    "output_count_selector_visible": false,
+    "output_count_note": "Previous x1 unchanged; no count selector in this editor. One new result entry observed."
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T04:59:28.189Z",
+    "container_editor_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "container_editor_asset_id": "cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "result_media_source_url": "https://flow-content.google/image/ca24cb41-2ac1-454d-93fb-0fa086a72879",
+    "result_media_id": "ca24cb41-2ac1-454d-93fb-0fa086a72879",
+    "media_source_observed_from": "Visible main completed image src; origin/path only, signed query omitted",
+    "container_url_is_revision_ambiguous": true,
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\ca24cb41-2ac1-454d-93fb-0fa086a72879.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_o002_1.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "2ef24148e17ba18d7a532d418c173860285035ead6bdd7b48234f521403b6917",
+      "bytes": 292253
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o002_1.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "3f47d807ef244362ab290d9dd60520aebc2874bac582bd3cef8b09e5e7e9f1e9",
+      "bytes": 2196011
+    }
+  },
+  "quick_visual_check": {
+    "performed": true,
+    "observed_by": "ep09_image_prompts",
+    "scope": "whole raw image only; no acceptance",
+    "observations": "Supported frontal excavation with electric lighting, yellow excavator, two workers and rocky debris at face; muddy wet floor. Falling soil/debris and strong muddy inflow are not visually clear in this still. No readable text seen. Root to assess whether the initial frame supports intended action."
+  },
+  "strict_review_and_selection": "root manages picks; no acceptance asserted",
+  "local_upload_used": false,
+  "extension_settings_changed": false,
+  "captcha_solved": false,
+  "video_generation_submitted": false
+}

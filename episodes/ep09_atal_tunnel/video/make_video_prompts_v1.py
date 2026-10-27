@@ -30,6 +30,26 @@ IDENTITY = (
     "Never turn an upper-heading stage into a completed road tunnel or mix temporary and final inverts. "
     "No reverse playback, repeated action cycle, time lapse, slow motion or frozen-frame extension."
 )
+STRICT_PRINCIPLE_STILL = (
+    "Every solid object stays completely still and keeps its exact shape and position for the whole shot: "
+    "nothing slides, lifts, tilts, melts, disappears or leaks. Only light, colour and glowing arrows change."
+)
+PRINCIPLE_IDENTITY = (
+    "Use exactly the selected first-frame image. Preserve its camera, single-bore identity, construction stage, "
+    "base material colours, object count and relative layout. No new objects, tools, supports, emitters, arrows, "
+    "text, labels, logos or watermarks. "
+    + STRICT_PRINCIPLE_STILL + " "
+    "All particles, pipes, buckets, cars, ribs, ground, observation targets and concrete retain their exact "
+    "first-frame shape and position without any exception. Water and grout also retain their exact shape, "
+    "level, quantity and location: no actual fluid flow, spraying, pouring, filling, ripples or leakage. "
+    "Show direction only by a shallow moving colour-intensity highlight confined to an already visible material "
+    "surface or existing diagram path; never extend it into a new path or across a physical gap. "
+    "Any arrows already present keep their exact geometry, count and position; only their existing colour or "
+    "glow may pulse. If no arrow exists in the first frame, no arrow appears. "
+    "No excavation, seating, deformation, healing, rising water, new coating, stage morphing or material creation. "
+    "Never turn an upper-heading stage into a completed road tunnel or mix temporary and final inverts. "
+    "No reversed or repeated source playback, time lapse, slow motion or frozen-frame extension."
+)
 REAL = (
     "Photorealistic historical or place reconstruction, not documentary footage. Keep the exact same portal or "
     "interior finish as the selected image. Only existing Indian adults, no new people, no children; faces stay small. "
@@ -39,15 +59,15 @@ REAL = (
 D3 = (
     "Clean bright 3D educational render, white-grey studio background. Keep the exact same simplified model, "
     "single bore, left-to-right construction axis, shape, material identity and explanatory colours as the first frame. "
-    "All rigid structures stay still except a component explicitly being guided into its existing connection. "
-    "For the tiny ground-response examples only the described small elastic displacement is allowed, no buckling or collapse. "
+    "Every component and every material is physically motionless; there are no guided-component or ground-response exceptions. "
+    "Only restrained surface illumination, colour intensity and the glow of arrows already present may change. "
     "Any arrows already present remain exactly where they are and do not multiply. No new arrows or labels. "
     "Water, injected grout and loose material remain distinct; the traffic road and any escape passage remain dry. "
     "Ambient sound only. No dialogue, no music, no watermark."
 )
 
-# ID별 실제 영상 동작. 아래의 물질/도구는 선택된 첫 프레임에 이미 있어야 한다.
-# tuple = (영어 동작, 실제 첫 프레임에서 확인할 요소, 종료 상태).
+# 원리 43개는 첫 프레임의 실제 도형 위 빛·색만 변화한다. 실사 7개 동작은 별도 유지한다.
+# tuple = (영어 강조/동작, 실제 첫 프레임에서 확인할 강조 대상, 종료 상태).
 ACTION = {
     "o001": (
         "Existing muddy water continues from the visible face cracks down the same rough face into the already wet shallow collecting area immediately below. "
@@ -71,207 +91,157 @@ ACTION = {
         ["distant south portal within mountain landscape", "existing visible tree branches"],
         "The same wide landscape remains, with only a small continuing branch movement."),
     "p001": (
-        "Blue water already visible in connected pores creeps through those same pores toward the exposed heading. "
-        "A few existing loose grains settle locally; large fractured blocks and all supports stay exactly in place.",
-        ["connected blue pore water", "small loose grains distinguishable from solid blocks", "exposed heading on left"],
-        "Water remains within the same connected pores and the weak-ground composition stays readable."),
+        "Use a shallow blue colour-intensity trace only on the existing connected pore-water shapes toward the exposed heading. Then softly illuminate the actual fractured block edges and clay pockets, distinguishing their existing textures without shifting any grain or liquid boundary.",
+        ["existing connected blue pore-water shapes", "visible fractured rock and clay textures", "exposed heading on left"],
+        "The same fractured-ground composition and pore-water geometry remain, with a restrained blue sheen on the existing path."),
     "p002": (
-        "Existing blue water and a few existing grey-brown loose particles move from the right-hand face into the short left-hand void. "
-        "Particles fall and settle by gravity in the existing receiving area; no bulk block disappears and the open length does not grow.",
-        ["blue face inflow", "existing loose fragments", "left receiving area separate from structural support"],
-        "A small amount has settled while the same modest inflow remains."),
+        "A restrained blue sheen progresses along only the water already visible at the right-hand face. Soft neutral-grey illumination then picks out the existing loose-fragment edges and the boundary of the short left-hand void. No particle trajectory, falling material or newly opened space is drawn.",
+        ["existing blue water at the right-hand face", "visible loose-fragment edges", "existing short left-hand void"],
+        "Water, fragments and void keep exactly their first-frame geometry; only their surface illumination differs."),
     "p003": (
-        "Water already collected in the sump travels through the existing pump hose. The level lowers only slightly while a few existing loose grains at the face still settle inward. "
-        "The pump, machine and rigid supports stay fixed, and the weak roof does not heal or become solid rock.",
-        ["existing pump, hose and sump", "water route in hose", "loose grains at weak face"],
-        "A slightly lower sump level coexists with the same weak roof and walls."),
+        "Sequence a shallow blue highlight over the existing sump water and the already visible hose route. Separately illuminate the unchanged weak crown and side-wall cracks with a restrained neutral-grey sheen. The pump, equipment, grains and water surface remain motionless; no lower water level or healed ground is shown.",
+        ["existing sump and visible hose route", "weak crown and side-wall cracks", "existing supported working space"],
+        "The original sump level, hose, cracked ground and working space remain unchanged under the surface highlights."),
     "p004": (
-        "Continue the small existing face inflow and drainage flow while a few already loose particles settle at the face edge. "
-        "The already installed ribs and shotcrete retain the protected workspace; no support is newly spawned or grown.",
-        ["existing face fragments and drainage route", "installed ribs and shotcrete", "protected workspace"],
-        "The support geometry remains unchanged and water is still led away."),
+        "First trace the already visible drainage route with a shallow blue intensity change. Then softly highlight the actual grey ribs and shotcrete around the protected workspace. Keep any face fragments and all drainage material fixed, showing the two existing systems by illumination alone.",
+        ["existing drainage route", "installed ribs and shotcrete", "protected workspace"],
+        "The same supported workspace and drainage geometry remain, without settling particles or additional support."),
     "p005": (
-        "Only the existing blue water travels steadily through the separate side drain to its already open outlet. "
-        "The existing grey crown and wall supports remain physically steady, preserving the same empty workspace.",
-        ["open drainage path with visible outlet", "existing crown/wall support", "dry clear workspace"],
-        "The established support and controlled drain continue without extra construction."),
+        "Pass a soft blue highlight along the existing separate side-drain material toward its already visible outlet. A restrained neutral-grey sheen then follows the existing crown and wall supports bordering the dry workspace. Do not alter liquid boundaries or the opening.",
+        ["existing side-drain path and visible outlet", "existing crown and wall supports", "dry clear workspace"],
+        "The drain, supports and clear workspace retain their exact first-frame shapes and positions."),
     "p006": (
-        "The single additional straight teal pipe already resting on its supported drilling guide advances a short distance rightward into the existing crown-level bore. "
-        "Keep the pipe straight, its diameter unchanged and its rear supported; previously embedded pipes and all ground stay fixed.",
-        ["one additional straight pipe on supported guide", "visible crown-level insertion point", "next patch still solid"],
-        "The same pipe is partly farther inserted, with its visible rear still on the guide; excavation has not begun."),
+        "A shallow teal highlight progresses along the actual straight pipe surface on its existing left-to-right axis, then along the already embedded crown pipes. Softly illuminate the still-solid next patch beneath them. The additional pipe and its guide remain in their original positions; nothing is inserted.",
+        ["visible straight teal pipe and crown-level insertion point", "existing embedded crown pipes", "still-solid next patch"],
+        "The exact original pipe insertion state and solid next patch remain, with only axial surface highlights."),
     "p007": (
-        "Advance only the already partly inserted teal tube slightly farther along the left-to-right axis using the existing guide. "
-        "The existing arch-shaped arrangement of pipe mouths does not rotate or bend; every tube remains longitudinal and distinct from transverse ribs.",
-        ["partly inserted tube and supported guide", "arch-shaped row of pipe mouths", "solid next patch"],
-        "The pipe remains straight and partly visible on the guide; the arch arrangement is unchanged."),
+        "Softly illuminate the existing arch-shaped row of pipe mouths one after another, then trace teal intensity along the actual straight longitudinal pipe bodies. Give the distinct grey transverse rib a separate restrained sheen. Preserve the partly inserted tube and solid next patch exactly as pictured.",
+        ["arch-shaped row of existing pipe mouths", "straight longitudinal teal pipe surfaces", "separate transverse rib and solid next patch"],
+        "All pipe mouths, axial bodies and transverse ribs retain their exact original geometry and insertion state."),
     "p008": (
-        "With the embedded canopy completely still, the already present supported excavator arm makes one small bucket stroke against the next short patch below the pipes. "
-        "Only a few contacted particles move into the existing left-hand muck receiving area. Do not remove the entire patch or finish a whole advance.",
-        ["embedded straight canopy", "supported excavator arm and bucket contacting face", "existing muck receiver/removal path"],
-        "A shallow local bite is visible under the same canopy; most of the next patch remains solid."),
+        "Highlight the actual embedded teal canopy along its forward reach, then softly illuminate the still-solid short patch directly beneath it and the boundary of the previously supported opening at left. Any excavator, bucket and receiver remain completely still; no bite or removed material appears.",
+        ["embedded straight canopy above the next patch", "still-solid short patch beneath the canopy", "previously supported opening at left"],
+        "The canopy, solid next patch and supported opening remain exactly as in the first frame; only their existing surfaces carry light."),
     "p009": (
-        "Keep both rows of straight canopy pipes and the already installed transverse rib exactly still. "
-        "Only blue water already in the surrounding cracks passes through its existing collection route and a few small exposed grains settle beneath the canopy. "
-        "Do not add a third pipe row, new rib or a larger excavation.",
-        ["two arch-shaped rows of straight pipe mouths", "existing blue water collection route", "small exposed grains below canopy"],
-        "The double-row canopy and short supported opening retain their first-frame shape."),
+        "Use alternating shallow teal illumination on the two existing rows of straight canopy pipes, including their actual arch-shaped end arrangement. Then softly highlight the separate grey transverse rib and the existing short supported opening. No water animation or loose-grain movement is needed.",
+        ["two existing rows of straight teal canopy pipes with arch-shaped ends", "separate grey transverse rib", "existing short supported opening"],
+        "The same double-row canopy and supported opening remain physically unchanged, with their separate roles distinguished by light."),
     "p010": (
-        "Under the still double-row canopy, the existing supported bucket makes one short local stroke and moves only contacted loose material toward the existing muck receiver. "
-        "Then the already pre-positioned grey support makes only its small final seating movement on its visible positioning arm. No complete one-metre cycle or new support appears.",
-        ["double-row canopy", "face-contact bucket and existing muck path", "nearly seated transverse support held by positioning arm"],
-        "The short exposed edge remains supported; the lower bench and forward ground are still present."),
+        "Sequence a restrained teal sheen over the two existing pipe rows, a neutral-grey highlight on the actual short exposed edge, and a soft highlight on the existing local support. Preserve every real gap and the support original seating position; the bucket, positioning arm and all material stay still.",
+        ["existing double-row canopy", "short face edge and still-solid next patch", "existing local support and its actual connection surfaces"],
+        "The same short edge, partly positioned support, lower bench and forward ground remain unchanged."),
     "p011": (
-        "Use the already visible bucket for one small controlled scoop at the edge of the short next patch. "
-        "After the bucket clears, the support already held almost in position by its existing arm makes one small final seating movement. "
-        "Previously installed support stays still; no large section is opened and no rib material grows from nothing.",
-        ["small solid next patch", "supported bucket and receiving path", "pre-positioned support on visible positioning arm"],
-        "A small newly exposed edge has immediate local support; no long unsupported cavity develops."),
+        "Softly distinguish the existing short solid patch from the previously open supported area using restrained surface illumination. Then illuminate only the existing exposed edge and nearby grey support in sequence. No bucket stroke, support seating or new cavity occurs.",
+        ["short solid next patch", "previously supported upper-heading opening", "existing exposed edge and nearby grey support"],
+        "The original short opening and solid next patch remain, with no physical excavation or support installation."),
     "p012": (
-        "The existing bucket takes one shallow bite within the already highlighted narrow axial patch and transfers only that contacted material into the existing receiver. "
-        "The highlighted remainder stays solid. This is one representative stroke, not an entire metre excavated in ten seconds.",
-        ["narrow highlighted solid patch", "existing supported bucket at face", "existing material receiving route"],
-        "Most of the highlighted patch remains solid with a small physical bite at its edge."),
+        "Gently vary the intensity of the soft yellow highlight already covering the narrow axial patch, confined to its exact existing boundaries. Then give the previous grey support a restrained sheen for comparison. All ground and equipment remain fixed; no numeral or apparent ten-second excavation is introduced.",
+        ["existing narrow highlighted solid axial patch", "previously installed ribs and shotcrete"],
+        "The narrow patch remains wholly in its first-frame state; only its existing highlight intensity changes."),
     "p013": (
-        "Perform one new small bucket stroke at the next adjacent solid strip while the previous rib and shotcrete remain stationary. "
-        "Only the already held local support then finishes its small seating movement; do not replay, reset or duplicate the previous cycle.",
-        ["previously supported strip", "next solid strip with bucket contact", "existing muck route and nearly seated support held by arm"],
-        "The newly contacted short edge is locally supported and the remaining forward ground stays solid."),
+        "Illuminate the already supported previous strip, then the actual next adjacent solid strip, then the existing nearby grey support. Each highlight stays on its own visible surface and stops at any real gap. Keep the machinery, staged support and ground completely fixed without starting another construction cycle.",
+        ["previously supported strip", "next adjacent solid strip", "existing nearby support surfaces"],
+        "The two original adjacent regions and all support components remain in their original construction state."),
     "p014": (
-        "The existing shotcrete nozzle sprays a small continuous amount of grey concrete onto only the newly exposed rough patch. "
-        "Material comes from the existing hose/nozzle and builds a thin bounded coating at contact. Existing mesh, ribs and bolts stay fixed; do not flood or bury the model.",
-        ["rough uncoated patch", "shotcrete nozzle with existing feed hose", "prior mesh/ribs/bolts separate from target patch"],
-        "A small thin coating covers only part of the target patch and the nozzle remains visible."),
+        "Use a restrained neutral-grey sheen to distinguish the shotcrete, mesh, ribs and bolts already present in the previous section. Briefly illuminate the existing texture of the rough target patch without turning it into a new coating. The nozzle, hose and any concrete remain fixed, with no spray or material growth.",
+        ["existing shotcrete and mesh or rib surfaces in the previous section", "existing bolt surfaces", "rough uncoated target patch"],
+        "The existing coated section and rough target retain their original textures and boundaries; no concrete is deposited."),
     "p015": (
-        "The one long bolt already partly in the prepared bore advances a short distance deeper across the same visible cracks. "
-        "Its existing bearing plate approaches the rock surface without stretching the bolt or closing the cracks magically. All other installed bolts stay fixed.",
-        ["partly inserted long bolt", "prepared bore across cracks", "aligned existing bearing plate"],
-        "The same bolt sits slightly deeper and remains visibly distinct from rock and shotcrete."),
+        "A soft neutral-grey surface highlight follows the actual existing bolt shaft across the visible fracture locations, then the existing bearing plate. Do not extend the highlight beyond the real shaft or close a crack. The bolt, plate and bore remain exactly in their first-frame positions.",
+        ["visible existing bolt shaft crossing cracks", "existing bearing plate and fracture edges"],
+        "The bolt retains its original insertion depth and the cracks retain their original geometry."),
     "p016": (
-        "Keep the two already different support zones and their shotcrete thicknesses completely unchanged. "
-        "Only water already in the visible cracks follows each existing local route and a few already loose grains settle in the weaker patch. "
-        "Do not transform one support type into the other or grow a new layer.",
-        ["two existing different support zones", "visible local water routes and loose grains"],
-        "Different ground and support conditions remain side by side without a stage transition."),
+        "Alternate restrained neutral-grey illumination between the two existing support zones, emphasizing their actual shotcrete thickness edges and different rib density. Keep the ground, support types and every material boundary fixed; no water or loose-grain animation is required.",
+        ["two existing support zones with different density", "actual shotcrete thickness edges", "continuous original bore geometry"],
+        "The two original ground-dependent support arrangements remain unchanged and readable side by side."),
     "p017": (
-        "Only the loose footing grains already under the two support feet compact slightly under the existing load. "
-        "The feet and connected support follow an extremely small bounded settling movement, with no buckling, bottom heave or sudden collapse. "
-        "The surrounding model remains fixed; this is a general schematic principle, not a recorded Atal incident.",
-        ["support feet clearly visible", "loose footing grains over solid bench", "initially upright support"],
-        "A barely perceptible settling is retained, without the support falling or returning to its initial position."),
+        "Apply a shallow muted-orange light emphasis only at the actual support-foot contact surfaces, then softly illuminate the existing weak footing texture underneath. The grains, feet, supports and lower bench remain exactly still; this general principle is indicated without settlement, heave or collapse.",
+        ["clearly visible support feet and their contact surfaces", "weak footing texture", "solid lower bench"],
+        "The support keeps its original upright geometry and the footing keeps its exact first-frame shape."),
     "p018": (
-        "Existing firm base material immediately under the support feet compacts locally into the already prepared footing area. "
-        "The previously slightly distorted support retains that shape; do not straighten or repair it magically. No material rises through the bench or appears from outside the frame.",
-        ["weak footing and slightly distorted support", "firm base material already at feet", "clear supported placement path"],
-        "The existing footing material is more firmly seated while the earlier small support distortion remains."),
+        "Softly illuminate the existing weak footing, the actual firm base material at the feet and the existing contact surfaces in sequence. Retain the support original slight distortion and every grain position; no material is placed, compacted or used to straighten the support.",
+        ["existing weak footing and slightly distorted support", "firm base material already at the feet", "actual foot-to-base contact surfaces"],
+        "The same base arrangement and initial support distortion remain, with only restrained contact-surface highlights."),
     "p019": (
-        "Only the existing ground-supported final connector at the shallow temporary invert moves a very short distance on its visible guide to close the already small end joint. "
-        "Do not stretch or grow the invert. Keep the solid lower bench and upper-heading support unchanged; no deep final bottom or traffic road appears.",
-        ["earlier upper heading with solid lower bench", "shallow temporary invert with small end joint", "existing supported connector/guide or short ram"],
-        "The small temporary connection is seated; the lower bench still fills the lower stage."),
+        "Pass a shallow neutral-grey sheen along the actual continuous earlier-stage crown and side supports, down both feet and across the shallow temporary invert already joining them. Follow only the existing connected support surface above the solid lower bench. No component is installed or moved, and no deep final bottom or traffic road appears.",
+        ["earlier upper heading above the solid lower bench", "shallow temporary invert already joined to both support feet", "continuous existing crown-side-foot-temporary-bottom connection"],
+        "The already connected shallow temporary closure remains exact above the solid lower bench, with surface illumination alone."),
     "p020": (
-        "At the already opened later lower stage, existing fresh grey concrete from the already visible feed hose moves a short distance into the existing supported closing form. "
-        "Only the small local final-invert joint is progressively filled; the crown and side walls remain fixed. "
-        "Do not excavate the lower bench in this clip, invent a precast method or complete a whole ring instantaneously.",
-        ["later lower excavation already open", "deep final-invert closing form on stable base", "existing feed hose/nozzle and fresh grey concrete"],
-        "The small closing joint is further filled with supplied concrete; no temporary upper floor appears."),
+        "Pass a restrained neutral-grey sheen along the actual continuous later-stage crown and side walls into the deep curved permanent bottom already connected to both sides. Emphasize the existing deep curve and its continuous structural path only. The lower bench is already completely removed; no temporary upper floor, incomplete joint or closing form appears, and no construction action occurs.",
+        ["later stage with the lower bench completely removed", "continuous deep curved permanent bottom already connected to both sides", "existing connected crown-side-wall-deep-bottom path"],
+        "The already connected later deep final structure retains its exact first-frame shape, with no temporary upper floor or construction transition."),
     "p021": (
-        "At the existing ground-to-lining contacts, allow only a barely perceptible settling of the ground and a very small continuous elastic response of the connected lining. "
-        "The crown, sides and deep bottom stay connected and preserve the same dry road space. Do not add loose grains or force arrows, open a joint, hinge a member or buckle the ring.",
-        ["fully connected later deep ring", "dry flat internal road slab", "clear existing ground-to-lining contacts"],
-        "The slightly settled load-bearing contact remains stable; the ring stays closed and the road stays flat and dry."),
+        "Begin with restrained orange illumination at the actual ground-to-lining contact surfaces, then pass a shallow neutral-grey sheen along the existing continuous crown, sides and deep bottom. Follow only the genuinely connected lining surface around the closed ring. No new force arrows, elastic response or change of the flat dry road occurs.",
+        ["fully connected later deep ring", "actual ground-to-lining contact surfaces", "dry flat internal road slab"],
+        "The closed ring and its original contact geometry remain exact, with only a restrained highlight along the existing structural path."),
     "p022": (
-        "Keep the earlier embedded pipes, installed ribs, shotcrete and shallow temporary closure in their existing completed state. "
-        "Only the already visible blue water moves through surrounding cracks into the existing lower collection channel. "
-        "Do not replay all construction stages or replace the temporary invert with a deep final one.",
-        ["earlier heading with solid lower bench and temporary closure", "existing blue cracks and collection channel"],
-        "The supported space is unchanged but the separate water flow continues."),
+        "Sequentially highlight the earlier embedded pipes in teal, the actual ribs and shotcrete in neutral grey, and the existing shallow temporary closure. Then trace blue intensity only on the already visible crack-water and collection-channel shapes. Keep the solid lower bench and all material boundaries fixed; do not replay construction.",
+        ["earlier heading with solid lower bench and temporary closure", "existing pipes, ribs and shotcrete", "existing blue crack-water and collection channel"],
+        "The earlier temporary-closure stage and its separate water geometry remain unchanged."),
     "p023": (
-        "Blue water already visible in ground cracks travels into the same controlled lower channel. "
-        "All grey support stays steady and the dry workspace stays open; supporting the roof does not erase the water or seal every crack.",
-        ["existing water-bearing cracks", "controlled collection channel", "unchanged structural support"],
-        "The water still follows its own route around the supported excavation."),
+        "Give the existing grey support a restrained sheen, then pass a shallow blue colour-intensity highlight along the already visible crack-water into the existing lower channel. The liquid itself does not travel, change level or vanish, and the support does not seal any additional crack.",
+        ["existing water-bearing crack shapes", "existing controlled collection channel", "unchanged grey structural support"],
+        "The original support and separate blue water route remain physically unchanged around the clear workspace."),
     "p024": (
-        "Existing blue water enters the already visible side collection point and travels through the continuous pipe to the open left outlet. "
-        "Purple grout already in selected small cracks stays exactly where it is; do not generate an injection hose that is absent from the frame.",
-        ["side collection and continuous open outlet", "separate existing purple-treated fine cracks"],
-        "The main outlet remains open while the treated fine cracks remain distinct."),
+        "Trace a shallow blue highlight along the existing side collection point and continuous pipe to its visible left outlet. Separately pulse a restrained purple sheen only on the grout already occupying selected fine cracks. Preserve both material shapes, the open outlet and every crack boundary.",
+        ["existing side collection point and continuous open outlet", "separate purple-treated fine cracks"],
+        "The same open main outlet and locally treated fine cracks remain, without liquid or grout movement."),
     "p025": (
-        "Continue existing blue water through the larger open collection route while the already purple-grouted fine cracks remain blocked and unchanged. "
-        "Keep the two paths visibly separate; no new grout, plug, barrier or pipe is created and water is not redirected into the working floor.",
-        ["fine cracks already treated with purple grout", "separate larger water route to open pipe"],
-        "Water still drains through the larger route without reopening the treated fine cracks."),
+        "Alternate a soft purple highlight on the already treated fine-crack material with a blue intensity trace on the separate existing larger water route and open collection pipe. Keep the treated crack geometry and water volume fixed; no plug, grout or new flow path appears.",
+        ["fine cracks already treated with purple grout", "separate existing blue route to an open collection pipe"],
+        "The two original treated and draining routes retain exactly their first-frame boundaries and arrangement."),
     "p026": (
-        "Blue water already supplied by the visible connected crack slowly accumulates behind the existing closed plug. "
-        "Its level rises by a modest bounded amount within the same crack; the plug and grey shell remain stable. "
-        "No orange arrow is added, no rupture occurs and the water does not appear from nowhere.",
-        ["closed plug", "modest blue pocket with visible connected supply crack", "stable surrounding shell"],
-        "A modest higher water level remains behind the same plug, without a flood or failure."),
+        "Gently pulse blue intensity inside the exact existing water pocket behind the closed plug, then softly illuminate its actual contact with the surrounding grey shell. The pocket boundary, level and quantity remain fixed throughout. No new pressure arrow or higher water shape appears in this hypothetical risk diagram.",
+        ["existing closed plug and blue pocket", "actual water-pocket boundary and adjacent grey shell"],
+        "The hypothetical risk model retains its original pocket level, plug and stable shell, with illumination changes only."),
     "p027": (
-        "Continue a small rise of the already present water behind the same plug, using only its visible supply route. "
-        "The existing short orange pressure arrows stay in exactly the same locations, shape and number; do not grow or spawn them. "
-        "The lining stays intact with no explosion, seepage through the road or dramatic structural motion.",
-        ["part-filled water-bearing crack behind closed plug", "existing orange arrows", "visible supply route"],
-        "The higher water pocket and original static pressure markers remain, with the shell intact."),
+        "Pulse only the colour intensity of the short orange pressure arrows already visible, one after another, while retaining their exact length, shape, number and position. A shallow blue sheen may vary within the existing water shape and a restrained grey sheen on the adjacent lining. The water level, plug and lining remain fixed.",
+        ["existing short orange pressure arrows", "fixed blue water shape behind the plug", "adjacent grey lining surface"],
+        "The same water level and intact shell remain, with the existing pressure markers unchanged except for their glow."),
     "p028": (
-        "Existing blue water follows the open ground-side route behind the waterproof layer, down into the separate continuous drain and out of the already visible outlet. "
-        "The barrier, lining and deep invert remain fixed; no water crosses into the dry traffic space or an escape passage.",
-        ["continuous ground-side water path", "waterproof layer distinct from lining", "separate open drain outlet"],
-        "The same bounded drainage continues and the road remains dry."),
+        "Pass a shallow blue colour-intensity trace along the existing ground-side water shapes behind the waterproof layer, down their actual connected drain and toward its visible outlet. Briefly highlight the separate barrier surface. Water, barrier, lining and deep invert remain fixed; no blue highlight enters the traffic space or an escape passage.",
+        ["continuous existing ground-side water path", "waterproof layer distinct from lining", "separate drain and visible open outlet"],
+        "The original separated waterproofing and drainage geometry remains, with the road dry and every liquid boundary fixed."),
     "p029": (
-        "Only the already present blue water moves behind the existing thin barrier toward the existing pipe outlet. "
-        "Purple grout, membrane and lining stay still, preserving the separate treated and draining paths. Do not seal the main outlet or change the section type.",
-        ["thin existing barrier", "purple-treated selected cracks", "continuous water route to outlet"],
-        "Water drains behind the barrier while treated cracks and dry roadway stay unchanged."),
+        "Highlight the existing purple-treated cracks and thin barrier separately, then trace shallow blue intensity on the actual behind-barrier water route toward its existing outlet. Do not extend a highlight through a sealed crack or across the road; all grout, water and structural geometry remain motionless.",
+        ["existing purple-treated cracks", "thin barrier behind the lining", "continuous existing water route to outlet"],
+        "The original treated cracks, barrier and independent draining route remain unchanged around the dry road."),
     "p030": (
-        "Maintain a steady small flow of existing blue water through the visible open drain. "
-        "The purple local sealing and the thin barrier stay fixed and do not spread over the model. No new pipe is drawn and the final ring does not change stage.",
-        ["existing purple sealing and barrier", "open blue drain path", "dry flat road within later ring"],
-        "The combined local sealing and separate drainage continue without a changing structure."),
+        "Use a restrained purple sheen on the existing local sealing, a soft neutral sheen on the thin barrier, and a shallow blue intensity trace on the separate open drain. Confine every highlight to its actual first-frame surface; no sealing spreads and no water shape or final-ring geometry changes.",
+        ["existing purple sealing and thin barrier", "existing open blue drain path", "dry road within the later ring"],
+        "The same combined sealing and drainage arrangement remains exact, with only distinct surface highlights."),
     "p031": (
-        "Let only the already fractured ground and attached crown/side observation targets undergo an extremely small inward displacement. "
-        "Any existing previous-position outlines and survey instrument remain fixed and passive. "
-        "Targets follow the surface; they do not pull the rock or stabilize it. No laser, digit or alarm appears.",
-        ["nearly undeformed supported heading", "attached crown/side observation targets", "existing passive previous-position outlines"],
-        "A tiny observed positional difference remains; no sensor-induced repair or collapse occurs."),
+        "Softly illuminate the existing crown target, side-wall targets and passive previous-position outlines in sequence, then their actual neighbouring support surfaces. All targets, outlines, ground and support retain their exact first-frame positions. Do not add a laser, measurement digit, movement or automatic stabilizing response.",
+        ["existing crown and side-wall observation targets", "existing passive previous-position outlines", "actual adjacent support surfaces"],
+        "The original target positions and observed geometry remain unchanged, distinguished only by restrained illumination."),
     "p032": (
-        "The additional support component already staged on firm ground makes only a short guided seating movement into its existing prepared local connection. "
-        "Use only the continuous supported placement route visible in the frame; the observed ground shape, passive targets and remaining excavation patch do not reset or transform.",
-        ["existing local observation difference", "staged support with supported guide/positioning tool", "prepared local connection"],
-        "The existing local support is seated without an automatic sensor response or new excavation stage."),
+        "First illuminate the existing observed position difference and passive outlines, then the already present local support and its actual connection surfaces. Any staged support, guide and positioning arm remain exactly where they were. No component seats, no gap closes and no sensor repairs the ground.",
+        ["existing observation difference and passive outlines", "existing local support and actual connection surfaces", "still-solid next excavation patch"],
+        "The original observed difference and support arrangement remain, with no installation or automatic response."),
     "p033": (
-        "Keep the already different local support densities unchanged. "
-        "Existing water follows the visible cracks of each ground patch with a small natural flow; any already loose grains settle only locally. "
-        "No universal new lining spreads from one zone into the other.",
-        ["two different adjacent ground/support patches", "existing visible water routes or loose grains"],
-        "The distinct ground-dependent support arrangements remain side by side."),
+        "Alternate restrained illumination over the two existing ground patches and then their different local support densities. Emphasize only actual fracture edges and support surfaces. No ground, grain, fluid or lining changes geometry and neither support arrangement transforms into the other.",
+        ["two existing adjacent ground patches", "different local support densities and visible fracture edges"],
+        "The two original ground-dependent arrangements remain physically distinct and unchanged."),
     "p034": (
-        "A few existing loose particles at the face pocket descend locally into the existing receiving pile. "
-        "The already strained rib shows at most a tiny additional elastic displacement, not a buckling wave or catastrophic collapse. "
-        "Keep the protected area empty and do not invent an accident geometry or injured people.",
-        ["existing locally strained rib", "small loose face pocket and receiving pile", "no people in hazard zone"],
-        "A little additional material has settled; the wider model retains its original shape."),
+        "Softly highlight the actual strained rib surface in neutral grey and the existing loose-material face pocket with restrained muted-amber illumination. Keep the rib distortion, every fragment and all ground exactly as pictured. No fall, additional strain, receiver movement or new accident event is animated.",
+        ["existing locally strained rib", "existing loose-material pocket at the face", "empty protected hazard area"],
+        "The original simplified historical condition remains unchanged, with no new collapse or displacement."),
     "p035": (
-        "Keep the open drainage route flowing. Through the existing injection hose, a small amount of already supplied purple grout advances only along the selected visible fine cracks. "
-        "The single additional straight teal tube on its existing guide may advance a short distance rightward. "
-        "Keep all three systems separate and do not start a new excavation or spawn further tubes.",
-        ["connected open drainage pipe", "existing injection hose and supplied grout", "one additional straight tube on supported guide"],
-        "The small grouting and guided insertion increments remain, with the water outlet still open."),
+        "Highlight the three existing systems separately: blue intensity along the open drainage path, restrained purple light along the actual injection-hose surface to its visible fine-crack contact, and a shallow teal sheen along the straight crown pipe axis. Stop every highlight at the existing geometry; do not extend purple material into an empty crack. No grout flows and no pipe is inserted.",
+        ["existing separate blue drainage path", "injection hose contacting visible selected fine cracks", "existing straight teal crown pipe and its axial surface"],
+        "The three original systems remain separate and fixed, with their roles shown only by existing-surface colour highlights."),
     "p036": (
-        "Only existing water in the newly revealed ground follows the already visible drainage path, and a few exposed grains settle locally. "
-        "The small observation target and locally denser support remain passive and fixed. No magic measurement beam installs or multiplies support.",
-        ["existing observation target and denser local support", "visible water or loose-grain path in forward patch"],
-        "The existing local reinforcement remains in place as the small material response continues."),
+        "Softly illuminate the existing observation target, then the locally denser grey support and the boundary of the still-solid next ground patch. Keep all three in their exact original positions. No new water route, moving grain, measurement beam or added support is needed.",
+        ["existing observation target", "locally denser grey support", "still-solid next ground patch"],
+        "The original local observation and support arrangement remains exact, without material movement or reinforcement growth."),
     "p037": (
-        "Maintain the visible existing water flow through the open drain while a few already loose grains settle at the stabilized edge. "
-        "The locally strengthened support retains its geometry and no finished road, extra rib or sudden new cavity appears.",
-        ["open drainage route", "stabilized loose-material edge", "existing strengthened support"],
-        "The working space remains stable with controlled drainage and only minor grain settling."),
+        "Trace a shallow blue highlight on the existing open drainage route, then a restrained neutral-grey sheen on the strengthened support and a soft light emphasis on the already stabilized loose-material edge. Preserve every fragment position and the forward excavation face; no finished road or new cavity appears.",
+        ["existing open drainage route", "already stabilized loose-material edge", "existing strengthened support and forward face"],
+        "The same difficult short zone and its support and water geometry remain, with surface illumination alone."),
     "p038": (
-        "In this already opened later lower stage, a small amount of existing fresh grey concrete from the visible feed hose enters the already supported final-invert closing form. "
-        "Keep the retained upper support and deep bottom geometry fixed. No temporary upper floor, lower bench, traffic or new construction method appears.",
-        ["later lower stage already open", "stable deep-invert closing form", "existing feed hose/nozzle and fresh grey concrete"],
-        "Only the small final-bottom joint is further filled; the model remains in the same later stage."),
+        "In this already open later lower stage, softly illuminate the existing deep permanent-bottom concrete, the supported closing-form edges and the actual side-wall connection surfaces. Stop at each real joint gap. Keep the feed hose, fresh material, retained upper support and bottom geometry fixed without pouring or closure.",
+        ["later lower-stage excavation already open", "existing deep-bottom material and supported closing-form edges", "actual final-invert connection surfaces"],
+        "The later lower-stage joint and deep-bottom structure retain their exact original construction state and gaps."),
     "a001": (
         "The compact machine already present uses its existing face-contact tool to remove a few small fragments from the thin partition beside the pilot opening. "
         "Fragments fall into the existing receiving space and the same work light beyond becomes slightly more visible. "
@@ -279,10 +249,9 @@ ACTION = {
         ["thin partition and small pilot hole", "existing supported machine tool contacting partition", "existing fragment receiving space and safety barrier"],
         "The pilot opening is a little wider through physical removal; the remaining partition and scene remain coherent."),
     "p039": (
-        "The single small car already in the model advances normally along the dry flat road while existing blue groundwater flows through the separate open drainage route outside the lining. "
-        "The connected final ring, ground and membrane stay fixed; no other car or water path appears.",
-        ["existing small car on dry road", "later connected ring", "separate visible groundwater route"],
-        "The same car is farther along its lane and water remains outside the traffic space."),
+        "A restrained grey sheen follows the existing connected final ring around the dry road space. Then pass a shallow blue colour-intensity trace along the separate existing groundwater route outside the lining. The small car, road, water and membrane remain exactly in their first-frame positions and shapes.",
+        ["later connected ring and dry road space", "separate existing groundwater route outside the lining", "existing small car on the road"],
+        "The same stationary car and protected road space remain inside the unchanged ring, with water geometry fixed outside it."),
     "a002": (
         "Only the already visible droplets at the lining joint detach one at a time, fall by gravity and reach the existing side drain. "
         "Keep the damp patch small and the road dry; existing distant cars may continue normally. Do not add an inspector, handheld torch, flood or emergency.",
@@ -294,41 +263,38 @@ ACTION = {
         ["closer view of existing droplets and joint", "visible side-drain contact point", "dry road"],
         "The same localized droplets and small drain ripples remain, with unchanged interior geometry."),
     "p040": (
-        "Existing blue water continues through the unobstructed route behind the lining to its visible outlet. "
-        "The road, structure and any existing inspection tool stay still. No tool operates autonomously and no automatic repair, blockage or new opening appears.",
-        ["unobstructed behind-lining route", "visible outlet", "dry completed road"],
-        "The existing water route remains open while the structure stays unchanged."),
+        "Trace shallow blue intensity only along the existing unobstructed behind-lining route to its visible outlet, then softly highlight the actual lining surface. The water shape and level, road and any inspection tool stay fixed. No tool operates and no repair, blockage or opening appears.",
+        ["unobstructed existing behind-lining route", "visible outlet", "dry completed road and lining"],
+        "The original open water route and completed structure remain exact, without physical flow or automatic maintenance."),
     "p041": (
-        "Keep the already embedded advance pipes, short opened strip, immediate support and solid lower bench exactly as in the earlier-stage frame. "
-        "Only the existing water in the visible cracks moves toward the collection route and small exposed grains settle locally. "
-        "Do not morph through excavation, temporary closure and final completion in this recap shot.",
-        ["earlier heading with solid lower bench", "already embedded pipes and immediate support", "visible water/grain route"],
-        "The same protected earlier-stage space is retained; no later-stage road appears."),
+        "Sequence shallow teal highlights along the already embedded straight pipes and neutral-grey highlights on the existing short opened strip and immediate support. Then vary blue intensity only within the water shapes actually visible in the existing cracks. Keep the solid lower bench and every particle fixed; do not enact construction stages.",
+        ["earlier heading with solid lower bench", "already embedded straight pipes and immediate support", "existing short opened strip and visible blue crack-water"],
+        "The same earlier-stage protected space remains, without excavation, temporary-closure changes or a later road."),
     "p042": (
-        "Only the existing blue water moves behind the connected later ring into the open separate drain, while the already visible small car advances along the dry two-way road. "
-        "Keep the deep curved bottom, crown and walls connected; never send water into the road or below-road escape space.",
-        ["later closed ring and deep bottom", "separate open blue drain", "existing small car on dry road"],
-        "The stable completed road space and its independent draining route remain readable."),
+        "Trace a restrained neutral-grey sheen around the actual connected later crown, sides and deep bottom, then shallow blue intensity along the separate behind-lining drain to its visible outlet. The car and every solid and liquid boundary remain fixed. No highlight crosses into the road or a below-road escape space.",
+        ["later closed ring with connected deep bottom", "separate existing blue drain to a visible outlet", "dry flat road and existing small car"],
+        "The original completed road space, stationary car and separate drainage geometry remain unchanged."),
     "p043": (
-        "The same very small car continues naturally along its existing lane inside the protected space. "
-        "Existing water keeps draining along the already open outside route. All rock, supports and road retain their exact shape, with no new object or closing transition.",
-        ["existing small car", "completed single road space", "separate existing open drain"],
-        "The same supported empty space remains around the moving car and the water stays outside it."),
+        "Softly illuminate the existing inner boundary of the protected single road space, then pass a shallow blue colour-intensity trace only on its existing separate outside drainage route. Keep the small car, road, water, supports and rock exactly as pictured. No closing transition or new object appears.",
+        ["existing completed single road space", "separate existing outside drain", "existing small car"],
+        "The same protected space, stationary car and outside water geometry remain, with restrained surface highlights only."),
 }
 
-# 현재 초안 문구만으로 동작의 물리적 준비를 확정할 수 없어 실제 프레임 확인이 특히 필요한 항목.
+# 원리의 강조 경로와 단계 구분은 실제 첫 프레임에서 확인한다. 실사 동작 검수는 그대로 유지한다.
 CRITICAL_PREFLIGHT = {
-    "p008": "Excavation tool and material receiver must actually be present; solid ground cannot disappear.",
-    "p010": "Bucket, receiver and already held almost-seated support must be present.",
-    "p011": "Bucket and physically held support must be visible before any excavation/seating action.",
-    "p012": "One shallow representative stroke only; do not equate ten seconds with a one-metre advance.",
-    "p013": "New cycle uses existing tool/support and never replays a prior source range.",
-    "p019": "Closing connector must already exist and remain supported; no self-growing invert.",
-    "p020": "Existing concrete supply and supported form are needed; no material creation or method claim.",
-    "p021": "No arrows exist in the planned initial state; only existing ground/lining may show a tiny physical elastic response, no new arrows or grains.",
-    "p032": "Any staged support must have a supported guide/positioning tool; no levitation.",
-    "p035": "Injection supply and guided pipe must be present and remain separate from drainage.",
-    "p038": "Later-stage concrete supply/form must be visible; no earlier temporary-floor transition.",
+    "p008": "Highlight only the actual embedded canopy, solid next patch and existing short opening; equipment stays motionless.",
+    "p010": "Keep both pipe rows, existing short face edge and local support exactly as pictured; do not seat any component.",
+    "p011": "The solid patch and existing support edge must be identifiable; no excavation or new unsupported cavity.",
+    "p012": "The fixed narrow axial patch explains advance length only; no ten-second excavation or generated numeral.",
+    "p013": "Highlight the two existing adjacent regions without a new construction cycle or stage transition.",
+    "p019": "Earlier shallow temporary invert must already join both support feet above the solid lower bench; no gap, guide, ram or deep final bottom.",
+    "p020": "Later deep final structure must already form a continuous connection to both sides and crown, with the lower bench removed; no partial form, joint gap or temporary upper floor.",
+    "p021": "A genuinely connected deep ring must be present; trace its existing lining surface without new arrows or elastic motion.",
+    "p027": "Existing orange pressure arrows may change glow only; their length, count and position and the water level stay fixed.",
+    "p031": "Targets and previous-position outlines remain passive and fixed; only their existing surfaces change illumination.",
+    "p032": "Highlight observed geometry and existing local support; staged components remain in their original positions.",
+    "p035": "Blue drain, injection hose/fine-crack contact and straight teal pipe must remain distinct; no actual grout flow or pipe insertion.",
+    "p038": "Later deep-invert material and actual joint edges remain fixed; no concrete pouring, closure or earlier temporary-floor transition.",
     "a001": "Physical face-contact tool and fragment receiver must exist; the partition cannot dissolve.",
     "a002": "The image prompt has no inspector; do not add the person mentioned in the broader screen note.",
     "a003": "Use only the existing localized leak, not a current emergency or invented inspector.",
@@ -442,12 +408,14 @@ def main():
             errors.append(f"{sid}: principle first frame is not 3D")
         action, required, end = ACTION[sid]
         camera = "locked-off static shot"
-        speed = "camera speed none; all physical motion at natural real-time speed, 1.0x, bounded and not exaggerated"
+        principle = cut["role"] == "원리"
+        speed = ("camera speed none; only slow restrained changes of light and colour intensity on fixed first-frame geometry; no physical motion"
+                 if principle else "camera speed none; all physical motion at natural real-time speed, 1.0x, bounded and not exaggerated")
         movement = "Camera completely still, no zoom, no pan, no dolly, no rotation. " + action
         framing = "Exactly the composition and projection of the selected first-frame image; preserve scale, orientation, boundaries and subject size."
         prompt = (f"{action} [locked-off static shot]. Movement: {movement} Speed: {speed}. "
                   f"Framing: {framing} End: {end} The camera remains in the same composition, with no reset or fade. "
-                  f"{IDENTITY} {LIGHT} {D3 if image_def['render'] == '3d' else REAL}")
+                  f"{PRINCIPLE_IDENTITY if principle else IDENTITY} {LIGHT} {D3 if image_def['render'] == '3d' else REAL}")
         motion_contract = dict(prompt=prompt, required_existing_features=required,
                                initial_state=image_def.get("initial_state"), source_image_prompt=image_def["prompt"],
                                source_reference=image_def.get("ref"), source_ids=image_def["source_ids"])
@@ -510,6 +478,11 @@ def main():
             errors.append(f"{row['id']}: required prompt sections/preservation rule missing")
         if row["camera"] != "locked-off static shot":
             errors.append(f"{row['id']}: unexpected camera movement")
+        if row["role"] == "원리":
+            if row["prompt"].count(STRICT_PRINCIPLE_STILL) != 1 or PRINCIPLE_IDENTITY not in row["prompt"]:
+                errors.append(f"{row['id']}: fixed-geometry principle policy missing or duplicated")
+            if IDENTITY in row["prompt"] or "except a component" in row["prompt"] or "elastic displacement is allowed" in row["prompt"]:
+                errors.append(f"{row['id']}: physical-motion exception conflicts with principle policy")
         if row["planned_use_sec"] > args.clip_seconds - 0.05 + 1e-6:
             errors.append(f"{row['id']}: measured cut use exceeds production requirement minus end margin")
     if [x["id"] for x in rows] != vids:
@@ -519,7 +492,8 @@ def main():
         raise SystemExit(1)
     HERE.mkdir(parents=True, exist_ok=True)
     write_json(HERE / "vprompts_v1_schema.json", schema())
-    write_json(checks_path, action_checks)
+    if not checks_path.exists() or action_checks != read_json(checks_path):
+        write_json(checks_path, action_checks)
     status = "draft_not_submit_ready" if args.draft else "first_frames_resolved_approval_pending"
     package = dict(
         status=status, is_submission_file=False, generation_authorized=False,
@@ -532,7 +506,10 @@ def main():
         all_image_assets_actual_chosen=len(picks), all_image_assets_expected=picks_data.get("expected_ids", 85),
         input_hash_canonicalization="UTF-8 without BOM; LF line endings",
         inputs={str(p.relative_to(EP)).replace("\\", "/"): canonical_sha(p) for p in (plan_path, catalog_path, image_path)},
-        physical_motion_policy="only actual first-frame materials/components; fixed camera; no new arrows; no stage morphing",
+        physical_motion_policy=("principles p001-p043: every solid and all water/grout geometry, levels and quantities fixed; "
+                                "only light/colour on existing surfaces and glow of existing arrows may change; "
+                                "opening/action o001-o004/a001-a003: unchanged bounded physical actions; "
+                                "all cameras fixed; no new arrows or stage morphing"),
         clips=rows,
     )
     report = dict(

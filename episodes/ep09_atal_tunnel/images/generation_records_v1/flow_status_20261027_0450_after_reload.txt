@@ -1,0 +1,102 @@
+Formatting note: trailing whitespace trimmed for Git; verbatim UI text retained on PC in image_review_v1/flow_logs/flow_status_20261027_0450_after_reload_verbatim.txt.
+Observed UTC: 2026-10-27T04:50:49.321Z
+Normal reloads: 1. Generation/retry/CAPTCHA/settings/upload actions: 0.
+Browser tab: 96307978, Title: "Google Flow - 10월 20 - 16:31", URL: "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d".
+1 AXWebArea Google Flow - 10월 20 - 16:31, URL: flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d
+	2 link Description: Skip to main content, Value: flow.google.com/#main-content
+	3 container main-content
+		4 container
+			5 container
+				6 button 이전 페이지로 이동하는 뒤로 버튼
+				7 heading Description: Engineering tunnel excavation cu…, Value: 1
+					8 text Engineering tunnel excavation cu…
+				9 text field (settable) Description: 수정 가능한 텍스트, Value: Engineering tunnel excavation cu…
+			10 button 애셋 정보 표시
+			11 container
+				12 button Engineering tunnel excavation cu…
+					13 image Engineering tunnel excavation cu…
+				14 button Workers excavating underground t…
+					15 image Workers excavating underground t…
+				16 button Atal Tunnel northern portal facade
+					17 image Atal Tunnel northern portal facade
+				18 button Tunnel excavation 3D educational…
+					19 image Tunnel excavation 3D educational…
+				20 button Empty tunnel with white lighting
+					21 image Empty tunnel with white lighting
+				22 button Workers excavating underground t…
+					23 image Workers excavating underground t…
+				24 button Workers excavating underground t…
+					25 image Workers excavating underground t…
+				26 button Tunnel portal in snowy mountains
+					27 image Tunnel portal in snowy mountains
+				28 button Atal Tunnel south portal view
+					29 image Atal Tunnel south portal view
+				30 button Atal Tunnel south portal view
+					31 image Atal Tunnel south portal view
+				32 button Arrows pulsing along bridge rails
+					33 image Arrows pulsing along bridge rails
+				34 button v1_V20b_2.png
+					35 image v1_V20b_2.png
+				36 button Cracks filling with grey cement
+					37 image Cracks filling with grey cement
+				38 button v1_V09_1.png
+					39 image v1_V09_1.png
+				40 button Pier sliding down slope
+				41 button v1_V05_1.png
+				42 button Smoke flowing across bridge model
+				43 button Chenab Rail Bridge in sunlight
+				44 button Chenab Rail Bridge at sunset
+				45 button Chenab Rail Bridge at sunset
+				46 button Train crossing Chenab Rail Bridge
+				47 button Train crossing Chenab Rail Bridge
+				48 button Himalayan gorge bridge 3D diorama
+				49 button Train crossing Chenab Rail Bridge
+			50 button 다음 미디어
+			51 button 즐겨찾기
+			52 button 미디어 공유
+			53 button 휴지통으로 이동
+			54 pop up button (collapsed) Description: 미디어 다운로드, Secondary Actions: Expand
+			55 button 기록 보기
+			56 button 수정 완료
+			57 pop up button (collapsed) Description: 이미지 자르기 메뉴를 여는 버튼, Secondary Actions: Expand
+			58 image 읽기 전용 이미지 뷰
+			59 container
+				60 text entry area (settable) Description: 어떤 내용을 변경하려 하시나요?, Value:
+
+				61 pop up button (collapsed) Description: 프롬프트 상자에 소재 추가, Secondary Actions: Expand
+				62 button 설정 트리거
+				63 button (disabled) 생성 시작
+			64 container
+				65 container
+					66 image 사용자 이미지를 표시하는 타일
+				67 container
+					68 text Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. For this engineering model only: rock = grey-brown, steel ribs and shotcrete = neutral grey, straight advance pipes = teal, injected grout = purple, water itself = blue, water-pressure PUSH arrows = orange. These are explanatory colours, not a claim about the site materials. Create a physically coherent simplified LONGITUDINAL SIDE-CUT excavation block: a single tunnel void in a grey-brown rock block, already excavated space on screen left and unexcavated ground on screen right, advancing from left to right. A cut-away side reveals the upper heading. Long straight teal pipes lie parallel to the advance axis above the crown and extend ahead into the ground; in a transverse section their circular ends form an arch. Separate neutral-grey steel support ribs run transversely across the excavated section. Do not bend the advance pipes into arches. Do not turn the tunnel into twin vehicle bores. The foreground longitudinal half of the rock is removed as an explanatory cut so the tunnel length is visible SIDE-ON, not as a view looking down a dark entrance. A visible vertical rough working face at the middle ends the left-hand excavated upper void; the entire right-hand part ahead of that face is still solid ground. The same solid lower bench continues beneath both halves. A stable wide three-quarter SIDE view, the whole short block visible. Make the three regions unmistakable: supported open upper void on screen LEFT, its solid vertical rough WORKING FACE in the MIDDLE, and still-unexcavated solid rock on screen RIGHT. The cut surface reveals this separation; do not put an open dark passage behind or through the working face. Straight teal advance pipes cross above the face from left to right and their forward portions remain embedded in the right-hand solid ground, exposed only by the diagram cut. Grey transverse ribs behind the face stand firmly on the lower bench. One short upper heading only, solid lower bench still present, no flat finished road. Leave a clear dry working space beneath the supported crown, a little blue groundwater in cracks ahead. No grout has been injected at this initial stage: no purple material, no purple patches or grout sleeves anywhere. No arrows yet, no temporary invert yet. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.
+					69 button 프롬프트 재사용
+					70 button 프롬프트 펼치기
+				71 container
+					72 image 사용자 이미지를 표시하는 타일
+				73 button 소재
+					74 image 소재 이미지
+				75 container
+					76 text Clean bright 3D educational engineering diorama, soft studio light, white-grey background, sharp focus, 16:9. Using the supplied image as the actual input: preserve the SAME longitudinal side-cut rock block, camera, grey transverse support ribs, left open upper excavation, middle solid rough working face, right solid unexcavated ground and continuous solid lower bench. Keep the current clear left-to-right excavation axis. Do not make a dark open passage through the middle face. No road, no invert, no purple material. Correct ONLY the teal advance-pipe bank. Replace the small stacked bundle with many evenly spaced hollow teal steel tubes distributed around the WHOLE UPPER SEMICIRCULAR CROWN above the grey arch supports. Their circular LEFT mouths must form a visible broad arch-shaped row, continuing down both upper shoulders rather than clustering at the very top. Each individual tube body is perfectly STRAIGHT and rigid, parallel to the horizontal left-to-right tunnel axis. The tubes themselves never curve with the arch: only the arrangement of separate circular mouths forms an arch. Show the near longitudinal cut surface revealing several straight tube bodies and keep the other tubes visible at the left end section. All forward portions enter and remain embedded in the solid right-hand ground. Any exposed long lengths are visible solely because of the explanatory cut, not dangling outside the rock. No wavy, sagging or twisted tubes, no isolated unsupported poles, no transverse teal crossbars. Grey transverse ribs stay a distinct separate system. Do not change the source excavation geometry or advance stage. No arrows, people, text, labels, letters, numerals, symbols, logos or watermarks. No readable text.
+					77 button 프롬프트 재사용
+					78 button 프롬프트 펼치기
+				79 container
+					80 image 사용자 이미지를 표시하는 타일
+				81 button 소재
+					82 image 소재 이미지
+				83 container
+					84 text Clean bright precise CAD-like 3D educational engineering diorama, soft studio light, white-grey background, 16:9. Using the supplied source image as actual input, preserve its camera, longitudinal cut rock block, lower solid bench, grey transverse ribs, open excavation on LEFT, rough solid working face in MIDDLE, and solid unexcavated rock on RIGHT. Preserve the broad arch-shaped arrangement of the circular teal pipe mouths at the LEFT end. Fix only the representation of the teal pipe bodies: each is a smooth rigid straight circular cylinder, with parallel left-to-right axes. No bends, waves, sagging, merged tubes or irregular diameters. Show the clean short straight lengths above the grey supported open excavation. As they cross the working face, they enter the solid right-hand ground and become OCCLUDED by opaque rock. The ground hides the forward pipe lengths and their buried tips; remove every long exposed teal line currently drawn across the outer right rock wall. Do not draw pipes along the outside surface of the right block, and do not trace its cracks with teal material. The support continues ahead INSIDE solid ground, not on its exterior. The visible pipe mouths still form an arch across both upper shoulders, and their visible short bodies stay straight. Keep a clear supported working space and the grey rib feet on the lower bench. No change of excavation stage, no open passage behind the solid face, no grout, no purple material, no temporary invert, no road. No arrows, people, labels, text, letters, numbers, logos or watermarks. No readable text.
+					85 button 프롬프트 재사용
+					86 button 프롬프트 펼치기
+				87 container
+					88 image 사용자 이미지를 표시하는 타일
+				89 button 소재
+					90 image 소재 이미지
+				91 container
+					92 text Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. For this engineering model only: rock = grey-brown, steel ribs and shotcrete = neutral grey, straight advance pipes = teal, injected grout = purple, water itself = blue, water-pressure PUSH arrows = orange. These are explanatory colours, not a claim about the site materials. Using the reference only for the model style, material colours, single-bore identity and left-to-right axis: build a clearly LATER construction stage. the SAME later-stage weak-ground tunnel model as the reference, in the same left-to-right coordinate system: one tunnel with a deep curved final invert below the flat roadway, the crown, side walls and bottom connected into a closed structural ring. The lower ground has already been excavated. This is the later final structure, not the earlier temporary closure of the upper heading and not a claim about every normal section. Remove the former lower bench and any temporary upper-heading invert; replace them with the deep curved permanent bottom connected to both sides. Show a flat grey road slab inside the ring and small separate drainage channels behind the lining, never through the road. Same stable three-quarter side view, no arrows yet. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.
+					93 button 프롬프트 재사용
+					94 button 프롬프트 펼치기
+		95 text Google Flow는 실수를 할 수 있으니 다시 한번 확인하세요.
+
+The focused UI element is 1 AXWebArea Google Flow - 10월 20 - 16:31, URL: flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d

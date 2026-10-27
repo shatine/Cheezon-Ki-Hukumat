@@ -1,25 +1,33 @@
 {
-  "recorded_at": "2026-10-27T13:40:09.9926973+09:00",
-  "current_operator": "Browser input stopped; awaiting human Flow authentication status; root continues independent authoring",
+  "recorded_at": "2026-10-27T05:04:56.343874+00:00",
+  "current_operator": "no active UI operator; generation stopped; root prepares and reviews text",
   "project": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
   "last_observed_submission": {
-    "id": "G3D_DEEP",
-    "attempt": 2,
-    "status_observed": "Failed: unusual activity detected and reCAPTCHA service connection error; no output, no retry, subsequent batch0",
-    "requires_live_ui_check_before_any_resubmission": true
+    "id": "o003",
+    "attempt": 1,
+    "status_observed": "failed in Flow; no generated output",
+    "failure_observed_at_utc": "2026-10-27T05:01:20.405Z",
+    "result_media_url": null,
+    "raw": null,
+    "clean": null,
+    "requires_human_service_resolution_and_live_ui_check_before_any_resubmission": true
   },
-  "chosen_count": 5,
-  "reviewed_attempts": 15,
+  "chosen_count": 7,
+  "reviewed_attempts": 18,
   "generation_not_complete": true,
-  "reference_transport": "exact chosen attempt original asset already in Flow media; see reference_assets_v1.json",
+  "remaining_image_ids": 78,
+  "selected_video_frames": 1,
+  "root_motion_compatible_frames": 1,
+  "reference_transport": "exact chosen attempt original server asset already in existing Flow media",
   "muse_generation_approved": false,
+  "actual_video_generated_count": 0,
+  "resume_queue": "resume_queue_v1.json",
   "notes": [
-    "Explicit picks5/85: AT_S2 AT_N3 AT_C3 AT_INT1 G3D_EXC4",
-    "DEEP1 and o0011 visually held; DEEP2 server failure has no raw/clean/result media",
-    "Flow exact failure and screenshot in generation_records_v1/G3D_DEEP_2.json; Chrome tab96307978 handed off",
-    "Human authentication-status question pending; do not retry or bypass detection until resolved",
-    "Human explicitly keeps old project baa9; new empty103f unused, no media moved",
-    "No local uploads or extension permission changes; no Muse; no subsequent batch submissions",
-    "Video actual first-frame selections0/50; manual action compatibility0/50; no ready package"
+    "Latest user scope ends before actual video generation",
+    "DEEP3 and o0012/o0021 completed; o0021 visually rejected and prompt fixed",
+    "o0031 failed with abnormal activity and reCAPTCHA service connection error; no new output",
+    "o004 and subsequent initial image batch not submitted",
+    "Root explicitly reviewed all 18 recorded output attempts; 7 chosen and 11 remakes",
+    "After recurring failure: no further submit, refresh, local upload, extension changes, project move or CAPTCHA solving"
   ]
 }

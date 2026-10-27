@@ -1,0 +1,127 @@
+{
+  "status": "five_static_libass_pngs_prepared_for_visual_review",
+  "scope": "static subtitle typesetting samples only",
+  "input_sha256": {
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\review_edit\\subs_review_v1.ass": "26e8ec136f256ca2942c9607665ad5dbd866986a0907a075b3af54804b0c031b",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\review_edit\\narr_timing.json": "c145a2ae9c7a45792004a521a22200b89b572eb7f3b1168dc28f9a52e344db93",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\plan\\overlays_v1.json": "948532d6d37e6c1aaffc065316724859f5227eff90ad557e51be722d5cad16a5"
+  },
+  "raster_output_directory": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\subtitle_qa",
+  "ffmpeg": "C:\\Users\\developer1\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.2-full_build\\bin\\ffmpeg.EXE",
+  "frames": [
+    {
+      "sentence_id": "S01b",
+      "label_id": "L01",
+      "purpose": "contractor attribution; 8,000 litres/minute",
+      "measured_sentence_start": 3.903,
+      "measured_sentence_end": 12.956,
+      "requested_timestamp": 8.43,
+      "filter_timestamp_ms": 8430,
+      "png": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\subtitle_qa\\qa_S01b_L01_008430ms.png",
+      "png_sha256": "b5163cb244cf93438c1faa79c3f41785b67f6683a5ae65c325540a7e6a37ca6f",
+      "font_selection_log": [
+        "[Parsed_ass_2 @ 0000029350439cc0] fontselect: (Nirmala UI, 700, 0) -> NirmalaUI-Bold, 1, NirmalaUI-Bold",
+        "[Parsed_ass_2 @ 0000029350439cc0] fontselect: (Malgun Gothic, 700, 0) -> MalgunGothicBold, 0, MalgunGothicBold"
+      ],
+      "missing_glyph_errors": []
+    },
+    {
+      "sentence_id": "S02b",
+      "label_id": "L02",
+      "purpose": "decimal length 9.02 and altitude above 3,000 metres",
+      "measured_sentence_start": 25.634,
+      "measured_sentence_end": 33.565,
+      "requested_timestamp": 29.6,
+      "filter_timestamp_ms": 29600,
+      "png": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\subtitle_qa\\qa_S02b_L02_029600ms.png",
+      "png_sha256": "c24365b7c4698c1ef605a01da5b8c087272e833ede6befc0a29aca812a7408de",
+      "font_selection_log": [
+        "[Parsed_ass_2 @ 000002329d8bb980] fontselect: (Nirmala UI, 700, 0) -> NirmalaUI-Bold, 1, NirmalaUI-Bold",
+        "[Parsed_ass_2 @ 000002329d8bb980] fontselect: (Malgun Gothic, 700, 0) -> MalgunGothicBold, 0, MalgunGothicBold"
+      ],
+      "missing_glyph_errors": []
+    },
+    {
+      "sentence_id": "S02c",
+      "label_id": "L03",
+      "purpose": "long HI three lines + KO two lines; BRO and upper excavation four years",
+      "measured_sentence_start": 33.915,
+      "measured_sentence_end": 45.518,
+      "requested_timestamp": 39.716,
+      "filter_timestamp_ms": 39716,
+      "png": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\subtitle_qa\\qa_S02c_L03_039716ms.png",
+      "png_sha256": "e09df52c3afd2127f7184934a7ab9ad714188f661190378a328f5e0ea71f23d4",
+      "font_selection_log": [
+        "[Parsed_ass_2 @ 000001c5fc44af00] fontselect: (Nirmala UI, 700, 0) -> NirmalaUI-Bold, 1, NirmalaUI-Bold",
+        "[Parsed_ass_2 @ 000001c5fc44af00] fontselect: (Malgun Gothic, 700, 0) -> MalgunGothicBold, 0, MalgunGothicBold"
+      ],
+      "missing_glyph_errors": []
+    },
+    {
+      "sentence_id": "S20b",
+      "label_id": "L08",
+      "purpose": "opening date 3 October 2020",
+      "measured_sentence_start": 403.088,
+      "measured_sentence_end": 411.542,
+      "requested_timestamp": 407.315,
+      "filter_timestamp_ms": 407315,
+      "png": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\subtitle_qa\\qa_S20b_L08_407315ms.png",
+      "png_sha256": "3493959c3fd2dea040464fb6186a36de36b65a0ecb64f567d74060c2d961ac37",
+      "font_selection_log": [
+        "[Parsed_ass_2 @ 000001bf5c13db00] fontselect: (Nirmala UI, 700, 0) -> NirmalaUI-Bold, 1, NirmalaUI-Bold",
+        "[Parsed_ass_2 @ 000001bf5c13db00] fontselect: (Malgun Gothic, 700, 0) -> MalgunGothicBold, 0, MalgunGothicBold"
+      ],
+      "missing_glyph_errors": []
+    },
+    {
+      "sentence_id": "S21b",
+      "label_id": "L09",
+      "purpose": "long HI three lines + KO two lines; 2024 historical article attribution",
+      "measured_sentence_start": 416.241,
+      "measured_sentence_end": 427.096,
+      "requested_timestamp": 421.668,
+      "filter_timestamp_ms": 421668,
+      "png": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\subtitle_qa\\qa_S21b_L09_421668ms.png",
+      "png_sha256": "7488daf14471882ef41ae4908f1c1887cd853dcea5e08e41e1d256f658d33926",
+      "font_selection_log": [
+        "[Parsed_ass_2 @ 0000022c5268be00] fontselect: (Nirmala UI, 700, 0) -> NirmalaUI-Bold, 1, NirmalaUI-Bold",
+        "[Parsed_ass_2 @ 0000022c5268be00] fontselect: (Malgun Gothic, 700, 0) -> MalgunGothicBold, 0, MalgunGothicBold"
+      ],
+      "missing_glyph_errors": []
+    }
+  ],
+  "static_png_count": 5,
+  "png_width": 1920,
+  "png_height": 1080,
+  "approved_text_or_timecodes_changed": false,
+  "video_or_clip_created": false,
+  "audio_output_created": false,
+  "production_render_performed": false,
+  "full_video_review_performed": false,
+  "root_original_png_review_performed": true,
+  "missing_glyph_log_check": "no missing-glyph errors; visual inspection still required",
+  "root_original_png_review": {
+    "basis": "Explicit root report: all five original PNGs opened at original dimensions",
+    "scope": "Five static subtitle typesetting samples on a solid background only; not full-video review",
+    "reviewed_timestamps_sec": [
+      8.43,
+      29.6,
+      39.716,
+      407.315,
+      421.668
+    ],
+    "reviewed_png_sha256": {
+      "S01b": "b5163cb244cf93438c1faa79c3f41785b67f6683a5ae65c325540a7e6a37ca6f",
+      "S02b": "c24365b7c4698c1ef605a01da5b8c087272e833ede6befc0a29aca812a7408de",
+      "S02c": "e09df52c3afd2127f7184934a7ab9ad714188f661190378a328f5e0ea71f23d4",
+      "S20b": "3493959c3fd2dea040464fb6186a36de36b65a0ecb64f567d74060c2d961ac37",
+      "S21b": "7488daf14471882ef41ae4908f1c1887cd853dcea5e08e41e1d256f658d33926"
+    },
+    "noticeable_glyph_breakage": false,
+    "noticeable_clipping": false,
+    "noticeable_hi_ko_overlap": false,
+    "noticeable_label_collision": false,
+    "font_text_or_timing_changes_required": false,
+    "full_video_review_performed": false
+  }
+}

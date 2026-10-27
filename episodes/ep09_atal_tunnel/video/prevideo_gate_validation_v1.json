@@ -1,0 +1,15 @@
+{
+  "status": "policy_checks_passed_expected_ready_block",
+  "principle_count": 43,
+  "all_43_strict_sentence_exactly_once": true,
+  "all_50_camera_locked": true,
+  "o001_original_motion_contract_preserved": true,
+  "actual_selected_frames": 1,
+  "manual_compatible_frames": 1,
+  "ready_gate_status": "ready_blocked",
+  "remaining_first_frame_blockers": 49,
+  "ready_file_written": false,
+  "generation_authorized": false,
+  "actual_muse_submission_performed": false,
+  "scope": "definition and file gate checks; no additional visual review or video generation"
+}

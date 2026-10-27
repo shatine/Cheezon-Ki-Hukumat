@@ -1,0 +1,106 @@
+{
+  "status": "automatic_prevideo_checks_passed_with_expected_missing_media_block",
+  "scope": "Read-only integrity checks plus isolated unmodified plan/edit-preflight execution; no TTS synthesis, listening, full render or video generation",
+  "tts_verifier": {
+    "requested_command": "verify_tts.py --help",
+    "help_supported": false,
+    "exit_code": 0,
+    "automatic_result": "automatic_checks_passed",
+    "sentence_count": 78,
+    "paragraph_count": 24,
+    "narration_seconds": 469.412,
+    "strict_saved_asr_pass_count": 78,
+    "new_asr_performed": false,
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "integrated_lufs": -16.4,
+    "true_peak_dbtp": -1.4,
+    "fixed_wav_sha256_match": true,
+    "narration_wav_sha256": "0a542c9b8d47e31643948ae8ce1b16f7bbf2962d028d30699e21a24a01353621",
+    "tts_synthesis_performed": false,
+    "listening_review_performed": false,
+    "side_effects": [
+      "Existing preview MP3 re-encoded by unhandled --help invocation",
+      "Existing tts_validation JSON written and timing/check/validation copied to staging"
+    ],
+    "current_preview_sha256": "6571750a41a37b0486a20d189c59c26857f581e76c60d86d41efe20a4175e91b",
+    "preview_pre_invocation_sha256": null,
+    "preview_comparison": "No prior preview SHA found in inspected staging TTS report/JSON; identical-vs-different cannot be established"
+  },
+  "approved_ko_lock": {
+    "exit_code": 0,
+    "body_sha256": "b6f91f4fcf8a86d100157ee3e1bdb51f4c392780625716b845d7075333eb34c6",
+    "sentence_count": 78,
+    "paragraph_count": 24,
+    "ids_and_order_match": true,
+    "all_original_ko_source_sentences_found_in_order": true,
+    "hi_and_ko_gloss_timing_matches_tsv": true,
+    "ko_gloss_is_locked_original_ko": false,
+    "ko_gloss_note": "TSV/timing ko is Hindi backtranslation; locked original Korean is checked separately, not equated to the gloss"
+  },
+  "plan_isolated": {
+    "exit_code": 0,
+    "clip_requirement_seconds": 10,
+    "status": "pass",
+    "errors": [],
+    "total_cuts": 79,
+    "video_sources": 50,
+    "image_sources": 29,
+    "output_frames": 14112,
+    "output_seconds": 470.4,
+    "opening_video_count": 4,
+    "principle_sentences": 49,
+    "nonprinciple_video_ratio": 0.161345496009122,
+    "current_plan_outputs_match_isolated_results": {
+      "shot_list_v1.json": true,
+      "scene_catalog_v1.json": true,
+      "source_registry_v1.json": true
+    },
+    "production_plan_outputs_rewritten": false,
+    "actual_media_existence_checked_by_plan": false
+  },
+  "edit_preflight_isolated": {
+    "exit_code": 2,
+    "status": "blocked_missing_or_unreviewed_media",
+    "core_errors": [],
+    "render_ready": false,
+    "source_blocker_count": 79,
+    "unavailable_source_count": 79,
+    "actual_video_source_files_present": 0,
+    "render_performed": false
+  },
+  "upload_readonly": {
+    "exit_code": 0,
+    "title_count": 6,
+    "title_lengths": [
+      68,
+      47,
+      44,
+      67,
+      60,
+      64
+    ],
+    "keywords_en": 8,
+    "keywords_hi": 8,
+    "description_characters": {
+      "en": 3788,
+      "hi": 3439
+    },
+    "chapter_count": 11,
+    "shortest_chapter_seconds": 34.41199999999998,
+    "all_chapters_use_floored_actual_paragraph_starts": true,
+    "all_sentence_ids_covered_once_in_order": true,
+    "opening_hi_exact_match": true,
+    "existing_validation_errors": [],
+    "scope": "Local file validation; no web re-verification or upload"
+  },
+  "current_actual_image_pick_count": 7,
+  "root_static_subtitle_review": {
+    "original_png_samples": 5,
+    "root_actual_review_confirmed": true,
+    "full_video_review_performed": false
+  },
+  "protected_input_and_existing_plan_upload_picks_hashes_unchanged_during_isolated_checks": true,
+  "video_folder_written_or_commands_run": false,
+  "new_output_file": "review_edit/final_prevideo_validation_v1.json"
+}

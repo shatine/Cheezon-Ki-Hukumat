@@ -1,0 +1,75 @@
+{
+  "id": "o003",
+  "attempt": 1,
+  "kind": "frame",
+  "status": "failed in Flow; no generated output",
+  "recorded_at_utc": "2026-10-27T05:01:38.414Z",
+  "record_basis": "Post-failure record of actual session observations; no authentication completion inferred.",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME south-portal reconstruction as the reference: a rectangular dark road opening beneath a brown sloping awning, yellow-orange vertical facade cladding, a forested Himalayan valley and a grey reinforced slope beside the portal. The road is one single two-way carriageway, exactly two lanes total, one lane each direction, exactly one central lane-separating line; no second dashed lane divider, no widening or road fork; the lane arrangement is clearly visible all the way to the dark rectangular mouth. No traditional ceremonial gate merged with the actual tunnel mouth; no green gabled north-portal facade. The completed south portal and its approach road, with two small unbranded passenger cars seen from behind entering the rectangular opening. The forested valley surrounds the identifiable facade. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "3be4d1b62f2be7af1d85a150af8b08a083b5f791979e894968792883b37c15cf",
+  "submitted_text_character_count": 1514,
+  "submitted_text_verified_after_failure": true,
+  "submit_initiated_at_utc": "2026-10-27T05:00:30.928Z",
+  "submit_acknowledged_at_utc": "2026-10-27T05:00:31.461Z",
+  "first_acknowledged_progress_percent": 0,
+  "source_ids": [
+    "S02a"
+  ],
+  "visual_source_ids": [
+    "S02a"
+  ],
+  "input": {
+    "ref": "AT_S",
+    "selected_attempt": 2,
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "observed_at_utc": "2026-10-27T05:00:29.148Z",
+    "source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+    "source_asset_id": "dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+    "actual_reference_media_source_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_S_2.jpg",
+    "original_sha256": "0ea8aa26ac03d834682abc4e2adb62697d2cccc9a7b40edea07c145607e8b6d8",
+    "byte_identity_evidence_reused_from": "reference_assets_v1.json source_revision_resolution and prior exact raw-byte proof",
+    "new_reference_download_this_attempt": false,
+    "evidence": [
+      "Directly read current central editor image src before submit and matched selected AT_S2 c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb.",
+      "Re-read source immediately before submit; still selected original S2, not a prior derived scene."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "observed_at_utc": "2026-10-27T05:00:30.377Z",
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "model_basis": "Inherited unchanged from direct editor observation at 2026-10-27T04:50:52.599Z.",
+    "aspect_ratio": "16:9",
+    "aspect_directly_observed_before_submit": true,
+    "cost_credits": 0,
+    "cost_directly_observed_before_submit": true,
+    "output_count_selector_visible": false,
+    "output_count_note": "Prior x1 setting unchanged; no separate count selector in this editor."
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T05:01:20.405Z",
+    "container_editor_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+    "result_media_source_url": null,
+    "result_media_id": null,
+    "raw": null,
+    "clean": null,
+    "downloaded": false,
+    "failure_message": "비정상적인 활동이 감지되었습니다. 페이지를 수정하는 브라우저 확장 프로그램으로 인해 문제가 발생할 수 있습니다. 자세한 내용은 고객센터를 참고하세요. 이 생성에 대한 요금이 청구되지 않았습니다.",
+    "recaptcha_message": "reCAPTCHA 서비스에 연결할 수 없습니다. 인터넷 연결을 확인한 후 페이지를 새로고침하여 reCAPTCHA 보안문자를 다시 로드하세요.",
+    "charge_ui": "이 생성에 대한 요금이 청구되지 않았습니다.",
+    "screenshot": "generation_records_v1/o003_1_failure.png"
+  },
+  "retry_clicked": false,
+  "normal_reload_after_this_failure": false,
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": false,
+  "project_migration_performed": false,
+  "video_generation_submitted": false,
+  "further_batch_submissions": 0,
+  "next_action": "Reported recurring abnormal-activity/reCAPTCHA failure to root and stopped all submissions; awaiting direction."
+}

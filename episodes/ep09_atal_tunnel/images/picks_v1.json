@@ -696,6 +696,189 @@
       },
       "recorded_at": "2026-10-27T13:33:35+09:00",
       "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "G3D_DEEP",
+        "attempt": 3,
+        "decision": "chosen",
+        "reason": "root가 raw JPEG와 처리 PNG를 원본 크기로 직접 확인했다. 왼쪽 개방 구간 전 길이에 깊은 U자 영구 바닥이 이어지고 상부·측벽 라이닝과 연결되는 단면, 그 안의 얇은 평탄 슬래브, 제거된 하부 암반 bench, 분리된 작은 측면 배수를 확인했다. 가까운 쪽 벽을 제거한 설명용 절개이며 오른쪽 전방 암반은 불투명한 고체로 유지된다. 초기 상부 굴착의 임시 바닥과 구분되는 후기 영구 구조 기준으로 선택한다. 글자·인물·노출된 굽은 선진 파이프는 보이지 않았다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+        "result_media_url": "https://flow-content.google/image/6cfcd5d1-a6b2-4038-927b-28ff5df1cd7a",
+        "raw_file": "v1_G3D_DEEP_3.jpg",
+        "clean_file": "v1_G3D_DEEP_3.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "G3D_EXC",
+            "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+            "source_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "ep09_image_prompts",
+            "evidence": "generation_records_v1/G3D_DEEP_3.json: 제출 직전 편집기 입력 이미지 src가 선택 EXC4 revision dcf20746-d09d-48e9-b963-bcc682e40e2f와 일치함을 직접 관찰. 동일 revision의 원본 SHA 대조는 앞선 DEEP1 검증을 재사용했고 이번 재다운로드로 주장하지 않는다."
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_DEEP_3.jpg",
+          "sha256": "811a0ee8794d01299f76fe3f4c88213baff192464c09319cccf7debbb6ba34f4",
+          "bytes": 150971,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_DEEP_3.png",
+          "sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+          "bytes": 1004106,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "G3D_EXC",
+      "reference_picks": {
+        "G3D_EXC": {
+          "attempt": 4,
+          "file": "v1_G3D_EXC_4.png",
+          "sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+          "source_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f"
+        }
+      },
+      "recorded_at": "2026-10-27T13:56:20+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "o001",
+        "attempt": 2,
+        "decision": "chosen",
+        "reason": "root가 raw JPEG·처리 PNG를 각각 원본 크기로 열었다. 기존 C3 정면과 다른 사선 구도에서 왼쪽 거친 암반 균열의 탁한 물줄기와 그 바로 아래 얕은 젖은 바닥이 연속해서 보인다. 오른쪽 철재 지보와 닫힌 암반 천장·전기 조명, 바깥쪽 마른 작업 통로가 구분되고 작은 기계·인물은 물줄기와 분리된다. 읽는 글자·로고·파이프 조각·주간 하늘 틈은 발견하지 않았다. 정확 유량은 그림에서 측정하지 않고 편집 귀속 표기로 처리한다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+        "result_media_url": "https://flow-content.google/image/240d18a0-1a63-4581-a337-28c2154b8357",
+        "raw_file": "v1_o001_2.jpg",
+        "clean_file": "v1_o001_2.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "AT_C",
+            "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+            "source_media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "ep09_image_prompts",
+            "evidence": "generation_records_v1/o001_2.json actual input observation: Visible central editor image src matched exact selected master media revision before submission. Re-read visible main src immediately before generation; still same chosen source. Current-image editor above edit field supplied actual original Flow image; not local dewm PNG."
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_o001_2.jpg",
+          "sha256": "0923c115fe3e861c6cfac1a2b452fb560e793843ea37bd3c8bed84b30a4d1551",
+          "bytes": 301685,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o001_2.png",
+          "sha256": "328949a52b205ee4a969a365467550b22e62a5606855717764acce3b4c47d52c",
+          "bytes": 2218185,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "AT_C",
+      "reference_picks": {
+        "AT_C": {
+          "attempt": 3,
+          "file": "v1_AT_C_3.png",
+          "sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+          "source_media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9"
+        }
+      },
+      "recorded_at": "2026-10-27T13:58:47+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "o002",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "root가 raw·clean 원본 크기로 직접 보았다. 지보된 터널과 정면 굴착기는 보이나 face에서 물과 함께 내려오는 작은 토사·파편 및 그 바로 아래 받는 젖은 pile이 명확하지 않다. 젖은 바닥만으로 승인문장의 물+토사 동반 유입이나 현재 motion의 기존 공급·수신 경로를 증명하지 못한다. C3 정면 구도도 강하게 반복한다. S01d를 낮은 측면 근접구도로 바꾸고 기존 균열 포켓→소량 탁수·작은 입자→바로 아래 기존 wet pile을 한 화면에 명시해 재생성한다. 읽는 글자는 발견하지 않았다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+        "result_media_url": "https://flow-content.google/image/ca24cb41-2ac1-454d-93fb-0fa086a72879",
+        "raw_file": "v1_o002_1.jpg",
+        "clean_file": "v1_o002_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "AT_C",
+            "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+            "source_media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "ep09_image_prompts",
+            "evidence": "generation_records_v1/o002_1.json actual input observation: Actual visible central editor input src matched selected master revision before submission. Re-read visible src immediately before submit; still exact selected source. Actual input was Flow original source, not a locally cleaned PNG."
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_o002_1.jpg",
+          "sha256": "2ef24148e17ba18d7a532d418c173860285035ead6bdd7b48234f521403b6917",
+          "bytes": 292253,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o002_1.png",
+          "sha256": "3f47d807ef244362ab290d9dd60520aebc2874bac582bd3cef8b09e5e7e9f1e9",
+          "bytes": 2196011,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "AT_C",
+      "reference_picks": {
+        "AT_C": {
+          "attempt": 3,
+          "file": "v1_AT_C_3.png",
+          "sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+          "source_media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9"
+        }
+      },
+      "recorded_at": "2026-10-27T14:01:04+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
     }
   ],
   "legacy_record": {
@@ -852,8 +1035,90 @@
         }
       ],
       "result_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f"
+    },
+    "G3D_DEEP": {
+      "attempt": 3,
+      "file": "v1_G3D_DEEP_3.png",
+      "raw_file": "v1_G3D_DEEP_3.jpg",
+      "reference": "G3D_EXC",
+      "planned_ref": "G3D_EXC",
+      "reference_picks": {
+        "G3D_EXC": {
+          "attempt": 4,
+          "file": "v1_G3D_EXC_4.png",
+          "sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+          "source_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f"
+        }
+      },
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+      "reason": "root가 raw JPEG와 처리 PNG를 원본 크기로 직접 확인했다. 왼쪽 개방 구간 전 길이에 깊은 U자 영구 바닥이 이어지고 상부·측벽 라이닝과 연결되는 단면, 그 안의 얇은 평탄 슬래브, 제거된 하부 암반 bench, 분리된 작은 측면 배수를 확인했다. 가까운 쪽 벽을 제거한 설명용 절개이며 오른쪽 전방 암반은 불투명한 고체로 유지된다. 초기 상부 굴착의 임시 바닥과 구분되는 후기 영구 구조 기준으로 선택한다. 글자·인물·노출된 굽은 선진 파이프는 보이지 않았다.",
+      "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "actual_ui_references": [
+        {
+          "id": "G3D_EXC",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+          "source_media_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
+          "method": "current_image_editor_input",
+          "observed_before_submit": true,
+          "observed_by": "ep09_image_prompts",
+          "evidence": "generation_records_v1/G3D_DEEP_3.json: 제출 직전 편집기 입력 이미지 src가 선택 EXC4 revision dcf20746-d09d-48e9-b963-bcc682e40e2f와 일치함을 직접 관찰. 동일 revision의 원본 SHA 대조는 앞선 DEEP1 검증을 재사용했고 이번 재다운로드로 주장하지 않는다."
+        }
+      ],
+      "result_media_url": "https://flow-content.google/image/6cfcd5d1-a6b2-4038-927b-28ff5df1cd7a"
+    },
+    "o001": {
+      "attempt": 2,
+      "file": "v1_o001_2.png",
+      "raw_file": "v1_o001_2.jpg",
+      "reference": "AT_C",
+      "planned_ref": "AT_C",
+      "reference_picks": {
+        "AT_C": {
+          "attempt": 3,
+          "file": "v1_AT_C_3.png",
+          "sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+          "source_media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9"
+        }
+      },
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "328949a52b205ee4a969a365467550b22e62a5606855717764acce3b4c47d52c",
+      "reason": "root가 raw JPEG·처리 PNG를 각각 원본 크기로 열었다. 기존 C3 정면과 다른 사선 구도에서 왼쪽 거친 암반 균열의 탁한 물줄기와 그 바로 아래 얕은 젖은 바닥이 연속해서 보인다. 오른쪽 철재 지보와 닫힌 암반 천장·전기 조명, 바깥쪽 마른 작업 통로가 구분되고 작은 기계·인물은 물줄기와 분리된다. 읽는 글자·로고·파이프 조각·주간 하늘 틈은 발견하지 않았다. 정확 유량은 그림에서 측정하지 않고 편집 귀속 표기로 처리한다.",
+      "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+      "actual_ui_references": [
+        {
+          "id": "AT_C",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+          "source_media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+          "method": "current_image_editor_input",
+          "observed_before_submit": true,
+          "observed_by": "ep09_image_prompts",
+          "evidence": "generation_records_v1/o001_2.json actual input observation: Visible central editor image src matched exact selected master media revision before submission. Re-read visible main src immediately before generation; still same chosen source. Current-image editor above edit field supplied actual original Flow image; not local dewm PNG."
+        }
+      ],
+      "result_media_url": "https://flow-content.google/image/240d18a0-1a63-4581-a337-28c2154b8357"
     }
   },
-  "chosen_count": 5,
-  "updated_at": "2026-10-27T13:33:35+09:00"
+  "chosen_count": 7,
+  "updated_at": "2026-10-27T14:01:04+09:00"
 }

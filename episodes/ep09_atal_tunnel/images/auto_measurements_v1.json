@@ -1,10 +1,8 @@
 {
   "scope": "image dimensions, luminance and neighbouring dhash only; not visual approval",
   "expected_count": 85,
-  "measured_count": 5,
+  "measured_count": 7,
   "missing_ids": [
-    "G3D_DEEP",
-    "o001",
     "o002",
     "o003",
     "o004",
@@ -130,6 +128,28 @@
       "dark": 3.8,
       "near": {},
       "reference_distance": {}
+    },
+    {
+      "id": "G3D_DEEP",
+      "file": "v1_G3D_DEEP_3.png",
+      "size": "1376x768",
+      "mean": 157.9,
+      "dark": 4.0,
+      "near": {},
+      "reference_distance": {
+        "G3D_EXC": 0.16
+      }
+    },
+    {
+      "id": "o001",
+      "file": "v1_o001_2.png",
+      "size": "1376x768",
+      "mean": 101.2,
+      "dark": 8.3,
+      "near": {},
+      "reference_distance": {
+        "AT_C": 0.46
+      }
     }
   ]
 }

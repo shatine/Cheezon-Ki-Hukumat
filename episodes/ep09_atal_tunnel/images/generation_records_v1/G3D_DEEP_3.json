@@ -1,0 +1,86 @@
+{
+  "id": "G3D_DEEP",
+  "attempt": 3,
+  "kind": "master",
+  "status": "generated; awaiting root strict review",
+  "recorded_at_utc": "2026-10-27T04:53:03.007Z",
+  "record_basis": "Post-completion record of actual session UI observations. A normal reload cleared visible error banners before this separately authorized attempt; authentication completion was not assumed.",
+  "exact_submitted_prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. For this engineering model only: rock = grey-brown, steel ribs and shotcrete = neutral grey, straight advance pipes = teal, injected grout = purple, water itself = blue, water-pressure PUSH arrows = orange. These are explanatory colours, not a claim about the site materials. Use the actual reference ONLY for the material colours, single-bore identity and left-to-right axis. REBUILD its open left tunnel segment as a clearly LATER structural stage, not a small addition to the old floor. the SAME later-stage weak-ground tunnel model as the reference, in the same left-to-right coordinate system: one tunnel with a deep curved final invert below the flat roadway, the crown, side walls and bottom connected into a closed structural ring. The lower ground has already been excavated. This is the later final structure, not the earlier temporary closure of the upper heading and not a claim about every normal section. The ENTIRE lower rock bench beneath the left excavated segment has now been removed, all the way from the front end to the middle working-face limit. A longitudinal near-half cut exposes this full lower excavation and the deep curved bottom along its full length. A large front cut section must show ONE continuous thick neutral-grey permanent lining: curved crown, both side walls and deep U-shaped bottom joined seamlessly into a CLOSED RING. Do not leave a gap between a steel rib foot and the final bottom; the permanent lining is the connected structure, not a separate short trough attached only at the front. Replace or cover the former exposed arch ribs with this continuous permanent lining. The deep U-shaped bottom extends throughout the visible left tunnel length, never only as a tiny front cup. Put a thin flat grey road slab INSIDE that ring, above its lowest bottom. No solid bench remains between this slab and the curved bottom. The right-hand forward rock block stays solid, but the cut must clearly reveal the entire already excavated lower volume on the left. Show two small separate drainage channels behind the side lining, never using the open lower cell or roadway as a drain. The advance pipes may remain hidden in surrounding ground; do not reintroduce exposed long pipes on the outer right block. No temporary upper-heading invert, no retained lower bench, no traffic, no arrows, no grout. Bright front-side three-quarter cut-away with the connected ring and longitudinal bottom both clearly visible. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "959cd5d2bb8d30b50c6c93642c8c1bb3293c2b6073f6aa4c6f4f2cb704bbeb30",
+  "submitted_text_verified_after_completion": true,
+  "submitted_text_character_count": 3066,
+  "submit_initiated_at_utc": "2026-10-27T04:51:45.235Z",
+  "submit_acknowledged_at_utc": "2026-10-27T04:51:45.638Z",
+  "first_acknowledged_progress_percent": 0,
+  "input": {
+    "ref": "G3D_EXC",
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "observed_at_utc": "2026-10-27T04:51:38.481Z",
+    "source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "source_asset_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "actual_reference_media_source_url": "https://flow-content.google/image/dcf20746-d09d-48e9-b963-bcc682e40e2f",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_4.jpg",
+    "original_sha256": "b051604cb4cbc1569827a1fee049d88bca120c08f9d6c3fd72b187cce8e8e421",
+    "byte_identity_evidence_reused_from": "generation_records_v1/G3D_DEEP_1.json input verification",
+    "new_reference_download_this_attempt": false,
+    "evidence": [
+      "Selected EXC4 history tile, directly read the visible central editor image src and matched dcf20746-d09d-48e9-b963-bcc682e40e2f before submit.",
+      "Re-read actual visible source src immediately before clicking generation; still exact selected EXC4, not DEEP1.",
+      "Same exact media revision-to-raw SHA proof reused from earlier DEEP1 verification; no repeat reference download claimed.",
+      "Image supplied as current editor input above the edit text field. No local upload."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "observed_at_utc": "2026-10-27T04:51:38.799Z",
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "model_basis": "Directly visible in editor screenshot at 2026-10-27T04:50:52.599Z; unchanged for this attempt.",
+    "aspect_ratio": "16:9",
+    "aspect_directly_observed_before_submit": true,
+    "cost_credits": 0,
+    "cost_directly_observed_before_submit": true,
+    "output_count_selector_visible": false,
+    "output_count_note": "Prior x1 setting unchanged; no separate count selector in this editor, not claimed as fresh direct x1 measurement.",
+    "generated_result_entries_observed": 1
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T04:52:28.690Z",
+    "container_editor_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "container_editor_asset_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "result_media_source_url": "https://flow-content.google/image/6cfcd5d1-a6b2-4038-927b-28ff5df1cd7a",
+    "result_media_id": "6cfcd5d1-a6b2-4038-927b-28ff5df1cd7a",
+    "media_source_observed_from": "src of visible main image after selecting completed DEEP3 history result; origin/path only, signed query omitted",
+    "container_url_is_revision_ambiguous": true,
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\6cfcd5d1-a6b2-4038-927b-28ff5df1cd7a.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_DEEP_3.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "811a0ee8794d01299f76fe3f4c88213baff192464c09319cccf7debbb6ba34f4",
+      "bytes": 150971
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_DEEP_3.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+      "bytes": 1004106
+    }
+  },
+  "quick_visual_check": {
+    "performed": true,
+    "observed_by": "ep09_image_prompts",
+    "scope": "whole raw image only; no structural acceptance",
+    "observations": "Continuous smooth grey lining and a deep curved bottom extend along the exposed left tunnel length, with a flat slab inside. Small lateral drainage channels are visible. No teal pipes, purple grout, people or readable text seen at this quick view. Complete structural-ring interpretation remains for root strict review."
+  },
+  "strict_review_and_selection": "root manages picks; no acceptance asserted",
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": false,
+  "additional_generation_submitted": false
+}

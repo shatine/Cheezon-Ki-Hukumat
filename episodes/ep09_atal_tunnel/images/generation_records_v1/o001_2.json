@@ -1,0 +1,94 @@
+{
+  "id": "o001",
+  "attempt": 2,
+  "kind": "frame",
+  "status": "generated; awaiting root strict review",
+  "recorded_at_utc": "2026-10-27T04:57:21.152Z",
+  "record_basis": "Post-completion record from actual UI observations; exact submitted prompt retained independently of later generator changes.",
+  "prompt_source_file": "images/prompts_v1.json",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright even neutral-white ELECTRIC tunnel lighting, clear high-key exposure with well-lit light-grey surfaces, vivid natural colours, sharp focus, 16:9. Entirely underground beneath a continuous solid rock-and-shotcrete ceiling. No sky, daylight, sunlight, windows, skylights, open roof gaps or glowing holes through the rock. No sepia filter. No text, no letters, no logos, no watermark. Indian adults only, people distant and small, faces not close-up. Using the reference image: the SAME construction reconstruction as the reference: one upper-heading excavation in weak fractured grey-brown ground, grey steel support ribs and rough shotcrete behind the working face, a compact unbranded yellow tracked machine with completely plain blank body panels, no decals or insignia, and small Indian adult workers seen from behind or the side. Visible neutral-white electric work lamps are mounted beneath the closed shotcrete roof and evenly illuminate the working face. The roof between every support rib is solid opaque grey rock or shotcrete, including directly above the heading. No skylight, surface opening or daylight gap. No identifiable real worker or archival-photograph claim. A strong inflow of muddy water emerges from visible cracks at the excavated face and falls into an already wet, shallow local collecting area at its base. Keep a clear supported dry working strip to the side; do not make a rising flood. Take the camera from the safely supported RIGHT wall at shoulder height, looking diagonally toward the face on the LEFT background. This must be a distinctly different angle from the reference, not a centred front view or a crop of its composition. The compact yellow machine and at most two tiny adult workers stay far back on the dry left side, viewed from behind or the side. The water and rough face dominate; no foreground machine, no loose disconnected pipe pieces and no invented operating drainage system. Show abundant inflow without a measurement scale or a claim of exact visible litres. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "c92691031cb609916a361fac5059f05ff8bf054bc151ccdabfee677aafd168cf",
+  "submitted_text_verified_after_completion": true,
+  "submitted_text_character_count": 2504,
+  "submit_initiated_at_utc": "2026-10-27T04:56:23.471Z",
+  "submit_acknowledged_at_utc": "2026-10-27T04:56:24.008Z",
+  "first_acknowledged_progress_percent": 0,
+  "source_ids": [
+    "S01a",
+    "S01b"
+  ],
+  "visual_source_ids": [
+    "S01b"
+  ],
+  "input": {
+    "ref": "AT_C",
+    "selected_attempt": 3,
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "observed_at_utc": "2026-10-27T04:56:21.950Z",
+    "source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "source_asset_id": "cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "actual_reference_media_source_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_C_3.jpg",
+    "original_sha256": "5acec3d0367f7d8814e5c8a416b830b832b1dcb58e10c762a3cef253e8739148",
+    "byte_identity_evidence_reused_from": "reference_assets_v1.json source_revision_resolution, plus prior actual source byte verification",
+    "new_reference_download_this_attempt": false,
+    "evidence": [
+      "Visible central editor image src matched exact selected master media revision before submission.",
+      "Re-read visible main src immediately before generation; still same chosen source.",
+      "Current-image editor above edit field supplied actual original Flow image; not local dewm PNG."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "observed_at_utc": "2026-10-27T04:56:22.909Z",
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "model_basis": "Inherited unchanged from direct editor observation at 2026-10-27T04:50:52.599Z; not freshly observed in every popup.",
+    "aspect_ratio": "16:9",
+    "aspect_directly_observed_before_submit": true,
+    "cost_credits": 0,
+    "cost_directly_observed_before_submit": true,
+    "output_count_selector_visible": false,
+    "output_count_note": "Previous x1 composer setting unchanged; no count selector in current image editor. One new result entry observed.",
+    "generated_result_entries_observed": 1
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T04:57:20.772Z",
+    "container_editor_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "container_editor_asset_id": "cd6db3c3-bb6c-47ff-aa86-81589494c904",
+    "result_media_source_url": "https://flow-content.google/image/240d18a0-1a63-4581-a337-28c2154b8357",
+    "result_media_id": "240d18a0-1a63-4581-a337-28c2154b8357",
+    "media_source_observed_from": "src of visible main completed result; origin/path only, signed query omitted",
+    "container_url_is_revision_ambiguous": true,
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\240d18a0-1a63-4581-a337-28c2154b8357.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_o001_2.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "0923c115fe3e861c6cfac1a2b452fb560e793843ea37bd3c8bed84b30a4d1551",
+      "bytes": 301685
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o001_2.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "328949a52b205ee4a969a365467550b22e62a5606855717764acce3b4c47d52c",
+      "bytes": 2218185
+    }
+  },
+  "quick_visual_check": {
+    "performed": true,
+    "observed_by": "ep09_image_prompts",
+    "scope": "whole raw image only; no acceptance",
+    "observations": "Oblique excavation reconstruction shows water descending from a left rocky face into shallow muddy collection, a supported grey tunnel section on the right, electric lamps, yellow excavator and two distant workers. No added drainage machine or readable text seen. Root to assess camera and physical continuity."
+  },
+  "strict_review_and_selection": "root manages picks; no acceptance asserted",
+  "local_upload_used": false,
+  "extension_settings_changed": false,
+  "captcha_solved": false,
+  "video_generation_submitted": false
+}

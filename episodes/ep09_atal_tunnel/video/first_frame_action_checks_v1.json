@@ -2,13 +2,18 @@
   "scope": "manual visual compatibility of actual selected first frames",
   "clips": {
     "o001": {
-      "reviewed": false,
-      "compatible": false,
-      "required_features_present": false,
-      "confirmed_pick_file": null,
-      "confirmed_pick_sha256": null,
-      "notes": "",
-      "confirmed_motion_contract_sha256": null
+      "reviewed": true,
+      "compatible": true,
+      "required_features_present": true,
+      "confirmed_pick_file": "v1_o001_2.png",
+      "confirmed_pick_sha256": "328949a52b205ee4a969a365467550b22e62a5606855717764acce3b4c47d52c",
+      "notes": "실제 선택 PNG 원본에서 기존 face cracks→아래쪽 muddy inflow→이미 젖은 shallow receiving area가 끊기지 않고, 오른쪽 supported dry working strip이 보인다. 현재 o001 motion은 같은 물의 하향 흐름과 국소 물보라·잔물결만 허용하며 장비·작업로 고정, 새 호스/배수체계/수위상승 금지다. 세 required_existing_features가 현재 이미지에 있고 새 물체를 만들 필요가 없다.",
+      "confirmed_motion_contract_sha256": "50a890852c17506e823c4d73fd52d95f67f580688226857342a952a5fe1e7ba0",
+      "root_opened_selected_png_original": true,
+      "decision_source_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\review_edit\\frame_action_decisions\\o001.json",
+      "decision_source_sha256": "96f4af65bb4284dfb65e7b74feb358f4c2902f9e0c7343857283329be4530499",
+      "declaration_basis": "explicit root decision JSON; helper performed no visual review",
+      "recorded_at_utc": "2026-10-27T04:58:47.756396+00:00"
     },
     "o002": {
       "reviewed": false,

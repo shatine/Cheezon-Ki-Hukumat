@@ -1,5 +1,5 @@
 {
-  "status": "draft_valid_not_ready",
+  "status": "ready_blocked",
   "scope": "prompt_definition_and_actual_first_frame_resolution_only",
   "generation_authorized": false,
   "actual_muse_submission_performed": false,
@@ -12,17 +12,12 @@
     "동작": 3
   },
   "camera_move_count": 0,
-  "selected_video_frames": 0,
-  "ready_video_frames": 0,
-  "actual_chosen_images": 5,
+  "selected_video_frames": 1,
+  "ready_video_frames": 1,
+  "actual_chosen_images": 7,
   "expected_image_assets": 85,
   "definition_errors": [],
   "readiness_blockers": [
-    {
-      "id": "o001",
-      "frame_readiness": "missing_pick",
-      "reason": "No actual chosen first frame exists for this source ID"
-    },
     {
       "id": "o002",
       "frame_readiness": "missing_pick",
