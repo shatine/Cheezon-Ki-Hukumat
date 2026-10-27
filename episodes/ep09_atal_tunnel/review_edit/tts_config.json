@@ -1,0 +1,14 @@
+{
+  "voice": "charonclone",
+  "seed": 7,
+  "speed": 1.0,
+  "sentence_lufs": -16,
+  "true_peak_dbtp": -1.5,
+  "sentence_gap_seconds": 0.35,
+  "paragraph_gap_seconds": 0.8,
+  "sample_rate_hz": 24000,
+  "engine": "omnivoice",
+  "api": "http://127.0.0.1:3900/generate",
+  "lines_sha256": "5724478c46c6a0efcdb40176ea65b2374da1c1a33c343c323c20f39c3a5351c7",
+  "voice_reference_sha256": "3324f630ef5918604b5d53d3e489b45be08d4d55030cfd5ce06eb6172f4357e2"
+}

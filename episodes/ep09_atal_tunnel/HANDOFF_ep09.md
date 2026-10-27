@@ -1,12 +1,13 @@
 # 9편 인계 — Atal Tunnel
 
-갱신: 2026-10-27 (한국 시간). **한국어 검토본 작성 완료, 사용자 검수 대기.**
+갱신: 2026-10-27 (한국 시간). **한국어 확정·힌디어 78문장 대응 검토 완료, 무료 로컬 TTS 생성 중.**
 
 ## 사용자 확정 사항
 
 - 2026-10-27: 사용자 선정 소재는 아탈 터널. `../ep08/topic_candidates.md`에서 이어 시작하라고 지시했다.
-- 지금 확정된 것은 **소재**다. 첫 문장·썸네일·한국어 대본·힌디어 본문을 사용자 확정으로 표기하지 않는다.
-- 추천 중심 질문: **물이 쏟아지는 산을 어떻게 뚫었을까?**
+- 2026-10-27: 첫 문장·한국어 검토본 확정 질문에 사용자 “진행”. S01–S24의 한국어 내용·순서·숫자를 고정했다.
+- 확정 중심 질문: **물이 쏟아지는 산을 어떻게 뚫었을까?**
+- 힌디어는 승인 한국어의 문장별 의미 대응을 검토한 제작본이다. 사용자가 힌디어 음성을 직접 청취했다고 표기하지 않는다.
 - 기존 7·8편 확정본은 수정하지 않았다.
 
 ## 상태
@@ -16,13 +17,14 @@
 | 저장소·지침 | 확인 | main 갱신. portable 문서 우선, 해당 단계 스킬 적용 |
 | 소재 | 사용자 확정 | `topic_candidates.md` |
 | 참고 영상 | 조사·범위 기록 완료 | 같은 주제 100만+ 3편 확인. 그중 2편 자막 전체, 1편은 잘못 인식된 자막 때문에 표본 7프레임만 검토. 기술 영상 2편·노선 맥락 영상 1편 보완. `opening_candidates.md`, `refs_analysis.md`, `refs/metadata.json` |
-| 도입부·썸네일 질문 | 추천안 작성, 사용자 확정 전 | `opening_candidates.md` A안. 힌디어 문구·썸네일 이미지 미제작 |
-| 한국어 대본·근거표 | **내부 재검토 완료, 사용자 검수 대기** | `script/script_ko_review.md`, S01–S24, E1–E12 |
+| 도입부·썸네일 질문 | **사용자 확정** | `opening_candidates.md` A안. 힌디어 질문은 S01a·S13b·S22b와 동일. 썸네일 이미지 미제작 |
+| 한국어 대본·근거표 | **사용자 검수 완료·고정** | `script/script_ko_final.md`, S01–S24, E1–E12. 본문 SHA-256은 `script/script_lock.json` |
 | 근거 조사 | 완료·접근 한계 기록 | `research/evidence.md` |
 | 질문·시각 증명 | 개념 설계 | `script/story_structure.md`. 시간표·컷 계획 아님 |
-| 힌디어·TTS | 미시작 | 한국어 확정 뒤. `narr_timing.json` 없음 |
+| 힌디어 | **78문장 대응·교차 검토 완료** | `script/lines_hi_ko.tsv`, `script/source_ko_sentences.json`, `script/narration_hi.txt`, `review/translation_review.md` |
+| TTS | **무료 로컬 생성·엄격 검사 중** | PC `D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit`. charonclone·seed7·speed1.0. 첫 문장은 같은 seed 분할 생성으로 통과 |
 | 컷 계획·이미지·영상·편집 | 미시작 | 실측 전에 제작 시각을 추정하지 않음 |
-| PC 작업 지시 | 없음 | 지금 실행할 생성·렌더 주문 없음 |
+| PC 작업 지시 | TTS 실행·재개 지침 | `WORK_ORDER_tts_v1.md`. 오디오는 PC에만 보관 |
 
 ## 핵심 내용과 판단
 
@@ -36,12 +38,12 @@
 
 ## 다음 세션이 할 일
 
-1. 사용자가 첫 문장과 S01–S24를 검수한 내용을 확인한다. 사용자가 직접 고친 문장은 그대로 반영한다.
-2. **전체 검수 완료가 명확한 뒤에만** `script/script_ko_final.md`로 고정하고 제목에 검수 완료일을 적는다. 그 뒤 내용·숫자·순서를 임의 변경하지 않는다.
-3. `backup_portable/skills/step3_hindi_tts.md`를 읽고 문장별 힌디어 대응표를 만든다. 첫 문장과 힌디어 썸네일 질문의 의미를 일치시킨다.
-4. 무료 Voice Studio, charonclone, seed7, speed1.0의 PC 작업 지시를 준비한다. 기존 템플릿을 사용하고 실측 `narr_timing.json`을 받은 뒤 컷 계획으로 넘어간다.
-5. Muse 생성·유료 작업은 별도 승인 기록을 확인한다. 이번 “시작” 지시를 아직 검수하지 않은 대본의 확정이나 유료 영상 승인으로 해석하지 않는다.
+1. TTS 실행 중이면 PC `tts_run_v1.log`와 `narr_check.json`의 실제 진행을 확인한다. 같은 실행을 중복으로 시작하지 않는다.
+2. 완료한 78개 WAV의 실제 길이·검사 결과·입력 해시를 검증한다. 불합격을 임의 통과 처리하지 않는다. 오디오는 git에 넣지 않는다.
+3. 실측 `narr_timing.json`, `narr_check.json`과 요약을 저장소에 공유하고, `backup_portable/skills/step4_plan.md`에 따라 컷 계획을 만든다.
+4. `script_ko_final.md` 본문 해시를 유지한다. 길이에 맞춰 대본을 줄이거나 늘리지 않는다.
+5. Muse 생성·유료 작업은 별도 승인 기록을 확인한다. 이번 한국어 확정·무료 TTS 진행을 유료 영상 승인으로 해석하지 않는다.
 
 ## 검수 기록
 
-`review/script_review.md`는 실제 텍스트·원문 대조 판단과 자동 문서 검사를 구분한다. 사용자 검수·음성 청취·이미지/영상 검수는 수행하지 않았다.
+`review/script_review.md`는 확정 전 내용 검토 기록, `review/translation_review.md`는 번역 의미 대조 기록이다. 사용자 한국어 승인과 자동 검사, 실제 음성 청취·이미지/영상 검수를 구분한다. 사용자가 새 힌디어 음성을 청취했다는 기록은 아직 없다.

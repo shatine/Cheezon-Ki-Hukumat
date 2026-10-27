@@ -1,0 +1,17 @@
+{
+  "checked_date": "2026-10-27",
+  "scope": "Text and integrity checks; audio and timing checked separately",
+  "paragraph_count": 24,
+  "sentence_count": 78,
+  "hindi_word_count": 1337,
+  "checks": {
+    "locked_korean_body_sha256_matches": true,
+    "all_78_ids_match_approved_source_order": true,
+    "three_columns_every_row": true,
+    "hindi_no_arabic_digits_latin_or_hangul": true,
+    "opening_recall_identical": true,
+    "cta_exact": true,
+    "pure_narration_24_paragraphs": true
+  },
+  "errors": []
+}

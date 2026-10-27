@@ -1,0 +1,5 @@
+__pycache__/
+review_edit/narr/
+review_edit/narration_hi.wav
+review_edit/lines.tsv
+review_edit/tts_run*.log
