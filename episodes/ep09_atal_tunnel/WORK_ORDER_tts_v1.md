@@ -2,7 +2,7 @@
 
 2026-10-27. 한국어 확정 승인: 같은 날짜 사용자 “진행”. 무료 로컬 생성만 실행한다. 영상 생성 승인이 아니다.
 
-진행 현황: 로컬 실행 준비 완료, 첫 문장 생성·검사 중. 실행 결과는 `review_edit/tts_report.md`와 HANDOFF에 갱신한다.
+진행 현황: **78/78 생성·엄격 검사·전체 조립 검증 완료. 469.412초.** 실패 ID 없음. 완료된 WAV는 유지하며 아래 명령은 재개·재검증할 때만 사용한다. `review_edit/tts_report.md`, `tts_validation.json` 참조. 직접 청취 검수는 미수행이다.
 
 ## 경로
 
@@ -42,11 +42,18 @@ python -u 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit\
 
 ## 3. 결과 공유
 
-전체 검사 후 아래 두 JSON과 검사 요약만 저장소에 넣는다. 오디오는 git에 넣지 않는다.
+전체 생성 뒤 실제 WAV와 시간표를 검증한다.
+
+```powershell
+python 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\review_edit\verify_tts.py'
+```
+
+`automatic_checks_passed`, 78문장·실패0·오류0을 확인했다. `narr_timing.json`, `narr_check.json`, `tts_validation.json`과 검사 요약만 저장소에 넣는다. 오디오는 git에 넣지 않는다.
 
 ```powershell
 Copy-Item -LiteralPath 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit\narr_timing.json' -Destination 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\review_edit\narr_timing.json'
 Copy-Item -LiteralPath 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit\narr_check.json' -Destination 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\review_edit\narr_check.json'
+Copy-Item -LiteralPath 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit\tts_validation.json' -Destination 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\review_edit\tts_validation.json'
 git -C 'D:\youtube\Cheezon-Ki-Hukumat' add -- 'episodes/ep09_atal_tunnel/review_edit/narr_timing.json' 'episodes/ep09_atal_tunnel/review_edit/narr_check.json'
 git -C 'D:\youtube\Cheezon-Ki-Hukumat' commit -m 'Add ep09 measured narration timing and checks'
 git -C 'D:\youtube\Cheezon-Ki-Hukumat' push origin main

@@ -1,6 +1,6 @@
 # 9편 인계 — Atal Tunnel
 
-갱신: 2026-10-27 (한국 시간). **한국어 확정·힌디어 78문장 대응 검토 완료, 무료 로컬 TTS 생성 중.**
+갱신: 2026-10-27 (한국 시간). **한국어 확정·힌디어 78문장·무료 로컬 TTS 완료(469.412초). 실측 컷 계획과 이미지 프롬프트 작성 중.**
 
 ## 사용자 확정 사항
 
@@ -22,8 +22,10 @@
 | 근거 조사 | 완료·접근 한계 기록 | `research/evidence.md` |
 | 질문·시각 증명 | 개념 설계 | `script/story_structure.md`. 시간표·컷 계획 아님 |
 | 힌디어 | **78문장 대응·교차 검토 완료** | `script/lines_hi_ko.tsv`, `script/source_ko_sentences.json`, `script/narration_hi.txt`, `review/translation_review.md` |
-| TTS | **무료 로컬 생성·엄격 검사 중** | PC `D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit`. charonclone·seed7·speed1.0. 첫 문장은 같은 seed 분할 생성으로 통과 |
-| 컷 계획·이미지·영상·편집 | 미시작 | 실측 전에 제작 시각을 추정하지 않음 |
+| TTS | **78/78 자동 검사 통과·469.412초** | PC `D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit`. charonclone·seed7·speed1.0. 실제 WAV·타이밍·순서·원문 해시 검사 통과. 직접 청취 미수행 |
+| 컷 계획 | 작성·실측 실행 중 | TTS 실측만 사용. 10초는 영상 제작 요구 사양이며 현재 Muse 설정 확인·실제 사용 구간 측정은 생성 후 별도 |
+| 이미지 | 기준 형상·프롬프트 준비 | `images/reference_brief.md`. 실제 포털·단면 관찰 범위 기록. Flow 지정 프로젝트 Nano Banana 2.1·16:9·x1·0크레딧 UI 확인. 생성·시각 검수 미완료 |
+| 영상·편집 | 미시작 | Muse 생성 승인 미기록 |
 | PC 작업 지시 | TTS 실행·재개 지침 | `WORK_ORDER_tts_v1.md`. 오디오는 PC에만 보관 |
 
 ## 핵심 내용과 판단
@@ -38,9 +40,9 @@
 
 ## 다음 세션이 할 일
 
-1. TTS 실행 중이면 PC `tts_run_v1.log`와 `narr_check.json`의 실제 진행을 확인한다. 같은 실행을 중복으로 시작하지 않는다.
-2. 완료한 78개 WAV의 실제 길이·검사 결과·입력 해시를 검증한다. 불합격을 임의 통과 처리하지 않는다. 오디오는 git에 넣지 않는다.
-3. 실측 `narr_timing.json`, `narr_check.json`과 요약을 저장소에 공유하고, `backup_portable/skills/step4_plan.md`에 따라 컷 계획을 만든다.
+1. TTS는 완료했다. 필요할 때 `review_edit/verify_tts.py`로 재검증한다. 통과 WAV를 불필요하게 재생성하지 않는다. 오디오는 git에 넣지 않는다.
+2. 실측 `narr_timing.json`, `narr_check.json`, `tts_validation.json`과 요약을 기준으로 `backup_portable/skills/step4_plan.md`에 따라 컷 계획을 오류0으로 완성한다.
+3. 오류0 계획의 자산 ID와 일치하는 이미지 프롬프트를 만들고 기준 그림부터 Flow에서 한 장씩 생성·검수한다.
 4. `script_ko_final.md` 본문 해시를 유지한다. 길이에 맞춰 대본을 줄이거나 늘리지 않는다.
 5. Muse 생성·유료 작업은 별도 승인 기록을 확인한다. 이번 한국어 확정·무료 TTS 진행을 유료 영상 승인으로 해석하지 않는다.
 

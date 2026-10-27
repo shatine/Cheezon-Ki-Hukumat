@@ -1,0 +1,25 @@
+{
+  "checked_date": "2026-10-27",
+  "timezone": "Asia/Seoul",
+  "result": "automatic_checks_passed",
+  "scope": "Measured WAV/timing integrity and saved strict ASR checks; listening review not performed",
+  "sentence_count": 78,
+  "paragraph_count": 24,
+  "narration_seconds": 469.412,
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "integrated_lufs": -16.4,
+  "true_peak_dbtp": -1.4,
+  "strict_check_pass_count": 78,
+  "failed_ids": [],
+  "generation_methods": {
+    "split:seed7+seed7": 4,
+    "seed7": 66,
+    "seed7_comma": 8
+  },
+  "korean_body_sha256": "b6f91f4fcf8a86d100157ee3e1bdb51f4c392780625716b845d7075333eb34c6",
+  "narration_wav_sha256": "0a542c9b8d47e31643948ae8ce1b16f7bbf2962d028d30699e21a24a01353621",
+  "audio_folder": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\review_edit",
+  "audio_committed_to_git": false,
+  "errors": []
+}
