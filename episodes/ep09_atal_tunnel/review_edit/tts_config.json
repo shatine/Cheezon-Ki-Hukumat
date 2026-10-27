@@ -10,5 +10,6 @@
   "engine": "omnivoice",
   "api": "http://127.0.0.1:3900/generate",
   "lines_sha256": "5724478c46c6a0efcdb40176ea65b2374da1c1a33c343c323c20f39c3a5351c7",
-  "voice_reference_sha256": "3324f630ef5918604b5d53d3e489b45be08d4d55030cfd5ce06eb6172f4357e2"
+  "voice_reference_sha256": "3324f630ef5918604b5d53d3e489b45be08d4d55030cfd5ce06eb6172f4357e2",
+  "lines_canonicalization": "UTF-8 without BOM; LF line endings; narration characters unchanged"
 }

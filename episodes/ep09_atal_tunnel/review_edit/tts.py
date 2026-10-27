@@ -15,7 +15,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 TOOLS = Path(r"D:\youtube\7. Cheezon Ki Hukumat\.claude\skills\cheezon-production\tools")
 CONFIG = json.loads((HERE / "tts_config.json").read_text(encoding="utf-8"))
-input_bytes = (HERE / "lines.tsv").read_bytes()
+input_bytes = (HERE / "lines.tsv").read_text(encoding="utf-8-sig").replace("\r\n", "\n").replace("\r", "\n").encode("utf-8")
 if hashlib.sha256(input_bytes).hexdigest() != CONFIG["lines_sha256"]:
     raise RuntimeError("lines.tsv differs from the reviewed Hindi input")
 if hashlib.sha256((TOOLS / "voice_ref_male_charonclone.wav").read_bytes()).hexdigest() != CONFIG["voice_reference_sha256"]:
@@ -46,7 +46,9 @@ _original_tokens = _junk.tokens
 def decimal_tokens(text):
     # 9.02의 낭독형에서 0을 보존한다. 9.2를 9.02로 허용하지 않는다.
     text = re.sub(r"नौ\s+दशमलव\s+(?:शून्य|जीरो|ज़ीरो)\s+दो", "9.02", text)
-    return _original_tokens(text)
+    # 기존 fix_words가 가설에만 적용하던 표준/구어 지시어 대응을 원문에도 동일 적용.
+    equivalent = {_asr._base("यह"): _asr._base("ये"), _asr._base("वह"): _asr._base("वो")}
+    return [equivalent.get(token, token) for token in _original_tokens(text)]
 
 _junk.tokens = decimal_tokens
 _asr.tokens = decimal_tokens
