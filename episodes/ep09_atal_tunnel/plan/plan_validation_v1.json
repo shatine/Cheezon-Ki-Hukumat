@@ -1,0 +1,331 @@
+{
+  "status": "pass",
+  "scope": "registered_assets_and_plan_logic_only",
+  "actual_media_generated": false,
+  "actual_file_existence_checked": false,
+  "actual_visual_review_performed": false,
+  "fps": 30,
+  "narration_sec": 469.412,
+  "tail_sec": 1.0,
+  "output_frames": 14112,
+  "video_sec": 470.4,
+  "input_timing": "review_edit/narr_timing.json",
+  "input_timing_sha256": "e689418f7a00c701761052b636753560a7f9b31654e11ebfd45df0af6310ffdc",
+  "input_timing_hash_canonicalization": "UTF-8 without BOM; LF line endings",
+  "approved_ko_body_sha256": "b6f91f4fcf8a86d100157ee3e1bdb51f4c392780625716b845d7075333eb34c6",
+  "clip_requirement_seconds": 10.0,
+  "source_requirement_usable_end": 9.95,
+  "source_requirement_usable_frames": 298,
+  "clip_setting_confirmed_in_current_muse_ui": false,
+  "total_cuts": 79,
+  "video_sources": 50,
+  "image_sources": 29,
+  "opening_video_count": 4,
+  "nonprinciple_video_ratio": 0.161345496009122,
+  "nonprinciple_video_frames": 566,
+  "nonprinciple_frames": 3508,
+  "principle_sentences": 49,
+  "principle_coverage": [
+    {
+      "id": "S05a",
+      "narration_sec": 4.224,
+      "principle_video_sec": 4.224,
+      "ratio": 1.0
+    },
+    {
+      "id": "S05b",
+      "narration_sec": 6.76,
+      "principle_video_sec": 6.76,
+      "ratio": 1.0
+    },
+    {
+      "id": "S05c",
+      "narration_sec": 4.916,
+      "principle_video_sec": 4.916,
+      "ratio": 1.0
+    },
+    {
+      "id": "S06b",
+      "narration_sec": 4.402,
+      "principle_video_sec": 4.402,
+      "ratio": 1.0
+    },
+    {
+      "id": "S06c",
+      "narration_sec": 7.886,
+      "principle_video_sec": 7.886,
+      "ratio": 1.0
+    },
+    {
+      "id": "S06d",
+      "narration_sec": 4.536,
+      "principle_video_sec": 4.536,
+      "ratio": 1.0
+    },
+    {
+      "id": "S07b",
+      "narration_sec": 5.965,
+      "principle_video_sec": 5.965,
+      "ratio": 1.0
+    },
+    {
+      "id": "S07c",
+      "narration_sec": 3.774,
+      "principle_video_sec": 3.774,
+      "ratio": 1.0
+    },
+    {
+      "id": "S07d",
+      "narration_sec": 5.586,
+      "principle_video_sec": 5.586,
+      "ratio": 1.0
+    },
+    {
+      "id": "S08b",
+      "narration_sec": 6.526,
+      "principle_video_sec": 6.526,
+      "ratio": 1.0
+    },
+    {
+      "id": "S08c",
+      "narration_sec": 6.648,
+      "principle_video_sec": 6.648,
+      "ratio": 1.0
+    },
+    {
+      "id": "S09a",
+      "narration_sec": 3.664,
+      "principle_video_sec": 3.664,
+      "ratio": 1.0
+    },
+    {
+      "id": "S09b",
+      "narration_sec": 5.902,
+      "principle_video_sec": 5.902,
+      "ratio": 1.0
+    },
+    {
+      "id": "S09c",
+      "narration_sec": 7.63,
+      "principle_video_sec": 7.63,
+      "ratio": 1.0
+    },
+    {
+      "id": "S09d",
+      "narration_sec": 3.438,
+      "principle_video_sec": 3.438,
+      "ratio": 1.0
+    },
+    {
+      "id": "S10a",
+      "narration_sec": 4.835,
+      "principle_video_sec": 4.835,
+      "ratio": 1.0
+    },
+    {
+      "id": "S10b",
+      "narration_sec": 4.311,
+      "principle_video_sec": 4.311,
+      "ratio": 1.0
+    },
+    {
+      "id": "S10c",
+      "narration_sec": 3.005,
+      "principle_video_sec": 3.005,
+      "ratio": 1.0
+    },
+    {
+      "id": "S10d",
+      "narration_sec": 7.194,
+      "principle_video_sec": 7.194,
+      "ratio": 1.0
+    },
+    {
+      "id": "S11b",
+      "narration_sec": 8.588,
+      "principle_video_sec": 8.588,
+      "ratio": 1.0
+    },
+    {
+      "id": "S11c",
+      "narration_sec": 2.554,
+      "principle_video_sec": 2.554,
+      "ratio": 1.0
+    },
+    {
+      "id": "S12a",
+      "narration_sec": 7.685,
+      "principle_video_sec": 7.685,
+      "ratio": 1.0
+    },
+    {
+      "id": "S12b",
+      "narration_sec": 8.268,
+      "principle_video_sec": 8.268,
+      "ratio": 1.0
+    },
+    {
+      "id": "S12c",
+      "narration_sec": 5.626,
+      "principle_video_sec": 5.626,
+      "ratio": 1.0
+    },
+    {
+      "id": "S12d",
+      "narration_sec": 4.243,
+      "principle_video_sec": 4.243,
+      "ratio": 1.0
+    },
+    {
+      "id": "S13c",
+      "narration_sec": 8.236,
+      "principle_video_sec": 8.223333,
+      "ratio": 0.998462
+    },
+    {
+      "id": "S13d",
+      "narration_sec": 4.915,
+      "principle_video_sec": 4.915,
+      "ratio": 1.0
+    },
+    {
+      "id": "S14b",
+      "narration_sec": 10.126,
+      "principle_video_sec": 10.126,
+      "ratio": 1.0
+    },
+    {
+      "id": "S14c",
+      "narration_sec": 4.052,
+      "principle_video_sec": 4.052,
+      "ratio": 1.0
+    },
+    {
+      "id": "S15a",
+      "narration_sec": 5.291,
+      "principle_video_sec": 5.291,
+      "ratio": 1.0
+    },
+    {
+      "id": "S15b",
+      "narration_sec": 4.765,
+      "principle_video_sec": 4.765,
+      "ratio": 1.0
+    },
+    {
+      "id": "S15c",
+      "narration_sec": 2.863,
+      "principle_video_sec": 2.863,
+      "ratio": 1.0
+    },
+    {
+      "id": "S16a",
+      "narration_sec": 6.593,
+      "principle_video_sec": 6.587,
+      "ratio": 0.99909
+    },
+    {
+      "id": "S16b",
+      "narration_sec": 9.163,
+      "principle_video_sec": 9.163,
+      "ratio": 1.0
+    },
+    {
+      "id": "S16c",
+      "narration_sec": 5.799,
+      "principle_video_sec": 5.799,
+      "ratio": 1.0
+    },
+    {
+      "id": "S17a",
+      "narration_sec": 4.268,
+      "principle_video_sec": 4.268,
+      "ratio": 1.0
+    },
+    {
+      "id": "S17b",
+      "narration_sec": 5.226,
+      "principle_video_sec": 5.226,
+      "ratio": 1.0
+    },
+    {
+      "id": "S17c",
+      "narration_sec": 4.861,
+      "principle_video_sec": 4.861,
+      "ratio": 1.0
+    },
+    {
+      "id": "S17d",
+      "narration_sec": 5.591,
+      "principle_video_sec": 5.591,
+      "ratio": 1.0
+    },
+    {
+      "id": "S18a",
+      "narration_sec": 5.943,
+      "principle_video_sec": 5.943,
+      "ratio": 1.0
+    },
+    {
+      "id": "S18b",
+      "narration_sec": 9.26,
+      "principle_video_sec": 9.26,
+      "ratio": 1.0
+    },
+    {
+      "id": "S18c",
+      "narration_sec": 5.496,
+      "principle_video_sec": 5.496,
+      "ratio": 1.0
+    },
+    {
+      "id": "S19b",
+      "narration_sec": 6.541,
+      "principle_video_sec": 6.532,
+      "ratio": 0.998624
+    },
+    {
+      "id": "S19c",
+      "narration_sec": 5.847,
+      "principle_video_sec": 5.847,
+      "ratio": 1.0
+    },
+    {
+      "id": "S21a",
+      "narration_sec": 3.549,
+      "principle_video_sec": 3.549,
+      "ratio": 1.0
+    },
+    {
+      "id": "S21c",
+      "narration_sec": 7.025,
+      "principle_video_sec": 7.025,
+      "ratio": 1.0
+    },
+    {
+      "id": "S23a",
+      "narration_sec": 6.835,
+      "principle_video_sec": 6.835,
+      "ratio": 1.0
+    },
+    {
+      "id": "S23b",
+      "narration_sec": 6.457,
+      "principle_video_sec": 6.457,
+      "ratio": 1.0
+    },
+    {
+      "id": "S23c",
+      "narration_sec": 8.606,
+      "principle_video_sec": 8.606,
+      "ratio": 1.0
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "미디어 미생성: 실제 파일 존재·길이·밝기·형상·동작·글자·워터마크 검수는 수행하지 않음.",
+    "클립 10초는 명시한 제작 요구 사양. 현재 Muse 설정 직접 확인과 생성 후 USE 실측 갱신이 필요함.",
+    "계획상 영상은 정상 1.0배속의 새 소스. 감속·정지·반복·역재생은 허용하지 않음.",
+    "생성 뒤 탈락/사용 가능 구간 변경이 생기면 이 계획을 재배정하고 자동 점검을 다시 통과해야 함."
+  ]
+}

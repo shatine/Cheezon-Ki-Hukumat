@@ -1,0 +1,219 @@
+{
+  "status": "draft_from_measured_narration_review_after_final_edit",
+  "published": false,
+  "timing_source": "review_edit/narr_timing.json",
+  "narration_end_sec": 469.412,
+  "chapter_time_rule": "floor measured paragraph start to integer seconds; adjacent paragraphs grouped",
+  "chapters": [
+    {
+      "first_sentence": "S01a",
+      "last_sentence": "S02c",
+      "sentence_ids": [
+        "S01a",
+        "S01b",
+        "S01c",
+        "S01d",
+        "S02a",
+        "S02b",
+        "S02c"
+      ],
+      "measured_start_sec": 0.0,
+      "youtube_start_sec": 0,
+      "youtube_time": "0:00",
+      "duration_sec": 46,
+      "title_en": "A mountain gushing water",
+      "title_hi": "पहाड़ से पानी उमड़ रहा था"
+    },
+    {
+      "first_sentence": "S03a",
+      "last_sentence": "S04c",
+      "sentence_ids": [
+        "S03a",
+        "S03b",
+        "S03c",
+        "S03d",
+        "S04a",
+        "S04b",
+        "S04c"
+      ],
+      "measured_start_sec": 46.318,
+      "youtube_start_sec": 46,
+      "youtube_time": "0:46",
+      "duration_sec": 42,
+      "title_en": "Why go under the mountain?",
+      "title_hi": "पहाड़ के नीचे रास्ता क्यों?"
+    },
+    {
+      "first_sentence": "S05a",
+      "last_sentence": "S06d",
+      "sentence_ids": [
+        "S05a",
+        "S05b",
+        "S05c",
+        "S06a",
+        "S06b",
+        "S06c",
+        "S06d"
+      ],
+      "measured_start_sec": 88.979,
+      "youtube_start_sec": 88,
+      "youtube_time": "1:28",
+      "duration_sec": 39,
+      "title_en": "Why pumping alone was not enough",
+      "title_hi": "सिर्फ़ पानी निकालना काफ़ी क्यों नहीं था?"
+    },
+    {
+      "first_sentence": "S07a",
+      "last_sentence": "S08c",
+      "sentence_ids": [
+        "S07a",
+        "S07b",
+        "S07c",
+        "S07d",
+        "S08a",
+        "S08b",
+        "S08c"
+      ],
+      "measured_start_sec": 127.838,
+      "youtube_start_sec": 127,
+      "youtube_time": "2:07",
+      "duration_sec": 37,
+      "title_en": "Supporting the ground before digging",
+      "title_hi": "खुदाई से पहले ज़मीन को सहारा"
+    },
+    {
+      "first_sentence": "S09a",
+      "last_sentence": "S10d",
+      "sentence_ids": [
+        "S09a",
+        "S09b",
+        "S09c",
+        "S09d",
+        "S10a",
+        "S10b",
+        "S10c",
+        "S10d"
+      ],
+      "measured_start_sec": 164.999,
+      "youtube_start_sec": 164,
+      "youtube_time": "2:44",
+      "duration_sec": 44,
+      "title_en": "Short advances, immediate support",
+      "title_hi": "थोड़ी खुदाई, तुरंत सहारा"
+    },
+    {
+      "first_sentence": "S11a",
+      "last_sentence": "S12d",
+      "sentence_ids": [
+        "S11a",
+        "S11b",
+        "S11c",
+        "S12a",
+        "S12b",
+        "S12c",
+        "S12d"
+      ],
+      "measured_start_sec": 208.678,
+      "youtube_start_sec": 208,
+      "youtube_time": "3:28",
+      "duration_sec": 43,
+      "title_en": "Closing the structure below the road",
+      "title_hi": "सड़क के नीचे भी ढाँचा जोड़ना"
+    },
+    {
+      "first_sentence": "S13a",
+      "last_sentence": "S14c",
+      "sentence_ids": [
+        "S13a",
+        "S13b",
+        "S13c",
+        "S13d",
+        "S14a",
+        "S14b",
+        "S14c"
+      ],
+      "measured_start_sec": 251.367,
+      "youtube_start_sec": 251,
+      "youtube_time": "4:11",
+      "duration_sec": 38,
+      "title_en": "The space is supported, but water remains",
+      "title_hi": "जगह बची, लेकिन पानी अभी भी था"
+    },
+    {
+      "first_sentence": "S15a",
+      "last_sentence": "S16c",
+      "sentence_ids": [
+        "S15a",
+        "S15b",
+        "S15c",
+        "S15d",
+        "S16a",
+        "S16b",
+        "S16c"
+      ],
+      "measured_start_sec": 289.255,
+      "youtube_start_sec": 289,
+      "youtube_time": "4:49",
+      "duration_sec": 42,
+      "title_en": "Sealing some paths, draining others",
+      "title_hi": "कहीं पानी रोकना, कहीं निकालना"
+    },
+    {
+      "first_sentence": "S17a",
+      "last_sentence": "S19c",
+      "sentence_ids": [
+        "S17a",
+        "S17b",
+        "S17c",
+        "S17d",
+        "S18a",
+        "S18b",
+        "S18c",
+        "S19a",
+        "S19b",
+        "S19c"
+      ],
+      "measured_start_sec": 331.449,
+      "youtube_start_sec": 331,
+      "youtube_time": "5:31",
+      "duration_sec": 64,
+      "title_en": "Measuring movement and changing the support",
+      "title_hi": "हलचल नापना और सहारा बदलना"
+    },
+    {
+      "first_sentence": "S20a",
+      "last_sentence": "S21c",
+      "sentence_ids": [
+        "S20a",
+        "S20b",
+        "S21a",
+        "S21b",
+        "S21c"
+      ],
+      "measured_start_sec": 395.429,
+      "youtube_start_sec": 395,
+      "youtube_time": "6:35",
+      "duration_sec": 40,
+      "title_en": "Breakthrough, opening and continued management",
+      "title_hi": "खुदाई मिली, सुरंग खुली, काम जारी रहा"
+    },
+    {
+      "first_sentence": "S22a",
+      "last_sentence": "S24a",
+      "sentence_ids": [
+        "S22a",
+        "S22b",
+        "S23a",
+        "S23b",
+        "S23c",
+        "S24a"
+      ],
+      "measured_start_sec": 435.271,
+      "youtube_start_sec": 435,
+      "youtube_time": "7:15",
+      "duration_sec": 34.412,
+      "title_en": "How was the tunnel built?",
+      "title_hi": "तो सुरंग बनाई कैसे गई?"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "actual generated images and visual review; ongoing",
+  "expected_ids": 85,
+  "chosen_count": 1,
+  "picks": {
+    "AT_S": {
+      "attempt": 2,
+      "file": "v1_AT_S_2.png",
+      "raw_file": "v1_AT_S_2.jpg",
+      "reference": null,
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [1376, 768],
+      "reason": "Two lanes with one central line clearly visible; rectangular portal, yellow-orange vertical cladding, brown awning and forested reinforced slope; no people or readable text observed",
+      "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "errors": [],
+  "asset_count": 79,
+  "master_count": 6,
+  "total_prompts": 85,
+  "measured_plan_source": "plan/scene_catalog_v1.json",
+  "input_catalog_sha256": "ecfa853457f250895bdb1dd1630da1f9dc198192907dacaff48c4d678b7ef72c",
+  "approved_sentence_specs": 78,
+  "asset_kind_counts": {
+    "image": 29,
+    "frame": 50
+  },
+  "check_scope": "schema, source IDs, asset coverage, kind, real/3D separation, reference dependency order and no-text endings only",
+  "visual_review": "not performed by this generator; see images/picks_v1.md",
+  "generation": "not evaluated by this generator; see images/picks_v1.md"
+}

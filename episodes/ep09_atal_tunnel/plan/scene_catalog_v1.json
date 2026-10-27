@@ -1,0 +1,3557 @@
+{
+  "status": "semantic_design_only_not_generated",
+  "reference_brief": "images/reference_brief.md",
+  "reference_groups": {
+    "R_SOUTH": "남측 실제 포털 master: 노랑·주황 세로 외장/갈색 사선 차양/어두운 사각 차량 개구부/숲 계곡. 접근 장식문과 합치지 않음.",
+    "R_NORTH": "북측 실제 포털 master: 진녹색 큰 박공/적갈색 작은 전면 박공/황색 패널/사진 오른쪽 차량 개구부/회색 옹벽/벌거벗은 산악 사면.",
+    "R_TERRAIN": "확인 지형을 바탕으로 만들 산악 경로 master. 생성된 지형의 정확성은 후속 별도 검수. 경로·수치는 편집에서 표시.",
+    "R_TERRAIN_SNOW": "같은 산악 지역의 설경 master. 실제 과거 폭설 순간 영상으로 주장하지 않음.",
+    "R_GROUND": "공통 공학 좌표계: 진행 방향 +X, 종방향 곧은 강관/횡방향 지보 구별. 파란 설명용 지하수/회갈색 토사. 원리 설명용 단순화.",
+    "R_GROUND_REAL": "시공 당시 물과 토사 유입의 실사풍 재구성. 실제 기록 영상/정확한 사고 순간 재현으로 주장하지 않음.",
+    "R_HISTORY": "공정·거리·기간 비교용 무문자 설명 화면. 4년은 상부 굴착 통과 기간이며 최종 인버트 완료 기간과 구분.",
+    "R_PIPE": "공통 지반 master에서 진행 방향으로 뻗는 곧은 강관, 횡단면에서 천장 둘레 아치 배열. 횡지보와 다름.",
+    "R_PIPE_DOUBLE": "R_PIPE와 같은 좌표계. Bernard Fig.7에서 확인한 강관 입구 이중 배열을 반영.",
+    "R_PUMP": "공통 지반 master에 펌프·배수관. 물 제거와 지반 지지의 구별이 명확함.",
+    "R_SUPPORT": "공통 지반 master의 숏크리트/철망/횡방향 지보/록볼트. 확인되지 않은 두께·치수는 지정하지 않음.",
+    "R_EXCAVATION": "R_PIPE와 R_SUPPORT를 유지한 짧은 상부 굴착→즉시 지보의 순차 모형. 한 번에 길게 개방하지 않음.",
+    "R_FOOTING": "약한 기초와 지보 안정의 일반 원리 모형. 아탈 터널의 실제 바닥 융기를 단정하지 않음.",
+    "R_INVERT_TEMP": "상부 굴착 당시 임시 바닥 폐합. 하부 미굴착 상태이며 깊은 최종 인버트는 이 단계에 없음.",
+    "R_INVERT_FINAL": "후속 하부 굴착과 세리 날라의 깊은 최종 인버트. 일반 본선 Fig.2 단면을 전 구간 동일한 최종 단면으로 쓰지 않음.",
+    "R_RECAP_SUPPORT": "공통 공학 master. 임시 인버트와 후속 최종 인버트의 시간 순서 유지.",
+    "R_DRAIN": "차도/배수/차도 아래 중앙 대피 통로를 분리. 대피 통로는 마르게 유지. 별도 지하수 배수는 확인된 해당 구간만 설명.",
+    "R_GROUT_DRAIN": "작은 틈 주입 보강과 주요 유입수 배수의 다른 경로. 임의로 전수 차수하지 않음.",
+    "R_PRESSURE": "큰 유입수를 막을 때 뒤편 수위와 압력이 높아지는 일반 원리. 과장된 폭발·확인되지 않은 현장 붕괴 없음.",
+    "R_DOCUMENT": "무문자 재구성 자료/손. 가짜 기술책자 글자나 로고를 만들지 않음. 출처 명시는 정확한 후속 편집 글자.",
+    "R_MEMBRANE": "해당 구간의 방수막과 뒤편 배수 공간. 일반 구간 전체 동일 시공으로 확대하지 않음. 대피 통로와 배수 분리.",
+    "R_MONITOR": "공통 단면과 천장·벽 계측점. 실제 관측 숫자를 새로 만들지 않음.",
+    "R_GROUND_RECON": "세리 날라 추가 붕괴/변형 기록을 설명하는 단순화 재구성. 실측 사고 형상 재현 아님.",
+    "R_REINFORCE": "주입·배수·추가 강관·지보를 지반에 따라 바꾸는 공통 공정 master.",
+    "R_BREAKTHROUGH": "2017년 관통의 실사풍 재구성. 실존 인물과 구체적 행사 재현 없음.",
+    "R_MAINTENANCE": "2024년 후속 기록을 설명하는 누수 점검의 과거 재구성. 현재 상태나 누수량을 주장하지 않음.",
+    "R_RECAP_DRAIN": "R_INVERT_FINAL과 R_DRAIN의 구조/물길 분리 관계를 유지한 정리용 모형.",
+    "R_FINISHED_CUTAWAY": "최종 차도·구조·주변 지반·배수 관계를 보여 주는 단순화 투시. 양방향 차도 한 개 본선 튜브, 대피 통로와 배수 분리."
+  },
+  "video_requirement_seconds": 10.0,
+  "assets": [
+    {
+      "source_id": "o001",
+      "file": "clips_v1/o001.mp4",
+      "kind": "v",
+      "role": "도입",
+      "sentence_ids": [
+        "S01a",
+        "S01b"
+      ],
+      "visual_sentence_ids": [
+        "S01b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": "AT_C",
+      "sentence_ko": [
+        "물이 쏟아지는 산을 어떻게 뚫었을까?",
+        "시공사는 아탈 터널의 세리 날라 구간에서 분당 최대 8천 리터의 물이 밀려들었다고 기록했습니다."
+      ],
+      "dominant_sentence_id": "S01b",
+      "plan_start_frame": 0,
+      "plan_end_frame": 294,
+      "required_use_sec": 9.8,
+      "screen_ko": "시공 당시를 재구성한 굴착면에서 물이 쏟아져 바닥의 배수 방향으로 흐른다. 수치 표시는 편집에서 한다.",
+      "framing_ko": "얼굴이 커지지 않는 넓은 고정 구도; 물·토사와 작업 공간의 관계가 한눈에 읽힘",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_GROUND_REAL"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "지속적인 물 유입과 바닥의 배수 흐름. 사람은 먼 옆모습만 보인다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "o002",
+      "file": "clips_v1/o002.mp4",
+      "kind": "v",
+      "role": "도입",
+      "sentence_ids": [
+        "S01b",
+        "S01c",
+        "S01d"
+      ],
+      "visual_sentence_ids": [
+        "S01d"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": "AT_C",
+      "sentence_ko": [
+        "시공사는 아탈 터널의 세리 날라 구간에서 분당 최대 8천 리터의 물이 밀려들었다고 기록했습니다.",
+        "물만 나온 게 아닙니다.",
+        "흙과 부서진 돌까지 함께 쏟아졌습니다."
+      ],
+      "dominant_sentence_id": "S01d",
+      "plan_start_frame": 294,
+      "plan_end_frame": 589,
+      "required_use_sec": 9.833333,
+      "screen_ko": "굴착면 아래로 젖은 흙과 작은 부서진 돌이 물에 섞여 내려온다.",
+      "framing_ko": "얼굴이 커지지 않는 넓은 고정 구도; 물·토사와 작업 공간의 관계가 한눈에 읽힘",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_GROUND_REAL"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "작은 토사와 파편이 물과 함께 흘러 작업 공간 앞에 쌓인다. 대규모 폭발이나 인명 사고는 만들지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "o003",
+      "file": "clips_v1/o003.mp4",
+      "kind": "v",
+      "role": "도입",
+      "sentence_ids": [
+        "S02a"
+      ],
+      "visual_sentence_ids": [
+        "S02a"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": "AT_S",
+      "sentence_ko": [
+        "지금 차들이 달리는 이 길은 인도 히마찰프라데시의 아탈 터널입니다."
+      ],
+      "dominant_sentence_id": "S02a",
+      "plan_start_frame": 589,
+      "plan_end_frame": 745,
+      "required_use_sec": 5.2,
+      "screen_ko": "확인한 남측 실제 포털 형상을 유지하며 작은 차량이 터널에 진입한다.",
+      "framing_ko": "남측 포털 형상과 주변 산악 규모가 함께 읽히는 넓은 고정 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_SOUTH"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "작은 승용차가 일정한 정상 속도로 입구를 통과한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "o004",
+      "file": "clips_v1/o004.mp4",
+      "kind": "v",
+      "role": "도입",
+      "sentence_ids": [
+        "S02a",
+        "S02b"
+      ],
+      "visual_sentence_ids": [
+        "S02b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": "AT_S",
+      "sentence_ko": [
+        "지금 차들이 달리는 이 길은 인도 히마찰프라데시의 아탈 터널입니다.",
+        "해발 3천 미터가 넘는 산악 지대에 길이 9.02킬로미터의 길을 뚫었습니다."
+      ],
+      "dominant_sentence_id": "S02b",
+      "plan_start_frame": 745,
+      "plan_end_frame": 900,
+      "required_use_sec": 5.166667,
+      "screen_ko": "히말라야 산악 지형 속의 남측 터널 포털을 넓게 보여 준다. 길이 9.02킬로미터와 고도는 편집 오버레이로만 표시한다.",
+      "framing_ko": "남측 포털 형상과 주변 산악 규모가 함께 읽히는 넓은 고정 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_SOUTH"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "카메라는 고정하고 남측 포털을 통과하는 작은 차량이 산악 규모를 드러낸다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i001",
+      "file": "img/v1_i001_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S02b"
+      ],
+      "visual_sentence_ids": [
+        "S02b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "해발 3천 미터가 넘는 산악 지대에 길이 9.02킬로미터의 길을 뚫었습니다."
+      ],
+      "dominant_sentence_id": "S02b",
+      "plan_start_frame": 900,
+      "plan_end_frame": 998,
+      "required_use_sec": 3.266667,
+      "screen_ko": "히말라야 산악 지형 속의 남측 터널 포털을 넓게 보여 준다. 길이 9.02킬로미터와 고도는 편집 오버레이로만 표시한다.",
+      "framing_ko": "대상과 주변 상황이 함께 읽히는 넓은 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_SOUTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i002",
+      "file": "img/v1_i002_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S02b",
+        "S02c"
+      ],
+      "visual_sentence_ids": [
+        "S02c"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "해발 3천 미터가 넘는 산악 지대에 길이 9.02킬로미터의 길을 뚫었습니다.",
+        "그런데 발주처 기록에 따르면, 공사 중 만난 600미터도 안 되는 한 구간을 굴착해 지나가는 데만 약 4년이 걸렸습니다."
+      ],
+      "dominant_sentence_id": "S02c",
+      "plan_start_frame": 998,
+      "plan_end_frame": 1096,
+      "required_use_sec": 3.266667,
+      "screen_ko": "완성된 남측 입구와 산악 배경을 별도 넓은 구도로 보여 주며, 600미터 미만의 어려운 구간과 약 4년 공사 기간은 편집 오버레이로 대비한다.",
+      "framing_ko": "핵심 대상의 옆면·부분 구조를 보여 주는 구도; 인물 얼굴 근접 금지",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_SOUTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i003",
+      "file": "img/v1_i003_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S02c"
+      ],
+      "visual_sentence_ids": [
+        "S02c"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "그런데 발주처 기록에 따르면, 공사 중 만난 600미터도 안 되는 한 구간을 굴착해 지나가는 데만 약 4년이 걸렸습니다."
+      ],
+      "dominant_sentence_id": "S02c",
+      "plan_start_frame": 1096,
+      "plan_end_frame": 1194,
+      "required_use_sec": 3.266667,
+      "screen_ko": "완성된 남측 입구와 산악 배경을 별도 넓은 구도로 보여 주며, 600미터 미만의 어려운 구간과 약 4년 공사 기간은 편집 오버레이로 대비한다.",
+      "framing_ko": "앞선 컷과 다른 높이·거리에서 원인과 결과를 한 화면에 보여 주는 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_SOUTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i004",
+      "file": "img/v1_i004_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S02c"
+      ],
+      "visual_sentence_ids": [
+        "S02c"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 3,
+      "master_id_override": null,
+      "sentence_ko": [
+        "그런데 발주처 기록에 따르면, 공사 중 만난 600미터도 안 되는 한 구간을 굴착해 지나가는 데만 약 4년이 걸렸습니다."
+      ],
+      "dominant_sentence_id": "S02c",
+      "plan_start_frame": 1194,
+      "plan_end_frame": 1292,
+      "required_use_sec": 3.266667,
+      "screen_ko": "완성된 남측 입구와 산악 배경을 별도 넓은 구도로 보여 주며, 600미터 미만의 어려운 구간과 약 4년 공사 기간은 편집 오버레이로 대비한다.",
+      "framing_ko": "대상과 주변 상황이 함께 읽히는 넓은 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_SOUTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i005",
+      "file": "img/v1_i005_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S02c"
+      ],
+      "visual_sentence_ids": [
+        "S02c"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 4,
+      "master_id_override": null,
+      "sentence_ko": [
+        "그런데 발주처 기록에 따르면, 공사 중 만난 600미터도 안 되는 한 구간을 굴착해 지나가는 데만 약 4년이 걸렸습니다."
+      ],
+      "dominant_sentence_id": "S02c",
+      "plan_start_frame": 1292,
+      "plan_end_frame": 1390,
+      "required_use_sec": 3.266667,
+      "screen_ko": "완성된 남측 입구와 산악 배경을 별도 넓은 구도로 보여 주며, 600미터 미만의 어려운 구간과 약 4년 공사 기간은 편집 오버레이로 대비한다.",
+      "framing_ko": "핵심 대상의 옆면·부분 구조를 보여 주는 구도; 인물 얼굴 근접 금지",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_SOUTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i006",
+      "file": "img/v1_i006_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S03a",
+        "S03b"
+      ],
+      "visual_sentence_ids": [
+        "S03a"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "왜 굳이 이런 산을 뚫어야 했을까요?",
+        "예전에는 로탕 고개를 넘어 라하울로 들어가야 했습니다."
+      ],
+      "dominant_sentence_id": "S03a",
+      "plan_start_frame": 1390,
+      "plan_end_frame": 1505,
+      "required_use_sec": 3.833333,
+      "screen_ko": "높은 산 능선 앞에서 갈 곳이 막힌 구불구불한 고갯길을 넓게 보여 준다.",
+      "framing_ko": "앞선 컷과 다른 높이·거리에서 원인과 결과를 한 화면에 보여 주는 구도",
+      "style": "geographical / historical explanatory visual",
+      "principle": false,
+      "reference_groups": [
+        "R_TERRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i007",
+      "file": "img/v1_i007_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S03b"
+      ],
+      "visual_sentence_ids": [
+        "S03b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "예전에는 로탕 고개를 넘어 라하울로 들어가야 했습니다."
+      ],
+      "dominant_sentence_id": "S03b",
+      "plan_start_frame": 1505,
+      "plan_end_frame": 1620,
+      "required_use_sec": 3.833333,
+      "screen_ko": "로탕 고개를 넘는 굽이진 기존 산길을 위에서 본다. 지리 경로는 확인 자료를 바탕으로 후속 검수한다.",
+      "framing_ko": "대상과 주변 상황이 함께 읽히는 넓은 구도",
+      "style": "geographical / historical explanatory visual",
+      "principle": false,
+      "reference_groups": [
+        "R_TERRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i008",
+      "file": "img/v1_i008_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S03b",
+        "S03c"
+      ],
+      "visual_sentence_ids": [
+        "S03c"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "예전에는 로탕 고개를 넘어 라하울로 들어가야 했습니다.",
+        "정부에 따르면 폭설 때문에 이 지역이 해마다 약 반년 동안 고립되곤 했습니다."
+      ],
+      "dominant_sentence_id": "S03c",
+      "plan_start_frame": 1620,
+      "plan_end_frame": 1735,
+      "required_use_sec": 3.833333,
+      "screen_ko": "폭설로 통행이 막힌 산길을 전경에, 눈에 덮인 산악 마을을 먼 배경에 둔 하나의 넓은 설경.",
+      "framing_ko": "핵심 대상의 옆면·부분 구조를 보여 주는 구도; 인물 얼굴 근접 금지",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_TERRAIN_SNOW"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i009",
+      "file": "img/v1_i009_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S03c"
+      ],
+      "visual_sentence_ids": [
+        "S03c"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "정부에 따르면 폭설 때문에 이 지역이 해마다 약 반년 동안 고립되곤 했습니다."
+      ],
+      "dominant_sentence_id": "S03c",
+      "plan_start_frame": 1735,
+      "plan_end_frame": 1850,
+      "required_use_sec": 3.833333,
+      "screen_ko": "폭설로 통행이 막힌 산길을 전경에, 눈에 덮인 산악 마을을 먼 배경에 둔 하나의 넓은 설경.",
+      "framing_ko": "앞선 컷과 다른 높이·거리에서 원인과 결과를 한 화면에 보여 주는 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_TERRAIN_SNOW"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i010",
+      "file": "img/v1_i010_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S03d"
+      ],
+      "visual_sentence_ids": [
+        "S03d"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "산을 넘는 길이 막히니, 산 아래로 지나가는 길을 만든 겁니다."
+      ],
+      "dominant_sentence_id": "S03d",
+      "plan_start_frame": 1850,
+      "plan_end_frame": 1965,
+      "required_use_sec": 3.833333,
+      "screen_ko": "산 위의 긴 고갯길과 산 아래로 지나가는 터널을 같은 지형의 설명용 투시도에서 대비한다.",
+      "framing_ko": "대상과 주변 상황이 함께 읽히는 넓은 구도",
+      "style": "geographical / historical explanatory visual",
+      "principle": false,
+      "reference_groups": [
+        "R_TERRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i011",
+      "file": "img/v1_i011_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S03d"
+      ],
+      "visual_sentence_ids": [
+        "S03d"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "산을 넘는 길이 막히니, 산 아래로 지나가는 길을 만든 겁니다."
+      ],
+      "dominant_sentence_id": "S03d",
+      "plan_start_frame": 1965,
+      "plan_end_frame": 2080,
+      "required_use_sec": 3.833333,
+      "screen_ko": "산 위의 긴 고갯길과 산 아래로 지나가는 터널을 같은 지형의 설명용 투시도에서 대비한다.",
+      "framing_ko": "핵심 대상의 옆면·부분 구조를 보여 주는 구도; 인물 얼굴 근접 금지",
+      "style": "geographical / historical explanatory visual",
+      "principle": false,
+      "reference_groups": [
+        "R_TERRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i012",
+      "file": "img/v1_i012_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S04a",
+        "S04b"
+      ],
+      "visual_sentence_ids": [
+        "S04a"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "터널은 구불구불한 고갯길을 건너뜁니다.",
+        "정부가 발표한 단축 거리는 46킬로미터, 줄어든 이동 시간은 약 4~5시간입니다."
+      ],
+      "dominant_sentence_id": "S04a",
+      "plan_start_frame": 2080,
+      "plan_end_frame": 2198,
+      "required_use_sec": 3.933333,
+      "screen_ko": "산 위로 여러 번 돌아가는 길과 아래의 짧은 터널 경로를 나란히 보여 준다.",
+      "framing_ko": "앞선 컷과 다른 높이·거리에서 원인과 결과를 한 화면에 보여 주는 구도",
+      "style": "geographical / historical explanatory visual",
+      "principle": false,
+      "reference_groups": [
+        "R_TERRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i013",
+      "file": "img/v1_i013_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S04b"
+      ],
+      "visual_sentence_ids": [
+        "S04b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "정부가 발표한 단축 거리는 46킬로미터, 줄어든 이동 시간은 약 4~5시간입니다."
+      ],
+      "dominant_sentence_id": "S04b",
+      "plan_start_frame": 2198,
+      "plan_end_frame": 2316,
+      "required_use_sec": 3.933333,
+      "screen_ko": "기존 길과 새 길을 비교하는 간결한 지형 화면. 46킬로미터와 약 4~5시간은 정확한 편집 글자로만 넣는다.",
+      "framing_ko": "대상과 주변 상황이 함께 읽히는 넓은 구도",
+      "style": "geographical / historical explanatory visual",
+      "principle": false,
+      "reference_groups": [
+        "R_TERRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i014",
+      "file": "img/v1_i014_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S04b",
+        "S04c"
+      ],
+      "visual_sentence_ids": [
+        "S04b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "정부가 발표한 단축 거리는 46킬로미터, 줄어든 이동 시간은 약 4~5시간입니다.",
+        "하지만 지도에 짧은 선 하나를 긋는 것과, 그 선을 따라 산속을 파는 것은 달랐습니다."
+      ],
+      "dominant_sentence_id": "S04b",
+      "plan_start_frame": 2316,
+      "plan_end_frame": 2434,
+      "required_use_sec": 3.933333,
+      "screen_ko": "기존 길과 새 길을 비교하는 간결한 지형 화면. 46킬로미터와 약 4~5시간은 정확한 편집 글자로만 넣는다.",
+      "framing_ko": "핵심 대상의 옆면·부분 구조를 보여 주는 구도; 인물 얼굴 근접 금지",
+      "style": "geographical / historical explanatory visual",
+      "principle": false,
+      "reference_groups": [
+        "R_TERRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i015",
+      "file": "img/v1_i015_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S04c"
+      ],
+      "visual_sentence_ids": [
+        "S04c"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "하지만 지도에 짧은 선 하나를 긋는 것과, 그 선을 따라 산속을 파는 것은 달랐습니다."
+      ],
+      "dominant_sentence_id": "S04c",
+      "plan_start_frame": 2434,
+      "plan_end_frame": 2552,
+      "required_use_sec": 3.933333,
+      "screen_ko": "부서진 지반과 작은 작업 공간이 드러난 산속 굴착면의 한 장면. 지도에 선을 긋는 것과 실제 지반 굴착의 차이를 읽게 한다.",
+      "framing_ko": "앞선 컷과 다른 높이·거리에서 원인과 결과를 한 화면에 보여 주는 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_GROUND"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i016",
+      "file": "img/v1_i016_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S04c"
+      ],
+      "visual_sentence_ids": [
+        "S04c"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "하지만 지도에 짧은 선 하나를 긋는 것과, 그 선을 따라 산속을 파는 것은 달랐습니다."
+      ],
+      "dominant_sentence_id": "S04c",
+      "plan_start_frame": 2552,
+      "plan_end_frame": 2669,
+      "required_use_sec": 3.9,
+      "screen_ko": "부서진 지반과 작은 작업 공간이 드러난 산속 굴착면의 한 장면. 지도에 선을 긋는 것과 실제 지반 굴착의 차이를 읽게 한다.",
+      "framing_ko": "대상과 주변 상황이 함께 읽히는 넓은 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_GROUND"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p001",
+      "file": "clips_v1/p001.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S05a",
+        "S05b"
+      ],
+      "visual_sentence_ids": [
+        "S05a",
+        "S05b"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "산속이 전부 단단한 바위 한 덩어리는 아니었습니다.",
+        "세리 날라 구간에는 잘게 부서진 암석과 진흙, 물을 머금은 느슨한 재료가 섞여 있었습니다."
+      ],
+      "dominant_sentence_id": "S05b",
+      "plan_start_frame": 2669,
+      "plan_end_frame": 2967,
+      "required_use_sec": 9.933333,
+      "screen_ko": "한 덩어리의 바위와 달리 틈과 입자가 많은 산속 지반의 절개 모형을 보여 준다. 회갈색 진흙과 잘게 부서진 암석, 파란 설명용 지하수를 분리해 읽을 수 있는 파쇄대 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_GROUND"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "작은 틈 속 물이 이동하고 느슨한 입자가 조금씩 흘러내린다. 물은 입자 사이로 흐르고 느슨한 입자는 중력 방향으로 이동한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p002",
+      "file": "clips_v1/p002.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S05b",
+        "S05c"
+      ],
+      "visual_sentence_ids": [
+        "S05b",
+        "S05c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "세리 날라 구간에는 잘게 부서진 암석과 진흙, 물을 머금은 느슨한 재료가 섞여 있었습니다.",
+        "굴착면으로는 물과 함께 이 재료들이 밀려들었습니다."
+      ],
+      "dominant_sentence_id": "S05c",
+      "plan_start_frame": 2967,
+      "plan_end_frame": 3191,
+      "required_use_sec": 7.466667,
+      "screen_ko": "회갈색 진흙과 잘게 부서진 암석, 파란 설명용 지하수를 분리해 읽을 수 있는 파쇄대 단면. 미보강 굴착면에서 물과 느슨한 재료가 빈 공간 쪽으로 밀려드는 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_GROUND"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "물은 입자 사이로 흐르고 느슨한 입자는 중력 방향으로 이동한다. 파란 물과 회갈색 토사가 굴착면에서 터널 내부 방향으로 함께 흐른다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p003",
+      "file": "clips_v1/p003.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S06a",
+        "S06b",
+        "S06c"
+      ],
+      "visual_sentence_ids": [
+        "S06a",
+        "S06b",
+        "S06c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "그러면 펌프로 물부터 빼면 될까요?",
+        "물을 퍼내도, 느슨한 천장과 벽이 저절로 단단해지지는 않습니다.",
+        "파 놓은 공간으로 흙과 돌이 계속 밀려들면, 장비가 들어갈 자리부터 지키기 어렵습니다."
+      ],
+      "dominant_sentence_id": "S06b",
+      "plan_start_frame": 3191,
+      "plan_end_frame": 3489,
+      "required_use_sec": 9.933333,
+      "screen_ko": "유입수 옆의 펌프와 느슨한 천장 지반을 한 화면에 놓는다. 펌프로 바닥 물은 빠져나가지만 갈라진 천장과 벽은 여전히 약한 비교 모형. 장비가 들어가야 할 굴착 공간 앞에 흙과 작은 돌이 쌓이는 모형.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_PUMP",
+        "R_GROUND"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "펌프 배출관으로 물이 흘러도 천장 입자는 계속 느슨한 상태다. 수위만 낮아지고 약한 천장 입자는 계속 움직여 물 제거와 지반 보강의 차이가 보인다. 토사가 장비 작업 공간 쪽으로 밀려와 빈 공간을 줄인다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p004",
+      "file": "clips_v1/p004.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S06c",
+        "S06d"
+      ],
+      "visual_sentence_ids": [
+        "S06c",
+        "S06d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "파 놓은 공간으로 흙과 돌이 계속 밀려들면, 장비가 들어갈 자리부터 지키기 어렵습니다.",
+        "물을 처리하는 동안, 무너지는 지반도 함께 받쳐야 했습니다."
+      ],
+      "dominant_sentence_id": "S06c",
+      "plan_start_frame": 3489,
+      "plan_end_frame": 3745,
+      "required_use_sec": 8.533333,
+      "screen_ko": "장비가 들어가야 할 굴착 공간 앞에 흙과 작은 돌이 쌓이는 모형. 배수되는 물과 천장·벽을 받치는 지보를 같은 절개 모형에 보여 준다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_GROUND",
+        "R_SUPPORT"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "토사가 장비 작업 공간 쪽으로 밀려와 빈 공간을 줄인다. 배수 흐름과 지보 설치가 함께 진행되어 작업 공간을 지킨다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p005",
+      "file": "clips_v1/p005.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S06d"
+      ],
+      "visual_sentence_ids": [
+        "S06d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "물을 처리하는 동안, 무너지는 지반도 함께 받쳐야 했습니다."
+      ],
+      "dominant_sentence_id": "S06d",
+      "plan_start_frame": 3745,
+      "plan_end_frame": 3835,
+      "required_use_sec": 3.0,
+      "screen_ko": "배수되는 물과 천장·벽을 받치는 지보를 같은 절개 모형에 보여 준다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_SUPPORT"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "배수 흐름과 지보 설치가 함께 진행되어 작업 공간을 지킨다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p006",
+      "file": "clips_v1/p006.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S07a",
+        "S07b"
+      ],
+      "visual_sentence_ids": [
+        "S07a",
+        "S07b"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "아직 파지도 않은 천장을 어떻게 받칠까요?",
+        "굴착면 위쪽에서, 앞으로 나아갈 방향으로 긴 강관들을 미리 넣습니다."
+      ],
+      "dominant_sentence_id": "S07b",
+      "plan_start_frame": 3835,
+      "plan_end_frame": 4133,
+      "required_use_sec": 9.933333,
+      "screen_ko": "아직 파지 않은 앞쪽 지반과 이미 확보한 뒤쪽 작업 공간을 구분한다. 곧은 긴 강관들이 진행 방향으로 앞쪽 지반에 들어가는 종단 절개 모형.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_PIPE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "굴착면 위쪽에서 선행 보강할 위치를 보여 주고 다음 단계 강관이 앞으로 들어간다. 각 강관은 굽지 않은 직선 상태로 굴착 진행 방향을 따라 전진한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p007",
+      "file": "clips_v1/p007.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S07b",
+        "S07c",
+        "S07d"
+      ],
+      "visual_sentence_ids": [
+        "S07b",
+        "S07c",
+        "S07d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "굴착면 위쪽에서, 앞으로 나아갈 방향으로 긴 강관들을 미리 넣습니다.",
+        "강관은 터널 천장을 따라 아치 모양으로 늘어섭니다.",
+        "다음에 팔 곳의 천장 위를 먼저 보강하는 겁니다."
+      ],
+      "dominant_sentence_id": "S07c",
+      "plan_start_frame": 4133,
+      "plan_end_frame": 4377,
+      "required_use_sec": 8.133333,
+      "screen_ko": "곧은 긴 강관들이 진행 방향으로 앞쪽 지반에 들어가는 종단 절개 모형. 전방을 향한 곧은 강관의 입구들이 터널 천장 둘레에서 아치 배열을 이루는 횡단면. 미굴착 지반 안에 미리 들어간 강관 지붕과 바로 아래 다음 굴착 구간을 함께 보여 준다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_PIPE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "각 강관은 굽지 않은 직선 상태로 굴착 진행 방향을 따라 전진한다. 고정 카메라에서 강관 입구가 둘레 순서로 드러난다. 강관 자체를 휘어진 아치로 바꾸지 않는다. 강관은 제자리를 유지하고 아래쪽 굴착만 짧게 진행된다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p008",
+      "file": "clips_v1/p008.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S07d"
+      ],
+      "visual_sentence_ids": [
+        "S07d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "다음에 팔 곳의 천장 위를 먼저 보강하는 겁니다."
+      ],
+      "dominant_sentence_id": "S07d",
+      "plan_start_frame": 4377,
+      "plan_end_frame": 4467,
+      "required_use_sec": 3.0,
+      "screen_ko": "미굴착 지반 안에 미리 들어간 강관 지붕과 바로 아래 다음 굴착 구간을 함께 보여 준다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_PIPE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "강관은 제자리를 유지하고 아래쪽 굴착만 짧게 진행된다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p009",
+      "file": "clips_v1/p009.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S08a",
+        "S08b",
+        "S08c"
+      ],
+      "visual_sentence_ids": [
+        "S08a",
+        "S08b",
+        "S08c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이걸 파이프 루프라고 합니다.",
+        "이 현장에서는 땅이 특히 약한 곳에 강관을 두 줄로 배치하기도 했습니다.",
+        "앞쪽 지반을 보강해, 그 아래에서 조금씩 파고 받칠 수 있도록 돕는 장치입니다."
+      ],
+      "dominant_sentence_id": "S08b",
+      "plan_start_frame": 4467,
+      "plan_end_frame": 4765,
+      "required_use_sec": 9.933333,
+      "screen_ko": "파이프 루프의 종단 길이와 천장 둘레 배열을 읽을 수 있는 동일 모형. 확인한 현장 사진에 맞춰 천장 둘레에 강관 입구 두 줄이 놓인 설명용 모형. 전방 지반을 지지하는 이중 강관과 그 아래 짧은 굴착 공간.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_PIPE",
+        "R_PIPE_DOUBLE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "카메라는 고정하고 선행 강관 아래의 안전한 굴착 순서를 보여 준다. 두 번째 줄의 강관이 앞쪽 지반으로 차례로 들어간다. 새로 휘어진 부재는 생기지 않는다. 강관은 고정된 채 아래의 짧은 흙 구간이 제거되고 뒤에서 지보가 이어진다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p010",
+      "file": "clips_v1/p010.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S08c"
+      ],
+      "visual_sentence_ids": [
+        "S08c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "앞쪽 지반을 보강해, 그 아래에서 조금씩 파고 받칠 수 있도록 돕는 장치입니다."
+      ],
+      "dominant_sentence_id": "S08c",
+      "plan_start_frame": 4765,
+      "plan_end_frame": 4950,
+      "required_use_sec": 6.166667,
+      "screen_ko": "전방 지반을 지지하는 이중 강관과 그 아래 짧은 굴착 공간.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_PIPE_DOUBLE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "강관은 고정된 채 아래의 짧은 흙 구간이 제거되고 뒤에서 지보가 이어진다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p011",
+      "file": "clips_v1/p011.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S09a",
+        "S09b"
+      ],
+      "visual_sentence_ids": [
+        "S09a",
+        "S09b"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "그 아래를 한꺼번에 길게 열어 두지 않습니다.",
+        "터널의 윗부분부터 짧게 굴착하고, 새로 드러난 면을 바로 받칩니다."
+      ],
+      "dominant_sentence_id": "S09b",
+      "plan_start_frame": 4950,
+      "plan_end_frame": 5248,
+      "required_use_sec": 9.933333,
+      "screen_ko": "강관 아래 열린 구간을 짧게 제한하는 상부 굴착 모형. 상부를 짧게 판 직후 새 면을 바로 받치는 두 단계.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_EXCAVATION"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "짧은 한 구간만 제거되고 앞의 긴 미굴착 지반은 남아 있다. 상부 소량 굴착 뒤 곧바로 지보와 숏크리트가 이어진다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p012",
+      "file": "clips_v1/p012.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S09c",
+        "S09d"
+      ],
+      "visual_sentence_ids": [
+        "S09c",
+        "S09d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이 어려운 구간의 시공 기록에는 한 번에 약 1미터씩 전진한 곳도 나옵니다.",
+        "그다음 짧은 구간을 파고, 다시 받칩니다."
+      ],
+      "dominant_sentence_id": "S09c",
+      "plan_start_frame": 5248,
+      "plan_end_frame": 5534,
+      "required_use_sec": 9.533333,
+      "screen_ko": "한 번의 짧은 굴착 전진을 측면에서 읽을 수 있는 모형. 약 1미터는 편집 표기로만 넣는다. 이미 받친 구간 옆의 다음 짧은 구간을 같은 좌표계에서 보여 준다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_EXCAVATION"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "짧은 전진 한 번만 진행하고 작업 공간을 넓게 한꺼번에 열지 않는다. 새 짧은 구간의 굴착과 지보 설치가 앞 구간에 이어 진행된다. 이전 동작의 영상 루프는 쓰지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p013",
+      "file": "clips_v1/p013.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S09d"
+      ],
+      "visual_sentence_ids": [
+        "S09d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "그다음 짧은 구간을 파고, 다시 받칩니다."
+      ],
+      "dominant_sentence_id": "S09d",
+      "plan_start_frame": 5534,
+      "plan_end_frame": 5624,
+      "required_use_sec": 3.0,
+      "screen_ko": "이미 받친 구간 옆의 다음 짧은 구간을 같은 좌표계에서 보여 준다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_EXCAVATION"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "새 짧은 구간의 굴착과 지보 설치가 앞 구간에 이어 진행된다. 이전 동작의 영상 루프는 쓰지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p014",
+      "file": "clips_v1/p014.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S10a",
+        "S10b",
+        "S10c"
+      ],
+      "visual_sentence_ids": [
+        "S10a",
+        "S10b",
+        "S10c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "드러난 지반에는 콘크리트를 뿌려 표면을 덮고 받쳤습니다.",
+        "필요한 곳에는 철망과 강철 받침도 설치했습니다.",
+        "긴 볼트로 갈라진 암반을 묶기도 했습니다."
+      ],
+      "dominant_sentence_id": "S10a",
+      "plan_start_frame": 5624,
+      "plan_end_frame": 5922,
+      "required_use_sec": 9.933333,
+      "screen_ko": "새로 드러난 거친 지반 표면에 숏크리트 층을 형성하는 단면. 필요 위치에 철망과 횡방향 강철 지보가 놓이는 상부 단면. 갈라진 암반 안으로 들어가는 긴 록볼트의 측면 절개.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_SUPPORT"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "분사 노즐에서 콘크리트가 나와 노출 지반을 얇은 연속층으로 덮는다. 철망과 강철 지보가 지반 면을 따라 설치된다. 종방향 강관과 부재 방향을 구별한다. 볼트가 균열을 가로질러 암반 내부로 들어가 여러 조각을 묶는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p015",
+      "file": "clips_v1/p015.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S10c",
+        "S10d"
+      ],
+      "visual_sentence_ids": [
+        "S10c",
+        "S10d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "긴 볼트로 갈라진 암반을 묶기도 했습니다.",
+        "지반에 따라 콘크리트 두께와 다른 받침의 조합을 바꿨습니다."
+      ],
+      "dominant_sentence_id": "S10d",
+      "plan_start_frame": 5922,
+      "plan_end_frame": 6170,
+      "required_use_sec": 8.266667,
+      "screen_ko": "갈라진 암반 안으로 들어가는 긴 록볼트의 측면 절개. 지반 상태가 다른 인접 구간의 콘크리트 층과 받침 조합을 나누어 보여 준다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_SUPPORT"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "볼트가 균열을 가로질러 암반 내부로 들어가 여러 조각을 묶는다. 각 지반에 필요한 지보 조합이 순차적으로 설치된다. 실제 미확인 두께 수치는 쓰지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p016",
+      "file": "clips_v1/p016.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S10d"
+      ],
+      "visual_sentence_ids": [
+        "S10d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "지반에 따라 콘크리트 두께와 다른 받침의 조합을 바꿨습니다."
+      ],
+      "dominant_sentence_id": "S10d",
+      "plan_start_frame": 6170,
+      "plan_end_frame": 6260,
+      "required_use_sec": 3.0,
+      "screen_ko": "지반 상태가 다른 인접 구간의 콘크리트 층과 받침 조합을 나누어 보여 준다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_SUPPORT"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "각 지반에 필요한 지보 조합이 순차적으로 설치된다. 실제 미확인 두께 수치는 쓰지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p017",
+      "file": "clips_v1/p017.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S11a",
+        "S11b"
+      ],
+      "visual_sentence_ids": [
+        "S11a",
+        "S11b"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "그런데 천장만 받치면 끝일까요?",
+        "받침이 딛고 있는 바닥도 약하면, 위를 보강해도 터널 모양이 계속 찌그러질 수 있습니다."
+      ],
+      "dominant_sentence_id": "S11b",
+      "plan_start_frame": 6260,
+      "plan_end_frame": 6558,
+      "required_use_sec": 9.933333,
+      "screen_ko": "천장 지보의 양발이 닿는 바닥 부분을 포함한 단면. 약한 바닥에 선 받침과 안정된 받침을 대비하는 일반 원리 모형.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_FOOTING"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "카메라는 고정하고 주목할 변화는 약한 받침 발 아래에서만 일어난다. 약한 바닥 쪽 받침이 조금 내려앉으며 단면이 변형된다. 아탈 현장 바닥 융기 실측 재현으로 표기하지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p018",
+      "file": "clips_v1/p018.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S11b",
+        "S11c"
+      ],
+      "visual_sentence_ids": [
+        "S11b",
+        "S11c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "받침이 딛고 있는 바닥도 약하면, 위를 보강해도 터널 모양이 계속 찌그러질 수 있습니다.",
+        "받침이 설 자리까지 확보해야 하는 겁니다."
+      ],
+      "dominant_sentence_id": "S11c",
+      "plan_start_frame": 6558,
+      "plan_end_frame": 6711,
+      "required_use_sec": 5.1,
+      "screen_ko": "약한 바닥에 선 받침과 안정된 받침을 대비하는 일반 원리 모형. 지보가 힘을 전달할 바닥 받침 자리까지 확보한 모형.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_FOOTING"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "약한 바닥 쪽 받침이 조금 내려앉으며 단면이 변형된다. 아탈 현장 바닥 융기 실측 재현으로 표기하지 않는다. 양쪽 지보 발 아래가 보강되어 하중을 받을 자리가 형성된다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p019",
+      "file": "clips_v1/p019.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S12a"
+      ],
+      "visual_sentence_ids": [
+        "S12a"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "윗부분을 굴착하는 동안에는 양쪽 받침을 임시 바닥 받침으로 이어 닫았습니다."
+      ],
+      "dominant_sentence_id": "S12a",
+      "plan_start_frame": 6711,
+      "plan_end_frame": 6952,
+      "required_use_sec": 8.033333,
+      "screen_ko": "상부 굴착 상태에서 양쪽 지보 발을 잇는 임시 인버트. 미굴착 하부는 그대로 남겨 둔다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_INVERT_TEMP"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "상부 양측 받침 사이 임시 바닥 연결이 닫힌다. 이 장면에 깊은 최종 인버트를 동시에 시공하지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p020",
+      "file": "clips_v1/p020.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S12b",
+        "S12c"
+      ],
+      "visual_sentence_ids": [
+        "S12b",
+        "S12c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이후 남은 아래쪽을 더 파고, 이 난구간의 최종 구조는 바닥 아래까지 곡선으로 이어 만들었습니다.",
+        "위와 양옆, 아래가 연결돼 힘을 나눠 받도록 한 겁니다."
+      ],
+      "dominant_sentence_id": "S12b",
+      "plan_start_frame": 6952,
+      "plan_end_frame": 7250,
+      "required_use_sec": 9.933333,
+      "screen_ko": "시간이 지난 후 하부를 추가 굴착하고 깊은 최종 인버트를 만드는 별도 공정 모형. 천장·벽·깊은 바닥이 연결된 난구간 최종 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_INVERT_FINAL"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "남은 하부를 제거한 뒤 깊은 곡선 바닥 구조가 양측 벽과 이어진다. 부재는 유지되고 설명용 힘의 전달이 연결된 구조 둘레를 따라 순서대로 표현된다. 물길과 혼동하지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p021",
+      "file": "clips_v1/p021.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S12c",
+        "S12d"
+      ],
+      "visual_sentence_ids": [
+        "S12c",
+        "S12d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "위와 양옆, 아래가 연결돼 힘을 나눠 받도록 한 겁니다.",
+        "차가 달릴 평평한 도로는 그 안에 놓입니다."
+      ],
+      "dominant_sentence_id": "S12c",
+      "plan_start_frame": 7250,
+      "plan_end_frame": 7541,
+      "required_use_sec": 9.7,
+      "screen_ko": "천장·벽·깊은 바닥이 연결된 난구간 최종 단면. 깊은 최종 인버트 안쪽 위에 평평한 차도가 놓이는 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_INVERT_FINAL"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "부재는 유지되고 설명용 힘의 전달이 연결된 구조 둘레를 따라 순서대로 표현된다. 물길과 혼동하지 않는다. 최종 곡선 바닥 위의 내부 공간에 평평한 도로 구조가 완성된다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i017",
+      "file": "img/v1_i017_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S13a",
+        "S13b"
+      ],
+      "visual_sentence_ids": [
+        "S13a"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이제 처음 질문으로 돌아가 보죠.",
+        "물이 쏟아지는 산을 어떻게 뚫었을까요?"
+      ],
+      "dominant_sentence_id": "S13a",
+      "plan_start_frame": 7541,
+      "plan_end_frame": 7639,
+      "required_use_sec": 3.266667,
+      "screen_ko": "처음과 다른 구도로 물이 나오는 굴착면과 확보된 공간을 다시 본다.",
+      "framing_ko": "핵심 대상의 옆면·부분 구조를 보여 주는 구도; 인물 얼굴 근접 금지",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_GROUND_REAL"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i018",
+      "file": "img/v1_i018_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S13b"
+      ],
+      "visual_sentence_ids": [
+        "S13b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "물이 쏟아지는 산을 어떻게 뚫었을까요?"
+      ],
+      "dominant_sentence_id": "S13b",
+      "plan_start_frame": 7639,
+      "plan_end_frame": 7736,
+      "required_use_sec": 3.233333,
+      "screen_ko": "물이 쏟아지는 굴착면 앞의 지보와 배수 공간을 함께 보여 주어 질문을 회수한다.",
+      "framing_ko": "앞선 컷과 다른 높이·거리에서 원인과 결과를 한 화면에 보여 주는 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_GROUND_REAL"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p022",
+      "file": "clips_v1/p022.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S13c",
+        "S13d"
+      ],
+      "visual_sentence_ids": [
+        "S13c",
+        "S13d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "앞으로 팔 곳을 보강하고, 짧게 파자마자 받치고, 바닥까지 연결해 공간을 지켰습니다.",
+        "그런데 천장과 벽을 받쳤다고, 산속의 물까지 사라진 건 아닙니다."
+      ],
+      "dominant_sentence_id": "S13c",
+      "plan_start_frame": 7736,
+      "plan_end_frame": 8034,
+      "required_use_sec": 9.933333,
+      "screen_ko": "선행 강관·짧은 굴착·즉시 지보·바닥 연결을 같은 모형에서 순서대로 정리한다. 지보로 형태를 지킨 터널 바깥 틈에는 여전히 물이 남아 있는 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_RECAP_SUPPORT",
+        "R_DRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "서로 다른 공정을 시간 순서대로 보여 주며 임시 바닥과 최종 인버트를 동시에 만들지 않는다. 지보는 고정되고 바깥 지하수 흐름이 계속되어 다음 배수 문제로 연결한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p023",
+      "file": "clips_v1/p023.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S13d"
+      ],
+      "visual_sentence_ids": [
+        "S13d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "그런데 천장과 벽을 받쳤다고, 산속의 물까지 사라진 건 아닙니다."
+      ],
+      "dominant_sentence_id": "S13d",
+      "plan_start_frame": 8034,
+      "plan_end_frame": 8165,
+      "required_use_sec": 4.366667,
+      "screen_ko": "지보로 형태를 지킨 터널 바깥 틈에는 여전히 물이 남아 있는 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_DRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "지보는 고정되고 바깥 지하수 흐름이 계속되어 다음 배수 문제로 연결한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p024",
+      "file": "clips_v1/p024.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S14a",
+        "S14b"
+      ],
+      "visual_sentence_ids": [
+        "S14a",
+        "S14b"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "물은 어디로 가야 할까요?",
+        "이 현장에서는 틈에 주입재를 넣어 지반을 보강하고 유입을 줄이는 작업과, 물을 모아 빼내는 작업을 함께 했습니다."
+      ],
+      "dominant_sentence_id": "S14b",
+      "plan_start_frame": 8165,
+      "plan_end_frame": 8463,
+      "required_use_sec": 9.933333,
+      "screen_ko": "터널 뒤편에서 들어오는 물과 비어 있는 배수 경로를 함께 보여 준다. 작은 틈의 주입 보강과 별도 관의 배수를 분리한 두 구역 절개 모형.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_DRAIN",
+        "R_GROUT_DRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "물은 낮은 배수 방향으로 흐르고 도로 또는 하부 대피 통로로 들어가지 않는다. 작은 틈은 주입재로 메워 유입이 줄고, 별도의 주요 물길은 배수관으로 계속 빠져나간다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p025",
+      "file": "clips_v1/p025.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S14b",
+        "S14c"
+      ],
+      "visual_sentence_ids": [
+        "S14b",
+        "S14c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이 현장에서는 틈에 주입재를 넣어 지반을 보강하고 유입을 줄이는 작업과, 물을 모아 빼내는 작업을 함께 했습니다.",
+        "들어오는 물을 모두 한 가지 방식으로 처리할 수는 없었습니다."
+      ],
+      "dominant_sentence_id": "S14c",
+      "plan_start_frame": 8463,
+      "plan_end_frame": 8678,
+      "required_use_sec": 7.166667,
+      "screen_ko": "작은 틈의 주입 보강과 별도 관의 배수를 분리한 두 구역 절개 모형. 틈 유입과 큰 물길을 같은 방법으로 막지 않는 비교 모형.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_GROUT_DRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "작은 틈은 주입재로 메워 유입이 줄고, 별도의 주요 물길은 배수관으로 계속 빠져나간다. 작은 틈의 차수와 큰 물길의 배수가 각기 다른 경로로 작동한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p026",
+      "file": "clips_v1/p026.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S15a",
+        "S15b"
+      ],
+      "visual_sentence_ids": [
+        "S15a",
+        "S15b"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "특히 큰 물길을 무조건 틀어막는 데에는 문제가 있었습니다.",
+        "막힌 뒤쪽에 물이 차오르면, 물이 누르는 힘도 커집니다."
+      ],
+      "dominant_sentence_id": "S15a",
+      "plan_start_frame": 8678,
+      "plan_end_frame": 8976,
+      "required_use_sec": 9.933333,
+      "screen_ko": "큰 물길을 막은 벽 뒤에 물이 고이는 일반 원리 모형. 막힌 뒤쪽 수위가 높아지며 구조를 누르는 부담이 커지는 모형.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_PRESSURE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "막힌 뒤편에 물이 차오르기 시작하고 배출되지 않는다. 수위가 올라가고 설명용 압력 표현이 점차 강해진다. 폭발과 댐 붕괴를 추가하지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p027",
+      "file": "clips_v1/p027.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S15b",
+        "S15c"
+      ],
+      "visual_sentence_ids": [
+        "S15b",
+        "S15c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "막힌 뒤쪽에 물이 차오르면, 물이 누르는 힘도 커집니다.",
+        "터널을 감싼 구조에 부담을 줄 수 있습니다."
+      ],
+      "dominant_sentence_id": "S15c",
+      "plan_start_frame": 8976,
+      "plan_end_frame": 9097,
+      "required_use_sec": 4.033333,
+      "screen_ko": "막힌 뒤쪽 수위가 높아지며 구조를 누르는 부담이 커지는 모형. 물이 가득 찬 뒤편과 이를 받는 터널 외측 구조를 함께 보여 준다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_PRESSURE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "수위가 올라가고 설명용 압력 표현이 점차 강해진다. 폭발과 댐 붕괴를 추가하지 않는다. 물이 구조를 누르는 방향이 보이고 과도한 붕괴는 일으키지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i019",
+      "file": "img/v1_i019_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S15d"
+      ],
+      "visual_sentence_ids": [
+        "S15d"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "발주처 기술책자도 이 위험을 설명합니다."
+      ],
+      "dominant_sentence_id": "S15d",
+      "plan_start_frame": 9097,
+      "plan_end_frame": 9175,
+      "required_use_sec": 2.6,
+      "screen_ko": "실존 기술책자 내용 확인을 나타내는 무문자 책자와 손, 옆의 방수·배수 모형. 실제 문서처럼 가짜 글자를 만들지 않는다.",
+      "framing_ko": "대상과 주변 상황이 함께 읽히는 넓은 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_DOCUMENT"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i020",
+      "file": "img/v1_i020_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S15d"
+      ],
+      "visual_sentence_ids": [
+        "S15d"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "발주처 기술책자도 이 위험을 설명합니다."
+      ],
+      "dominant_sentence_id": "S15d",
+      "plan_start_frame": 9175,
+      "plan_end_frame": 9252,
+      "required_use_sec": 2.566667,
+      "screen_ko": "실존 기술책자 내용 확인을 나타내는 무문자 책자와 손, 옆의 방수·배수 모형. 실제 문서처럼 가짜 글자를 만들지 않는다.",
+      "framing_ko": "핵심 대상의 옆면·부분 구조를 보여 주는 구도; 인물 얼굴 근접 금지",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_DOCUMENT"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p028",
+      "file": "clips_v1/p028.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S16a",
+        "S16b"
+      ],
+      "visual_sentence_ids": [
+        "S16a",
+        "S16b"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "그래서 주요 유입수는 관과 배수구로 모아 흘려보냈습니다.",
+        "방수막과 배수 통로를 갖춘 구간에서는 물이 차도 쪽으로 새어 나오는 것을 줄이면서, 뒤쪽 물이 빠져나갈 길도 확보했습니다."
+      ],
+      "dominant_sentence_id": "S16a",
+      "plan_start_frame": 9252,
+      "plan_end_frame": 9550,
+      "required_use_sec": 9.933333,
+      "screen_ko": "주요 유입수를 모으는 배수관과 배수구의 연속된 경로. 해당 구간의 방수막 뒤 배수 공간·관·마른 차도를 구별한 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_DRAIN",
+        "R_MEMBRANE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "파란 설명용 물이 집수 위치에서 관과 배수구를 따라 낮은 쪽으로 흐른다. 막 뒤 물이 배수 통로로 빠져나가며 차도와 하부 대피 통로는 마르게 유지된다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p029",
+      "file": "clips_v1/p029.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S16b",
+        "S16c"
+      ],
+      "visual_sentence_ids": [
+        "S16b",
+        "S16c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "방수막과 배수 통로를 갖춘 구간에서는 물이 차도 쪽으로 새어 나오는 것을 줄이면서, 뒤쪽 물이 빠져나갈 길도 확보했습니다.",
+        "물의 상태에 따라 차수와 배수를 함께 적용한 겁니다."
+      ],
+      "dominant_sentence_id": "S16b",
+      "plan_start_frame": 9550,
+      "plan_end_frame": 9848,
+      "required_use_sec": 9.933333,
+      "screen_ko": "해당 구간의 방수막 뒤 배수 공간·관·마른 차도를 구별한 단면. 차수 부분과 배수 부분이 함께 작동하는 같은 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_MEMBRANE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "막 뒤 물이 배수 통로로 빠져나가며 차도와 하부 대피 통로는 마르게 유지된다. 차도로 향하는 누수는 줄고 뒤편 물은 따로 빠져나간다. 전 구간이 같은 시공 단면이라고 일반화하지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p030",
+      "file": "clips_v1/p030.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S16c"
+      ],
+      "visual_sentence_ids": [
+        "S16c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "물의 상태에 따라 차수와 배수를 함께 적용한 겁니다."
+      ],
+      "dominant_sentence_id": "S16c",
+      "plan_start_frame": 9848,
+      "plan_end_frame": 9943,
+      "required_use_sec": 3.166667,
+      "screen_ko": "차수 부분과 배수 부분이 함께 작동하는 같은 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_MEMBRANE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "차도로 향하는 누수는 줄고 뒤편 물은 따로 빠져나간다. 전 구간이 같은 시공 단면이라고 일반화하지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p031",
+      "file": "clips_v1/p031.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S17a",
+        "S17b"
+      ],
+      "visual_sentence_ids": [
+        "S17a",
+        "S17b"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "하지만 받침을 설치해도 땅은 바로 멈추지 않았습니다.",
+        "기술자들은 천장과 벽이 얼마나 밀려오는지 계속 쟀습니다."
+      ],
+      "dominant_sentence_id": "S17b",
+      "plan_start_frame": 9943,
+      "plan_end_frame": 10241,
+      "required_use_sec": 9.933333,
+      "screen_ko": "지보를 설치한 뒤에도 조금씩 변형되는 약한 지반 모형. 천장·벽의 계측점을 따라 변화량을 확인하는 설명용 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_MONITOR"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "지반은 미세하게 계속 움직이고 지보는 고정된 위치에서 하중을 받는다. 계측점 사이 간격이 미세하게 바뀌고 측정 표식이 그 변화를 따라간다. 임의 수치는 쓰지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p032",
+      "file": "clips_v1/p032.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S17c",
+        "S17d"
+      ],
+      "visual_sentence_ids": [
+        "S17c",
+        "S17d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "땅이 더 움직이면 받침과 굴착 방법을 다시 검토해야 했습니다.",
+        "같은 산에서도 구간이 바뀌면 같은 처방을 그대로 쓸 수 없었습니다."
+      ],
+      "dominant_sentence_id": "S17c",
+      "plan_start_frame": 10241,
+      "plan_end_frame": 10507,
+      "required_use_sec": 8.866667,
+      "screen_ko": "변형이 커진 구간에서 보강 조합을 다시 검토하는 비교 모형. 서로 다른 지반 두 구간에 서로 다른 보강을 적용한 연속 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_MONITOR"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "관측된 변형 뒤에 추가 받침과 더 짧은 굴착 단계가 적용된다. 각 구간의 관측과 지보 조정이 개별적으로 진행된다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p033",
+      "file": "clips_v1/p033.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S17d"
+      ],
+      "visual_sentence_ids": [
+        "S17d"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "같은 산에서도 구간이 바뀌면 같은 처방을 그대로 쓸 수 없었습니다."
+      ],
+      "dominant_sentence_id": "S17d",
+      "plan_start_frame": 10507,
+      "plan_end_frame": 10597,
+      "required_use_sec": 3.0,
+      "screen_ko": "서로 다른 지반 두 구간에 서로 다른 보강을 적용한 연속 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_MONITOR"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "각 구간의 관측과 지보 조정이 개별적으로 진행된다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p034",
+      "file": "clips_v1/p034.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S18a",
+        "S18b"
+      ],
+      "visual_sentence_ids": [
+        "S18a",
+        "S18b"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "세리 날라에서는 보강을 한 뒤에도 추가 붕괴와 큰 변형이 나타났습니다.",
+        "배수관을 넣고, 주입 작업과 강관 보강을 더하며 전진했습니다."
+      ],
+      "dominant_sentence_id": "S18a",
+      "plan_start_frame": 10597,
+      "plan_end_frame": 10895,
+      "required_use_sec": 9.933333,
+      "screen_ko": "세리 날라에서 추가 붕괴·큰 변형이 발생했다는 기록을 설명하는 단순화 재구성 단면. 배수관·주입 보강·추가 강관을 순서대로 적용하는 모형.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_GROUND_RECON",
+        "R_REINFORCE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "기존 보강 주변의 토사가 추가로 흘러들고 지보가 변형된다. 실제 사고 영상이나 실측 재현으로 소개하지 않는다. 관으로 물을 빼고 틈 주입과 선행 강관 추가가 이어진 뒤 짧게 전진한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p035",
+      "file": "clips_v1/p035.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S18b",
+        "S18c"
+      ],
+      "visual_sentence_ids": [
+        "S18b",
+        "S18c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "배수관을 넣고, 주입 작업과 강관 보강을 더하며 전진했습니다.",
+        "지반을 확인하고 필요한 보강을 바꿔 간 겁니다."
+      ],
+      "dominant_sentence_id": "S18b",
+      "plan_start_frame": 10895,
+      "plan_end_frame": 11173,
+      "required_use_sec": 9.266667,
+      "screen_ko": "배수관·주입 보강·추가 강관을 순서대로 적용하는 모형. 새로 드러난 지반을 보고 필요한 보강을 바꾸는 전후 상태.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_REINFORCE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "관으로 물을 빼고 틈 주입과 선행 강관 추가가 이어진 뒤 짧게 전진한다. 확인한 지반 부분에 맞춰 추가 지보가 설치된다. 모든 구간에 같은 조합을 복제하지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p036",
+      "file": "clips_v1/p036.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S18c"
+      ],
+      "visual_sentence_ids": [
+        "S18c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "지반을 확인하고 필요한 보강을 바꿔 간 겁니다."
+      ],
+      "dominant_sentence_id": "S18c",
+      "plan_start_frame": 11173,
+      "plan_end_frame": 11263,
+      "required_use_sec": 3.0,
+      "screen_ko": "새로 드러난 지반을 보고 필요한 보강을 바꾸는 전후 상태.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_REINFORCE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "확인한 지반 부분에 맞춰 추가 지보가 설치된다. 모든 구간에 같은 조합을 복제하지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i021",
+      "file": "img/v1_i021_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S19a"
+      ],
+      "visual_sentence_ids": [
+        "S19a"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이 구간의 윗부분을 파고 지나가는 데 걸린 약 4년은, 굴착만 하던 시간이 아니었습니다."
+      ],
+      "dominant_sentence_id": "S19a",
+      "plan_start_frame": 11263,
+      "plan_end_frame": 11360,
+      "required_use_sec": 3.233333,
+      "screen_ko": "한 구간 공사가 길어진 이유를 상부 굴착·배수·보강으로 나눈 무문자 공정 요약. 약 4년은 편집에서만 쓴다.",
+      "framing_ko": "앞선 컷과 다른 높이·거리에서 원인과 결과를 한 화면에 보여 주는 구도",
+      "style": "geographical / historical explanatory visual",
+      "principle": false,
+      "reference_groups": [
+        "R_HISTORY"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i022",
+      "file": "img/v1_i022_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S19a"
+      ],
+      "visual_sentence_ids": [
+        "S19a"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이 구간의 윗부분을 파고 지나가는 데 걸린 약 4년은, 굴착만 하던 시간이 아니었습니다."
+      ],
+      "dominant_sentence_id": "S19a",
+      "plan_start_frame": 11360,
+      "plan_end_frame": 11457,
+      "required_use_sec": 3.233333,
+      "screen_ko": "한 구간 공사가 길어진 이유를 상부 굴착·배수·보강으로 나눈 무문자 공정 요약. 약 4년은 편집에서만 쓴다.",
+      "framing_ko": "대상과 주변 상황이 함께 읽히는 넓은 구도",
+      "style": "geographical / historical explanatory visual",
+      "principle": false,
+      "reference_groups": [
+        "R_HISTORY"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p037",
+      "file": "clips_v1/p037.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S19b"
+      ],
+      "visual_sentence_ids": [
+        "S19b"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "물을 처리하고, 무너진 곳을 안정시키고, 받침을 보강하는 작업이 함께 이어졌습니다."
+      ],
+      "dominant_sentence_id": "S19b",
+      "plan_start_frame": 11457,
+      "plan_end_frame": 11663,
+      "required_use_sec": 6.866667,
+      "screen_ko": "물 처리·붕괴부 안정·지보 보강을 함께 진행하는 모형.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_REINFORCE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "배수 흐름, 토사 안정화, 추가 받침이 같은 작업 공간에서 순서대로 진행된다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p038",
+      "file": "clips_v1/p038.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S19c"
+      ],
+      "visual_sentence_ids": [
+        "S19c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "남은 아래쪽 굴착과 최종 바닥 구조를 갖추는 작업은 그 뒤에도 이어졌습니다."
+      ],
+      "dominant_sentence_id": "S19c",
+      "plan_start_frame": 11663,
+      "plan_end_frame": 11863,
+      "required_use_sec": 6.666667,
+      "screen_ko": "상부 관통 이후 남은 하부 굴착과 깊은 최종 인버트의 후속 시공.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_INVERT_FINAL"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "상부 지보를 유지하며 하부를 추가 굴착하고 최종 바닥 구조를 닫는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "a001",
+      "file": "clips_v1/a001.mp4",
+      "kind": "v",
+      "role": "동작",
+      "sentence_ids": [
+        "S20a"
+      ],
+      "visual_sentence_ids": [
+        "S20a"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이렇게 공사를 이어 간 끝에 2017년에는 양쪽에서 파던 터널이 만났습니다."
+      ],
+      "dominant_sentence_id": "S20a",
+      "plan_start_frame": 11863,
+      "plan_end_frame": 12093,
+      "required_use_sec": 7.666667,
+      "screen_ko": "2017년 양쪽 굴착이 만나는 순간을 실사풍으로 재구성한다. 실제 인물과 행사는 재현하지 않는다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_BREAKTHROUGH"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "얇게 남은 굴착면이 제거되며 반대편 작업등이 드러난다. 인도 성인은 멀리서 안전하게 서 있다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i023",
+      "file": "img/v1_i023_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S20b"
+      ],
+      "visual_sentence_ids": [
+        "S20b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이후 내부 구조와 설비를 갖추고, 아탈 터널은 2020년 10월 3일 문을 열었습니다."
+      ],
+      "dominant_sentence_id": "S20b",
+      "plan_start_frame": 12093,
+      "plan_end_frame": 12186,
+      "required_use_sec": 3.1,
+      "screen_ko": "완공 후 남측 포털과 입구 안쪽이 함께 읽히는 하나의 넓은 구도. 개통 날짜는 편집에서만 표시한다.",
+      "framing_ko": "핵심 대상의 옆면·부분 구조를 보여 주는 구도; 인물 얼굴 근접 금지",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_SOUTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i024",
+      "file": "img/v1_i024_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S20b"
+      ],
+      "visual_sentence_ids": [
+        "S20b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이후 내부 구조와 설비를 갖추고, 아탈 터널은 2020년 10월 3일 문을 열었습니다."
+      ],
+      "dominant_sentence_id": "S20b",
+      "plan_start_frame": 12186,
+      "plan_end_frame": 12278,
+      "required_use_sec": 3.066667,
+      "screen_ko": "완공 후 남측 포털과 입구 안쪽이 함께 읽히는 하나의 넓은 구도. 개통 날짜는 편집에서만 표시한다.",
+      "framing_ko": "앞선 컷과 다른 높이·거리에서 원인과 결과를 한 화면에 보여 주는 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_SOUTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i025",
+      "file": "img/v1_i025_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S20b"
+      ],
+      "visual_sentence_ids": [
+        "S20b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 3,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이후 내부 구조와 설비를 갖추고, 아탈 터널은 2020년 10월 3일 문을 열었습니다."
+      ],
+      "dominant_sentence_id": "S20b",
+      "plan_start_frame": 12278,
+      "plan_end_frame": 12370,
+      "required_use_sec": 3.066667,
+      "screen_ko": "완공 후 남측 포털과 입구 안쪽이 함께 읽히는 하나의 넓은 구도. 개통 날짜는 편집에서만 표시한다.",
+      "framing_ko": "대상과 주변 상황이 함께 읽히는 넓은 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_SOUTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p039",
+      "file": "clips_v1/p039.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S21a"
+      ],
+      "visual_sentence_ids": [
+        "S21a"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "차들이 다닌다고 산속의 물까지 없어진 것은 아닙니다."
+      ],
+      "dominant_sentence_id": "S21a",
+      "plan_start_frame": 12370,
+      "plan_end_frame": 12487,
+      "required_use_sec": 3.9,
+      "screen_ko": "차량이 달리는 마른 차도 바깥에는 지하수와 배수 시설이 남아 있는 절개 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_MEMBRANE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "작은 차량은 위 차도로 지나가고 물은 도로 바깥 별도 배수 경로로 흐른다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "a002",
+      "file": "clips_v1/a002.mp4",
+      "kind": "v",
+      "role": "동작",
+      "sentence_ids": [
+        "S21b"
+      ],
+      "visual_sentence_ids": [
+        "S21b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "현장 감독을 맡았던 기술자는 2024년 후속 글에서도, 개통 뒤 누수 관리에 어려움이 있었다고 설명했습니다."
+      ],
+      "dominant_sentence_id": "S21b",
+      "plan_start_frame": 12487,
+      "plan_end_frame": 12733,
+      "required_use_sec": 8.2,
+      "screen_ko": "2024년 후속 기록의 누수 관리 어려움을 설명하는 과거 재구성. 기술자가 벽면 누수와 배수구를 확인한다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_MAINTENANCE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "인도 성인 기술자의 먼 뒷모습이 손전등으로 벽면의 작은 누수와 배수구를 점검한다. 현재 2026년 실황으로 표시하지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "a003",
+      "file": "clips_v1/a003.mp4",
+      "kind": "v",
+      "role": "동작",
+      "sentence_ids": [
+        "S21b"
+      ],
+      "visual_sentence_ids": [
+        "S21b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "현장 감독을 맡았던 기술자는 2024년 후속 글에서도, 개통 뒤 누수 관리에 어려움이 있었다고 설명했습니다."
+      ],
+      "dominant_sentence_id": "S21b",
+      "plan_start_frame": 12733,
+      "plan_end_frame": 12823,
+      "required_use_sec": 3.0,
+      "screen_ko": "2024년 후속 기록의 누수 관리 어려움을 설명하는 과거 재구성. 기술자가 벽면 누수와 배수구를 확인한다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_MAINTENANCE"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "인도 성인 기술자의 먼 뒷모습이 손전등으로 벽면의 작은 누수와 배수구를 점검한다. 현재 2026년 실황으로 표시하지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p040",
+      "file": "clips_v1/p040.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S21c"
+      ],
+      "visual_sentence_ids": [
+        "S21c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "터널을 뚫는 일은 끝났어도, 물이 빠져나갈 길과 구조를 관리하는 일은 계속됩니다."
+      ],
+      "dominant_sentence_id": "S21c",
+      "plan_start_frame": 12823,
+      "plan_end_frame": 13058,
+      "required_use_sec": 7.833333,
+      "screen_ko": "차도는 운영하면서 뒤편 물길과 구조를 관리하는 분리된 경로.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_DRAIN"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "배수관의 물 흐름과 구조 계측을 계속 유지한다. 대피 통로를 배수관처럼 쓰지 않는다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i026",
+      "file": "img/v1_i026_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S22a",
+        "S22b"
+      ],
+      "visual_sentence_ids": [
+        "S22a"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "다시 처음 질문입니다.",
+        "물이 쏟아지는 산을 어떻게 뚫었을까?"
+      ],
+      "dominant_sentence_id": "S22a",
+      "plan_start_frame": 13058,
+      "plan_end_frame": 13150,
+      "required_use_sec": 3.066667,
+      "screen_ko": "도입과 다른 북측 포털 형상을 유지한 넓은 화면에서 처음 질문을 회수한다.",
+      "framing_ko": "핵심 대상의 옆면·부분 구조를 보여 주는 구도; 인물 얼굴 근접 금지",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_NORTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i027",
+      "file": "img/v1_i027_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S22b"
+      ],
+      "visual_sentence_ids": [
+        "S22b"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "물이 쏟아지는 산을 어떻게 뚫었을까?"
+      ],
+      "dominant_sentence_id": "S22b",
+      "plan_start_frame": 13150,
+      "plan_end_frame": 13242,
+      "required_use_sec": 3.066667,
+      "screen_ko": "밝고 읽기 쉬운 굴착면 물길과 그 앞의 확보된 공간을 다시 보여 준다. 이전 소스 재사용은 하지 않는다.",
+      "framing_ko": "앞선 컷과 다른 높이·거리에서 원인과 결과를 한 화면에 보여 주는 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_GROUND_REAL"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p041",
+      "file": "clips_v1/p041.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S23a"
+      ],
+      "visual_sentence_ids": [
+        "S23a"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "물이 들어올 길을 살피고, 지반을 먼저 보강하고, 짧게 파자마자 받쳤습니다."
+      ],
+      "dominant_sentence_id": "S23a",
+      "plan_start_frame": 13242,
+      "plan_end_frame": 13458,
+      "required_use_sec": 7.2,
+      "screen_ko": "물길 확인→선행 보강→짧은 굴착→즉시 지보를 같은 좌표계에서 요약한다.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_RECAP_SUPPORT"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "물길 탐색 후 강관, 짧은 굴착, 지보가 시간 순서대로 이어진다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p042",
+      "file": "clips_v1/p042.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S23b",
+        "S23c"
+      ],
+      "visual_sentence_ids": [
+        "S23b",
+        "S23c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "바닥까지 받침을 잇고, 빼내야 할 물에는 따로 길을 내줬습니다.",
+        "우리가 달리는 이 차도는, 그렇게 산속에서 조금씩 확보하고 지켜 낸 빈 공간입니다."
+      ],
+      "dominant_sentence_id": "S23b",
+      "plan_start_frame": 13458,
+      "plan_end_frame": 13756,
+      "required_use_sec": 9.933333,
+      "screen_ko": "바닥까지 닫힌 구조와 별도로 물을 빼는 경로를 동시에 읽게 한다. 작은 차량이 달리는 차도와 이를 둘러싼 지반·지보·바닥·배수의 전체 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_RECAP_DRAIN",
+        "R_FINISHED_CUTAWAY"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "구조는 연결된 채 유지되고 물은 따로 마련한 관으로 흘러나간다. 차량이 정상 속도로 통과하고 구조는 공간을 유지하며 뒤편 물은 별도 경로로 흐른다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "p043",
+      "file": "clips_v1/p043.mp4",
+      "kind": "v",
+      "role": "원리",
+      "sentence_ids": [
+        "S23c"
+      ],
+      "visual_sentence_ids": [
+        "S23c"
+      ],
+      "visual_selection_basis": "all principle sentences in one engineering master",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "우리가 달리는 이 차도는, 그렇게 산속에서 조금씩 확보하고 지켜 낸 빈 공간입니다."
+      ],
+      "dominant_sentence_id": "S23c",
+      "plan_start_frame": 13756,
+      "plan_end_frame": 13944,
+      "required_use_sec": 6.266667,
+      "screen_ko": "작은 차량이 달리는 차도와 이를 둘러싼 지반·지보·바닥·배수의 전체 단면.",
+      "framing_ko": "설명 대상과 모든 작동 경로가 보이는 고정 절개 구도",
+      "style": "bright 3D educational diorama",
+      "principle": true,
+      "reference_groups": [
+        "R_FINISHED_CUTAWAY"
+      ],
+      "required_master_reference": true,
+      "camera": "locked-off static shot; no zoom, no pan",
+      "movement_ko": "차량이 정상 속도로 통과하고 구조는 공간을 유지하며 뒤편 물은 별도 경로로 흐른다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "production_requirement_only",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i028",
+      "file": "img/v1_i028_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S24a"
+      ],
+      "visual_sentence_ids": [
+        "S24a"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 1,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이런 이야기를 계속 받아 보시려면 구독, 하이프 쎄게 눌러 주세요!"
+      ],
+      "dominant_sentence_id": "S24a",
+      "plan_start_frame": 13944,
+      "plan_end_frame": 14028,
+      "required_use_sec": 2.8,
+      "screen_ko": "북측 포털과 넓은 산악 배경으로 마무리한다. 구독·하이프 문구는 정확한 편집 글자로만 넣는다.",
+      "framing_ko": "대상과 주변 상황이 함께 읽히는 넓은 구도",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_NORTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    },
+    {
+      "source_id": "i029",
+      "file": "img/v1_i029_1.png",
+      "kind": "i",
+      "role": "고정+효과",
+      "sentence_ids": [
+        "S24a"
+      ],
+      "visual_sentence_ids": [
+        "S24a"
+      ],
+      "visual_selection_basis": "one dominant sentence state; no place morphing",
+      "variant_index": 2,
+      "master_id_override": null,
+      "sentence_ko": [
+        "이런 이야기를 계속 받아 보시려면 구독, 하이프 쎄게 눌러 주세요!"
+      ],
+      "dominant_sentence_id": "S24a",
+      "plan_start_frame": 14028,
+      "plan_end_frame": 14112,
+      "required_use_sec": 2.8,
+      "screen_ko": "북측 포털과 넓은 산악 배경으로 마무리한다. 구독·하이프 문구는 정확한 편집 글자로만 넣는다.",
+      "framing_ko": "핵심 대상의 옆면·부분 구조를 보여 주는 구도; 인물 얼굴 근접 금지",
+      "style": "photorealistic Indian reconstruction / place",
+      "principle": false,
+      "reference_groups": [
+        "R_NORTH"
+      ],
+      "required_master_reference": true,
+      "camera": "still image + 6% edit zoom/pan",
+      "movement_ko": "생성 그림은 정지. 편집에서만 약 6% 줌·좌중우 이동을 적용한다.",
+      "end_ko": "같은 형상과 밝기를 유지한 구도로 끝난다. 감속·정지 프레임 연장·반복·역재생 금지.",
+      "generation_status": "not_generated",
+      "actual_file_existence_checked": false,
+      "visual_review_status": "not_performed",
+      "usable_range_status": "not_applicable",
+      "restrictions": [
+        "생성 글자·로고·번호판·치수선 없음",
+        "인도 성인만, 얼굴 작게, 실존 인물 재현 없음",
+        "기준 그림 형상·색·좌표계를 유지",
+        "실제 도면/기록 영상과 구별되는 설명용 재구성"
+      ]
+    }
+  ]
+}

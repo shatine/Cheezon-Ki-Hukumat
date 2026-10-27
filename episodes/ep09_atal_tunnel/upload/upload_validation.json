@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "published": false,
+  "thumbnail_image_created": false,
+  "scope": "draft_text_and_measured_chapter_checks_only",
+  "final_video_review_performed": false,
+  "description_character_counts": {
+    "en": 3788,
+    "hi": 3439
+  },
+  "keyword_counts": {
+    "en": 8,
+    "hi": 8
+  },
+  "title_lengths": [
+    {
+      "title": "जिस पहाड़ से पानी उमड़ रहा था, उसमें सुरंग कैसे बनाई गई? | अटल सुरंग",
+      "characters": 68
+    },
+    {
+      "title": "How Did They Tunnel Through a Mountain Gushing Water? | Atal Tunnel",
+      "characters": 67
+    },
+    {
+      "title": "अटल सुरंग: पानी और मलबे के बीच रास्ता कैसे बना?",
+      "characters": 47
+    },
+    {
+      "title": "पहाड़ से पानी निकला, फिर अटल सुरंग बनी कैसे?",
+      "characters": 44
+    },
+    {
+      "title": "Water, Mud and Broken Rock: How Did Atal Tunnel Get Through?",
+      "characters": 60
+    },
+    {
+      "title": "How Did Engineers Build Atal Tunnel Through Water-Filled Ground?",
+      "characters": 64
+    }
+  ],
+  "chapter_count": 11,
+  "shortest_chapter_sec": 34.412,
+  "approved_ko_body_sha256": "b6f91f4fcf8a86d100157ee3e1bdb51f4c392780625716b845d7075333eb34c6",
+  "opening_hi_exact_match": true,
+  "timing_canonical_sha256": "e689418f7a00c701761052b636753560a7f9b31654e11ebfd45df0af6310ffdc",
+  "errors": []
+}

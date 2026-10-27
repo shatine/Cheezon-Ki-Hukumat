@@ -1,6 +1,6 @@
 # 9편 인계 — Atal Tunnel
 
-갱신: 2026-10-27 (한국 시간). **한국어 확정·힌디어 78문장·무료 로컬 TTS 완료(469.412초). 실측 컷 계획과 이미지 프롬프트 작성 중.**
+갱신: 2026-10-27 (한국 시간). **한국어 확정·힌디어 78문장·무료 로컬 TTS 완료(469.412초). 실측 79컷·이미지 프롬프트 85행 점검 오류0. 무료 이미지 생성·검수 중.**
 
 ## 사용자 확정 사항
 
@@ -23,8 +23,10 @@
 | 질문·시각 증명 | 개념 설계 | `script/story_structure.md`. 시간표·컷 계획 아님 |
 | 힌디어 | **78문장 대응·교차 검토 완료** | `script/lines_hi_ko.tsv`, `script/source_ko_sentences.json`, `script/narration_hi.txt`, `review/translation_review.md` |
 | TTS | **78/78 자동 검사 통과·469.412초** | PC `D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit`. charonclone·seed7·speed1.0. 실제 WAV·타이밍·순서·원문 해시 검사 통과. 직접 청취 미수행 |
-| 컷 계획 | 작성·실측 실행 중 | TTS 실측만 사용. 10초는 영상 제작 요구 사양이며 현재 Muse 설정 확인·실제 사용 구간 측정은 생성 후 별도 |
-| 이미지 | 기준 형상·프롬프트 준비 | `images/reference_brief.md`. 실제 포털·단면 관찰 범위 기록. Flow 지정 프로젝트 Nano Banana 2.1·16:9·x1·0크레딧 UI 확인. 생성·시각 검수 미완료 |
+| 컷 계획 | **실측 실행·논리 검사 오류0** | 470.4초·79컷(영상50/이미지29), 도입4영상, 원리49문장 영상, 비원리영상16.13%. 10초는 제작 요구 사양이며 현재 Muse 설정·실제 사용 구간 검수는 후속 필수. `plan/shot_table_v1.md` |
+| 이미지 프롬프트 | **85행·참조/대응 검사 오류0** | 기준6장+영상 첫 프레임50장+이미지29장. `images/prompts_v1.json`, `scene_spec_v1.md`. 원리의 동작 전 첫 상태 명시 |
+| 이미지 생성·검수 | **진행 중, 선택1/85** | AT_S는 2차로가 명확한 시도2 선택. AT_N 제출. Flow Nano Banana 2.1·16:9·x1·0크레딧 확인. `images/picks_v1.md`에 실제 생성·시각 검수 기록 |
+| 업로드 문구 | **실측 기반 초안 검사 완료** | EN/HI 설명 분리·제목 각3개·키워드8+8·실측 챕터11개. `upload/`. 외부 게시·썸네일 이미지 제작 미수행 |
 | 영상·편집 | 미시작 | Muse 생성 승인 미기록 |
 | PC 작업 지시 | TTS 실행·재개 지침 | `WORK_ORDER_tts_v1.md`. 오디오는 PC에만 보관 |
 
@@ -41,8 +43,8 @@
 ## 다음 세션이 할 일
 
 1. TTS는 완료했다. 필요할 때 `review_edit/verify_tts.py`로 재검증한다. 통과 WAV를 불필요하게 재생성하지 않는다. 오디오는 git에 넣지 않는다.
-2. 실측 `narr_timing.json`, `narr_check.json`, `tts_validation.json`과 요약을 기준으로 `backup_portable/skills/step4_plan.md`에 따라 컷 계획을 오류0으로 완성한다.
-3. 오류0 계획의 자산 ID와 일치하는 이미지 프롬프트를 만들고 기준 그림부터 Flow에서 한 장씩 생성·검수한다.
+2. `plan/plan_v1.py --clip-seconds 10`의 79컷·오류0 계획을 유지하고, 실제 영상 생성 뒤 검수한 사용 구간으로 갱신한다.
+3. `images/WORK_ORDER_images_v1.md`와 `picks_v1.md`의 실제 진행을 확인하고 기준 그림부터 Flow에서 한 장씩 생성·검수한다. 선택한 `AT_S = v1_AT_S_2.png`만 참조한다. 미완료 ID를 통과로 보고하지 않는다.
 4. `script_ko_final.md` 본문 해시를 유지한다. 길이에 맞춰 대본을 줄이거나 늘리지 않는다.
 5. Muse 생성·유료 작업은 별도 승인 기록을 확인한다. 이번 한국어 확정·무료 TTS 진행을 유료 영상 승인으로 해석하지 않는다.
 

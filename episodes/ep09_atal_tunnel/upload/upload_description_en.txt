@@ -1,0 +1,43 @@
+How did they tunnel through a mountain gushing water?
+
+Atal Tunnel carries traffic through 9.02 km of the Himalayas. Yet the contractor recorded peak inflow of up to 8,000 litres per minute in the Seri Nala zone, with mud and broken rock coming in too. According to the client's records, excavating the upper part through a difficult stretch of less than 600 metres took about four years. How did engineers keep a working space open inside that ground?
+
+Pumping out water did not make the loose roof and walls strong. Engineers reinforced the ground ahead with pipe roofs, excavated in short advances and supported newly exposed surfaces immediately. During upper excavation, a temporary invert connected the supports. Later, the remaining lower ground was excavated and the difficult zone received its deep final invert: a later stage, not the same temporary floor.
+
+Water needed its own route. Grouting reduced inflow where appropriate, while major inflows were collected and drained. Blocking a large water path could increase pressure behind the structure. Monitoring ground movement helped engineers review the excavation and support. Breakthrough came in 2017; the tunnel opened on 3 October 2020. A site engineer's 2024 retrospective also described leakage-management difficulties after opening. That is a historical observation, not a statement about conditions today.
+
+Chapters
+0:00 A mountain gushing water
+0:46 Why go under the mountain?
+1:28 Why pumping alone was not enough
+2:07 Supporting the ground before digging
+2:44 Short advances, immediate support
+3:28 Closing the structure below the road
+4:11 The space is supported, but water remains
+4:49 Sealing some paths, draining others
+5:31 Measuring movement and changing the support
+6:35 Breakthrough, opening and continued management
+7:15 How was the tunnel built?
+
+Sources
+- Length, opening, winter isolation and the government's 46 km / 4–5 hour travel reduction:
+https://www.pmindia.gov.in/en/news_updates/pm-dedicates-to-the-nation-the-atal-tunnel/
+- Contractor peak-inflow figure, corroborated in a government retrospective:
+https://newindiasamachar.pib.gov.in/WriteReadData/flipbook/2026/Mar/1st/English/files/basic-html/page26.html
+- Ground, pipe roofs, supports and construction stages — site engineer's technical paper:
+https://www.sta-ita-aites.sk/casopis-tunel/tunel_2022_04.pdf
+- Construction records, temporary/final inverts, drainage and monitoring — BRO technical brochure, third-party text mirror:
+https://pdfcoffee.com/atal-tunnel-technical-report-pdf-free.html
+- Designer's project account:
+https://www.smec.com/project/atal-tunnel/
+- Site engineer's 2024 retrospective and post-opening leakage observations:
+https://www.geotechnika.cz/cs/aktualne/107-vystavba-tunelu-rohtang-pod-vrcholky-himalaje
+
+Notes
+This is a production draft based on measured narration timings; review the chapters after final editing. No upload has been made.
+Where comparable figures differ, the script uses the highest published figure with its attribution. The 8,000 L/min value is the contractor's reported maximum, not an average. Government travel-saving figures remain attributed to the government. Different measurement boundaries or dates are not combined.
+Planned AI-assisted visuals reconstruct the subject; they are not on-site documentary footage. The 3D models simplify the principles. Shapes, colours and any illustrative dimensions are not measured construction drawings or a survey of field colours. People are illustrative Indian adults, not recreations of identified real people. Generated visuals and the final video are not yet complete.
+
+Subscribe for more stories like this — and hit Hype!
+
+#AtalTunnel #RohtangTunnel #Himalayas #TunnelConstruction #CivilEngineering #EngineeringExplained #CheezonKiHukumat
