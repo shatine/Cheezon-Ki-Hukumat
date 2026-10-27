@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ep09 Muse prompt package; frame readiness is not generation permission",
+  "type": "object",
+  "required": [
+    "status",
+    "generation_authorized",
+    "is_submission_file",
+    "clips"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "draft_not_submit_ready",
+        "first_frames_resolved_approval_pending"
+      ]
+    },
+    "generation_authorized": {
+      "const": false
+    },
+    "is_submission_file": {
+      "const": false
+    },
+    "clips": {
+      "type": "array",
+      "minItems": 50,
+      "maxItems": 50,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "image",
+          "source_ids",
+          "role",
+          "render",
+          "action",
+          "camera",
+          "movement",
+          "speed",
+          "framing",
+          "end",
+          "required_existing_features",
+          "motion_contract_sha256",
+          "prompt",
+          "save",
+          "frame_readiness"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(o00[1-4]|a00[1-3]|p0(?:0[1-9]|[1-3][0-9]|4[0-3]))$"
+          },
+          "image": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Resolved only from actual images/picks_v1.json, never inferred"
+          },
+          "source_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "role": {
+            "enum": [
+              "도입",
+              "원리",
+              "동작"
+            ]
+          },
+          "render": {
+            "enum": [
+              "real",
+              "3d"
+            ]
+          },
+          "camera": {
+            "const": "locked-off static shot"
+          },
+          "movement": {
+            "type": "string"
+          },
+          "speed": {
+            "type": "string"
+          },
+          "framing": {
+            "type": "string"
+          },
+          "end": {
+            "type": "string"
+          },
+          "required_existing_features": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string"
+            }
+          },
+          "motion_contract_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "action": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "save": {
+            "type": "string"
+          },
+          "frame_readiness": {
+            "enum": [
+              "missing_pick",
+              "picked_file_unavailable",
+              "picked_action_review_pending",
+              "confirmed"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "first_frames_resolved_approval_pending"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "clips": {
+            "items": {
+              "properties": {
+                "image": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "frame_readiness": {
+                  "const": "confirmed"
+                },
+                "image_sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                }
+              },
+              "required": [
+                "image_sha256"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$comment": "--ready additionally enforces all 50 frame_readiness=confirmed, unique IDs and exact source correspondence. No network submission exists in this script."
+}

@@ -1,0 +1,83 @@
+{
+  "id": "G3D_EXC",
+  "attempt": 3,
+  "kind": "master_retake",
+  "status": "generated; awaiting root strict review",
+  "record_basis": "Post-completion record of actual observations in this session; no retrospective pre-submit timestamp invented.",
+  "recorded_at_utc": "2026-10-27T03:54:49.410577+00:00",
+  "observation_time": {
+    "source_and_settings": "Before this attempt was submitted in the current session",
+    "exact_wall_clock_utc": null,
+    "note": "Exact clock time for the pre-submit observation was not separately captured; the observations and hash check preceded the reported 0% submission."
+  },
+  "exact_submitted_prompt": "Clean bright 3D educational engineering diorama, soft studio light, white-grey background, sharp focus, 16:9. Using the supplied image as the actual input: preserve the SAME longitudinal side-cut rock block, camera, grey transverse support ribs, left open upper excavation, middle solid rough working face, right solid unexcavated ground and continuous solid lower bench. Keep the current clear left-to-right excavation axis. Do not make a dark open passage through the middle face. No road, no invert, no purple material. Correct ONLY the teal advance-pipe bank. Replace the small stacked bundle with many evenly spaced hollow teal steel tubes distributed around the WHOLE UPPER SEMICIRCULAR CROWN above the grey arch supports. Their circular LEFT mouths must form a visible broad arch-shaped row, continuing down both upper shoulders rather than clustering at the very top. Each individual tube body is perfectly STRAIGHT and rigid, parallel to the horizontal left-to-right tunnel axis. The tubes themselves never curve with the arch: only the arrangement of separate circular mouths forms an arch. Show the near longitudinal cut surface revealing several straight tube bodies and keep the other tubes visible at the left end section. All forward portions enter and remain embedded in the solid right-hand ground. Any exposed long lengths are visible solely because of the explanatory cut, not dangling outside the rock. No wavy, sagging or twisted tubes, no isolated unsupported poles, no transverse teal crossbars. Grey transverse ribs stay a distinct separate system. Do not change the source excavation geometry or advance stage. No arrows, people, text, labels, letters, numerals, symbols, logos or watermarks. No readable text.",
+  "prompt_sha256": "90c9867e7e8a4def133d3a47185060242859ed72b5b3e1dc4dcb3d2a5c991f19",
+  "submitted_text_verified_after_completion": true,
+  "submitted_text_character_count": 1735,
+  "input": {
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "source_asset_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "actual_reference_media_source_url": "https://flow-content.google/image/8f1d0888-32a8-40d3-900b-a9c67ff1110d",
+    "expected_media_revision_matched": true,
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_2.jpg",
+    "original_sha256": "cf2dfc44654539ef981dcb46ebc42bf12783e8ca235c2cbf1790cdaf162823b3",
+    "verification_download_path": "C:\\Users\\developer1\\Downloads\\8f1d0888-32a8-40d3-900b-a9c67ff1110d (1).jpg",
+    "verification_download_sha256": "cf2dfc44654539ef981dcb46ebc42bf12783e8ca235c2cbf1790cdaf162823b3",
+    "verification_download_matches_original_bytes": true,
+    "verification_performed_before_submit": true,
+    "evidence": [
+      "Read the visible main read-only image src in the existing source editor and compared its observed origin/path to the exact expected media revision 8f1d0888-32a8-40d3-900b-a9c67ff1110d.",
+      "Downloaded that visible main image before submission and measured SHA256 cf2dfc44654539ef981dcb46ebc42bf12783e8ca235c2cbf1790cdaf162823b3, identical to stored raw EXC2.",
+      "The image was the current central image in the editor above the field 어떤 내용을 변경하려 하시나요?; no normal text-only composer was used.",
+      "Observed Nano Banana 2.1, selected 16:9 Value=1 and 0 credits in this editor before submission."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "cost_credits": 0,
+    "these_settings_directly_observed_before_submit": true,
+    "output_count_selector_visible": false,
+    "output_count_note": "This editor exposes no output-count selector. The preceding G3D_EXC2 new-image composer had x1 Value=1 and no output-count change was made; this is separate from observing x1 in the editor.",
+    "generated_result_entries_observed": 1
+  },
+  "result": {
+    "container_editor_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "container_editor_asset_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "result_media_source_url": "https://flow-content.google/image/76a3473e-8fb4-4f83-ae83-a15d459d1ee5",
+    "result_media_id": "76a3473e-8fb4-4f83-ae83-a15d459d1ee5",
+    "media_source_observed_from": "src attribute of the visible main read-only image after selecting the completed retake history tile; origin/path only, no signed query saved",
+    "container_url_is_revision_ambiguous": true,
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\76a3473e-8fb4-4f83-ae83-a15d459d1ee5.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_3.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "1644b252c765c3da2ae7fe7f8c6369b1ca857687016994d6166db354c2a2ec32",
+      "bytes": 189609
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_3.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "633588bc94e855ed8729ff17e7bfe90b0ace9f75aacb589cad49d074ca70e37b",
+      "bytes": 1170589
+    }
+  },
+  "quick_visual_check": {
+    "performed": true,
+    "observed_by": "ep09_image_prompts",
+    "scope": "whole raw candidate only; not a final engineering acceptance",
+    "observations": "The left open upper excavation, middle face, right solid block and lower bench remain. More teal pipe mouths now form an arch-shaped end arrangement. Several far-right pipe portions still appear wavy; straightness and all support/embedding relationships require root strict review."
+  },
+  "strict_review_and_selection": "root manages picks; acceptance not asserted",
+  "further_generation_submitted": false,
+  "next_step_note": "Stop after this candidate; root will handle episode-project separation before further scenes."
+}

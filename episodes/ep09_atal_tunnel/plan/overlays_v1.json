@@ -1,0 +1,120 @@
+{
+  "status": "measured_overlay_text_plan_only",
+  "narration_seconds": 469.412,
+  "source_timing": "review_edit/narr_timing.json",
+  "time_basis": "actual sentence start/end; no estimated narration times",
+  "rendered": false,
+  "visual_review_performed": false,
+  "rule": "Generated scene images contain no text; these labels are added in editing only. Labels describe sourced narration, not measured dimensions of the illustrative model. Recheck position, shaping and line width with the final frame.",
+  "overlays": [
+    {
+      "id": "L01",
+      "source_sentence_id": "S01b",
+      "start": 3.903,
+      "end": 12.956,
+      "text_hi": "निर्माण कंपनी के अनुसार\nअधिकतम 8,000 लीटर/मिनट",
+      "purpose_ko": "최대 유입량과 시공사 귀속",
+      "source": "script/script_ko_final.md: 근거표 및 해당 승인 문장",
+      "font": "Nirmala UI",
+      "placement": "upper-safe-area; keep clear of Hindi subtitles",
+      "rendered": false
+    },
+    {
+      "id": "L02",
+      "source_sentence_id": "S02b",
+      "start": 25.634,
+      "end": 33.565,
+      "text_hi": "लंबाई: 9.02 किमी\nसमुद्र तल से 3,000 मीटर से अधिक",
+      "purpose_ko": "길이·고도",
+      "source": "script/script_ko_final.md: 근거표 및 해당 승인 문장",
+      "font": "Nirmala UI",
+      "placement": "upper-safe-area; keep clear of Hindi subtitles",
+      "rendered": false
+    },
+    {
+      "id": "L03",
+      "source_sentence_id": "S02c",
+      "start": 33.915,
+      "end": 45.518,
+      "text_hi": "बीआरओ के रिकॉर्ड के अनुसार\n600 मीटर से कम\nऊपरी हिस्से को खोदकर पार करने में लगभग 4 साल",
+      "purpose_ko": "600미터 미만과 상부 굴착의 약4년을 구분",
+      "source": "script/script_ko_final.md: 근거표 및 해당 승인 문장",
+      "font": "Nirmala UI",
+      "placement": "upper-safe-area; keep clear of Hindi subtitles",
+      "rendered": false
+    },
+    {
+      "id": "L04",
+      "source_sentence_id": "S04b",
+      "start": 72.898,
+      "end": 80.725,
+      "text_hi": "सरकार के अनुसार\n46 किमी कम · लगभग 4–5 घंटे कम",
+      "purpose_ko": "정부 발표 거리·시간 단축",
+      "source": "script/script_ko_final.md: 근거표 및 해당 승인 문장",
+      "font": "Nirmala UI",
+      "placement": "upper-safe-area; keep clear of Hindi subtitles",
+      "rendered": false
+    },
+    {
+      "id": "L05",
+      "source_sentence_id": "S09c",
+      "start": 175.265,
+      "end": 182.895,
+      "text_hi": "कुछ हिस्सों में: एक बार में लगभग 1 मीटर खुदाई",
+      "purpose_ko": "일부 구간의 짧은 전진 예시, 전 구간 규격 아님",
+      "source": "script/script_ko_final.md: 근거표 및 해당 승인 문장",
+      "font": "Nirmala UI",
+      "placement": "upper-safe-area; keep clear of Hindi subtitles",
+      "rendered": false
+    },
+    {
+      "id": "L06",
+      "source_sentence_id": "S19a",
+      "start": 375.444,
+      "end": 381.541,
+      "text_hi": "ऊपरी हिस्से को खोदकर पार करने में लगभग 4 साल",
+      "purpose_ko": "상부 굴착 기간과 후속 하부 공사 구분",
+      "source": "script/script_ko_final.md: 근거표 및 해당 승인 문장",
+      "font": "Nirmala UI",
+      "placement": "upper-safe-area; keep clear of Hindi subtitles",
+      "rendered": false
+    },
+    {
+      "id": "L07",
+      "source_sentence_id": "S20a",
+      "start": 395.429,
+      "end": 402.738,
+      "text_hi": "2017",
+      "purpose_ko": "양측 굴착 관통 연도",
+      "source": "script/script_ko_final.md: 근거표 및 해당 승인 문장",
+      "font": "Nirmala UI",
+      "placement": "upper-safe-area; keep clear of Hindi subtitles",
+      "rendered": false
+    },
+    {
+      "id": "L08",
+      "source_sentence_id": "S20b",
+      "start": 403.088,
+      "end": 411.542,
+      "text_hi": "3 अक्तूबर 2020",
+      "purpose_ko": "개통일",
+      "source": "script/script_ko_final.md: 근거표 및 해당 승인 문장",
+      "font": "Nirmala UI",
+      "placement": "upper-safe-area; keep clear of Hindi subtitles",
+      "rendered": false
+    },
+    {
+      "id": "L09",
+      "source_sentence_id": "S21b",
+      "start": 416.241,
+      "end": 427.096,
+      "text_hi": "2024: साइट इंजीनियर का लेख\nखुलने के बाद रिसाव सँभालने की कठिनाइयों का ज़िक्र",
+      "purpose_ko": "2024년 후속 글이 과거 누수관리 어려움을 설명한다는 귀속",
+      "source": "script/script_ko_final.md: 근거표 및 해당 승인 문장",
+      "font": "Nirmala UI",
+      "placement": "upper-safe-area; keep clear of Hindi subtitles",
+      "rendered": false
+    }
+  ],
+  "text_review": "Independent meaning/number/attribution and Hindi wording review completed; rendered typography/position review pending"
+}

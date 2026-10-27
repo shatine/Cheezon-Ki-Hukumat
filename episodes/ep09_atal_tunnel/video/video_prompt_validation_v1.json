@@ -1,0 +1,275 @@
+{
+  "status": "draft_valid_not_ready",
+  "scope": "prompt_definition_and_actual_first_frame_resolution_only",
+  "generation_authorized": false,
+  "actual_muse_submission_performed": false,
+  "actual_video_generated": false,
+  "expected": 50,
+  "defined": 50,
+  "role_counts": {
+    "원리": 43,
+    "도입": 4,
+    "동작": 3
+  },
+  "camera_move_count": 0,
+  "selected_video_frames": 0,
+  "ready_video_frames": 0,
+  "actual_chosen_images": 4,
+  "expected_image_assets": 85,
+  "definition_errors": [],
+  "readiness_blockers": [
+    {
+      "id": "o001",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "o002",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "o003",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "o004",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p001",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p002",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p003",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p004",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p005",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p006",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p007",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p008",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p009",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p010",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p011",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p012",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p013",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p014",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p015",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p016",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p017",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p018",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p019",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p020",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p021",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p022",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p023",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p024",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p025",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p026",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p027",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p028",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p029",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p030",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p031",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p032",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p033",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p034",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p035",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p036",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p037",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p038",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "a001",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p039",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "a002",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "a003",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p040",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p041",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p042",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    },
+    {
+      "id": "p043",
+      "frame_readiness": "missing_pick",
+      "reason": "No actual chosen first frame exists for this source ID"
+    }
+  ],
+  "current_muse_9227_settings_verified": false,
+  "user_muse_approval_recorded": false,
+  "warning": "No actual frame or video quality review is performed by this generator. Manual checks are tied to exact selected file hashes."
+}

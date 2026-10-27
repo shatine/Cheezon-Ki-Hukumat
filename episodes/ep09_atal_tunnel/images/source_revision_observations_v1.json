@@ -1,0 +1,41 @@
+{
+  "scope": "Separate later UI revision observations and actual downloaded-byte comparison; original historical input records preserved",
+  "observations": [
+    {
+      "id": "AT_S",
+      "attempt": 2,
+      "media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+      "raw_sha256": "0ea8aa26ac03d834682abc4e2adb62697d2cccc9a7b40edea07c145607e8b6d8",
+      "observed_at": "2026-10-27T12:46:51.1799268+09:00",
+      "observed_by": "root",
+      "evidence": "New post-generation source revision verification, not a retroactive pre-submit observation. Visible main-image src was read and that image downloaded via browser UI; for AT_N1 the visible history material thumbnail was read and downloaded instead. Signed query parameters omitted; origin/path preserve observed revision. Actual downloaded file C:\\Users\\developer1\\Downloads\\c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb (1).jpg is byte-identical by SHA-256 to D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_S_2.jpg. No generation submitted by this check."
+    },
+    {
+      "id": "AT_C",
+      "attempt": 3,
+      "media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+      "raw_sha256": "5acec3d0367f7d8814e5c8a416b830b832b1dcb58e10c762a3cef253e8739148",
+      "observed_at": "2026-10-27T12:46:51.1828613+09:00",
+      "observed_by": "root",
+      "evidence": "New post-generation source revision verification, not a retroactive pre-submit observation. Visible main-image src was read and that image downloaded via browser UI; for AT_N1 the visible history material thumbnail was read and downloaded instead. Signed query parameters omitted; origin/path preserve observed revision. Actual downloaded file C:\\Users\\developer1\\Downloads\\493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9 (1).jpg is byte-identical by SHA-256 to D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_C_3.jpg. No generation submitted by this check."
+    },
+    {
+      "id": "AT_INT",
+      "attempt": 1,
+      "media_url": "https://flow-content.google/image/ec2b5499-bb90-4e2e-b0da-46a481443d64",
+      "raw_sha256": "c3164300ba9f94e206c72c8a8a0978670d6dedaf0b875f76ca2916b1a44c2461",
+      "observed_at": "2026-10-27T12:46:51.1836370+09:00",
+      "observed_by": "root",
+      "evidence": "New post-generation source revision verification, not a retroactive pre-submit observation. Visible main-image src was read and that image downloaded via browser UI; for AT_N1 the visible history material thumbnail was read and downloaded instead. Signed query parameters omitted; origin/path preserve observed revision. Actual downloaded file C:\\Users\\developer1\\Downloads\\ec2b5499-bb90-4e2e-b0da-46a481443d64 (1).jpg is byte-identical by SHA-256 to D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_INT_1.jpg. No generation submitted by this check."
+    },
+    {
+      "id": "AT_N",
+      "attempt": 1,
+      "media_url": "https://flow-content.google/image/c0332dd2-7b24-4bca-809d-62db79763071",
+      "raw_sha256": "b563bf2b2d1eb30da38d6e54429dca8de769533842937809327359a9cef2d47b",
+      "observed_at": "2026-10-27T12:46:51.1847712+09:00",
+      "observed_by": "ep09_image_prompts, with root filesystem SHA verification",
+      "evidence": "New post-generation source revision verification, not a retroactive pre-submit observation. Visible main-image src was read and that image downloaded via browser UI; for AT_N1 the visible history material thumbnail was read and downloaded instead. Signed query parameters omitted; origin/path preserve observed revision. Actual downloaded file C:\\Users\\developer1\\Downloads\\c0332dd2-7b24-4bca-809d-62db79763071 (1).jpg is byte-identical by SHA-256 to D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_N_1.jpg. No generation submitted by this check."
+    }
+  ]
+}

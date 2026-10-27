@@ -1,0 +1,89 @@
+{
+  "id": "AT_N",
+  "attempt": 3,
+  "kind": "master_retake",
+  "status": "generated; awaiting root strict review",
+  "record_basis": "Post-completion record of actual observations during this session; not a claim that this JSON existed before submission.",
+  "recorded_at_utc": "2026-10-27T03:44:31.226790+00:00",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear snowy Himalayan daylight, sharp focus, 16:9. Using the currently supplied source image: keep this SAME north-portal reconstruction, the same exact building geometry, snowy mountains, retaining walls, camera position and empty two-lane road. Keep the large dark-green rear gable. Keep the much smaller red-brown front gable ONLY over the left service section, clearly narrower than half of the full facade. Keep the main rectangular dark road mouth on the RIGHT. The small left service recess is not a traffic bore. Exactly one central lane-separating line, two lanes total. Only correct the facade markings: remove every tiny white glyph-like mark or sign-like patch from the right red-brown vertical portal post and all other facade parts. Fill these small marked areas with continuous plain matching red-brown or yellow panel material. All posts and panels are completely blank and unmarked. Do not enlarge or move either roof; do not change the source building design. No cars, no people, no text, letters, numerals, plaques, signs, stickers, logos, flags or watermarks. This remains an illustrative reconstruction, not a survey photograph. No readable text.",
+  "prompt_sha256": "0052933b1e65721011e63bc9d7d2b4972f93cd2200bff38839f8e0d4a9b0eded",
+  "submitted_text_verified_after_completion": true,
+  "submitted_text_character_count": 1206,
+  "input": {
+    "source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
+    "source_asset_id": "a10bade0-3cad-479d-93a8-5d68d9986821",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_N_1.jpg",
+    "original_sha256": "b563bf2b2d1eb30da38d6e54429dca8de769533842937809327359a9cef2d47b",
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "evidence_before_submit": [
+      "Opened the known N1 source editor and visually inspected its central main image: large green rear gable, much smaller red-brown gable over the left service area, rectangular traffic mouth on the right, same camera and snowy retaining walls.",
+      "The main source image was present in the image editing UI above the field labelled 어떤 내용을 변경하려 하시나요?, rather than the normal new-image composer.",
+      "Observed image-editor Nano Banana 2.1, selected 16:9 Value=1 and 0 credits before submission."
+    ],
+    "additional_evidence_after_submit": {
+      "source_material_thumbnail_role": "소재 이미지",
+      "observed_reference_media_source_url": "https://flow-content.google/image/c0332dd2-7b24-4bca-809d-62db79763071",
+      "note": "This explicit material-thumbnail media URL was observed after submission; it is additional corroboration, not retroactively claimed as a pre-submit observation.",
+      "material_download_verification_after_completion": {
+        "observed_at_utc": "2026-10-27T03:47:28.362824+00:00",
+        "download_path": "C:\\Users\\developer1\\Downloads\\c0332dd2-7b24-4bca-809d-62db79763071 (1).jpg",
+        "sha256": "b563bf2b2d1eb30da38d6e54429dca8de769533842937809327359a9cef2d47b",
+        "size": [
+          1376,
+          768
+        ],
+        "exact_byte_match_with_old_raw_N1": true,
+        "timing": "Performed after N3 was completed and reported, before G3D_EXC2 new-image submission; not a pre-N3-submit observation."
+      }
+    },
+    "local_upload_used": false
+  },
+  "settings": {
+    "mode": "current-image editing",
+    "mode_observed_before_submit": true,
+    "model": "Nano Banana 2.1",
+    "model_observed_before_submit": true,
+    "aspect_ratio": "16:9",
+    "aspect_ratio_observed_before_submit": true,
+    "cost_credits": 0,
+    "cost_observed_before_submit": true,
+    "output_count_selector_visible": false,
+    "output_count_note": "The image-editor panel did not expose an output-count selector. The project x1 Value=1 was directly observed on the preceding G3D_EXC1 new-image submission and was not changed. This is distinct from measuring an x1 selector in this editor.",
+    "generated_result_entries_observed": 1
+  },
+  "result": {
+    "container_editor_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
+    "container_editor_asset_id": "a10bade0-3cad-479d-93a8-5d68d9986821",
+    "result_media_source_url": "https://flow-content.google/image/5799362b-258f-4b6a-b5c9-797653871bd6",
+    "result_media_id": "5799362b-258f-4b6a-b5c9-797653871bd6",
+    "media_source_observed_from": "src attribute of the visible read-only main image after selecting the completed retake history tile",
+    "url_caveat": "The container editor URL stayed the same across revisions; it does not identify or guarantee the selected image revision.",
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\5799362b-258f-4b6a-b5c9-797653871bd6.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_N_3.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "d051266d641c1ccc9f6ec700249034a059880ebb52f21e351f3d9c52c38f5571",
+      "bytes": 358202
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_N_3.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+      "bytes": 2189150
+    }
+  },
+  "quick_visual_check": {
+    "performed": true,
+    "scope": "whole raw image only; not final strict review",
+    "observed_by": "ep09_image_prompts",
+    "observations": "Bright snowy exterior, large green rear roof and smaller left red-brown front gable, right rectangular traffic opening, empty two-lane road. Fine-mark removal completeness is left for root comparison."
+  },
+  "strict_review_and_selection": "root manages picks; no selection asserted by this record",
+  "further_generation_submitted": false
+}

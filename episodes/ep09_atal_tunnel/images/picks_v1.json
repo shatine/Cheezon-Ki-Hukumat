@@ -1,18 +1,642 @@
 {
-  "scope": "actual generated images and visual review; ongoing",
+  "schema_version": 2,
+  "scope": "explicit root visual decisions; automatic file measurements are separate",
   "expected_ids": 85,
-  "chosen_count": 1,
+  "review_log": [
+    {
+      "input": {
+        "id": "AT_S",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "1376×768 원본과 처리본을 직접 확인. 직사각형 입구, 주황 세로 외장, 갈색 차양, 숲·산악, 읽히는 글자 없음은 충족. 전경의 두 점선이 입구 쪽까지 이어져 3차로처럼 읽힐 여지가 있어 기준 그림으로 채택하지 않음. 실제 접근부의 오류 확정은 아니며 본선 2차로 의미 전달을 분명하게 하는 목적. 멀리 작은 실루엣도 보여 사람 없는 마스터 지시를 강화함.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/d7501eaa-9047-474c-8302-ab06402c0ef2",
+        "raw_file": "v1_AT_S_1.jpg",
+        "clean_file": "v1_AT_S_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_S_1.jpg",
+          "sha256": "88b0ae7cb4c391e49f9409621bc8b4ee5eb357ce5860e795e33f5123cec9688d",
+          "bytes": 273799,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_1.png",
+          "sha256": "6a249f163064d5483c44f8530f79cafdce6ca43ffa997d9ecda01d5e2ee269b2",
+          "bytes": 2088936,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27 (legacy explicit review)",
+      "review_source": "existing root-authored picks_v1.md/json; not a new visual review"
+    },
+    {
+      "input": {
+        "id": "AT_S",
+        "attempt": 2,
+        "decision": "chosen",
+        "reason": "1376×768 원본과 처리본을 직접 확인. 총 2차로·중앙선 하나가 입구까지 분명함. 사람·읽히는 글자 없음. 노랑/주황 세로 외장·갈색 사선 차양·직사각형 입구·숲과 보강 사면을 유지. 처리 후 모서리의 번짐이나 형상 변화가 보이지 않음. 현장 측량 사진이 아닌 생성 재구성 기준으로 채택.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+        "raw_file": "v1_AT_S_2.jpg",
+        "clean_file": "v1_AT_S_2.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_S_2.jpg",
+          "sha256": "0ea8aa26ac03d834682abc4e2adb62697d2cccc9a7b40edea07c145607e8b6d8",
+          "bytes": 340360,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "bytes": 2332640,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27 (legacy explicit review)",
+      "review_source": "existing root-authored picks_v1.md/json; not a new visual review"
+    },
+    {
+      "input": {
+        "id": "AT_N",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "북측 큰 녹색 뒤 박공·작은 적갈색 앞 박공·오른쪽 사각 차량 입구·왼쪽 작은 관리공간·2차로는 읽힘. 오른쪽 입구 기둥에 두 줄의 흰 글자/표지 같은 흔적이 보여 원본과 해당 부분 확대를 직접 확인한 뒤 보류. 읽을 수 있는 특정 문구를 발견했다고 주장하지 않으며, 생성 글자처럼 보이는 흔적을 제거할 무료 재생성을 요청함.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
+        "raw_file": "v1_AT_N_1.jpg",
+        "clean_file": null,
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": false,
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_N_1.jpg",
+          "sha256": "b563bf2b2d1eb30da38d6e54429dca8de769533842937809327359a9cef2d47b",
+          "bytes": 313420,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": null,
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T12:00:55+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "AT_N",
+        "attempt": 2,
+        "decision": "remake",
+        "reason": "처리본을 실제 1376×768 크기로 열어 확인. 사람 없음·2차로·중앙선 하나·밝기는 충족하지만 적갈색 앞 박공이 큰 녹색 뒤 박공과 거의 같은 폭으로 확장되어 왼쪽의 작은 전면 박공이라는 기준 형상이 약해짐. 작은 흰 사각 패치는 글자로 확인되지 않았고 그 자체를 탈락 이유로 삼지 않음. 시도1의 지붕 형상을 참조로 고정하고 기둥의 글자 흔적만 수정하는 재생성을 요청함.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/7f4dcf8f-3c87-4c25-8a79-383752abfa7d",
+        "raw_file": "v1_AT_N_2.jpg",
+        "clean_file": "v1_AT_N_2.png",
+        "root_opened_raw_original": false,
+        "root_opened_clean_original": true,
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_N_2.jpg",
+          "sha256": "85c2ad548b9ac9789b4dbdf15d0cd1108a853653f88334d6af8e9061f162f22a",
+          "bytes": 316240,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_N_2.png",
+          "sha256": "92a4af3309163cf6bcb1cfeade02d63825499924e2d18dd667e3d58a81f687b8",
+          "bytes": 2208961,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T12:00:55+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "AT_C",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "원본 1376×768을 직접 확인. 굴착면·직선 종방향 강관·횡방향 지보는 보이지만 천장 강관 사이의 밝은 틈이 지표면으로 열린 구멍과 외광처럼 읽힘. 지하 작업등으로 밝힌 연속된 암반/숏크리트 천장을 보여 줘야 하므로 보류. 일반 실사 머리말의 daylight와 지하 조명 지시가 충돌할 수 있어 실내 전용 전기조명 머리말로 고침. 전면 인물은 더 멀리 작게 배치하도록 조정하되 기존 얼굴이 화면 1/4을 넘었다고 주장하지 않음.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/1c1d1fed-7d49-4efc-a0d3-602af496d9b4",
+        "raw_file": "v1_AT_C_1.jpg",
+        "clean_file": null,
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": false,
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_C_1.jpg",
+          "sha256": "f460e7a16edeb71b2b374bd93cf8a690144aaedd3b790548328a903264700ca1",
+          "bytes": 280266,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": null,
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T12:19:45+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "AT_C",
+        "attempt": 2,
+        "decision": "remake",
+        "reason": "원본을 실제 크기로 직접 확인. 닫힌 천장과 전기 작업등은 해결됨. 다만 굴착면을 가로지르는 긴 평행 봉 묶음과 짧은 돌출 파이프가 선행 강관의 진행 방향을 모호하게 만듦. 실사 기준은 단순한 횡방향 아치 지보와 닫힌 지반을 보여 주고 선행 보강은 지반 내부에 가리도록 수정함. 파이프 루프의 축 방향과 단면 배열은 별도 3D 원리 기준에서 명확히 설명한다. 기계 외장도 표식 없는 단색으로 강화함.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a4165e2e-b1ce-4c0c-b2cc-9bc76abd5ed3",
+        "raw_file": "v1_AT_C_2.jpg",
+        "clean_file": null,
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": false,
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_C_2.jpg",
+          "sha256": "54ec4d3dd25a389af02653de6fcdfca3326306d80b8bc2b46c248056c6b4b28e",
+          "bytes": 226190,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": null,
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T12:25:28+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "AT_C",
+        "attempt": 3,
+        "decision": "chosen",
+        "reason": "1376×768 원본·처리본을 각각 직접 확인. 연속된 닫힌 암반/숏크리트 천장·횡방향 아치 지보·실제 보이는 전기 작업등·흙과 바닥 물·작은 장비 및 먼 성인 작업자2명이 읽힘. 잘못된 노출 강관 묶음과 하늘 구멍이 없음. 기계의 작은 사각 부분을 확대해 글자가 아닌 손잡이/해치 모양임을 확인. 읽히는 글자·로고·워터마크 흔적이 보이지 않아 설명용 공사 재현 기준으로 선택. 실제 현장 기록 사진이나 모든 지보 상세의 실측 재현이라고 주장하지 않음.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+        "raw_file": "v1_AT_C_3.jpg",
+        "clean_file": "v1_AT_C_3.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_C_3.jpg",
+          "sha256": "5acec3d0367f7d8814e5c8a416b830b832b1dcb58e10c762a3cef253e8739148",
+          "bytes": 302563,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_C_3.png",
+          "sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+          "bytes": 2315939,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T12:30:07+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "AT_INT",
+        "attempt": 1,
+        "decision": "chosen",
+        "reason": "root가 원본 JPEG와 처리 PNG를 각각 원본 크기로 직접 열었다. 중앙 점선 하나로 나뉜 단일 양방향 2차로, 매끈한 회색 벽, 닫힌 평평한 내부 천장, 밝은 전기조명과 닫힌 측면 배수 그릴이 보인다. 사람·차·읽을 수 있는 글자는 보이지 않고 워터마크 제거 부위에도 눈에 띄는 흔적을 발견하지 못했다. 실제 현장 측량 색상이나 기록 사진이 아닌 완공 내부 설명용 재구성 기준으로 선택한다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
+        "raw_file": "v1_AT_INT_1.jpg",
+        "clean_file": "v1_AT_INT_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_INT_1.jpg",
+          "sha256": "c3164300ba9f94e206c72c8a8a0978670d6dedaf0b875f76ca2916b1a44c2461",
+          "bytes": 97589,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_INT_1.png",
+          "sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+          "bytes": 1046695,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T12:36:00+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "G3D_EXC",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "root가 원본 JPEG와 처리 PNG를 원본 크기로 각각 열었고 독립 검토자도 처리본을 직접 봤다. 곧은 청록관과 회색 횡단 아치는 구별되지만, 이미 열린 왼쪽 공간·중앙 작업면·오른쪽 고체 지반을 보여줄 종단 절개가 분명하지 않고 뒤가 계속 열린 어두운 통로처럼 읽힌다. 보라색 주입재도 초기 단계에 이미 있어 후속 공정 설명용 기준으로 부적합. 프롬프트를 종단 side-cut, 중앙의 막힌 작업면, 오른쪽 고체 지반, 초기 보라 재료 없음으로 수정했다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/e564feda-eb2e-4398-acfc-6e649f565f3d",
+        "raw_file": "v1_G3D_EXC_1.jpg",
+        "clean_file": "v1_G3D_EXC_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_1.jpg",
+          "sha256": "dfffc6ea6d07866dde3ece18a6791030b5c052e32fd4d48f5adcb77a61485e92",
+          "bytes": 134280,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_1.png",
+          "sha256": "978f3b71b77d68b67e29848cbb719acbe59ea873a92c3ff2d8f0bb2dca4764e0",
+          "bytes": 1020074,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T12:44:32+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "AT_N",
+        "attempt": 3,
+        "decision": "chosen",
+        "reason": "root가 원본 JPEG와 처리 PNG를 원본 크기로 각각 직접 열었다. 큰 녹색 후면 박공과 폭이 작은 왼쪽 적갈색 전면 박공, 오른쪽 사각 도로 개구부, 빈 단일 양방향 2차로, 설산·회색 옹벽이 시도1 비례로 유지됐다. 시도1 오른쪽 기둥의 흰 글자 같은 흔적이 제거되고 읽을 수 있는 글자나 제거부위의 눈에 띄는 흔적을 발견하지 못했다. 독립된 작은 왼쪽 서비스 부분을 두번째 차량 튜브로 보지 않는다. 현장 사진이 아닌 설명용 재구성 기준으로 선택한다. Flow editURL은 원본과 동일한 컨테이너이므로 결과 media revision을 별도로 고정한다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
+        "result_media_url": "https://flow-content.google/image/5799362b-258f-4b6a-b5c9-797653871bd6",
+        "raw_file": "v1_AT_N_3.jpg",
+        "clean_file": "v1_AT_N_3.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_retake_reference_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_N_1.jpg",
+        "actual_ui_references": [
+          {
+            "id": "AT_N",
+            "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
+            "source_media_url": "https://flow-content.google/image/c0332dd2-7b24-4bca-809d-62db79763071",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "ep09_image_prompts",
+            "evidence": "Before submit, observer directly saw AT_N1 as main source in image editor above the change-image field: large green rear gable, small left red-brown front gable, right road opening. After submit, history material-thumbnail src was directly read and downloaded; root independently verified downloaded SHA identical to raw N1. The media URL and byte comparison are later corroboration, not claimed as pre-submit URL observation. See generation_records_v1/AT_N_3.json and source_revision_observations_v1.json."
+          }
+        ]
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_N_3.jpg",
+          "sha256": "d051266d641c1ccc9f6ec700249034a059880ebb52f21e351f3d9c52c38f5571",
+          "bytes": 358202,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_N_3.png",
+          "sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+          "bytes": 2189150,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_N_1.jpg",
+          "sha256": "b563bf2b2d1eb30da38d6e54429dca8de769533842937809327359a9cef2d47b",
+          "bytes": 313420,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        }
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T12:51:27+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "G3D_EXC",
+        "attempt": 2,
+        "decision": "remake",
+        "reason": "root가 원본 JPEG와 처리 PNG를 각각 원본 크기로 직접 열었다. 왼쪽 열린 상부 공간·중앙 거친 작업면·오른쪽 고체 지반과 하부 벤치 구분은 수정됐고 보라 주입재도 없어졌다. 그러나 청록관이 천장 꼭대기의 몇 가닥 묶음으로 모여 있고 길이 방향 일부가 물결처럼 굽어 보이며, 관 끝이 천장 전체 아치에 배열되는 관계를 보여주지 못한다. 시도2 형상을 입력으로 유지하고 관 배치·직선성만 바로잡는 명시적 수정 프롬프트를 준비했다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+        "result_media_url": "https://flow-content.google/image/8f1d0888-32a8-40d3-900b-a9c67ff1110d",
+        "raw_file": "v1_G3D_EXC_2.jpg",
+        "clean_file": "v1_G3D_EXC_2.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_2.jpg",
+          "sha256": "cf2dfc44654539ef981dcb46ebc42bf12783e8ca235c2cbf1790cdaf162823b3",
+          "bytes": 183394,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_2.png",
+          "sha256": "e856d6afad3c35224b10425b29ce13b6d328980a76bd2f133a2ed5e6eef9758f",
+          "bytes": 1229837,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T12:51:27+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "G3D_EXC",
+        "attempt": 3,
+        "decision": "remake",
+        "reason": "root가 원본 JPEG와 처리 PNG를 각각 원본 크기로 직접 열었다. 좌측 굴착 공간·중앙 막힌 작업면·우측 고체 지반과 관 끝의 아치 배열은 좋아졌다. 그러나 오른쪽 지반을 따라 드러난 긴 청록관 여러 가닥이 물결치거나 서로 붙어 보여 직선 강관의 형상·평행관계를 설명하는 기준으로는 보류한다. 다음 수정은 관 끝 아치와 굴착 형상을 유지하며, 앞쪽 고체 지반에 묻힌 관을 불필요하게 바깥으로 노출하지 않고 보이는 짧은 몸통만 직선으로 정리한다.",
+        "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+        "result_media_url": "https://flow-content.google/image/76a3473e-8fb4-4f83-ae83-a15d459d1ee5",
+        "raw_file": "v1_G3D_EXC_3.jpg",
+        "clean_file": "v1_G3D_EXC_3.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_retake_reference_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_2.jpg",
+        "actual_ui_references": [
+          {
+            "id": "G3D_EXC",
+            "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+            "source_media_url": "https://flow-content.google/image/8f1d0888-32a8-40d3-900b-a9c67ff1110d",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "ep09_image_prompts",
+            "evidence": "Before submit observer directly read visible main image src as exact EXC2 media revision, downloaded the displayed input, measured SHA identical to raw EXC2, and saw the change-image editor input and zero-credit settings. See generation_records_v1/G3D_EXC_3.json; exact wall-clock time was not separately captured and is not invented."
+          }
+        ]
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_3.jpg",
+          "sha256": "1644b252c765c3da2ae7fe7f8c6369b1ca857687016994d6166db354c2a2ec32",
+          "bytes": 189609,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_3.png",
+          "sha256": "633588bc94e855ed8729ff17e7bfe90b0ace9f75aacb589cad49d074ca70e37b",
+          "bytes": 1170589,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_2.jpg",
+          "sha256": "cf2dfc44654539ef981dcb46ebc42bf12783e8ca235c2cbf1790cdaf162823b3",
+          "bytes": 183394,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        }
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-27T13:17:44+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    }
+  ],
+  "legacy_record": {
+    "source_date": "2026-10-27",
+    "json": {
+      "scope": "actual generated images and visual review; ongoing",
+      "expected_ids": 85,
+      "chosen_count": 1,
+      "picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "raw_file": "v1_AT_S_2.jpg",
+          "reference": null,
+          "visual_status": "chosen_as_generated_reconstruction_reference",
+          "raw_and_cleaned_opened_at_original_size": true,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "reason": "Two lanes with one central line clearly visible; rectangular portal, yellow-orange vertical cladding, brown awning and forested reinforced slope; no people or readable text observed",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1"
+        }
+      }
+    },
+    "markdown": "# 9편 이미지 선택·실제 시각 검토 기록 v1\n\n2026-10-27. Flow 지정 프로젝트 `baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd`, Nano Banana 2.1 / 16:9 / x1 / 0크레딧을 UI에서 확인했다. 한 장씩 생성한다.\n\n이미지는 관찰한 형상·승인 대본을 바탕으로 새로 생성한 설명용 재구성이다. 현장 사진·측량 결과로 보고하지 않는다. 오디오 받아쓰기 검사와 이미지 시각 검수도 별개다.\n\n## 생성·검토\n\n| ID | 첨부 기준 | 시도 | 파일 | 상태 | 실제로 본 내용 / 조치 |\n|---|---|---:|---|---|---|\n| AT_S | 없음, 최초 기준 생성 | 1 | `v1_AT_S_1.png` | **보류·재생성** | 1376×768 원본과 처리본을 직접 확인. 직사각형 입구, 주황 세로 외장, 갈색 차양, 숲·산악, 읽히는 글자 없음은 충족. 전경의 두 점선이 입구 쪽까지 이어져 3차로처럼 읽힐 여지가 있어 기준 그림으로 채택하지 않음. 실제 접근부의 오류 확정은 아니며 본선 2차로 의미 전달을 분명하게 하는 목적. 멀리 작은 실루엣도 보여 사람 없는 마스터 지시를 강화함. |\n| AT_S | 없음, 최초 기준 재생성 | 2 | `v1_AT_S_2.png` | **선택** | 1376×768 원본과 처리본을 직접 확인. 총 2차로·중앙선 하나가 입구까지 분명함. 사람·읽히는 글자 없음. 노랑/주황 세로 외장·갈색 사선 차양·직사각형 입구·숲과 보강 사면을 유지. 처리 후 모서리의 번짐이나 형상 변화가 보이지 않음. 현장 측량 사진이 아닌 생성 재구성 기준으로 채택. |\n\n원본 보존: `D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_S_1.jpg`. 실제 다운로드 형식은 JPEG이므로 PNG 원본이라고 표기하지 않는다.\n\n처리본: `D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_1.png`. 기존 로컬 `tools\\lama\\dewm.py`를 적용했다. 원본은 보존했다. 생성 글자를 흐려서 통과시키지는 않았다.\n\n시도1 Flow 결과: https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/d7501eaa-9047-474c-8302-ab06402c0ef2\n\n시도2 Flow 결과: https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1\n\n선택 원본/처리본은 PC `img_raw\\v1_AT_S_2.jpg`, `img\\v1_AT_S_2.png`에 보관한다. 후속 참조는 선택한 2번만 첨부한다.\n\n## 검토 범위와 남은 일\n\n- 시도1은 부모와 독립 검토자가 실제 이미지 파일을 각각 열어 확인했다.\n- Primary 본문의 단일 튜브·2차로 설명은 재확인했다. 독립 검토에서 남측 원사진 재열람은 실패했으므로 이 회차에 원사진과 나란히 대조했다고 보고하지 않는다.\n- 현재 선택 1/85 ID: `AT_S = v1_AT_S_2.png`. 나머지 84개 ID는 미생성이다. 시도 수는 최종 승인 개수와 다르다.\n- 후속 그림은 기준 그림 확정 뒤 지정된 `ref`를 반드시 첨부한다. 모든 결과를 원본 크기로 직접 보고 의미·형상·일관성·글자·사람·밝기·인접 중복을 검토한다.\n"
+  },
   "picks": {
     "AT_S": {
       "attempt": 2,
       "file": "v1_AT_S_2.png",
       "raw_file": "v1_AT_S_2.jpg",
       "reference": null,
+      "planned_ref": null,
+      "reference_picks": {},
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "legacy_revision_identity_not_recorded",
       "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
       "raw_and_cleaned_opened_at_original_size": true,
-      "dimensions": [1376, 768],
-      "reason": "Two lanes with one central line clearly visible; rectangular portal, yellow-orange vertical cladding, brown awning and forested reinforced slope; no people or readable text observed",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+      "reason": "1376×768 원본과 처리본을 직접 확인. 총 2차로·중앙선 하나가 입구까지 분명함. 사람·읽히는 글자 없음. 노랑/주황 세로 외장·갈색 사선 차양·직사각형 입구·숲과 보강 사면을 유지. 처리 후 모서리의 번짐이나 형상 변화가 보이지 않음. 현장 측량 사진이 아닌 생성 재구성 기준으로 채택.",
       "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1"
+    },
+    "AT_C": {
+      "attempt": 3,
+      "file": "v1_AT_C_3.png",
+      "raw_file": "v1_AT_C_3.jpg",
+      "reference": null,
+      "planned_ref": null,
+      "reference_picks": {},
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "legacy_revision_identity_not_recorded",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+      "reason": "1376×768 원본·처리본을 각각 직접 확인. 연속된 닫힌 암반/숏크리트 천장·횡방향 아치 지보·실제 보이는 전기 작업등·흙과 바닥 물·작은 장비 및 먼 성인 작업자2명이 읽힘. 잘못된 노출 강관 묶음과 하늘 구멍이 없음. 기계의 작은 사각 부분을 확대해 글자가 아닌 손잡이/해치 모양임을 확인. 읽히는 글자·로고·워터마크 흔적이 보이지 않아 설명용 공사 재현 기준으로 선택. 실제 현장 기록 사진이나 모든 지보 상세의 실측 재현이라고 주장하지 않음.",
+      "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904"
+    },
+    "AT_INT": {
+      "attempt": 1,
+      "file": "v1_AT_INT_1.png",
+      "raw_file": "v1_AT_INT_1.jpg",
+      "reference": null,
+      "planned_ref": null,
+      "reference_picks": {},
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "legacy_revision_identity_not_recorded",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+      "reason": "root가 원본 JPEG와 처리 PNG를 각각 원본 크기로 직접 열었다. 중앙 점선 하나로 나뉜 단일 양방향 2차로, 매끈한 회색 벽, 닫힌 평평한 내부 천장, 밝은 전기조명과 닫힌 측면 배수 그릴이 보인다. 사람·차·읽을 수 있는 글자는 보이지 않고 워터마크 제거 부위에도 눈에 띄는 흔적을 발견하지 못했다. 실제 현장 측량 색상이나 기록 사진이 아닌 완공 내부 설명용 재구성 기준으로 선택한다.",
+      "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/e1a3929c-8a91-4682-9b0c-dc22a2bafc94"
+    },
+    "AT_N": {
+      "attempt": 3,
+      "file": "v1_AT_N_3.png",
+      "raw_file": "v1_AT_N_3.jpg",
+      "reference": null,
+      "planned_ref": null,
+      "reference_picks": {},
+      "actual_retake_reference_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_N_1.jpg",
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+      "reason": "root가 원본 JPEG와 처리 PNG를 원본 크기로 각각 직접 열었다. 큰 녹색 후면 박공과 폭이 작은 왼쪽 적갈색 전면 박공, 오른쪽 사각 도로 개구부, 빈 단일 양방향 2차로, 설산·회색 옹벽이 시도1 비례로 유지됐다. 시도1 오른쪽 기둥의 흰 글자 같은 흔적이 제거되고 읽을 수 있는 글자나 제거부위의 눈에 띄는 흔적을 발견하지 못했다. 독립된 작은 왼쪽 서비스 부분을 두번째 차량 튜브로 보지 않는다. 현장 사진이 아닌 설명용 재구성 기준으로 선택한다. Flow editURL은 원본과 동일한 컨테이너이므로 결과 media revision을 별도로 고정한다.",
+      "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
+      "actual_ui_references": [
+        {
+          "id": "AT_N",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
+          "source_media_url": "https://flow-content.google/image/c0332dd2-7b24-4bca-809d-62db79763071",
+          "method": "current_image_editor_input",
+          "observed_before_submit": true,
+          "observed_by": "ep09_image_prompts",
+          "evidence": "Before submit, observer directly saw AT_N1 as main source in image editor above the change-image field: large green rear gable, small left red-brown front gable, right road opening. After submit, history material-thumbnail src was directly read and downloaded; root independently verified downloaded SHA identical to raw N1. The media URL and byte comparison are later corroboration, not claimed as pre-submit URL observation. See generation_records_v1/AT_N_3.json and source_revision_observations_v1.json."
+        }
+      ],
+      "result_media_url": "https://flow-content.google/image/5799362b-258f-4b6a-b5c9-797653871bd6"
     }
-  }
+  },
+  "chosen_count": 4,
+  "updated_at": "2026-10-27T13:17:44+09:00"
 }

@@ -1,0 +1,174 @@
+{
+  "scope": "measured raw/clean correspondence and explicitly recorded image revision identity; not visual approval or actual UI attachment verification",
+  "reason": "The original is already present in the same Flow project media. A redundant local re-upload stalled; use the exact chosen attempt's existing original asset and record this transport accurately.",
+  "edit_and_video_sources_remain_selected_clean_png": true,
+  "references": {
+    "AT_C": {
+      "status": "source_correspondence_verified",
+      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+      "flow_container_id": "cd6db3c3-bb6c-47ff-aa86-81589494c904",
+      "source_media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+      "source_revision_resolution": {
+        "media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+        "raw_sha256": "5acec3d0367f7d8814e5c8a416b830b832b1dcb58e10c762a3cef253e8739148",
+        "resolution_source": "separate_explicit_legacy_revision_observation",
+        "observation": {
+          "id": "AT_C",
+          "attempt": 3,
+          "media_url": "https://flow-content.google/image/493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9",
+          "raw_sha256": "5acec3d0367f7d8814e5c8a416b830b832b1dcb58e10c762a3cef253e8739148",
+          "observed_at": "2026-10-27T12:46:51.1828613+09:00",
+          "observed_by": "root",
+          "evidence": "New post-generation source revision verification, not a retroactive pre-submit observation. Visible main-image src was read and that image downloaded via browser UI; for AT_N1 the visible history material thumbnail was read and downloaded instead. Signed query parameters omitted; origin/path preserve observed revision. Actual downloaded file C:\\Users\\developer1\\Downloads\\493fbbed-dbb1-44a2-ad2c-a3a1a7413ba9 (1).jpg is byte-identical by SHA-256 to D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_C_3.jpg. No generation submitted by this check."
+        }
+      },
+      "selected_attempt": 3,
+      "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_C_3.jpg",
+      "selected_clean_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_C_3.png",
+      "original_sha256": "5acec3d0367f7d8814e5c8a416b830b832b1dcb58e10c762a3cef253e8739148",
+      "selected_clean_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "changed_pixel_fraction": 0.002792476683624031,
+      "changed_pixel_bbox_xyxy": [
+        1244,
+        636,
+        1314,
+        706
+      ],
+      "changes_confined_to_lower_right_processing_area": true,
+      "clean_png_reuploaded": false,
+      "actual_ui_reference_attachment_verified_by_this_script": false,
+      "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
+    },
+    "AT_INT": {
+      "status": "source_correspondence_verified",
+      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
+      "flow_container_id": "e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
+      "source_media_url": "https://flow-content.google/image/ec2b5499-bb90-4e2e-b0da-46a481443d64",
+      "source_revision_resolution": {
+        "media_url": "https://flow-content.google/image/ec2b5499-bb90-4e2e-b0da-46a481443d64",
+        "raw_sha256": "c3164300ba9f94e206c72c8a8a0978670d6dedaf0b875f76ca2916b1a44c2461",
+        "resolution_source": "separate_explicit_legacy_revision_observation",
+        "observation": {
+          "id": "AT_INT",
+          "attempt": 1,
+          "media_url": "https://flow-content.google/image/ec2b5499-bb90-4e2e-b0da-46a481443d64",
+          "raw_sha256": "c3164300ba9f94e206c72c8a8a0978670d6dedaf0b875f76ca2916b1a44c2461",
+          "observed_at": "2026-10-27T12:46:51.1836370+09:00",
+          "observed_by": "root",
+          "evidence": "New post-generation source revision verification, not a retroactive pre-submit observation. Visible main-image src was read and that image downloaded via browser UI; for AT_N1 the visible history material thumbnail was read and downloaded instead. Signed query parameters omitted; origin/path preserve observed revision. Actual downloaded file C:\\Users\\developer1\\Downloads\\ec2b5499-bb90-4e2e-b0da-46a481443d64 (1).jpg is byte-identical by SHA-256 to D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_INT_1.jpg. No generation submitted by this check."
+        }
+      },
+      "selected_attempt": 1,
+      "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_INT_1.jpg",
+      "selected_clean_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_INT_1.png",
+      "original_sha256": "c3164300ba9f94e206c72c8a8a0978670d6dedaf0b875f76ca2916b1a44c2461",
+      "selected_clean_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "changed_pixel_fraction": 0.002652427022771318,
+      "changed_pixel_bbox_xyxy": [
+        1244,
+        636,
+        1314,
+        706
+      ],
+      "changes_confined_to_lower_right_processing_area": true,
+      "clean_png_reuploaded": false,
+      "actual_ui_reference_attachment_verified_by_this_script": false,
+      "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
+    },
+    "AT_N": {
+      "status": "source_correspondence_verified",
+      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
+      "flow_container_id": "a10bade0-3cad-479d-93a8-5d68d9986821",
+      "source_media_url": "https://flow-content.google/image/5799362b-258f-4b6a-b5c9-797653871bd6",
+      "source_revision_resolution": {
+        "media_url": "https://flow-content.google/image/5799362b-258f-4b6a-b5c9-797653871bd6",
+        "raw_sha256": "d051266d641c1ccc9f6ec700249034a059880ebb52f21e351f3d9c52c38f5571",
+        "resolution_source": "recorded_result_media_url"
+      },
+      "selected_attempt": 3,
+      "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_N_3.jpg",
+      "selected_clean_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_N_3.png",
+      "original_sha256": "d051266d641c1ccc9f6ec700249034a059880ebb52f21e351f3d9c52c38f5571",
+      "selected_clean_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "changed_pixel_fraction": 0.0026297162669573645,
+      "changed_pixel_bbox_xyxy": [
+        1244,
+        636,
+        1312,
+        706
+      ],
+      "changes_confined_to_lower_right_processing_area": true,
+      "clean_png_reuploaded": false,
+      "actual_ui_reference_attachment_verified_by_this_script": false,
+      "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
+    },
+    "AT_S": {
+      "status": "source_correspondence_verified",
+      "transport": "select_the_existing_exact_flow_original_asset_in_project_media",
+      "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+      "flow_container_id": "dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+      "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+      "source_revision_resolution": {
+        "media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+        "raw_sha256": "0ea8aa26ac03d834682abc4e2adb62697d2cccc9a7b40edea07c145607e8b6d8",
+        "resolution_source": "separate_explicit_legacy_revision_observation",
+        "observation": {
+          "id": "AT_S",
+          "attempt": 2,
+          "media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "raw_sha256": "0ea8aa26ac03d834682abc4e2adb62697d2cccc9a7b40edea07c145607e8b6d8",
+          "observed_at": "2026-10-27T12:46:51.1799268+09:00",
+          "observed_by": "root",
+          "evidence": "New post-generation source revision verification, not a retroactive pre-submit observation. Visible main-image src was read and that image downloaded via browser UI; for AT_N1 the visible history material thumbnail was read and downloaded instead. Signed query parameters omitted; origin/path preserve observed revision. Actual downloaded file C:\\Users\\developer1\\Downloads\\c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb (1).jpg is byte-identical by SHA-256 to D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_S_2.jpg. No generation submitted by this check."
+        }
+      },
+      "selected_attempt": 2,
+      "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_AT_S_2.jpg",
+      "selected_clean_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_2.png",
+      "original_sha256": "0ea8aa26ac03d834682abc4e2adb62697d2cccc9a7b40edea07c145607e8b6d8",
+      "selected_clean_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "changed_pixel_fraction": 0.002718666727228682,
+      "changed_pixel_bbox_xyxy": [
+        1244,
+        636,
+        1314,
+        706
+      ],
+      "changes_confined_to_lower_right_processing_area": true,
+      "clean_png_reuploaded": false,
+      "actual_ui_reference_attachment_verified_by_this_script": false,
+      "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
+    },
+    "G3D_DEEP": {
+      "status": "not_chosen"
+    },
+    "G3D_EXC": {
+      "status": "not_chosen"
+    },
+    "i008": {
+      "status": "not_chosen"
+    },
+    "i019": {
+      "status": "not_chosen"
+    }
+  }
+}

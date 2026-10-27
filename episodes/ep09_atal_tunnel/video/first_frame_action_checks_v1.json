@@ -1,0 +1,455 @@
+{
+  "scope": "manual visual compatibility of actual selected first frames",
+  "clips": {
+    "o001": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "o002": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "o003": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "o004": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p001": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p002": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p003": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p004": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p005": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p006": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p007": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p008": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p009": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p010": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p011": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p012": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p013": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p014": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p015": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p016": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p017": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p018": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p019": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p020": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p021": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p022": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p023": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p024": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p025": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p026": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p027": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p028": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p029": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p030": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p031": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p032": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p033": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p034": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p035": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p036": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p037": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p038": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "a001": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p039": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "a002": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "a003": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p040": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p041": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p042": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    },
+    "p043": {
+      "reviewed": false,
+      "compatible": false,
+      "required_features_present": false,
+      "confirmed_pick_file": null,
+      "confirmed_pick_sha256": null,
+      "notes": "",
+      "confirmed_motion_contract_sha256": null
+    }
+  }
+}

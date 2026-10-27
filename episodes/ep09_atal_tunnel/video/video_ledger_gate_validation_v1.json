@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "scope": "isolated in-memory gate fixtures only; no real frame-selection or visual-quality claim",
+  "fixture_image_note": "An existing PNG is used solely to exercise hash gates in memory; p001 is not selected or reviewed by this test.",
+  "production_pick_ledger_modified": false,
+  "production_pick_ledger_bytes_unchanged_during_test": true,
+  "production_action_checks_modified": false,
+  "muse_submission_performed": false,
+  "video_generated": false,
+  "code_sha256": "bb9f58fa62ee674761f07d6299370975e4781adff3e6fd9af1132ad820d479c5",
+  "tests": [
+    {
+      "name": "bad_ledger_sha_rejected_despite_matching_manual_hashes",
+      "expected": "picked_file_unavailable",
+      "actual": "picked_file_unavailable",
+      "pass_test": true
+    },
+    {
+      "name": "missing_ledger_sha_rejected",
+      "expected": "picked_file_unavailable",
+      "actual": "picked_file_unavailable",
+      "pass_test": true
+    },
+    {
+      "name": "matching_chain_accepts_clean_png_review_without_legacy_raw_claim",
+      "expected": "confirmed",
+      "actual": "confirmed",
+      "pass_test": true
+    },
+    {
+      "name": "bad_manual_image_sha_still_rejected",
+      "expected": "picked_action_review_pending",
+      "actual": "picked_action_review_pending",
+      "pass_test": true
+    },
+    {
+      "name": "bad_motion_contract_still_rejected",
+      "expected": "picked_action_review_pending",
+      "actual": "picked_action_review_pending",
+      "pass_test": true
+    }
+  ]
+}

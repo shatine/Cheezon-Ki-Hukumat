@@ -1,0 +1,67 @@
+{
+  "id": "G3D_EXC",
+  "attempt": 2,
+  "kind": "master",
+  "status": "generated; awaiting root strict review",
+  "record_basis": "Post-completion record of actual observations during this session; JSON was not present before submission.",
+  "recorded_at_utc": "2026-10-27T03:49:40.822524+00:00",
+  "prompt_definition": "images/masters_v1.json G3D_EXC current revised longitudinal side-cut row",
+  "exact_submitted_prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. For this engineering model only: rock = grey-brown, steel ribs and shotcrete = neutral grey, straight advance pipes = teal, injected grout = purple, water itself = blue, water-pressure PUSH arrows = orange. These are explanatory colours, not a claim about the site materials. Create a physically coherent simplified LONGITUDINAL SIDE-CUT excavation block: a single tunnel void in a grey-brown rock block, already excavated space on screen left and unexcavated ground on screen right, advancing from left to right. A cut-away side reveals the upper heading. Long straight teal pipes lie parallel to the advance axis above the crown and extend ahead into the ground; in a transverse section their circular ends form an arch. Separate neutral-grey steel support ribs run transversely across the excavated section. Do not bend the advance pipes into arches. Do not turn the tunnel into twin vehicle bores. The foreground longitudinal half of the rock is removed as an explanatory cut so the tunnel length is visible SIDE-ON, not as a view looking down a dark entrance. A visible vertical rough working face at the middle ends the left-hand excavated upper void; the entire right-hand part ahead of that face is still solid ground. The same solid lower bench continues beneath both halves. A stable wide three-quarter SIDE view, the whole short block visible. Make the three regions unmistakable: supported open upper void on screen LEFT, its solid vertical rough WORKING FACE in the MIDDLE, and still-unexcavated solid rock on screen RIGHT. The cut surface reveals this separation; do not put an open dark passage behind or through the working face. Straight teal advance pipes cross above the face from left to right and their forward portions remain embedded in the right-hand solid ground, exposed only by the diagram cut. Grey transverse ribs behind the face stand firmly on the lower bench. One short upper heading only, solid lower bench still present, no flat finished road. Leave a clear dry working space beneath the supported crown, a little blue groundwater in cracks ahead. No grout has been injected at this initial stage: no purple material, no purple patches or grout sleeves anywhere. No arrows yet, no temporary invert yet. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "2cd0aa07bc9f455261ce7f593e63f741d6a65eb0464fbe6dedc200f3060620cc",
+  "submitted_text_verified_after_completion": true,
+  "submitted_text_character_count": 2855,
+  "input": {
+    "method": "new_image_generation",
+    "ref": null,
+    "observed_before_submit": true,
+    "observed_by": "ep09_image_prompts",
+    "composer_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+    "residual_reference_materials_observed": false,
+    "evidence": [
+      "Navigated from N3 editor to the project new-image composer.",
+      "Observed the empty field labelled 무엇을 만들고 싶으신가요?, no material image/chip attached, and no in-progress generation.",
+      "Observed Nano Banana 2.1, image radio Value=1, video Value=0, 16:9 Value=1, x1 Value=1 and 0 credits before entering and submitting this exact prompt."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "model": "Nano Banana 2.1",
+    "mode": "image",
+    "aspect_ratio": "16:9",
+    "output_count": 1,
+    "cost_credits": 0,
+    "all_directly_observed_before_submit": true
+  },
+  "result": {
+    "container_editor_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "container_editor_asset_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+    "result_media_source_url": "https://flow-content.google/image/8f1d0888-32a8-40d3-900b-a9c67ff1110d",
+    "result_media_id": "8f1d0888-32a8-40d3-900b-a9c67ff1110d",
+    "media_source_observed_from": "src of the visible read-only main image in the completed result editor; origin/path only, signed query omitted",
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\8f1d0888-32a8-40d3-900b-a9c67ff1110d.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_G3D_EXC_2.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "cf2dfc44654539ef981dcb46ebc42bf12783e8ca235c2cbf1790cdaf162823b3",
+      "bytes": 183394
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_2.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "e856d6afad3c35224b10425b29ce13b6d328980a76bd2f133a2ed5e6eef9758f",
+      "bytes": 1229837
+    }
+  },
+  "quick_visual_check": {
+    "performed": true,
+    "observed_by": "ep09_image_prompts",
+    "scope": "whole raw image only; strict engineering acceptance not asserted",
+    "observations": "Bright side-cut 3D block, grey support ribs over lower bench at left, rough solid working face near the middle, solid ground at right and blue cracks. No purple grout patches seen at this quick scale. Teal pipes appear as only a few crown-level longitudinal members; arch-shaped transverse arrangement and exact support relationships require root strict review."
+  },
+  "strict_review_and_selection": "root manages picks; this record does not assert acceptance",
+  "further_generation_submitted": false
+}
