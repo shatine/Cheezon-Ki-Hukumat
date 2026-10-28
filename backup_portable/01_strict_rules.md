@@ -3,9 +3,9 @@
 Breaking these has already caused real problems in earlier episodes. No exceptions.
 
 ## A. 상시 허락: 묻지 말고 할 것 (사용자 2026-10-25)
-- Commit and push to `main` any file inside the repository: scripts, plans, review logs, work orders and so on.
-- Run `guidelines\sync_pc.ps1 -Apply`, and delete what it deletes (old skills and empty folders).
-- Carry each work-order step through to the end, retrying anything that failed (TTS lines, image retakes) yourself.
+- Commit and push to `main` any text file inside the repository: scripts, plans, prompts, review logs, HANDOFF and so on.
+- Carry each step through to the end, retrying anything that failed (TTS lines, image retakes) yourself.
+- Review your own results strictly, then remake what fails, without asking.
 - Generate and retake **Flow images** as many times as needed. They are free.
 
 ## B. 멈추고 묻는 경우 (이때만)
@@ -15,9 +15,14 @@ Breaking these has already caused real problems in earlier episodes. No exceptio
    - paid TTS;
    - paid music;
    - and so on.
-3. **Muse video** would be generated, unless the work order records the user's approval.
+3. **Muse video** would be generated, unless the user's approval for that batch is recorded in HANDOFF.
 4. A file outside the repository and the episode working folder would be **deleted**.
 5. The **same failure repeats 3 times** after trying a fix.
+
+## B2. 시작 순서 금지
+- **Do not start the script, images or video before the user has confirmed the hook opening line and the thumbnail draft.** They are the starting point of every episode.
+- Do not pick a topic for which no strong opening line and thumbnail can be made.
+- Do not change the confirmed opening line or thumbnail text on your own. Opening line = thumbnail text = what the title points to.
 
 ## C. 대본·내용 금지
 - **Never change** the content, order or numbers of a confirmed script (`script_ko_final.md`) or the confirmed Hindi lines.
@@ -50,11 +55,10 @@ Breaking these has already caused real problems in earlier episodes. No exceptio
   - In episode 7 the bus came out different and had to be remade.
   - Retry once with the same image. If it is still refused, write "거부" in the report and move on.
 - **No rapid repeated submissions** in Flow or Muse (bot detection). One at a time.
-- **Do not edit prompts on the PC.** Paste the prompts from the JSON exactly as they are.
-  - If one has to be changed, record what changed and why in the `picks` note.
+- **Do not type prompts by hand in the browser.** Change them in the prompt script (`make_prompts_v1.py`, `make_vprompts_v1.py`), run it again, and paste from the JSON exactly as it is.
+  - Record what changed and why in `picks_v1.md` / `review_clips_v1.md`.
 - No generation without the reference image the plan specifies, and no first frame other than the one in the JSON.
-- Do not edit the scripts on the PC. If something breaks, report the error message (the last 20 lines) as it is. The cloud fixes it.
-- Do not edit `.claude\skills` directly on the PC. Change it in git, then sync.
+- Do not skip the strict review because the same session generated the result. Generation and review are separate passes: finish generating the list, then review every result.
 
 ## F. 편집·계획 금지
 - Do not estimate times from sentence length. **Use only the measured TTS** `narr_timing.json`.
@@ -68,12 +72,12 @@ Breaking these has already caused real problems in earlier episodes. No exceptio
 ## G. 보고·검수 금지
 - Do not merge automatic measurements and visual review into one statement. Report **what was actually seen** separately from **what was measured**.
 - Do not report a pass on something you have not reviewed.
-- Do not say "it should arrive" or "it must be there" about a push you have not checked. Confirm with `git fetch` and `git log origin/main`.
+- Do not say "it is done" or "it was pushed" about something you have not checked. Confirm files with their size and length, and pushes with `git log origin/main`.
 - Do not make the user answer questions you can resolve yourself.
 - Do not narrate options you are not going to use. Give a recommendation and act on it.
 
 ## H. git·파일 금지
-- Do not leave media (images, video) in git. Once the cloud has downloaded it, `git rm` it right away.
+- **Never commit media** (images, video, audio). It stays in the CB folder on the PC. git holds text files only.
 - No force-push, history rewriting or `reset --hard`.
 - Do not delete files outside the repository or the episode folder without asking the user.
 - Do not write model names or tool names into commit messages or repository files.

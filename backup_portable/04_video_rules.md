@@ -9,12 +9,12 @@
 ## 2. 생성 설정
 - **Muse (default):** Chrome on debug port 9227.
   - Image-to-video, 16:9, the longest length. Episode 8: 10.0 s, 1216×672, 24 fps.
-  - **Generate only with user approval.** Record the approval in the work order.
+  - **Generate only with user approval.** Record the approval (date and the user's words) in HANDOFF.
 - **Flow video (exception):** Omni 1.1 Flash, 1280×720, **15 credits each (paid)**.
   - **Only on the user's instruction.** Use it when Muse keeps failing.
   - There is a star watermark at the bottom right. Remove it in editing: `delogo=x=1132:y=572:w=58:h=58`, plan option `flow_wm`.
 - **One clip at a time:** submit → wait 30–60 s and check once → download → next.
-- **First frame:** exactly the `image` from the JSON, an image the cloud review confirmed.
+- **First frame:** exactly the `image` from the JSON, an image confirmed in the strict image review.
   - If Muse refuses the image, retry once with the same image. If it still refuses, **do not generate from text alone**. Write "거부" in the report.
 - **Save:** `CB\clips_v1\{id}.mp4`. If you retry, keep only the last attempt.
   - Earlier versions go to `clips_v1\old\`.
@@ -58,8 +58,8 @@ Every solid object stays completely still and keeps its exact shape and position
   | Rails can slide | The rails stay put; orange arrows beside the rails blink towards the joint |
   | The arch pushes on the mountain | Orange arrows run along the arch into the rock |
   | Heat | Only the side the sun hits turns red |
-- **If it still fails, use a cloud composite instead.** Episode 8 V09 "cement fills the cracks":
-  - The cloud made a crack-only mask from frame 0 of a still clip (`v09_crack_mask.png`).
+- **If it still fails, use a local composite instead.** Episode 8 V09 "cement fills the cracks":
+  - A crack-only mask was made from frame 0 of a still clip (`v09_crack_mask.png`).
   - `v09_fill.py` paints the cracks grey from the pipe tip outward.
   - This is free and its result is certain.
 
@@ -77,8 +77,8 @@ Every solid object stays completely still and keeps its exact shape and position
   - tilt up (reveal);
   - macro slow zoom in.
 
-## 5. 검수 (클라우드)
-**Preparation:** `python3 episodes/epNN/video/cloud_review_clips_v1.py <scratch dir> [source folder]`. It produces:
+## 5. 검수 (생성 목록을 다 만든 뒤, 같은 세션에서)
+**Preparation:** `python episodes\epNN\video\cloud_review_clips_v1.py "CB\review\clips_vN" "CB\clips_v1"` (full paths). It produces:
 - a table: size, fps, length, **mean brightness every 0.5 s**, first-to-last change (a fall of 15 or more is flagged **어두워짐**);
 - a sheet of frames every **1 s** for each clip.
 
@@ -95,7 +95,7 @@ Every solid object stays completely still and keeps its exact shape and position
 - **Usable range (USE):** the measured range you can use, for example `V20a 0–7.0` or `V16b 0–8.5`.
   - **The end must be at or before length − 0.05 s** (episode 8 `CEND = 9.95`).
 - **Record:** `video/review_clips_v1.md`, one row per id: result, usable range, note. Write the cause and the new method too.
-- **Remakes:** set the `retake_vN` flag on those ids in `make_vprompts_v1.py`, run it again, and give the PC a work order for those ids only.
+- **Remakes:** set the `retake_vN` flag on those ids in `make_vprompts_v1.py`, run it again, and regenerate those ids only (Muse approval covers the remakes of an approved batch; ask again for new ids).
   - Episode 8 went through v1 → v2 (6 clips) → v3 (4 clips), with 2 made in Flow video and 1 composite.
 - **Flow clips** are 1280×720, so the edit scales them to 1920×1080. Keep the watermark-removal option.
 - **Cost record:** write the paid Flow clips in the review file, for example "Flow 영상 3개 × 15크레딧 = 45크레딧 (사용자 지시)".

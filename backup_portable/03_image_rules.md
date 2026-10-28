@@ -64,8 +64,10 @@ a white passenger train with a thin blue stripe (the same train as in the second
 - Use colour to separate the parts that matter.
   - Episode 8 V17: one pier is red. V20a: only the left half of the arch is red.
 
-## 3. 엄격 검수 (클라우드)
-**Preparation:** `python3 episodes/epNN/images/cloud_review_v1.py <scratch dir> [source folder]`. It produces:
+## 3. 엄격 검수 (생성 목록을 다 만든 뒤, 같은 세션에서)
+Generation and review are separate passes. During generation, do only the quick check (section 4). Once the whole list is made, review every image strictly.
+
+**Preparation:** `python episodes\epNN\images\cloud_review_v1.py "CB\review\img_vN" "CB\img"` (full paths). It produces:
 - `auto_report.md`: size, mean brightness, % of dark pixels, **dhash similarity with neighbouring cuts in plan order**, missing ids;
 - contact sheets.
 
@@ -94,14 +96,14 @@ a white passenger train with a thin blue stripe (the same train as in the second
   - the final pick filename, for example `V02 = v1_V02_6`.
 - **Remakes:**
   - Fix the prompt in `make_prompts_v1.py`, run it again, and update `prompts_v1.json`.
-  - Send the PC a work order with only the ids to remake.
-  - Repeat until every image is confirmed. Episode 8: 74 images over 4 cloud review rounds.
+  - Regenerate only those ids in Flow, then review them again.
+  - Repeat until every image is confirmed. Episode 8: 74 images over 4 review rounds.
 
-## 4. PC 간단 확인 (참고)
+## 4. 생성 중 간단 확인
 - One look, at the size shown on screen. Regenerate right away only in these cases:
   - the subject is wrong;
   - realistic and 3D are swapped;
   - text is obviously visible;
   - the image is dark.
-- No zooming, comparing or detailed records. Keep one image per id (the one that passed the quick check).
+- No zooming or comparing at this point; that is the strict review's job. Keep one image per id (the one that passed the quick check).
 - Write one line per image in `picks_v1.md`: id | ref | tries | chosen | note.

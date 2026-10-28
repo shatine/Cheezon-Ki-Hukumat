@@ -1,4 +1,4 @@
-# 8단계: 업로드 문구와 썸네일
+# 8단계: 업로드 문구와 썸네일 완성 (1단계 시안에서 출발)
 
 **Results:** `upload/upload_titles_keywords.md`, `upload/upload_description_en.txt`, `upload/upload_description_hi.txt`, `thumbnail/thumb_vN_1280x720.jpg`.
 Examples: `episodes/ep07_bus/upload/`, `episodes/ep08/upload/`.
@@ -29,6 +29,7 @@ Each description contains, in order:
 - English 8, Hindi 8, each on its own line.
 
 ## 썸네일
+- **Start from the thumbnail draft confirmed in step 1** (`hook_thumbnail.md`, `CB\thumb\`). The text stays as confirmed; only the background and layout are improved (a better generated background or a frame from the finished video).
 - **Text = the opening line in Hindi**, split into a top band and a bottom band.
   - Episode 8: top, red `भूकंप आया तो`; bottom, yellow `इस पुल का क्या होगा?`; green `359 मीटर` with a **vertical** arrow (height).
 - **Layout:**

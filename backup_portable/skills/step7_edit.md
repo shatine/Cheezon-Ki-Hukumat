@@ -1,8 +1,8 @@
 # 7단계: 편집 — 검수본 렌더 → 0초~끝 검수 → 업로드본 렌더 → 확인
 
-**Template:** `episodes/ep08/review_edit/edit_v1.py`. It runs on the PC; the cloud writes and tests it.
+**Template:** `episodes/ep08/review_edit/edit_v1.py`. Written, run and reviewed locally.
 
-## 편집 스크립트 (클라우드 작성)
+## 편집 스크립트
 - **Inputs:**
   - `CB\review_edit\narration_hi.wav`, `narr\{id}.wav`
   - `episodes/epNN/review_edit/narr_timing.json`
@@ -24,7 +24,7 @@
   - Hindi subtitles: Nirmala UI 58, white, black border, bottom margin 104. Long lines are split at commas, timed to the nearest pause.
   - Korean literal translation: Malgun Gothic 44, yellow; shrunk when it does not fit.
   - Narration only.
-  - Output `CB\out\v1_review_hi.mp4`, plus the small copy for the cloud `v1_review_small.mp4` (960×540, crf 30).
+  - Output `CB\out\v1_review_hi.mp4` (a small copy `v1_review_small.mp4`, 960×540, is optional).
   - Also produces `subs_hi.srt`, `subs_ko.srt`, `subs.ass`, `cuts_v1.json` and `edit_report_v1.json`.
 - **Upload cut** (`python edit_v1.py --upload`):
   - Reuses the review-cut segments; only the LABEL cuts are rendered again.
@@ -32,10 +32,10 @@
   - Background music `bgm.mp3` at -21 dB, sidechain ducking under the narration (threshold 0.03, ratio 6, attack 20, release 400).
   - Fade out over the last 2 s. `loudnorm I=-14:TP=-1.5:LRA=11`.
   - Output `CB\out\v1_upload_hi.mp4`, `v1_upload_subs_hi.srt`, `v1_upload_small.mp4`, `edit_report_v1_upload.json`.
-- **Test in the cloud before handing it over:** render once with fake media (coloured clips and images, a sine-wave BGM, Linux fonts). Check the length, cut count, labels and LUFS.
+- **Test before the real render** when the script changed a lot: render once with fake media (coloured clips and images, a sine-wave BGM). Check the length, cut count, labels and LUFS.
 
-## 검수본 검수 (클라우드, 0초~끝 전부)
-1. Pull → copy the small copy to scratch → `git rm` → push.
+## 검수본 검수 (0초~끝 전부, 원본으로)
+1. Review the original `CB\out\v1_review_hi.mp4`, not a small copy.
 2. Read the report: total length = plan, cut count, subtitle count.
 3. Make **sheets of frames every 1 s** (all 336 or so, 24 per sheet). **Look at every sheet.**
 4. **Brightness every 0.5 s** (nothing below 60), **change between frames** (below 0.3 = suspected freeze; principle shots can be an exception).
@@ -45,7 +45,8 @@
    - a table (pass or fail per item);
    - fixes (what changed in the script);
    - notes (left unfixed, with the reason).
-8. Fix the script → test in the cloud → write the upload work order.
+8. Fix the script → render again only what changed → check → render the upload cut.
+9. **Check the first 10 s against the hook:** the opening line is heard and seen clearly, and the opening shots show what it says.
 
 ## 업로드본 확인
 - LUFS -14 ±0.5, TP ≤ -1.5, BGM about 15–20 dB below the narration in the pauses, the fade-out at the end.

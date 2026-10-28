@@ -1,15 +1,26 @@
 # 02. 대본 생성 규칙
 
-## 1. 대본보다 먼저 정할 것
-1. **Topic:** an Indian structure, technology or everyday subject with a contradiction, inconvenience or risk that is visible on screen.
-   - Write candidates and the reasons for the choice in `topic_candidates.md`.
-2. **Reference videos:** find 3 videos on the same subject with **1M+ views** (`opening_candidates.md`). Clean their transcripts into `refs/*.txt`, then analyse them in `refs_analysis.md`:
+## 1. 대본보다 먼저: 후킹 도입부 문구와 썸네일 (1단계, `skills/step1_hook_thumbnail.md`)
+**The script is written only after the user has confirmed the opening line and the thumbnail draft.**
+1. **Hook opening line first.** It is the central question of the video and the first thing the viewer hears.
+   - **A strong hook has:**
+     - a visible contradiction or danger the viewer can picture at once;
+     - **the biggest number** available (359 m, ×5, 266 km/h);
+     - a question the viewer cannot answer yet, and wants answered;
+     - short spoken words, readable on a thumbnail in under 2 seconds.
+   - Write 3–5 candidates in `hook_thumbnail.md`, rank them, and recommend one. The user chooses or rewrites it. **Use what the user rewrote exactly as given.**
+   - Episode 8: "지진이 오면 이 다리는 어떻게 될까? 359m 위 기차, 강바닥엔 기둥 하나 없다! 기둥 하나 못 세우는데, 다리는 어떻게 놓았나?"
+   - Episode 7: "버스에서 살 수 있을까요?"
+2. **Thumbnail draft at the same time.** The opening line in Hindi, very large, on a text-free background that shows the contradiction. The user confirms the draft together with the line.
+3. **Topic:** an Indian structure, technology or everyday subject with a contradiction, inconvenience or risk that is visible on screen, **chosen because it gives a strong hook.**
+   - Write candidates in `topic_candidates.md`, each with its best opening line and thumbnail idea. A topic without a strong hook is dropped.
+4. **Reference videos:** find 3 videos on the same subject with **1M+ views** (`opening_candidates.md`). Clean their transcripts into `refs/*.txt`, then analyse them in `refs_analysis.md`:
+   - **their hook and thumbnail first** (what the first 10 s and the thumbnail promise);
    - the flow of each video;
-   - its hook;
    - its comparisons;
    - how it explains the principles.
    - **Use only the order of information, the hooks and the comparisons. Never copy the wording.**
-3. **Design, settled first:**
+5. **Design, settled with the hook:**
    - the scene the viewer sees;
    - the visible contradiction;
    - **the central question (opening line)**;
@@ -17,10 +28,9 @@
    - the surprise;
    - the final realisation;
    - the thumbnail text.
-4. **Opening line = central question = thumbnail text = what the title points to.**
+6. **Opening line = central question = thumbnail text = what the title points to.**
    - Once the user confirms it, do not rewrite it on your own.
-   - Episode 8: "지진이 오면 이 다리는 어떻게 될까? 359m 위 기차, 강바닥엔 기둥 하나 없다! 기둥 하나 못 세우는데, 다리는 어떻게 놓았나?"
-   - Episode 7: "버스에서 살 수 있을까요?"
+   - The whole script is the answer to this question. Cut anything that does not lead back to it.
 
 ## 2. 구조: 질문 사슬
 - **Order:**
@@ -88,7 +98,7 @@
 - **Tone:** natural, conversational Hindi. Questions end with "?".
 - Thumbnail and opening line: write the Hindi of the opening line exactly as it is. Example: "भूकंप आया तो इस पुल का क्या होगा?"
 
-## 8. TTS (무료 Voice Studio, PC가 실행)
+## 8. TTS (무료 Voice Studio, 로컬 실행)
 - **Settings:** voice `charonclone`, **seed 7 fixed**, speed 1.0, one sentence at a time, each sentence -16 LUFS.
 - **Reference files:**
   - `skills/cheezon-production/tools/voice_ref_male_charonclone.wav`

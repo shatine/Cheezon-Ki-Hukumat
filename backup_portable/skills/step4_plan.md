@@ -1,6 +1,6 @@
 # 4단계: 문장 단위 장면 계획 (자동 점검 오류 0)
 
-**누가:** 클라우드. **Template:** `episodes/ep08/plan/plan_v2.py` (latest) or `skills/cheezon-production/tools/plan_template.py`.
+**Template:** `episodes/ep08/plan/plan_v2.py` (latest) or `skills/cheezon-production/tools/plan_template.py`.
 **Results:** `plan/shot_list_vN.json` (used by the edit script) and `plan/shot_table_vN.md` (for people to read).
 
 ## 계획 스크립트 구성

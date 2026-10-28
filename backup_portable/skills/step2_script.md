@@ -1,9 +1,10 @@
 # 2단계: 한국어 대본 → 근거표 → 사용자 검수 → 확정
 
-**누가:** 클라우드. **규칙:** `../02_script_rules.md` (all of it). **Result:** `script/script_ko_final.md`.
+**Before this step:** the opening line and the thumbnail draft are confirmed (step 1). **규칙:** `../02_script_rules.md` (all of it). **Result:** `script/script_ko_final.md`.
 
 ## 순서
-1. **Fix the question chain first** (a one-line list), for example: earthquake? → why no piers → arch → … → answer.
+1. **Fix the question chain first** (a one-line list), starting from the confirmed opening line and ending with its answer, for example: earthquake? → why no piers → arch → … → answer.
+   - S01 is the confirmed opening line, word for word.
 2. **Write the Korean script:** paragraphs S01–Snn, divided into 도입 / 기 / 승 / 전 / 결.
    - Short spoken sentences, with evidence ids `[E1]` after the sentence.
    - The last paragraph is the subscribe call.
