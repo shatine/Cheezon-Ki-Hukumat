@@ -1,0 +1,13 @@
+{
+  "scope": "One fixed metadata-derived re-encode experiment, no parameter search. Memory only; neither original file modified.",
+  "source_id": "AT_C",
+  "input_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+  "server_sha256": "a948cf7720030e2d602601ee3be7a852776e5b2d64ae265a869a7225a493aeb0",
+  "server_sampling": 2,
+  "qtables_sha256": "c2dc17326c75a2947c1dda2d1d6e85e2e9d1b22a0c4ff27a1760ad270693a4b6",
+  "exact_reencoded_vs_server_RGB": false,
+  "differing_channel_values": 553881,
+  "max_absolute_difference": 5,
+  "deterministic_derivative_claim": false,
+  "alias_registered": false
+}

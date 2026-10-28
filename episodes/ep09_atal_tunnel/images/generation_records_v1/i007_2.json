@@ -2,7 +2,7 @@
   "id": "i007",
   "attempt": 2,
   "kind": "image",
-  "status": "generated; awaiting root strict review",
+  "status": "generated; root strict review chosen",
   "flow_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
   "recorded_at_utc": "2026-10-27T08:55:35.821Z",
   "record_basis": "Post-completion record of actual UI observations; newly authorized independent ref-null scene in user-opened new project.",
@@ -82,5 +82,7 @@
   "local_upload_used": false,
   "extension_settings_changed": false,
   "captcha_solved": false,
-  "video_generation_submitted": false
+  "video_generation_submitted": false,
+  "root_review_decision": "chosen",
+  "root_review_ledger": "picks_v1.json"
 }

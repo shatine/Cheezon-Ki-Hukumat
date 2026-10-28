@@ -81,10 +81,11 @@ ACTION = {
         ["water and small loose fragments at face", "existing muddy receiving pile", "clear protected side space"],
         "A few grains have settled on the existing pile; the same modest flow continues."),
     "o003": (
-        "Only the two small cars already visible advance normally along their existing lane into the same rectangular south-portal opening. "
+        "Only the two small cars already visible advance normally in their own existing lanes: the rear-view car in the incoming left-hand lane moves toward the same rectangular south-portal opening, "
+        "while the farther car in the outgoing right-hand lane continues away from that opening. Neither car reverses or changes lane. "
         "Preserve exactly two lanes total and one central lane-separating line; no physical median or barrier, new cars, lane changes or road widening.",
         ["selected south portal geometry", "two existing small cars", "single two-way two-lane carriageway"],
-        "The visible cars continue into the same bore or are naturally occluded by its mouth; no vehicle reappears."),
+        "The incoming car continues toward the same bore or is naturally occluded by its mouth; the outgoing car continues along its lane away from the bore. No vehicle reappears or respawns."),
     "o004": (
         "In the existing distant mountain view, only already visible pine branches move very slightly in a natural breeze. "
         "Keep the south portal, road, mountain and any existing cloud shapes fixed; do not invent a car, route line or mountain cut-away.",

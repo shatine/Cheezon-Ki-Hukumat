@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "AT_S",
+  "selected_attempt": 2,
+  "selected_file": "v1_AT_S_2.png",
+  "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+  "selected_png_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_2.png",
+  "server_download_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\0f037505-6b4d-45b4-9ddc-43cf019eeccf.jpg",
+  "server_sha256": "e9005e69fc238c41fb78f8dd26ce0c563aeceace185887bc9d3a325d545c1c4c",
+  "dimensions": [
+    1376,
+    768
+  ],
+  "observed_by": "root",
+  "observed_at_utc": "2026-10-28T02:27:46.225327+00:00",
+  "root_opened_selected_png_original": true,
+  "root_opened_server_jpeg_original": true,
+  "same_shape": true,
+  "same_composition": true,
+  "same_content": true,
+  "notes": "Root opened selected PNG and actual server JPEG at original1376x768 in one comparison call. Same rectangular portal, orange facade, brown sloping awning, single centre line, pine-covered slope and reinforced rock face; identical framing and feature positions by direct inspection.",
+  "pass": true
+}

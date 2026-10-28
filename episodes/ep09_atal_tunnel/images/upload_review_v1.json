@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "scope": "Explicit root manual comparison of uploaded server representations against already chosen master PNGs. Pixel measurements are separate and do not infer visual approval.",
+  "comparisons": {
+    "AT_S": {
+      "id": "AT_S",
+      "selected_attempt": 2,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_2.png",
+      "input_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+      "server_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\0f037505-6b4d-45b4-9ddc-43cf019eeccf.jpg",
+      "server_sha256": "e9005e69fc238c41fb78f8dd26ce0c563aeceace185887bc9d3a325d545c1c4c",
+      "root_opened_selected_png_original": true,
+      "root_opened_server_download_original": true,
+      "root_compared_original_size": true,
+      "observed_by": "root",
+      "review_recorded_at_utc": "2026-10-28T02:27:46.225327+00:00",
+      "decision": "same_master_after_service_jpeg_transcode",
+      "notes": "Root opened selected PNG and actual server JPEG at original1376x768 in one comparison call. Same rectangular portal, orange facade, brown sloping awning, single centre line, pine-covered slope and reinforced rock face; identical framing and feature positions by direct inspection."
+    },
+    "AT_N": {
+      "id": "AT_N",
+      "selected_attempt": 3,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_N_3.png",
+      "input_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+      "server_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\dc46f85b-5b48-442c-8278-313be5d42abf.jpg",
+      "server_sha256": "8a10d8ad456b8dbde56681fd4d6209fb7494ba92feda27bc6d9a98e8de58c26f",
+      "root_opened_selected_png_original": true,
+      "root_opened_server_download_original": true,
+      "root_compared_original_size": true,
+      "observed_by": "root",
+      "review_recorded_at_utc": "2026-10-28T02:27:46.284209+00:00",
+      "decision": "same_master_after_service_jpeg_transcode",
+      "notes": "Root opened both original-size files in one comparison call. Same large green gable, smaller red-brown front gable left of the road opening, yellow panels, retaining walls and snowy mountain contours; no changed portal geometry or composition found."
+    },
+    "AT_C": {
+      "id": "AT_C",
+      "selected_attempt": 3,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_C_3.png",
+      "input_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+      "server_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\179e095a-3ffe-49b8-b37c-cd09bae54374.jpg",
+      "server_sha256": "a948cf7720030e2d602601ee3be7a852776e5b2d64ae265a869a7225a493aeb0",
+      "root_opened_selected_png_original": true,
+      "root_opened_server_download_original": true,
+      "root_compared_original_size": true,
+      "observed_by": "root",
+      "review_recorded_at_utc": "2026-10-28T02:27:46.350219+00:00",
+      "decision": "same_master_after_service_jpeg_transcode",
+      "notes": "Root opened both original-size files together. Same steel support ribs, cables, small yellow excavator, two distant adults, rough face and foreground puddles at the same positions. No subject, crop, orientation or geometry change found by direct inspection."
+    },
+    "AT_INT": {
+      "id": "AT_INT",
+      "selected_attempt": 1,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_INT_1.png",
+      "input_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+      "server_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\e314b607-f9e6-4d51-8cbf-30a406207ea2.jpg",
+      "server_sha256": "d2c536d8c0def2880503f6292600cd7afcaf4af7fc9075d232d4936b36abf72d",
+      "root_opened_selected_png_original": true,
+      "root_opened_server_download_original": true,
+      "root_compared_original_size": true,
+      "observed_by": "root",
+      "review_recorded_at_utc": "2026-10-28T02:27:46.408765+00:00",
+      "decision": "same_master_after_service_jpeg_transcode",
+      "notes": "Root opened both original-size files together. Same completed grey lining, two-way road, left walkway, side drains, roof-light rows and vanishing point; no subject or composition change found."
+    },
+    "G3D_EXC": {
+      "id": "G3D_EXC",
+      "selected_attempt": 4,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_4.png",
+      "input_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+      "server_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\705dea5d-50fb-41b7-ab4e-fe87cf60ff03.jpg",
+      "server_sha256": "6807a16f239570d5acc04eb4deae3a9e1a03af9b9f4055b09b33d7afbee2a930",
+      "root_opened_selected_png_original": true,
+      "root_opened_server_download_original": true,
+      "root_compared_original_size": true,
+      "observed_by": "root",
+      "review_recorded_at_utc": "2026-10-28T02:27:46.467541+00:00",
+      "decision": "same_master_after_service_jpeg_transcode",
+      "notes": "Root opened both original-size files together. Same left upper-heading void, retained lower bench, middle face and solid ground right, straight axial teal advance pipes and separate transverse grey ribs; matching part count, orientation and positions."
+    },
+    "G3D_DEEP": {
+      "id": "G3D_DEEP",
+      "selected_attempt": 3,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_DEEP_3.png",
+      "input_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+      "server_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\3a5aad33-7789-492b-9f13-4415e2e1746c.jpg",
+      "server_sha256": "9e144326d247d59d22f31330218da0d4f9c785c8c3a977154403b9c9780747a3",
+      "root_opened_selected_png_original": true,
+      "root_opened_server_download_original": true,
+      "root_compared_original_size": true,
+      "observed_by": "root",
+      "review_recorded_at_utc": "2026-10-28T02:27:46.522652+00:00",
+      "decision": "same_master_after_service_jpeg_transcode",
+      "notes": "Root opened both original-size files together. Same later-stage thick connected grey U-bottom lining, road slab above the bottom and small side drains; matching single-bore axis, rock block and part positions. This confirms the uploaded representation of the chosen model, not a new engineering approval."
+    }
+  },
+  "automatic_measurements": {
+    "AT_S": {
+      "input_format": "PNG",
+      "server_format": "JPEG",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "input_mode": "RGB",
+      "server_mode": "RGB",
+      "exact_original_RGB_equal": false,
+      "mean_absolute_channel_difference": 0.38414107921511625,
+      "max_absolute_channel_difference": 12,
+      "rmse": 0.7740588776804748,
+      "psnr_db": 50.35532369013158,
+      "changed_pixel_percent": 40.58355287063954,
+      "metric_is_visual_or_identity_approval": false
+    },
+    "AT_N": {
+      "input_format": "PNG",
+      "server_format": "JPEG",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "input_mode": "RGB",
+      "server_mode": "RGB",
+      "exact_original_RGB_equal": false,
+      "mean_absolute_channel_difference": 0.4631492752745478,
+      "max_absolute_channel_difference": 6,
+      "rmse": 0.7718936669326356,
+      "psnr_db": 50.37965405390825,
+      "changed_pixel_percent": 45.48869761385659,
+      "metric_is_visual_or_identity_approval": false
+    },
+    "AT_C": {
+      "input_format": "PNG",
+      "server_format": "JPEG",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "input_mode": "RGB",
+      "server_mode": "RGB",
+      "exact_original_RGB_equal": false,
+      "mean_absolute_channel_difference": 0.321346154816699,
+      "max_absolute_channel_difference": 11,
+      "rmse": 0.6514734517765636,
+      "psnr_db": 51.852869159567796,
+      "changed_pixel_percent": 34.11164986070737,
+      "metric_is_visual_or_identity_approval": false
+    },
+    "AT_INT": {
+      "input_format": "PNG",
+      "server_format": "JPEG",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "input_mode": "RGB",
+      "server_mode": "RGB",
+      "exact_original_RGB_equal": false,
+      "mean_absolute_channel_difference": 0.028061662225452196,
+      "max_absolute_channel_difference": 5,
+      "rmse": 0.17659460030965593,
+      "psnr_db": 63.19125520613261,
+      "changed_pixel_percent": 3.01513671875,
+      "metric_is_visual_or_identity_approval": false
+    },
+    "G3D_EXC": {
+      "input_format": "PNG",
+      "server_format": "JPEG",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "input_mode": "RGB",
+      "server_mode": "RGB",
+      "exact_original_RGB_equal": false,
+      "mean_absolute_channel_difference": 0.06554103328892119,
+      "max_absolute_channel_difference": 4,
+      "rmse": 0.2975695881349172,
+      "psnr_db": 58.65903273115431,
+      "changed_pixel_percent": 8.077931958575581,
+      "metric_is_visual_or_identity_approval": false
+    },
+    "G3D_DEEP": {
+      "input_format": "PNG",
+      "server_format": "JPEG",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "input_mode": "RGB",
+      "server_mode": "RGB",
+      "exact_original_RGB_equal": false,
+      "mean_absolute_channel_difference": 0.0372623571745801,
+      "max_absolute_channel_difference": 4,
+      "rmse": 0.21458859569636798,
+      "psnr_db": 61.49867085512462,
+      "changed_pixel_percent": 4.429449037063953,
+      "metric_is_visual_or_identity_approval": false
+    }
+  },
+  "source_png_and_server_jpeg_claimed_pixel_identical": false,
+  "new_generation_or_new_pick_decision": false
+}

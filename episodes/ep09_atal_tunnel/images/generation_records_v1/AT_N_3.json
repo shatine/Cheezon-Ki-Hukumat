@@ -2,7 +2,7 @@
   "id": "AT_N",
   "attempt": 3,
   "kind": "master_retake",
-  "status": "generated; awaiting root strict review",
+  "status": "generated; root strict review chosen",
   "record_basis": "Post-completion record of actual observations during this session; not a claim that this JSON existed before submission.",
   "recorded_at_utc": "2026-10-27T03:44:31.226790+00:00",
   "exact_submitted_prompt": "Photorealistic cinematic still, bright clear snowy Himalayan daylight, sharp focus, 16:9. Using the currently supplied source image: keep this SAME north-portal reconstruction, the same exact building geometry, snowy mountains, retaining walls, camera position and empty two-lane road. Keep the large dark-green rear gable. Keep the much smaller red-brown front gable ONLY over the left service section, clearly narrower than half of the full facade. Keep the main rectangular dark road mouth on the RIGHT. The small left service recess is not a traffic bore. Exactly one central lane-separating line, two lanes total. Only correct the facade markings: remove every tiny white glyph-like mark or sign-like patch from the right red-brown vertical portal post and all other facade parts. Fill these small marked areas with continuous plain matching red-brown or yellow panel material. All posts and panels are completely blank and unmarked. Do not enlarge or move either roof; do not change the source building design. No cars, no people, no text, letters, numerals, plaques, signs, stickers, logos, flags or watermarks. This remains an illustrative reconstruction, not a survey photograph. No readable text.",
@@ -85,5 +85,7 @@
     "observations": "Bright snowy exterior, large green rear roof and smaller left red-brown front gable, right rectangular traffic opening, empty two-lane road. Fine-mark removal completeness is left for root comparison."
   },
   "strict_review_and_selection": "root manages picks; no selection asserted by this record",
-  "further_generation_submitted": false
+  "further_generation_submitted": false,
+  "root_review_decision": "chosen",
+  "root_review_ledger": "picks_v1.json"
 }

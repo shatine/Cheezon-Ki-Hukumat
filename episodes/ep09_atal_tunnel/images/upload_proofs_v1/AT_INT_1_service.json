@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "alias_id": "cb1_AT_INT_1",
+  "id": "AT_INT",
+  "selected_attempt": 1,
+  "selected_file": "v1_AT_INT_1.png",
+  "selected_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+  "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_INT_1.png",
+  "input_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+  "destination_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "destination_profile_label": "artbuilder883",
+  "approval_file_sha256": "92fe71655331c4f420fa30edb4436a89219a7aa66846671e27560eb546a1d008",
+  "upload": {
+    "observed_by": "root",
+    "observed_at_utc": "2026-10-28T02:25:34.338Z",
+    "evidence": "Root submitted exactly six approved PNG paths after SHA checks through filechooser and saw all six complete matching filename tiles. This exact filename was opened from its named sidebar button; current main src and editor URL were read. See upload_attempts_v1/masters_chooser_batch_1.json.",
+    "root_observed_upload_submission": true,
+    "root_observed_new_server_revision": true,
+    "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/df700293-99e2-4a76-8303-d4b75bd8d17c",
+    "media_url": "https://flow-content.google/image/e314b607-f9e6-4d51-8cbf-30a406207ea2",
+    "root_opened_corresponding_filename_tile": true,
+    "observed_input_filename": "v1_AT_INT_1.png"
+  },
+  "download": {
+    "observed_by": "root",
+    "observed_at_utc": "2026-10-28T02:25:34.634Z",
+    "evidence": "Root directly called downloadMedia on the current read-only server image, observed returned path, and copied unchanged bytes to the UUID-named server-original file. Pixel identity is not asserted by this capture.",
+    "root_observed_server_download": true,
+    "from_media_url": "https://flow-content.google/image/e314b607-f9e6-4d51-8cbf-30a406207ea2",
+    "file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\e314b607-f9e6-4d51-8cbf-30a406207ea2.jpg",
+    "sha256": "d2c536d8c0def2880503f6292600cd7afcaf4af7fc9075d232d4936b36abf72d"
+  },
+  "proof_kind": "root_reviewed_service_representation",
+  "batch_receipt_file": "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\upload_receipts_v1\\cb1_six_masters_20261028_1.json",
+  "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+  "comparison_file": "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\upload_comparisons_v1\\AT_INT_1.json",
+  "comparison_sha256": "54c592943adfa2a69ab3618b1cf9a064b633efe51974ed841026a8fc39968da1"
+}

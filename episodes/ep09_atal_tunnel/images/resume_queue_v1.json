@@ -1,14 +1,14 @@
 {
-  "status": "preparation_only_live_reference_checks_required",
+  "status": "preparation_only_registered_master_references_ready_for_live_UI_checks",
   "scope": "Offline queue only; no claim of current live service availability or visual approval",
   "actual_submission_performed": false,
   "actual_video_generation_authorized": false,
   "expected_images": 85,
-  "selected_images": 13,
-  "remaining_images": 72,
-  "selected_video_frames": 1,
-  "reviewed_attempts": 28,
-  "picks_snapshot_sha256": "938e960bd749f819f56ffb9808d4f949b452840a6b1fc8ed1932c6fd2da6502b",
+  "selected_images": 16,
+  "remaining_images": 69,
+  "selected_video_frames": 4,
+  "reviewed_attempts": 32,
+  "picks_snapshot_sha256": "6de2215977ee916f150138b4d149f1d3e165fca6f307196476a2f57965a0c703",
   "current_project": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c",
   "current_project_source": "flow_project_policy_v1.json, not the historical progress snapshot",
   "service_status": "current_project_outputs_recorded_live_UI_check_still_required",
@@ -84,9 +84,45 @@
       "observed_at_utc": "2026-10-28T01:04:30.473Z",
       "root_decision": "chosen",
       "currently_selected": true
+    },
+    {
+      "id": "o002",
+      "attempt": 2,
+      "record": "generation_records_v1/o002_2.json",
+      "result_media_source_url": "https://flow-content.google/image/7065d822-33b4-49a4-a6a9-d647718d73e7",
+      "observed_at_utc": "2026-10-28T02:33:35.718Z",
+      "root_decision": "chosen",
+      "currently_selected": true
+    },
+    {
+      "id": "o003",
+      "attempt": 2,
+      "record": "generation_records_v1/o003_2.json",
+      "result_media_source_url": "https://flow-content.google/image/5fe449be-2724-4f57-a672-0c68354060ae",
+      "observed_at_utc": "2026-10-28T02:37:28.933Z",
+      "root_decision": "remake",
+      "currently_selected": false
+    },
+    {
+      "id": "o003",
+      "attempt": 3,
+      "record": "generation_records_v1/o003_3.json",
+      "result_media_source_url": "https://flow-content.google/image/06464a65-b67c-49d8-863d-892f97790b43",
+      "observed_at_utc": "2026-10-28T02:41:01.384Z",
+      "root_decision": "chosen",
+      "currently_selected": true
+    },
+    {
+      "id": "o004",
+      "attempt": 1,
+      "record": "generation_records_v1/o004_1.json",
+      "result_media_source_url": "https://flow-content.google/image/4e462b7d-4152-44cc-a2ce-09788c675414",
+      "observed_at_utc": "2026-10-28T02:47:34.872Z",
+      "root_decision": "chosen",
+      "currently_selected": true
     }
   ],
-  "selected_current_project_output_count": 5,
+  "selected_current_project_output_count": 8,
   "historical_failed_attempts": [
     {
       "id": "G3D_DEEP",
@@ -119,21 +155,142 @@
       "treated_as_current_service_blocker": false
     }
   ],
+  "current_in_flight_generations": {
+    "i001": [
+      {
+        "attempt": 1,
+        "record": "generation_records_v1/i001_1.json",
+        "reported_status": "submitted; awaiting result",
+        "instruction": "Inspect this current submission result; do not submit another attempt for this ID."
+      }
+    ]
+  },
   "historical_progress_snapshot": {
     "file": "generation_progress.json",
-    "recorded_at": "2026-10-28T02:14:57.072223+00:00",
+    "recorded_at": "2026-10-28T02:52:41.319464+00:00",
     "project": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c",
     "latest_failure_record": null,
     "used_as_current_service_or_operator_state": false
   },
-  "blocker": "Approval alone does not verify upload identity or actual per-submission input.",
+  "blocker": null,
+  "registered_master_reference_options": {
+    "AT_C": [
+      {
+        "upload_alias_id": "cb1_AT_C_3",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+        "source_media_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+        "selected_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+        "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+        "alias_record_sha256": "befa231b79f5a8a66b3426cdca2c23cdfaf16b1da752b435daf21dcb9814e6c6",
+        "proof_kind": "root_reviewed_service_representation",
+        "exact_pixel_equal": false,
+        "lossless": false,
+        "deterministic_transform_proven": false,
+        "manual_comparison_pass": true,
+        "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+        "comparison_sha256": "4234d6b24e8419016bcc923ca6ba14d90c3f8604e56225d7291c89f270e1992f"
+      }
+    ],
+    "AT_INT": [
+      {
+        "upload_alias_id": "cb1_AT_INT_1",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/df700293-99e2-4a76-8303-d4b75bd8d17c",
+        "source_media_url": "https://flow-content.google/image/e314b607-f9e6-4d51-8cbf-30a406207ea2",
+        "selected_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+        "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+        "alias_record_sha256": "76a73fc9fe6d3600133f9b31f3c00df80ebb6a42c15bf15a8e5e8e780fce0d18",
+        "proof_kind": "root_reviewed_service_representation",
+        "exact_pixel_equal": false,
+        "lossless": false,
+        "deterministic_transform_proven": false,
+        "manual_comparison_pass": true,
+        "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+        "comparison_sha256": "54c592943adfa2a69ab3618b1cf9a064b633efe51974ed841026a8fc39968da1"
+      }
+    ],
+    "AT_N": [
+      {
+        "upload_alias_id": "cb1_AT_N_3",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7d334c99-fe59-44db-aa94-a966f458c9c4",
+        "source_media_url": "https://flow-content.google/image/dc46f85b-5b48-442c-8278-313be5d42abf",
+        "selected_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+        "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+        "alias_record_sha256": "2e1a313d4fcfedb3686ec93befeba5fa1ca8844951e0529c3f6a0e9429710c42",
+        "proof_kind": "root_reviewed_service_representation",
+        "exact_pixel_equal": false,
+        "lossless": false,
+        "deterministic_transform_proven": false,
+        "manual_comparison_pass": true,
+        "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+        "comparison_sha256": "96fc35a4f25c6d3439823f9ce4492fc7457913e9ca1d283b1198142fabc353a8"
+      }
+    ],
+    "AT_S": [
+      {
+        "upload_alias_id": "cb1_AT_S_2",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+        "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+        "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+        "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+        "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+        "proof_kind": "root_reviewed_service_representation",
+        "exact_pixel_equal": false,
+        "lossless": false,
+        "deterministic_transform_proven": false,
+        "manual_comparison_pass": true,
+        "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+        "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+      }
+    ],
+    "G3D_DEEP": [
+      {
+        "upload_alias_id": "cb1_G3D_DEEP_3",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+        "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+        "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+        "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+        "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+        "proof_kind": "root_reviewed_service_representation",
+        "exact_pixel_equal": false,
+        "lossless": false,
+        "deterministic_transform_proven": false,
+        "manual_comparison_pass": true,
+        "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+        "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+      }
+    ],
+    "G3D_EXC": [
+      {
+        "upload_alias_id": "cb1_G3D_EXC_4",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+        "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+        "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+        "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+        "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+        "proof_kind": "root_reviewed_service_representation",
+        "exact_pixel_equal": false,
+        "lossless": false,
+        "deterministic_transform_proven": false,
+        "manual_comparison_pass": true,
+        "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+        "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+      }
+    ]
+  },
+  "invalid_registered_aliases": [],
+  "per_job_UI_input_observation_still_required": true,
   "local_master_upload": {
     "approval_file": "upload_approval_v1.json",
     "authorized": true,
-    "confirmed_upload": false,
-    "confirmed_upload_identity_alias": false,
+    "confirmed_upload": true,
+    "confirmed_upload_identity_alias": true,
     "approval_matches_current_project": true,
-    "actual_upload_count": "unknown; an earlier connection failure does not prove zero transfers",
+    "confirmed_current_batch_upload_count": 6,
+    "previous_attempt_external_delivery": "unknown; subsequent confirmed batch receipt does not resolve the earlier connection failure",
+    "registered_reference_kinds": [
+      "root_reviewed_service_representation"
+    ],
+    "original_png_and_server_jpeg_pixel_identical": false,
     "automatic_review_rejection": {
       "reported_by": "Parent /root; the preparer did not inspect a private reviewer log",
       "attempt": 2,
@@ -156,75 +313,85 @@
   "resume_gate": "Honor pending root decisions and specific local-transfer approval. Inspect live UI and exact input revisions before each one-image submission. No upload/video approval is granted by this script.",
   "ordering": "Manifest order; selected IDs omitted; existing unreviewed outputs need a root decision before retry.",
   "state_counts": {
-    "await_verified_master_upload_identity_and_live_UI_reference": 72
+    "await_current_generation_result_do_not_resubmit": 1,
+    "registered_service_references_need_live_exact_revision_check": 68
   },
-  "without_local_transfer_candidates_for_root_live_UI_check": [],
+  "without_local_transfer_candidates_for_root_live_UI_check": [
+    "i002",
+    "i003",
+    "i004",
+    "i005",
+    "i006",
+    "i010",
+    "i011",
+    "i013",
+    "i014",
+    "i015",
+    "i016",
+    "p001",
+    "p002",
+    "p003",
+    "p004",
+    "p005",
+    "p006",
+    "p007",
+    "p008",
+    "p009",
+    "p010",
+    "p011",
+    "p012",
+    "p013",
+    "p014",
+    "p015",
+    "p016",
+    "p017",
+    "p018",
+    "p019",
+    "p020",
+    "p021",
+    "i017",
+    "i018",
+    "p022",
+    "p023",
+    "p024",
+    "p025",
+    "p026",
+    "p027",
+    "p028",
+    "p029",
+    "p030",
+    "p031",
+    "p032",
+    "p033",
+    "p034",
+    "p035",
+    "p036",
+    "i021",
+    "i022",
+    "p037",
+    "p038",
+    "a001",
+    "i023",
+    "i024",
+    "i025",
+    "p039",
+    "a002",
+    "a003",
+    "p040",
+    "i026",
+    "i027",
+    "p041",
+    "p042",
+    "p043",
+    "i028",
+    "i029"
+  ],
   "queue": [
-    {
-      "id": "o002",
-      "kind": "frame",
-      "ref": "AT_C",
-      "next_attempt": 2,
-      "latest_prompt_sha256": "655e36fdf2780fd6d6cc83c2b35bbd08204996cf65685eb6004a62f85a3a3165",
-      "missing_selected_references": [],
-      "master_dependencies": [
-        "AT_C"
-      ],
-      "cross_project_selected_masters": [
-        "AT_C"
-      ],
-      "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
-      ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
-    },
-    {
-      "id": "o003",
-      "kind": "frame",
-      "ref": "AT_S",
-      "next_attempt": 2,
-      "latest_prompt_sha256": "3be4d1b62f2be7af1d85a150af8b08a083b5f791979e894968792883b37c15cf",
-      "missing_selected_references": [],
-      "master_dependencies": [
-        "AT_S"
-      ],
-      "cross_project_selected_masters": [
-        "AT_S"
-      ],
-      "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
-      ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
-    },
-    {
-      "id": "o004",
-      "kind": "frame",
-      "ref": "AT_S",
-      "next_attempt": 1,
-      "latest_prompt_sha256": "061b1efdc328eb7d7cc652d8049862a2461359e9b1ef5955b3372d9a9882cb68",
-      "missing_selected_references": [],
-      "master_dependencies": [
-        "AT_S"
-      ],
-      "cross_project_selected_masters": [
-        "AT_S"
-      ],
-      "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
-      ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
-    },
     {
       "id": "i001",
       "kind": "image",
       "ref": "AT_S",
-      "next_attempt": 1,
+      "next_attempt": 2,
       "latest_prompt_sha256": "8425d5a4a184ec8796aeeec6a8094c452c0147d772c35492f4099f8280969c9c",
       "missing_selected_references": [],
       "master_dependencies": [
@@ -234,11 +401,41 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [
+        {
+          "attempt": 1,
+          "record": "generation_records_v1/i001_1.json",
+          "reported_status": "submitted; awaiting result",
+          "instruction": "Inspect this current submission result; do not submit another attempt for this ID."
+        }
+      ],
+      "blocking_conditions": [
+        "await_current_generation_result_do_not_resubmit"
+      ],
+      "reference_state": "await_current_generation_result_do_not_resubmit"
     },
     {
       "id": "i002",
@@ -254,11 +451,32 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i003",
@@ -274,11 +492,32 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i004",
@@ -294,11 +533,32 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i005",
@@ -314,11 +574,32 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i006",
@@ -334,11 +615,32 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i010",
@@ -354,11 +656,32 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i011",
@@ -374,11 +697,32 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i013",
@@ -394,11 +738,32 @@
         "AT_INT"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_INT": [
+          {
+            "upload_alias_id": "cb1_AT_INT_1",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/df700293-99e2-4a76-8303-d4b75bd8d17c",
+            "source_media_url": "https://flow-content.google/image/e314b607-f9e6-4d51-8cbf-30a406207ea2",
+            "selected_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "76a73fc9fe6d3600133f9b31f3c00df80ebb6a42c15bf15a8e5e8e780fce0d18",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "54c592943adfa2a69ab3618b1cf9a064b633efe51974ed841026a8fc39968da1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i014",
@@ -414,11 +779,32 @@
         "AT_INT"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_INT": [
+          {
+            "upload_alias_id": "cb1_AT_INT_1",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/df700293-99e2-4a76-8303-d4b75bd8d17c",
+            "source_media_url": "https://flow-content.google/image/e314b607-f9e6-4d51-8cbf-30a406207ea2",
+            "selected_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "76a73fc9fe6d3600133f9b31f3c00df80ebb6a42c15bf15a8e5e8e780fce0d18",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "54c592943adfa2a69ab3618b1cf9a064b633efe51974ed841026a8fc39968da1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i015",
@@ -434,11 +820,32 @@
         "AT_C"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_C": [
+          {
+            "upload_alias_id": "cb1_AT_C_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+            "source_media_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+            "selected_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "befa231b79f5a8a66b3426cdca2c23cdfaf16b1da752b435daf21dcb9814e6c6",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4234d6b24e8419016bcc923ca6ba14d90c3f8604e56225d7291c89f270e1992f"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i016",
@@ -454,11 +861,32 @@
         "AT_C"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_C": [
+          {
+            "upload_alias_id": "cb1_AT_C_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+            "source_media_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+            "selected_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "befa231b79f5a8a66b3426cdca2c23cdfaf16b1da752b435daf21dcb9814e6c6",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4234d6b24e8419016bcc923ca6ba14d90c3f8604e56225d7291c89f270e1992f"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p001",
@@ -474,11 +902,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p002",
@@ -494,11 +943,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p003",
@@ -514,18 +984,39 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p004",
       "kind": "frame",
       "ref": "G3D_EXC",
       "next_attempt": 1,
-      "latest_prompt_sha256": "f77c0bf992e24c92de28a1f4c3d4691a2fd44c64e502769541275d427a8e8a2d",
+      "latest_prompt_sha256": "8d11e55527cea31a31bd494fc3285f694a93a605153d753255ae69f65f2611e9",
       "missing_selected_references": [],
       "master_dependencies": [
         "G3D_EXC"
@@ -534,18 +1025,39 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p005",
       "kind": "frame",
       "ref": "G3D_EXC",
       "next_attempt": 1,
-      "latest_prompt_sha256": "b2ca2c2ae560f11e99d364a6c137e25eccf518a7b0ad3a2e9578a2bf9e52bbd5",
+      "latest_prompt_sha256": "7f7bb7c66fa8359c87340188730c4c56bbe60b4edd6d50b08558f83db3a0b2dd",
       "missing_selected_references": [],
       "master_dependencies": [
         "G3D_EXC"
@@ -554,11 +1066,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p006",
@@ -574,11 +1107,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p007",
@@ -594,11 +1148,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p008",
@@ -614,11 +1189,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p009",
@@ -634,11 +1230,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p010",
@@ -654,11 +1271,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p011",
@@ -674,11 +1312,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p012",
@@ -694,11 +1353,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p013",
@@ -714,11 +1394,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p014",
@@ -734,11 +1435,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p015",
@@ -754,11 +1476,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p016",
@@ -774,11 +1517,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p017",
@@ -794,11 +1558,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p018",
@@ -814,11 +1599,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p019",
@@ -834,11 +1640,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p020",
@@ -854,11 +1681,32 @@
         "G3D_DEEP"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_DEEP": [
+          {
+            "upload_alias_id": "cb1_G3D_DEEP_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+            "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+            "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p021",
@@ -874,11 +1722,32 @@
         "G3D_DEEP"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_DEEP": [
+          {
+            "upload_alias_id": "cb1_G3D_DEEP_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+            "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+            "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i017",
@@ -894,11 +1763,32 @@
         "AT_C"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_C": [
+          {
+            "upload_alias_id": "cb1_AT_C_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+            "source_media_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+            "selected_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "befa231b79f5a8a66b3426cdca2c23cdfaf16b1da752b435daf21dcb9814e6c6",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4234d6b24e8419016bcc923ca6ba14d90c3f8604e56225d7291c89f270e1992f"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i018",
@@ -914,11 +1804,32 @@
         "AT_C"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_C": [
+          {
+            "upload_alias_id": "cb1_AT_C_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+            "source_media_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+            "selected_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "befa231b79f5a8a66b3426cdca2c23cdfaf16b1da752b435daf21dcb9814e6c6",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4234d6b24e8419016bcc923ca6ba14d90c3f8604e56225d7291c89f270e1992f"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p022",
@@ -934,11 +1845,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p023",
@@ -954,11 +1886,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p024",
@@ -974,11 +1927,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p025",
@@ -994,11 +1968,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p026",
@@ -1014,11 +2009,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p027",
@@ -1034,11 +2050,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p028",
@@ -1054,11 +2091,32 @@
         "G3D_DEEP"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_DEEP": [
+          {
+            "upload_alias_id": "cb1_G3D_DEEP_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+            "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+            "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p029",
@@ -1074,11 +2132,32 @@
         "G3D_DEEP"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_DEEP": [
+          {
+            "upload_alias_id": "cb1_G3D_DEEP_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+            "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+            "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p030",
@@ -1094,11 +2173,32 @@
         "G3D_DEEP"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_DEEP": [
+          {
+            "upload_alias_id": "cb1_G3D_DEEP_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+            "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+            "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p031",
@@ -1114,11 +2214,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p032",
@@ -1134,11 +2255,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p033",
@@ -1154,11 +2296,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p034",
@@ -1174,11 +2337,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p035",
@@ -1194,11 +2378,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p036",
@@ -1214,11 +2419,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i021",
@@ -1234,11 +2460,32 @@
         "AT_C"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_C": [
+          {
+            "upload_alias_id": "cb1_AT_C_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+            "source_media_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+            "selected_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "befa231b79f5a8a66b3426cdca2c23cdfaf16b1da752b435daf21dcb9814e6c6",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4234d6b24e8419016bcc923ca6ba14d90c3f8604e56225d7291c89f270e1992f"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i022",
@@ -1254,11 +2501,32 @@
         "AT_C"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_C": [
+          {
+            "upload_alias_id": "cb1_AT_C_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+            "source_media_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+            "selected_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "befa231b79f5a8a66b3426cdca2c23cdfaf16b1da752b435daf21dcb9814e6c6",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4234d6b24e8419016bcc923ca6ba14d90c3f8604e56225d7291c89f270e1992f"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p037",
@@ -1274,11 +2542,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p038",
@@ -1294,11 +2583,32 @@
         "G3D_DEEP"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_DEEP": [
+          {
+            "upload_alias_id": "cb1_G3D_DEEP_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+            "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+            "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "a001",
@@ -1314,11 +2624,32 @@
         "AT_C"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_C": [
+          {
+            "upload_alias_id": "cb1_AT_C_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+            "source_media_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+            "selected_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "befa231b79f5a8a66b3426cdca2c23cdfaf16b1da752b435daf21dcb9814e6c6",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4234d6b24e8419016bcc923ca6ba14d90c3f8604e56225d7291c89f270e1992f"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i023",
@@ -1334,11 +2665,32 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i024",
@@ -1354,11 +2706,32 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i025",
@@ -1374,11 +2747,32 @@
         "AT_S"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_S": [
+          {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p039",
@@ -1394,11 +2788,32 @@
         "G3D_DEEP"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_DEEP": [
+          {
+            "upload_alias_id": "cb1_G3D_DEEP_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+            "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+            "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "a002",
@@ -1414,11 +2829,32 @@
         "AT_INT"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_INT": [
+          {
+            "upload_alias_id": "cb1_AT_INT_1",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/df700293-99e2-4a76-8303-d4b75bd8d17c",
+            "source_media_url": "https://flow-content.google/image/e314b607-f9e6-4d51-8cbf-30a406207ea2",
+            "selected_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "76a73fc9fe6d3600133f9b31f3c00df80ebb6a42c15bf15a8e5e8e780fce0d18",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "54c592943adfa2a69ab3618b1cf9a064b633efe51974ed841026a8fc39968da1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "a003",
@@ -1434,11 +2870,32 @@
         "AT_INT"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_INT": [
+          {
+            "upload_alias_id": "cb1_AT_INT_1",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/df700293-99e2-4a76-8303-d4b75bd8d17c",
+            "source_media_url": "https://flow-content.google/image/e314b607-f9e6-4d51-8cbf-30a406207ea2",
+            "selected_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "76a73fc9fe6d3600133f9b31f3c00df80ebb6a42c15bf15a8e5e8e780fce0d18",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "54c592943adfa2a69ab3618b1cf9a064b633efe51974ed841026a8fc39968da1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p040",
@@ -1454,11 +2911,32 @@
         "G3D_DEEP"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_DEEP": [
+          {
+            "upload_alias_id": "cb1_G3D_DEEP_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+            "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+            "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i026",
@@ -1474,11 +2952,32 @@
         "AT_N"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_N": [
+          {
+            "upload_alias_id": "cb1_AT_N_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7d334c99-fe59-44db-aa94-a966f458c9c4",
+            "source_media_url": "https://flow-content.google/image/dc46f85b-5b48-442c-8278-313be5d42abf",
+            "selected_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e1a313d4fcfedb3686ec93befeba5fa1ca8844951e0529c3f6a0e9429710c42",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "96fc35a4f25c6d3439823f9ce4492fc7457913e9ca1d283b1198142fabc353a8"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i027",
@@ -1494,11 +2993,32 @@
         "AT_C"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_C": [
+          {
+            "upload_alias_id": "cb1_AT_C_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+            "source_media_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+            "selected_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "befa231b79f5a8a66b3426cdca2c23cdfaf16b1da752b435daf21dcb9814e6c6",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4234d6b24e8419016bcc923ca6ba14d90c3f8604e56225d7291c89f270e1992f"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p041",
@@ -1514,11 +3034,32 @@
         "G3D_EXC"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_EXC": [
+          {
+            "upload_alias_id": "cb1_G3D_EXC_4",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+            "source_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+            "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "dc798d159d2c7ac2363cbb3e971738d78edd9bbf2d5b371849c65734d35f1a4e",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "6de4cb4c060e3096b197771f2ab75c47c0100658a6ab32445b1e56a593c448e1"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p042",
@@ -1534,11 +3075,32 @@
         "G3D_DEEP"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_DEEP": [
+          {
+            "upload_alias_id": "cb1_G3D_DEEP_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+            "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+            "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "p043",
@@ -1554,11 +3116,32 @@
         "G3D_DEEP"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "G3D_DEEP": [
+          {
+            "upload_alias_id": "cb1_G3D_DEEP_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+            "source_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+            "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e64494ee17e3b2d536320682c5bd4a480676343a314cfb093b31695543bfd48",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "4fe167a3f0e6db6aed71cf1ec5baef9b977ccde243ae80e35129fb0b6d3ea85a"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i028",
@@ -1574,11 +3157,32 @@
         "AT_N"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_N": [
+          {
+            "upload_alias_id": "cb1_AT_N_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7d334c99-fe59-44db-aa94-a966f458c9c4",
+            "source_media_url": "https://flow-content.google/image/dc46f85b-5b48-442c-8278-313be5d42abf",
+            "selected_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e1a313d4fcfedb3686ec93befeba5fa1ca8844951e0529c3f6a0e9429710c42",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "96fc35a4f25c6d3439823f9ce4492fc7457913e9ca1d283b1198142fabc353a8"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     },
     {
       "id": "i029",
@@ -1594,11 +3198,32 @@
         "AT_N"
       ],
       "cross_project_selected_nonmasters": [],
-      "existing_unreviewed_outputs": [],
-      "blocking_conditions": [
-        "await_verified_master_upload_identity_and_live_UI_reference"
+      "registered_master_reference_options": {
+        "AT_N": [
+          {
+            "upload_alias_id": "cb1_AT_N_3",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7d334c99-fe59-44db-aa94-a966f458c9c4",
+            "source_media_url": "https://flow-content.google/image/dc46f85b-5b48-442c-8278-313be5d42abf",
+            "selected_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "2e1a313d4fcfedb3686ec93befeba5fa1ca8844951e0529c3f6a0e9429710c42",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "96fc35a4f25c6d3439823f9ce4492fc7457913e9ca1d283b1198142fabc353a8"
+          }
+        ]
+      },
+      "required_live_checks": [
+        "Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission."
       ],
-      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
+      "existing_unreviewed_outputs": [],
+      "in_flight_attempts": [],
+      "blocking_conditions": [],
+      "reference_state": "registered_service_references_need_live_exact_revision_check"
     }
   ]
 }

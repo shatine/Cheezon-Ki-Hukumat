@@ -1,6 +1,6 @@
 # 9편 인계 — Atal Tunnel
 
-갱신: 2026-10-28 (한국 시간). **한국어 확정·힌디어 78문장·무료 로컬 TTS 완료(469.412초). 실측79컷·이미지85행·영상 초안50행의 정의 점검 오류0. 이미지13/85 선택·28시도 검토·잔여72개. 현재 사용자 지정 cb1/artbuilder883에서 무료 이미지 생성이 재개되어 서비스 차단 상태가 아니다. 기준 PNG6장 전송은 사용자 승인됐지만 현재 프로필의 파일 URL 권한 오류와 Windows URL 확인 실패에 따른 UI 종료로 업로드·후속72장 생성이 차단돼 있다. 실제 영상0·영상 생성 승인false.**
+진행 중 체크포인트: 2026-10-28T02:52:41.319464+00:00. **이미지 16/85 선택·32시도 검토·잔여69개. 실제 첫 프레임 4/50 선택·4개 동작 적합성 검토. 기준6장 업로드와 수동 원본 대조형 서버 참조 등록 완료. 원PNG와 JPEG의 픽셀 동일 주장은 하지 않는다. o0041 완료 후 reCAPTCHA 연결 안내는 일반 새로고침1회 뒤 사라졌다. 보안문자 풀이0. 실제 영상0·영상 생성 승인false.**
 
 ## 사용자 확정 사항
 
@@ -12,7 +12,9 @@
 - 2026-10-28: 사용자 “https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c 열린 크롬에서 작업해. 크롬 프로필은 artbuilder883이야”. root가 실제 열린 프로젝트와 프로필 표시를 확인했다. 현재 대상은 cb1/artbuilder883이며 기존baa9·22cd 자산은 이동·삭제하지 않는다.
 - 이후 사용자가 Chrome을 다시 연결했다고 알렸고, root는 동일 지정 프로필의 browser8/tab96308644에서 cb1 메인 화면이 정상인 것을 확인했다. 이전 browser4→6의 `Debugger unattached`는 브라우저 연결 문제 이력이며 Flow 서비스 오류나 로컬 파일 전송 승인과 구별한다. 로그인·확장 설정은 임의 변경하지 않았다.
 - cb1에서 i0082는 재생성 결정, i0083·i0091·i0121·i0191은 원본/정리본 직접 검수 후 선택됐다. i0201은 구도 중복으로, 높은 시점으로 수정한 i0202는 자의 숫자형 눈금으로 재생성 결정했다. i0203은 자·줄자·공구를 제거한 높은 사선 tabletop의 모형·완전 빈 종이·손 구도로 생성됐다. root가 raw/clean 1376×768 원본을 직접 확인해 읽는 글자·숫자를 발견하지 못했고, i019와 구도가 다르다고 판단해 선택했다.
-- 로컬 `v1_AT_C_3.png` clipboard 입력 첫 시도는 연결 실패로 외부 수신 여부가 미확인이다. 두 번째 전체 호출은 자동 승인 검토에서 특정 로컬 자산의 Google Flow 외부 전송 승인이 명확하지 않다는 이유로 거절됐다. 그 뒤 추가 전송 시도는 없다. `images/upload_approval_v1.json/md`에 선택master6장 전체의 경로·SHA·크기와 외부 전송·저장 범위를 제시했으며 `authorized=false`, `confirmed_upload=false`다. 프로젝트 작업 지시·연결 복구를 자산 전송 승인으로 해석하지 않는다.
+- 로컬 `v1_AT_C_3.png` clipboard 입력 첫 시도는 연결 실패로 외부 수신 여부가 미확인이다. 두 번째 전체 호출은 자동 승인 검토에서 특정 로컬 자산의 Google Flow 외부 전송 승인이 명확하지 않다는 이유로 거절됐다. 당시 승인 요청 전까지 추가 전송 시도는 없었다. `images/upload_approval_v1.json/md`에 선택master6장 전체의 경로·SHA·크기와 외부 전송·저장 범위를 제시했으며 `authorized=false`, `confirmed_upload=false`였던 승인 전 이력이다. 이후 직접 사용자 승인과 실제 수신·등록은 아래 최신 상태로 구별한다. 프로젝트 작업 지시·연결 복구만으로 전송 승인을 추정하지 않는다.
+- 이후 사용자가 정확히 “기준 그림 6장 업로드 승인”이라고 답해 cb1/artbuilder883에 명시된 PNG6장 전송·저장이 승인됐다. 사용자 파일 URL 접근 허용 설정 뒤 root가 browser10/tab96308644에서 기본 chooser.setFiles6장 정상 반환·권리 안내 확인·정확한 filename 완료 타일6개를 직접 관찰했다. 현재 승인·전송·UI 차단은 해결됐다.
+- root가 선택PNG6장과 실제 서버JPEG6장, 총12개 원본을 원본 크기로 직접 쌍비교하고 별도 판정JSON에 기록했다. 실제 batch receipt와 입력SHA·새 editor/revision·다운로드SHA를 고정해 별칭6개를 CLI 등록했고 사용 재검증도 통과했다. 검증 유형은 `root_reviewed_service_representation`이다. 서버는 JPEG로 변환했으므로 원본PNG와 픽셀 동일·무손실·결정적 변환 증명은 모두 false다. strict 픽셀 비교 실패와 metadata 기반 단1회 재인코딩 실패는 그대로 보존했다.
 - 확정 중심 질문: **물이 쏟아지는 산을 어떻게 뚫었을까?**
 - 힌디어는 승인 한국어의 문장별 의미 대응을 검토한 제작본이다. 사용자가 힌디어 음성을 직접 청취했다고 표기하지 않는다.
 - 기존 7·8편 확정본은 수정하지 않았다.
@@ -32,11 +34,11 @@
 | TTS | **78/78 자동 검사 통과·469.412초** | PC `D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit`. charonclone·seed7·speed1.0. 실제 WAV·타이밍·순서·원문 해시 검사 통과. 직접 청취 미수행 |
 | 컷 계획 | **실측 실행·논리 검사 오류0** | 470.4초·79컷(영상50/이미지29), 도입4영상, 원리49문장 영상, 비원리영상16.13%. 10초는 제작 요구 사양이며 현재 Muse 설정·실제 사용 구간 검수는 후속 필수. `plan/shot_table_v1.md` |
 | 이미지 프롬프트 | **85행·참조/대응 검사 오류0** | 기준6장+영상 첫 프레임50장+이미지29장. `images/prompts_v1.json`, `scene_spec_v1.md`. 현재 설명 상태·단계·연결 명시. p019는 연결된 얕은 임시 폐합, p020은 연결된 깊은 최종 폐합, p038은 후기 진행 중 공정으로 구별 |
-| 이미지 생성·검수 | **기준6/6·전체13/85 선택·28시도 검토·잔여72** | cb1/artbuilder883에서 현행 이미지 생성 성공. i0083·i0091·i0121·i0191·i0203 선택. i0082·i0201·i0202는 재생성 결정. 선택13개 자동 측정과 root 원본 검수는 별개이며 이웃i019/i020 dHash 약0.48은 보조 수치다. 나머지72개는 승인된 master6장의 실제 업로드·동일성 확인 대기 |
+| 이미지 생성·검수 | **기준6/6·전체14/85 선택·30시도 검토·잔여71** | cb1/artbuilder883에서 root가 후속 생성·검수 중. 생성완료·미선택 출력: o003 시도3. 출력 미확인/진행 레코드: 없음. 생성 성공과 선택은 별개다. master6장 실제 수신·수동 유형 별칭등록 완료, 매 제출 전 정확한 입력 revision 관찰은 별도 필수 |
 | 업로드 문구 | **실측 기반 초안 검사 완료** | EN/HI 설명 분리·제목 각3개·키워드8+8·실측 챕터11개. `upload/`. 외부 게시·썸네일 이미지 제작 미수행 |
 | 편집 사전 준비 | **검토 자막·사전검사·정지 조판 5표본 확인** | `review_edit/edit_v1.py`는 전체 렌더러가 아니다. 실측 HI/KO SRT 각78큐·ASS165이벤트(78+78+수치9), 입력/79컷/14112프레임 검사 오류0. libass 1920×1080 정지 PNG5개를 독립 검토자와 root가 원본으로 보아 글자 깨짐·잘림·겹침 발견0. 단색 배경 표본 한정이다. 실물79소스 미완료로 정상 차단(exit2/render_ready=false). 발화 정렬 기반 업로드 한 줄 자막·전체 렌더러·전체 영상검수는 미완료 |
-| 실제 첫 프레임 | **1/50 선택·동작 적합성 검토** | o0012만 실제 PNG와 물길·마른 작업로·motion 계약 SHA를 root가 확인. 나머지49개는 미선택. 준비 패키지 gate를 유지하고 미완성을 ready로 만들지 않는다 |
-| 영상 프롬프트 | **현재13선택 반영 초안50개·정의 오류0, ready49개 차단** | root의 `review_edit/checkpoint_20261028.json` 현재 실행: 원리43개 strict문장 각1개, 카메라LOCK50개, o001 motion SHA 유지. `--ready` 실제exit1·ready_blocked49·ready파일없음·authorized=false. 미완성49개를 ready로 표시하지 않는다 |
+| 실제 첫 프레임 | **2/50 선택·2/50 동작 적합성 명시 검토** | 실제 선택PNG와 motion 원장의 reviewed/compatible/features·파일/SHA 일치 수치다. 미완료를 ready로 만들지 않는다. 실제 영상은0 |
+| 영상 프롬프트 | **50개 초안·실제 영상 생성 미승인** | `review_edit/checkpoint_20261028.json`은13선택 당시 정의 오류0·LOCK50·원리43 strict문장·ready49차단을 기록한 과거 스냅샷이다. 이후 새 선택·동작 검수 수는 원장에서 읽고 현재 입력 해시로 gate를 다시 검사해야 한다. 이미지 선택이나6장 전송 승인을 영상 생성 승인으로 해석하지 않는다 |
 | 영상·편집 | **실제 영상 생성0** | 사용자 최신 범위에 따라 영상 생성 금지. Muse 승인 미기록 |
 | PC 작업 지시 | TTS 실행·재개 지침 | `WORK_ORDER_tts_v1.md`. 오디오는 PC에만 보관 |
 
@@ -54,13 +56,13 @@
 
 1. TTS는 완료했다. 통과 WAV를 불필요하게 재생성하지 않는다. `review_edit/verify_tts.py`는 `--help` 처리 없이 검사·프리뷰 재인코딩까지 실행하므로 소스를 읽고 꼭 필요한 검증만 실행한다. 원본 WAV의 고정 SHA를 보존하고 오디오는 git에 넣지 않는다.
 2. `plan/plan_v1.py --clip-seconds 10`의 79컷·오류0 계획을 유지하고, 실제 영상 생성 뒤 검수한 사용 구간으로 갱신한다.
-3. `images/WORK_ORDER_images_v1.md`, 현재 `picks_v1.md`, `resume_queue_v1.json`을 확인한다. UI는 root 한 명만 조작하고 이미 선택한 ID는 다시 제출하지 않는다. i0203의 실제 root 선택까지 원장에 반영됐다. 현재13/85 선택·28리뷰·잔여72이며 남은72개는 모두 승인된 master 전송·동일성 확인 대기다. 현재 파일 URL 권한 오류와 UI 종료를 해결해야 한다. 원장에 새 선택이 기록되면 `images/make_resume_queue_v1.py`로 수치와 다음 시도 번호를 동적으로 갱신한다.
-   - DEEP2·o0031·22cd의 i0081 비정상 활동/reCAPTCHA 오류는 **과거 이력**으로 보존한다. 당시 실패 원문·스크린샷·새 출력 없음은 `generation_records_v1/`에 있으며, recaptcha/ERR_ 콘솔 필터0건만으로 원인을 특정하지 않았다. 현재 cb1에서는 실제 성공 결과가 기록돼 있으므로 과거 오류를 현재 서비스 차단으로 쓰지 않는다. 매 제출 전 현재 UI를 확인하는 절차는 남는다.
-   - `flow_project_policy_v1.json`의 허용 원천·결과는 정확히 baa9/22cd/cb1 세 ID다. legacy/default는 baa9, 현행 생성은 cb1이다. 허용 목록이 다른 계정의 서버 자산 가용성·실제 첨부·로컬 전송 권한을 증명하지 않는다. 기존master6장은 old 계정에 그대로 있고 현재 cb1의 가용성은 미확인이다.
-   - 선택master6장 PNG의 Google Flow 전송·저장은 직접 사용자 승인으로 해결됐다. 현행 차단은 artbuilder883 확장 파일 URL 권한 오류와 Windows 현재 URL 확인 실패로 인한 UI 종료다. 자동 승인 검토의 두 번째 AT_C3 clipboard 호출 거절 뒤에는 사용자 승인 전 같은 전송을 다른 방식으로 재시도하지 않는다. 첫 연결 실패의 외부 수신 여부는 unknown으로 유지하고 업로드가 실제0개였다고 단정하지 않는다. `upload_approval_v1.json`은 실제 사용자 승인에 따라 authorized=true다. confirmed_upload=false는 실제 수신 증거 전 유지한다.
-   - 과거 다른 Chrome 프로필의 file-URL 접근 오류·`setFiles` 장기 대기, 이후 `Debugger unattached` 연결 장애, 현재 자동 승인 검토 거절은 별개다. 현재 artbuilder883의 file-URL 설정·원인을 추정하거나 임의 변경하지 않는다. 연결 복구가 전송 승인을 대신하지 않는다.
-   - 원천 선택 파일/SHA·old source URL은 보존한다. 편집기 URL은 변경 가능한 컨테이너이므로 제출 전 실제 `flow-content.google/image/...` revision까지 정확히 대조한다. 사후 관찰은 실제 시각·raw SHA로 별도 기록하고 과거 입력 관찰로 소급하지 않는다. 새 업로드로 revision이 생기면 명시 승인 뒤 선택PNG 입력SHA·크기·서버 다운로드 RGB완전동일 검증 없이 같은 원천의 별칭이라고 기록하지 않는다.
-   - 참조 없는 정상 장면과 현재 cb1에 이미 선택된 정확한 서버 revision으로 진행 가능한 장면은 로컬master 전송 대기와 구별한다. i009는 선택i0083, i020은 선택i0191의 실제 서버 입력을 사용하며 로컬master 업로드를 생략한 대체 생성이 아니다. 필요한 원천을 선택할 수 없으면 임의 그림·다른 ID·텍스트만으로 대체하지 않는다.
+3. `images/WORK_ORDER_images_v1.md`, 현재 `picks_v1.md`, `resume_queue_v1.json`을 확인한다. UI는 root 한 명만 조작하고 선택 ID를 재제출하지 않는다. 이 문서의 스냅샷은 선택14/85·검토30시도·잔여71·실제 첫 프레임2/50·동작 검토2/50·영상0이다. 생성완료·미선택 출력(o003 시도3)은 먼저 실제 원본 검수와 명시 결정을 마치며, 진행 레코드(없음)를 완성 결과로 쓰지 않는다. 새 선택 뒤 `images/make_resume_queue_v1.py`로 동적으로 갱신한다.
+   - 현재 browser10/tab96308644의 cb1/artbuilder883은 root가 정상 사용 중이다. 사용자 수동 file-URL 설정 후6장 업로드가 수신됐으므로 과거 확장 권한 오류·Windows URL 확인 실패를 현재 UI 차단으로 표시하지 않는다. 로그인·설정을 보조 작업자가 변경하지 않는다.
+   - DEEP2·o0031·22cd i0081의 비정상 활동/reCAPTCHA 오류와 과거 browser4/6 `Debugger unattached`, 승인 전 자동 검토 거절, 승인 후 clipboard pipe 종료/file-URL 오류/당시 Windows UI 종료는 역사로 보존한다. 당시 실패 수신은 미확인인 경우 unknown을 유지하며, 나중 batch6장의 확인된 수신과 혼합해 누적 전송 총량을 단정하지 않는다.
+   - 허용 원천·결과는 `flow_project_policy_v1.json`의 정확한 baa9/22cd/cb1 세 ID다. 원래 선택PNG·old source URL·raw/revision은 보존한다. 현행 cb1 서버 참조는 `upload_aliases_v1.json`의 명시 alias ID와 새 media revision으로 선택한다. 허용 프로젝트나 파일명만으로 원천을 바꾸지 않는다.
+   - 사용자 승인6장과 실제 batch receipt·입력 파일SHA·root의 filename 타일/new revision 관찰·실제 서버 다운로드SHA·별도12원본 쌍비교에 따라 수동 표현 별칭6개가 등록됐다. `root_reviewed_service_representation`이며 `exact_pixel_equal=false`, `lossless=false`, `deterministic_transform_proven=false`다. 원본 PNG와 서버 JPEG가 같은 픽셀이라고 보고하지 않는다. 자동 픽셀오차량은 별도 보고이며 시각 합격 임계값이 아니다. 원지침은 실제master첨부·형태/색/방향 일관성과 수동 원본 검수를 요구한다. RGB완전동일은 이번 작업에서 추가한 자체 strict별칭 모델이며 사용자나 portable의 요구로 오기하지 않는다.
+   - `upload_registration_validation_v1.json`과 `upload_receipts_v1/`, `upload_comparisons_v1/`, `upload_proofs_v1/`의 증거를 읽는다. `jpeg_reencode_experiment_v1.json`의 원PNG strict 실패 및 metadata 기반1회 재인코딩 실패(다른 channel553881개·최대5)는 실패 그대로다. 이를 성공으로 바꾸거나 추가 탐색으로 맞추지 않는다.
+   - 각 새 제출은 `actual_ui_references.upload_alias_id`와 현재 실제 입력 `flow-content.google/image/...` revision·순서를 직접 확인한다. 편집기URL은 변경 가능한 컨테이너이므로 같은URL의 최신 결과를 선택master로 착각하지 않는다. 별칭은 수동비교증거·현재선택/SHA·승인범위를 매번 재검증하며 과거raw retake로 확장하지 않는다. 편집·영상 첫 프레임은 계속 picks의 선택PNG를 사용한다.
 4. `script_ko_final.md` 본문 해시를 유지한다. 길이에 맞춰 대본을 줄이거나 늘리지 않는다.
 5. Muse 생성·유료 작업은 별도 승인 기록을 확인한다. 이번 한국어 확정·무료 TTS 진행을 유료 영상 승인으로 해석하지 않는다.
    - 원리43개는 portable04/step6의 지침대로 고체·물·주입재 경계를 고정하고 기존 표면·경로의 빛/색만 변화시키는 초안으로 보완했다. 이전 문서의 “최신 지시에 따라 물리적 동작”은 실제 사용자 원문 근거가 없어 제거했다. 도입4·실사동작3의 제한된 물리 동작은 별개다. 미선택49개 첫 프레임을 실제로 본 것으로 표기하지 않는다.
@@ -70,13 +72,42 @@
 
 `review/script_review.md`는 확정 전 내용 검토 기록, `review/translation_review.md`는 번역 의미 대조 기록이다. 사용자 한국어 승인과 자동 검사, 실제 음성 청취·이미지/영상 검수를 구분한다. 사용자가 새 힌디어 음성을 청취했다는 기록은 아직 없다.
 
-이번2026-10-28 현재 재검사와 대본/HI/78문장/79컷·WAV 고정 SHA 확인은 `review_edit/checkpoint_20261028.json`에 있다. 이전 자동 재검사 상세는 `review_edit/final_prevideo_validation_v1.json`, 실제 정지 자막5표본 검수는 `review_edit/subtitle_qa_v1.json/md`에 있다. TTS 검사기의 `--help` 미지원으로 기존 프리뷰 MP3가 한 번 재인코딩됐으나 본 WAV는 고정 SHA와 같고 TTS 합성·직접 청취는 하지 않았다. 전후 프리뷰 SHA 비교는 기존값이 없어 판단하지 않는다. 계획·편집 gate 재검사는 격리 경로에서 실행했고 프로덕션 컷·이미지 선택·업로드 문구를 바꾸지 않았다.
+2026-10-28의13선택·28리뷰 당시 체크포인트 재검사와 대본/HI/78문장/79컷·WAV 고정 SHA 확인은 `review_edit/checkpoint_20261028.json`에 있다. 이전 자동 재검사 상세는 `review_edit/final_prevideo_validation_v1.json`, 실제 정지 자막5표본 검수는 `review_edit/subtitle_qa_v1.json/md`에 있다. TTS 검사기의 `--help` 미지원으로 기존 프리뷰 MP3가 한 번 재인코딩됐으나 본 WAV는 고정 SHA와 같고 TTS 합성·직접 청취는 하지 않았다. 전후 프리뷰 SHA 비교는 기존값이 없어 판단하지 않는다. 계획·편집 gate 재검사는 격리 경로에서 실행했고 프로덕션 컷·이미지 선택·업로드 문구를 바꾸지 않았다.
 
 
-## 2026-10-28 전송 승인 후 차단 상태
+## 2026-10-28 전송 차단 해결과 근거 유형
 
-사용자가 요청 목록의 기준 PNG6장에 대해 **기준 그림 6장 업로드 승인**이라고 답했다. cb1/artbuilder883의 해당 6장 전송·저장은 승인됐으며 재승인을 요구하지 않는다. 영상 생성은 승인되지 않았다. 선택13/85·검토28·잔여72·실제 영상0은 그대로다.
+사용자 승인은 유효하며 재승인을 요구하지 않는다. 승인 뒤에도 clipboard 연결 실패·file-URL 권한 오류·당시 Windows 현재URL 확인 실패로 한때 UI가 종료됐으나, 이후 사용자가 file-URL 허용을 켰고 browser10에서 기본 chooser6장 전송·수신이 확인됐다. 현재 차단 이력이 아니라 해결 이력이다. 이전 불확실한 시도의 외부 수신 unknown은 소급해0으로 바꾸지 않는다.
 
-승인 후 AT_C clipboard 입력은 native pipe 종료로 실패했고 같은 프로필 browser9로 복구했다. 복구 화면에서 신규 기준 타일·소재 첨부를 확인하지 못했으므로 외부 수신은 미확인이다. 이어서 문서화된 filechooser를 정상 열었으나 setFiles가 현재 프로필의 ChatGPT 확장 **Allow access to file URLs**가 필요하다는 오류를 즉시 반환했다. Windows 기본 선택창 fallback은 현재 브라우저 URL을 정책 적용에 필요한 신뢰도로 확인할 수 없어 Computer Use가 이 턴에서 종료됐다. 그 뒤 UI 조작은 하지 않았다.
+수신된 서버JPEG6개는 선택PNG와 픽셀이 같지 않다. root의 원본 크기12장 직접 대조와 입력/수신 provenance에 기반한 명시적 수동 유형6개를 등록했다. 자동 픽셀 허용오차 합격이나 무손실·결정적 인코딩 입증이 아니다. 원래 source URL·선택PNG·strict 실패·재인코딩 실패는 그대로 보존한다. 실제 영상 생성은0이며 미승인이다.
 
-사용자가 artbuilder883 Chrome의 chrome://extensions → ChatGPT 확장 세부정보에서 파일 URL에 대한 액세스 허용을 켜야 기본 업로드 경로를 재개할 수 있다. 설정 변경은 자동으로 수행하지 않았다. 확인된 업로드·서버 별칭은 없으며 실제 수신0개라고 단정하지 않는다. 기존 자산을 이동·삭제하지 않았고 참조를 빼고 생성하지 않는다. 승인과 최신 차단 근거는 images/upload_approval_v1.json 및 upload_attempts_v1/AT_C_* 기록이다.
+## 최신 진행 중 원장 체크포인트
+
+{
+  "recorded_at_utc": "2026-10-28T02:52:41.319464+00:00",
+  "selected_images": 16,
+  "reviewed_attempts": 32,
+  "remaining_images": 69,
+  "selected_frames": 4,
+  "motion_compatible_frames": 4,
+  "registered_master_service_representations": 6,
+  "original_png_and_server_jpeg_pixel_identical": false,
+  "first_frame_blockers": 46,
+  "video_generation_authorized": false,
+  "actual_video_generated": 0,
+  "actual_unreviewed_outputs": [],
+  "in_flight_attempts": [
+    {
+      "id": "i001",
+      "attempt": 1,
+      "record": "images\\generation_records_v1\\i001_1.json",
+      "status": "current result unobserved; do not resubmit"
+    }
+  ],
+  "strict_43_sentence_preserved": true,
+  "o001_original_motion_contract_preserved": true,
+  "o003_draft_adjusted_before_video": "Two existing cars move normally in their actual incoming/outgoing lanes; narration unchanged.",
+  "principle_image_prompt_corrections": "p005 includes complete visible drainage route/open outlet; scene_spec separates first-image stage construction from later fixed geometry."
+}
+
+수치는 이 체크포인트가 우선한다. 진행 중 시도는 새 출력 관찰 전 중복 제출하지 않는다. 생성용 영상 ready 파일은 미작성 상태다.

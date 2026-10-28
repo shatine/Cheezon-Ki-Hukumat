@@ -2,7 +2,7 @@
   "id": "o001",
   "attempt": 2,
   "kind": "frame",
-  "status": "generated; awaiting root strict review",
+  "status": "generated; root strict review chosen",
   "recorded_at_utc": "2026-10-27T04:57:21.152Z",
   "record_basis": "Post-completion record from actual UI observations; exact submitted prompt retained independently of later generator changes.",
   "prompt_source_file": "images/prompts_v1.json",
@@ -90,5 +90,7 @@
   "local_upload_used": false,
   "extension_settings_changed": false,
   "captcha_solved": false,
-  "video_generation_submitted": false
+  "video_generation_submitted": false,
+  "root_review_decision": "chosen",
+  "root_review_ledger": "picks_v1.json"
 }

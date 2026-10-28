@@ -1,21 +1,21 @@
 # 9편 이미지 작업 지시서: 기준 그림 → 79개 컷 그림 → 원본 검수 (2026-10-28)
 
-진행 현황: **cb1/artbuilder883에서 무료 이미지 생성 재개·전체13/85 선택·28시도 검토·잔여72.** 현재 서비스 차단 상태가 아니다. i0082는 재생성, i0083·i0091·i0121·i0191은 root가 raw/clean을 원본 크기로 직접 검수하고 선택했다. i0201은 구도 중복, 높은 위쪽 시점으로 고친 i0202는 자의 숫자형 눈금 때문에 재생성 결정했다. 자·줄자·공구를 없앤 높은 사선 tabletop의 모형·완전 빈 종이·손 구도 i0203은 root가 raw/clean 1376×768 원본을 직접 확인하고 선택했다. 읽는 글자·숫자를 발견하지 못했고 i019와 구도가 다르다고 판단했다. 선택13개 자동 측정과 인접i019/i020 dHash 약0.48은 별도 보조 자료이며 실제 시각 판정을 대신하지 않는다.
+진행 현황(원장 스냅샷 2026-10-28T02:40:15.395411+00:00): **선택14/85·검토30시도·잔여71·실제 첫 프레임2/50·동작 검토2/50·영상0.** root가 cb1/artbuilder883에서 한 장씩 후속 이미지를 생성·검수 중이다. 생성완료·미선택 출력: **o003 시도3**. 진행/출력 미확인 레코드: **없음**. 생성 결과와 원본 검수·선택을 구별하고 최신 번호를 자동 선택하지 않는다.
 
-**현행 프로젝트·연결:** 2026-10-28 사용자 “https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c 열린 크롬에서 작업해. 크롬 프로필은 artbuilder883이야”를 따른다. 사용자 재연결 확인 뒤 root가 browser8/tab96308644의 동일 cb1 화면을 정상 확인했다. UI 작업자는 root 한 명이며 오프라인 보조 작업자는 브라우저를 조작하지 않는다. 프로젝트 정책은 기존baa9/22cd/현재cb1 정확히 세 ID만 허용한다. 기존 자산은 이동·삭제하지 않고, 점검 중 만든 빈103f 프로젝트는 미사용 그대로 둔다. 허용 ID는 `baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd`, `22cd5ad1-3dbb-4183-a36b-48c7bc3e5144`, `cb1e7ac3-1d61-4206-ac72-3444f121843c`이며 임의 네 번째 프로젝트는 거부한다.
+**현재 프로젝트·연결:** 사용자 지정 cb1 `cb1e7ac3-1d61-4206-ac72-3444f121843c`, Chrome 프로필 artbuilder883, root 관찰 browser10/tab96308644다. 사용자가 file-URL 접근 허용을 켠 뒤 정상 chooser.setFiles6장 반환·권리 안내 확인·정확한 filename 완료 타일6개를 root가 실제로 보았다. 현재 UI·업로드 차단은 없다. UI는 root 한 명만 조작한다. 정책의 허용ID는 `baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd`, `22cd5ad1-3dbb-4183-a36b-48c7bc3e5144`, `cb1e7ac3-1d61-4206-ac72-3444f121843c` 정확히3개이며 임의4번째는 거부한다. 기존old 자산과 미사용103f 프로젝트를 이동·삭제하지 않는다.
 
-**승인 전 전송 검토 이력:** `upload_approval_v1.json/md`에는 선택master6장 PNG 전체의 경로·SHA·크기·목적과 Google Flow 계정으로 외부 전송·저장될 범위를 제시했다. `authorized=false`, `confirmed_upload=false`, 업로드 별칭 확인false다. AT_C3 clipboard 첫 시도의 연결 실패는 외부 수신unknown, 두 번째 전체 호출은 특정 로컬 자산 전송의 승인이 명확하지 않다는 자동 승인 검토 거절이다. 그 뒤 추가 전송 시도는 없다. 구체적 사용자 승인 전에는 이 차단된 전송을 파일 첨부·클립보드·드래그 등 다른 방법으로 재시도하지 않는다. 프로젝트 작업·무료 이미지 허용·브라우저 재연결은 이 전송 승인을 대신하지 않는다. 실제 업로드0개라고 단정하지 않는다.
+**6장 수신·별칭 실등록:** 사용자의 “기준 그림 6장 업로드 승인”은 정확한 목록PNG6장의 cb1 외부 전송·저장 승인이다. `upload_approval_v1.json`은 authorized/confirmed_upload/confirmed_upload_identity_alias=true이며 실제 수신·등록6개가 있다. 검증유형은 `root_reviewed_service_representation`이며 `exact_pixel_equal=false`, `lossless=false`, `deterministic_transform_proven=false`다. 원본 PNG와 서버 JPEG가 같은 픽셀이라고 보고하지 않는다. 승인·수신·등록이 각 새 생성의 실제 UI 입력 관찰을 대신하지 않는다. 영상 생성 승인은 여전히 false다.
 
-**문제의 구분:** 과거 old Chrome 프로필의 file-URL 권한 오류와 `setFiles` 장기 대기, browser4→6에서의 `Debugger unattached`, 현재 로컬 전송 자동 승인 검토 거절은 서로 다른 이력이다. 현재 artbuilder883의 file-URL 권한이나 장애 원인을 추정하지 않고 설정을 임의 변경하지 않는다. 과거22cd의 i0071·2 생성 성공 뒤 i0081에서 발생한 비정상 활동/reCAPTCHA 오류는 보존하되 현재 cb1 서비스 차단으로 표시하지 않는다.
+**검수 근거와 모델 구분:** 원AGENTS/portable은 계획된 실제master 첨부와 형태·색·부품·화면방향의 일관성, 원본 크기 직접 검수를 요구한다. RGB완전동일은 우리가 작업 중 추가한 보수적인 strict 별칭 모델이었다. 실제 서버가 JPEG로 변환해 strict 비교와 metadata 기반 단1회 재인코딩도 실패했으며 이 실패를 유지한다. 별도 수동 유형은 exact6 입력파일SHA·실제 batch receipt·filename 타일에서 관찰한 새editor/revision·실다운로드SHA 및 root가 선택PNG6개/서버JPEG6개 총12개 원본을 직접 쌍비교한 결정JSON으로 연결한다. 자동 오차계량에 허용오차를 주어 합격시킨 것이 아니다. `upload_aliases_v1.json`, `upload_registration_validation_v1.json`, `upload_review_v1.json`, `upload_receipts_v1/`, `upload_comparisons_v1/`, `upload_proofs_v1/`, `jpeg_reencode_experiment_v1.json`을 대조한다.
 
-**재개 대기열:** `make_resume_queue_v1.py`는 현재 picks·실제 생성 기록·프롬프트 SHA·다음 시도·선행 참조와 승인 상태를 동적으로 읽는다. 선택 ID는 제외하고, 이미 출력이 있지만 결정이 없으면 재생성보다 root 결정을 먼저 기다린다. master 의존 컷의 승인 대기와 정상 ref=null/현재 cb1 서버 참조 컷을 구분한다. 현재 서비스 상태를 과거 progress 스냅샷으로 판정하지 않는다. 현재 원장 기준 선택13개를 제외한72개는 모두 사용자 승인된 master6장의 실제 업로드·동일성 확인 대기다. 최신 파일 URL 권한 오류와 UI 종료는 문서 끝의 승인 후 차단 상태를 따른다. 승인 전 무참조로 바꾸거나 다른 방법으로 전송하지 않는다. i001은 o004와 다른 높은 좌측 시점·오른쪽 아래 작은 포털 구도를 명시해 유일했던 동일 프롬프트 쌍을 해소했다.
+**과거 오류의 보존:** 22cd 서비스/reCAPTCHA 오류, old 프로필의 setFiles 장기 대기, browser4/6 Debugger 연결 오류, 승인 전 자동 전송 검토 거절, 승인 후 clipboard pipe 종료와 file-URL 권한 오류·당시 Windows URL 확인 불가 UI 종료는 각각 역사다. 최초 연결 실패의 외부 수신 여부는 unknown이며, 이후 확인된 batch6장과 섞어 총 업로드 횟수를 단정하지 않는다. 현재 해결된 차단을 되살리거나 재승인을 요구하지 않는다.
 
-**서버 참조와 새 업로드의 구분:** 과거 baa9에서는 선택 시도와 정확히 같은 기존 Flow 원본 revision을 실제 입력으로 사용했다. AT_S2의 raw/clean 차이는 우하단 처리 영역0.272%(x1244–1313/y636–705)였으며 이것은 당시 파일 대응 측정이다. 이 이력을 새 계정 cb1의 자산 가용성 증거로 옮기지 않는다. 현재 cb1에서는 선택i0083→i009, 선택i0191→i020처럼 실제 존재하는 정확한 서버 revision을 제출 전에 확인한 경우만 사용한다. 새 로컬 업로드는 별도 승인이 필요하고, 이후에도 입력 선택SHA·크기·서버 다운로드 RGB완전동일 확인 없이 새 revision을 기존 원천의 별칭으로 삼지 않는다. 기존 old source URL과 선택 PNG는 그대로 보존한다.
+**재개 대기열과 참조:** `make_resume_queue_v1.py`는 현재 picks/생성 기록/승인/실별칭을 읽고 실제 `validate_registered_alias`를 통과한 master 옵션을 표시한다. 직접ref와 선택된 선행 그림을 구별하며 선택ID는 제외한다. 이미 생성된 미선택 결과는 먼저 root 결정을 기다린다. 등록된 참조에도 매번 root가 정확한 upload_alias_id 및 현재 입력media revision·순서를 관찰해야 한다. 편집기URL은 계속 수정되는 컨테이너라 URL만 같다는 이유로 최신 결과를master로 쓰지 않는다. 최초 master의 old source URL과 선택PNG는 보존하고, 편집·영상 첫 프레임은 계속 그 실제 선택PNG를 사용한다. 필요한 참조를 다른ID/임의그림/무참조로 바꾸지 않는다.
 
 목적: 승인된 78문장과 실측 79컷에 필요한 **기준 그림 6장 + 영상 첫 프레임 50장 + 정지 이미지 29장 = 85장**을 만들고 모든 그림을 원본 크기로 검수한다. 이번 작업자는 생성·저장·간단 확인과 엄격 검수를 같은 PC에서 맡는다.
 
 - 비용: Flow 이미지 무료, UI에서 **Nano Banana 2.1 / 16:9 / x1 / 0 credits** 확인 완료. 상시 허락에 따라 무료 생성·재생성은 계속 진행한다.
-- 현재 프로젝트: [사용자 지정 cb1 Flow 프로젝트](https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c), 프로필 별칭 artbuilder883. 기존master 원천은 old 계정의 [baa9 프로젝트](https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd)에 보존돼 있다. cb1의 해당 원천 가용성·첨부는 미확인이다.
+- 현재 프로젝트: [사용자 지정 cb1 Flow 프로젝트](https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c), 프로필 별칭 artbuilder883. 기존master 원천은 old 계정의 [baa9 프로젝트](https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd)에 보존돼 있다. cb1에는 승인된 선택PNG에서 수신한 JPEG 표현6개가 명시 수동 검수 유형으로 등록됐다. 다음 생성에서 실제 첨부했는지는 제출마다 새로 확인한다.
 - 한 장 제출 → 완료 확인 → 간단 확인·저장 → 다음 한 장 순서다. 동시에 여러 장을 제출하지 않는다.
 - 영상 첫 프레임도 **이미지**로만 만든다. Muse 영상 생성 승인은 이 지시서에 없다.
 - 생성 그림은 관찰 요약·승인 대본에 근거한 재구성/설명용 모형이다. 실제 기록 사진·실측 시공 도면으로 소개하지 않는다. 외부 사진 원본을 다운로드하거나 첨부하지 않았다.
@@ -80,7 +80,7 @@ python "D:\youtube\7. Cheezon Ki Hukumat\tools\lama\dewm.py" "D:\youtube\7. Chee
 Test-Path -LiteralPath "D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\img\v1_AT_S_1.png"
 ```
 
-4. 원본 크기로 형상·밝기·글자·워터마크 흔적을 보고 기준으로 채택할지 결정한다. 채택된 제거본만 `img_selected`로 복사한다. 아래 명령은 원본·처리본과 원래 Flow 출처의 대응을 기록한다. `source_correspondence_verified`는 현재 계정의 가용성이나 UI 첨부 확인이 아니다. 실제 현재 UI에서 **채택한 동일 시도의 정확한 원본 revision**을 확인할 수 있을 때만 선택한다. G3D_DEEP의 G3D_EXC 원천도 같으며, old 계정 원천을 선택할 수 없으면 승인 없는 로컬 전송이나 무참조로 대체하지 않는다. 파일명·제목이 비슷한 다른 시도는 그림과 결과 URL로 구별한다.
+4. 원본 크기로 형상·밝기·글자·워터마크 흔적을 보고 기준으로 채택할지 결정한다. 채택된 제거본만 `img_selected`로 복사한다. 아래 명령은 원본·처리본과 원래 Flow 출처의 대응을 기록한다. `source_correspondence_verified`는 현재 계정의 가용성이나 UI 첨부 확인이 아니다. 실제 현재 UI에서 **채택한 동일 시도의 원천 revision 또는 명시적으로 등록·재검증한 수동 서버 표현 별칭 revision**을 확인할 수 있을 때만 선택한다. G3D_DEEP의 G3D_EXC 원천도 같으며, old 계정 원천을 선택할 수 없으면 승인 없는 로컬 전송이나 무참조로 대체하지 않는다. 파일명·제목이 비슷한 다른 시도는 그림과 결과 URL로 구별한다.
 
 ```powershell
 python 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\images\make_reference_manifest.py'
@@ -95,7 +95,7 @@ python 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\images\make_refe
 
 `prompts_v1.json`에서 master 이후의 행을 계획 순서대로 처리한다. `o001` 등 50개 frame은 후속 영상의 첫 프레임이고, `i001` 등 29개 image는 편집 효과를 넣을 정지 그림이다.
 
-- `ref`에 적힌 **채택된 동일 후보의 원본 Flow 자산**을 첨부한다. `reference_assets_v1.json`의 선택 번호/결과 URL과 대조한다. `null`이면 그 장면은 반복 고유 대상을 강제하지 않는 독립 설명 장면이다. 실사에는 3D 기준을 첨부하지 않는다.
+- `ref`에 적힌 **채택된 동일 후보의 실제 서버 원천 또는 검증된 수동 표현 별칭**을 첨부한다. 원래 선택 번호·old URL은 `reference_assets_v1.json`, 새 수동 표현의 alias ID·revision·근거는 `upload_aliases_v1.json`으로 구분하고 실제 제출 전 입력을 대조한다. `null`이면 그 장면은 반복 고유 대상을 강제하지 않는 독립 설명 장면이다. 실사에는 3D 기준을 첨부하지 않는다.
 - `ref`는 마스터 6장 외에 앞서 채택한 컷 그림을 가리킬 수 있다. 예를 들어 설경 두 번째 컷은 첫 설경 컷, 자료 검토 두 번째 컷은 첫 자료 검토 컷을 첨부해 같은 도로·소품을 유지한다. 선행 그림이 아직 선택되지 않았다면 의존 컷을 먼저 만들지 않는다.
 - 한 행의 `visual_source_ids`가 그림에 실제로 보일 문장이다. `source_ids`는 해당 컷과 겹치는 발화 전체라 더 길 수 있다. 서로 다른 장소를 한 그림에 합치거나 모핑하지 않는다.
 - `initial_state`가 있으면 아직 동작이 끝나지 않은 첫 상태를 만든다. 임시 바닥 연결과 후속 깊은 최종 인버트는 다른 단계다.
@@ -146,10 +146,34 @@ git -C "D:\youtube\Cheezon-Ki-Hukumat" log -1 --oneline origin/main
 승인 대본·수치·순서 변경, 다른 첫 프레임, 참조 거부 후 텍스트만으로 생성, 연속 동시 제출, 실존 인물 재현, 생성 글자·번호판·로고, 유료 생성, Muse 영상 생성, 미검수 합격 표기, `.claude\skills` 직접 수정.
 
 
-## 2026-10-28 전송 승인 후 차단 상태
 
-사용자가 요청 목록의 기준 PNG6장에 대해 **기준 그림 6장 업로드 승인**이라고 답했다. cb1/artbuilder883의 해당 6장 전송·저장은 승인됐으며 재승인을 요구하지 않는다. 영상 생성은 승인되지 않았다. 선택13/85·검토28·잔여72·실제 영상0은 그대로다.
+## 최신 진행 중 원장 체크포인트
 
-승인 후 AT_C clipboard 입력은 native pipe 종료로 실패했고 같은 프로필 browser9로 복구했다. 복구 화면에서 신규 기준 타일·소재 첨부를 확인하지 못했으므로 외부 수신은 미확인이다. 이어서 문서화된 filechooser를 정상 열었으나 setFiles가 현재 프로필의 ChatGPT 확장 **Allow access to file URLs**가 필요하다는 오류를 즉시 반환했다. Windows 기본 선택창 fallback은 현재 브라우저 URL을 정책 적용에 필요한 신뢰도로 확인할 수 없어 Computer Use가 이 턴에서 종료됐다. 그 뒤 UI 조작은 하지 않았다.
+{
+  "recorded_at_utc": "2026-10-28T02:52:41.319464+00:00",
+  "selected_images": 16,
+  "reviewed_attempts": 32,
+  "remaining_images": 69,
+  "selected_frames": 4,
+  "motion_compatible_frames": 4,
+  "registered_master_service_representations": 6,
+  "original_png_and_server_jpeg_pixel_identical": false,
+  "first_frame_blockers": 46,
+  "video_generation_authorized": false,
+  "actual_video_generated": 0,
+  "actual_unreviewed_outputs": [],
+  "in_flight_attempts": [
+    {
+      "id": "i001",
+      "attempt": 1,
+      "record": "images\\generation_records_v1\\i001_1.json",
+      "status": "current result unobserved; do not resubmit"
+    }
+  ],
+  "strict_43_sentence_preserved": true,
+  "o001_original_motion_contract_preserved": true,
+  "o003_draft_adjusted_before_video": "Two existing cars move normally in their actual incoming/outgoing lanes; narration unchanged.",
+  "principle_image_prompt_corrections": "p005 includes complete visible drainage route/open outlet; scene_spec separates first-image stage construction from later fixed geometry."
+}
 
-사용자가 artbuilder883 Chrome의 chrome://extensions → ChatGPT 확장 세부정보에서 파일 URL에 대한 액세스 허용을 켜야 기본 업로드 경로를 재개할 수 있다. 설정 변경은 자동으로 수행하지 않았다. 확인된 업로드·서버 별칭은 없으며 실제 수신0개라고 단정하지 않는다. 기존 자산을 이동·삭제하지 않았고 참조를 빼고 생성하지 않는다. 승인과 최신 차단 근거는 images/upload_approval_v1.json 및 upload_attempts_v1/AT_C_* 기록이다.
+수치는 이 체크포인트가 우선한다. 진행 중 시도는 새 출력 관찰 전 중복 제출하지 않는다. 생성용 영상 ready 파일은 미작성 상태다.

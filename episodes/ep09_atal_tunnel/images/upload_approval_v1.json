@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "specific_six_master_transfer_authorized_blocked_file_url_permission_and_ui_stop",
+  "status": "authorized_six_uploads_received_and_root_reviewed_service_representations_registered",
   "prepared_at": "2026-10-28T09:49:47+09:00",
   "timezone": "Asia/Seoul",
   "authorized": true,
-  "confirmed_upload": false,
-  "confirmed_upload_identity_alias": false,
+  "confirmed_upload": true,
+  "confirmed_upload_identity_alias": true,
   "destination": {
     "service": "Google Flow",
     "project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
@@ -82,7 +82,10 @@
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
       "authorized": true,
-      "confirmed_upload": false
+      "confirmed_upload": true,
+      "registered_upload_alias_id": "cb1_AT_S_2",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+      "uploaded_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf"
     },
     {
       "id": "AT_N",
@@ -109,7 +112,10 @@
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
       "authorized": true,
-      "confirmed_upload": false
+      "confirmed_upload": true,
+      "registered_upload_alias_id": "cb1_AT_N_3",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7d334c99-fe59-44db-aa94-a966f458c9c4",
+      "uploaded_media_url": "https://flow-content.google/image/dc46f85b-5b48-442c-8278-313be5d42abf"
     },
     {
       "id": "AT_C",
@@ -136,7 +142,10 @@
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
       "authorized": true,
-      "confirmed_upload": false
+      "confirmed_upload": true,
+      "registered_upload_alias_id": "cb1_AT_C_3",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+      "uploaded_media_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374"
     },
     {
       "id": "AT_INT",
@@ -163,7 +172,10 @@
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
       "authorized": true,
-      "confirmed_upload": false
+      "confirmed_upload": true,
+      "registered_upload_alias_id": "cb1_AT_INT_1",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/df700293-99e2-4a76-8303-d4b75bd8d17c",
+      "uploaded_media_url": "https://flow-content.google/image/e314b607-f9e6-4d51-8cbf-30a406207ea2"
     },
     {
       "id": "G3D_EXC",
@@ -190,7 +202,10 @@
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
       "authorized": true,
-      "confirmed_upload": false
+      "confirmed_upload": true,
+      "registered_upload_alias_id": "cb1_G3D_EXC_4",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+      "uploaded_media_url": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03"
     },
     {
       "id": "G3D_DEEP",
@@ -217,7 +232,10 @@
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
       "authorized": true,
-      "confirmed_upload": false
+      "confirmed_upload": true,
+      "registered_upload_alias_id": "cb1_G3D_DEEP_3",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+      "uploaded_media_url": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c"
     }
   ],
   "measurements": {
@@ -263,14 +281,17 @@
     }
   },
   "latest_transport_status": {
-    "recorded_at_utc": "2026-10-28T02:14:57.072223+00:00",
-    "clipboard_attempt": "upload_attempts_v1/AT_C_clipboard_3.json",
-    "chooser_attempt": "upload_attempts_v1/AT_C_chooser_1.json",
-    "confirmed_receipt": false,
-    "external_receipt": "unverified, not asserted zero",
-    "filechooser_error": "Current artbuilder883 ChatGPT Chrome extension requires Allow access to file URLs.",
-    "native_fallback": "Computer Use stopped for this turn because current Windows browser URL could not be determined with enough confidence to enforce policy.",
-    "no_further_ui_actions_after_stop": true,
+    "recorded_at_utc": "2026-10-28T02:33:17.398429+00:00",
+    "user_reported_file_url_enabled": "파일 URL에 대한 액세스 켰다",
+    "filechooser_succeeded": true,
+    "confirmed_received_file_count": 6,
+    "batch_receipt": "upload_receipts_v1/cb1_six_masters_20261028_1.json",
+    "manual_original_size_comparisons": 6,
+    "registered_service_representations": 6,
+    "prior_unknown_deliveries_remain_unknown": true,
     "video_generation": false
-  }
+  },
+  "upload_alias_verification_kind": "root_reviewed_service_representation",
+  "original_and_server_pixel_identical": false,
+  "confirmed_upload_identity_alias_note": "Typed source mapping based on exact approved input SHA, actual six-file upload receipt and explicit root original-size comparisons. JPEG server files are not pixel-identical PNGs."
 }

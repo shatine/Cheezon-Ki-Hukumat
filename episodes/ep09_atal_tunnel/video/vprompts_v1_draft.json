@@ -13,15 +13,15 @@
   "opening_sources": 4,
   "action_sources": 3,
   "camera_move_count": 0,
-  "ready_first_frames": 1,
-  "selected_first_frames": 1,
-  "all_image_assets_actual_chosen": 13,
+  "ready_first_frames": 4,
+  "selected_first_frames": 4,
+  "all_image_assets_actual_chosen": 16,
   "all_image_assets_expected": 85,
   "input_hash_canonicalization": "UTF-8 without BOM; LF line endings",
   "inputs": {
     "plan/shot_list_v1.json": "ebd9f06746118f686e6d26ca065c33f9c4ed17b0af01276a324cd2b8d8b9bfd5",
     "plan/scene_catalog_v1.json": "42a4979f2ba07e8d715c6875cd7b7fd4b499b970662f47611b1b0b18ee6269d3",
-    "images/prompts_v1.json": "bb8b459a3e9d5b4be166ec8276d1b4e736596738ae28b644bda9db3aadb6529b"
+    "images/prompts_v1.json": "e7eef11da1638a330ca8fb7866eeb3e0d8cc00b2a7d9636e197cfc7acfb30b30"
   },
   "physical_motion_policy": "principles p001-p043: every solid and all water/grout geometry, levels and quantities fixed; only light/colour on existing surfaces and glow of existing arrows may change; opening/action o001-o004/a001-a003: unchanged bounded physical actions; all cameras fixed; no new arrows or stage morphing",
   "clips": [
@@ -78,11 +78,14 @@
     },
     {
       "id": "o002",
-      "image": null,
-      "image_sha256": null,
-      "image_dimensions": null,
+      "image": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o002_2.png",
+      "image_sha256": "cb67c35a8a4c32f38d85c46286c3ac97ef000d29bf8fe32e42009797ac5ee646",
+      "image_dimensions": [
+        1376,
+        768
+      ],
       "first_frame_selection_source": "images/picks_v1.json",
-      "pick_attempt": null,
+      "pick_attempt": 2,
       "source_ids": [
         "S01b",
         "S01c",
@@ -98,7 +101,7 @@
       "script": "시공사는 아탈 터널의 세리 날라 구간에서 분당 최대 8천 리터의 물이 밀려들었다고 기록했습니다. / 물만 나온 게 아닙니다. / 흙과 부서진 돌까지 함께 쏟아졌습니다.",
       "screen_ko": "굴착면 아래로 젖은 흙과 작은 부서진 돌이 물에 섞여 내려온다.",
       "initial_state": null,
-      "source_image_prompt": "Photorealistic cinematic still, bright even neutral-white ELECTRIC tunnel lighting, clear high-key exposure with well-lit light-grey surfaces, vivid natural colours, sharp focus, 16:9. Entirely underground beneath a continuous solid rock-and-shotcrete ceiling. No sky, daylight, sunlight, windows, skylights, open roof gaps or glowing holes through the rock. No sepia filter. No text, no letters, no logos, no watermark. Indian adults only, people distant and small, faces not close-up. Using the reference image: the SAME construction reconstruction as the reference: one upper-heading excavation in weak fractured grey-brown ground, grey steel support ribs and rough shotcrete behind the working face, a compact unbranded yellow tracked machine with completely plain blank body panels, no decals or insignia, and small Indian adult workers seen from behind or the side. Visible neutral-white electric work lamps are mounted beneath the closed shotcrete roof and evenly illuminate the working face. The roof between every support rib is solid opaque grey rock or shotcrete, including directly above the heading. No skylight, surface opening or daylight gap. No identifiable real worker or archival-photograph claim. A close low oblique view of the SIDE of the working face, not a centred view down the tunnel. The face and the receiving pile fill most of the image; keep only a narrow edge of the supported working strip visible at one side. A visible stream of muddy water is already emerging from a fractured pocket halfway up this rough face. Small brown soil clumps and tiny grey rock fragments are visibly mixed within this water directly above a distinct existing wet muddy receiving pile at its base. Show the uninterrupted short downward path from that pocket to that same pile, with the particles already present along this path. This is modest loose material carried by water, not a large rock fall. The protected side strip stays clear and outside the flow. Keep any machine far outside the dominant face-and-pile view; no foreground excavator, no loose hoses or disconnected pipe pieces, no new drainage machinery. The new low side viewpoint must differ clearly from both a frontal master and a wide supported-corridor view. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+      "source_image_prompt": "Photorealistic cinematic still, bright even neutral-white ELECTRIC tunnel lighting, clear high-key exposure with well-lit light-grey surfaces, vivid natural colours, sharp focus, 16:9. Entirely underground beneath a continuous solid rock-and-shotcrete ceiling. No sky, daylight, sunlight, windows, skylights, open roof gaps or glowing holes through the rock. No sepia filter. No text, no letters, no logos, no watermark. Indian adults only, people distant and small, faces not close-up. Using the reference image: the SAME construction reconstruction as the reference: one upper-heading excavation in weak fractured grey-brown ground, grey steel support ribs and rough shotcrete behind the working face, a compact unbranded yellow tracked machine with completely plain blank body panels, no decals or insignia, and small Indian adult workers seen from behind or the side. Visible neutral-white electric work lamps are mounted beneath the closed shotcrete roof and evenly illuminate the working face. The roof between every support rib is solid opaque grey rock or shotcrete, including directly above the heading. No skylight, surface opening or daylight gap. No identifiable real worker or archival-photograph claim. A close low oblique view of the SIDE of the working face, not a centred view down the tunnel. The face and the receiving pile fill most of the image; keep only a narrow edge of the supported working strip visible at one side. A visible stream of muddy water is already emerging from a fractured pocket halfway up this rough face. Small brown soil clumps and tiny grey rock fragments are visibly mixed within this water directly above a distinct existing wet muddy receiving pile at its base. Show the uninterrupted short downward path from that pocket to that same pile, with the particles already present along this path. This is modest loose material carried by water, not a large rock fall. The protected side strip stays clear and outside the flow. Keep any machine far outside the dominant face-and-pile view; no foreground excavator, no loose hoses or disconnected pipe pieces, no new drainage machinery. The new low side viewpoint must differ clearly from both a frontal master and a wide supported-corridor view. A LOW CLOSE three-quarter SIDE view: the rough wet face and its existing muddy receiving pile dominate the frame. The short continuous downward path of muddy water and small existing particles is clearly visible between the face pocket and pile. Only a narrow dry protected working strip and part of one support rib remain at the right edge. Exclude the full-corridor symmetrical composition and foreground machinery. Keep the solid closed roof visible along the upper edge. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
       "source_reference_group": "AT_C",
       "epistemic_boundary": "historical reconstruction",
       "action": "The water already at the face carries a few existing small loose stones and soil grains a short distance downward onto the same muddy pile. The pile changes only slightly and the protected side space stays open. No slab failure or falling large boulder.",
@@ -106,7 +109,7 @@
       "speed": "camera speed none; all physical motion at natural real-time speed, 1.0x, bounded and not exaggerated",
       "framing": "Exactly the composition and projection of the selected first-frame image; preserve scale, orientation, boundaries and subject size.",
       "end": "A few grains have settled on the existing pile; the same modest flow continues.",
-      "motion_contract_sha256": "1bbe4af268c9951cc59d07bbf278fd886bf7136a11f88c02cb21f7dfd8d5fc87",
+      "motion_contract_sha256": "653318c6ab7b818d6d145898d39dcb8f2d1bed5ee97a2436e029a687c3885568",
       "required_existing_features": [
         "water and small loose fragments at face",
         "existing muddy receiving pile",
@@ -122,16 +125,19 @@
       "actual_video_generated": false,
       "actual_usable_range": null,
       "save": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\o002.mp4",
-      "frame_readiness": "missing_pick",
-      "first_frame_readiness_reason": "No actual chosen first frame exists for this source ID"
+      "frame_readiness": "confirmed",
+      "first_frame_readiness_reason": "Actual selected frame and its physical-action compatibility confirmed"
     },
     {
       "id": "o003",
-      "image": null,
-      "image_sha256": null,
-      "image_dimensions": null,
+      "image": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o003_3.png",
+      "image_sha256": "b30d20ab594d97fbc978d596be6e7ed540a29359c84cd09e7ee3f181651d1597",
+      "image_dimensions": [
+        1376,
+        768
+      ],
       "first_frame_selection_source": "images/picks_v1.json",
-      "pick_attempt": null,
+      "pick_attempt": 3,
       "source_ids": [
         "S02a"
       ],
@@ -145,22 +151,22 @@
       "script": "지금 차들이 달리는 이 길은 인도 히마찰프라데시의 아탈 터널입니다.",
       "screen_ko": "확인한 남측 실제 포털 형상을 유지하며 작은 차량이 터널에 진입한다.",
       "initial_state": null,
-      "source_image_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME south-portal reconstruction as the reference: a rectangular dark road opening beneath a brown sloping awning, yellow-orange vertical facade cladding, a forested Himalayan valley and a grey reinforced slope beside the portal. The road is one single two-way carriageway, exactly two lanes total, one lane each direction, exactly one central lane-separating line; no second dashed lane divider, no widening or road fork; the lane arrangement is clearly visible all the way to the dark rectangular mouth. No traditional ceremonial gate merged with the actual tunnel mouth; no green gabled north-portal facade. The completed south portal and its approach road, with two small unbranded passenger cars seen from behind entering the rectangular opening. The forested valley surrounds the identifiable facade. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+      "source_image_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME south-portal reconstruction as the reference: a rectangular dark road opening beneath a brown sloping awning, yellow-orange vertical facade cladding, a forested Himalayan valley and a grey reinforced slope beside the portal. The road is one single two-way carriageway, exactly two lanes total, one lane each direction, exactly one central lane-separating line; no second dashed lane divider, no widening or road fork; the lane arrangement is clearly visible all the way to the dark rectangular mouth. No traditional ceremonial gate merged with the actual tunnel mouth; no green gabled north-portal facade. The completed south portal and continuous two-lane approach road. Exactly TWO tiny plain unbranded passenger cars show natural left-hand TWO-WAY traffic: one rear-view car in the incoming left-hand lane points toward the rectangular mouth; the second car is farther away in the outgoing right-hand lane and faces away from the portal. Each car stays in its own lane. No reversing, side-by-side traffic in one lane, no visible brand badge, emblem, lettering or readable number plate. Each car is less than three percent of image width; the portal and mountain valley dominate. Use a clearly ELEVATED LEFT ROADSIDE OBLIQUE viewpoint from across the approach, looking diagonally along the road toward the portal. Place the small portal in the UPPER RIGHT area and let the road enter from the LOWER LEFT. The forested valley opens on the left and the reinforced rock slope stays beside the portal on the right. Show the full same orange facade and sloping brown awning, with a visibly different camera position and scale from the centred reference view. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
       "source_reference_group": "AT_S",
       "epistemic_boundary": "observation-derived exterior reconstruction",
-      "action": "Only the two small cars already visible advance normally along their existing lane into the same rectangular south-portal opening. Preserve exactly two lanes total and one central lane-separating line; no physical median or barrier, new cars, lane changes or road widening.",
-      "movement": "Camera completely still, no zoom, no pan, no dolly, no rotation. Only the two small cars already visible advance normally along their existing lane into the same rectangular south-portal opening. Preserve exactly two lanes total and one central lane-separating line; no physical median or barrier, new cars, lane changes or road widening.",
+      "action": "Only the two small cars already visible advance normally in their own existing lanes: the rear-view car in the incoming left-hand lane moves toward the same rectangular south-portal opening, while the farther car in the outgoing right-hand lane continues away from that opening. Neither car reverses or changes lane. Preserve exactly two lanes total and one central lane-separating line; no physical median or barrier, new cars, lane changes or road widening.",
+      "movement": "Camera completely still, no zoom, no pan, no dolly, no rotation. Only the two small cars already visible advance normally in their own existing lanes: the rear-view car in the incoming left-hand lane moves toward the same rectangular south-portal opening, while the farther car in the outgoing right-hand lane continues away from that opening. Neither car reverses or changes lane. Preserve exactly two lanes total and one central lane-separating line; no physical median or barrier, new cars, lane changes or road widening.",
       "speed": "camera speed none; all physical motion at natural real-time speed, 1.0x, bounded and not exaggerated",
       "framing": "Exactly the composition and projection of the selected first-frame image; preserve scale, orientation, boundaries and subject size.",
-      "end": "The visible cars continue into the same bore or are naturally occluded by its mouth; no vehicle reappears.",
-      "motion_contract_sha256": "8ff025e46ba29e5b52637674aa565a79b24be58172ac2fe7a54a179959ad7333",
+      "end": "The incoming car continues toward the same bore or is naturally occluded by its mouth; the outgoing car continues along its lane away from the bore. No vehicle reappears or respawns.",
+      "motion_contract_sha256": "ecc889be3c63915519ba940f5569673e409137acfce487aca98584cb4bb89dc3",
       "required_existing_features": [
         "selected south portal geometry",
         "two existing small cars",
         "single two-way two-lane carriageway"
       ],
       "critical_preflight": null,
-      "prompt": "Only the two small cars already visible advance normally along their existing lane into the same rectangular south-portal opening. Preserve exactly two lanes total and one central lane-separating line; no physical median or barrier, new cars, lane changes or road widening. [locked-off static shot]. Movement: Camera completely still, no zoom, no pan, no dolly, no rotation. Only the two small cars already visible advance normally along their existing lane into the same rectangular south-portal opening. Preserve exactly two lanes total and one central lane-separating line; no physical median or barrier, new cars, lane changes or road widening. Speed: camera speed none; all physical motion at natural real-time speed, 1.0x, bounded and not exaggerated. Framing: Exactly the composition and projection of the selected first-frame image; preserve scale, orientation, boundaries and subject size. End: The visible cars continue into the same bore or are naturally occluded by its mouth; no vehicle reappears. The camera remains in the same composition, with no reset or fade. Use exactly the selected first-frame image. Preserve its camera, single-bore identity, construction stage, material colours, object count and relative layout. No new objects, tools, supports, emitters, arrows, text, labels, logos or watermarks. Only the bounded physical motion described below is allowed. No shape morphing, teleportation, instant excavation, dissolving rock, self-growing supports or material creation. Fluid may enter or leave only through an inlet, hose or outlet already visible in the first frame. Tools and components must remain visibly supported or guided; never levitate. Never turn an upper-heading stage into a completed road tunnel or mix temporary and final inverts. No reverse playback, repeated action cycle, time lapse, slow motion or frozen-frame extension. The lighting stays the same bright light for the whole shot, no darkening, no fade. Photorealistic historical or place reconstruction, not documentary footage. Keep the exact same portal or interior finish as the selected image. Only existing Indian adults, no new people, no children; faces stay small. For an underground scene keep the existing neutral-white work-light exposure; no sunlight through rock. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
+      "prompt": "Only the two small cars already visible advance normally in their own existing lanes: the rear-view car in the incoming left-hand lane moves toward the same rectangular south-portal opening, while the farther car in the outgoing right-hand lane continues away from that opening. Neither car reverses or changes lane. Preserve exactly two lanes total and one central lane-separating line; no physical median or barrier, new cars, lane changes or road widening. [locked-off static shot]. Movement: Camera completely still, no zoom, no pan, no dolly, no rotation. Only the two small cars already visible advance normally in their own existing lanes: the rear-view car in the incoming left-hand lane moves toward the same rectangular south-portal opening, while the farther car in the outgoing right-hand lane continues away from that opening. Neither car reverses or changes lane. Preserve exactly two lanes total and one central lane-separating line; no physical median or barrier, new cars, lane changes or road widening. Speed: camera speed none; all physical motion at natural real-time speed, 1.0x, bounded and not exaggerated. Framing: Exactly the composition and projection of the selected first-frame image; preserve scale, orientation, boundaries and subject size. End: The incoming car continues toward the same bore or is naturally occluded by its mouth; the outgoing car continues along its lane away from the bore. No vehicle reappears or respawns. The camera remains in the same composition, with no reset or fade. Use exactly the selected first-frame image. Preserve its camera, single-bore identity, construction stage, material colours, object count and relative layout. No new objects, tools, supports, emitters, arrows, text, labels, logos or watermarks. Only the bounded physical motion described below is allowed. No shape morphing, teleportation, instant excavation, dissolving rock, self-growing supports or material creation. Fluid may enter or leave only through an inlet, hose or outlet already visible in the first frame. Tools and components must remain visibly supported or guided; never levitate. Never turn an upper-heading stage into a completed road tunnel or mix temporary and final inverts. No reverse playback, repeated action cycle, time lapse, slow motion or frozen-frame extension. The lighting stays the same bright light for the whole shot, no darkening, no fade. Photorealistic historical or place reconstruction, not documentary footage. Keep the exact same portal or interior finish as the selected image. Only existing Indian adults, no new people, no children; faces stay small. For an underground scene keep the existing neutral-white work-light exposure; no sunlight through rock. Ambient sound only. No dialogue, no speech, no music, no text, no logos, no watermark.",
       "production_requirement_sec": 10.0,
       "current_muse_setting_verified": false,
       "planned_out_f0": 589,
@@ -169,16 +175,19 @@
       "actual_video_generated": false,
       "actual_usable_range": null,
       "save": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\o003.mp4",
-      "frame_readiness": "missing_pick",
-      "first_frame_readiness_reason": "No actual chosen first frame exists for this source ID"
+      "frame_readiness": "confirmed",
+      "first_frame_readiness_reason": "Actual selected frame and its physical-action compatibility confirmed"
     },
     {
       "id": "o004",
-      "image": null,
-      "image_sha256": null,
-      "image_dimensions": null,
+      "image": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o004_1.png",
+      "image_sha256": "e4a0555c7932adeed18c7601249da56470ce38df03933f886e43584c1e53cc82",
+      "image_dimensions": [
+        1376,
+        768
+      ],
       "first_frame_selection_source": "images/picks_v1.json",
-      "pick_attempt": null,
+      "pick_attempt": 1,
       "source_ids": [
         "S02a",
         "S02b"
@@ -216,8 +225,8 @@
       "actual_video_generated": false,
       "actual_usable_range": null,
       "save": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\clips_v1\\o004.mp4",
-      "frame_readiness": "missing_pick",
-      "first_frame_readiness_reason": "No actual chosen first frame exists for this source ID"
+      "frame_readiness": "confirmed",
+      "first_frame_readiness_reason": "Actual selected frame and its physical-action compatibility confirmed"
     },
     {
       "id": "p001",
@@ -390,7 +399,7 @@
       "script": "파 놓은 공간으로 흙과 돌이 계속 밀려들면, 장비가 들어갈 자리부터 지키기 어렵습니다. / 물을 처리하는 동안, 무너지는 지반도 함께 받쳐야 했습니다.",
       "screen_ko": "장비가 들어가야 할 굴착 공간 앞에 흙과 작은 돌이 쌓이는 모형. 배수되는 물과 천장·벽을 받치는 지보를 같은 절개 모형에 보여 준다.",
       "initial_state": null,
-      "source_image_prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. For this engineering model only: rock = grey-brown, steel ribs and shotcrete = neutral grey, straight advance pipes = teal, injected grout = purple, water itself = blue, water-pressure PUSH arrows = orange. These are explanatory colours, not a claim about the site materials. Using the reference image: the SAME simplified tunnel excavation model as the reference: a single tunnel void in a grey-brown rock block, already excavated space on screen left and unexcavated ground on screen right, advancing from left to right. A cut-away side reveals the upper heading. Long straight teal pipes lie parallel to the advance axis above the crown and extend ahead into the ground; in a transverse section their circular ends form an arch. Separate neutral-grey steel support ribs run transversely across the excavated section. Do not bend the advance pipes into arches. Do not turn the tunnel into twin vehicle bores. The foreground longitudinal half of the rock is removed as an explanatory cut so the tunnel length is visible SIDE-ON, not as a view looking down a dark entrance. A visible vertical rough working face at the middle ends the left-hand excavated upper void; the entire right-hand part ahead of that face is still solid ground. The same solid lower bench continues beneath both halves. Loose soil and rock intrude at the face and reduce the clear space around a small yellow machine in the upper heading. Show only a modest schematic intrusion, no crushed people or invented accident geometry. In one coherent model, a side drainage pipe carries blue water away while grey ribs and shotcrete hold the crown and walls. Keep the clear workspace visible between these separate systems. Stable three-quarter model view, whole relevant mechanism readable. Locked-off static first frame, no camera movement; show the coherent initial physical state for the later mechanism animation.  No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+      "source_image_prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. For this engineering model only: rock = grey-brown, steel ribs and shotcrete = neutral grey, straight advance pipes = teal, injected grout = purple, water itself = blue, water-pressure PUSH arrows = orange. These are explanatory colours, not a claim about the site materials. Using the reference image: the SAME simplified tunnel excavation model as the reference: a single tunnel void in a grey-brown rock block, already excavated space on screen left and unexcavated ground on screen right, advancing from left to right. A cut-away side reveals the upper heading. Long straight teal pipes lie parallel to the advance axis above the crown and extend ahead into the ground; in a transverse section their circular ends form an arch. Separate neutral-grey steel support ribs run transversely across the excavated section. Do not bend the advance pipes into arches. Do not turn the tunnel into twin vehicle bores. The foreground longitudinal half of the rock is removed as an explanatory cut so the tunnel length is visible SIDE-ON, not as a view looking down a dark entrance. A visible vertical rough working face at the middle ends the left-hand excavated upper void; the entire right-hand part ahead of that face is still solid ground. The same solid lower bench continues beneath both halves. Loose soil and rock intrude at the face and reduce the clear space around a small yellow machine in the upper heading. Show only a modest schematic intrusion, no crushed people or invented accident geometry. In one coherent model, a continuous side drainage pipe connects the visible blue-water collection point at the heading to a clearly visible OPEN outlet at the LEFT model edge. The entire connected route and outlet stay in view, separate from the dry working floor and from the grey ribs and shotcrete holding the crown and walls. Blue water is already present inside this pipe; no dead end or invented leak onto the workspace. Keep the clear workspace visible between these separate systems. Stable three-quarter model view, whole relevant mechanism readable. Locked-off static first frame, no camera movement; show the coherent initial physical state for the later mechanism animation.  No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
       "source_reference_group": "G3D_EXC",
       "epistemic_boundary": "general principle; support and water handling together",
       "action": "First trace the already visible drainage route with a shallow blue intensity change. Then softly highlight the actual grey ribs and shotcrete around the protected workspace. Keep any face fragments and all drainage material fixed, showing the two existing systems by illumination alone.",
@@ -398,7 +407,7 @@
       "speed": "camera speed none; only slow restrained changes of light and colour intensity on fixed first-frame geometry; no physical motion",
       "framing": "Exactly the composition and projection of the selected first-frame image; preserve scale, orientation, boundaries and subject size.",
       "end": "The same supported workspace and drainage geometry remain, without settling particles or additional support.",
-      "motion_contract_sha256": "66ed2ee324957c8f568edbd2e2fc9202902174d5b679eca4b08a2abf76cef399",
+      "motion_contract_sha256": "7f7be3a42ee456535789d1d07081a414b6f242bf7324f43bf087ca9020db4976",
       "required_existing_features": [
         "existing drainage route",
         "installed ribs and shotcrete",
@@ -437,7 +446,7 @@
       "script": "물을 처리하는 동안, 무너지는 지반도 함께 받쳐야 했습니다.",
       "screen_ko": "배수되는 물과 천장·벽을 받치는 지보를 같은 절개 모형에 보여 준다.",
       "initial_state": null,
-      "source_image_prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. For this engineering model only: rock = grey-brown, steel ribs and shotcrete = neutral grey, straight advance pipes = teal, injected grout = purple, water itself = blue, water-pressure PUSH arrows = orange. These are explanatory colours, not a claim about the site materials. Using the reference image: the SAME simplified tunnel excavation model as the reference: a single tunnel void in a grey-brown rock block, already excavated space on screen left and unexcavated ground on screen right, advancing from left to right. A cut-away side reveals the upper heading. Long straight teal pipes lie parallel to the advance axis above the crown and extend ahead into the ground; in a transverse section their circular ends form an arch. Separate neutral-grey steel support ribs run transversely across the excavated section. Do not bend the advance pipes into arches. Do not turn the tunnel into twin vehicle bores. The foreground longitudinal half of the rock is removed as an explanatory cut so the tunnel length is visible SIDE-ON, not as a view looking down a dark entrance. A visible vertical rough working face at the middle ends the left-hand excavated upper void; the entire right-hand part ahead of that face is still solid ground. The same solid lower bench continues beneath both halves. In one coherent model, a side drainage pipe carries blue water away while grey ribs and shotcrete hold the crown and walls. Keep the clear workspace visible between these separate systems. Stable three-quarter model view, whole relevant mechanism readable. Locked-off static first frame, no camera movement; show the coherent initial physical state for the later mechanism animation.  No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+      "source_image_prompt": "Clean bright 3D educational diorama render, soft studio light, white-grey background, saturated clear colours, 16:9, no text, no labels, no letters. Colour code: heat = red-orange glow arrows, cold = icy blue, clean water = bright blue, waste water = brown-grey, electricity = thick cable with glowing yellow core, moisture = small white droplets. Force code: push = orange arrows, pull = blue arrows, heat = red glow, wind = white flow lines. For this engineering model only: rock = grey-brown, steel ribs and shotcrete = neutral grey, straight advance pipes = teal, injected grout = purple, water itself = blue, water-pressure PUSH arrows = orange. These are explanatory colours, not a claim about the site materials. Using the reference image: the SAME simplified tunnel excavation model as the reference: a single tunnel void in a grey-brown rock block, already excavated space on screen left and unexcavated ground on screen right, advancing from left to right. A cut-away side reveals the upper heading. Long straight teal pipes lie parallel to the advance axis above the crown and extend ahead into the ground; in a transverse section their circular ends form an arch. Separate neutral-grey steel support ribs run transversely across the excavated section. Do not bend the advance pipes into arches. Do not turn the tunnel into twin vehicle bores. The foreground longitudinal half of the rock is removed as an explanatory cut so the tunnel length is visible SIDE-ON, not as a view looking down a dark entrance. A visible vertical rough working face at the middle ends the left-hand excavated upper void; the entire right-hand part ahead of that face is still solid ground. The same solid lower bench continues beneath both halves. In one coherent model, a continuous side drainage pipe connects the visible blue-water collection point at the heading to a clearly visible OPEN outlet at the LEFT model edge. The entire connected route and outlet stay in view, separate from the dry working floor and from the grey ribs and shotcrete holding the crown and walls. Blue water is already present inside this pipe; no dead end or invented leak onto the workspace. Keep the clear workspace visible between these separate systems. Stable three-quarter model view, whole relevant mechanism readable. Locked-off static first frame, no camera movement; show the coherent initial physical state for the later mechanism animation.  No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
       "source_reference_group": "G3D_EXC",
       "epistemic_boundary": "support and water handling together",
       "action": "Pass a soft blue highlight along the existing separate side-drain material toward its already visible outlet. A restrained neutral-grey sheen then follows the existing crown and wall supports bordering the dry workspace. Do not alter liquid boundaries or the opening.",
@@ -445,7 +454,7 @@
       "speed": "camera speed none; only slow restrained changes of light and colour intensity on fixed first-frame geometry; no physical motion",
       "framing": "Exactly the composition and projection of the selected first-frame image; preserve scale, orientation, boundaries and subject size.",
       "end": "The drain, supports and clear workspace retain their exact first-frame shapes and positions.",
-      "motion_contract_sha256": "08d0945d9032152188f1b5893c55767ef49624462cd14b2d7b2c5f20b929d299",
+      "motion_contract_sha256": "b55799725afbaf079cc3f8d02ffbcb7d35b1179aca0c3ef6c5b0f31677883979",
       "required_existing_features": [
         "existing side-drain path and visible outlet",
         "existing crown and wall supports",

@@ -1,0 +1,19 @@
+{
+  "recorded_at_utc": "2026-10-28T02:33:17.398429+00:00",
+  "registered": 6,
+  "proof_kind": "root_reviewed_service_representation",
+  "original_png_and_server_jpeg_pixel_identical": false,
+  "lossless_or_deterministic_encoder_proven": false,
+  "actual_image_attachment_for_future_jobs_automatically_approved": false,
+  "picks_sha_unchanged": true,
+  "alias_ids": [
+    "cb1_AT_C_3",
+    "cb1_AT_INT_1",
+    "cb1_AT_N_3",
+    "cb1_AT_S_2",
+    "cb1_G3D_DEEP_3",
+    "cb1_G3D_EXC_4"
+  ],
+  "strict_AT_C_pixel_comparison_failed_and_preserved": true,
+  "metadata_fixed_reencode_experiment_failed_and_preserved": true
+}

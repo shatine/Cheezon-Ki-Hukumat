@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "AT_N",
+  "selected_attempt": 3,
+  "selected_file": "v1_AT_N_3.png",
+  "selected_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+  "selected_png_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_N_3.png",
+  "server_download_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\dc46f85b-5b48-442c-8278-313be5d42abf.jpg",
+  "server_sha256": "8a10d8ad456b8dbde56681fd4d6209fb7494ba92feda27bc6d9a98e8de58c26f",
+  "dimensions": [
+    1376,
+    768
+  ],
+  "observed_by": "root",
+  "observed_at_utc": "2026-10-28T02:27:46.284209+00:00",
+  "root_opened_selected_png_original": true,
+  "root_opened_server_jpeg_original": true,
+  "same_shape": true,
+  "same_composition": true,
+  "same_content": true,
+  "notes": "Root opened both original-size files in one comparison call. Same large green gable, smaller red-brown front gable left of the road opening, yellow panels, retaining walls and snowy mountain contours; no changed portal geometry or composition found.",
+  "pass": true
+}

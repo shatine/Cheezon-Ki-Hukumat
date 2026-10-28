@@ -2,7 +2,7 @@
   "id": "G3D_EXC",
   "attempt": 3,
   "kind": "master_retake",
-  "status": "generated; awaiting root strict review",
+  "status": "generated; root strict review remake",
   "record_basis": "Post-completion record of actual observations in this session; no retrospective pre-submit timestamp invented.",
   "recorded_at_utc": "2026-10-27T03:54:49.410577+00:00",
   "observation_time": {
@@ -79,5 +79,7 @@
   },
   "strict_review_and_selection": "root manages picks; acceptance not asserted",
   "further_generation_submitted": false,
-  "next_step_note": "Stop after this candidate; root will handle episode-project separation before further scenes."
+  "next_step_note": "Stop after this candidate; root will handle episode-project separation before further scenes.",
+  "root_review_decision": "remake",
+  "root_review_ledger": "picks_v1.json"
 }

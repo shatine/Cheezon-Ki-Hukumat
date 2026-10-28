@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "G3D_EXC",
+  "selected_attempt": 4,
+  "selected_file": "v1_G3D_EXC_4.png",
+  "selected_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+  "selected_png_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_4.png",
+  "server_download_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\705dea5d-50fb-41b7-ab4e-fe87cf60ff03.jpg",
+  "server_sha256": "6807a16f239570d5acc04eb4deae3a9e1a03af9b9f4055b09b33d7afbee2a930",
+  "dimensions": [
+    1376,
+    768
+  ],
+  "observed_by": "root",
+  "observed_at_utc": "2026-10-28T02:27:46.467541+00:00",
+  "root_opened_selected_png_original": true,
+  "root_opened_server_jpeg_original": true,
+  "same_shape": true,
+  "same_composition": true,
+  "same_content": true,
+  "notes": "Root opened both original-size files together. Same left upper-heading void, retained lower bench, middle face and solid ground right, straight axial teal advance pipes and separate transverse grey ribs; matching part count, orientation and positions.",
+  "pass": true
+}

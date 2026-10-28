@@ -1,0 +1,61 @@
+{
+  "target_project": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "target_profile_alias": "artbuilder883",
+  "method": "documented_filechooser_setFiles",
+  "authorization_file": "upload_approval_v1.json",
+  "user_reported_file_url_enabled": "파일 URL에 대한 액세스 켰다",
+  "started_at_utc": "2026-10-28T02:20:57.708Z",
+  "assets": [
+    {
+      "id": "AT_S",
+      "selected_attempt": 2,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_2.png",
+      "input_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+      "bytes": 2332640
+    },
+    {
+      "id": "AT_N",
+      "selected_attempt": 3,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_N_3.png",
+      "input_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+      "bytes": 2189150
+    },
+    {
+      "id": "AT_C",
+      "selected_attempt": 3,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_C_3.png",
+      "input_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+      "bytes": 2315939
+    },
+    {
+      "id": "AT_INT",
+      "selected_attempt": 1,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_INT_1.png",
+      "input_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+      "bytes": 1046695
+    },
+    {
+      "id": "G3D_EXC",
+      "selected_attempt": 4,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_4.png",
+      "input_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+      "bytes": 1193944
+    },
+    {
+      "id": "G3D_DEEP",
+      "selected_attempt": 3,
+      "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_DEEP_3.png",
+      "input_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+      "bytes": 1004106
+    }
+  ],
+  "status": "all six exact filenames displayed as completed upload image tiles; individual identity checks pending",
+  "generation_submitted": false,
+  "setFiles_returned_at_utc": "2026-10-28T02:20:57.760Z",
+  "rights_notice_acknowledged_at_utc": "2026-10-28T02:21:11.949Z",
+  "rights_notice_basis": "Routine upload-rights reminder for the exact six chosen generated images whose upload the user explicitly approved; no new account or contract terms presented.",
+  "receipt_observed_at_utc": "2026-10-28T02:21:50.766Z",
+  "root_observed_completed_upload_tiles": true,
+  "receipt_evidence": "Fresh DOM snapshot showed all six approved filenames as image-bearing groups with no progress indicators.",
+  "screenshot": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\masters_uploaded_20261028.png"
+}

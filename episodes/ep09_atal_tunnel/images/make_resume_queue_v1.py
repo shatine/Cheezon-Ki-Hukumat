@@ -6,11 +6,13 @@ selection or approval calls. Pending outputs must receive a root decision first.
 """
 from collections import Counter
 import hashlib
+import importlib.util
 import json
 from pathlib import Path
 import re
 
 HERE = Path(__file__).resolve().parent
+MEDIA = Path(r'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel')
 
 
 def read_json(path):
@@ -44,9 +46,36 @@ def main():
     authorized = approval.get('authorized') is True and matches
     confirmed = approval.get('confirmed_upload') is True and matches
     alias_confirmed = approval.get('confirmed_upload_identity_alias') is True and matches
+    # A confirmation flag alone is insufficient. Recheck registered proofs and
+    # retain their explicit verification kinds without promoting JPEG pixels.
+    verified_aliases, invalid_aliases = {}, []
+    alias_path = HERE / 'upload_aliases_v1.json'
+    if authorized and confirmed and alias_confirmed and alias_path.exists():
+        spec = importlib.util.spec_from_file_location('_resume_upload_alias', HERE / 'upload_alias_v1.py')
+        helper = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(helper)
+        registry = helper.read_json(alias_path)
+        if registry.get('schema_version') != 1 or not isinstance(registry.get('aliases'), dict):
+            raise ValueError('Invalid registered upload reference ledger')
+        for alias_id, record in registry['aliases'].items():
+            sid = record.get('validation', {}).get('id')
+            if manifest.get(sid, {}).get('kind') != 'master':
+                continue
+            try:
+                origin = helper.approved_context(HERE.parent, MEDIA, sid)[2]
+                value = helper.validate_registered_alias(alias_id, sid, current_id, origin, HERE.parent, MEDIA)
+                verified_aliases.setdefault(sid, []).append(value)
+            except (ValueError, OSError, KeyError, TypeError) as exc:
+                invalid_aliases.append(dict(id=sid, upload_alias_id=alias_id, reason=str(exc)))
+    master_set = {row['id'] for row in rows if row['kind'] == 'master'}
+    all_master_references_verified = bool(master_set) and set(verified_aliases) == master_set
+    verification_kinds = sorted({value.get('proof_kind', 'strict_pixel_identity')
+                                for options in verified_aliases.values() for value in options})
+    manual_batch_verified = all_master_references_verified and verification_kinds == ['root_reviewed_service_representation']
+    confirmed_batch_count = len(master_set) if manual_batch_verified and confirmed else None
     progress_path = HERE / 'generation_progress.json'
     progress = read_json(progress_path) if progress_path.exists() else {}
-    attempts, decisions, failures, successes, pending = {}, {}, [], [], {}
+    attempts, decisions, failures, successes, pending, in_flight = {}, {}, [], [], {}, {}
     for review in ledger['review_log']:
         item = review['input']
         attempts[item['id']] = max(attempts.get(item['id'], 0), item['attempt'])
@@ -57,10 +86,15 @@ def main():
             continue
         sid, attempt = item['id'], item['attempt']
         attempts[sid] = max(attempts.get(sid, 0), attempt)
-        result = item.get('result', {})
+        result = item.get('result') or {}
+        if not isinstance(result, dict):
+            raise ValueError(f'Invalid generation result object: {path.name}')
         media = result.get('result_media_source_url')
         pid = item.get('flow_project_id') or project_id(result.get('container_editor_url'))
         record = path.relative_to(HERE).as_posix()
+        if item.get('result') is None and not str(item.get('status', '')).startswith('failed') and (sid, attempt) not in decisions:
+            in_flight.setdefault(sid, []).append(dict(attempt=attempt, record=record, reported_status=item.get('status'),
+                instruction='Inspect this current submission result; do not submit another attempt for this ID.'))
         if str(item.get('status', '')).startswith('failed'):
             failures.append(dict(id=sid, attempt=attempt, record=record,
                 reported_status=item['status'], project_id=pid,
@@ -91,21 +125,28 @@ def main():
         required = refs(row)
         missing = [ref for ref in required if ref not in picks]
         master_ids = sorted(masters(sid))
-        external_masters = [ref for ref in master_ids if ref in picks and project_id(picks[ref].get('flow_url')) != current_id]
+        external_masters = [ref for ref in required if manifest[ref]['kind'] == 'master'
+                            and ref in picks and project_id(picks[ref].get('flow_url')) != current_id]
         external_other = [ref for ref in required if ref in picks and manifest[ref]['kind'] != 'master'
                           and project_id(picks[ref].get('flow_url')) != current_id]
         gates = []
+        if sid in in_flight:
+            gates.append('await_current_generation_result_do_not_resubmit')
         if sid in pending:
             gates.append('await_existing_output_root_decision_do_not_resubmit')
         if missing:
             gates.append('await_prior_root_pick')
         if external_masters:
-            gates.append('await_explicit_six_master_upload_approval' if not authorized else
-                         'await_verified_master_upload_identity_and_live_UI_reference' if not (confirmed and alias_confirmed) else
-                         'verify_exact_master_alias_and_live_UI_reference_before_submit')
+            if not authorized:
+                gates.append('await_explicit_six_master_upload_approval')
+            elif not (confirmed and alias_confirmed):
+                gates.append('await_verified_master_upload_identity_and_live_UI_reference')
+            elif any(ref not in verified_aliases for ref in external_masters):
+                gates.append('await_validated_registered_master_reference')
         if external_other:
             gates.append('cross_project_nonmaster_reference_needs_observed_availability_or_separate_transfer_approval')
-        state = gates[0] if gates else ('selected_server_references_need_live_exact_revision_check'
+        state = gates[0] if gates else ('registered_service_references_need_live_exact_revision_check' if external_masters else
+                                       'selected_server_references_need_live_exact_revision_check'
                                        if required else 'no_reference_required_live_UI_check')
         queue.append(dict(id=sid, kind=row['kind'], ref=row.get('ref'),
             next_attempt=attempts.get(sid, 0) + 1,
@@ -113,9 +154,13 @@ def main():
             missing_selected_references=missing, master_dependencies=master_ids,
             cross_project_selected_masters=external_masters,
             cross_project_selected_nonmasters=external_other,
+            registered_master_reference_options={ref: verified_aliases.get(ref, []) for ref in external_masters},
+            required_live_checks=['Root must explicitly choose the exact registered upload_alias_id and observe its exact server revision as the current input before this submission.'] if external_masters else [],
             existing_unreviewed_outputs=pending.get(sid, []),
+            in_flight_attempts=in_flight.get(sid, []),
             blocking_conditions=gates, reference_state=state))
-    report = dict(status='preparation_only_master_upload_approval_pending' if not authorized else 'preparation_only_live_reference_checks_required',
+    report = dict(status='preparation_only_registered_master_references_ready_for_live_UI_checks' if all_master_references_verified else
+                        'preparation_only_master_upload_approval_pending' if not authorized else 'preparation_only_live_reference_checks_required',
         scope='Offline queue only; no claim of current live service availability or visual approval',
         actual_submission_performed=False, actual_video_generation_authorized=False,
         expected_images=len(rows), selected_images=len(picks), remaining_images=len(queue),
@@ -127,14 +172,22 @@ def main():
         recorded_current_project_outputs=successes,
         selected_current_project_output_count=sum(x['currently_selected'] for x in successes),
         historical_failed_attempts=failures,
+        current_in_flight_generations=in_flight,
         historical_progress_snapshot=dict(file='generation_progress.json', recorded_at=progress.get('recorded_at'),
             project=progress.get('project'), latest_failure_record=progress.get('latest_failure_record'),
             used_as_current_service_or_operator_state=False),
-        blocker='Specific transfer of the six selected local master PNGs to the current Google Flow account awaits explicit user approval. Unaffected server-reference/ref-null work remains separately eligible for live UI checks.' if not authorized else 'Approval alone does not verify upload identity or actual per-submission input.',
+        blocker=None if all_master_references_verified else
+                'Specific six-master transfer approval is absent.' if not authorized else
+                'Missing or invalid registered master references; inspect individual queue conditions.',
+        registered_master_reference_options=verified_aliases, invalid_registered_aliases=invalid_aliases,
+        per_job_UI_input_observation_still_required=True,
         local_master_upload=dict(approval_file='upload_approval_v1.json', authorized=authorized,
             confirmed_upload=confirmed, confirmed_upload_identity_alias=alias_confirmed,
             approval_matches_current_project=matches,
-            actual_upload_count='unknown; an earlier connection failure does not prove zero transfers',
+            confirmed_current_batch_upload_count=confirmed_batch_count,
+            previous_attempt_external_delivery='unknown; subsequent confirmed batch receipt does not resolve the earlier connection failure',
+            registered_reference_kinds=verification_kinds,
+            original_png_and_server_jpeg_pixel_identical=False if manual_batch_verified else None,
             automatic_review_rejection=approval.get('automatic_review_rejection'),
             prior_attempt_uncertainty=approval.get('prior_attempt_uncertainty')),
         resume_gate='Honor pending root decisions and specific local-transfer approval. Inspect live UI and exact input revisions before each one-image submission. No upload/video approval is granted by this script.',

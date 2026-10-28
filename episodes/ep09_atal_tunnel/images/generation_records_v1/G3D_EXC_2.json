@@ -2,7 +2,7 @@
   "id": "G3D_EXC",
   "attempt": 2,
   "kind": "master",
-  "status": "generated; awaiting root strict review",
+  "status": "generated; root strict review remake",
   "record_basis": "Post-completion record of actual observations during this session; JSON was not present before submission.",
   "recorded_at_utc": "2026-10-27T03:49:40.822524+00:00",
   "prompt_definition": "images/masters_v1.json G3D_EXC current revised longitudinal side-cut row",
@@ -63,5 +63,7 @@
     "observations": "Bright side-cut 3D block, grey support ribs over lower bench at left, rough solid working face near the middle, solid ground at right and blue cracks. No purple grout patches seen at this quick scale. Teal pipes appear as only a few crown-level longitudinal members; arch-shaped transverse arrangement and exact support relationships require root strict review."
   },
   "strict_review_and_selection": "root manages picks; this record does not assert acceptance",
-  "further_generation_submitted": false
+  "further_generation_submitted": false,
+  "root_review_decision": "remake",
+  "root_review_ledger": "picks_v1.json"
 }

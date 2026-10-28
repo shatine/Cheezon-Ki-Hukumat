@@ -51,3 +51,11 @@ root 보고에 따르면 `v1_AT_C_3.png`의 두 번째 browserClipboard 붙여�
 승인 후 AT_C clipboard 입력은 native pipe 종료로 실패했고 같은 프로필 browser9로 복구했다. 복구 화면에서 신규 기준 타일·소재 첨부를 확인하지 못했으므로 외부 수신은 미확인이다. 이어서 문서화된 filechooser를 정상 열었으나 setFiles가 현재 프로필의 ChatGPT 확장 **Allow access to file URLs**가 필요하다는 오류를 즉시 반환했다. Windows 기본 선택창 fallback은 현재 브라우저 URL을 정책 적용에 필요한 신뢰도로 확인할 수 없어 Computer Use가 이 턴에서 종료됐다. 그 뒤 UI 조작은 하지 않았다.
 
 사용자가 artbuilder883 Chrome의 chrome://extensions → ChatGPT 확장 세부정보에서 파일 URL에 대한 액세스 허용을 켜야 기본 업로드 경로를 재개할 수 있다. 설정 변경은 자동으로 수행하지 않았다. 확인된 업로드·서버 별칭은 없으며 실제 수신0개라고 단정하지 않는다. 기존 자산을 이동·삭제하지 않았고 참조를 빼고 생성하지 않는다. 승인과 최신 차단 근거는 images/upload_approval_v1.json 및 upload_attempts_v1/AT_C_* 기록이다.
+
+## 파일 URL 활성화 후 실제 업로드 완료
+
+사용자가 파일 URL 액세스를 켰다고 알린 뒤, 동일 artbuilder883 프로필 browser10의 지정 cb1 프로젝트에서 기본 파일 선택창으로 승인된6장 PNG 전체를 업로드했다. 정확한6개 파일명 완료 타일과 각각의 새 editor/revision을 직접 확인하고 서버 원본을 내려받았다. 현재6장 수신 확인 및 수동 원본 대조형 참조 등록을 완료했다. 추가 전송 승인은 필요하지 않다.
+
+서버에서 내려받은6장은 JPEG이며 선택 PNG와 픽셀 단위로 동일하지 않다. 기존 엄격 RGB동일 검사와 metadata기반1회 재인코딩 실험은 실패로 보존했다. root는6쌍12개 파일을1376x768 원본 크기로 직접 열어 같은형상·구도·내용을 대조했고, 실제입력SHA/업로드수신기록/새revision/다운로드SHA/명시수동검토를 연결한 root_reviewed_service_representation 유형으로6개를등록했다. 이 유형은 자동 유사도 합격·무손실·결정적 인코더 증명이 아니다. 원본 PNG·oldsource URLs는 그대로다. 후속 장면마다 실제 입력 revision은 별도 확인한다.
+
+근거: upload_receipts_v1/cb1_six_masters_20261028_1.json, upload_comparisons_v1/, upload_aliases_v1.json, upload_registration_validation_v1.json. 실제 영상 생성0·영상 생성 승인false 유지.

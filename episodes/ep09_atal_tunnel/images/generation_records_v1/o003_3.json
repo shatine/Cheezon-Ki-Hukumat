@@ -1,0 +1,84 @@
+{
+  "id": "o003",
+  "attempt": 3,
+  "kind": "frame",
+  "status": "generated; root strict review chosen",
+  "flow_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "browser_profile_alias": "artbuilder883",
+  "recorded_at_utc": "2026-10-28T02:39:22.086Z",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME south-portal reconstruction as the reference: a rectangular dark road opening beneath a brown sloping awning, yellow-orange vertical facade cladding, a forested Himalayan valley and a grey reinforced slope beside the portal. The road is one single two-way carriageway, exactly two lanes total, one lane each direction, exactly one central lane-separating line; no second dashed lane divider, no widening or road fork; the lane arrangement is clearly visible all the way to the dark rectangular mouth. No traditional ceremonial gate merged with the actual tunnel mouth; no green gabled north-portal facade. The completed south portal and continuous two-lane approach road. Exactly TWO tiny plain unbranded passenger cars are seen only from the REAR, spaced well apart ONE BEHIND THE OTHER in the SAME INCOMING LEFT-HAND LANE, both pointing toward the rectangular mouth. The outgoing right-hand lane is completely empty. No oncoming car, no front grille or headlights facing the camera, no side-by-side cars, no visible brand badge, emblem, lettering or readable number plate. Each car is less than three percent of image width; the portal and mountain valley dominate. Use a clearly ELEVATED LEFT ROADSIDE OBLIQUE viewpoint from across the approach, looking diagonally along the road toward the portal. Place the small portal in the UPPER RIGHT area and let the road enter from the LOWER LEFT. The forested valley opens on the left and the reinforced rock slope stays beside the portal on the right. Show the full same orange facade and sloping brown awning, with a visibly different camera position and scale from the centred reference view. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "c09f063c3071908aefc0f92b951552f003de9060e8939c1e695958ba12b5d8ee",
+  "submitted_text_verified_before_submit": true,
+  "submit_initiated_at_utc": "2026-10-28T02:39:22.086Z",
+  "source_ids": [
+    "S02a"
+  ],
+  "visual_source_ids": [
+    "S02a"
+  ],
+  "input": {
+    "ref": "AT_S",
+    "selected_attempt": 2,
+    "source_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+    "actual_reference_media_source_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\0f037505-6b4d-45b4-9ddc-43cf019eeccf.jpg",
+    "original_sha256": "e9005e69fc238c41fb78f8dd26ce0c563aeceace185887bc9d3a325d545c1c4c",
+    "source_selected_png": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_2.png",
+    "source_selected_png_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+    "upload_alias_id": "cb1_AT_S_2",
+    "reference_proof_kind": "root_reviewed_service_representation",
+    "reference_binding_registered_before_submission": true,
+    "evidence": [
+      "Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt.",
+      "Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality.",
+      "Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted."
+    ],
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "root",
+    "observed_at_utc": "2026-10-28T02:39:22.086Z",
+    "local_upload_used": true
+  },
+  "settings": {
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "cost_credits": 0,
+    "aspect_and_cost_directly_observed_before_submit": true,
+    "observed_at_utc": "2026-10-28T02:39:21.042Z",
+    "output_count_selector_visible": false,
+    "output_count_note": "Main x1 setting retained; no count selector is shown in editor."
+  },
+  "result": {
+    "observed_at_utc": "2026-10-28T02:41:01.384Z",
+    "container_editor_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+    "container_editor_asset_id": "f54bbc92-c26d-4828-8a15-7951b7726130",
+    "result_media_source_url": "https://flow-content.google/image/06464a65-b67c-49d8-863d-892f97790b43",
+    "result_media_id": "06464a65-b67c-49d8-863d-892f97790b43",
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\06464a65-b67c-49d8-863d-892f97790b43.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_o003_3.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "301d335dd514b3bc8fee1e25f65ddf8612122ab910ac7f90fa51723077b1f633",
+      "bytes": 354805
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o003_3.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "b30d20ab594d97fbc978d596be6e7ed540a29359c84cd09e7ee3f181651d1597",
+      "bytes": 2363364
+    },
+    "screenshot": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\artbuilder883_o003_3_20261028.png"
+  },
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": true,
+  "video_generation_submitted": false,
+  "submit_acknowledged_at_utc": "2026-10-28T02:39:22.936Z",
+  "root_review_decision": "chosen",
+  "root_review_ledger": "picks_v1.json"
+}

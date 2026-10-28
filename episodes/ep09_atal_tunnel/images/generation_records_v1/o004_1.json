@@ -1,0 +1,93 @@
+{
+  "id": "o004",
+  "attempt": 1,
+  "kind": "frame",
+  "status": "generated; root strict review chosen",
+  "flow_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "browser_profile_alias": "artbuilder883",
+  "recorded_at_utc": "2026-10-28T02:44:13.278Z",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME south-portal reconstruction as the reference: a rectangular dark road opening beneath a brown sloping awning, yellow-orange vertical facade cladding, a forested Himalayan valley and a grey reinforced slope beside the portal. The road is one single two-way carriageway, exactly two lanes total, one lane each direction, exactly one central lane-separating line; no second dashed lane divider, no widening or road fork; the lane arrangement is clearly visible all the way to the dark rectangular mouth. No traditional ceremonial gate merged with the actual tunnel mouth; no green gabled north-portal facade. A distant high view of the real-shaped south portal very small within tall Himalayan ridges, the approach road leading into the mountain. Snowy high peaks behind and forest lower down; no cut-through mountain or route line. A few clearly identifiable pine branches enter one lower foreground corner, large enough to remain individually visible in this distant mountain composition. Keep them clear of the south portal, approach road and mountain outline. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "061b1efdc328eb7d7cc652d8049862a2461359e9b1ef5955b3372d9a9882cb68",
+  "submitted_text_verified_before_submit": true,
+  "submit_initiated_at_utc": "2026-10-28T02:44:13.278Z",
+  "source_ids": [
+    "S02a",
+    "S02b"
+  ],
+  "visual_source_ids": [
+    "S02b"
+  ],
+  "input": {
+    "ref": "AT_S",
+    "selected_attempt": 2,
+    "source_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+    "actual_reference_media_source_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\0f037505-6b4d-45b4-9ddc-43cf019eeccf.jpg",
+    "original_sha256": "e9005e69fc238c41fb78f8dd26ce0c563aeceace185887bc9d3a325d545c1c4c",
+    "source_selected_png": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_2.png",
+    "source_selected_png_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+    "upload_alias_id": "cb1_AT_S_2",
+    "reference_proof_kind": "root_reviewed_service_representation",
+    "reference_binding_registered_before_submission": true,
+    "evidence": [
+      "Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt.",
+      "Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality.",
+      "Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted."
+    ],
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "root",
+    "observed_at_utc": "2026-10-28T02:44:13.278Z",
+    "local_upload_used": true
+  },
+  "settings": {
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "cost_credits": 0,
+    "aspect_and_cost_directly_observed_before_submit": true,
+    "observed_at_utc": "2026-10-28T02:44:12.229Z",
+    "output_count_selector_visible": false,
+    "output_count_note": "Main x1 setting retained; no count selector is shown in editor."
+  },
+  "result": {
+    "observed_at_utc": "2026-10-28T02:47:34.872Z",
+    "container_editor_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+    "container_editor_asset_id": "f54bbc92-c26d-4828-8a15-7951b7726130",
+    "result_media_source_url": "https://flow-content.google/image/4e462b7d-4152-44cc-a2ce-09788c675414",
+    "result_media_id": "4e462b7d-4152-44cc-a2ce-09788c675414",
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\4e462b7d-4152-44cc-a2ce-09788c675414.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_o004_1.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "f99be3e749a80992c9e73c9c68372c63b425d4f84499366689c6ba13e9ba7234",
+      "bytes": 345112
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o004_1.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "e4a0555c7932adeed18c7601249da56470ce38df03933f886e43584c1e53cc82",
+      "bytes": 2263521
+    },
+    "screenshot": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\artbuilder883_o004_1_20261028.png"
+  },
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": true,
+  "video_generation_submitted": false,
+  "submit_acknowledged_at_utc": "2026-10-28T02:44:14.136Z",
+  "post_result_service_notice": {
+    "observed_by": "root",
+    "observed_at_utc": "2026-10-28T02:47:34.983Z",
+    "text": "reCAPTCHA 서비스에 연결할 수 없습니다. 인터넷 연결을 확인한 후 페이지를 새로고침하여 reCAPTCHA 보안문자를 다시 로드하세요.",
+    "actual_new_output_revision_observed": true,
+    "notice_is_not_a_claim_that_the_completed_output_failed": true,
+    "captcha_solved": false
+  },
+  "root_review_decision": "chosen",
+  "root_review_ledger": "picks_v1.json"
+}

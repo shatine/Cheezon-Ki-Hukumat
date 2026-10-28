@@ -2,7 +2,7 @@
   "id": "G3D_EXC",
   "attempt": 4,
   "kind": "master_retake",
-  "status": "generated; awaiting root strict review",
+  "status": "generated; root strict review chosen",
   "recorded_at_utc": "2026-10-27T04:21:26.431730+00:00",
   "record_basis": "Post-completion record of actual source/settings observations and UI clock stamps captured in this session.",
   "exact_submitted_prompt": "Clean bright precise CAD-like 3D educational engineering diorama, soft studio light, white-grey background, 16:9. Using the supplied source image as actual input, preserve its camera, longitudinal cut rock block, lower solid bench, grey transverse ribs, open excavation on LEFT, rough solid working face in MIDDLE, and solid unexcavated rock on RIGHT. Preserve the broad arch-shaped arrangement of the circular teal pipe mouths at the LEFT end. Fix only the representation of the teal pipe bodies: each is a smooth rigid straight circular cylinder, with parallel left-to-right axes. No bends, waves, sagging, merged tubes or irregular diameters. Show the clean short straight lengths above the grey supported open excavation. As they cross the working face, they enter the solid right-hand ground and become OCCLUDED by opaque rock. The ground hides the forward pipe lengths and their buried tips; remove every long exposed teal line currently drawn across the outer right rock wall. Do not draw pipes along the outside surface of the right block, and do not trace its cracks with teal material. The support continues ahead INSIDE solid ground, not on its exterior. The visible pipe mouths still form an arch across both upper shoulders, and their visible short bodies stay straight. Keep a clear supported working space and the grey rib feet on the lower bench. No change of excavation stage, no open passage behind the solid face, no grout, no purple material, no temporary invert, no road. No arrows, people, labels, text, letters, numbers, logos or watermarks. No readable text.",
@@ -79,5 +79,7 @@
   },
   "strict_review_and_selection": "root manages picks; this generation record is not a selection decision",
   "further_generation_submitted": false,
-  "retry_limit_note": "If root still finds the same wavy/external pipe defect, attempts2/3/4 would make three occurrences and no further automatic retake is to be submitted."
+  "retry_limit_note": "If root still finds the same wavy/external pipe defect, attempts2/3/4 would make three occurrences and no further automatic retake is to be submitted.",
+  "root_review_decision": "chosen",
+  "root_review_ledger": "picks_v1.json"
 }

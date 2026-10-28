@@ -2,7 +2,7 @@
   "id": "i007",
   "attempt": 1,
   "kind": "image",
-  "status": "generated; awaiting root strict review",
+  "status": "generated; root strict review remake",
   "record_basis": "Actual user-opened new project, one normal reload, explicit retry request. Current captcha message absent before submit; authentication completion not inferred.",
   "project_url": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
   "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A winding Rohtang mountain-pass road climbing through steep Himalayan terrain, a few unbranded cars small and seen from behind or the side. No readable road signs, flags, shrines or identifiable landmarks invented. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible.  No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
@@ -69,5 +69,7 @@
   "local_upload_used": false,
   "project_asset_migration_performed": false,
   "video_generation_submitted": false,
-  "strict_review_and_selection": "root pending; no visual acceptance from successful generation alone"
+  "strict_review_and_selection": "root pending; no visual acceptance from successful generation alone",
+  "root_review_decision": "remake",
+  "root_review_ledger": "picks_v1.json"
 }

@@ -1,6 +1,6 @@
 {
-  "recorded_at": "2026-10-28T02:14:57.072223+00:00",
-  "current_operator": "UI stopped for this turn: Windows browser URL could not be determined for policy enforcement",
+  "recorded_at": "2026-10-28T02:52:41.319464+00:00",
+  "current_operator": "root only; browser10 active; one image at a time; offline workers do not control UI",
   "project": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c",
   "browser_profile_alias": "artbuilder883",
   "allowed_source_project_ids": [
@@ -20,15 +20,17 @@
   ],
   "latest_user_project_request": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c 열린 크롬에서 작업해. 크롬 프로필은 artbuilder883이야",
   "browser_connection": {
-    "user_confirmed_reconnection": true,
-    "last_root_observed_browser": "browser8",
+    "last_root_observed_browser": "browser10",
     "last_root_observed_tab": 96308644,
+    "browser_profile_alias": "artbuilder883",
     "root_reported_current_cb1_main_normal": true,
-    "observation_source": "root actual CUA report; this offline document writer did not operate or independently inspect the browser",
-    "login_or_extension_settings_changed": false
+    "user_reported_file_URL_access_enabled": true,
+    "root_observed_normal_filechooser_six_file_receipt": true,
+    "operator_changed_login_or_extension_settings": false,
+    "observation_source": "Root actual UI observations; offline writer did not operate or inspect current browser"
   },
-  "service_status": "cb1 single-image generation succeeded; historical 22cd service errors are not the current blocker",
-  "current_blocker": "Current artbuilder883 ChatGPT Chrome extension file-URL permission blocks setFiles; native fallback ended because current Windows browser URL could not be verified.",
+  "service_status": "o0041 actual new output completed with reCAPTCHA connection notice; one normal reload removed the notice. Further jobs use live state checks, not CAPTCHA solving.",
+  "current_blocker": null,
   "retry_actual_results": {
     "successful_output_attempts_current_project": [
       "i008_2",
@@ -38,50 +40,41 @@
       "i019_1",
       "i020_1",
       "i020_2",
-      "i020_3"
+      "i020_3",
+      "o002_2",
+      "o003_2",
+      "o003_3"
     ],
     "currently_chosen_current_project_attempts": [
       "i008_3",
       "i009_1",
       "i012_1",
       "i019_1",
-      "i020_3"
+      "i020_3",
+      "o002_2"
     ],
     "remake_decisions_current_project": [
       "i008_2",
       "i020_1",
-      "i020_2"
+      "i020_2",
+      "o003_2"
     ],
-    "source": "Actual generation record revisions and current root pick ledger; successful generation and visual selection remain distinct"
+    "source": "Actual server revisions and current root pick ledger, not automatic visual approval"
   },
   "last_observed_submission": {
-    "id": "i020",
-    "attempt": 3,
-    "status_observed": "generated and explicitly chosen after root original-size raw/clean review",
-    "generation_record": "generation_records_v1/i020_3.json",
-    "result_observed_at_utc": "2026-10-28T01:04:30.473Z",
-    "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
-    "result_media_url": "https://flow-content.google/image/ffbd4ef8-f217-4c91-b9f7-7828f6d18508",
-    "raw_file": "v1_i020_3.jpg",
-    "clean_file": "v1_i020_3.png",
-    "clean_sha256": "11cd7d39acaa1aedbf077123b652768cb2227d301996df863697a04d664f2526",
-    "dimensions": [
-      1376,
-      768
-    ],
-    "source_ref": "i019",
-    "source_revision": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
-    "root_review_summary": "High oblique tabletop composition distinct from i019; model, entirely blank paper and hands; no readable letters/numerals found. i0201 was rejected for duplicate composition and i0202 for ruler numeral-like markings."
+    "id": "i001",
+    "attempt": 1,
+    "status_observed": "submitted; awaiting result",
+    "submit_initiated_at_utc": "2026-10-28T02:51:39.245Z",
+    "result_media_url": null,
+    "evidence": "generation_records_v1/i001_1.json"
   },
-  "chosen_count": 13,
+  "chosen_count": 16,
   "expected_image_ids": 85,
-  "reviewed_attempts": 28,
+  "reviewed_attempts": 32,
   "generation_not_complete": true,
-  "remaining_image_ids": 72,
+  "remaining_image_ids": 69,
   "remaining_image_id_list": [
-    "o002",
-    "o003",
-    "o004",
     "i001",
     "i002",
     "i003",
@@ -152,52 +145,44 @@
     "i028",
     "i029"
   ],
-  "selected_video_frames": 1,
-  "root_motion_compatible_frames": 1,
+  "selected_video_frames": 4,
+  "root_motion_compatible_frames": 4,
   "muse_generation_approved": false,
   "actual_video_generated_count": 0,
   "resume_queue": "resume_queue_v1.json",
   "local_master_transfer": {
     "approval_file": "upload_approval_v1.json",
     "authorized": true,
-    "confirmed_upload": false,
-    "confirmed_upload_identity_alias": false,
-    "first_attempt_external_delivery": "unknown after connection failure",
-    "second_attempt": "Entire browserClipboard call rejected by automatic approval review: specific local-asset external transfer was not clearly authorized",
-    "further_local_transfer_attempts_after_second_denial": 2,
-    "actual_upload_count": "not established; do not infer zero from an unconfirmed connection failure",
-    "project_work_or_browser_reconnect_does_not_authorize_transfer": true,
-    "current_user_approval": "기준 그림 6장 업로드 승인",
-    "further_attempts_scope": "Only after the explicit six-file user approval: one clipboard attempt and one filechooser setFiles attempt, both without confirmed receipt.",
-    "current_transport_blocker": "Current artbuilder883 extension file-URL permission; native fallback stopped due to current Windows browser URL verification failure."
+    "confirmed_upload": true,
+    "confirmed_upload_identity_alias": true,
+    "confirmed_current_batch_upload_count": 6,
+    "registered_reference_count": 6,
+    "verification_kind": "root_reviewed_service_representation",
+    "exact_pixel_equal": false,
+    "lossless": false,
+    "deterministic_transform_proven": false,
+    "manual_comparison_basis": "Exact6 input SHA and observed receipt; root directly opened selectedPNG6/serverJPEG6 at original size and recorded separate comparison decisions",
+    "earlier_attempt_external_delivery": "unknown; successful subsequent batch receipt does not retrospectively establish zero or success for earlier attempts",
+    "cumulative_upload_count": null,
+    "current_transport_blocker": null,
+    "reference_registry": "upload_aliases_v1.json",
+    "registration_validation": "upload_registration_validation_v1.json",
+    "per_job_actual_UI_reference_observation_still_required": true
   },
   "issue_separation": {
-    "historical_old_profile_file_URL_setFiles_issue": "Prior profile file-URL access error and prolonged setFiles wait; not proof of this profile setting or the current approval blocker",
-    "browser_debugger_disconnect": "Historical browser4/6 Debugger unattached; user reconnected and root later observed browser8 normal",
-    "current_local_transfer_approval": "Resolved by direct specific user approval; transport permission/UI stop now block progress.",
-    "current_profile_file_URL_setFiles_issue": "Immediate explicit setFiles error observed in artbuilder883 this turn, distinct from the historical prolonged wait in another profile."
+    "historical_service_error": "22cd recaptcha/abnormal activity records remain historical",
+    "historical_transport_and_UI_errors": "Prior permission error, pipe closure, Windows URL verification stop are retained in historical snapshots",
+    "current_resolution": "User enabled file URLs; browser10 chooser sent exactly6 files with6 completed tiles observed; root registered6 manual service representations",
+    "guard_origin": "Original pixel equality was an agent-designed conservative strict model, not a user/portable requirement; its failure and failed single reencoding experiment remain preserved"
   },
   "selected_image_automatic_measurement": {
     "count": 13,
     "reported_by": "root final report",
     "i019_i020_dhash_distance": 0.48,
-    "metric_is_additional_visual_approval": false
-  },
-  "current_prevideo_checkpoint": {
-    "file": "review_edit/checkpoint_20261028.json",
-    "reported_by": "root actual latest run",
-    "video_draft_definitions": 50,
-    "definition_errors": 0,
-    "strict_principle_prompts": 43,
-    "strict_sentence_count_per_prompt": 1,
-    "locked_camera_prompts": 50,
-    "o001_motion_contract_sha_preserved": true,
-    "ready_exit_code": 1,
-    "ready_blocked_count": 49,
-    "ready_file_exists": false,
-    "authorized": false,
-    "actual_video_generated_count": 0,
-    "locked_script_hi_timing_78_sentences_79_cuts_and_fixed_wav_sha_preserved": true
+    "metric_is_additional_visual_approval": false,
+    "scope": "Historical 13-selected-image automatic measurement reported by root; not a measurement of every subsequently selected image",
+    "snapshot_chosen_count": 13,
+    "represents_current_full_selected_set": false
   },
   "historical_progress_snapshots": [
     {
@@ -252,25 +237,345 @@
           "After i0081 failure no retry, reload or extra submission"
         ]
       }
+    },
+    {
+      "scope": "Prior approved-but-fileURL/Windows-UI-blocked snapshot, superseded by successful six-file receipt/typed registration; all old uncertainty remains historical",
+      "data": {
+        "recorded_at": "2026-10-28T02:14:57.072223+00:00",
+        "current_operator": "UI stopped for this turn: Windows browser URL could not be determined for policy enforcement",
+        "project": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c",
+        "browser_profile_alias": "artbuilder883",
+        "allowed_source_project_ids": [
+          "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+          "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+          "cb1e7ac3-1d61-4206-ac72-3444f121843c"
+        ],
+        "allowed_result_project_ids": [
+          "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+          "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+          "cb1e7ac3-1d61-4206-ac72-3444f121843c"
+        ],
+        "legacy_default_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+        "retained_prior_projects": [
+          "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+          "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144"
+        ],
+        "latest_user_project_request": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c 열린 크롬에서 작업해. 크롬 프로필은 artbuilder883이야",
+        "browser_connection": {
+          "user_confirmed_reconnection": true,
+          "last_root_observed_browser": "browser8",
+          "last_root_observed_tab": 96308644,
+          "root_reported_current_cb1_main_normal": true,
+          "observation_source": "root actual CUA report; this offline document writer did not operate or independently inspect the browser",
+          "login_or_extension_settings_changed": false
+        },
+        "service_status": "cb1 single-image generation succeeded; historical 22cd service errors are not the current blocker",
+        "current_blocker": "Current artbuilder883 ChatGPT Chrome extension file-URL permission blocks setFiles; native fallback ended because current Windows browser URL could not be verified.",
+        "retry_actual_results": {
+          "successful_output_attempts_current_project": [
+            "i008_2",
+            "i008_3",
+            "i009_1",
+            "i012_1",
+            "i019_1",
+            "i020_1",
+            "i020_2",
+            "i020_3"
+          ],
+          "currently_chosen_current_project_attempts": [
+            "i008_3",
+            "i009_1",
+            "i012_1",
+            "i019_1",
+            "i020_3"
+          ],
+          "remake_decisions_current_project": [
+            "i008_2",
+            "i020_1",
+            "i020_2"
+          ],
+          "source": "Actual generation record revisions and current root pick ledger; successful generation and visual selection remain distinct"
+        },
+        "last_observed_submission": {
+          "id": "i020",
+          "attempt": 3,
+          "status_observed": "generated and explicitly chosen after root original-size raw/clean review",
+          "generation_record": "generation_records_v1/i020_3.json",
+          "result_observed_at_utc": "2026-10-28T01:04:30.473Z",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+          "result_media_url": "https://flow-content.google/image/ffbd4ef8-f217-4c91-b9f7-7828f6d18508",
+          "raw_file": "v1_i020_3.jpg",
+          "clean_file": "v1_i020_3.png",
+          "clean_sha256": "11cd7d39acaa1aedbf077123b652768cb2227d301996df863697a04d664f2526",
+          "dimensions": [
+            1376,
+            768
+          ],
+          "source_ref": "i019",
+          "source_revision": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
+          "root_review_summary": "High oblique tabletop composition distinct from i019; model, entirely blank paper and hands; no readable letters/numerals found. i0201 was rejected for duplicate composition and i0202 for ruler numeral-like markings."
+        },
+        "chosen_count": 13,
+        "expected_image_ids": 85,
+        "reviewed_attempts": 28,
+        "generation_not_complete": true,
+        "remaining_image_ids": 72,
+        "remaining_image_id_list": [
+          "o002",
+          "o003",
+          "o004",
+          "i001",
+          "i002",
+          "i003",
+          "i004",
+          "i005",
+          "i006",
+          "i010",
+          "i011",
+          "i013",
+          "i014",
+          "i015",
+          "i016",
+          "p001",
+          "p002",
+          "p003",
+          "p004",
+          "p005",
+          "p006",
+          "p007",
+          "p008",
+          "p009",
+          "p010",
+          "p011",
+          "p012",
+          "p013",
+          "p014",
+          "p015",
+          "p016",
+          "p017",
+          "p018",
+          "p019",
+          "p020",
+          "p021",
+          "i017",
+          "i018",
+          "p022",
+          "p023",
+          "p024",
+          "p025",
+          "p026",
+          "p027",
+          "p028",
+          "p029",
+          "p030",
+          "p031",
+          "p032",
+          "p033",
+          "p034",
+          "p035",
+          "p036",
+          "i021",
+          "i022",
+          "p037",
+          "p038",
+          "a001",
+          "i023",
+          "i024",
+          "i025",
+          "p039",
+          "a002",
+          "a003",
+          "p040",
+          "i026",
+          "i027",
+          "p041",
+          "p042",
+          "p043",
+          "i028",
+          "i029"
+        ],
+        "selected_video_frames": 1,
+        "root_motion_compatible_frames": 1,
+        "muse_generation_approved": false,
+        "actual_video_generated_count": 0,
+        "resume_queue": "resume_queue_v1.json",
+        "local_master_transfer": {
+          "approval_file": "upload_approval_v1.json",
+          "authorized": true,
+          "confirmed_upload": false,
+          "confirmed_upload_identity_alias": false,
+          "first_attempt_external_delivery": "unknown after connection failure",
+          "second_attempt": "Entire browserClipboard call rejected by automatic approval review: specific local-asset external transfer was not clearly authorized",
+          "further_local_transfer_attempts_after_second_denial": 2,
+          "actual_upload_count": "not established; do not infer zero from an unconfirmed connection failure",
+          "project_work_or_browser_reconnect_does_not_authorize_transfer": true,
+          "current_user_approval": "기준 그림 6장 업로드 승인",
+          "further_attempts_scope": "Only after the explicit six-file user approval: one clipboard attempt and one filechooser setFiles attempt, both without confirmed receipt.",
+          "current_transport_blocker": "Current artbuilder883 extension file-URL permission; native fallback stopped due to current Windows browser URL verification failure."
+        },
+        "issue_separation": {
+          "historical_old_profile_file_URL_setFiles_issue": "Prior profile file-URL access error and prolonged setFiles wait; not proof of this profile setting or the current approval blocker",
+          "browser_debugger_disconnect": "Historical browser4/6 Debugger unattached; user reconnected and root later observed browser8 normal",
+          "current_local_transfer_approval": "Resolved by direct specific user approval; transport permission/UI stop now block progress.",
+          "current_profile_file_URL_setFiles_issue": "Immediate explicit setFiles error observed in artbuilder883 this turn, distinct from the historical prolonged wait in another profile."
+        },
+        "selected_image_automatic_measurement": {
+          "count": 13,
+          "reported_by": "root final report",
+          "i019_i020_dhash_distance": 0.48,
+          "metric_is_additional_visual_approval": false
+        },
+        "current_prevideo_checkpoint": {
+          "file": "review_edit/checkpoint_20261028.json",
+          "reported_by": "root actual latest run",
+          "video_draft_definitions": 50,
+          "definition_errors": 0,
+          "strict_principle_prompts": 43,
+          "strict_sentence_count_per_prompt": 1,
+          "locked_camera_prompts": 50,
+          "o001_motion_contract_sha_preserved": true,
+          "ready_exit_code": 1,
+          "ready_blocked_count": 49,
+          "ready_file_exists": false,
+          "authorized": false,
+          "actual_video_generated_count": 0,
+          "locked_script_hi_timing_78_sentences_79_cuts_and_fixed_wav_sha_preserved": true
+        },
+        "notes": [
+          "No text/timing/WAV/cut change or audio listening was performed by this document update.",
+          "All 13 selected images remain generated explanatory reconstructions, not measured site records.",
+          "All remaining 72 images depend on the local master transfer approval; do not omit required refs or substitute unrelated images.",
+          "The five root-reviewed static libass samples do not constitute complete video/subtitle review."
+        ],
+        "local_master_transfer_authorized": true,
+        "local_master_transfer_user_answer_verbatim": "기준 그림 6장 업로드 승인",
+        "upload_transport_checkpoint": {
+          "recorded_at_utc": "2026-10-28T02:14:57.072223+00:00",
+          "clipboard_attempt": "upload_attempts_v1/AT_C_clipboard_3.json",
+          "chooser_attempt": "upload_attempts_v1/AT_C_chooser_1.json",
+          "confirmed_receipt": false,
+          "external_receipt": "unverified, not asserted zero",
+          "filechooser_error": "Current artbuilder883 ChatGPT Chrome extension requires Allow access to file URLs.",
+          "native_fallback": "Computer Use stopped for this turn because current Windows browser URL could not be determined with enough confidence to enforce policy.",
+          "no_further_ui_actions_after_stop": true,
+          "video_generation": false
+        }
+      }
     }
   ],
   "notes": [
-    "No text/timing/WAV/cut change or audio listening was performed by this document update.",
-    "All 13 selected images remain generated explanatory reconstructions, not measured site records.",
-    "All remaining 72 images depend on the local master transfer approval; do not omit required refs or substitute unrelated images.",
-    "The five root-reviewed static libass samples do not constitute complete video/subtitle review."
+    "Original Korean/Hindi/WAV/79-cut inputs and original source URLs/pick files were not changed by this document update.",
+    "Service JPEG representations are not pixel-identical, lossless or deterministically reproduced PNGs.",
+    "Pixel error measurements and root manual original-size comparison decisions are reported separately.",
+    "Fresh exact actual input revision/order and explicit alias selector remain mandatory before every image submission.",
+    "No actual video generation approval; five static subtitle samples are not full video review."
   ],
   "local_master_transfer_authorized": true,
   "local_master_transfer_user_answer_verbatim": "기준 그림 6장 업로드 승인",
-  "upload_transport_checkpoint": {
-    "recorded_at_utc": "2026-10-28T02:14:57.072223+00:00",
-    "clipboard_attempt": "upload_attempts_v1/AT_C_clipboard_3.json",
-    "chooser_attempt": "upload_attempts_v1/AT_C_chooser_1.json",
-    "confirmed_receipt": false,
-    "external_receipt": "unverified, not asserted zero",
-    "filechooser_error": "Current artbuilder883 ChatGPT Chrome extension requires Allow access to file URLs.",
-    "native_fallback": "Computer Use stopped for this turn because current Windows browser URL could not be determined with enough confidence to enforce policy.",
-    "no_further_ui_actions_after_stop": true,
-    "video_generation": false
+  "picks_snapshot_sha256": "6de2215977ee916f150138b4d149f1d3e165fca6f307196476a2f57965a0c703",
+  "generated_unselected_outputs": [],
+  "in_progress_or_unresolved_records": [
+    {
+      "id": "i001",
+      "attempt": 1,
+      "record": "images\\generation_records_v1\\i001_1.json",
+      "status": "current result unobserved; do not resubmit"
+    }
+  ],
+  "registered_master_reference_options": {
+    "cb1_AT_C_3": {
+      "id": "AT_C",
+      "source_flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+      "uploaded_media_revision": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+      "proof_kind": "root_reviewed_service_representation",
+      "exact_pixel_equal": false,
+      "lossless": false,
+      "deterministic_transform_proven": false
+    },
+    "cb1_AT_INT_1": {
+      "id": "AT_INT",
+      "source_flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/df700293-99e2-4a76-8303-d4b75bd8d17c",
+      "uploaded_media_revision": "https://flow-content.google/image/e314b607-f9e6-4d51-8cbf-30a406207ea2",
+      "proof_kind": "root_reviewed_service_representation",
+      "exact_pixel_equal": false,
+      "lossless": false,
+      "deterministic_transform_proven": false
+    },
+    "cb1_AT_N_3": {
+      "id": "AT_N",
+      "source_flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7d334c99-fe59-44db-aa94-a966f458c9c4",
+      "uploaded_media_revision": "https://flow-content.google/image/dc46f85b-5b48-442c-8278-313be5d42abf",
+      "proof_kind": "root_reviewed_service_representation",
+      "exact_pixel_equal": false,
+      "lossless": false,
+      "deterministic_transform_proven": false
+    },
+    "cb1_AT_S_2": {
+      "id": "AT_S",
+      "source_flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+      "uploaded_media_revision": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+      "proof_kind": "root_reviewed_service_representation",
+      "exact_pixel_equal": false,
+      "lossless": false,
+      "deterministic_transform_proven": false
+    },
+    "cb1_G3D_DEEP_3": {
+      "id": "G3D_DEEP",
+      "source_flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/32594b5a-bbde-4366-b0dc-937e9dcddb0f",
+      "uploaded_media_revision": "https://flow-content.google/image/3a5aad33-7789-492b-9f13-4415e2e1746c",
+      "proof_kind": "root_reviewed_service_representation",
+      "exact_pixel_equal": false,
+      "lossless": false,
+      "deterministic_transform_proven": false
+    },
+    "cb1_G3D_EXC_4": {
+      "id": "G3D_EXC",
+      "source_flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "uploaded_flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/6d8af6a9-36df-4fef-b0bf-85ae8e8d6efd",
+      "uploaded_media_revision": "https://flow-content.google/image/705dea5d-50fb-41b7-ab4e-fe87cf60ff03",
+      "proof_kind": "root_reviewed_service_representation",
+      "exact_pixel_equal": false,
+      "lossless": false,
+      "deterministic_transform_proven": false
+    }
+  },
+  "last_prevideo_checkpoint_snapshot": {
+    "file": "review_edit/checkpoint_20261028.json",
+    "snapshot_chosen_images": 13,
+    "snapshot_reviewed_attempts": 28,
+    "scope": "Historical13-pick checkpoint; subsequent frame picks/motion checks are reported separately; current video generation remains unauthorized"
+  },
+  "historical_upload_transport_checkpoint": {
+    "scope": "Past checkpoint before user-enabled file URL access and the successful browser10 six-file receipt; not a current blocker or current no-action declaration",
+    "data": {
+      "recorded_at_utc": "2026-10-28T02:14:57.072223+00:00",
+      "clipboard_attempt": "upload_attempts_v1/AT_C_clipboard_3.json",
+      "chooser_attempt": "upload_attempts_v1/AT_C_chooser_1.json",
+      "confirmed_receipt": false,
+      "external_receipt": "unverified, not asserted zero",
+      "filechooser_error": "Current artbuilder883 ChatGPT Chrome extension requires Allow access to file URLs.",
+      "native_fallback": "Computer Use stopped for this turn because current Windows browser URL could not be determined with enough confidence to enforce policy.",
+      "no_further_ui_actions_after_stop": true,
+      "video_generation": false
+    }
+  },
+  "latest_connection_notice": {
+    "observed_at_utc": "2026-10-28T02:48:13.263Z",
+    "project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+    "browser_profile_alias": "artbuilder883",
+    "notice_after_completed_job": "o004_1",
+    "completed_result_media_url": "https://flow-content.google/image/4e462b7d-4152-44cc-a2ce-09788c675414",
+    "normal_reload_count": 1,
+    "captcha_solving_performed": false,
+    "security_or_extension_settings_changed_by_agent": false,
+    "observed_after_reload_at_utc": "2026-10-28T02:48:50.777Z",
+    "notice_present_after_reload": false,
+    "initial_load_wait_timed_out_then_fresh_AX_loaded": true,
+    "after_reload_main_media": "https://flow-content.google/image/4e462b7d-4152-44cc-a2ce-09788c675414"
   }
 }

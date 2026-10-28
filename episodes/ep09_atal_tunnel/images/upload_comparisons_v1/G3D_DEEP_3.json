@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "G3D_DEEP",
+  "selected_attempt": 3,
+  "selected_file": "v1_G3D_DEEP_3.png",
+  "selected_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+  "selected_png_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_DEEP_3.png",
+  "server_download_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\3a5aad33-7789-492b-9f13-4415e2e1746c.jpg",
+  "server_sha256": "9e144326d247d59d22f31330218da0d4f9c785c8c3a977154403b9c9780747a3",
+  "dimensions": [
+    1376,
+    768
+  ],
+  "observed_by": "root",
+  "observed_at_utc": "2026-10-28T02:27:46.522652+00:00",
+  "root_opened_selected_png_original": true,
+  "root_opened_server_jpeg_original": true,
+  "same_shape": true,
+  "same_composition": true,
+  "same_content": true,
+  "notes": "Root opened both original-size files together. Same later-stage thick connected grey U-bottom lining, road slab above the bottom and small side drains; matching single-bore axis, rock block and part positions. This confirms the uploaded representation of the chosen model, not a new engineering approval.",
+  "pass": true
+}

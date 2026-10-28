@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "alias_id": "cb1_AT_N_3",
+  "id": "AT_N",
+  "selected_attempt": 3,
+  "selected_file": "v1_AT_N_3.png",
+  "selected_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+  "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_N_3.png",
+  "input_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+  "destination_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "destination_profile_label": "artbuilder883",
+  "approval_file_sha256": "92fe71655331c4f420fa30edb4436a89219a7aa66846671e27560eb546a1d008",
+  "upload": {
+    "observed_by": "root",
+    "observed_at_utc": "2026-10-28T02:25:32.265Z",
+    "evidence": "Root submitted exactly six approved PNG paths after SHA checks through filechooser and saw all six complete matching filename tiles. This exact filename was opened from its named sidebar button; current main src and editor URL were read. See upload_attempts_v1/masters_chooser_batch_1.json.",
+    "root_observed_upload_submission": true,
+    "root_observed_new_server_revision": true,
+    "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7d334c99-fe59-44db-aa94-a966f458c9c4",
+    "media_url": "https://flow-content.google/image/dc46f85b-5b48-442c-8278-313be5d42abf"
+  },
+  "download": {
+    "observed_by": "root",
+    "observed_at_utc": "2026-10-28T02:25:32.582Z",
+    "evidence": "Root directly called downloadMedia on the current read-only server image, observed returned path, and copied unchanged bytes to the UUID-named server-original file. Pixel identity is not asserted by this capture.",
+    "root_observed_server_download": true,
+    "from_media_url": "https://flow-content.google/image/dc46f85b-5b48-442c-8278-313be5d42abf",
+    "file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\dc46f85b-5b48-442c-8278-313be5d42abf.jpg",
+    "sha256": "8a10d8ad456b8dbde56681fd4d6209fb7494ba92feda27bc6d9a98e8de58c26f"
+  }
+}

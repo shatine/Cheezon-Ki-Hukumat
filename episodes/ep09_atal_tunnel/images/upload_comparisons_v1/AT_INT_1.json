@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "AT_INT",
+  "selected_attempt": 1,
+  "selected_file": "v1_AT_INT_1.png",
+  "selected_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+  "selected_png_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_INT_1.png",
+  "server_download_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\e314b607-f9e6-4d51-8cbf-30a406207ea2.jpg",
+  "server_sha256": "d2c536d8c0def2880503f6292600cd7afcaf4af7fc9075d232d4936b36abf72d",
+  "dimensions": [
+    1376,
+    768
+  ],
+  "observed_by": "root",
+  "observed_at_utc": "2026-10-28T02:27:46.408765+00:00",
+  "root_opened_selected_png_original": true,
+  "root_opened_server_jpeg_original": true,
+  "same_shape": true,
+  "same_composition": true,
+  "same_content": true,
+  "notes": "Root opened both original-size files together. Same completed grey lining, two-way road, left walkway, side drains, roof-light rows and vanishing point; no subject or composition change found.",
+  "pass": true
+}

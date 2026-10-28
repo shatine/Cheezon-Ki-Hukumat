@@ -2,7 +2,7 @@
   "id": "o001",
   "attempt": 1,
   "kind": "frame",
-  "status": "generated; awaiting root strict review",
+  "status": "generated; root strict review remake",
   "recorded_at_utc": "2026-10-27T04:31:06.879592+00:00",
   "record_basis": "Post-completion record of actual in-session observations, not a retrospective pre-submit record.",
   "exact_submitted_prompt": "Photorealistic cinematic still, bright even neutral-white ELECTRIC tunnel lighting, clear high-key exposure with well-lit light-grey surfaces, vivid natural colours, sharp focus, 16:9. Entirely underground beneath a continuous solid rock-and-shotcrete ceiling. No sky, daylight, sunlight, windows, skylights, open roof gaps or glowing holes through the rock. No sepia filter. No text, no letters, no logos, no watermark. Indian adults only, people distant and small, faces not close-up. Using the reference image: the SAME construction reconstruction as the reference: one upper-heading excavation in weak fractured grey-brown ground, grey steel support ribs and rough shotcrete behind the working face, a compact unbranded yellow tracked machine with completely plain blank body panels, no decals or insignia, and small Indian adult workers seen from behind or the side. Visible neutral-white electric work lamps are mounted beneath the closed shotcrete roof and evenly illuminate the working face. The roof between every support rib is solid opaque grey rock or shotcrete, including directly above the heading. No skylight, surface opening or daylight gap. No identifiable real worker or archival-photograph claim. A strong inflow of muddy water emerges at the excavated face and gathers in a low sump with a pipe leading away; the supported upper-heading cavity is still readable. Show abundant inflow without a measurement scale or a flood covering workers. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
@@ -82,5 +82,7 @@
   },
   "strict_review_and_selection": "root manages picks; no acceptance asserted",
   "further_generation_submitted": false,
-  "next_authorized_candidate": "G3D_DEEP attempt2 from chosen EXC4, independent of o001 selection"
+  "next_authorized_candidate": "G3D_DEEP attempt2 from chosen EXC4, independent of o001 selection",
+  "root_review_decision": "remake",
+  "root_review_ledger": "picks_v1.json"
 }

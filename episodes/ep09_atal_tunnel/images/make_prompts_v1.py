@@ -104,7 +104,7 @@ SCENE = {
     'S06a': ('G3D_EXC', '3d', 'A small schematic pump and thick hose remove blue water from a sump at the lower edge of the supported upper heading. Weak cracked ground remains at the crown and sides above; no operator or numeric gauge.', 'pump question within the engineering model'),
     'S06b': ('G3D_EXC', '3d', 'Water is led away at floor level but loose cracked ground still remains above the crown and at the sides. Separate the visible drainage hose from the structural supports, with a few loose fragments poised above the opening.', 'general principle; pumping does not strengthen ground'),
     'S06c': ('G3D_EXC', '3d', 'Loose soil and rock intrude at the face and reduce the clear space around a small yellow machine in the upper heading. Show only a modest schematic intrusion, no crushed people or invented accident geometry.', 'general principle'),
-    'S06d': ('G3D_EXC', '3d', 'In one coherent model, a side drainage pipe carries blue water away while grey ribs and shotcrete hold the crown and walls. Keep the clear workspace visible between these separate systems.', 'support and water handling together'),
+    'S06d': ('G3D_EXC', '3d', 'In one coherent model, a continuous side drainage pipe connects the visible blue-water collection point at the heading to a clearly visible OPEN outlet at the LEFT model edge. The entire connected route and outlet stay in view, separate from the dry working floor and from the grey ribs and shotcrete holding the crown and walls. Blue water is already present inside this pipe; no dead end or invented leak onto the workspace. Keep the clear workspace visible between these separate systems.', 'support and water handling together'),
     'S07a': ('G3D_EXC', '3d', 'A closer cut-away shows the crown edge at the face, the next patch of weak ground still solid ahead of the open void, and the straight advance pipes positioned to reinforce it. Keep the forward ground distinct from the excavated space.', 'sets up advance support in the engineering model'),
     'S07b': ('G3D_EXC', '3d', 'Reveal long straight teal steel tubes installed from above the heading face and extending horizontally rightward into the not-yet-excavated ground. The front portions stay embedded in solid material, never floating.', 'advance pipes run along the tunnel axis'),
     'S07c': ('G3D_EXC', '3d', 'Keep the same pipes straight along the advance axis, but remove a narrow transverse slice of the foreground ground so their circular ends are readable as an arch-shaped row above the crown. Distinct grey ribs are behind the face.', 'arch arrangement of pipe ends, not bent pipes'),
@@ -298,6 +298,21 @@ def main():
         head = (P_FINISHED if ref == 'AT_INT' else P_TUNNEL if ref == 'AT_C' else P) if render == 'real' else D3
         fixed = f' Using the reference image: {same}. ' if ref else ' '
         composition = (REAL_VARIANTS if render == 'real' else MODEL_VARIANTS)[variant % (len(REAL_VARIANTS) if render == 'real' else len(MODEL_VARIANTS))]
+        if sid == 'o002':
+            composition = ('A LOW CLOSE three-quarter SIDE view: the rough wet face and its existing muddy receiving pile dominate the frame. '
+                           'The short continuous downward path of muddy water and small existing particles is clearly visible between the face pocket and pile. '
+                           'Only a narrow dry protected working strip and part of one support rib remain at the right edge. '
+                           'Exclude the full-corridor symmetrical composition and foreground machinery. Keep the solid closed roof visible along the upper edge.')
+        if sid == 'o003':
+            scene = ('The completed south portal and continuous two-lane approach road. Exactly TWO tiny plain unbranded passenger cars '
+                     'show natural left-hand TWO-WAY traffic: one rear-view car in the incoming left-hand lane points toward the rectangular mouth; '
+                     'the second car is farther away in the outgoing right-hand lane and faces away from the portal. Each car stays in its own lane. '
+                     'No reversing, side-by-side traffic in one lane, '
+                     'no visible brand badge, emblem, lettering or readable number plate. Each car is less than three percent of image width; the portal and mountain valley dominate.')
+            composition = ('Use a clearly ELEVATED LEFT ROADSIDE OBLIQUE viewpoint from across the approach, looking diagonally along the road toward the portal. '
+                           'Place the small portal in the UPPER RIGHT area and let the road enter from the LOWER LEFT. '
+                           'The forested valley opens on the left and the reinforced rock slope stays beside the portal on the right. '
+                           'Show the full same orange facade and sloping brown awning, with a visibly different camera position and scale from the centred reference view.')
         if sid == 'i001':
             composition = ('For this separate still, use a visibly different elevated viewpoint from farther LEFT across the valley, '
                            'rather than the preceding wide establishing view along the approach. Place the tiny rectangular south portal '

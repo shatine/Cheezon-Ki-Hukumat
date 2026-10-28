@@ -1,0 +1,86 @@
+{
+  "id": "o002",
+  "attempt": 2,
+  "kind": "frame",
+  "status": "generated; root strict review chosen",
+  "flow_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "browser_profile_alias": "artbuilder883",
+  "recorded_at_utc": "2026-10-28T02:31:29.661Z",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright even neutral-white ELECTRIC tunnel lighting, clear high-key exposure with well-lit light-grey surfaces, vivid natural colours, sharp focus, 16:9. Entirely underground beneath a continuous solid rock-and-shotcrete ceiling. No sky, daylight, sunlight, windows, skylights, open roof gaps or glowing holes through the rock. No sepia filter. No text, no letters, no logos, no watermark. Indian adults only, people distant and small, faces not close-up. Using the reference image: the SAME construction reconstruction as the reference: one upper-heading excavation in weak fractured grey-brown ground, grey steel support ribs and rough shotcrete behind the working face, a compact unbranded yellow tracked machine with completely plain blank body panels, no decals or insignia, and small Indian adult workers seen from behind or the side. Visible neutral-white electric work lamps are mounted beneath the closed shotcrete roof and evenly illuminate the working face. The roof between every support rib is solid opaque grey rock or shotcrete, including directly above the heading. No skylight, surface opening or daylight gap. No identifiable real worker or archival-photograph claim. A close low oblique view of the SIDE of the working face, not a centred view down the tunnel. The face and the receiving pile fill most of the image; keep only a narrow edge of the supported working strip visible at one side. A visible stream of muddy water is already emerging from a fractured pocket halfway up this rough face. Small brown soil clumps and tiny grey rock fragments are visibly mixed within this water directly above a distinct existing wet muddy receiving pile at its base. Show the uninterrupted short downward path from that pocket to that same pile, with the particles already present along this path. This is modest loose material carried by water, not a large rock fall. The protected side strip stays clear and outside the flow. Keep any machine far outside the dominant face-and-pile view; no foreground excavator, no loose hoses or disconnected pipe pieces, no new drainage machinery. The new low side viewpoint must differ clearly from both a frontal master and a wide supported-corridor view. A LOW CLOSE three-quarter SIDE view: the rough wet face and its existing muddy receiving pile dominate the frame. The short continuous downward path of muddy water and small existing particles is clearly visible between the face pocket and pile. Only a narrow dry protected working strip and part of one support rib remain at the right edge. Exclude the full-corridor symmetrical composition and foreground machinery. Keep the solid closed roof visible along the upper edge. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "e12949f01d76bfa6dc9cb8fc62b839f038557760c533bc51b217e0b768ccf090",
+  "submitted_text_verified_before_submit": true,
+  "submit_initiated_at_utc": "2026-10-28T02:31:29.661Z",
+  "source_ids": [
+    "S01b",
+    "S01c",
+    "S01d"
+  ],
+  "visual_source_ids": [
+    "S01d"
+  ],
+  "input": {
+    "ref": "AT_C",
+    "selected_attempt": 3,
+    "source_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+    "actual_reference_media_source_url": "https://flow-content.google/image/179e095a-3ffe-49b8-b37c-cd09bae54374",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\179e095a-3ffe-49b8-b37c-cd09bae54374.jpg",
+    "original_sha256": "a948cf7720030e2d602601ee3be7a852776e5b2d64ae265a869a7225a493aeb0",
+    "source_selected_png": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_C_3.png",
+    "source_selected_png_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+    "upload_alias_id": "cb1_AT_C_3",
+    "reference_proof_kind": "root_reviewed_service_representation",
+    "reference_proof_file": "upload_proofs_v1/AT_C_3_service.json",
+    "evidence": [
+      "Root uploaded exactly the approved selected AT_C PNG bytes and observed its exact filename tile/new revision.",
+      "Root directly opened selected PNG and downloaded server JPEG at original1376x768 and found the same subject/geometry/composition; image formats and SHAs are recorded separately.",
+      "Exact main input src re-read immediately before generation, not a previous generated revision. Service-representation validator registration is being completed offline; no image pass is inferred."
+    ],
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "root",
+    "observed_at_utc": "2026-10-28T02:31:29.661Z",
+    "local_upload_used": true
+  },
+  "settings": {
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "cost_credits": 0,
+    "aspect_and_cost_directly_observed_before_submit": true,
+    "observed_at_utc": "2026-10-28T02:31:28.614Z",
+    "output_count_selector_visible": false,
+    "output_count_note": "Retained x1 from main composer; no selector shown in image editor."
+  },
+  "result": {
+    "observed_at_utc": "2026-10-28T02:33:35.718Z",
+    "container_editor_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/7121641b-bb9b-4fc6-978d-78d25abd9b21",
+    "container_editor_asset_id": "7121641b-bb9b-4fc6-978d-78d25abd9b21",
+    "result_media_source_url": "https://flow-content.google/image/7065d822-33b4-49a4-a6a9-d647718d73e7",
+    "result_media_id": "7065d822-33b4-49a4-a6a9-d647718d73e7",
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\7065d822-33b4-49a4-a6a9-d647718d73e7.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_o002_2.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "dc4fecb90fbf31b784627e62e297765e9927c583876cc79e68d4aa9be568b593",
+      "bytes": 347720
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_o002_2.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "cb67c35a8a4c32f38d85c46286c3ac97ef000d29bf8fe32e42009797ac5ee646",
+      "bytes": 2375718
+    },
+    "screenshot": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\artbuilder883_o002_2_20261028.png"
+  },
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": true,
+  "video_generation_submitted": false,
+  "submit_acknowledged_at_utc": "2026-10-28T02:31:30.517Z",
+  "root_review_decision": "chosen",
+  "root_review_ledger": "picks_v1.json"
+}

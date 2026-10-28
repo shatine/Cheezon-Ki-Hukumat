@@ -6,6 +6,7 @@ Raw/clean images are measured, never edited or overwritten. Pillow is required.
 """
 import argparse
 import hashlib
+import importlib.util
 import json
 import re
 import shutil
@@ -205,8 +206,12 @@ def normalize(payload, manifest, require_ui_references=True):
             raise ValueError("actual_ui_references must be a list; use [] when no input image was present")
         for ref in references:
             allowed_shapes = [UI_REFERENCE_FIELDS] if require_ui_references else [UI_REFERENCE_FIELDS, UI_REFERENCE_FIELDS - {"source_media_url"}]
+            allowed_shapes.append(UI_REFERENCE_FIELDS | {"upload_alias_id"})
             if not isinstance(ref, dict) or set(ref) not in allowed_shapes:
-                raise ValueError(f"Each actual_ui_references entry needs exactly {sorted(UI_REFERENCE_FIELDS)}")
+                raise ValueError(f"Each actual_ui_references entry needs {sorted(UI_REFERENCE_FIELDS)} and optional upload_alias_id")
+            if "upload_alias_id" in ref and (not isinstance(ref["upload_alias_id"], str)
+                    or not re.fullmatch(r"[A-Za-z0-9_-]{1,120}", ref["upload_alias_id"])):
+                raise ValueError("upload_alias_id must explicitly identify a registered upload proof")
             if any(not isinstance(ref[key], str) or not ref[key].strip()
                    for key in ("id", "observed_by", "evidence")):
                 raise ValueError("UI reference id, observed_by and evidence must be nonempty text")
@@ -300,7 +305,26 @@ def validate_ui_references(item, metrics, references, records, observations):
     A current_image_editor_input observation means the source was visibly the
     editor input before submission; merely visiting its URL is not evidence.
     """
-    expected = [(ref, value["flow_url"], value["source_media_url"]) for ref, value in references.items()]
+    reported = {ref["id"]: ref for ref in item["actual_ui_references"]}
+    if any("upload_alias_id" in ref and ref["id"] not in references for ref in item["actual_ui_references"]):
+        raise ValueError("Upload aliases apply only to required chosen references, never a retake raw or extra ID")
+    expected = []
+    for ref, value in references.items():
+        observed_ref = reported.get(ref, {})
+        if "upload_alias_id" in observed_ref:
+            # Original selection/raw/revision checks already ran in reference_picks.
+            # Preserve those fields; only this explicit transport identity differs.
+            path = HERE / "upload_alias_v1.py"
+            spec = importlib.util.spec_from_file_location("_record_review_upload_alias", path)
+            helper = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(helper)
+            origin = {key: value[key] for key in ("attempt", "file", "sha256", "flow_url", "source_media_url")}
+            alias = helper.validate_registered_alias(observed_ref["upload_alias_id"], ref,
+                flow_project_id(item["flow_url"], role="result"), origin, HERE.parent, MEDIA)
+            value["input_upload_alias"] = alias
+            expected.append((ref, alias["flow_url"], alias["source_media_url"]))
+        else:
+            expected.append((ref, value["flow_url"], value["source_media_url"]))
     retake = item["actual_retake_reference_file"]
     if retake is not None:
         prior = [row for row in records if row["input"]["id"] == item["id"]
@@ -465,6 +489,12 @@ def markdown_report(ledger, manifest):
                 lines.append(f"  - UI 입력 관찰 신고: {ref['id']} / {ref['flow_url']} / {ref['method']} / "
                              f"revision {ref.get('source_media_url', '기존 기록에 없음')} / 제출 전 / "
                              f"관찰자 {cell(ref['observed_by'])} / 근거 {cell(ref['evidence'])}. 자동 UI 검증은 아니다.")
+                if "upload_alias_id" in ref:
+                    alias = row["reference_picks"].get(ref["id"], {}).get("input_upload_alias", {})
+                    if alias.get("proof_kind") == "root_reviewed_service_representation":
+                        lines.append(f"  - 명시 업로드 별칭: {cell(ref['upload_alias_id'])}. 검증유형 root_reviewed_service_representation: 원래 선택/old source를 보존한 서버 JPEG 표현이며, 별도 root 원본 대조 판정과 6장 수신증거를 재확인했다. exact_pixel_equal=false / lossless=false / deterministic_transform_proven=false. 자동 픽셀오차량이 시각 합격이나 실제 UI 첨부를 입증하지 않는다.")
+                    else:
+                        lines.append(f"  - 명시 업로드 별칭: {cell(ref['upload_alias_id'])}. 원래 선택/old source는 보존하며 승인 범위·실제 서버 다운로드의 완전 동일 픽셀을 다시 검사한 전송 식별자다. 별칭은 시각 합격이나 실제 UI 첨부를 자동 입증하지 않는다.")
     return "\n".join(lines) + "\n"
 
 
