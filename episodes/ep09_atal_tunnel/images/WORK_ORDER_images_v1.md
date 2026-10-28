@@ -1,5 +1,7 @@
 # 9편 이미지 작업 지시서: 기준 그림 → 79개 컷 그림 → 원본 검수 (2026-10-28)
 
+> **⚠ 운영 방식 변경 (2026-10-28):** 100% 로컬 작업이다. 같은 세션이 생성·엄격 검수를 하고, 미디어는 PC 에피소드 폴더에만 둔다. **재개 시 이 지시서보다 먼저 `..\hook_thumbnail.md`의 썸네일 시안을 만들어 사용자 확정을 받는다.** 확정 뒤 아래 순서로 이미지 생성을 이어 간다. 사용자 재개 지시 전에는 생성하지 않는다.
+
 진행 현황(원장 스냅샷 2026-10-28T02:40:15.395411+00:00): **선택14/85·검토30시도·잔여71·실제 첫 프레임2/50·동작 검토2/50·영상0.** root가 cb1/artbuilder883에서 한 장씩 후속 이미지를 생성·검수 중이다. 생성완료·미선택 출력: **o003 시도3**. 진행/출력 미확인 레코드: **없음**. 생성 결과와 원본 검수·선택을 구별하고 최신 번호를 자동 선택하지 않는다.
 
 **현재 프로젝트·연결:** 사용자 지정 cb1 `cb1e7ac3-1d61-4206-ac72-3444f121843c`, Chrome 프로필 artbuilder883, root 관찰 browser10/tab96308644다. 사용자가 file-URL 접근 허용을 켠 뒤 정상 chooser.setFiles6장 반환·권리 안내 확인·정확한 filename 완료 타일6개를 root가 실제로 보았다. 현재 UI·업로드 차단은 없다. UI는 root 한 명만 조작한다. 정책의 허용ID는 `baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd`, `22cd5ad1-3dbb-4183-a36b-48c7bc3e5144`, `cb1e7ac3-1d61-4206-ac72-3444f121843c` 정확히3개이며 임의4번째는 거부한다. 기존old 자산과 미사용103f 프로젝트를 이동·삭제하지 않는다.
@@ -26,7 +28,8 @@
 2. `D:\youtube\Cheezon-Ki-Hukumat\backup_portable\01_strict_rules.md`
 3. `D:\youtube\Cheezon-Ki-Hukumat\backup_portable\03_image_rules.md`
 4. `D:\youtube\Cheezon-Ki-Hukumat\backup_portable\skills\step5_images.md`
-5. 이 지시서와 아래 명세·프롬프트 파일 전체
+5. `D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\hook_thumbnail.md` (썸네일 시안 먼저)
+6. 이 지시서와 아래 명세·프롬프트 파일 전체
 
 ## 경로
 

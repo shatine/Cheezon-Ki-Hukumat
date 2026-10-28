@@ -12,16 +12,10 @@
 
 ## 실행
 
-Python과 Pillow가 필요하다. `ffprobe`가 PATH에 있어야 실물 파일 검사를 진행한다. 아래 저장소 경로는 staging 결과를 부모 작업이 동기화한 뒤 사용한다.
+Python과 Pillow가 필요하다. `ffprobe`가 PATH에 있어야 실물 파일 검사를 진행한다. 100% 로컬 작업이므로 저장소의 스크립트를 PC 미디어 폴더에 바로 실행한다.
 
 ```powershell
-python 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09\review_edit\edit_v1.py' --check-only --make-review-subtitles --media-root 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel'
-```
-
-현재 staging에서 실행하려면:
-
-```powershell
-python 'C:\Users\developer1\Documents\ChatGPT\프로젝트명 미정\work\ep09_atal_tunnel\review_edit\edit_v1.py' --check-only --make-review-subtitles --media-root 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel'
+python 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\review_edit\edit_v1.py' --check-only --make-review-subtitles --media-root 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel'
 ```
 
 종료 코드 0은 요청한 준비 검사의 종료이고 렌더 준비 완료 판정이 아니다. 1은 입력 오류로 중지, 2는 실제 미디어·선택·실측 USE·명시 검토 기록 부족으로 중지한다. 자막만 다시 만들 때 `--subtitles-only`를 사용한다. 이 모드는 preflight 보고서의 미디어 검사 항목을 수행하지 않은 상태로 다시 기록하므로, 최종 상태를 남길 때는 위 `--check-only --make-review-subtitles`를 실행한다.
@@ -63,6 +57,6 @@ python 'C:\Users\developer1\Documents\ChatGPT\프로젝트명 미정\work\ep09_a
 
 ## 후속 미완료 작업
 
-실제 소스와 USE가 확보된 뒤 전체 렌더러 구현, step7의 격리된 전체 가짜 소스 렌더 검사, 실제 libass 자막 레이아웃 확인을 수행해야 한다. 최종 영상은 0초부터 끝까지 화면·음성·전환·수치 라벨을 검수하고 수정한 뒤 전달해야 한다. 현재는 이 작업들을 수행하거나 완료했다고 기록하지 않는다.
+실제 소스와 USE가 확보된 뒤 전체 렌더러 구현, step7의 격리된 전체 가짜 소스 렌더 검사, 실제 libass 자막 레이아웃 확인을 수행해야 한다. 최종 영상은 작은 사본이 아니라 PC 원본 `out\v1_review_hi.mp4`로 0초부터 끝까지 화면·음성·전환·수치 라벨을 검수하고 수정한다. 처음 10초에서 확정 도입부 문구가 또렷하게 들리고 보이는지도 확인한다. 현재는 이 작업들을 수행하거나 완료했다고 기록하지 않는다.
 
 현재 파일은 사전 준비 초안이다. 실제 영상 생성 승인, 외부 게시, 음악 구매·생성, production render를 지시하지 않는다.

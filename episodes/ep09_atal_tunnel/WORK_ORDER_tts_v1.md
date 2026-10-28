@@ -13,9 +13,9 @@
 | 힌디어·직역 78행 | `D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\script\lines_hi_ko.tsv` |
 | PC TTS 폴더 | `D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit` |
 | 실행기 | `D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit\tts.py` |
-| 기준 도구 | `D:\youtube\7. Cheezon Ki Hukumat\.claude\skills\cheezon-production\tools` |
+| 기준 도구 | `D:\youtube\7. Cheezon Ki Hukumat\.claude\skills\cheezon-production\tools` (`tts.py`가 이 경로를 쓴다. 저장소 `D:\youtube\Cheezon-Ki-Hukumat\skills\cheezon-production\tools`와 같은 파일) |
 
-## 1. 준비 / 다른 PC 세션에서 재개할 때
+## 1. 준비 / 새 세션에서 재개할 때 (로컬)
 
 ```powershell
 git -C 'D:\youtube\Cheezon-Ki-Hukumat' pull --ff-only origin main
@@ -40,7 +40,7 @@ python -u 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit\
 - 한 줄 재검사는 `--only S01a --redo S01a`처럼 명시한다. 문구는 바꾸지 않는다.
 - `narration_hi.wav`, `narr\*.wav`와 캐시는 PC에 둔다. 힌디어 대본을 시간에 맞춰 자르거나 속도를 바꾸지 않는다.
 
-## 3. 결과 공유
+## 3. 결과 기록 (텍스트만 git 백업)
 
 전체 생성 뒤 실제 WAV와 시간표를 검증한다.
 
@@ -54,7 +54,7 @@ python 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\review_edit\veri
 Copy-Item -LiteralPath 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit\narr_timing.json' -Destination 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\review_edit\narr_timing.json'
 Copy-Item -LiteralPath 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit\narr_check.json' -Destination 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\review_edit\narr_check.json'
 Copy-Item -LiteralPath 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review_edit\tts_validation.json' -Destination 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\review_edit\tts_validation.json'
-git -C 'D:\youtube\Cheezon-Ki-Hukumat' add -- 'episodes/ep09_atal_tunnel/review_edit/narr_timing.json' 'episodes/ep09_atal_tunnel/review_edit/narr_check.json'
+git -C 'D:\youtube\Cheezon-Ki-Hukumat' add -- 'episodes/ep09_atal_tunnel/review_edit/narr_timing.json' 'episodes/ep09_atal_tunnel/review_edit/narr_check.json' 'episodes/ep09_atal_tunnel/review_edit/tts_validation.json'
 git -C 'D:\youtube\Cheezon-Ki-Hukumat' commit -m 'Add ep09 measured narration timing and checks'
 git -C 'D:\youtube\Cheezon-Ki-Hukumat' push origin main
 ```
