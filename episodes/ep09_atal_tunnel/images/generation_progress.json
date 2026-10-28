@@ -1,5 +1,5 @@
 {
-  "recorded_at": "2026-10-28T02:52:41.319464+00:00",
+  "recorded_at": "2026-10-28T03:21:05.481702+00:00",
   "current_operator": "root only; browser10 active; one image at a time; offline workers do not control UI",
   "project": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c",
   "browser_profile_alias": "artbuilder883",
@@ -62,22 +62,19 @@
     "source": "Actual server revisions and current root pick ledger, not automatic visual approval"
   },
   "last_observed_submission": {
-    "id": "i001",
+    "id": "i004",
     "attempt": 1,
-    "status_observed": "submitted; awaiting result",
-    "submit_initiated_at_utc": "2026-10-28T02:51:39.245Z",
-    "result_media_url": null,
-    "evidence": "generation_records_v1/i001_1.json"
+    "status_observed": "generated; root strict review remake",
+    "submit_initiated_at_utc": "2026-10-28T03:16:56.564Z",
+    "result_media_url": "https://flow-content.google/image/df4e8123-0f88-4789-be3a-150ebef60cee",
+    "evidence": "generation_records_v1/i004_1.json"
   },
-  "chosen_count": 16,
+  "chosen_count": 19,
   "expected_image_ids": 85,
-  "reviewed_attempts": 32,
+  "reviewed_attempts": 39,
   "generation_not_complete": true,
-  "remaining_image_ids": 69,
+  "remaining_image_ids": 66,
   "remaining_image_id_list": [
-    "i001",
-    "i002",
-    "i003",
     "i004",
     "i005",
     "i006",
@@ -472,16 +469,9 @@
   ],
   "local_master_transfer_authorized": true,
   "local_master_transfer_user_answer_verbatim": "기준 그림 6장 업로드 승인",
-  "picks_snapshot_sha256": "6de2215977ee916f150138b4d149f1d3e165fca6f307196476a2f57965a0c703",
+  "picks_snapshot_sha256": "24109864ff413ecbbfff0b04716627aa9941ee71d30f4c18ab527d0278be2d4b",
   "generated_unselected_outputs": [],
-  "in_progress_or_unresolved_records": [
-    {
-      "id": "i001",
-      "attempt": 1,
-      "record": "images\\generation_records_v1\\i001_1.json",
-      "status": "current result unobserved; do not resubmit"
-    }
-  ],
+  "in_progress_or_unresolved_records": [],
   "registered_master_reference_options": {
     "cb1_AT_C_3": {
       "id": "AT_C",
@@ -577,5 +567,9 @@
     "notice_present_after_reload": false,
     "initial_load_wait_timed_out_then_fresh_AX_loaded": true,
     "after_reload_main_media": "https://flow-content.google/image/4e462b7d-4152-44cc-a2ce-09788c675414"
-  }
+  },
+  "operator_state": "paused_by_explicit_user_request",
+  "operator_state_recorded_at_utc": "2026-10-28T03:21:36.737828+00:00",
+  "pause_checkpoint": "pause_checkpoint_20261028.json",
+  "resume_requires_new_user_instruction": true
 }

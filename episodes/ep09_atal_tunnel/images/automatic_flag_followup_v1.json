@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-10-28T03:01:53.154649+00:00",
+  "scope": "Explicit root follow-up on a new automatic luminance flag; not an automatic visual pass or a new pick",
+  "id": "o004",
+  "attempt": 1,
+  "selected_png_sha256": "e4a0555c7932adeed18c7601249da56470ce38df03933f886e43584c1e53cc82",
+  "automatic_mean_luminance": 87.9,
+  "automatic_dark_pixel_percent": 26.1,
+  "root_reopened_clean_png_at_original1376x768": true,
+  "root_observation": "The foreground pine needles and branches, orange portal facade, brown awning, road and mountain contours remain readable in bright daylight. The low global mean is concentrated in natural forest/valley shade rather than loss of the relevant subject. Existing selection retained; no brightness transform applied.",
+  "pick_changed": false,
+  "image_modified": false
+}

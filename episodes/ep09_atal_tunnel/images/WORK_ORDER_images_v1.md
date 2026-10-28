@@ -150,10 +150,10 @@ git -C "D:\youtube\Cheezon-Ki-Hukumat" log -1 --oneline origin/main
 ## 최신 진행 중 원장 체크포인트
 
 {
-  "recorded_at_utc": "2026-10-28T02:52:41.319464+00:00",
-  "selected_images": 16,
-  "reviewed_attempts": 32,
-  "remaining_images": 69,
+  "recorded_at_utc": "2026-10-28T03:21:05.481702+00:00",
+  "selected_images": 19,
+  "reviewed_attempts": 39,
+  "remaining_images": 66,
   "selected_frames": 4,
   "motion_compatible_frames": 4,
   "registered_master_service_representations": 6,
@@ -162,14 +162,7 @@ git -C "D:\youtube\Cheezon-Ki-Hukumat" log -1 --oneline origin/main
   "video_generation_authorized": false,
   "actual_video_generated": 0,
   "actual_unreviewed_outputs": [],
-  "in_flight_attempts": [
-    {
-      "id": "i001",
-      "attempt": 1,
-      "record": "images\\generation_records_v1\\i001_1.json",
-      "status": "current result unobserved; do not resubmit"
-    }
-  ],
+  "in_flight_attempts": [],
   "strict_43_sentence_preserved": true,
   "o001_original_motion_contract_preserved": true,
   "o003_draft_adjusted_before_video": "Two existing cars move normally in their actual incoming/outgoing lanes; narration unchanged.",
@@ -177,3 +170,7 @@ git -C "D:\youtube\Cheezon-Ki-Hukumat" log -1 --oneline origin/main
 }
 
 수치는 이 체크포인트가 우선한다. 진행 중 시도는 새 출력 관찰 전 중복 제출하지 않는다. 생성용 영상 ready 파일은 미작성 상태다.
+
+## 사용자 요청에 따른 일시중지 — 2026-10-28
+
+현재 상태는 `images/pause_checkpoint_20261028.json`(작업지시서 기준 `pause_checkpoint_20261028.json`)을 따른다. 이미지19/85 선택·39시도 검토·잔여66개. i0041은 저장/검수 완료 후 remake로 기록했다. 진행 중 생성과 미검토 출력은 없으며, 다음 시도는 제출하지 않았다. 사용자의 재개 지시까지 업로드·이미지/영상 생성을 시작하지 않는다.

@@ -319,6 +319,33 @@ def main():
                            'in the LOWER RIGHT third, with the steep forested mountain ridge running diagonally from the upper left. '
                            'Retain a few distinct pine branches only in the lower left foreground corner. '
                            'The mountain scale dominates and the road remains a small continuous approach, with no route overlay or mountain cut-away.')
+        if sid == 'i002':
+            scene = ('The same completed orange south portal beneath the mountain, in an entirely EMPTY scene. '
+                     'No people, workers, tourists, children, cars or other vehicles anywhere. Leave the upper mountain/sky area uncluttered for later editing labels; '
+                     'no visible numbers, mapped fault location or mountain cut-through.')
+            composition = ('Move the camera to the RIGHT road shoulder beside the reinforced rock slope, looking diagonally LEFT toward the portal from medium distance. '
+                           'Place the rectangular portal in the LEFT third of the frame; the coarse reinforced rock and low retaining wall fill a substantial near RIGHT foreground. '
+                           'The approach road enters from the LOWER RIGHT and runs diagonally to the same opening, with its two lanes and one centre line visible. '
+                           'Use a strong three-quarter side view, not the centred frontal road-to-portal reference composition.')
+        if sid == 'i003':
+            fixed = (' Using the reference image: the SAME single south portal, with orange vertical upper-facade cladding, '
+                     'the same plain brown sloping awning, one rectangular opening below, forested Himalayan mountain left and reinforced grey slope right. '
+                     'This close detail crops the existing structure; do not redesign it or introduce a north-portal gable. ')
+            scene = ('An entirely empty upward close architectural detail of the UPPER orange facade and brown awning only. '
+                     'No people, vehicles, signs, notice boards, paper notices, plaques, symbols, pictograms or numbers. '
+                     'Only the TOP edge and upper part of the same dark rectangular mouth are visible along the LOWER RIGHT edge of the image.')
+            composition = ('Camera close to the LEFT shoulder, looking UP diagonally at the upper facade and sloping awning. '
+                           'The upper orange facade occupies the RIGHT half, with blue sky, snowy peaks and pine treetops in the LEFT background. '
+                           'CROP OUT the entire lower part of both door jambs and all ground-level surfaces: lower columns, their small notices, the road and road markings are OUTSIDE the frame. '
+                           'This is an upward upper-facade detail, not a full entrance or road-to-portal view. Preserve the existing structural proportions and leave every visible panel unmarked.')
+        if sid == 'i004':
+            scene = ('The same completed south portal and two-way approach, in an entirely EMPTY scene with no people or vehicles. '
+                     'The orange facade and both door jambs are completely plain: no notice board, plaque, paper notice, symbol, pictogram or number. '
+                     'No cut through the mountain or invented difficult-zone location; all distance and period labels are added later in editing.')
+            composition = ('A VERY LOW wide view from beside the LEFT road-edge concrete blocks, about ankle height above the shoulder. '
+                           'Large rough concrete blocks and asphalt texture dominate the LOWER LEFT foreground. '
+                           'The smaller complete portal sits in the UPPER RIGHT, with a long diagonal two-lane road leading toward it and forested mountain visible above. '
+                           'This is a low wide foreground-detail composition, clearly different from a close facade view and from the eye-level centred master.')
         if sid == 'i020':
             scene = ('The same small plain grey tunnel arch model stands on the same entirely blank sheet on the work table. '
                      'Only the same adult engineer\'s sleeve and one resting hand enter at the far right edge; no head, face or full body. '

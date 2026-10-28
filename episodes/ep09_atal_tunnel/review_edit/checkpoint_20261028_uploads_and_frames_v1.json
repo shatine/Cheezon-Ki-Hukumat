@@ -1,8 +1,8 @@
 {
-  "recorded_at_utc": "2026-10-28T02:52:41.319464+00:00",
-  "selected_images": 16,
-  "reviewed_attempts": 32,
-  "remaining_images": 69,
+  "recorded_at_utc": "2026-10-28T03:21:05.481702+00:00",
+  "selected_images": 19,
+  "reviewed_attempts": 39,
+  "remaining_images": 66,
   "selected_frames": 4,
   "motion_compatible_frames": 4,
   "registered_master_service_representations": 6,
@@ -11,16 +11,12 @@
   "video_generation_authorized": false,
   "actual_video_generated": 0,
   "actual_unreviewed_outputs": [],
-  "in_flight_attempts": [
-    {
-      "id": "i001",
-      "attempt": 1,
-      "record": "images\\generation_records_v1\\i001_1.json",
-      "status": "current result unobserved; do not resubmit"
-    }
-  ],
+  "in_flight_attempts": [],
   "strict_43_sentence_preserved": true,
   "o001_original_motion_contract_preserved": true,
   "o003_draft_adjusted_before_video": "Two existing cars move normally in their actual incoming/outgoing lanes; narration unchanged.",
-  "principle_image_prompt_corrections": "p005 includes complete visible drainage route/open outlet; scene_spec separates first-image stage construction from later fixed geometry."
+  "principle_image_prompt_corrections": "p005 includes complete visible drainage route/open outlet; scene_spec separates first-image stage construction from later fixed geometry.",
+  "operator_state": "paused_by_explicit_user_request",
+  "resume_requires_new_user_instruction": true,
+  "pause_checkpoint": "../images/pause_checkpoint_20261028.json"
 }

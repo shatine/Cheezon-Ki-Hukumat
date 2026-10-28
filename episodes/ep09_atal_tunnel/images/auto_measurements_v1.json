@@ -1,12 +1,8 @@
 {
   "scope": "image dimensions, luminance and neighbouring dhash only; not visual approval",
   "expected_count": 85,
-  "measured_count": 13,
+  "measured_count": 17,
   "missing_ids": [
-    "o002",
-    "o003",
-    "o004",
-    "i001",
     "i002",
     "i003",
     "i004",
@@ -140,9 +136,66 @@
       "size": "1376x768",
       "mean": 101.2,
       "dark": 8.3,
-      "near": {},
+      "near": {
+        "o002": 0.43
+      },
       "reference_distance": {
         "AT_C": 0.46
+      }
+    },
+    {
+      "id": "o002",
+      "file": "v1_o002_2.png",
+      "size": "1376x768",
+      "mean": 108.7,
+      "dark": 9.1,
+      "near": {
+        "o001": 0.43,
+        "o003": 0.54
+      },
+      "reference_distance": {
+        "AT_C": 0.48
+      }
+    },
+    {
+      "id": "o003",
+      "file": "v1_o003_3.png",
+      "size": "1376x768",
+      "mean": 98.4,
+      "dark": 21.0,
+      "near": {
+        "o002": 0.54,
+        "o004": 0.42
+      },
+      "reference_distance": {
+        "AT_S": 0.5
+      }
+    },
+    {
+      "id": "o004",
+      "file": "v1_o004_1.png",
+      "size": "1376x768",
+      "mean": 87.9,
+      "dark": 26.1,
+      "near": {
+        "o003": 0.42,
+        "i001": 0.39
+      },
+      "reference_distance": {
+        "AT_S": 0.47
+      }
+    },
+    {
+      "id": "i001",
+      "file": "v1_i001_1.png",
+      "size": "1376x768",
+      "mean": 99.3,
+      "dark": 20.7,
+      "near": {
+        "o004": 0.39
+      },
+      "reference_distance": {
+        "AT_S": 0.47
       }
     },
     {

@@ -1,0 +1,85 @@
+{
+  "id": "i002",
+  "attempt": 2,
+  "kind": "image",
+  "status": "generated; root strict review chosen",
+  "flow_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "browser_profile_alias": "artbuilder883",
+  "recorded_at_utc": "2026-10-28T03:00:46.619Z",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME south-portal reconstruction as the reference: a rectangular dark road opening beneath a brown sloping awning, yellow-orange vertical facade cladding, a forested Himalayan valley and a grey reinforced slope beside the portal. The road is one single two-way carriageway, exactly two lanes total, one lane each direction, exactly one central lane-separating line; no second dashed lane divider, no widening or road fork; the lane arrangement is clearly visible all the way to the dark rectangular mouth. No traditional ceremonial gate merged with the actual tunnel mouth; no green gabled north-portal facade. The same completed orange south portal beneath the mountain, in an entirely EMPTY scene. No people, workers, tourists, children, cars or other vehicles anywhere. Leave the upper mountain/sky area uncluttered for later editing labels; no visible numbers, mapped fault location or mountain cut-through. Move the camera to the RIGHT road shoulder beside the reinforced rock slope, looking diagonally LEFT toward the portal from medium distance. Place the rectangular portal in the LEFT third of the frame; the coarse reinforced rock and low retaining wall fill a substantial near RIGHT foreground. The approach road enters from the LOWER RIGHT and runs diagonally to the same opening, with its two lanes and one centre line visible. Use a strong three-quarter side view, not the centred frontal road-to-portal reference composition. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "d37c243b5693aecc3d082328d644993e218ddc53309ae0f5959bad090183a4aa",
+  "submitted_text_verified_before_submit": true,
+  "submit_initiated_at_utc": "2026-10-28T03:00:46.619Z",
+  "source_ids": [
+    "S02b",
+    "S02c"
+  ],
+  "visual_source_ids": [
+    "S02c"
+  ],
+  "input": {
+    "ref": "AT_S",
+    "selected_attempt": 2,
+    "source_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+    "actual_reference_media_source_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_upload_server\\0f037505-6b4d-45b4-9ddc-43cf019eeccf.jpg",
+    "original_sha256": "e9005e69fc238c41fb78f8dd26ce0c563aeceace185887bc9d3a325d545c1c4c",
+    "source_selected_png": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_2.png",
+    "source_selected_png_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+    "upload_alias_id": "cb1_AT_S_2",
+    "reference_proof_kind": "root_reviewed_service_representation",
+    "reference_binding_registered_before_submission": true,
+    "evidence": [
+      "Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt.",
+      "Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality.",
+      "Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted."
+    ],
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "root",
+    "observed_at_utc": "2026-10-28T03:00:46.619Z",
+    "local_upload_used": true
+  },
+  "settings": {
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "cost_credits": 0,
+    "aspect_and_cost_directly_observed_before_submit": true,
+    "observed_at_utc": "2026-10-28T03:00:45.582Z",
+    "output_count_selector_visible": false,
+    "output_count_note": "Main x1 setting retained; no count selector is shown in editor."
+  },
+  "result": {
+    "observed_at_utc": "2026-10-28T03:02:19.858Z",
+    "container_editor_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+    "container_editor_asset_id": "f54bbc92-c26d-4828-8a15-7951b7726130",
+    "result_media_source_url": "https://flow-content.google/image/96611366-369b-457b-acbf-bed1eefdb3c8",
+    "result_media_id": "96611366-369b-457b-acbf-bed1eefdb3c8",
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\96611366-369b-457b-acbf-bed1eefdb3c8.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i002_2.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "1b4b8e692538c475b97b5b5402dd6d6a3c17fa83962acc2e3a906f6d00ecf4e0",
+      "bytes": 370977
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i002_2.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "e6f36bd2fcf9d4c579f0f121e3a20e5099b7b555667af58e4d367f1ec4f67dc1",
+      "bytes": 2420105
+    },
+    "screenshot": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\artbuilder883_i002_2_20261028.png"
+  },
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": true,
+  "video_generation_submitted": false,
+  "submit_acknowledged_at_utc": "2026-10-28T03:00:47.442Z",
+  "root_review_decision": "chosen",
+  "root_review_ledger": "picks_v1.json"
+}

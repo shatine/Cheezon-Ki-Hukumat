@@ -1689,6 +1689,545 @@
       },
       "recorded_at": "2026-10-28T11:49:37+09:00",
       "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i001",
+        "attempt": 1,
+        "decision": "chosen",
+        "reason": "Root opened raw JPEG and clean PNG at1376x768. Same rectangular orange south portal with brown sloping awning, forested mountain valley and adjacent grey slope; no north-portal gable or second bore. Compared with just-viewed o0041, the portal is farther to the lower right and visibly larger, with a different high-left view and foreground pine framing, so the adjacent composition is distinguishable. The mountain scale remains dominant. No readable text, numeral, recognizable logo, close person or cleaned watermark trace found. Generated illustrative landscape, not an exact surveyed tunnel route.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+        "result_media_url": "https://flow-content.google/image/8d4f74c0-4bbb-41c6-b6fc-ae46f91c6784",
+        "raw_file": "v1_i001_1.jpg",
+        "clean_file": "v1_i001_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "AT_S",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i001_1.json actual input observation: Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt. Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality. Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted.",
+            "upload_alias_id": "cb1_AT_S_2"
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i001_1.jpg",
+          "sha256": "dc0f953754ff0bbed697fb375f43ef0a6c29af111bf9456b474a97507ebc788f",
+          "bytes": 331011,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i001_1.png",
+          "sha256": "0d479fcad59bf42b4ca576a8e7cfde09a68bec63f8a2958042b1640972c65f93",
+          "bytes": 2193981,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "AT_S",
+      "reference_picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+          "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "input_upload_alias": {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        }
+      },
+      "recorded_at": "2026-10-28T11:56:50+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i002",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "Root opened raw and clean at1376x768. The portal, road and mountain composition almost exactly copy the selected south master, with only added small people. This fails the required different camera/framing and adds unnecessary age-ambiguous figures near the entrance. No factual claim that any particular person is a child is made. Remake an entirely empty scene from an explicitly different right roadside oblique viewpoint, with portal on the left and the reinforced slope as a near right foreground. Keep figures and dates for editing.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+        "result_media_url": "https://flow-content.google/image/eaa5d8e8-2104-4cce-a3dc-a2bbf3038348",
+        "raw_file": "v1_i002_1.jpg",
+        "clean_file": "v1_i002_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "AT_S",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i002_1.json actual input observation: Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt. Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality. Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted.",
+            "upload_alias_id": "cb1_AT_S_2"
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i002_1.jpg",
+          "sha256": "7074c4347adfd6dfd86578212a5cff655f7feb460cf3f0fda048f6fc54a1062f",
+          "bytes": 375462,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i002_1.png",
+          "sha256": "6b2b4ceaeae64ac6aecdde9107509a82c7273ec5e38e71595f0a2b1cac601292",
+          "bytes": 2279777,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "AT_S",
+      "reference_picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+          "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "input_upload_alias": {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        }
+      },
+      "recorded_at": "2026-10-28T12:00:17+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i002",
+        "attempt": 2,
+        "decision": "chosen",
+        "reason": "Root opened raw JPEG and clean PNG at1376x768. The empty right-shoulder oblique view puts the same rectangular orange portal toward the left and a much larger reinforced rock/retaining-wall foreground on the right, clearly differing from the master and preceding high landscape i0011. The one two-way carriageway has one centre line; the brown sloping awning, forest and grey slope retain south-portal identity. No people, readable text, numerals, recognizable logo or residual watermark found. The short-zone distance and attributed upper-heading period will be editing labels; no fault location or tunnel cut-through is invented.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+        "result_media_url": "https://flow-content.google/image/96611366-369b-457b-acbf-bed1eefdb3c8",
+        "raw_file": "v1_i002_2.jpg",
+        "clean_file": "v1_i002_2.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "AT_S",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i002_2.json actual input observation: Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt. Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality. Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted.",
+            "upload_alias_id": "cb1_AT_S_2"
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i002_2.jpg",
+          "sha256": "1b4b8e692538c475b97b5b5402dd6d6a3c17fa83962acc2e3a906f6d00ecf4e0",
+          "bytes": 370977,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i002_2.png",
+          "sha256": "e6f36bd2fcf9d4c579f0f121e3a20e5099b7b555667af58e4d367f1ec4f67dc1",
+          "bytes": 2420105,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "AT_S",
+      "reference_picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+          "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "input_upload_alias": {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        }
+      },
+      "recorded_at": "2026-10-28T12:04:04+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i003",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "Root opened raw and clean at1376x768. The close left-shoulder composition is distinct and the portal geometry is suitable, but enlarged inspection of the small notice on the right orange jamb reveals a symbol and number-like glyphs. It is not confidently text/sign-free under the strict rule. Retake while preserving the successful composition, requiring completely plain unmarked facade/jambs with no plaques, notices, signs, symbols or pictograms. Original and cleaned files remain preserved.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+        "result_media_url": "https://flow-content.google/image/710ca5fb-fb8c-4df4-932c-37d1a4e2fe61",
+        "raw_file": "v1_i003_1.jpg",
+        "clean_file": "v1_i003_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "AT_S",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i003_1.json actual input observation: Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt. Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality. Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted.",
+            "upload_alias_id": "cb1_AT_S_2"
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i003_1.jpg",
+          "sha256": "1a4d151da1b7633ee700e9361c8c3b94440d8f2af44e84019837a0d2c784ff93",
+          "bytes": 314753,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i003_1.png",
+          "sha256": "18b9456ce45e1c3d1867ad75a4f83d570347c09c7a19bd65b56e1fabc8021173",
+          "bytes": 2140598,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "AT_S",
+      "reference_picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+          "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "input_upload_alias": {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        }
+      },
+      "recorded_at": "2026-10-28T12:07:56+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i003",
+        "attempt": 2,
+        "decision": "remake",
+        "reason": "Root opened the downloaded original JPEG and the cleaned1376x768 PNG. The small posted notice remains on the right jamb despite the explicit unmarked-facade instruction. Reject the repeated sign/number-like glyph rather than call the image text-free. Next attempt changes the actual camera framing to an upward close detail of the upper orange facade and brown awning, with lower jambs and their notice outside the frame, while retaining the same portal identity. No image bytes are altered or prior files removed.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+        "result_media_url": "https://flow-content.google/image/47890e7e-a17a-4ec2-a849-531511d5026e",
+        "raw_file": "v1_i003_2.jpg",
+        "clean_file": "v1_i003_2.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "AT_S",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i003_2.json actual input observation: Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt. Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality. Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted.",
+            "upload_alias_id": "cb1_AT_S_2"
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i003_2.jpg",
+          "sha256": "6056e135b0b49ec5175d5e35d71abcfed84d8c3bea09dec7ed5217646efc9067",
+          "bytes": 342346,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i003_2.png",
+          "sha256": "3833d581ad94d00cf47a43ace0bd16d0a52baf3430267133cf92b38b5c0e7d5d",
+          "bytes": 2167250,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "AT_S",
+      "reference_picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+          "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "input_upload_alias": {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        }
+      },
+      "recorded_at": "2026-10-28T12:13:15+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i003",
+        "attempt": 3,
+        "decision": "chosen",
+        "reason": "Root opened the downloaded original JPEG and cleaned PNG at1376x768. The upward close detail preserves the same orange vertical facade, brown sloping awning and upper rectangular mouth, with forest and snowy ridges left. Lower ground-level jambs are mostly out of frame and no readable notice content or complete numeral is visible. This is clearly different from the preceding full-portal right-shoulder view. No people, vehicles, recognizable logo or cleaned watermark trace found. The partial upper-facade framing is deliberate; it is not a new portal geometry or an exact fault-location diagram.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+        "result_media_url": "https://flow-content.google/image/d4c8a49f-1ad1-4ade-bd17-53bc7c51c1e8",
+        "raw_file": "v1_i003_3.jpg",
+        "clean_file": "v1_i003_3.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "AT_S",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i003_3.json actual input observation: Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt. Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality. Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted.",
+            "upload_alias_id": "cb1_AT_S_2"
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i003_3.jpg",
+          "sha256": "1b8b90964a860a72fa696cc2f5554c5411cfc5ad9bfdaf50db72914407a11e03",
+          "bytes": 201545,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i003_3.png",
+          "sha256": "fa22a7607ca81a4f555441179db0278ba0979bbd26e4df1e55d845a3a3dae306",
+          "bytes": 1453992,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "AT_S",
+      "reference_picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+          "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "input_upload_alias": {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        }
+      },
+      "recorded_at": "2026-10-28T12:16:38+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i004",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "Root opened the downloaded original JPEG and finalized cleaned PNG at native 1376x768. The low left-shoulder viewpoint, large concrete blocks/asphalt foreground, empty two-way approach and complete orange south portal provide a distinct composition from i0033. However a small white/grey notice-like patch with symbol-like strokes remains on the right jamb; an inspection crop confirms this is not a completely plain jamb as expressly required. No exact numeral or legible wording is asserted. Retain both originals and mark remake rather than approve this visible notice. User requested a pause after this current image, so no retake or next image is submitted.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+        "result_media_url": "https://flow-content.google/image/df4e8123-0f88-4789-be3a-150ebef60cee",
+        "raw_file": "v1_i004_1.jpg",
+        "clean_file": "v1_i004_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "AT_S",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i004_1.json actual input observation: Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt. Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality. Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted.",
+            "upload_alias_id": "cb1_AT_S_2"
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i004_1.jpg",
+          "sha256": "97469369b7274599f00cc08f23d494020245ec0e2480d2b0ce7e3d01969356c6",
+          "bytes": 362001,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i004_1.png",
+          "sha256": "05dcee0a49b5d008f03a7f1e18815970ec757ead811183f45aa375d44259eb39",
+          "bytes": 2275767,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "AT_S",
+      "reference_picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+          "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "input_upload_alias": {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        }
+      },
+      "recorded_at": "2026-10-28T12:20:58+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
     }
   ],
   "legacy_record": {
@@ -2272,8 +2811,179 @@
         }
       ],
       "result_media_url": "https://flow-content.google/image/4e462b7d-4152-44cc-a2ce-09788c675414"
+    },
+    "i001": {
+      "attempt": 1,
+      "file": "v1_i001_1.png",
+      "raw_file": "v1_i001_1.jpg",
+      "reference": "AT_S",
+      "planned_ref": "AT_S",
+      "reference_picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+          "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "input_upload_alias": {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        }
+      },
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "0d479fcad59bf42b4ca576a8e7cfde09a68bec63f8a2958042b1640972c65f93",
+      "reason": "Root opened raw JPEG and clean PNG at1376x768. Same rectangular orange south portal with brown sloping awning, forested mountain valley and adjacent grey slope; no north-portal gable or second bore. Compared with just-viewed o0041, the portal is farther to the lower right and visibly larger, with a different high-left view and foreground pine framing, so the adjacent composition is distinguishable. The mountain scale remains dominant. No readable text, numeral, recognizable logo, close person or cleaned watermark trace found. Generated illustrative landscape, not an exact surveyed tunnel route.",
+      "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+      "actual_ui_references": [
+        {
+          "id": "AT_S",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+          "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+          "method": "current_image_editor_input",
+          "observed_before_submit": true,
+          "observed_by": "root",
+          "evidence": "generation_records_v1/i001_1.json actual input observation: Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt. Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality. Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted.",
+          "upload_alias_id": "cb1_AT_S_2"
+        }
+      ],
+      "result_media_url": "https://flow-content.google/image/8d4f74c0-4bbb-41c6-b6fc-ae46f91c6784"
+    },
+    "i002": {
+      "attempt": 2,
+      "file": "v1_i002_2.png",
+      "raw_file": "v1_i002_2.jpg",
+      "reference": "AT_S",
+      "planned_ref": "AT_S",
+      "reference_picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+          "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "input_upload_alias": {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        }
+      },
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "e6f36bd2fcf9d4c579f0f121e3a20e5099b7b555667af58e4d367f1ec4f67dc1",
+      "reason": "Root opened raw JPEG and clean PNG at1376x768. The empty right-shoulder oblique view puts the same rectangular orange portal toward the left and a much larger reinforced rock/retaining-wall foreground on the right, clearly differing from the master and preceding high landscape i0011. The one two-way carriageway has one centre line; the brown sloping awning, forest and grey slope retain south-portal identity. No people, readable text, numerals, recognizable logo or residual watermark found. The short-zone distance and attributed upper-heading period will be editing labels; no fault location or tunnel cut-through is invented.",
+      "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+      "actual_ui_references": [
+        {
+          "id": "AT_S",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+          "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+          "method": "current_image_editor_input",
+          "observed_before_submit": true,
+          "observed_by": "root",
+          "evidence": "generation_records_v1/i002_2.json actual input observation: Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt. Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality. Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted.",
+          "upload_alias_id": "cb1_AT_S_2"
+        }
+      ],
+      "result_media_url": "https://flow-content.google/image/96611366-369b-457b-acbf-bed1eefdb3c8"
+    },
+    "i003": {
+      "attempt": 3,
+      "file": "v1_i003_3.png",
+      "raw_file": "v1_i003_3.jpg",
+      "reference": "AT_S",
+      "planned_ref": "AT_S",
+      "reference_picks": {
+        "AT_S": {
+          "attempt": 2,
+          "file": "v1_AT_S_2.png",
+          "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+          "flow_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+          "source_media_url": "https://flow-content.google/image/c7f3e6bb-fa2d-4ead-a083-0ba67af9d1eb",
+          "input_upload_alias": {
+            "upload_alias_id": "cb1_AT_S_2",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+            "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+            "selected_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+            "approval_scope_sha256": "4a94f03c7eaf88285b0f20a9d7f83ac2aa9f6fd4538e1bd5c04f3e1105773284",
+            "alias_record_sha256": "3f13b46952d61cf546b813ef9df167f2a229168df82e26dd6befd808f8dff632",
+            "proof_kind": "root_reviewed_service_representation",
+            "exact_pixel_equal": false,
+            "lossless": false,
+            "deterministic_transform_proven": false,
+            "manual_comparison_pass": true,
+            "batch_receipt_sha256": "415865287c489a2859ba8fd8eec040c2b64d5543142801972a97defca06d7ddd",
+            "comparison_sha256": "15073b8c8a1a667763d12951445abdf6487a1771914791c43674794a6e450e10"
+          }
+        }
+      },
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "fa22a7607ca81a4f555441179db0278ba0979bbd26e4df1e55d845a3a3dae306",
+      "reason": "Root opened the downloaded original JPEG and cleaned PNG at1376x768. The upward close detail preserves the same orange vertical facade, brown sloping awning and upper rectangular mouth, with forest and snowy ridges left. Lower ground-level jambs are mostly out of frame and no readable notice content or complete numeral is visible. This is clearly different from the preceding full-portal right-shoulder view. No people, vehicles, recognizable logo or cleaned watermark trace found. The partial upper-facade framing is deliberate; it is not a new portal geometry or an exact fault-location diagram.",
+      "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+      "actual_ui_references": [
+        {
+          "id": "AT_S",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/f54bbc92-c26d-4828-8a15-7951b7726130",
+          "source_media_url": "https://flow-content.google/image/0f037505-6b4d-45b4-9ddc-43cf019eeccf",
+          "method": "current_image_editor_input",
+          "observed_before_submit": true,
+          "observed_by": "root",
+          "evidence": "generation_records_v1/i003_3.json actual input observation: Exact approved selected PNG upload and completed filename tile are recorded in the six-file receipt. Root compared both selected PNG and server JPEG at original size; registered typed service representation preserves the selected master identity and distinct file SHAs, not pixel-equality. Exact read-only image src was restored and read again immediately before this submission; no different generated revision substituted.",
+          "upload_alias_id": "cb1_AT_S_2"
+        }
+      ],
+      "result_media_url": "https://flow-content.google/image/d4c8a49f-1ad1-4ade-bd17-53bc7c51c1e8"
     }
   },
-  "chosen_count": 16,
-  "updated_at": "2026-10-28T11:49:37+09:00"
+  "chosen_count": 19,
+  "updated_at": "2026-10-28T12:20:58+09:00"
 }

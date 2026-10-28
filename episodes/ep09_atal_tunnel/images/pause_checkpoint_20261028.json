@@ -1,0 +1,25 @@
+{
+  "status": "paused_by_explicit_user_request",
+  "recorded_at_utc": "2026-10-28T03:21:36.737828+00:00",
+  "user_instruction": "이번 이미지 작업 하고 잠시 멈춰라",
+  "current_image_completed": {
+    "id": "i004",
+    "attempt": 1,
+    "result_media_url": "https://flow-content.google/image/df4e8123-0f88-4789-be3a-150ebef60cee",
+    "root_decision": "remake",
+    "reason": "Small notice-like patch remains on right jamb; no exact numeral asserted.",
+    "original_and_clean_saved": true
+  },
+  "selected_images": 19,
+  "reviewed_attempts": 39,
+  "remaining_images": 66,
+  "selected_first_frames": 4,
+  "motion_compatible_first_frames": 4,
+  "in_flight_generations": [],
+  "unreviewed_outputs": [],
+  "new_submissions_after_pause_request": 0,
+  "actual_video_generated": 0,
+  "video_generation_authorized": false,
+  "resume_requires_new_user_instruction": true,
+  "next_candidate_if_user_resumes": "i004 attempt2 after choosing an explicit framing/removal correction and checking the exact live AT_S input revision; do not submit while paused."
+}
