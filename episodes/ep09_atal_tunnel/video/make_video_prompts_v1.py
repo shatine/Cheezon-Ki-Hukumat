@@ -66,6 +66,21 @@ D3 = (
     "Ambient sound only. No dialogue, no music, no watermark."
 )
 
+# backup_portable/04_video_rules.md §4: 카메라 이동은 영상의 약 2/10 이하, 원리 영상은 항상 고정.
+# 한 컷에 이동 하나, 아주 느리게, 정지 구도로 끝. 사람 쪽으로 다가가지 않는다. 같은 방향 연속 금지.
+# 사람이 없는 비원리 컷에만 둔다: o004 포털 원경(도입 마지막) 천천히 다가가기, a003 누수 근접 매크로 확대.
+CAMERA = {
+    "o004": ("slow dolly in",
+             "Very slow dolly in toward the existing south portal along the road axis, about 5 percent closer over the whole shot, then holding still.",
+             "very slow and even camera speed; branch motion at natural real-time speed, 1.0x",
+             "Starts exactly at the composition of the selected first-frame image and ends slightly closer on the same portal, road and mountain with no new structure revealed."),
+    "a003": ("macro slow zoom in",
+             "Macro slow zoom in toward the existing lining joint and side-drain edge, about 5 percent closer over the whole shot, then holding still.",
+             "very slow and even camera speed; droplets at natural real-time speed, 1.0x",
+             "Starts exactly at the composition of the selected first-frame image and ends slightly closer on the same joint and drain edge with no new object revealed."),
+}
+CAMERA_MAX_SHARE = 0.2
+
 # 원리 43개는 첫 프레임의 실제 도형 위 빛·색만 변화한다. 실사 7개 동작은 별도 유지한다.
 # tuple = (영어 강조/동작, 실제 첫 프레임에서 확인할 강조 대상, 종료 상태).
 ACTION = {
@@ -259,7 +274,7 @@ ACTION = {
         ["small damp lining joint with existing droplets", "separate side drain", "dry road"],
         "The same small local leak continues into the side drain without spreading."),
     "a003": (
-        "In the selected closer view, follow the existing small droplets from the same lining joint to the already visible side-drain edge with a fixed camera. "
+        "In the selected closer view, follow the existing small droplets from the same lining joint to the already visible side-drain edge. "
         "Water makes only small contact ripples in the drain; no wet area expands across the road and no new person or tool enters.",
         ["closer view of existing droplets and joint", "visible side-drain contact point", "dry road"],
         "The same localized droplets and small drain ripples remain, with unchanged interior geometry."),
@@ -338,7 +353,7 @@ def schema():
                     "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
                     "role": {"enum": ["도입", "원리", "동작"]},
                     "render": {"enum": ["real", "3d"]},
-                    "camera": {"const": "locked-off static shot"},
+                    "camera": {"enum": ["locked-off static shot", "slow dolly in", "macro slow zoom in"]},
                     "movement": {"type": "string"}, "speed": {"type": "string"},
                     "framing": {"type": "string"}, "end": {"type": "string"},
                     "required_existing_features": {"type": "array", "minItems": 2, "items": {"type": "string"}},
@@ -408,15 +423,21 @@ def main():
         if cut["role"] == "원리" and image_def.get("render") != "3d":
             errors.append(f"{sid}: principle first frame is not 3D")
         action, required, end = ACTION[sid]
-        camera = "locked-off static shot"
         principle = cut["role"] == "원리"
-        speed = ("camera speed none; only slow restrained changes of light and colour intensity on fixed first-frame geometry; no physical motion"
-                 if principle else "camera speed none; all physical motion at natural real-time speed, 1.0x, bounded and not exaggerated")
-        movement = "Camera completely still, no zoom, no pan, no dolly, no rotation. " + action
-        framing = "Exactly the composition and projection of the selected first-frame image; preserve scale, orientation, boundaries and subject size."
-        prompt = (f"{action} [locked-off static shot]. Movement: {movement} Speed: {speed}. "
-                  f"Framing: {framing} End: {end} The camera remains in the same composition, with no reset or fade. "
-                  f"{PRINCIPLE_IDENTITY if principle else IDENTITY} {LIGHT} {D3 if image_def['render'] == '3d' else REAL}")
+        if sid in CAMERA and not principle:
+            camera, cam_move, speed, framing = CAMERA[sid]
+            movement = cam_move + " No rotation, no pan, no second move. " + action
+            cam_end = "The camera stops on that slightly closer composition, with no reset or fade."
+        else:
+            camera = "locked-off static shot"
+            speed = ("camera speed none; only slow restrained changes of light and colour intensity on fixed first-frame geometry; no physical motion"
+                     if principle else "camera speed none; all physical motion at natural real-time speed, 1.0x, bounded and not exaggerated")
+            movement = "Camera completely still, no zoom, no pan, no dolly, no rotation. " + action
+            framing = "Exactly the composition and projection of the selected first-frame image; preserve scale, orientation, boundaries and subject size."
+            cam_end = "The camera remains in the same composition, with no reset or fade."
+        prompt = (f"{action} [{camera}]. Movement: {movement} Speed: {speed}. "
+                  f"Framing: {framing} End: {end} {cam_end} "
+                  f"{PRINCIPLE_IDENTITY if principle else (IDENTITY if camera == 'locked-off static shot' else IDENTITY.replace('Preserve its camera, ', 'Preserve its camera angle, '))} {LIGHT} {D3 if image_def['render'] == '3d' else REAL}")
         motion_contract = dict(prompt=prompt, required_existing_features=required,
                                initial_state=image_def.get("initial_state"), source_image_prompt=image_def["prompt"],
                                source_reference=image_def.get("ref"), source_ids=image_def["source_ids"])
@@ -462,7 +483,7 @@ def main():
             id=sid, image=image_file, image_sha256=frame_sha, image_dimensions=size,
             first_frame_selection_source="images/picks_v1.json", pick_attempt=selected.get("attempt") if selected else None,
             source_ids=image_def["source_ids"], visual_source_ids=image_def.get("visual_source_ids", image_def["source_ids"]),
-            role=cut["role"], render=image_def["render"], move="LOCK", camera=camera,
+            role=cut["role"], render=image_def["render"], move="LOCK" if camera == "locked-off static shot" else camera, camera=camera,
             script=" / ".join(cat["sentence_ko"]), screen_ko=cat["screen_ko"], initial_state=image_def.get("initial_state"),
             source_image_prompt=image_def["prompt"], source_reference_group=image_def.get("ref"),
             epistemic_boundary=image_def.get("boundary"), action=action, movement=movement, speed=speed, framing=framing, end=end,
@@ -477,8 +498,10 @@ def main():
     for row in rows:
         if not all(tag in row["prompt"] for tag in ("Movement:", "Speed:", "Framing:", "End:", LIGHT, "No new objects")):
             errors.append(f"{row['id']}: required prompt sections/preservation rule missing")
-        if row["camera"] != "locked-off static shot":
-            errors.append(f"{row['id']}: unexpected camera movement")
+        if row["camera"] != "locked-off static shot" and (row["role"] == "원리" or row["id"] not in CAMERA):
+            errors.append(f"{row['id']}: camera movement only on listed non-principle clips")
+        if "One single continuous camera movement" in row["prompt"]:
+            errors.append(f"{row['id']}: banned camera phrase")
         if row["role"] == "원리":
             if row["prompt"].count(STRICT_PRINCIPLE_STILL) != 1 or PRINCIPLE_IDENTITY not in row["prompt"]:
                 errors.append(f"{row['id']}: fixed-geometry principle policy missing or duplicated")
@@ -486,6 +509,12 @@ def main():
                 errors.append(f"{row['id']}: physical-motion exception conflicts with principle policy")
         if row["planned_use_sec"] > args.clip_seconds - 0.05 + 1e-6:
             errors.append(f"{row['id']}: measured cut use exceeds production requirement minus end margin")
+    moving = [x for x in rows if x["camera"] != "locked-off static shot"]
+    if len(moving) > CAMERA_MAX_SHARE * len(rows):
+        errors.append(f"camera moves {len(moving)}/{len(rows)} exceed about 2/10")
+    for prev, cur in zip(rows, rows[1:]):
+        if prev["camera"] != "locked-off static shot" and prev["camera"] == cur["camera"]:
+            errors.append(f"{prev['id']}->{cur['id']}: same camera move twice in a row")
     if [x["id"] for x in rows] != vids:
         errors.append("Prompt order differs from actual measured shot-list order")
     if errors:
@@ -502,7 +531,7 @@ def main():
         purpose="preparation only; selecting all first frames does not authorize generation",
         production_requirement_seconds=args.clip_seconds, current_muse_setting_verified=False,
         expected_video_sources=50, principle_sources=43, opening_sources=4, action_sources=3,
-        camera_move_count=0, ready_first_frames=sum(x["frame_readiness"] == "confirmed" for x in rows),
+        camera_move_count=sum(x["camera"] != "locked-off static shot" for x in rows), ready_first_frames=sum(x["frame_readiness"] == "confirmed" for x in rows),
         selected_first_frames=sum(x["image"] is not None for x in rows),
         all_image_assets_actual_chosen=len(picks), all_image_assets_expected=picks_data.get("expected_ids", 85),
         input_hash_canonicalization="UTF-8 without BOM; LF line endings",
@@ -510,7 +539,7 @@ def main():
         physical_motion_policy=("principles p001-p043: every solid and all water/grout geometry, levels and quantities fixed; "
                                 "only light/colour on existing surfaces and glow of existing arrows may change; "
                                 "opening/action o001-o004/a001-a003: unchanged bounded physical actions; "
-                                "all cameras fixed; no new arrows or stage morphing"),
+                                "cameras fixed except o004 slow dolly in and a003 macro slow zoom in (non-principle, no people); no new arrows or stage morphing"),
         clips=rows,
     )
     report = dict(
@@ -518,7 +547,7 @@ def main():
         scope="prompt_definition_and_actual_first_frame_resolution_only", generation_authorized=False,
         actual_muse_submission_performed=False, actual_video_generated=False,
         expected=50, defined=len(rows), role_counts={role: sum(x["role"] == role for x in rows) for role in ("원리", "도입", "동작")},
-        camera_move_count=0, selected_video_frames=package["selected_first_frames"], ready_video_frames=package["ready_first_frames"],
+        camera_move_count=sum(x["camera"] != "locked-off static shot" for x in rows), selected_video_frames=package["selected_first_frames"], ready_video_frames=package["ready_first_frames"],
         actual_chosen_images=len(picks), expected_image_assets=package["all_image_assets_expected"],
         definition_errors=errors, readiness_blockers=blockers,
         current_muse_9227_settings_verified=False, user_muse_approval_recorded=False,

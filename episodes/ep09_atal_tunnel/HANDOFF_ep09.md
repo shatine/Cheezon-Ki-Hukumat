@@ -58,6 +58,7 @@
 
 ## 다음 세션이 할 일
 
+0-1. **영상 지침 반영 (2026-10-28):** `video/WORK_ORDER_muse_v1.md`가 `backup_portable/04_video_rules.md`를 따르도록 정리했다. 카메라 이동은 사람이 없는 비원리 컷 o004(slow dolly in)·a003(macro slow zoom in) 2개만 넣었다. o004 동작 정의 해시가 바뀌었으므로 PC에서 `make_video_prompts_v1.py --draft --clip-seconds 10`을 다시 실행하고 o004 동작 적합성을 다시 검토한다. 검수 도구 `video/cloud_review_clips_v1.py`를 추가했다.
 0. **썸네일 시안 먼저.** `hook_thumbnail.md`대로 글자 없는 배경 2–3장(Flow, 무료) → 글자 합성 → 320×180 가독성 확인 → 사용자 확정. 확정 전에는 이미지 생성을 재개하지 않는다. (사용자 재개 지시가 있어야 시작한다.)
 1. TTS는 완료했다. 통과 WAV를 불필요하게 재생성하지 않는다. `review_edit/verify_tts.py`는 `--help` 처리 없이 검사·프리뷰 재인코딩까지 실행하므로 소스를 읽고 꼭 필요한 검증만 실행한다. 원본 WAV의 고정 SHA를 보존하고 오디오는 git에 넣지 않는다.
 2. `plan/plan_v1.py --clip-seconds 10`의 79컷·오류0 계획을 유지하고, 실제 영상 생성 뒤 검수한 사용 구간으로 갱신한다.

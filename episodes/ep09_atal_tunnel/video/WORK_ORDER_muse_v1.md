@@ -2,6 +2,8 @@
 
 **준비 문서다. 사용자 Muse 생성 승인 기록이 없으며, 이 작업에서는 실제 전송·생성하지 않았다.** 현재 Chrome 9227의 Muse 설정도 직접 확인하지 않았다. 50개 영상의 실제 첫 프레임 확정과 동작 적합성 검수가 남아 있다. 이 문서를 승인 기록이나 생성 시작 지시로 해석하지 않는다.
 
+**적용 지침 (2026-10-28 반영):** `D:\youtube\Cheezon-Ki-Hukumat\backup_portable\04_video_rules.md` 전체와 `backup_portable\skills\step6_video.md`. 100% 로컬 작업이며, 생성한 같은 세션이 목록을 다 만든 뒤 엄격 검수한다. 아래 내용이 그 지침과 다르면 지침을 따른다.
+
 사용자 최신 범위(2026-10-27): **“영상 생성 전까지 진행해.”** 이번 작업에서는 이미지와 실제 첫 프레임·프롬프트 준비까지만 마치고 멈춘다. 준비 패키지가 완성돼도 실제 영상 생성은 하지 않는다.
 
 ## 준비물과 경로
@@ -60,7 +62,16 @@ python 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\video\make_video
 
 재시도 전 원본은 PC의 `D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\clips_v1\old\`에 ID·시도 번호로 보존하고, 현재 선택본만 `clips_v1\{id}.mp4`로 둔다. 이번 준비 문서는 원본 파일 삭제를 지시하지 않는다.
 
-현재 프롬프트는 **50개 전부 고정 카메라**다. 약 20%를 채우기 위한 불필요한 무빙은 넣지 않는다. 원리 43개는 `backup_portable/04_video_rules.md` §3과 `backup_portable/skills/step6_video.md`의 고체 고정 지침을 적용한다. 원리 프롬프트에는 다음 원문을 정확히 넣는다.
+**카메라 (04 지침 §4 반영, 2026-10-28):** 원리 43개와 사람이 있는 도입·동작 컷은 고정 카메라다. 사람이 없는 비원리 컷 2개만 느린 이동 하나를 넣는다. 50개 중 2개(4%)로 지침의 "약 2/10 이하"를 지키고, 같은 이동이 연달아 나오지 않는다.
+
+| ID | 이동 | 이유 |
+|---|---|---|
+| o004 | slow dolly in (포털 쪽으로 약 5% 다가가고 멈춤) | 도입 마지막 원경. 사람 없음, 새 구조물이 드러나지 않음 |
+| a003 | macro slow zoom in (라이닝 이음부·배수구 쪽 약 5%) | 누수 근접 컷. 사람 없음 |
+
+- o001(작업자 있음)·o002·o003(차량 움직임이 핵심)·a001(작업자 있음)·a002는 고정이다. 사람 쪽으로 다가가는 이동은 금지다.
+- "One single continuous camera movement" 문구는 쓰지 않는다. 생성기가 검사한다.
+- o004의 동작 정의 해시가 바뀌었으므로 **o004 첫 프레임의 동작 적합성을 다시 검토**해야 한다(`first_frame_action_checks_v1.json`). 그림은 다시 만들 필요가 없다. PC에서 `--draft`를 다시 실행해 `vprompts_v1_draft.json`을 갱신한다. 원리 43개는 `backup_portable/04_video_rules.md` §3과 `backup_portable/skills/step6_video.md`의 고체 고정 지침을 적용한다. 원리 프롬프트에는 다음 원문을 정확히 넣는다.
 
 > Every solid object stays completely still and keeps its exact shape and position for the whole shot: nothing slides, lifts, tilts, melts, disappears or leaks. Only light, colour and glowing arrows change.
 
@@ -122,11 +133,19 @@ python 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\video\make_video
 - `video/review_clips_v1.md`에 ID별 실제 선택 파일, 실제 길이, 합격/보류/탈락, `USE` 시작·끝, 이유와 다음 방법을 기록한다.
 - `USE` 끝은 **실제 길이−0.05초 이내**다. 10초 제작 요구 사양을 실측 합격 구간처럼 복사하지 않는다.
 - 확정된 실측 `USE`를 계획에 넣고 모든 자동 점검 오류가 0인지 다시 확인한다. 소스가 부족하면 새로 필요한 컷을 준비한다. 감속·끝 프레임 정지·동일 구간 반복·역재생으로 채우지 않는다.
-- Flow 영상은 유료 예외다. 별도 사용자 지시 없이 전환하지 않는다. 재생성 비용이나 유료 작업을 이번 준비에 승인된 것으로 간주하지 않는다.
+- **검수 도구:** 목록 전체를 만든 뒤 아래를 실행해 0.5초 밝기 표와 1초 프레임 시트를 만들고, 시트를 한 프레임씩 모두 본다.
+  ```powershell
+  python 'D:\youtube\Cheezon-Ki-Hukumat\episodes\ep09_atal_tunnel\video\cloud_review_clips_v1.py' 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\review\clips_v1' 'D:\youtube\7. Cheezon Ki Hukumat\episodes\09_atal_tunnel\clips_v1'
+  ```
+- **이동 컷 추가 검수:** o004·a003은 회전·갑작스러운 접근·새 구조물/물체 출현이 없는지, 끝에서 멈추는지 확인한다.
+- **실패하면 방법을 바꾼다:** 같은 프롬프트를 반복하지 않는다. 원리 컷은 빛·색 강조를 더 줄여 다시 쓰고, 그래도 실패하면 로컬 합성(8편 V09 균열 채우기처럼 첫 프레임 마스크로 색만 칠하는 방식, 무료)을 먼저 검토한다.
+- **다시 만들기:** 재생성할 ID에 표시하고 그 ID만 다시 만든다. 승인받은 묶음 안의 재생성은 그 승인으로 진행하고, 새 ID 추가는 다시 승인을 받는다. 이전 시도는 `clips_v1\old\`로 옮기고 마지막 시도만 `clips_v1\{id}.mp4`로 둔다.
+- Flow 영상은 유료 예외다(개당 15크레딧). 별도 사용자 지시 없이 전환하지 않는다. 쓰게 되면 1280×720을 1920×1080으로 키우고, 오른쪽 아래 별 워터마크는 편집 옵션 `flow_wm`(`delogo=x=1132:y=572:w=58:h=58`)으로 지운다. 비용은 `review_clips_v1.md`에 "Flow 영상 N개 × 15크레딧 = …크레딧 (사용자 지시 날짜)"로 기록한다. 재생성 비용이나 유료 작업을 이번 준비에 승인된 것으로 간주하지 않는다.
 - 100% 로컬 작업이다. 영상은 git으로 보내지 않고 PC `clips_v1\`에서 같은 세션이 직접 검수한다. 생성/검수 보고서와 실제 `USE`만 저장소에 텍스트로 남긴다.
 
 ## 현재 완료/미완료
 
 - 완료: 실제 실측 컷 50개와 첫 프레임 프롬프트를 대조한 동작 정의, 고정 카메라 영어 프롬프트 초안, 스키마·선택/동작 적합성 gate.
-- 미완료: 전체 50개 실제 첫 프레임 선택·동작 적합성, Muse 사용자 승인, 현재 9227 설정 직접 확인, 영상 생성, 프레임·밝기 검수, 실측 `USE`, 최종 편집.
+- 2026-10-28 지침 반영: o004·a003 카메라 이동 추가(생성기 정의 오류0 확인). o004 동작 적합성 재검토 필요.
+- 미완료: 전체 50개 실제 첫 프레임 선택·동작 적합성(o004 재검토 포함), Muse 사용자 승인, 현재 9227 설정 직접 확인, 영상 생성, 프레임·밝기 검수, 실측 `USE`, 최종 편집.
 - 이 문서 작성 과정의 Muse 전송/영상 생성: **0개**.
