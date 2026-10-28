@@ -93,7 +93,7 @@ SCENE = {
     'S02c': ('AT_S', 'real', 'The completed south portal beneath the vast mountain, a closer road-shoulder view with the rectangular opening framed by its yellow-orange facade. Leave uncluttered sky and mountain area for later editing labels; no cut-through mountain or invented location of the difficult zone.', 'the under-600-metre upper-heading crossing period is attributed in edit, not final completion'),
     'S03a': ('AT_S', 'real', 'From a distant forested slope, a small approach road enters the south portal beneath a vast Himalayan ridge; the mountain overwhelms the small road.', 'illustrative context'),
     'S03b': (None, 'real', 'A high distant view across several connected bends of a winding Rohtang mountain-pass road climbing through steep Himalayan terrain. The mountain and the long climbing road dominate, with a few plain unbranded vehicles EXTREMELY SMALL in the middle distance, each less than two percent of the image width, seen only from the REAR or far SIDE. Keep the entire near foreground road empty: no foreground car, front grille, visible badge, readable number plate, parked sightseeing group or close person. The viewpoint looks across the bends from a quiet upper rocky slope, not from within traffic. No readable road signs, flags, shrines or identifiable landmarks invented.', 'illustrative old over-pass route; not exact survey'),
-    'S03c': (None, 'real', 'A Himalayan mountain-pass road completely blocked by deep snow and an avalanche mound, stopped trucks tiny and seen from behind. Bright white snow, clear daylight; no trapped people or emergency victims.', 'historical seasonal isolation, not a current closure report'),
+    'S03c': (None, 'real', 'An EMPTY Himalayan mountain-pass road is completely blocked across its full width by a deep rough snow-and-avalanche mound. The exposed curving approach enters from the lower left and visibly ends against this impassable snow barrier in the middle distance. High snowy mountain slopes surround the small road, making the lost connection immediately readable. Bright white snow and clear daylight. No vehicles of any kind: no trucks, cars, buses, machinery or vehicle fragments. No people, tourists, workers, victims, buildings, road signs, barriers with writing, flags, shrines or rescue scene. Keep the foreground quiet and empty, with natural snow and rock only.', 'historical seasonal isolation, not a current closure report'),
     'S03d': ('AT_S', 'real', 'An approach road disappears through the rectangular south-portal opening into the mountain while the ridgeline rises far above it, an oblique low-medium view from the road shoulder.', 'observation-derived portal reconstruction'),
     'S04a': (None, 'real', 'A high aerial view of a Himalayan road making many tight hairpin bends up a steep mountain slope; no drawn line, map text, or invented exact tunnel trajectory.', 'illustrative over-pass road'),
     'S04b': ('AT_INT', 'real', 'A clear long straight view inside the completed single two-way road tunnel, small unbranded cars seen from behind, clean road and light grey interior. The geometry makes the direct mountain passage readable.', 'government distance/time savings added in edit'),
@@ -204,7 +204,7 @@ MODEL_VARIANTS = (
     'Stable wider cut-away view with the active part foregrounded and the protected working space behind it; keep the same axes.',
 )
 REPEAT_NULL_SUBJECT = {
-    'S03c': 'the SAME snow-blocked mountain-pass road, deep snowbanks and small stopped unbranded trucks as the first reference shot; keep their design and winter terrain consistent but change the safe camera position',
+    'S03c': 'the SAME empty snow-blocked mountain-pass road, impassable avalanche mound and deep snowbanks as the first reference shot; keep the winter terrain and road continuous but change the safe camera position. No vehicles or people',
     'S15d': 'the SAME small plain grey tunnel-ring model, entirely blank diagram sheets and generic Indian adult engineer seen from behind as the first reference shot; no document print or real-person likeness',
 }
 
@@ -304,6 +304,17 @@ def main():
                            'in the LOWER RIGHT third, with the steep forested mountain ridge running diagonally from the upper left. '
                            'Retain a few distinct pine branches only in the lower left foreground corner. '
                            'The mountain scale dominates and the road remains a small continuous approach, with no route overlay or mountain cut-away.')
+        if sid == 'i020':
+            scene = ('The same small plain grey tunnel arch model stands on the same entirely blank sheet on the work table. '
+                     'Only the same adult engineer\'s sleeve and one resting hand enter at the far right edge; no head, face or full body. '
+                     'The paper has no writing, drawing, numerals or printed document contents. Preserve the model shape and material. '
+                     'Clear the entire table of tools: NO rulers, measuring tapes, tape-measure cases, set squares, scales, pencils, calipers or other objects. '
+                     'Show ONLY the plain grey arch model, completely blank paper, bare tabletop and the one adult hand at the edge. '
+                     'No graduated markings, tick marks, digits, stamped marks or printed surfaces anywhere.')
+            composition = ('Move the camera to a HIGH OVERHEAD oblique angle looking down at the tabletop. '
+                           'Make the grey arch model large, occupying about the central third of the image, with its curved shell and open underside clearly visible. '
+                           'The blank white paper fills nearly the entire background. Crop away the windows, shelves, room walls and the engineer\'s torso. '
+                           'This is a new close tabletop view, not a crop of the previous room view and not merely a different person pose.')
         if kind == 'frame' and render == '3d':
             composition += ' Locked-off static first frame, no camera movement; show the coherent initial physical state for the later mechanism animation.'
         prompt = f'{head}{fixed}{scene} {composition} {NOCOPY if render == "real" and ref else ""} {NOTXT}'

@@ -1,0 +1,81 @@
+{
+  "id": "i020",
+  "attempt": 2,
+  "kind": "image",
+  "status": "generated; root strict review remake",
+  "flow_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "browser_profile_alias": "artbuilder883",
+  "recorded_at_utc": "2026-10-28T01:00:23.131Z",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. Using the reference image: the SAME small plain grey tunnel-ring model, entirely blank diagram sheets and generic Indian adult engineer seen from behind as the first reference shot; no document print or real-person likeness. The same small plain grey tunnel arch model stands on the same entirely blank sheet on the work table. Only the same adult engineer's sleeve and one resting hand enter at the far right edge; no head, face or full body. The paper has no writing, drawing, numerals or printed document contents. Preserve the model shape and material. Move the camera to a HIGH OVERHEAD oblique angle looking down at the tabletop. Make the grey arch model large, occupying about the central third of the image, with its curved shell and open underside clearly visible. The blank white paper fills nearly the entire background. Crop away the windows, shelves, room walls and the engineer's torso. This is a new close tabletop view, not a crop of the previous room view and not merely a different person pose. Use the reference only for the subject design, identity and orientation; use a clearly different camera position, subject size and framing from the reference image. No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "32a11d2d81a283823fb08bb6801e81a4f1b46eae65fe7dcaf26e8b73fb39af0f",
+  "submitted_text_verified_before_submit": true,
+  "submit_initiated_at_utc": "2026-10-28T01:00:23.131Z",
+  "source_ids": [
+    "S15d"
+  ],
+  "visual_source_ids": [
+    "S15d"
+  ],
+  "input": {
+    "ref": "i019",
+    "selected_attempt": 1,
+    "method": "current_image_editor_input",
+    "observed_before_submit": true,
+    "observed_by": "root",
+    "observed_at_utc": "2026-10-28T01:00:23.131Z",
+    "source_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+    "actual_reference_media_source_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
+    "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i019_1.jpg",
+    "original_sha256": "70d0fe05b33478652c52632d9776755f674ab5f62a896e708999a6645fc1de7e",
+    "evidence": [
+      "Root clicked i019 original revision in visible edit history, then verified the main read-only image source.",
+      "Exact selected i0191 source was read immediately before submit; not the rejected i0201 revision.",
+      "Source stays within the current project; no local file upload."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "mode": "current-image editing",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "cost_credits": 0,
+    "aspect_and_cost_directly_observed_before_submit": true,
+    "observed_at_utc": "2026-10-28T01:00:14.507Z",
+    "output_count_selector_visible": false,
+    "output_count_note": "Prior x1 composer setting retained; no count selector in this editor."
+  },
+  "result": {
+    "observed_at_utc": "2026-10-28T01:00:59.804Z",
+    "container_editor_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+    "container_editor_asset_id": "9034765e-701c-413d-abb5-cfafc150ab91",
+    "result_media_source_url": "https://flow-content.google/image/20f5883a-7a30-4213-a7b3-81ec209e64d5",
+    "result_media_id": "20f5883a-7a30-4213-a7b3-81ec209e64d5",
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\20f5883a-7a30-4213-a7b3-81ec209e64d5.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i020_2.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "6fc28ba3018616ccb233bad7489f59e58f34f0ad477da0fda93523a11724d8c8",
+      "bytes": 153599
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i020_2.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "f790fafb54f0acdc8d1bbd6e11ca89e99a4994691f5ea41cf13ec3a941b6cefe",
+      "bytes": 1264091
+    },
+    "screenshot": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\artbuilder883_i020_2_20261028.png"
+  },
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": false,
+  "video_generation_submitted": false,
+  "remake_of_attempt": 1,
+  "remake_reason": "Root rejected near-identical neighbouring camera composition; prompt now requires high overhead close tabletop model view.",
+  "submit_acknowledged_at_utc": "2026-10-28T01:00:23.520Z",
+  "root_review_decision": "remake",
+  "root_review_ledger": "picks_v1.json"
+}

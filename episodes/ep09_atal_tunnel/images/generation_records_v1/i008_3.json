@@ -1,0 +1,82 @@
+{
+  "id": "i008",
+  "attempt": 3,
+  "kind": "image",
+  "status": "generated; root strict review chosen",
+  "recorded_at_utc": "2026-10-27T20:26:07.407Z",
+  "record_basis": "Actual user-specified Chrome artbuilder883 profile and existing project; no account or security settings changed.",
+  "flow_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "browser_profile_alias": "artbuilder883",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. An EMPTY Himalayan mountain-pass road is completely blocked across its full width by a deep rough snow-and-avalanche mound. The exposed curving approach enters from the lower left and visibly ends against this impassable snow barrier in the middle distance. High snowy mountain slopes surround the small road, making the lost connection immediately readable. Bright white snow and clear daylight. No vehicles of any kind: no trucks, cars, buses, machinery or vehicle fragments. No people, tourists, workers, victims, buildings, road signs, barriers with writing, flags, shrines or rescue scene. Keep the foreground quiet and empty, with natural snow and rock only. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible.  No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "4da392e057fe4fa95b3d77fedf45210f8b94f3044ef555b7f47a2260ecf97916",
+  "submitted_text_verified_before_submit": true,
+  "submit_initiated_at_utc": "2026-10-27T20:26:06.913Z",
+  "submit_acknowledged_at_utc": "2026-10-27T20:26:07.407Z",
+  "first_acknowledged_progress_percent": 0,
+  "source_ids": [
+    "S03b",
+    "S03c"
+  ],
+  "visual_source_ids": [
+    "S03c"
+  ],
+  "input": {
+    "ref": null,
+    "method": "text_to_image_without_reference",
+    "observed_before_submit": true,
+    "observed_by": "root",
+    "evidence": [
+      "Main composer contained no image/material input; the project already contained the earlier i0082 result.",
+      "Current i008 prompt definition has ref=null; no missing reference was replaced with text-only."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "mode": "image",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "output_count": 1,
+    "cost_credits": 0,
+    "all_directly_observed_before_submit": true,
+    "observation_basis": "Current settings popup in this exact browser profile, prior to filling and submitting.",
+    "observed_at_utc": "2026-10-27T20:25:41.142Z"
+  },
+  "result": {
+    "observed_at_utc": "2026-10-27T20:32:13.885Z",
+    "container_editor_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+    "container_editor_asset_id": "9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+    "result_media_source_url": "https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0",
+    "result_media_id": "fd4fcb88-1307-4001-b121-02f15801a2e0",
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\fd4fcb88-1307-4001-b121-02f15801a2e0.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i008_3.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "a9058b3ef452a99cd909e509fdc7970c2afda1d439c00c3fdd4ef2ffa1dadfd7",
+      "bytes": 359034
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i008_3.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "e60e6ef6845daa7eb1f806cb63f72035b5ccd86e84a49754ba03d58c773b9975",
+      "bytes": 2314360
+    }
+  },
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": false,
+  "project_asset_migration_performed": false,
+  "video_generation_submitted": false,
+  "record_clarifications": [
+    {
+      "recorded_at_utc": "2026-10-28T01:00:45.154190+00:00",
+      "original_wording": "Existing project was blank and main composer contained no image/material input.",
+      "reason": "Independent record audit found project blank was too broad; observed empty composer only. This is a wording correction, not a new historical UI observation."
+    }
+  ],
+  "root_review_decision": "chosen",
+  "root_review_ledger": "picks_v1.json"
+}

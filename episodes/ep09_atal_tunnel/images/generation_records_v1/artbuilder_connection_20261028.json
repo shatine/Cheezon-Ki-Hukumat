@@ -1,0 +1,11 @@
+{
+  "observed_at_utc": "2026-10-28T00:36:35.859Z",
+  "project": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "browser_profile_alias": "artbuilder883",
+  "observation": "Current page after completed i0083 showed reCAPTCHA service connection error; no generation was in progress.",
+  "error_text": "reCAPTCHA 서비스에 연결할 수 없습니다. 인터넷 연결을 확인한 후 페이지를 새로고침하여 reCAPTCHA 보안문자를 다시 로드하세요.",
+  "normal_reload_count": 1,
+  "captcha_solved": false,
+  "extension_or_security_settings_changed": false,
+  "video_generated": false
+}

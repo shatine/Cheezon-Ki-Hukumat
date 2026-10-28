@@ -1,14 +1,16 @@
 {
   "schema_version": 1,
   "legacy_default_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-  "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+  "current_generation_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
   "allowed_result_project_ids": [
     "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-    "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144"
+    "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+    "cb1e7ac3-1d61-4206-ac72-3444f121843c"
   ],
   "allowed_source_project_ids": [
     "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-    "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144"
+    "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+    "cb1e7ac3-1d61-4206-ac72-3444f121843c"
   ],
   "authorization_evidence": {
     "user_request_verbatim": "flow reCAPTCHA 떴어? 지금 새로운 프로젝츠 창 열어놨다 다시 해봐",
@@ -20,5 +22,19 @@
     "observed_new_project": "Parent /root reported the actual new empty Flow project URL with ID 22cd5ad1-3dbb-4183-a36b-48c7bc3e5144, then reported one successful ref-null i007 image generation in it.",
     "scope": "Use the observed new project while retaining existing project sources. No asset move/deletion, cross-project attachment observation, image selection or video-generation approval is created by this policy."
   },
-  "availability_policy": "Project-ID permission is not proof an asset is available or attached in that project's current UI. Observe and record the exact image revision before each submission."
+  "additional_authorization_evidence": [
+    {
+      "user_request_verbatim": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c 열린 크롬에서 작업해. 크롬 프로필은 artbuilder883이야",
+      "request_source": "Actual 2026-10-28 user instruction relayed by parent /root to this worker; not an instruction from an external page",
+      "date": "2026-10-28",
+      "timezone": "Asia/Seoul",
+      "exact_clock_time": null,
+      "time_note": "Exact clock time was not supplied in the parent message and is not invented here.",
+      "observed_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+      "requested_profile_label": "artbuilder883",
+      "observation_source": "Parent /root reported actual CUA inventory Chrome browser4 and existing tab96307742 at the exact requested project URL. The displayed account label matched the user's requested profile. The project was blank with no active error; no login or extension setting was changed.",
+      "scope": "Use this already-open project/profile. Preserve prior project source identities and reviewed files. Prior sources belong to another account; availability or attachment in this current project remains unconfirmed. No source upload, asset transfer/deletion, new selection, cross-project attachment or video-generation approval is inferred."
+    }
+  ],
+  "availability_policy": "Project-ID permission is not proof an asset is available or attached in that project's current UI, particularly across accounts. Observe and record the exact image revision before each submission."
 }

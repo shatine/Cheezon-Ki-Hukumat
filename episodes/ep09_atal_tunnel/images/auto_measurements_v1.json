@@ -1,7 +1,7 @@
 {
   "scope": "image dimensions, luminance and neighbouring dhash only; not visual approval",
   "expected_count": 85,
-  "measured_count": 8,
+  "measured_count": 13,
   "missing_ids": [
     "o002",
     "o003",
@@ -12,11 +12,8 @@
     "i004",
     "i005",
     "i006",
-    "i008",
-    "i009",
     "i010",
     "i011",
-    "i012",
     "i013",
     "i014",
     "i015",
@@ -50,8 +47,6 @@
     "p025",
     "p026",
     "p027",
-    "i019",
-    "i020",
     "p028",
     "p029",
     "p030",
@@ -156,8 +151,68 @@
       "size": "1376x768",
       "mean": 111.0,
       "dark": 14.3,
+      "near": {
+        "i008": 0.46
+      },
+      "reference_distance": {}
+    },
+    {
+      "id": "i008",
+      "file": "v1_i008_3.png",
+      "size": "1376x768",
+      "mean": 115.8,
+      "dark": 15.3,
+      "near": {
+        "i007": 0.46,
+        "i009": 0.43
+      },
+      "reference_distance": {}
+    },
+    {
+      "id": "i009",
+      "file": "v1_i009_1.png",
+      "size": "1376x768",
+      "mean": 120.2,
+      "dark": 11.9,
+      "near": {
+        "i008": 0.43
+      },
+      "reference_distance": {
+        "i008": 0.43
+      }
+    },
+    {
+      "id": "i012",
+      "file": "v1_i012_1.png",
+      "size": "1376x768",
+      "mean": 108.7,
+      "dark": 18.9,
       "near": {},
       "reference_distance": {}
+    },
+    {
+      "id": "i019",
+      "file": "v1_i019_1.png",
+      "size": "1376x768",
+      "mean": 122.3,
+      "dark": 21.6,
+      "near": {
+        "i020": 0.48
+      },
+      "reference_distance": {}
+    },
+    {
+      "id": "i020",
+      "file": "v1_i020_3.png",
+      "size": "1376x768",
+      "mean": 145.2,
+      "dark": 16.0,
+      "near": {
+        "i019": 0.48
+      },
+      "reference_distance": {
+        "i019": 0.48
+      }
     }
   ]
 }

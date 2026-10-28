@@ -1,65 +1,51 @@
 {
   "status": "pass",
-  "scope": "Isolated project-policy/identity gates plus revalidation of existing review bytes; no visual decision, cross-project UI attachment, asset move/delete or generation performed",
+  "checked_date": "2026-10-28",
+  "timezone": "Asia/Seoul",
+  "scope": "Offline isolated project-policy/identity checks and historical review-byte revalidation only. No actual cb1 UI availability, cross-account attachment, upload, image selection, move/deletion or generation is claimed.",
   "checks": [
     {
-      "check": "legacy PROJECT constant unchanged",
+      "check": "exact three observed projects accepted for source and result; current cb1 and legacy baa9 preserved",
       "status": "pass"
     },
     {
-      "check": "old and new result/source URLs accepted",
+      "check": "fourth project URL rejected for both roles",
       "status": "pass"
     },
     {
-      "check": "unknown project rejected for both roles",
+      "check": "all 20 historical review inputs and original-byte measurements revalidate",
       "status": "pass"
     },
     {
-      "check": "unknown role rejected",
+      "check": "legacy AT_S migration preserves two original old-project URLs",
       "status": "pass"
     },
     {
-      "check": "all existing review inputs and original-byte measurements revalidate",
+      "check": "fourth project in source allowlist rejected",
       "status": "pass"
     },
     {
-      "check": "legacy AT_S migration remains in old project",
+      "check": "fourth current project rejected",
       "status": "pass"
     },
     {
-      "check": "third configured project rejected",
+      "check": "duplicate result allowlist rejected",
       "status": "pass"
     },
     {
-      "check": "duplicate configured project rejected",
+      "check": "cb1 i008 ref-null result accepts explicit empty UI reference list in isolated fixture",
       "status": "pass"
     },
     {
-      "check": "empty configured role rejected",
+      "check": "cb1 result plus unchanged old selected source identities supported only as an isolated schema fixture",
       "status": "pass"
     },
     {
-      "check": "legacy default replacement rejected",
+      "check": "replaced source URL still rejected even if its project is allowed",
       "status": "pass"
     },
     {
-      "check": "unknown active project rejected",
-      "status": "pass"
-    },
-    {
-      "check": "new-project i007 ref-null normalizes with explicit empty UI references",
-      "status": "pass"
-    },
-    {
-      "check": "new result plus unchanged old selected source exact identity accepted in isolated fixture only",
-      "status": "pass"
-    },
-    {
-      "check": "substituted allowed-project source URL still rejected",
-      "status": "pass"
-    },
-    {
-      "check": "wrong source image revision still rejected",
+      "check": "replaced source revision still rejected",
       "status": "pass"
     },
     {
@@ -67,35 +53,44 @@
       "status": "pass"
     },
     {
-      "check": "reference order remains exact",
+      "check": "source order remains exact",
       "status": "pass"
     },
     {
-      "check": "isolated manifest preserves old source identity",
+      "check": "unchanged manifest dynamically reports cb1 with all three project availabilities unconfirmed",
       "status": "pass"
     },
     {
-      "check": "manifest does not claim current-project availability or attachment",
-      "status": "pass"
-    },
-    {
-      "check": "picks prompt HANDOFF and existing motion-check files byte-identical",
+      "check": "existing 8 picks, 20 reviews, motion inputs, prompts, HANDOFF and manifest script byte-identical",
       "status": "pass"
     }
   ],
-  "existing_chosen_count": 7,
-  "existing_review_record_count": 18,
+  "existing_chosen_count": 8,
+  "existing_review_record_count": 20,
+  "legacy_default_project": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+  "current_generation_project": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "allowed_project_count": 3,
   "manifest_isolated_exit_code": 0,
   "production_manifest_regenerated": false,
-  "legacy_default_project": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-  "current_generation_project": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
-  "allowed_project_count": 2,
+  "make_reference_manifest_script_modified": false,
+  "actual_cross_project_attachment_observed": false,
+  "picks_or_motion_records_modified": false,
   "protected_file_sha256": {
-    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\picks_v1.json": "45f57223ad120e50d13893c444f7978ca5e1612e5dd587fbeb9f8a2ce7616a55",
-    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\picks_v1.md": "edac362212b9fa372f270aee6e26f2c3e5a5d6b89f6b35b510a5f35348dbe18b",
-    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\prompts_v1.json": "ed04c1389ea54db1a06b7607c3d9560890c129e4fa45adc6031f69bd460487cc",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\picks_v1.json": "60786ae122ddb5471b382bf1e93c8ea26e977646aa850d115eba8ae3f1d57ce4",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\picks_v1.md": "e060fc11d6e03fef0405f0f72fe9984641385a67989a3bc13128d0a0d0ab7153",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\prompts_v1.json": "6b942029fa87d38b10179fdc07a4cd0a65252bf8b5e53588897a7e951a919478",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\make_prompts_v1.py": "acaaac674ea27bff634b197def39b574b6fc8dd2b27dd195f3f5c67ae33a7430",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\make_reference_manifest.py": "ba7d706d1784e9199f19ac98fe83e4ea23c93874fa30fb0bc84888a3716dccdf",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\HANDOFF_ep09.md": "f5703ea9f39ef36782b2f04943ae7b63e0c1454e3f11319b40b27846a1467648",
     "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\video\\first_frame_action_checks_v1.json": "89015249f02b765e57b48435780ef70f9c8e7aab5a20ebef90fbacb9049ab2bc"
   },
-  "actual_cross_project_attachment_observed": false,
-  "picks_or_motion_records_modified": false
+  "previous_validation_summary": {
+    "status": "pass",
+    "allowed_project_count": 2,
+    "existing_chosen_count": 7,
+    "existing_review_record_count": 18,
+    "note": "Prior two-project snapshot retained as history, not current policy state."
+  },
+  "repo_and_stage_policy_files_identical_before_edit": true,
+  "repo_written_by_this_worker": false
 }

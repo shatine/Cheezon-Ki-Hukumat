@@ -1,12 +1,12 @@
 # 9편 이미지 선택·실제 시각 검토 기록 v1
 
-갱신: 2026-10-27T17:57:09+09:00. 선택 **8/85 ID**, 기록 9 ID / 20시도. 미선택 77 ID. 미기록 76 ID.
+갱신: 2026-10-28T10:05:16+09:00. 선택 **13/85 ID**, 기록 14 ID / 28시도. 미선택 72 ID. 미기록 71 ID.
 
 2026-10-27 최초 생성 UI에서 지정 Flow 프로젝트, Nano Banana 2.1 / 16:9 / x1 / 0크레딧을 확인했다. 한 장씩 생성한다.
 
 이미지는 관찰한 형상·승인 대본으로 새로 생성한 설명용 재구성이다. 현장 기록 사진·측량 결과가 아니다. 도구는 시각 합격을 판단하지 않고 root가 명시한 선택·재생성 결정과 실제 원본 크기로 연 여부를 기록한다.
 
-자동 확인은 파일 존재·실제 형식·픽셀 크기·바이트 수·SHA-256·선행 선택 참조 파일에 한정된다. planned_ref와 master 재시도에서 명시한 미선택 원본 참조(actual_retake_reference_file)를 구분한다. 원천 자산의 프로젝트와 현재 생성 프로젝트는 별개이며 허용 ID는 flow_project_policy_v1.json의 두 관찰 프로젝트뿐이다. reference_assets_v1.json은 파일 대응만 확인하고 현재 프로젝트별 media 가용성이나 첨부를 확인하지 않는다. 표의 선행 선택 PNG 파일은 원천 선택 기록이며 PNG 재업로드·자산 이동을 뜻하지 않는다. Flow에 실제 참조를 첨부했는지, 의미·형상·글자·사람·밝기·중복이 적절한지는 이 측정으로 검증하지 않는다. 오디오 받아쓰기 검사도 별개다.
+자동 확인은 파일 존재·실제 형식·픽셀 크기·바이트 수·SHA-256·선행 선택 참조 파일에 한정된다. planned_ref와 master 재시도에서 명시한 미선택 원본 참조(actual_retake_reference_file)를 구분한다. 원천 자산의 프로젝트와 현재 생성 프로젝트는 별개이며 허용 ID는 flow_project_policy_v1.json에 명시적으로 관찰·기록한 프로젝트뿐이다. reference_assets_v1.json은 파일 대응만 확인하고 현재 프로젝트별 media 가용성이나 첨부를 확인하지 않는다. 표의 선행 선택 PNG 파일은 원천 선택 기록이며 PNG 재업로드·자산 이동을 뜻하지 않는다. Flow에 실제 참조를 첨부했는지, 의미·형상·글자·사람·밝기·중복이 적절한지는 이 측정으로 검증하지 않는다. 오디오 받아쓰기 검사도 별개다.
 
 새 결정은 result_media_url에 실제 결과 이미지 revision을 기록하고, actual_ui_references에 제출 전 실제 입력으로 본 ID·편집기 URL·source_media_url·방법·관찰자·근거를 명시한다. ref가 없으면 []로 입력 이미지 부재를 신고한다. 편집기 URL은 수정되는 컨테이너이므로 이미지 revision 식별자가 아니다. 도구는 신고의 순서·정확한 원천 revision·기록된 파일 해시를 확인하며 서비스의 실제 첨부를 자동 입증하지 않는다.
 
@@ -36,6 +36,14 @@
 | o002 | AT_C=v1_AT_C_3.png | 1 | v1_o002_1.jpg / v1_o002_1.png | 보류·재생성 | 예 / 예 | root가 raw·clean 원본 크기로 직접 보았다. 지보된 터널과 정면 굴착기는 보이나 face에서 물과 함께 내려오는 작은 토사·파편 및 그 바로 아래 받는 젖은 pile이 명확하지 않다. 젖은 바닥만으로 승인문장의 물+토사 동반 유입이나 현재 motion의 기존 공급·수신 경로를 증명하지 못한다. C3 정면 구도도 강하게 반복한다. S01d를 낮은 측면 근접구도로 바꾸고 기존 균열 포켓→소량 탁수·작은 입자→바로 아래 기존 wet pile을 한 화면에 명시해 재생성한다. 읽는 글자는 발견하지 않았다. |
 | i007 | 없음 | 1 | v1_i007_1.jpg / v1_i007_1.png | 보류·재생성 | 예 / 예 | root가 새 프로젝트에서 실제 생성된 raw JPEG와 워터마크 처리 PNG를 각각 1376×768 원본 크기로 직접 열었다. 밝은 히말라야 산악 고갯길·연결된 굽은 도로 자체는 읽히지만, 가까운 정면 승용차의 그릴에 브랜드 배지 형상이 뚜렷하고 번호판 부분이 노출된다. 차량을 작게 뒤나 옆에서 보이게 하는 명세와 맞지 않는다. 원경의 도로와 산이 주제가 되게 S03b를 고쳐 차량 폭을 화면2% 미만·먼 rear/side로 제한하고 가까운 전경 도로와 관광객을 비우도록 보완했다. 서비스 정상 생성 확인과 시각 선택 통과를 구분하며 이번 결과는 선택하지 않는다. |
 | i007 | 없음 | 2 | v1_i007_2.jpg / v1_i007_2.png | 선택 | 예 / 예 | root가 raw JPEG·처리 PNG를 원본 크기로 각각 확인했다. 먼 시점에서 산악 경사면의 여러 연결된 급굽이와 고도 차이가 화면을 지배하고, 전경은 빈 바위이며 차량은 먼 뒤/옆 모습으로 작게 보인다. 읽는 번호판·차량 배지·표지·깃발·인물은 발견하지 않았다. 실제 로탕 고개의 특정 순간이나 실측 노선으로 주장하지 않고 터널 이전 산악 고갯길 설명용 재구성으로 선택한다. 기존 선택 포털·공학 모형과 동일 장면을 복제하지 않는다. |
+| i008 | 없음 | 2 | v1_i008_2.jpg / v1_i008_2.png | 보류·재생성 | 예 / 예 | root가 raw JPEG와 처리 PNG를 각각 원본 크기로 확인했다. 눈사태가 산악 도로를 가로막는 의미와 밝기는 읽히지만, 가까운 큰 화물차 후면에 문자형 장식·도안이 생겼고 트럭·인물이 화면 가까이에 배치됐다. 글자·로고가 없는 작은 피사체 명세를 만족하지 않는다. 승인문장에는 트럭·사람이 필수가 아니므로 S03c와 반복 참조 문구에서 차량·사람을 제거하고, 빈 고갯길의 노출된 접근부가 도로 전폭을 막은 눈더미에 끝나는 구도로 수정한다. 정상 생성 성공과 시각 선택 통과를 구분한다. |
+| i008 | 없음 | 3 | v1_i008_3.jpg / v1_i008_3.png | 선택 | 예 / 예 | root가 raw JPEG와 처리 PNG를 1376×768 원본 크기로 각각 확인했다. 빈 산악 고갯길 접근부가 깊고 거친 눈·눈사태 퇴적 더미에 막힌 겨울 풍경으로 읽히고, 차량·사람·표지·문자형 장식·로고가 사라졌다. 밝은 눈과 험한 산지, 노출된 도로 접근부를 구분할 수 있다. 실제 로탕 고개의 특정 과거 순간이나 현재 폐쇄를 주장하지 않는 계절적 고립 설명용 재구성으로 선택한다. 앞선 화물차 문자형 장식 문제는 이번 보완에서 발견하지 않았다. |
+| i009 | i008=v1_i008_3.png | 1 | v1_i009_1.jpg / v1_i009_1.png | 선택 | 예 / 예 | root가 raw JPEG·처리 PNG를 원본 크기로 각각 보았다. 선택한 i0083과 같은 설산·눈더미·빈 고갯길 정체성은 유지하면서 왼쪽 암벽과 차도-눈장벽 접점을 더 가까운 사선 시점으로 보여 준다. 앞 컷보다 차도가 중앙으로 넓게 읽히고 전경 눈더미의 크기·배치가 달라 단순 동일 구도 복제로 판단하지 않았다. 자동 인접 dHash 거리0.4336은 별도 보조 측정이며 이 값으로 시각 통과를 대신하지 않는다. 사람·차량·읽는 글자·로고·깃발은 발견하지 않았다. 계절적 고립 설명용 재구성으로 선택한다. 실제 입력은 i0083의 정확한 서버 revision으로 제출 전에 확인됐다. |
+| i012 | 없음 | 1 | v1_i012_1.jpg / v1_i012_1.png | 선택 | 예 / 예 | root가 raw JPEG·처리 PNG를 1376×768 원본 크기로 직접 보았다. 가파른 히말라야 산비탈을 여러 차례 크게 돌아 오르는 고갯길을 높은 항공 시점으로 보여 주어 우회 경로의 길이가 읽힌다. i007의 먼 계곡 풍경보다 연속 급굽이와 지형 고도 차이가 화면 중심이며, 임의의 터널 관통선·지도 글자는 없다. 차량과 인물은 작고 읽는 글자·번호판·뚜렷한 브랜드 로고·깃발·사당은 발견하지 않았다. 실제 측량 노선이나 특정 현재 교통 상태로 주장하지 않는 경로 설명용 재구성으로 선택한다. |
+| i019 | 없음 | 1 | v1_i019_1.jpg / v1_i019_1.png | 선택 | 예 / 예 | Root opened both JPEG original and cleaned PNG at 1376x768. Indian adult engineer is seen from behind/side with a small face; the large foreground sheet is blank and the plain small tunnel arch model is visible. No readable lettering, logo or watermark trace found. This is a generic illustrative planning scene, not an identified historical person or a claimed final Atal lining section. |
+| i020 | i019=v1_i019_1.png | 1 | v1_i020_1.jpg / v1_i020_1.png | 보류·재생성 | 예 / 예 | Root opened both raw JPEG and clean PNG at 1376x768 and compared with the just-viewed i0191. Identity, blank paper and absence of readable text pass, but window, desk, model size and camera angle remain almost identical. Only the engineer pose changes. Reject neighbouring duplicate; remake with a high overhead tight view centered on the model/blank sheet, only the same adult forearm at the edge. |
+| i020 | i019=v1_i019_1.png | 2 | v1_i020_2.jpg / v1_i020_2.png | 보류·재생성 | 예 / 예 | Root opened raw and clean at1376x768. High oblique tabletop composition is now clearly distinct from i0191 and model identity/blank sheet pass. Enlarged the lower-left ruler for inspection: it carries small numeral-like measurement marks including digit-shaped glyphs, unacceptable under strict no-numerals image rule. Regenerate with ONLY blank sheet, model and one hand; remove all rulers, tape measures and other measuring/printed tools rather than masking the issue. |
+| i020 | i019=v1_i019_1.png | 3 | v1_i020_3.jpg / v1_i020_3.png | 선택 | 예 / 예 | Root opened both JPEG original and cleaned PNG at1376x768. The same plain grey arch model is enlarged in a clearly different high oblique tabletop composition, compared directly with i0191. Blank paper fills the background; the ruler and tape-measure markings that failed attempt2 are absent. One adult hand and sleeve stay at the edge, no face. No readable lettering, numeral, logo or watermark trace found. This is a generic illustrative model/blank planning sheet, not a reproduced technical booklet or an asserted Atal final lining cross-section. |
 
 ## 현재 명시적 선택
 
@@ -49,6 +57,11 @@
 | G3D_DEEP | `v1_G3D_DEEP_3.png` | 1376×768 | `f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4` |
 | o001 | `v1_o001_2.png` | 1376×768 | `328949a52b205ee4a969a365467550b22e62a5606855717764acce3b4c47d52c` |
 | i007 | `v1_i007_2.png` | 1376×768 | `0c3bed3b11c89d419de88380cba05293f2fed280324b413d027a40f2fa543f8c` |
+| i008 | `v1_i008_3.png` | 1376×768 | `e60e6ef6845daa7eb1f806cb63f72035b5ccd86e84a49754ba03d58c773b9975` |
+| i009 | `v1_i009_1.png` | 1376×768 | `e4c96918d88c04c9a418c3f4d874bcc15c617e2e7ad3477ff7cac49d606ddd65` |
+| i012 | `v1_i012_1.png` | 1376×768 | `a00906ae225e45a299b133d192438f28b2ac2bf70e077e60f5820c5110df9a24` |
+| i019 | `v1_i019_1.png` | 1376×768 | `a6c8595a37639c3ecd284952719ad89e1c175129aef7848456d48124262a9c5c` |
+| i020 | `v1_i020_3.png` | 1376×768 | `11cd7d39acaa1aedbf077123b652768cb2227d301996df863697a04d664f2526` |
 
 ## 출처·범위·PC 보관
 
@@ -118,3 +131,27 @@
 - i007 시도2 Flow: https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/edit/d72c3cab-93dd-4145-9126-b8810efddabb · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
   - 결과 revision: https://flow-content.google/image/a687e8eb-8c76-4507-894f-bcc8b32cf933.
   - UI 입력 관찰 신고: 참조 입력 없음([]). 자동 UI 검증은 아니다.
+- i008 시도2 Flow: https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/c5975827-5b6f-42e3-b05c-73b615c4160d · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/aec0ecc7-e3fa-4312-8e42-c8a3cc947fe4.
+  - UI 입력 관찰 신고: 참조 입력 없음([]). 자동 UI 검증은 아니다.
+- i008 시도3 Flow: https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0.
+  - UI 입력 관찰 신고: 참조 입력 없음([]). 자동 UI 검증은 아니다.
+- i009 시도1 Flow: https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/8edd5467-c738-418c-947b-6bddfca94c0b.
+  - UI 입력 관찰 신고: i008 / https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f / current_image_editor_input / revision https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0 / 제출 전 / 관찰자 root / 근거 generation_records_v1/i009_1.json actual input observation: Exact chosen i008 attempt3 main image src directly re-read immediately before generation. Current read-only image above editing field supplied actual source; no file upload. Original-to-clean correspondence already verified in reference_assets_v1.json; result identity comes from generation_records_v1/i008_3.json.. 자동 UI 검증은 아니다.
+- i012 시도1 Flow: https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/bae50363-b9d6-4876-bf76-9a01fee11cd2 · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/b353476e-b999-4f68-85d1-a9b6e6469e23.
+  - UI 입력 관찰 신고: 참조 입력 없음([]). 자동 UI 검증은 아니다.
+- i019 시도1 Flow: https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91 · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415.
+  - UI 입력 관찰 신고: 참조 입력 없음([]). 자동 UI 검증은 아니다.
+- i020 시도1 Flow: https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91 · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/49c95edd-734c-4a46-9f6c-c11d8f70688f.
+  - UI 입력 관찰 신고: i019 / https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91 / current_image_editor_input / revision https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415 / 제출 전 / 관찰자 root / 근거 generation_records_v1/i020_1.json actual input observation: Exact chosen i019 attempt1 main image src directly re-read immediately before generation. Current read-only image above editing field supplies the existing server source; no local file upload. Original-to-clean correspondence verified in reference_assets_v1.json.. 자동 UI 검증은 아니다.
+- i020 시도2 Flow: https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91 · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/20f5883a-7a30-4213-a7b3-81ec209e64d5.
+  - UI 입력 관찰 신고: i019 / https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91 / current_image_editor_input / revision https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415 / 제출 전 / 관찰자 root / 근거 generation_records_v1/i020_2.json actual input observation: Root clicked i019 original revision in visible edit history, then verified the main read-only image source. Exact selected i0191 source was read immediately before submit; not the rejected i0201 revision. Source stays within the current project; no local file upload.. 자동 UI 검증은 아니다.
+- i020 시도3 Flow: https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91 · 자동 측정 raw JPEG [1376, 768] / clean PNG [1376, 768]; 세부 SHA·바이트는 JSON.
+  - 결과 revision: https://flow-content.google/image/ffbd4ef8-f217-4c91-b9f7-7828f6d18508.
+  - UI 입력 관찰 신고: i019 / https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91 / current_image_editor_input / revision https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415 / 제출 전 / 관찰자 root / 근거 generation_records_v1/i020_3.json actual input observation: Root selected the exact i0191 original revision in visible edit history, then re-read the main source immediately before submit. Selected i0191 source is supplied, not either rejected i020 revision. Existing server reference within current project; no local file upload.. 자동 UI 검증은 아니다.

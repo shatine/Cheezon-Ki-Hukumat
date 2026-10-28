@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "scope": "Final document/queue consistency checks after actual root i0203 selection. No browser, transfer, approval, selection, source-media or gate-code change.",
+  "exit_code": 0,
+  "selected_images": 13,
+  "remaining_images": 72,
+  "reviewed_attempts": 28,
+  "i020_selected_attempt": 3,
+  "current_project_recorded_outputs": 8,
+  "historical_failed_attempts": 3,
+  "master_upload_approval_waiting_rows": 72,
+  "without_local_transfer_candidates": [],
+  "upload_approval_authorized": false,
+  "selected_frames": 1,
+  "motion_compatible_frames": 1,
+  "actual_video_count": 0,
+  "video_generation_authorized": false,
+  "historical_progress_snapshot_preserved": true,
+  "documents_match_current_pick_counts": true,
+  "latest_video_checkpoint_reference": "review_edit/checkpoint_20261028.json",
+  "protected_file_sha256": {
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\picks_v1.json": "938e960bd749f819f56ffb9808d4f949b452840a6b1fc8ed1932c6fd2da6502b",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\picks_v1.md": "67d1813c8750ff517823c07085cc9968cc6acfa6385d266eb168d41270f1355d",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\prompts_v1.json": "7db43b6586e110e0c9ffc6b1ee09ddb4f4ff162b47041cb61f879b7adebde8fa",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\upload_approval_v1.json": "67de069b3e118731749ab82b90dfda2364dd0cad9be4c27febd731e6aa80cd55",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\upload_approval_v1.md": "569660da557e2928f1989220ac35e3ba3322d46ff471c73c256f38aca9501cb6",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\video\\first_frame_action_checks_v1.json": "89015249f02b765e57b48435780ef70f9c8e7aab5a20ebef90fbacb9049ab2bc",
+    "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\review_edit\\checkpoint_20261028.json": "4d1b08ad44172e0bfacd8f02c23d46cd4ec8814cd5e59b78c9a9f7437d52c124"
+  }
+}

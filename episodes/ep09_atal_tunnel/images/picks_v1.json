@@ -965,6 +965,422 @@
       "reference_picks": {},
       "recorded_at": "2026-10-27T17:57:09+09:00",
       "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i008",
+        "attempt": 2,
+        "decision": "remake",
+        "reason": "root가 raw JPEG와 처리 PNG를 각각 원본 크기로 확인했다. 눈사태가 산악 도로를 가로막는 의미와 밝기는 읽히지만, 가까운 큰 화물차 후면에 문자형 장식·도안이 생겼고 트럭·인물이 화면 가까이에 배치됐다. 글자·로고가 없는 작은 피사체 명세를 만족하지 않는다. 승인문장에는 트럭·사람이 필수가 아니므로 S03c와 반복 참조 문구에서 차량·사람을 제거하고, 빈 고갯길의 노출된 접근부가 도로 전폭을 막은 눈더미에 끝나는 구도로 수정한다. 정상 생성 성공과 시각 선택 통과를 구분한다.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/c5975827-5b6f-42e3-b05c-73b615c4160d",
+        "result_media_url": "https://flow-content.google/image/aec0ecc7-e3fa-4312-8e42-c8a3cc947fe4",
+        "raw_file": "v1_i008_2.jpg",
+        "clean_file": "v1_i008_2.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i008_2.jpg",
+          "sha256": "650c65d4a8bd57b932692c6243fe5af332f0217620949ed6b9d231ef088a1225",
+          "bytes": 324428,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i008_2.png",
+          "sha256": "6b746909ff12ba1ddc4b8946e08b8233c5009cc8d6030fb51758649b44e022ab",
+          "bytes": 2222405,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-28T05:24:49+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i008",
+        "attempt": 3,
+        "decision": "chosen",
+        "reason": "root가 raw JPEG와 처리 PNG를 1376×768 원본 크기로 각각 확인했다. 빈 산악 고갯길 접근부가 깊고 거친 눈·눈사태 퇴적 더미에 막힌 겨울 풍경으로 읽히고, 차량·사람·표지·문자형 장식·로고가 사라졌다. 밝은 눈과 험한 산지, 노출된 도로 접근부를 구분할 수 있다. 실제 로탕 고개의 특정 과거 순간이나 현재 폐쇄를 주장하지 않는 계절적 고립 설명용 재구성으로 선택한다. 앞선 화물차 문자형 장식 문제는 이번 보완에서 발견하지 않았다.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+        "result_media_url": "https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0",
+        "raw_file": "v1_i008_3.jpg",
+        "clean_file": "v1_i008_3.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i008_3.jpg",
+          "sha256": "a9058b3ef452a99cd909e509fdc7970c2afda1d439c00c3fdd4ef2ffa1dadfd7",
+          "bytes": 359034,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i008_3.png",
+          "sha256": "e60e6ef6845daa7eb1f806cb63f72035b5ccd86e84a49754ba03d58c773b9975",
+          "bytes": 2314360,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-28T09:35:55+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i009",
+        "attempt": 1,
+        "decision": "chosen",
+        "reason": "root가 raw JPEG·처리 PNG를 원본 크기로 각각 보았다. 선택한 i0083과 같은 설산·눈더미·빈 고갯길 정체성은 유지하면서 왼쪽 암벽과 차도-눈장벽 접점을 더 가까운 사선 시점으로 보여 준다. 앞 컷보다 차도가 중앙으로 넓게 읽히고 전경 눈더미의 크기·배치가 달라 단순 동일 구도 복제로 판단하지 않았다. 자동 인접 dHash 거리0.4336은 별도 보조 측정이며 이 값으로 시각 통과를 대신하지 않는다. 사람·차량·읽는 글자·로고·깃발은 발견하지 않았다. 계절적 고립 설명용 재구성으로 선택한다. 실제 입력은 i0083의 정확한 서버 revision으로 제출 전에 확인됐다.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+        "result_media_url": "https://flow-content.google/image/8edd5467-c738-418c-947b-6bddfca94c0b",
+        "raw_file": "v1_i009_1.jpg",
+        "clean_file": "v1_i009_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "i008",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+            "source_media_url": "https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i009_1.json actual input observation: Exact chosen i008 attempt3 main image src directly re-read immediately before generation. Current read-only image above editing field supplied actual source; no file upload. Original-to-clean correspondence already verified in reference_assets_v1.json; result identity comes from generation_records_v1/i008_3.json."
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i009_1.jpg",
+          "sha256": "80e0551fe5bab7230c4f3602d779c65044479a0dcad1a082835c89cc25cdf776",
+          "bytes": 391926,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i009_1.png",
+          "sha256": "e4c96918d88c04c9a418c3f4d874bcc15c617e2e7ad3477ff7cac49d606ddd65",
+          "bytes": 2343617,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "i008",
+      "reference_picks": {
+        "i008": {
+          "attempt": 3,
+          "file": "v1_i008_3.png",
+          "sha256": "e60e6ef6845daa7eb1f806cb63f72035b5ccd86e84a49754ba03d58c773b9975",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+          "source_media_url": "https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0"
+        }
+      },
+      "recorded_at": "2026-10-28T09:41:37+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i012",
+        "attempt": 1,
+        "decision": "chosen",
+        "reason": "root가 raw JPEG·처리 PNG를 1376×768 원본 크기로 직접 보았다. 가파른 히말라야 산비탈을 여러 차례 크게 돌아 오르는 고갯길을 높은 항공 시점으로 보여 주어 우회 경로의 길이가 읽힌다. i007의 먼 계곡 풍경보다 연속 급굽이와 지형 고도 차이가 화면 중심이며, 임의의 터널 관통선·지도 글자는 없다. 차량과 인물은 작고 읽는 글자·번호판·뚜렷한 브랜드 로고·깃발·사당은 발견하지 않았다. 실제 측량 노선이나 특정 현재 교통 상태로 주장하지 않는 경로 설명용 재구성으로 선택한다.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/bae50363-b9d6-4876-bf76-9a01fee11cd2",
+        "result_media_url": "https://flow-content.google/image/b353476e-b999-4f68-85d1-a9b6e6469e23",
+        "raw_file": "v1_i012_1.jpg",
+        "clean_file": "v1_i012_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i012_1.jpg",
+          "sha256": "7f793803e224cefe608fd71a4a1a31b9bb7c8eaa6e952b43307d9c139daa0327",
+          "bytes": 378332,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i012_1.png",
+          "sha256": "a00906ae225e45a299b133d192438f28b2ac2bf70e077e60f5820c5110df9a24",
+          "bytes": 2390605,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-28T09:53:46+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i019",
+        "attempt": 1,
+        "decision": "chosen",
+        "reason": "Root opened both JPEG original and cleaned PNG at 1376x768. Indian adult engineer is seen from behind/side with a small face; the large foreground sheet is blank and the plain small tunnel arch model is visible. No readable lettering, logo or watermark trace found. This is a generic illustrative planning scene, not an identified historical person or a claimed final Atal lining section.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+        "result_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
+        "raw_file": "v1_i019_1.jpg",
+        "clean_file": "v1_i019_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i019_1.jpg",
+          "sha256": "70d0fe05b33478652c52632d9776755f674ab5f62a896e708999a6645fc1de7e",
+          "bytes": 152129,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i019_1.png",
+          "sha256": "a6c8595a37639c3ecd284952719ad89e1c175129aef7848456d48124262a9c5c",
+          "bytes": 1512509,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": null,
+      "reference_picks": {},
+      "recorded_at": "2026-10-28T09:57:12+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i020",
+        "attempt": 1,
+        "decision": "remake",
+        "reason": "Root opened both raw JPEG and clean PNG at 1376x768 and compared with the just-viewed i0191. Identity, blank paper and absence of readable text pass, but window, desk, model size and camera angle remain almost identical. Only the engineer pose changes. Reject neighbouring duplicate; remake with a high overhead tight view centered on the model/blank sheet, only the same adult forearm at the edge.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+        "result_media_url": "https://flow-content.google/image/49c95edd-734c-4a46-9f6c-c11d8f70688f",
+        "raw_file": "v1_i020_1.jpg",
+        "clean_file": "v1_i020_1.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "i019",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+            "source_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i020_1.json actual input observation: Exact chosen i019 attempt1 main image src directly re-read immediately before generation. Current read-only image above editing field supplies the existing server source; no local file upload. Original-to-clean correspondence verified in reference_assets_v1.json."
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i020_1.jpg",
+          "sha256": "65f9ede2df3a2e72ab0df901f0538727543e7869335c1ab96aaab6ec1d7ab0df",
+          "bytes": 168390,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i020_1.png",
+          "sha256": "b3371ca634723f010cd1a6ca0d53b9a80537b5e98491c15d4cb8b1db3675ea6d",
+          "bytes": 1472677,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "i019",
+      "reference_picks": {
+        "i019": {
+          "attempt": 1,
+          "file": "v1_i019_1.png",
+          "sha256": "a6c8595a37639c3ecd284952719ad89e1c175129aef7848456d48124262a9c5c",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+          "source_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415"
+        }
+      },
+      "recorded_at": "2026-10-28T09:59:23+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i020",
+        "attempt": 2,
+        "decision": "remake",
+        "reason": "Root opened raw and clean at1376x768. High oblique tabletop composition is now clearly distinct from i0191 and model identity/blank sheet pass. Enlarged the lower-left ruler for inspection: it carries small numeral-like measurement marks including digit-shaped glyphs, unacceptable under strict no-numerals image rule. Regenerate with ONLY blank sheet, model and one hand; remove all rulers, tape measures and other measuring/printed tools rather than masking the issue.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+        "result_media_url": "https://flow-content.google/image/20f5883a-7a30-4213-a7b3-81ec209e64d5",
+        "raw_file": "v1_i020_2.jpg",
+        "clean_file": "v1_i020_2.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "i019",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+            "source_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i020_2.json actual input observation: Root clicked i019 original revision in visible edit history, then verified the main read-only image source. Exact selected i0191 source was read immediately before submit; not the rejected i0201 revision. Source stays within the current project; no local file upload."
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i020_2.jpg",
+          "sha256": "6fc28ba3018616ccb233bad7489f59e58f34f0ad477da0fda93523a11724d8c8",
+          "bytes": 153599,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i020_2.png",
+          "sha256": "f790fafb54f0acdc8d1bbd6e11ca89e99a4994691f5ea41cf13ec3a941b6cefe",
+          "bytes": 1264091,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "i019",
+      "reference_picks": {
+        "i019": {
+          "attempt": 1,
+          "file": "v1_i019_1.png",
+          "sha256": "a6c8595a37639c3ecd284952719ad89e1c175129aef7848456d48124262a9c5c",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+          "source_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415"
+        }
+      },
+      "recorded_at": "2026-10-28T10:02:02+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
+    },
+    {
+      "input": {
+        "id": "i020",
+        "attempt": 3,
+        "decision": "chosen",
+        "reason": "Root opened both JPEG original and cleaned PNG at1376x768. The same plain grey arch model is enlarged in a clearly different high oblique tabletop composition, compared directly with i0191. Blank paper fills the background; the ruler and tape-measure markings that failed attempt2 are absent. One adult hand and sleeve stay at the edge, no face. No readable lettering, numeral, logo or watermark trace found. This is a generic illustrative model/blank planning sheet, not a reproduced technical booklet or an asserted Atal final lining cross-section.",
+        "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+        "result_media_url": "https://flow-content.google/image/ffbd4ef8-f217-4c91-b9f7-7828f6d18508",
+        "raw_file": "v1_i020_3.jpg",
+        "clean_file": "v1_i020_3.png",
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "actual_ui_references": [
+          {
+            "id": "i019",
+            "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+            "source_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
+            "method": "current_image_editor_input",
+            "observed_before_submit": true,
+            "observed_by": "root",
+            "evidence": "generation_records_v1/i020_3.json actual input observation: Root selected the exact i0191 original revision in visible edit history, then re-read the main source immediately before submit. Selected i0191 source is supplied, not either rejected i020 revision. Existing server reference within current project; no local file upload."
+          }
+        ],
+        "actual_retake_reference_file": null
+      },
+      "measurements": {
+        "raw": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i020_3.jpg",
+          "sha256": "1ec5294725dee41fb86b3b2e8ce58c49ad42b4c6ce898d242cba04d5c2f0eba3",
+          "bytes": 135910,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "JPEG"
+        },
+        "clean": {
+          "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i020_3.png",
+          "sha256": "11cd7d39acaa1aedbf077123b652768cb2227d301996df863697a04d664f2526",
+          "bytes": 1134927,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "format": "PNG"
+        },
+        "actual_retake_reference": null
+      },
+      "planned_ref": "i019",
+      "reference_picks": {
+        "i019": {
+          "attempt": 1,
+          "file": "v1_i019_1.png",
+          "sha256": "a6c8595a37639c3ecd284952719ad89e1c175129aef7848456d48124262a9c5c",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+          "source_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415"
+        }
+      },
+      "recorded_at": "2026-10-28T10:05:16+09:00",
+      "review_source": "root explicit decision JSON; helper makes no visual judgment"
     }
   ],
   "legacy_record": {
@@ -1226,8 +1642,159 @@
       "flow_url": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144/edit/d72c3cab-93dd-4145-9126-b8810efddabb",
       "actual_ui_references": [],
       "result_media_url": "https://flow-content.google/image/a687e8eb-8c76-4507-894f-bcc8b32cf933"
+    },
+    "i008": {
+      "attempt": 3,
+      "file": "v1_i008_3.png",
+      "raw_file": "v1_i008_3.jpg",
+      "reference": null,
+      "planned_ref": null,
+      "reference_picks": {},
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "e60e6ef6845daa7eb1f806cb63f72035b5ccd86e84a49754ba03d58c773b9975",
+      "reason": "root가 raw JPEG와 처리 PNG를 1376×768 원본 크기로 각각 확인했다. 빈 산악 고갯길 접근부가 깊고 거친 눈·눈사태 퇴적 더미에 막힌 겨울 풍경으로 읽히고, 차량·사람·표지·문자형 장식·로고가 사라졌다. 밝은 눈과 험한 산지, 노출된 도로 접근부를 구분할 수 있다. 실제 로탕 고개의 특정 과거 순간이나 현재 폐쇄를 주장하지 않는 계절적 고립 설명용 재구성으로 선택한다. 앞선 화물차 문자형 장식 문제는 이번 보완에서 발견하지 않았다.",
+      "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+      "actual_ui_references": [],
+      "result_media_url": "https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0"
+    },
+    "i009": {
+      "attempt": 1,
+      "file": "v1_i009_1.png",
+      "raw_file": "v1_i009_1.jpg",
+      "reference": "i008",
+      "planned_ref": "i008",
+      "reference_picks": {
+        "i008": {
+          "attempt": 3,
+          "file": "v1_i008_3.png",
+          "sha256": "e60e6ef6845daa7eb1f806cb63f72035b5ccd86e84a49754ba03d58c773b9975",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+          "source_media_url": "https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0"
+        }
+      },
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "e4c96918d88c04c9a418c3f4d874bcc15c617e2e7ad3477ff7cac49d606ddd65",
+      "reason": "root가 raw JPEG·처리 PNG를 원본 크기로 각각 보았다. 선택한 i0083과 같은 설산·눈더미·빈 고갯길 정체성은 유지하면서 왼쪽 암벽과 차도-눈장벽 접점을 더 가까운 사선 시점으로 보여 준다. 앞 컷보다 차도가 중앙으로 넓게 읽히고 전경 눈더미의 크기·배치가 달라 단순 동일 구도 복제로 판단하지 않았다. 자동 인접 dHash 거리0.4336은 별도 보조 측정이며 이 값으로 시각 통과를 대신하지 않는다. 사람·차량·읽는 글자·로고·깃발은 발견하지 않았다. 계절적 고립 설명용 재구성으로 선택한다. 실제 입력은 i0083의 정확한 서버 revision으로 제출 전에 확인됐다.",
+      "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+      "actual_ui_references": [
+        {
+          "id": "i008",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+          "source_media_url": "https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0",
+          "method": "current_image_editor_input",
+          "observed_before_submit": true,
+          "observed_by": "root",
+          "evidence": "generation_records_v1/i009_1.json actual input observation: Exact chosen i008 attempt3 main image src directly re-read immediately before generation. Current read-only image above editing field supplied actual source; no file upload. Original-to-clean correspondence already verified in reference_assets_v1.json; result identity comes from generation_records_v1/i008_3.json."
+        }
+      ],
+      "result_media_url": "https://flow-content.google/image/8edd5467-c738-418c-947b-6bddfca94c0b"
+    },
+    "i012": {
+      "attempt": 1,
+      "file": "v1_i012_1.png",
+      "raw_file": "v1_i012_1.jpg",
+      "reference": null,
+      "planned_ref": null,
+      "reference_picks": {},
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "a00906ae225e45a299b133d192438f28b2ac2bf70e077e60f5820c5110df9a24",
+      "reason": "root가 raw JPEG·처리 PNG를 1376×768 원본 크기로 직접 보았다. 가파른 히말라야 산비탈을 여러 차례 크게 돌아 오르는 고갯길을 높은 항공 시점으로 보여 주어 우회 경로의 길이가 읽힌다. i007의 먼 계곡 풍경보다 연속 급굽이와 지형 고도 차이가 화면 중심이며, 임의의 터널 관통선·지도 글자는 없다. 차량과 인물은 작고 읽는 글자·번호판·뚜렷한 브랜드 로고·깃발·사당은 발견하지 않았다. 실제 측량 노선이나 특정 현재 교통 상태로 주장하지 않는 경로 설명용 재구성으로 선택한다.",
+      "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/bae50363-b9d6-4876-bf76-9a01fee11cd2",
+      "actual_ui_references": [],
+      "result_media_url": "https://flow-content.google/image/b353476e-b999-4f68-85d1-a9b6e6469e23"
+    },
+    "i019": {
+      "attempt": 1,
+      "file": "v1_i019_1.png",
+      "raw_file": "v1_i019_1.jpg",
+      "reference": null,
+      "planned_ref": null,
+      "reference_picks": {},
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "a6c8595a37639c3ecd284952719ad89e1c175129aef7848456d48124262a9c5c",
+      "reason": "Root opened both JPEG original and cleaned PNG at 1376x768. Indian adult engineer is seen from behind/side with a small face; the large foreground sheet is blank and the plain small tunnel arch model is visible. No readable lettering, logo or watermark trace found. This is a generic illustrative planning scene, not an identified historical person or a claimed final Atal lining section.",
+      "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+      "actual_ui_references": [],
+      "result_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415"
+    },
+    "i020": {
+      "attempt": 3,
+      "file": "v1_i020_3.png",
+      "raw_file": "v1_i020_3.jpg",
+      "reference": "i019",
+      "planned_ref": "i019",
+      "reference_picks": {
+        "i019": {
+          "attempt": 1,
+          "file": "v1_i019_1.png",
+          "sha256": "a6c8595a37639c3ecd284952719ad89e1c175129aef7848456d48124262a9c5c",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+          "source_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415"
+        }
+      },
+      "actual_retake_reference_file": null,
+      "ui_reference_provenance_status": "reported_observation_revision_identity_checked",
+      "visual_status": "chosen_as_generated_reconstruction_reference",
+      "root_opened_raw_original": true,
+      "root_opened_clean_original": true,
+      "raw_and_cleaned_opened_at_original_size": true,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "sha256": "11cd7d39acaa1aedbf077123b652768cb2227d301996df863697a04d664f2526",
+      "reason": "Root opened both JPEG original and cleaned PNG at1376x768. The same plain grey arch model is enlarged in a clearly different high oblique tabletop composition, compared directly with i0191. Blank paper fills the background; the ruler and tape-measure markings that failed attempt2 are absent. One adult hand and sleeve stay at the edge, no face. No readable lettering, numeral, logo or watermark trace found. This is a generic illustrative model/blank planning sheet, not a reproduced technical booklet or an asserted Atal final lining cross-section.",
+      "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+      "actual_ui_references": [
+        {
+          "id": "i019",
+          "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+          "source_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
+          "method": "current_image_editor_input",
+          "observed_before_submit": true,
+          "observed_by": "root",
+          "evidence": "generation_records_v1/i020_3.json actual input observation: Root selected the exact i0191 original revision in visible edit history, then re-read the main source immediately before submit. Selected i0191 source is supplied, not either rejected i020 revision. Existing server reference within current project; no local file upload."
+        }
+      ],
+      "result_media_url": "https://flow-content.google/image/ffbd4ef8-f217-4c91-b9f7-7828f6d18508"
     }
   },
-  "chosen_count": 8,
-  "updated_at": "2026-10-27T17:57:09+09:00"
+  "chosen_count": 13,
+  "updated_at": "2026-10-28T10:05:16+09:00"
 }

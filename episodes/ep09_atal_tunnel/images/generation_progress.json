@@ -1,50 +1,259 @@
 {
-  "recorded_at": "2026-10-27T09:01:27.415884+00:00",
-  "current_operator": "no active UI operator; generation stopped after recurring service error",
-  "project": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
-  "prior_project_retained": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-  "latest_user_retry_request": "flow reCAPTCHA 떴어? 지금 새로운 프로젝츠 창 열어놨다 다시 해봐",
+  "recorded_at": "2026-10-28T01:06:49.834438+00:00",
+  "current_operator": "root only; unaffected image work finished, remaining master-dependent images await specific local-transfer approval",
+  "project": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "browser_profile_alias": "artbuilder883",
+  "allowed_source_project_ids": [
+    "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+    "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+    "cb1e7ac3-1d61-4206-ac72-3444f121843c"
+  ],
+  "allowed_result_project_ids": [
+    "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+    "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+    "cb1e7ac3-1d61-4206-ac72-3444f121843c"
+  ],
+  "legacy_default_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+  "retained_prior_projects": [
+    "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+    "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144"
+  ],
+  "latest_user_project_request": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c 열린 크롬에서 작업해. 크롬 프로필은 artbuilder883이야",
+  "browser_connection": {
+    "user_confirmed_reconnection": true,
+    "last_root_observed_browser": "browser8",
+    "last_root_observed_tab": 96308644,
+    "root_reported_current_cb1_main_normal": true,
+    "observation_source": "root actual CUA report; this offline document writer did not operate or independently inspect the browser",
+    "login_or_extension_settings_changed": false
+  },
+  "service_status": "cb1 single-image generation succeeded; historical 22cd service errors are not the current blocker",
+  "current_blocker": "The remaining master-dependent images require explicit permission to transmit/store the six selected local master PNGs in the cb1 Google Flow account.",
   "retry_actual_results": {
-    "successful_output_attempts_in_new_project": [
-      "i007_1",
-      "i007_2"
+    "successful_output_attempts_current_project": [
+      "i008_2",
+      "i008_3",
+      "i009_1",
+      "i012_1",
+      "i019_1",
+      "i020_1",
+      "i020_2",
+      "i020_3"
     ],
-    "new_chosen": [
-      "i007_2"
+    "currently_chosen_current_project_attempts": [
+      "i008_3",
+      "i009_1",
+      "i012_1",
+      "i019_1",
+      "i020_3"
     ],
-    "rejected": [
-      "i007_1"
+    "remake_decisions_current_project": [
+      "i008_2",
+      "i020_1",
+      "i020_2"
     ],
-    "last_failed_no_output": "i008_1",
-    "normal_reload_before_probe": 1,
-    "further_submissions_after_recurrent_failure": 0
+    "source": "Actual generation record revisions and current root pick ledger; successful generation and visual selection remain distinct"
   },
   "last_observed_submission": {
-    "id": "i008",
-    "attempt": 1,
-    "status_observed": "failed in Flow; no generated output",
-    "failure_observed_at_utc": "2026-10-27T08:57:23.193Z",
-    "result_media_url": null,
-    "raw": null,
-    "clean": null,
-    "requires_service_resolution_and_live_ui_check_before_any_resubmission": true
+    "id": "i020",
+    "attempt": 3,
+    "status_observed": "generated and explicitly chosen after root original-size raw/clean review",
+    "generation_record": "generation_records_v1/i020_3.json",
+    "result_observed_at_utc": "2026-10-28T01:04:30.473Z",
+    "flow_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+    "result_media_url": "https://flow-content.google/image/ffbd4ef8-f217-4c91-b9f7-7828f6d18508",
+    "raw_file": "v1_i020_3.jpg",
+    "clean_file": "v1_i020_3.png",
+    "clean_sha256": "11cd7d39acaa1aedbf077123b652768cb2227d301996df863697a04d664f2526",
+    "dimensions": [
+      1376,
+      768
+    ],
+    "source_ref": "i019",
+    "source_revision": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
+    "root_review_summary": "High oblique tabletop composition distinct from i019; model, entirely blank paper and hands; no readable letters/numerals found. i0201 was rejected for duplicate composition and i0202 for ruler numeral-like markings."
   },
-  "latest_failure_record": "generation_records_v1/i008_1.json",
-  "chosen_count": 8,
-  "reviewed_attempts": 20,
+  "chosen_count": 13,
+  "expected_image_ids": 85,
+  "reviewed_attempts": 28,
   "generation_not_complete": true,
-  "remaining_image_ids": 77,
+  "remaining_image_ids": 72,
+  "remaining_image_id_list": [
+    "o002",
+    "o003",
+    "o004",
+    "i001",
+    "i002",
+    "i003",
+    "i004",
+    "i005",
+    "i006",
+    "i010",
+    "i011",
+    "i013",
+    "i014",
+    "i015",
+    "i016",
+    "p001",
+    "p002",
+    "p003",
+    "p004",
+    "p005",
+    "p006",
+    "p007",
+    "p008",
+    "p009",
+    "p010",
+    "p011",
+    "p012",
+    "p013",
+    "p014",
+    "p015",
+    "p016",
+    "p017",
+    "p018",
+    "p019",
+    "p020",
+    "p021",
+    "i017",
+    "i018",
+    "p022",
+    "p023",
+    "p024",
+    "p025",
+    "p026",
+    "p027",
+    "p028",
+    "p029",
+    "p030",
+    "p031",
+    "p032",
+    "p033",
+    "p034",
+    "p035",
+    "p036",
+    "i021",
+    "i022",
+    "p037",
+    "p038",
+    "a001",
+    "i023",
+    "i024",
+    "i025",
+    "p039",
+    "a002",
+    "a003",
+    "p040",
+    "i026",
+    "i027",
+    "p041",
+    "p042",
+    "p043",
+    "i028",
+    "i029"
+  ],
   "selected_video_frames": 1,
   "root_motion_compatible_frames": 1,
   "muse_generation_approved": false,
   "actual_video_generated_count": 0,
   "resume_queue": "resume_queue_v1.json",
-  "console_diagnostic": "generation_records_v1/i008_1_console_diagnostic_sanitized.json",
+  "local_master_transfer": {
+    "approval_file": "upload_approval_v1.json",
+    "authorized": false,
+    "confirmed_upload": false,
+    "confirmed_upload_identity_alias": false,
+    "first_attempt_external_delivery": "unknown after connection failure",
+    "second_attempt": "Entire browserClipboard call rejected by automatic approval review: specific local-asset external transfer was not clearly authorized",
+    "further_local_transfer_attempts_after_second_denial": 0,
+    "actual_upload_count": "not established; do not infer zero from an unconfirmed connection failure",
+    "project_work_or_browser_reconnect_does_not_authorize_transfer": true
+  },
+  "issue_separation": {
+    "historical_old_profile_file_URL_setFiles_issue": "Prior profile file-URL access error and prolonged setFiles wait; not proof of this profile setting or the current approval blocker",
+    "browser_debugger_disconnect": "Historical browser4/6 Debugger unattached; user reconnected and root later observed browser8 normal",
+    "current_local_transfer_approval": "Automatic approval review rejection; no retry by any transport before specific approval"
+  },
+  "selected_image_automatic_measurement": {
+    "count": 13,
+    "reported_by": "root final report",
+    "i019_i020_dhash_distance": 0.48,
+    "metric_is_additional_visual_approval": false
+  },
+  "current_prevideo_checkpoint": {
+    "file": "review_edit/checkpoint_20261028.json",
+    "reported_by": "root actual latest run",
+    "video_draft_definitions": 50,
+    "definition_errors": 0,
+    "strict_principle_prompts": 43,
+    "strict_sentence_count_per_prompt": 1,
+    "locked_camera_prompts": 50,
+    "o001_motion_contract_sha_preserved": true,
+    "ready_exit_code": 1,
+    "ready_blocked_count": 49,
+    "ready_file_exists": false,
+    "authorized": false,
+    "actual_video_generated_count": 0,
+    "locked_script_hi_timing_78_sentences_79_cuts_and_fixed_wav_sha_preserved": true
+  },
+  "historical_progress_snapshots": [
+    {
+      "scope": "2026-10-27 two-project retry/service-error state; preserved as history, not current operator/service/blocker or current counts",
+      "data": {
+        "recorded_at": "2026-10-27T09:01:27.415884+00:00",
+        "current_operator": "no active UI operator; generation stopped after recurring service error",
+        "project": "https://flow.google.com/project/22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+        "prior_project_retained": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
+        "latest_user_retry_request": "flow reCAPTCHA 떴어? 지금 새로운 프로젝츠 창 열어놨다 다시 해봐",
+        "retry_actual_results": {
+          "successful_output_attempts_in_new_project": [
+            "i007_1",
+            "i007_2"
+          ],
+          "new_chosen": [
+            "i007_2"
+          ],
+          "rejected": [
+            "i007_1"
+          ],
+          "last_failed_no_output": "i008_1",
+          "normal_reload_before_probe": 1,
+          "further_submissions_after_recurrent_failure": 0
+        },
+        "last_observed_submission": {
+          "id": "i008",
+          "attempt": 1,
+          "status_observed": "failed in Flow; no generated output",
+          "failure_observed_at_utc": "2026-10-27T08:57:23.193Z",
+          "result_media_url": null,
+          "raw": null,
+          "clean": null,
+          "requires_service_resolution_and_live_ui_check_before_any_resubmission": true
+        },
+        "latest_failure_record": "generation_records_v1/i008_1.json",
+        "chosen_count": 8,
+        "reviewed_attempts": 20,
+        "generation_not_complete": true,
+        "remaining_image_ids": 77,
+        "selected_video_frames": 1,
+        "root_motion_compatible_frames": 1,
+        "muse_generation_approved": false,
+        "actual_video_generated_count": 0,
+        "resume_queue": "resume_queue_v1.json",
+        "console_diagnostic": "generation_records_v1/i008_1_console_diagnostic_sanitized.json",
+        "notes": [
+          "Actual new-project image success is distinct from visual approval: i0071 rejected, i0072 selected",
+          "Low-credit account banner was visible but image settings explicitly showed 0 credits; no credit purchase",
+          "No cause inferred from generic extension warning; recaptcha/ERR_ console filters returned no entries",
+          "No CAPTCHA solving, extension/settings changes, file upload, asset migration or video generation",
+          "After i0081 failure no retry, reload or extra submission"
+        ]
+      }
+    }
+  ],
   "notes": [
-    "Actual new-project image success is distinct from visual approval: i0071 rejected, i0072 selected",
-    "Low-credit account banner was visible but image settings explicitly showed 0 credits; no credit purchase",
-    "No cause inferred from generic extension warning; recaptcha/ERR_ console filters returned no entries",
-    "No CAPTCHA solving, extension/settings changes, file upload, asset migration or video generation",
-    "After i0081 failure no retry, reload or extra submission"
+    "No text/timing/WAV/cut change or audio listening was performed by this document update.",
+    "All 13 selected images remain generated explanatory reconstructions, not measured site records.",
+    "All remaining 72 images depend on the local master transfer approval; do not omit required refs or substitute unrelated images.",
+    "The five root-reviewed static libass samples do not constitute complete video/subtitle review."
   ]
 }

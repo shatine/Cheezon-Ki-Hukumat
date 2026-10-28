@@ -2,7 +2,7 @@
   "scope": "measured raw/clean correspondence and explicitly recorded image revision identity; not visual approval or actual UI attachment verification",
   "reason": "Chosen original revision identity remains bound to the reviewed files and original project. Project-media availability and transport in the current generation project have not been checked by this script; do not claim cross-project attachment, transfer or re-upload without an actual recorded UI observation.",
   "flow_project_policy": "images/flow_project_policy_v1.json",
-  "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+  "current_generation_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
   "project_media_availability_verified_by_this_script": false,
   "edit_and_video_sources_remain_selected_clean_png": true,
   "references": {
@@ -12,7 +12,7 @@
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
       "flow_container_id": "cd6db3c3-bb6c-47ff-aa86-81589494c904",
       "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "current_generation_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
       "same_project_as_current_generation": false,
       "availability_by_project": {
         "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
@@ -20,6 +20,10 @@
           "actual_ui_availability_observation_recorded": false
         },
         "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "cb1e7ac3-1d61-4206-ac72-3444f121843c": {
           "status": "not_checked_in_current_ui",
           "actual_ui_availability_observation_recorded": false
         }
@@ -67,7 +71,7 @@
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
       "flow_container_id": "e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
       "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "current_generation_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
       "same_project_as_current_generation": false,
       "availability_by_project": {
         "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
@@ -75,6 +79,10 @@
           "actual_ui_availability_observation_recorded": false
         },
         "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "cb1e7ac3-1d61-4206-ac72-3444f121843c": {
           "status": "not_checked_in_current_ui",
           "actual_ui_availability_observation_recorded": false
         }
@@ -122,7 +130,7 @@
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
       "flow_container_id": "a10bade0-3cad-479d-93a8-5d68d9986821",
       "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "current_generation_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
       "same_project_as_current_generation": false,
       "availability_by_project": {
         "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
@@ -130,6 +138,10 @@
           "actual_ui_availability_observation_recorded": false
         },
         "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "cb1e7ac3-1d61-4206-ac72-3444f121843c": {
           "status": "not_checked_in_current_ui",
           "actual_ui_availability_observation_recorded": false
         }
@@ -168,7 +180,7 @@
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
       "flow_container_id": "dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
       "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "current_generation_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
       "same_project_as_current_generation": false,
       "availability_by_project": {
         "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
@@ -176,6 +188,10 @@
           "actual_ui_availability_observation_recorded": false
         },
         "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "cb1e7ac3-1d61-4206-ac72-3444f121843c": {
           "status": "not_checked_in_current_ui",
           "actual_ui_availability_observation_recorded": false
         }
@@ -223,7 +239,7 @@
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
       "flow_container_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
       "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "current_generation_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
       "same_project_as_current_generation": false,
       "availability_by_project": {
         "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
@@ -231,6 +247,10 @@
           "actual_ui_availability_observation_recorded": false
         },
         "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "cb1e7ac3-1d61-4206-ac72-3444f121843c": {
           "status": "not_checked_in_current_ui",
           "actual_ui_availability_observation_recorded": false
         }
@@ -269,7 +289,7 @@
       "flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
       "flow_container_id": "af07f2b6-3d44-46cb-86a1-4cd74df7414d",
       "flow_source_project_id": "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd",
-      "current_generation_project_id": "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144",
+      "current_generation_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
       "same_project_as_current_generation": false,
       "availability_by_project": {
         "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
@@ -277,6 +297,10 @@
           "actual_ui_availability_observation_recorded": false
         },
         "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "cb1e7ac3-1d61-4206-ac72-3444f121843c": {
           "status": "not_checked_in_current_ui",
           "actual_ui_availability_observation_recorded": false
         }
@@ -310,10 +334,104 @@
       "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },
     "i008": {
-      "status": "not_chosen"
+      "status": "source_correspondence_verified",
+      "transport": "not_determined_by_file_correspondence_observe_exact_input_before_submit",
+      "flow_source_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+      "flow_container_id": "9ba9b0e8-85fb-440e-983a-20cb6b7f7f7f",
+      "flow_source_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+      "current_generation_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+      "same_project_as_current_generation": true,
+      "availability_by_project": {
+        "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "cb1e7ac3-1d61-4206-ac72-3444f121843c": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        }
+      },
+      "source_media_url": "https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0",
+      "source_revision_resolution": {
+        "media_url": "https://flow-content.google/image/fd4fcb88-1307-4001-b121-02f15801a2e0",
+        "raw_sha256": "a9058b3ef452a99cd909e509fdc7970c2afda1d439c00c3fdd4ef2ffa1dadfd7",
+        "resolution_source": "recorded_result_media_url"
+      },
+      "selected_attempt": 3,
+      "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i008_3.jpg",
+      "selected_clean_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i008_3.png",
+      "original_sha256": "a9058b3ef452a99cd909e509fdc7970c2afda1d439c00c3fdd4ef2ffa1dadfd7",
+      "selected_clean_sha256": "e60e6ef6845daa7eb1f806cb63f72035b5ccd86e84a49754ba03d58c773b9975",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "changed_pixel_fraction": 0.0026637824006782948,
+      "changed_pixel_bbox_xyxy": [
+        1244,
+        636,
+        1314,
+        706
+      ],
+      "changes_confined_to_lower_right_processing_area": true,
+      "clean_png_reuploaded": null,
+      "clean_png_upload_performed_by_this_script": false,
+      "actual_ui_reference_attachment_verified_by_this_script": false,
+      "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     },
     "i019": {
-      "status": "not_chosen"
+      "status": "source_correspondence_verified",
+      "transport": "not_determined_by_file_correspondence_observe_exact_input_before_submit",
+      "flow_source_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/9034765e-701c-413d-abb5-cfafc150ab91",
+      "flow_container_id": "9034765e-701c-413d-abb5-cfafc150ab91",
+      "flow_source_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+      "current_generation_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+      "same_project_as_current_generation": true,
+      "availability_by_project": {
+        "baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "22cd5ad1-3dbb-4183-a36b-48c7bc3e5144": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        },
+        "cb1e7ac3-1d61-4206-ac72-3444f121843c": {
+          "status": "not_checked_in_current_ui",
+          "actual_ui_availability_observation_recorded": false
+        }
+      },
+      "source_media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
+      "source_revision_resolution": {
+        "media_url": "https://flow-content.google/image/5c7e27a4-2793-453a-be81-0b05ca40e415",
+        "raw_sha256": "70d0fe05b33478652c52632d9776755f674ab5f62a896e708999a6645fc1de7e",
+        "resolution_source": "recorded_result_media_url"
+      },
+      "selected_attempt": 1,
+      "original_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i019_1.jpg",
+      "selected_clean_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i019_1.png",
+      "original_sha256": "70d0fe05b33478652c52632d9776755f674ab5f62a896e708999a6645fc1de7e",
+      "selected_clean_sha256": "a6c8595a37639c3ecd284952719ad89e1c175129aef7848456d48124262a9c5c",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "changed_pixel_fraction": 0.002530356710271318,
+      "changed_pixel_bbox_xyxy": [
+        1244,
+        636,
+        1314,
+        706
+      ],
+      "changes_confined_to_lower_right_processing_area": true,
+      "clean_png_reuploaded": null,
+      "clean_png_upload_performed_by_this_script": false,
+      "actual_ui_reference_attachment_verified_by_this_script": false,
+      "note": "The editor URL is a mutable container, not an image revision. Use only the resolved source_media_url of this chosen attempt and observe the actual editor input before every submission. A later legacy observation retains its own real observation time; it does not backfill an earlier observation. Local dewm processing changes only the measured lower-right area."
     }
   }
 }

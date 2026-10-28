@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "status": "prepared_for_specific_user_transfer_review_not_authorized",
+  "prepared_at": "2026-10-28T09:49:47+09:00",
+  "timezone": "Asia/Seoul",
+  "authorized": false,
+  "confirmed_upload": false,
+  "confirmed_upload_identity_alias": false,
+  "destination": {
+    "service": "Google Flow",
+    "project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+    "project_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c",
+    "browser_profile_label": "artbuilder883",
+    "full_email_recorded": false
+  },
+  "proposed_transfer": {
+    "data": "The complete contents of exactly these six selected clean local PNG files, not merely filenames or hashes",
+    "asset_ids": [
+      "AT_S",
+      "AT_N",
+      "AT_C",
+      "AT_INT",
+      "G3D_EXC",
+      "G3D_DEEP"
+    ],
+    "asset_count": 6,
+    "purpose": "Atal Tunnel episode reference images for consistent subject identity and geometry in subsequent explanatory image generation",
+    "external_transmission_and_storage": "If specifically authorized and executed, the local PNG contents will be transmitted outside this computer to Google Flow and stored in the destination Flow account/project.",
+    "video_generation_authorized": false,
+    "scope_note": "This package proposes only the six image-reference transfers; it grants no video generation, external publication, other file transfer, automatic alias creation or asset deletion/move."
+  },
+  "automatic_review_rejection": {
+    "reported_by": "Parent /root; the preparer did not inspect a private reviewer log",
+    "attempt": 2,
+    "action": "Second browserClipboard paste attempt for the local AT_C reference PNG",
+    "asset_filename": "v1_AT_C_3.png",
+    "outcome": "rejected_by_automatic_approval_review",
+    "reason_as_quoted_in_parent_message": "This would transmit the local AT_C reference image to the external Google Flow project via clipboard paste; the user authorized working in that project but did not clearly authorize sending this specific local asset there.",
+    "reason_ko": "로컬 AT_C 참조 이미지를 외부 Google Flow로 전송하는 동작이며, 프로젝트 작업 지시만으로 이 특정 로컬 자산 전송의 승인이 명확하지 않다는 사유였다.",
+    "approval_not_inferred_from_project_work": true
+  },
+  "prior_attempt_uncertainty": {
+    "attempt": 1,
+    "reported_outcome": "connection_failure",
+    "external_delivery_status": "unknown",
+    "confirmed_upload": false,
+    "external_delivery_ruled_out": false,
+    "note": "A failed connection does not establish that external receipt never occurred. This package does not assert a zero count of actual uploads or server-side aliases."
+  },
+  "retry_restriction": "Do not retry this blocked local-asset transfer by clipboard, file upload, drag-and-drop or any other method before the specific user authorization is recorded and applicable approval requirements are satisfied.",
+  "pick_ledger_snapshot": {
+    "file": "C:\\Users\\developer1\\Documents\\ChatGPT\\프로젝트명 미정\\work\\ep09_atal_tunnel\\images\\picks_v1.json",
+    "sha256": "9716aaf25b849b1d68e8cabbd110366e55b55df3172f605804c242ec32ab9e20",
+    "chosen_count": 10,
+    "expected_ids": 85,
+    "review_count": 23,
+    "scope": "Snapshot only; the ledger was read and not written. New unrelated root selections may advance separately."
+  },
+  "assets": [
+    {
+      "id": "AT_S",
+      "selected_attempt": 2,
+      "selected_filename": "v1_AT_S_2.png",
+      "proposed_upload_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_S_2.png",
+      "selected_copy_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_selected\\v1_AT_S_2.png",
+      "sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+      "selected_copy_sha256": "bf4dedc1e5fd2dd08bc89de585780f9d4faa18aa8bd6e8aeaff8be1dea5b723c",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "format": "PNG",
+      "bytes": 2332640,
+      "matches_current_pick_sha256": true,
+      "selected_copy_matches_upload_file": true,
+      "root_reviewed_state": {
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "raw_and_cleaned_opened_at_original_size": true,
+        "visual_status": "chosen_as_generated_reconstruction_reference",
+        "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
+      },
+      "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
+      "authorized": false,
+      "confirmed_upload": false
+    },
+    {
+      "id": "AT_N",
+      "selected_attempt": 3,
+      "selected_filename": "v1_AT_N_3.png",
+      "proposed_upload_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_N_3.png",
+      "selected_copy_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_selected\\v1_AT_N_3.png",
+      "sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+      "selected_copy_sha256": "2556ea607269fbf045cff7a064fd0ea58fbbbf781e1d11586b6b7193554028df",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "format": "PNG",
+      "bytes": 2189150,
+      "matches_current_pick_sha256": true,
+      "selected_copy_matches_upload_file": true,
+      "root_reviewed_state": {
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "raw_and_cleaned_opened_at_original_size": true,
+        "visual_status": "chosen_as_generated_reconstruction_reference",
+        "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
+      },
+      "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
+      "authorized": false,
+      "confirmed_upload": false
+    },
+    {
+      "id": "AT_C",
+      "selected_attempt": 3,
+      "selected_filename": "v1_AT_C_3.png",
+      "proposed_upload_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_C_3.png",
+      "selected_copy_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_selected\\v1_AT_C_3.png",
+      "sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+      "selected_copy_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "format": "PNG",
+      "bytes": 2315939,
+      "matches_current_pick_sha256": true,
+      "selected_copy_matches_upload_file": true,
+      "root_reviewed_state": {
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "raw_and_cleaned_opened_at_original_size": true,
+        "visual_status": "chosen_as_generated_reconstruction_reference",
+        "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
+      },
+      "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
+      "authorized": false,
+      "confirmed_upload": false
+    },
+    {
+      "id": "AT_INT",
+      "selected_attempt": 1,
+      "selected_filename": "v1_AT_INT_1.png",
+      "proposed_upload_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_INT_1.png",
+      "selected_copy_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_selected\\v1_AT_INT_1.png",
+      "sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+      "selected_copy_sha256": "f920c96dd54fd18123466be948e5d68bb634cf9062a81f09c5ac21e9942d42a0",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "format": "PNG",
+      "bytes": 1046695,
+      "matches_current_pick_sha256": true,
+      "selected_copy_matches_upload_file": true,
+      "root_reviewed_state": {
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "raw_and_cleaned_opened_at_original_size": true,
+        "visual_status": "chosen_as_generated_reconstruction_reference",
+        "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
+      },
+      "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
+      "authorized": false,
+      "confirmed_upload": false
+    },
+    {
+      "id": "G3D_EXC",
+      "selected_attempt": 4,
+      "selected_filename": "v1_G3D_EXC_4.png",
+      "proposed_upload_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_EXC_4.png",
+      "selected_copy_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_selected\\v1_G3D_EXC_4.png",
+      "sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+      "selected_copy_sha256": "c6994b47651cd174800087371627e34a2a0f4dab1f18761a8417fa490e6e802e",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "format": "PNG",
+      "bytes": 1193944,
+      "matches_current_pick_sha256": true,
+      "selected_copy_matches_upload_file": true,
+      "root_reviewed_state": {
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "raw_and_cleaned_opened_at_original_size": true,
+        "visual_status": "chosen_as_generated_reconstruction_reference",
+        "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
+      },
+      "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "authorized": false,
+      "confirmed_upload": false
+    },
+    {
+      "id": "G3D_DEEP",
+      "selected_attempt": 3,
+      "selected_filename": "v1_G3D_DEEP_3.png",
+      "proposed_upload_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_G3D_DEEP_3.png",
+      "selected_copy_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_selected\\v1_G3D_DEEP_3.png",
+      "sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+      "selected_copy_sha256": "f03c33f6a2a099da69bd24b887264441785bc64ced7d46cffd96026d90f9b9c4",
+      "dimensions": [
+        1376,
+        768
+      ],
+      "format": "PNG",
+      "bytes": 1004106,
+      "matches_current_pick_sha256": true,
+      "selected_copy_matches_upload_file": true,
+      "root_reviewed_state": {
+        "root_opened_raw_original": true,
+        "root_opened_clean_original": true,
+        "raw_and_cleaned_opened_at_original_size": true,
+        "visual_status": "chosen_as_generated_reconstruction_reference",
+        "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
+      },
+      "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
+      "authorized": false,
+      "confirmed_upload": false
+    }
+  ],
+  "measurements": {
+    "master_png_count": 6,
+    "all_selected_master_sha256_unchanged_and_match_ledger": true,
+    "all_upload_and_selected_copy_bytes_match": true,
+    "all_png_dimensions_match_ledger": true,
+    "current_master_pick_entries_unchanged_during_preparation": true,
+    "pick_ledger_written": false,
+    "images_modified": false,
+    "cua_or_ui_used": false,
+    "transfer_attempted_by_this_preparation": false,
+    "gate_code_modified": false,
+    "new_alias_record_written": false
+  },
+  "request_checkpoint": {
+    "recorded_at_utc": "2026-10-28T01:05:43.200720+00:00",
+    "chosen_count": 13,
+    "review_count": 28,
+    "remaining_images": 72,
+    "all_six_exact_master_files_rechecked": true,
+    "authorization_still_pending": true
+  }
+}

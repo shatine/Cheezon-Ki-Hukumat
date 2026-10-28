@@ -15,13 +15,13 @@
   "camera_move_count": 0,
   "ready_first_frames": 1,
   "selected_first_frames": 1,
-  "all_image_assets_actual_chosen": 8,
+  "all_image_assets_actual_chosen": 13,
   "all_image_assets_expected": 85,
   "input_hash_canonicalization": "UTF-8 without BOM; LF line endings",
   "inputs": {
     "plan/shot_list_v1.json": "ebd9f06746118f686e6d26ca065c33f9c4ed17b0af01276a324cd2b8d8b9bfd5",
     "plan/scene_catalog_v1.json": "42a4979f2ba07e8d715c6875cd7b7fd4b499b970662f47611b1b0b18ee6269d3",
-    "images/prompts_v1.json": "73eb787ac6cbcc0e9ac2789487af76527c5207991843b2516ca530afde1831ca"
+    "images/prompts_v1.json": "bb8b459a3e9d5b4be166ec8276d1b4e736596738ae28b644bda9db3aadb6529b"
   },
   "physical_motion_policy": "principles p001-p043: every solid and all water/grout geometry, levels and quantities fixed; only light/colour on existing surfaces and glow of existing arrows may change; opening/action o001-o004/a001-a003: unchanged bounded physical actions; all cameras fixed; no new arrows or stage morphing",
   "clips": [

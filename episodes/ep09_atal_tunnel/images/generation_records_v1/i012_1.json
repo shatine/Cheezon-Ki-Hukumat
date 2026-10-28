@@ -1,0 +1,73 @@
+{
+  "id": "i012",
+  "attempt": 1,
+  "kind": "image",
+  "status": "generated; root strict review chosen",
+  "flow_project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "browser_profile_alias": "artbuilder883",
+  "recorded_at_utc": "2026-10-28T00:49:43.932Z",
+  "exact_submitted_prompt": "Photorealistic cinematic still, bright clear Indian daylight, vivid natural Bollywood colours, sharp focus, 16:9. No text, no letters, no logos, no watermark. Adults only, people small or medium distance, faces not close-up. A high aerial view of a Himalayan road making many tight hairpin bends up a steep mountain slope; no drawn line, map text, or invented exact tunnel trajectory. Wide three-quarter establishing composition, the whole relevant subject and its immediate surroundings visible.  No readable text, letters, numerals, logos, brand marks, number plates, signs, prayer flags, shrines or watermarks. Leave all figures, dates and narration labels for editing.",
+  "prompt_sha256": "da2d3bb938b24506ad405f81f938fd6e82e078b16ada7e03bd61e048a3359ff5",
+  "submitted_text_verified_before_submit": true,
+  "submit_initiated_at_utc": "2026-10-28T00:49:43.517Z",
+  "submit_acknowledged_at_utc": "2026-10-28T00:49:43.932Z",
+  "first_acknowledged_progress_percent": 0,
+  "source_ids": [
+    "S04a",
+    "S04b"
+  ],
+  "visual_source_ids": [
+    "S04a"
+  ],
+  "input": {
+    "ref": null,
+    "method": "text_to_image_without_reference",
+    "observed_before_submit": true,
+    "observed_by": "root",
+    "evidence": [
+      "Normal main composer was empty with no attached material.",
+      "The current manifest explicitly has ref=null; no required local reference was transferred or omitted."
+    ],
+    "local_upload_used": false
+  },
+  "settings": {
+    "mode": "image",
+    "model": "Nano Banana 2.1",
+    "aspect_ratio": "16:9",
+    "output_count": 1,
+    "cost_credits": 0,
+    "all_directly_observed_before_submit": true,
+    "observed_at_utc": "2026-10-28T00:49:28.790Z"
+  },
+  "result": {
+    "observed_at_utc": "2026-10-28T00:51:15.453Z",
+    "container_editor_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c/edit/bae50363-b9d6-4876-bf76-9a01fee11cd2",
+    "container_editor_asset_id": "bae50363-b9d6-4876-bf76-9a01fee11cd2",
+    "result_media_source_url": "https://flow-content.google/image/b353476e-b999-4f68-85d1-a9b6e6469e23",
+    "result_media_id": "b353476e-b999-4f68-85d1-a9b6e6469e23",
+    "downloaded_original_path": "C:\\Users\\developer1\\Downloads\\b353476e-b999-4f68-85d1-a9b6e6469e23.jpg",
+    "raw": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img_raw\\v1_i012_1.jpg",
+      "format": "JPEG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "7f793803e224cefe608fd71a4a1a31b9bb7c8eaa6e952b43307d9c139daa0327",
+      "bytes": 378332
+    },
+    "clean": {
+      "path": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_i012_1.png",
+      "format": "PNG",
+      "width": 1376,
+      "height": 768,
+      "sha256": "a00906ae225e45a299b133d192438f28b2ac2bf70e077e60f5820c5110df9a24",
+      "bytes": 2390605
+    },
+    "screenshot": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\image_review_v1\\artbuilder883_i012_1_20261028.png"
+  },
+  "captcha_solved": false,
+  "extension_settings_changed": false,
+  "local_upload_used": false,
+  "video_generation_submitted": false,
+  "root_review_decision": "chosen",
+  "root_review_ledger": "picks_v1.json"
+}
