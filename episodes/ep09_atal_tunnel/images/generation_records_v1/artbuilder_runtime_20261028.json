@@ -4,7 +4,7 @@
   "project_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c",
   "user_confirmed_browser_reconnect": "다시 연결했어",
   "reconnect_scope": "Browser control only; not approval to transmit local reference PNGs",
-  "current_browser_id": "8",
+  "current_browser_id": "9",
   "current_tab_id": "96308644",
   "browser_profile_alias": "artbuilder883",
   "actual_successful_output_attempts": [
@@ -36,6 +36,18 @@
   "updated_at_utc": "2026-10-28T01:05:43.200720+00:00",
   "chosen_count_at_checkpoint": 13,
   "reviewed_attempt_count_at_checkpoint": 28,
-  "current_blocker": "specific user approval for six local master reference PNG transfers to current Flow project",
-  "current_generation_service_block_claimed": false
+  "current_blocker": "Current artbuilder883 ChatGPT Chrome extension file-URL permission blocks setFiles; native fallback ended because current Windows browser URL could not be verified.",
+  "current_generation_service_block_claimed": false,
+  "latest_transport_checkpoint": {
+    "recorded_at_utc": "2026-10-28T02:14:57.072223+00:00",
+    "clipboard_attempt": "upload_attempts_v1/AT_C_clipboard_3.json",
+    "chooser_attempt": "upload_attempts_v1/AT_C_chooser_1.json",
+    "confirmed_receipt": false,
+    "external_receipt": "unverified, not asserted zero",
+    "filechooser_error": "Current artbuilder883 ChatGPT Chrome extension requires Allow access to file URLs.",
+    "native_fallback": "Computer Use stopped for this turn because current Windows browser URL could not be determined with enough confidence to enforce policy.",
+    "no_further_ui_actions_after_stop": true,
+    "video_generation": false
+  },
+  "specific_local_master_transfer_authorized": true
 }

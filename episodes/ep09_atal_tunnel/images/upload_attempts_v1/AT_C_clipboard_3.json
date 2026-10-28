@@ -1,0 +1,20 @@
+{
+  "id": "AT_C",
+  "selected_attempt": 3,
+  "input_file": "D:\\youtube\\7. Cheezon Ki Hukumat\\episodes\\09_atal_tunnel\\img\\v1_AT_C_3.png",
+  "input_sha256": "384f9fb144125e9fed28d3e8bb8d15c6e7bb3e3ae8a4f6c2576e9a8b5a1553c5",
+  "input_bytes": 2315939,
+  "target_project": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+  "target_profile_alias": "artbuilder883",
+  "authorization_file": "upload_approval_v1.json",
+  "authorization_user_answer": "기준 그림 6장 업로드 승인",
+  "method": "browser_clipboard_png_paste",
+  "started_at_utc": "2026-10-28T02:10:31.366Z",
+  "status": "paste failed with native pipe closure; external receipt unverified",
+  "generation_submitted": false,
+  "clipboard_write_completed_at_utc": "2026-10-28T02:10:31.436Z",
+  "error": "native pipe closed before response at locator.press Control+v; then browser8 unavailable",
+  "followup_observed_at_utc": "2026-10-28T02:12:33.078012+00:00",
+  "same_profile_reconnected_browser_id": "9",
+  "new_reference_tile_or_attachment_observed": false
+}

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "status": "prepared_for_specific_user_transfer_review_not_authorized",
+  "status": "specific_six_master_transfer_authorized_blocked_file_url_permission_and_ui_stop",
   "prepared_at": "2026-10-28T09:49:47+09:00",
   "timezone": "Asia/Seoul",
-  "authorized": false,
+  "authorized": true,
   "confirmed_upload": false,
   "confirmed_upload_identity_alias": false,
   "destination": {
@@ -81,7 +81,7 @@
         "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/dcc6ae0f-7d2a-47bf-a1df-22155cd468c1",
-      "authorized": false,
+      "authorized": true,
       "confirmed_upload": false
     },
     {
@@ -108,7 +108,7 @@
         "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/a10bade0-3cad-479d-93a8-5d68d9986821",
-      "authorized": false,
+      "authorized": true,
       "confirmed_upload": false
     },
     {
@@ -135,7 +135,7 @@
         "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/cd6db3c3-bb6c-47ff-aa86-81589494c904",
-      "authorized": false,
+      "authorized": true,
       "confirmed_upload": false
     },
     {
@@ -162,7 +162,7 @@
         "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/e1a3929c-8a91-4682-9b0c-dc22a2bafc94",
-      "authorized": false,
+      "authorized": true,
       "confirmed_upload": false
     },
     {
@@ -189,7 +189,7 @@
         "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
-      "authorized": false,
+      "authorized": true,
       "confirmed_upload": false
     },
     {
@@ -216,7 +216,7 @@
         "basis": "Existing explicit root review in the pick ledger; no new visual review was performed by this package preparation"
       },
       "original_flow_source_url": "https://flow.google.com/project/baa9c0e8-3cbd-454c-a5e4-afa8d4f469cd/edit/af07f2b6-3d44-46cb-86a1-4cd74df7414d",
-      "authorized": false,
+      "authorized": true,
       "confirmed_upload": false
     }
   ],
@@ -239,6 +239,38 @@
     "review_count": 28,
     "remaining_images": 72,
     "all_six_exact_master_files_rechecked": true,
-    "authorization_still_pending": true
+    "authorization_still_pending": false
+  },
+  "authorization": {
+    "recorded_at_utc": "2026-10-28T02:09:37.026071+00:00",
+    "user_answer_verbatim": "기준 그림 6장 업로드 승인",
+    "question_source": "Direct user reply to request_user_input_async call_f97fd86b3d8944ec9752acabb6e09d16",
+    "scope": "Exactly the listed six full local PNG images to Google Flow project cb1e7ac3-1d61-4206-ac72-3444f121843c in artbuilder883 for references; transmission and storage disclosed. No video generation.",
+    "specific_assets": [
+      "AT_S",
+      "AT_N",
+      "AT_C",
+      "AT_INT",
+      "G3D_EXC",
+      "G3D_DEEP"
+    ],
+    "destination": {
+      "service": "Google Flow",
+      "project_id": "cb1e7ac3-1d61-4206-ac72-3444f121843c",
+      "project_url": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c",
+      "browser_profile_label": "artbuilder883",
+      "full_email_recorded": false
+    }
+  },
+  "latest_transport_status": {
+    "recorded_at_utc": "2026-10-28T02:14:57.072223+00:00",
+    "clipboard_attempt": "upload_attempts_v1/AT_C_clipboard_3.json",
+    "chooser_attempt": "upload_attempts_v1/AT_C_chooser_1.json",
+    "confirmed_receipt": false,
+    "external_receipt": "unverified, not asserted zero",
+    "filechooser_error": "Current artbuilder883 ChatGPT Chrome extension requires Allow access to file URLs.",
+    "native_fallback": "Computer Use stopped for this turn because current Windows browser URL could not be determined with enough confidence to enforce policy.",
+    "no_further_ui_actions_after_stop": true,
+    "video_generation": false
   }
 }

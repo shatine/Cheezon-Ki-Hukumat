@@ -1,5 +1,5 @@
 {
-  "status": "preparation_only_master_upload_approval_pending",
+  "status": "preparation_only_live_reference_checks_required",
   "scope": "Offline queue only; no claim of current live service availability or visual approval",
   "actual_submission_performed": false,
   "actual_video_generation_authorized": false,
@@ -121,15 +121,15 @@
   ],
   "historical_progress_snapshot": {
     "file": "generation_progress.json",
-    "recorded_at": "2026-10-28T01:06:49.834438+00:00",
+    "recorded_at": "2026-10-28T02:14:57.072223+00:00",
     "project": "https://flow.google.com/project/cb1e7ac3-1d61-4206-ac72-3444f121843c",
     "latest_failure_record": null,
     "used_as_current_service_or_operator_state": false
   },
-  "blocker": "Specific transfer of the six selected local master PNGs to the current Google Flow account awaits explicit user approval. Unaffected server-reference/ref-null work remains separately eligible for live UI checks.",
+  "blocker": "Approval alone does not verify upload identity or actual per-submission input.",
   "local_master_upload": {
     "approval_file": "upload_approval_v1.json",
-    "authorized": false,
+    "authorized": true,
     "confirmed_upload": false,
     "confirmed_upload_identity_alias": false,
     "approval_matches_current_project": true,
@@ -156,7 +156,7 @@
   "resume_gate": "Honor pending root decisions and specific local-transfer approval. Inspect live UI and exact input revisions before each one-image submission. No upload/video approval is granted by this script.",
   "ordering": "Manifest order; selected IDs omitted; existing unreviewed outputs need a root decision before retry.",
   "state_counts": {
-    "await_explicit_six_master_upload_approval": 72
+    "await_verified_master_upload_identity_and_live_UI_reference": 72
   },
   "without_local_transfer_candidates_for_root_live_UI_check": [],
   "queue": [
@@ -176,9 +176,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "o003",
@@ -196,9 +196,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "o004",
@@ -216,9 +216,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i001",
@@ -236,9 +236,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i002",
@@ -256,9 +256,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i003",
@@ -276,9 +276,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i004",
@@ -296,9 +296,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i005",
@@ -316,9 +316,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i006",
@@ -336,9 +336,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i010",
@@ -356,9 +356,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i011",
@@ -376,9 +376,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i013",
@@ -396,9 +396,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i014",
@@ -416,9 +416,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i015",
@@ -436,9 +436,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i016",
@@ -456,9 +456,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p001",
@@ -476,9 +476,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p002",
@@ -496,9 +496,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p003",
@@ -516,9 +516,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p004",
@@ -536,9 +536,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p005",
@@ -556,9 +556,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p006",
@@ -576,9 +576,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p007",
@@ -596,9 +596,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p008",
@@ -616,9 +616,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p009",
@@ -636,9 +636,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p010",
@@ -656,9 +656,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p011",
@@ -676,9 +676,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p012",
@@ -696,9 +696,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p013",
@@ -716,9 +716,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p014",
@@ -736,9 +736,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p015",
@@ -756,9 +756,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p016",
@@ -776,9 +776,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p017",
@@ -796,9 +796,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p018",
@@ -816,9 +816,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p019",
@@ -836,9 +836,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p020",
@@ -856,9 +856,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p021",
@@ -876,9 +876,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i017",
@@ -896,9 +896,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i018",
@@ -916,9 +916,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p022",
@@ -936,9 +936,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p023",
@@ -956,9 +956,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p024",
@@ -976,9 +976,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p025",
@@ -996,9 +996,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p026",
@@ -1016,9 +1016,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p027",
@@ -1036,9 +1036,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p028",
@@ -1056,9 +1056,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p029",
@@ -1076,9 +1076,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p030",
@@ -1096,9 +1096,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p031",
@@ -1116,9 +1116,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p032",
@@ -1136,9 +1136,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p033",
@@ -1156,9 +1156,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p034",
@@ -1176,9 +1176,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p035",
@@ -1196,9 +1196,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p036",
@@ -1216,9 +1216,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i021",
@@ -1236,9 +1236,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i022",
@@ -1256,9 +1256,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p037",
@@ -1276,9 +1276,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p038",
@@ -1296,9 +1296,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "a001",
@@ -1316,9 +1316,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i023",
@@ -1336,9 +1336,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i024",
@@ -1356,9 +1356,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i025",
@@ -1376,9 +1376,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p039",
@@ -1396,9 +1396,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "a002",
@@ -1416,9 +1416,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "a003",
@@ -1436,9 +1436,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p040",
@@ -1456,9 +1456,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i026",
@@ -1476,9 +1476,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i027",
@@ -1496,9 +1496,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p041",
@@ -1516,9 +1516,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p042",
@@ -1536,9 +1536,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "p043",
@@ -1556,9 +1556,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i028",
@@ -1576,9 +1576,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     },
     {
       "id": "i029",
@@ -1596,9 +1596,9 @@
       "cross_project_selected_nonmasters": [],
       "existing_unreviewed_outputs": [],
       "blocking_conditions": [
-        "await_explicit_six_master_upload_approval"
+        "await_verified_master_upload_identity_and_live_UI_reference"
       ],
-      "reference_state": "await_explicit_six_master_upload_approval"
+      "reference_state": "await_verified_master_upload_identity_and_live_UI_reference"
     }
   ]
 }
