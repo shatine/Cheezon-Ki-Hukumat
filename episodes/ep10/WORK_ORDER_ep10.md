@@ -6,7 +6,6 @@
 **벵갈루루의 기름 막힘 → 주방에서 기름을 따로 수거 → 그 기름으로 물류 트럭을 움직이는 반전.**
 - Story shape: the problem (cooking oil and grease poured down kitchen drains block Bengaluru's sewers) → the fix (kitchens collect used oil separately) → **the twist: that same oil ends up as fuel moving logistics trucks.**
 - The topic is fixed. Do not propose other topics. Step 1 builds the hook line and thumbnail from this story.
-- The first URL the user gave (https://youtu.be/Jhfy7Cd4Wto) was for the old topic and **is not used**.
 - **First job: find the well-viewed videos on this topic** (step 1, item 1), then start the analysis.
 - Every fact in this story must be checked against sources in step 2 (who blocks what, who collects, how oil becomes truck fuel, which trucks). Do not assume any of it; mark what cannot be confirmed as 미확인.
 
