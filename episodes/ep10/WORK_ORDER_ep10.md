@@ -1,15 +1,22 @@
-# 10편 작업 지시서: 참조 영상 → 업로드본까지 (로컬 Claude, 2026-10-30)
+# 10편 작업 지시서: 벵갈루루 폐식용유 → 업로드본까지 (로컬 Claude, 2026-10-30)
 
-**진행 현황: 시작 전.** 참조 영상 URL은 `episodes/ep10/refs/urls.txt`에 있다 (사용자 제공 1편: https://youtu.be/Jhfy7Cd4Wto).
+**진행 현황: 시작 전.**
+
+## ★ 주제 (사용자 확정 2026-10-30)
+**벵갈루루의 기름 막힘 → 주방에서 기름을 따로 수거 → 그 기름으로 물류 트럭을 움직이는 반전.**
+- Story shape: the problem (cooking oil and grease poured down kitchen drains block Bengaluru's sewers) → the fix (kitchens collect used oil separately) → **the twist: that same oil ends up as fuel moving logistics trucks.**
+- The topic is fixed. Do not propose other topics. Step 1 builds the hook line and thumbnail from this story.
+- The first URL the user gave (https://youtu.be/Jhfy7Cd4Wto) was for the old topic and **is not used**.
+- **First job: find the well-viewed videos on this topic** (step 1, item 1), then start the analysis.
+- Every fact in this story must be checked against sources in step 2 (who blocks what, who collects, how oil becomes truck fuel, which trucks). Do not assume any of it; mark what cannot be confirmed as 미확인.
 
 ## ⚠ 8편과 달라진 점: 로컬 Claude 단독 수행 (사용자 2026-10-30)
 - **The cloud session's credits are used up. Until 2026-11-05 the local Claude on this PC does all the work alone.** There is no cloud session to write scripts, review or fix things.
 - Episode 8 was split: the cloud wrote the scripts, reviewed strictly and wrote work orders; the PC generated and rendered. **In episode 10 the local Claude does both halves**: research, script, prompts, generation, **strict review**, edit, thumbnail, upload text.
 - So: do not wait for a cloud review, do not push media for anyone to download, do not write work orders for another session. Review your own results strictly (the cloud's review steps in `backup_portable/` are now yours).
 - After 2026-11-05 a cloud session may come back. Keep HANDOFF current so it can pick up at any point.
-- **Only 1 reference URL was given.** Episode 8 used 3. Analyse this one fully. Then find 2 more 1M+ view videos on the same subject yourself, as a supplement (`opening_candidates.md`); the user's video is the main reference.
 
-**Goal:** make episode 10 **the same way as episode 8**, from the reference videos the user gave to the upload cut, **100% locally on this PC in one session**.
+**Goal:** make episode 10 **the same way as episode 8**, from the user's topic to the upload cut, **100% locally on this PC in one session**.
 - The rules are `backup_portable/` (latest, local version). Episode 8 (`episodes/ep08/`) is the template for every file.
 - Where `guidelines/CLAUDE.md` or the old skills mention the cloud, the PC split, work orders or sending media through git, follow `backup_portable/` instead.
 
@@ -36,7 +43,7 @@ Episode 9 slowed to 19 of 85 images because the records grew far beyond what the
 |---|---|
 | Repository | `D:\youtube\Cheezon-Ki-Hukumat\` |
 | Episode text (git) | `D:\youtube\Cheezon-Ki-Hukumat\episodes\ep10\` |
-| Episode media (CB, not git) | `D:\youtube\7. Cheezon Ki Hukumat\episodes\10_<english_topic>\` (create it once the topic is fixed in step 1, e.g. `10_pamban_bridge`) |
+| Episode media (CB, not git) | `D:\youtube\7. Cheezon Ki Hukumat\episodes\10_<english_topic>\` (create it at the start: `10_bengaluru_used_oil`) |
 | Background music | `D:\youtube\7. Cheezon Ki Hukumat\episodes\05_morbi_dam_bridge\music\bgm.mp3` |
 | Episode-8 templates | `D:\youtube\Cheezon-Ki-Hukumat\episodes\ep08\` |
 | TTS tools, voice reference | `D:\youtube\Cheezon-Ki-Hukumat\skills\cheezon-production\tools\` |
@@ -44,7 +51,7 @@ Episode 9 slowed to 19 of 85 images because the records grew far beyond what the
 ## 사용자 확인 지점 (여기서만 멈춘다)
 | # | 언제 | 사용자에게 보여 줄 것 | 확인 후 |
 |---|---|---|---|
-| G1 | End of step 1 | Topic, opening line candidates (ranked, one recommended), **thumbnail drafts** (files in `CB\thumb\`), title direction | Step 2 |
+| G1 | End of step 1 | Reference videos found (views), opening line candidates (ranked, one recommended), **thumbnail drafts** (files in `CB\thumb\`), title direction | Step 2 |
 | G2 | End of step 2 | Korean script + evidence table + "확인할 점" | Freeze → steps 3–5 without stopping |
 | G3 | End of step 5 + video prompts | Video list (count, ids, what each shows) | Muse generation (record "날짜 + 사용자 원문" in HANDOFF) |
 | G4 | End of step 7 | Upload cut + final thumbnail + titles | User uploads |
@@ -53,8 +60,19 @@ Between gates, follow `01_strict_rules.md` A (상시 허락): do not ask, carry 
 - **At G1 also ask once** whether the master reference images may be uploaded to this episode's Flow project (they are Flow's own outputs). Record the answer in HANDOFF, so step 5 does not stop for it.
 - Flow project and Chrome: a **new Flow project for episode 10**, in the Chrome profile the user last named (episode 9: `artbuilder883`). If unsure which Chrome to use, ask at G1. Muse: Chrome on port 9227.
 
-## 1단계: 참조 영상 → 후킹 도입부 문구 + 썸네일 시안 (`skills/step1_hook_thumbnail.md`)
-1. Get each URL in `refs\urls.txt`:
+## 1단계: 조회수 높은 영상 찾기 → 후킹 도입부 문구 + 썸네일 시안 (`skills/step1_hook_thumbnail.md`)
+1. **Find the well-viewed videos first.** Search YouTube for this topic in English and Hindi, for example:
+   ```
+   yt-dlp --flat-playlist --print "%(view_count)s | %(id)s | %(title)s" "ytsearch20:Bengaluru used cooking oil drain blockage"
+   yt-dlp --flat-playlist --print "%(view_count)s | %(id)s | %(title)s" "ytsearch20:used cooking oil biodiesel trucks India"
+   yt-dlp --flat-playlist --print "%(view_count)s | %(id)s | %(title)s" "ytsearch20:grease fatberg sewer blockage"
+   yt-dlp --flat-playlist --print "%(view_count)s | %(id)s | %(title)s" "ytsearch20:RUCO used cooking oil biodiesel"
+   yt-dlp --flat-playlist --print "%(view_count)s | %(id)s | %(title)s" "ytsearch20:खाने का तेल बायोडीजल"
+   ```
+   - If the search does not print view counts, get them with `yt-dlp --skip-download --print "%(view_count)s | %(title)s" <URL>`.
+   - Pick **3 videos**: as in episode 8, 1M+ views on the same subject. This subject is narrow, so the 3 may cover parts of the story (sewer grease blockages / fatbergs, used-oil collection, used oil to biodiesel or truck fuel). If fewer than 3 reach 1M, take the highest-viewed and write their real view counts.
+   - List the candidates (views, title, URL, which part of the story) in `opening_candidates.md`, and the 3 chosen URLs in `refs\urls.txt`. Carry on without stopping; the list is shown at G1.
+2. For each chosen URL:
    ```
    cd D:\youtube\Cheezon-Ki-Hukumat\episodes\ep10\refs
    yt-dlp --skip-download --write-info-json --write-auto-subs --write-subs --sub-langs "en.*,hi.*" --convert-subs vtt -o "%(id)s.%(ext)s" <URL>
@@ -62,11 +80,11 @@ Between gates, follow `01_strict_rules.md` A (상시 허락): do not ask, carry 
    ```
    - Clean each transcript into `refs\<id>.txt` (no timestamps; same as `episodes\ep08\refs\*.txt`).
    - Record title, views, length, upload date, thumbnail (what it shows, the words, the number) in `opening_candidates.md`.
-   - Do the same for the 2 supplementary videos you find (1M+ views, same subject).
-   - Do not commit the thumbnail images or the info JSON; keep them in `CB\refs\`.
-2. `refs_analysis.md` (like episode 8): **first each video's hook (first 10 s) and thumbnail**, then its flow (numbered), comparisons, how it explains principles, strengths. Use only the order, hooks and comparisons. Never copy the wording.
-3. **Topic:** the Indian subject the references are about. If they are not about India, propose 3 Indian counterparts in `topic_candidates.md`, each with its best opening line and thumbnail idea, and recommend one.
+   - Do not commit the thumbnail images or the info JSON; move them to `CB\refs\`.
+3. `refs_analysis.md` (like episode 8): **first each video's hook (first 10 s) and thumbnail**, then its flow (numbered), comparisons, how it explains principles, strengths. Use only the order, hooks and comparisons. Never copy the wording.
+   - Also gather the facts the story needs, with sources, for step 2: what blocks Bengaluru's sewers and how much, who collects kitchen oil, how used oil becomes fuel, which trucks run on it. Write them in `research\facts_v1.md` (claim | source URL | status).
 4. **Opening line candidates (3–5)** in `hook_thumbnail.md`, ranked, one recommended. Visible contradiction or danger, **the biggest number**, a question the viewer wants answered, readable in 2 s.
+   - The line starts from the problem the viewer can see (oil blocking the drains) and makes them want the answer; the truck twist is kept for later in the video, not given away in the line.
 5. **Thumbnail drafts:** 2–3 text-free backgrounds in Flow (free) → `CB\thumb\` → text drawn with a copy of `episodes\ep08\thumbnail\make_thumb_v3.py` (Noto Sans Devanagari 900, very large, black outline, margins top and bottom) → check at 320×180 → `thumbnail\thumb_draft_v1_1280x720.jpg`.
 6. Create `HANDOFF_ep10.md` (layout of `episodes\ep08\HANDOFF_ep08.md`). Commit and push the text files. **→ G1.**
 
