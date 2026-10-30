@@ -5,7 +5,13 @@
 ## ★ 주제 (사용자 확정 2026-10-30)
 **벵갈루루의 기름 막힘 → 주방에서 기름을 따로 수거 → 그 기름으로 물류 트럭을 움직이는 반전.**
 - Story shape: the problem (cooking oil and grease poured down kitchen drains block Bengaluru's sewers) → the fix (kitchens collect used oil separately) → **the twist: that same oil ends up as fuel moving logistics trucks.**
-- The topic is fixed. Do not propose other topics. Step 1 builds the hook line and thumbnail from this story.
+- The topic is fixed. Do not propose other topics.
+
+## ★ 도입부 문장 (사용자 확정 2026-10-30)
+**"하수구를 막는 기름으로 어떻게 트럭을 달리게 했을까요?"**
+- Opening line = central question = thumbnail text = what the title points to. Do not write other candidates and do not change the wording.
+- S01 of the script starts with this line, word for word. The script answers it: how the oil blocks the sewers → how kitchens collect it → how it becomes fuel → the trucks it moves.
+- Step 1 only makes the Hindi of this line and the thumbnail drafts from it.
 - **First job: find the well-viewed videos on this topic** (step 1, item 1), then start the analysis.
 - Every fact in this story must be checked against sources in step 2 (who blocks what, who collects, how oil becomes truck fuel, which trucks). Do not assume any of it; mark what cannot be confirmed as 미확인.
 
@@ -50,7 +56,7 @@ Episode 9 slowed to 19 of 85 images because the records grew far beyond what the
 ## 사용자 확인 지점 (여기서만 멈춘다)
 | # | 언제 | 사용자에게 보여 줄 것 | 확인 후 |
 |---|---|---|---|
-| G1 | End of step 1 | Reference videos found (views), opening line candidates (ranked, one recommended), **thumbnail drafts** (files in `CB\thumb\`), title direction | Step 2 |
+| G1 | End of step 1 | Reference videos found (views), **Hindi of the confirmed opening line**, **thumbnail drafts** (files in `CB\thumb\`), title direction | Step 2 |
 | G2 | End of step 2 | Korean script + evidence table + "확인할 점" | Freeze → steps 3–5 without stopping |
 | G3 | End of step 5 + video prompts | Video list (count, ids, what each shows) | Muse generation (record "날짜 + 사용자 원문" in HANDOFF) |
 | G4 | End of step 7 | Upload cut + final thumbnail + titles | User uploads |
@@ -59,7 +65,7 @@ Between gates, follow `01_strict_rules.md` A (상시 허락): do not ask, carry 
 - **At G1 also ask once** whether the master reference images may be uploaded to this episode's Flow project (they are Flow's own outputs). Record the answer in HANDOFF, so step 5 does not stop for it.
 - Flow project and Chrome: a **new Flow project for episode 10**, in the Chrome profile the user last named (episode 9: `artbuilder883`). If unsure which Chrome to use, ask at G1. Muse: Chrome on port 9227.
 
-## 1단계: 조회수 높은 영상 찾기 → 후킹 도입부 문구 + 썸네일 시안 (`skills/step1_hook_thumbnail.md`)
+## 1단계: 조회수 높은 영상 찾기 → 도입부 문장 힌디어 + 썸네일 시안 (`skills/step1_hook_thumbnail.md`)
 1. **Find the well-viewed videos first.** Search YouTube for this topic in English and Hindi, for example:
    ```
    yt-dlp --flat-playlist --print "%(view_count)s | %(id)s | %(title)s" "ytsearch20:Bengaluru used cooking oil drain blockage"
@@ -82,9 +88,9 @@ Between gates, follow `01_strict_rules.md` A (상시 허락): do not ask, carry 
    - Do not commit the thumbnail images or the info JSON; move them to `CB\refs\`.
 3. `refs_analysis.md` (like episode 8): **first each video's hook (first 10 s) and thumbnail**, then its flow (numbered), comparisons, how it explains principles, strengths. Use only the order, hooks and comparisons. Never copy the wording.
    - Also gather the facts the story needs, with sources, for step 2: what blocks Bengaluru's sewers and how much, who collects kitchen oil, how used oil becomes fuel, which trucks run on it. Write them in `research\facts_v1.md` (claim | source URL | status).
-4. **Opening line candidates (3–5)** in `hook_thumbnail.md`, ranked, one recommended. Visible contradiction or danger, **the biggest number**, a question the viewer wants answered, readable in 2 s.
-   - The line starts from the problem the viewer can see (oil blocking the drains) and makes them want the answer; the truck twist is kept for later in the video, not given away in the line.
+4. **Hindi of the confirmed opening line** in `hook_thumbnail.md`: 2–3 natural spoken versions with a Korean literal translation, one recommended (same meaning, no added words; numbers only if the user adds them). Split the recommended one into a top line and a bottom line for the thumbnail (e.g. top: the sewer-blocking oil, red; bottom: how did it run trucks?, yellow).
 5. **Thumbnail drafts:** 2–3 text-free backgrounds in Flow (free) → `CB\thumb\` → text drawn with a copy of `episodes\ep08\thumbnail\make_thumb_v3.py` (Noto Sans Devanagari 900, very large, black outline, margins top and bottom) → check at 320×180 → `thumbnail\thumb_draft_v1_1280x720.jpg`.
+   - The background shows both halves of the question at a glance: a drain choked with thick yellow grease, and a logistics truck on the road (subject in the middle band; top and bottom kept simple for the text).
 6. Create `HANDOFF_ep10.md` (layout of `episodes\ep08\HANDOFF_ep08.md`). Commit and push the text files. **→ G1.**
 
 ## 2단계: 대본 (`skills/step2_script.md`, `02_script_rules.md`)
