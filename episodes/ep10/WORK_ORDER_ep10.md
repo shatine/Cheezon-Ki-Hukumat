@@ -1,6 +1,13 @@
 # 10편 작업 지시서: 참조 영상 → 업로드본까지 (로컬 Claude, 2026-10-30)
 
-**진행 현황: 시작 전.** 참조 영상 URL은 `episodes/ep10/refs/urls.txt`에 있다. **비어 있으면 시작하지 말고 사용자에게 URL을 달라고 한 줄로 말한다.**
+**진행 현황: 시작 전.** 참조 영상 URL은 `episodes/ep10/refs/urls.txt`에 있다 (사용자 제공 1편: https://youtu.be/Jhfy7Cd4Wto).
+
+## ⚠ 8편과 달라진 점: 로컬 Claude 단독 수행 (사용자 2026-10-30)
+- **The cloud session's credits are used up. Until 2026-11-05 the local Claude on this PC does all the work alone.** There is no cloud session to write scripts, review or fix things.
+- Episode 8 was split: the cloud wrote the scripts, reviewed strictly and wrote work orders; the PC generated and rendered. **In episode 10 the local Claude does both halves**: research, script, prompts, generation, **strict review**, edit, thumbnail, upload text.
+- So: do not wait for a cloud review, do not push media for anyone to download, do not write work orders for another session. Review your own results strictly (the cloud's review steps in `backup_portable/` are now yours).
+- After 2026-11-05 a cloud session may come back. Keep HANDOFF current so it can pick up at any point.
+- **Only 1 reference URL was given.** Episode 8 used 3. Analyse this one fully. Then find 2 more 1M+ view videos on the same subject yourself, as a supplement (`opening_candidates.md`); the user's video is the main reference.
 
 **Goal:** make episode 10 **the same way as episode 8**, from the reference videos the user gave to the upload cut, **100% locally on this PC in one session**.
 - The rules are `backup_portable/` (latest, local version). Episode 8 (`episodes/ep08/`) is the template for every file.
@@ -55,6 +62,7 @@ Between gates, follow `01_strict_rules.md` A (상시 허락): do not ask, carry 
    ```
    - Clean each transcript into `refs\<id>.txt` (no timestamps; same as `episodes\ep08\refs\*.txt`).
    - Record title, views, length, upload date, thumbnail (what it shows, the words, the number) in `opening_candidates.md`.
+   - Do the same for the 2 supplementary videos you find (1M+ views, same subject).
    - Do not commit the thumbnail images or the info JSON; keep them in `CB\refs\`.
 2. `refs_analysis.md` (like episode 8): **first each video's hook (first 10 s) and thumbnail**, then its flow (numbered), comparisons, how it explains principles, strengths. Use only the order, hooks and comparisons. Never copy the wording.
 3. **Topic:** the Indian subject the references are about. If they are not about India, propose 3 Indian counterparts in `topic_candidates.md`, each with its best opening line and thumbnail idea, and recommend one.
