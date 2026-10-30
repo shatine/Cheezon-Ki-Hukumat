@@ -96,11 +96,11 @@ Between gates, follow `01_strict_rules.md` A (상시 허락): do not ask, carry 
 ## 3–5단계: 연속 진행 (멈추지 않는다)
 - **Step 3:** `script\lines_hi_ko.tsv` → TTS (charonclone, seed 7, speed 1.0, -16 LUFS, pauses 0.35 / 0.8 s) → defect checks → `review_edit\narr_timing.json`, `narr_check.json`. Audio stays in `CB\review_edit\`.
 - **Step 4:** copy `episodes\ep08\plan\plan_v2.py` → `plan\plan_v1.py`. Measured times only. Automatic-check errors must be 0 ("점검: 통과").
-- **Step 5:** copy `episodes\ep08\images\make_prompts_v1.py` → `prompts_v1.json` → masters first → every image in Flow, one at a time → watermark removal → **after the whole list,** strict review with a copy of `cloud_review_v1.py` → remakes → all confirmed. `picks_v1.md` short, as in episode 8.
+- **Step 5:** copy `episodes\ep08\images\make_prompts_v1.py` → `prompts_v1.json` → masters first → every image in Flow, one at a time → watermark removal → **after the whole list,** strict review with `backup_portable\tools\review_images.py` → remakes → all confirmed. `picks_v1.md` short, as in episode 8.
 - Then write the video prompts (copy `episodes\ep08\video\make_vprompts_v1.py`): principle videos with the still-object sentence and light/colour/arrows only; about 2/10 with camera moves. **→ G3.**
 
 ## 6–7단계: 영상 → 편집
-- **Step 6 (after G3):** Muse, one at a time → `CB\clips_v1\` → after the whole list, frame review with a copy of `cloud_review_clips_v1.py` → usable ranges (end ≤ length − 0.05 s) → remakes of failed ids only → plan `USE` updated, errors 0. Flow video only on the user's instruction (paid).
+- **Step 6 (after G3):** Muse, one at a time → `CB\clips_v1\` → after the whole list, frame review with `backup_portable\tools\review_clips.py` → usable ranges (end ≤ length − 0.05 s) → remakes of failed ids only → plan `USE` updated, errors 0. Flow video only on the user's instruction (paid).
 - **Step 7:** copy `episodes\ep08\review_edit\edit_v1.py` → review cut → review the original from 0 s to the end (1 s frame sheets, brightness, frame difference, `ebur128`, `silencedetect`, first 10 s against the hook) → fixes → `--upload` render (BGM -21 dB with ducking, -14 LUFS, TP -1.5) → check.
 
 ## 8단계: 업로드 문구와 썸네일 (`skills/step8_upload_thumbnail.md`)

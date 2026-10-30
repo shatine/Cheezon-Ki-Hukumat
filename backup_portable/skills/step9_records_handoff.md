@@ -1,6 +1,6 @@
 # 9단계: 기록, git 백업, 검수 보고, HANDOFF (매 단계 끝에)
 
-Everything is local, so there are no work orders between machines. Instead, every step ends with the same three things: **records → report → HANDOFF**, then a git backup of the text files.
+Every step ends with the same three things: **records → report → HANDOFF**, then a git backup of the text files.
 
 ## 단계별 기록 파일
 | 단계 | 기록 |

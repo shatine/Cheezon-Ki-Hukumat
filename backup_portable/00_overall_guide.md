@@ -68,13 +68,13 @@ script/script_ko_final.md   확정 한국어 대본 + 근거표 (확정 후 수�
 script/lines_hi_ko.tsv      id \t 힌디어 \t 한국어 직역
 review_edit/narr_timing.json  TTS 실측 시간표 (줄별 start/end)
 plan/plan_vN.py → shot_list_vN.json, shot_table_vN.md   컷 계획 + 자동 점검
-images/make_prompts_v1.py → prompts_v1.json, picks_v1.md, cloud_review_v1.py (검수 스크립트)
-video/make_vprompts_v1.py → vprompts_v1.json, review_clips_v1.md, cloud_review_clips_v1.py (검수 스크립트)
+images/make_prompts_v1.py → prompts_v1.json, picks_v1.md, review_images_v1.py (검수 스크립트)
+video/make_vprompts_v1.py → vprompts_v1.json, review_clips_v1.md, review_clips_v1.py (검수 스크립트)
 review_edit/edit_v1.py      검수본·업로드본 렌더, review_v1.md
 thumbnail/                  썸네일 스크립트와 결과 jpg (배경 원본은 CB\thumb\)
 upload/                     upload_titles_keywords.md, upload_description_en.txt, upload_description_hi.txt
 ```
-- The review scripts keep their episode-8 file names (`cloud_review_*.py`), but they run locally on the CB folders.
+- The review scripts are copied from `backup_portable/tools/`.
 
 ## 6. 도구
 | 용도 | 도구 | 설정 |

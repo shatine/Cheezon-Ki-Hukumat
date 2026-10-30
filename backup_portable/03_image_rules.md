@@ -67,7 +67,7 @@ a white passenger train with a thin blue stripe (the same train as in the second
 ## 3. 엄격 검수 (생성 목록을 다 만든 뒤, 같은 세션에서)
 Generation and review are separate passes. During generation, do only the quick check (section 4). Once the whole list is made, review every image strictly.
 
-**Preparation:** `python episodes\epNN\images\cloud_review_v1.py "CB\review\img_vN" "CB\img"` (full paths). It produces:
+**Preparation:** copy `backup_portable\tools\review_images.py` to `episodes\epNN\images\review_images_v1.py`, then `python episodes\epNN\images\review_images_v1.py "CB\review\img_vN" "CB\img"` (full paths). It produces:
 - `auto_report.md`: size, mean brightness, % of dark pixels, **dhash similarity with neighbouring cuts in plan order**, missing ids;
 - contact sheets.
 

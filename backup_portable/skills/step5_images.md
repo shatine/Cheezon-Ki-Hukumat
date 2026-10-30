@@ -18,7 +18,7 @@
 5. Make the whole list without stopping to report.
 
 ## 엄격 검수 (회차마다)
-1. Run `python episodes\epNN\images\cloud_review_v1.py "CB\review\img_vN" "CB\img"` → read `auto_report.md` and the sheets.
+1. Copy `backup_portable\tools\review_images.py` to `episodes\epNN\images\review_images_v1.py` and run `python episodes\epNN\images\review_images_v1.py "CB\review\img_vN" "CB\img"` → read `auto_report.md` and the sheets.
 2. **Look at every image at original size** (review table in `03_image_rules.md`).
    - Look for neighbouring duplicates (dhash), copies of CB's composition, the subject's orientation on screen, text, faces, principle arrows and brightness.
 3. Add a "검수 vN" section to `picks_v1.md`: pass list, remake list (cause → prompt change), edit options (blur, brightness, labels).

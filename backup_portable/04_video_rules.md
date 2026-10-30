@@ -78,7 +78,7 @@ Every solid object stays completely still and keeps its exact shape and position
   - macro slow zoom in.
 
 ## 5. 검수 (생성 목록을 다 만든 뒤, 같은 세션에서)
-**Preparation:** `python episodes\epNN\video\cloud_review_clips_v1.py "CB\review\clips_vN" "CB\clips_v1"` (full paths). It produces:
+**Preparation:** copy `backup_portable\tools\review_clips.py` to `episodes\epNN\video\review_clips_v1.py`, then `python episodes\epNN\video\review_clips_v1.py "CB\review\clips_vN" "CB\clips_v1"` (full paths). It produces:
 - a table: size, fps, length, **mean brightness every 0.5 s**, first-to-last change (a fall of 15 or more is flagged **어두워짐**);
 - a sheet of frames every **1 s** for each clip.
 

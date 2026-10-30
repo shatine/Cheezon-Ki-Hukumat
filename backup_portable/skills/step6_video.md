@@ -18,7 +18,7 @@
 - **Save:** `CB\clips_v1\{id}.mp4`. Write the generation log to `video/muse_vN_report.md`.
 
 ## 엄격 검수
-1. Run `python episodes\epNN\video\cloud_review_clips_v1.py "CB\review\clips_vN" "CB\clips_v1"` → brightness table + 1 s frame sheets.
+1. Copy `backup_portable\tools\review_clips.py` to `episodes\epNN\video\review_clips_v1.py` and run `python episodes\epNN\video\review_clips_v1.py "CB\review\clips_vN" "CB\clips_v1"` → brightness table + 1 s frame sheets.
 2. Look at every sheet: shape changes, principle direction, exaggerated motion, camera, darkening, text.
 3. In `video/review_clips_v1.md`, record each id: pass and usable range / fail with cause → new method.
 4. **For failures, change the method:**

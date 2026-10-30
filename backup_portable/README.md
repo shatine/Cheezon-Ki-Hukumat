@@ -1,4 +1,4 @@
-# Cheezon Ki Hukumat 제작 지침 백업 (도구 공통판, 로컬 작업용, 2026-10-28)
+# Cheezon Ki Hukumat 제작 지침 백업 (도구 공통판, 로컬 작업용, 2026-10-30)
 
 **Purpose:** let another AI coding agent (Codex, Gemini CLI and so on) reproduce the same production work, **running 100% locally on the user's Windows PC.**
 - **The starting point of every episode:** a strong hook opening line, and a thumbnail that grabs attention with that line. Both are confirmed by the user before anything else.
@@ -6,12 +6,7 @@
   - rules and lessons;
   - the user's preferences;
   - mistakes not to repeat.
-- **Source documents (originals):**
-  - `guidelines/CLAUDE.md`, `guidelines/CHANNEL.md`
-  - `skills/cheezon-production/` (SKILL.md, references/, tools/)
-  - each `episodes/epNN/HANDOFF_*.md`
-  - These were written for an older two-session setup (cloud + PC). **Where they talk about the cloud, the PC, work orders or sending media through git, follow this folder instead.**
-- **If they conflict:** the user's latest instruction comes first. Next is this folder. Next are the original documents.
+- **This folder is the complete rule set.** If anything conflicts, the user's latest instruction comes first, then this folder.
 
 ## 도구별 불러오기
 | 도구 | 방법 |
@@ -47,12 +42,12 @@ The agent needs: file and shell access on the PC (Python, ffmpeg, git), and cont
 | `skills/step9_records_handoff.md` | Records per step, git backup of text files, report format, HANDOFF |
 
 ## 실제 자료 (그대로 템플릿으로 쓴다)
+- `backup_portable/tools/`: `review_images.py`, `review_clips.py` (strict-review preparation: contact sheets, brightness, similarity, frame sheets).
 - `skills/cheezon-production/tools/`: TTS (Voice Studio), plan template, edit template, voice reference file.
 - Episode 8 has the latest scripts. Copy them for a new episode and change only the episode-specific values.
-  - `episodes/ep08/images/make_prompts_v1.py`, `cloud_review_v1.py` (review script; runs locally)
-  - `episodes/ep08/video/make_vprompts_v1.py`, `cloud_review_clips_v1.py` (review script; runs locally)
+  - `episodes/ep08/images/make_prompts_v1.py`
+  - `episodes/ep08/video/make_vprompts_v1.py`
   - `episodes/ep08/plan/plan_v2.py`
   - `episodes/ep08/review_edit/edit_v1.py` (review cut, plus the `--upload` mode)
   - `episodes/ep08/thumbnail/make_thumb_v3.py`
 - Upload text examples: `episodes/ep07_bus/upload/`, `episodes/ep08/upload/`.
-- `episodes/ep08/WORK_ORDER_*.md` are records of the old two-session setup. Read them only for the generation settings and order; do not follow their send-to-cloud steps.
